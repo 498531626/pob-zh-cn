@@ -1,5 +1,7 @@
 # 中英文对照版
 
+本仓库仅维护官方 PoB 的中文显示层。当前官方基线见 `upstream-base.json`；后续稳定版通过 `upstream` 合入，再适配、生成并验证汉化，具体见 [上游同步流程](docs/upstream-sync.md)。项目执行约束见 `AGENTS.md`。
+
 从 `E:\POB\启动POB开发版.cmd` 启动。`PathOfBuilding-Portable` 仍是下载时的官方英文版。
 
 - F8 或左下角语言按钮：英文 → 中文 → 中英对照，立即切换并记住选择。
