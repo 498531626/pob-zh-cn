@@ -1456,6 +1456,7 @@ function PassiveTreeViewClass:AddNodeName(tooltip, node, build)
 end
 
 function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build)
+	tooltip.localizationNodeId = node.id
 	local fontSizeBig = main.showFlavourText and 18 or 16
 	self.skillTooltip:Clear()
 	tooltip.center = true
@@ -1746,6 +1747,7 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build)
 end
 
 function PassiveTreeViewClass:AddCompareNodeTooltip(tooltip, node, build)
+	tooltip.localizationNodeId = node.id
 	-- Tooltip for compare-only nodes (nodes only in the compared build, e.g. cluster jewel subgraph nodes)
 	local fontSizeBig = main.showFlavourText and 18 or 16
 	tooltip.center = true

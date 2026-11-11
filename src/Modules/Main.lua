@@ -16,6 +16,7 @@ local m_pi = math.pi
 
 LoadModule("GameVersions")
 LoadModule("Modules/Common")
+Localization = LoadModule("Modules/Localization")
 LoadModule("Modules/CalcFormat")
 LoadModule("Modules/Data")
 LoadModule("Modules/ModTools")
@@ -209,6 +210,10 @@ function main:Init()
 	self.controls.about = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {72, 0, 68, 20}, "About", function()
 		self:OpenAboutPopup()
 	end)
+	self.controls.language = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -24, 140, 20}, function()
+		return ({ en = "English", zh = "中文", bilingual = "中文 / English" })[Localization.mode] .. " [F8]"
+	end, function() Localization:Cycle() end)
+	self.controls.language.tooltipText = "F8: English / 中文 / 中文 + English\nHold Alt: original English\nPoEDB name reference; untranslated text stays English."
 	self.controls.applyUpdate = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -24, 140, 20}, "^x50E050Update Ready", function()
 		self:OpenUpdatePopup()
 	end)
@@ -237,7 +242,7 @@ function main:Init()
 	end
 	self.controls.devMode = new("LabelControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -26, 0, 20}, colorCodes.NEGATIVE.."Dev Mode")
 	self.controls.devMode.shown = function()
-		return launch.devMode
+		return launch.devMode and not Localization
 	end
 
 	self.mainBarHeight = 58
@@ -456,6 +461,7 @@ function main:OnFrame()
 end
 
 function main:OnKeyDown(key, doubleClick)
+	if key == "F8" then Localization:Cycle(); return end
 	t_insert(self.inputEvents, { type = "KeyDown", key = key, doubleClick = doubleClick })
 end
 

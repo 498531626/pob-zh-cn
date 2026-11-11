@@ -1,0 +1,414 @@
+{
+  "counts": {
+    "matched_node_ids": 3390,
+    "passive-name_occurrences": 3389,
+    "nodes_with_name": 3389,
+    "passive-stat_occurrences": 4937,
+    "passive-reminder_occurrences": 999,
+    "mastery-stat_occurrences": 1994,
+    "number_mismatch_skipped": 66,
+    "unique_translations": 4969,
+    "ambiguous_texts_skipped": 51,
+    "local_nodes": 3397
+  },
+  "unmatched": [
+    {
+      "node_id": "18054",
+      "kind": "node",
+      "english": "Fury of Nature"
+    },
+    {
+      "node_id": "19355",
+      "kind": "node",
+      "english": "Unleashed Potential"
+    },
+    {
+      "node_id": "27602",
+      "kind": "node",
+      "english": "Nine Lives"
+    },
+    {
+      "node_id": "42469",
+      "kind": "node",
+      "english": "Fatal Flourish"
+    },
+    {
+      "node_id": "52435",
+      "kind": "node",
+      "english": "Indomitable Resolve"
+    },
+    {
+      "node_id": "57331",
+      "kind": "node",
+      "english": "Harness the Void"
+    },
+    {
+      "node_id": "57568",
+      "kind": "node",
+      "english": "Searing Purity"
+    }
+  ],
+  "conflicts": [
+    {
+      "english": "Evasion",
+      "translations": [
+        "闪避",
+        "闪避值"
+      ]
+    },
+    {
+      "english": "Sword Critical Strike Chance and Multiplier",
+      "translations": [
+        "剑的暴击率和暴击伤害加成",
+        "剑类暴击率和伤害加成"
+      ]
+    },
+    {
+      "english": "Life and Energy Shield",
+      "translations": [
+        "生命和能量护盾",
+        "生命与能量护盾"
+      ]
+    },
+    {
+      "english": "Two Handed Melee Damage and Attack Speed",
+      "translations": [
+        "双手武器伤害和攻击速度",
+        "双手武器近战伤害和攻击速度"
+      ]
+    },
+    {
+      "english": "Curse Mana Reservation Efficiency",
+      "translations": [
+        "诅咒魔力保留效能",
+        "诅咒魔力保留效率"
+      ]
+    },
+    {
+      "english": "Life Regeneration",
+      "translations": [
+        "生命回复",
+        "生命再生"
+      ]
+    },
+    {
+      "english": "Minion Life",
+      "translations": [
+        "召唤生物生命",
+        "召唤物生命"
+      ]
+    },
+    {
+      "english": "Sword Damage",
+      "translations": [
+        "剑类伤害",
+        "剑的伤害"
+      ]
+    },
+    {
+      "english": "Staff Critical Strike Chance and Multiplier",
+      "translations": [
+        "长杖暴击几率和加成",
+        "长杖暴击率和伤害加成"
+      ]
+    },
+    {
+      "english": "Chance to Poison with Spells",
+      "translations": [
+        "法术至毒几率",
+        "法术中毒几率"
+      ]
+    },
+    {
+      "english": "Mace Critical Strike Chance and Multiplier",
+      "translations": [
+        "锤的暴击率和伤害",
+        "锤类暴击率和伤害加成"
+      ]
+    },
+    {
+      "english": "Projectile Damage, Accuracy",
+      "translations": [
+        "投射物伤害, 命中率",
+        "投射物伤害、命中率",
+        "投射物伤害和命中值"
+      ]
+    },
+    {
+      "english": "Area of Effect",
+      "translations": [
+        "效果区域",
+        "影响范围"
+      ]
+    },
+    {
+      "english": "Physical Attack Damage",
+      "translations": [
+        "物理伤害",
+        "物理攻击伤害"
+      ]
+    },
+    {
+      "english": "Physical Damage and Attack and Cast Speed",
+      "translations": [
+        "物理伤害和攻击及施法速度",
+        "物理伤害、攻击和施法速度"
+      ]
+    },
+    {
+      "english": "Elemental Damage and Resistances",
+      "translations": [
+        "元素伤害和抗性",
+        "元素伤害，异常状态几率"
+      ]
+    },
+    {
+      "english": "Axe Damage",
+      "translations": [
+        "斧类伤害",
+        "斧的伤害"
+      ]
+    },
+    {
+      "english": "Armour and Elemental Resistances",
+      "translations": [
+        "护甲和元素抗性",
+        "护甲"
+      ]
+    },
+    {
+      "english": "Mine Critical Strike Chance and Multiplier",
+      "translations": [
+        "地雷暴击率和伤害加成",
+        "地雷暴击率和加成"
+      ]
+    },
+    {
+      "english": "Minion Damage",
+      "translations": [
+        "召唤生物伤害",
+        "召唤物伤害"
+      ]
+    },
+    {
+      "english": "Life Regeneration, Fire Damage",
+      "translations": [
+        "生命再生, 火焰伤害",
+        "生命再生，火焰伤害"
+      ]
+    },
+    {
+      "english": "Armour and Guard Skill Cooldown Recovery",
+      "translations": [
+        "护甲和防卫技能冷却时间回复",
+        "护甲和防卫技能冷却回复速度"
+      ]
+    },
+    {
+      "english": "Link Duration",
+      "translations": [
+        "连接持续时间",
+        "羁绊持续时间"
+      ]
+    },
+    {
+      "english": "Cold Damage Over Time Multiplier",
+      "translations": [
+        "持续冰霜伤害加成",
+        "冰霜伤害持续伤害加成"
+      ]
+    },
+    {
+      "english": "Dagger Critical Strike Chance and Multiplier",
+      "translations": [
+        "匕首暴击率和加成",
+        "匕首暴击率和伤害"
+      ]
+    },
+    {
+      "english": "Axe Damage and Attack Speed",
+      "translations": [
+        "斧的伤害和攻击速度",
+        "斧类伤害和攻击速度"
+      ]
+    },
+    {
+      "english": "Increased Energy Shield Leeched",
+      "translations": [
+        "能量护盾偷取提高",
+        "提高能量护盾偷取"
+      ]
+    },
+    {
+      "english": "Bleed Chance",
+      "translations": [
+        "流血几率",
+        "几率流血"
+      ]
+    },
+    {
+      "english": "Impale Chance",
+      "translations": [
+        "点燃几率",
+        "穿刺几率"
+      ]
+    },
+    {
+      "english": "Melee Critical Strike Multiplier",
+      "translations": [
+        "近战武器暴击伤害",
+        "近战暴击加成"
+      ]
+    },
+    {
+      "english": "Life and Armour",
+      "translations": [
+        "生命和护甲",
+        "生命与护甲"
+      ]
+    },
+    {
+      "english": "Accuracy and Critical Strike Chance",
+      "translations": [
+        "命中与暴击率",
+        "命中和暴击率"
+      ]
+    },
+    {
+      "english": "Staff Critical Strike Chance",
+      "translations": [
+        "长杖暴击率",
+        "长杖暴击几率和品质"
+      ]
+    },
+    {
+      "english": "Juggernaut",
+      "translations": [
+        "勇士",
+        "战神"
+      ]
+    },
+    {
+      "english": "Mana Regeneration and Life",
+      "translations": [
+        "魔力再生和生命",
+        "魔力再生与生命"
+      ]
+    },
+    {
+      "english": "Saboteur",
+      "translations": [
+        "破坏者",
+        "怠工者"
+      ]
+    },
+    {
+      "english": "Melee Damage",
+      "translations": [
+        "近战伤害",
+        "近战物理伤害"
+      ]
+    },
+    {
+      "english": "Elemental Damage, Attack and Cast Speed",
+      "translations": [
+        "元素伤害, 攻击速度和施法速度",
+        "元素伤害和攻击和施法速度",
+        "元素伤害，攻击和施法速度",
+        "元素伤害, 攻击和施法速度"
+      ]
+    },
+    {
+      "english": "Sanctuary",
+      "translations": [
+        "庇护圣所",
+        "至圣所"
+      ]
+    },
+    {
+      "english": "Wand Attack Speed and Accuracy",
+      "translations": [
+        "法杖攻击速度和命中值",
+        "法杖攻击速度和精准"
+      ]
+    },
+    {
+      "english": "Projectile Damage, Attack Speed",
+      "translations": [
+        "投射物伤害和攻击速度",
+        "投射物伤害, 攻击速度"
+      ]
+    },
+    {
+      "english": "Physical and Chaos Damage",
+      "translations": [
+        "物理与混沌伤害",
+        "物理和混沌伤害"
+      ]
+    },
+    {
+      "english": "Mana and Mana Regeneration",
+      "translations": [
+        "魔力和魔力回复",
+        "魔力和魔力再生",
+        "魔力与魔力再生"
+      ]
+    },
+    {
+      "english": "Energy Shield, Energy Shield Recharge Rate",
+      "translations": [
+        "能量护盾，能量护盾充能率",
+        "能量护盾, 能量护盾充能回复率"
+      ]
+    },
+    {
+      "english": "Claw Critical Strike Chance and Multiplier",
+      "translations": [
+        "爪暴击率和伤害",
+        "爪的暴击率和暴击伤害加成"
+      ]
+    },
+    {
+      "english": "Mana and Mana Cost Efficiency",
+      "translations": [
+        "魔力与魔力消耗效能",
+        "魔力和魔力消耗效能"
+      ]
+    },
+    {
+      "english": "Damage and Mana",
+      "translations": [
+        "伤害和魔力",
+        "元素伤害"
+      ]
+    },
+    {
+      "english": "Mace Damage and Reduced Enemy Stun Threshold",
+      "translations": [
+        "锤类伤害和敌人眩晕门槛降低",
+        "锤的伤害和减低敌人晕眩门坎"
+      ]
+    },
+    {
+      "english": "Endurance Charge Duration",
+      "translations": [
+        "耐力球持续时间",
+        "耐力球持续"
+      ]
+    },
+    {
+      "english": "Evasion and Elemental Resistances",
+      "translations": [
+        "闪避和元素抗性",
+        "闪避与元素抗性"
+      ]
+    },
+    {
+      "english": "Accuracy and Attack Speed",
+      "translations": [
+        "命中和攻击速度",
+        "命中与攻击速度"
+      ]
+    }
+  ]
+}

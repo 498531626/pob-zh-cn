@@ -1,0 +1,22 @@
+{
+  "entries": 6162,
+  "gem_names": 808,
+  "glyphs": 1545,
+  "font": "Microsoft YaHei (local PC copy)",
+  "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
+  "pob_version": "2.67.2",
+  "name_reference_retrieved": "2026-11-11",
+  "passives": {
+    "matched_node_ids": 3390,
+    "passive-name_occurrences": 3389,
+    "nodes_with_name": 3389,
+    "passive-stat_occurrences": 4937,
+    "passive-reminder_occurrences": 999,
+    "mastery-stat_occurrences": 1994,
+    "number_mismatch_skipped": 66,
+    "unique_translations": 4969,
+    "ambiguous_texts_skipped": 51,
+    "local_nodes": 3397
+  },
+  "scope": "Display text only: UI, gem names, matched 3.29 passive names/stats/masteries; calculation data unchanged"
+}

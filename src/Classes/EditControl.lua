@@ -239,6 +239,13 @@ function EditClass:MoveCaretVertically(offset)
 end
 
 function EditClass:Draw(viewPort, noTooltip)
+	if Localization then
+		return Localization:WithoutTranslation(self.DrawUntranslated, self, viewPort, noTooltip)
+	end
+	return self:DrawUntranslated(viewPort, noTooltip)
+end
+
+function EditClass:DrawUntranslated(viewPort, noTooltip)
 	local x, y = self:GetPos()
 	local width, height = self:GetSize()
 	local enabled = self:IsEnabled()

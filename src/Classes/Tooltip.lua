@@ -8,6 +8,17 @@ local t_insert = table.insert
 local m_max = math.max
 local m_floor = math.floor
 local s_gmatch = string.gmatch
+-- Text is translated once at AddLine, before wrapping. Width and drawing must
+-- use that resolved text verbatim, including English in bilingual tooltips.
+local globalDrawString, globalDrawStringWidth = DrawString, DrawStringWidth
+local function DrawString(...)
+	if Localization then return Localization:WithoutTranslation(globalDrawString, ...) end
+	return globalDrawString(...)
+end
+local function DrawStringWidth(...)
+	if Localization then return Localization:WithoutTranslation(globalDrawStringWidth, ...) end
+	return globalDrawStringWidth(...)
+end
 
 -- Constants
 
@@ -48,6 +59,7 @@ local TooltipClass = newClass("Tooltip", function(self)
 end)
 
 function TooltipClass:Clear(clearUpdateParams)
+	self.localizationNodeId = nil
 	wipeTable(self.lines)
 	wipeTable(self.blocks)
 	if self.updateParams and clearUpdateParams then
@@ -69,6 +81,11 @@ function TooltipClass:CheckForUpdate(...)
 	if not self.updateParams then
 		self.updateParams = { }
 	end
+	local language = Localization and Localization:EffectiveMode() or "en"
+	if self.updateParams.language ~= language then
+		self.updateParams.language = language
+		doUpdate = true
+	end
 
 	for i = 1, select('#', ...) do
 		local temp = select(i, ...)
@@ -86,6 +103,7 @@ end
 
 function TooltipClass:AddLine(size, text, font, modLine, background)
 	if text then
+		if Localization then text = Localization:Translate(text, self.localizationNodeId) end
 		local fontToUse
 		if main.showFlavourText then
 			fontToUse = font or "VAR"
@@ -99,7 +117,9 @@ function TooltipClass:AddLine(size, text, font, modLine, background)
 				self.blocks[#self.blocks].height = self.blocks[#self.blocks].height + size + 2
 			end
 			if self.maxWidth then
-				for _, wrappedLine in ipairs(main:WrapString(line, size, self.maxWidth - H_PAD)) do
+				local wrapped = Localization and Localization:WrapText(line, size, self.maxWidth - H_PAD, fontToUse)
+					or main:WrapString(line, size, self.maxWidth - H_PAD)
+				for _, wrappedLine in ipairs(wrapped) do
 					t_insert(self.lines, { size = size, text = wrappedLine, block = #self.blocks, font = fontToUse, center = self.center, modLine = modLine, background = background })
 				end
 			else

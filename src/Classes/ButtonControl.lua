@@ -86,7 +86,11 @@ function ButtonClass:Draw(viewPort, noTooltip)
 		DrawImageQuad(nil, x + width * 0.7, y + height * 0.2, x + width * 0.8, y + height * 0.3, x + width * 0.3, y + height * 0.8, x + width * 0.2, y + height * 0.7)
 	else
 		local overSize = self.overSizeText or 0
-		DrawString(x + width / 2, y + 2 - overSize, "CENTER_X", height - 4 + overSize * 2, "VAR", label)
+		if Localization then
+			Localization:ButtonText(x + width / 2, y + 2 - overSize, width, height - 4 + overSize * 2, "VAR", label)
+		else
+			DrawString(x + width / 2, y + 2 - overSize, "CENTER_X", height - 4 + overSize * 2, "VAR", label)
+		end
 	end
 	if mOver then
 		if not noTooltip or self.forceTooltip then
