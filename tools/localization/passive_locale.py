@@ -71,8 +71,20 @@ def build_passives():
         else:
             conflicts.append({'english': english, 'translations': list(options)})
     counts['unique_translations'] = len(entries)
-    counts['ambiguous_texts_skipped'] = len(conflicts)
+    counts['ambiguous_texts_context_only'] = len(conflicts)
     counts['local_nodes'] = len(pob['nodes'])
+    for node_id, node in pob['nodes'].items():
+        texts = contexts.get(node_id, {})
+        if node.get('name'):
+            counts['named_nodes_total'] += 1
+            counts['named_nodes_translated'] += clean(node['name']) in texts
+        for stat in node.get('stats', []):
+            counts['stat_lines_total'] += 1
+            counts['stat_lines_translated'] += clean(stat) in texts
+        for effect in node.get('masteryEffects', []):
+            for stat in effect['stats']:
+                counts['mastery_lines_total'] += 1
+                counts['mastery_lines_translated'] += clean(stat) in texts
     report = {'counts': dict(counts), 'unmatched': misses, 'conflicts': conflicts}
     (HERE / 'passive-coverage.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', 'utf8')
     return entries, dict(counts), dict(contexts)

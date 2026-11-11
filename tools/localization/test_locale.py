@@ -75,6 +75,13 @@ tip.lines={};tip.blocks={};tip:Clear()
 tip.maxWidth=180
 tip:AddLine(16,'^x8888FF'..'Strength')
 assert(tip.lines[1].text=='^x8888FF力量')
+L.mode='bilingual';tip:Clear();tip.maxWidth=180
+tip:AddLine(16,'^x8888FFStrength')
+assert(tip.lines[1].text=='^x8888FF力量 / Strength')
+tip:Clear();tip.maxWidth=180
+tip:AddLine(16,'^x8888FF'..string.rep('能量护盾',15))
+assert(#tip.lines>1)
+for _,line in ipairs(tip.lines) do assert(L:WithoutTranslation(DrawStringWidth,16,'VAR',line.text)<=180) end
 assert(tip:CheckForUpdate('same-node'))
 assert(not tip:CheckForUpdate('same-node'))
 L.mode='en';assert(tip:CheckForUpdate('same-node'))

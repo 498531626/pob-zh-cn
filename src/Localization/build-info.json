@@ -15,8 +15,14 @@
     "mastery-stat_occurrences": 1994,
     "number_mismatch_skipped": 66,
     "unique_translations": 4969,
-    "ambiguous_texts_skipped": 51,
-    "local_nodes": 3397
+    "ambiguous_texts_context_only": 51,
+    "local_nodes": 3397,
+    "named_nodes_total": 3396,
+    "named_nodes_translated": 3389,
+    "stat_lines_total": 4984,
+    "stat_lines_translated": 4937,
+    "mastery_lines_total": 2015,
+    "mastery_lines_translated": 1994
   },
   "scope": "Display text only: UI, gem names, matched 3.29 passive names/stats/masteries; calculation data unchanged"
 }
