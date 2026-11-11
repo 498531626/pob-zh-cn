@@ -64,6 +64,9 @@ def main():
 
 
 if __name__ == '__main__':
+    # Keep machine-readable reports UTF-8 even when redirected on Windows.
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
     try:
         main()
     except RuntimeError as error:
