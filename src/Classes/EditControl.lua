@@ -9,6 +9,21 @@ local m_floor = math.floor
 local protected_replace = "*"
 local utf8 = require('lua-utf8')
 
+-- Editable text and its measurements must use the same original bytes. Keep
+-- this scope on the input operations, so prompts and tooltips can translate.
+local uiDrawString, uiDrawStringWidth = DrawString, DrawStringWidth
+local function DrawString(...)
+	if Localization then return Localization:WithoutTranslation(uiDrawString, ...) end
+	return uiDrawString(...)
+end
+local function DrawStringWidth(...)
+	if Localization then return Localization:WithoutTranslation(uiDrawStringWidth, ...) end
+	return uiDrawStringWidth(...)
+end
+local function displayPrompt(prompt)
+	return prompt and (Localization and Localization:TranslateUI(prompt) or prompt)
+end
+
 local function lastLine(str)
 	local lastLineIndex = 1
 	while true do
@@ -211,7 +226,7 @@ function EditClass:UpdateScrollBars()
 		self.controls.scrollBarH:SetContentDimension(DrawStringWidth(textHeight, self.font, self.buf) + 2, width - 18)
 		self.controls.scrollBarV:SetContentDimension(newlineCount(self.buf.."\n") * textHeight, height - (self.controls.scrollBarH.enabled and 18 or 4))
 	else
-		self.controls.scrollBarH:SetContentDimension(DrawStringWidth(textHeight, self.font, self.buf) + 2, width - 4 - (self.prompt and DrawStringWidth(textHeight, self.font, self.prompt) + textHeight/2 or 0))
+		self.controls.scrollBarH:SetContentDimension(DrawStringWidth(textHeight, self.font, self.buf) + 2, width - 4 - (self.prompt and DrawStringWidth(textHeight, self.font, displayPrompt(self.prompt)) + textHeight/2 or 0))
 	end
 end
 
@@ -239,13 +254,6 @@ function EditClass:MoveCaretVertically(offset)
 end
 
 function EditClass:Draw(viewPort, noTooltip)
-	if Localization then
-		return Localization:WithoutTranslation(self.DrawUntranslated, self, viewPort, noTooltip)
-	end
-	return self:DrawUntranslated(viewPort, noTooltip)
-end
-
-function EditClass:DrawUntranslated(viewPort, noTooltip)
 	local x, y = self:GetPos()
 	local width, height = self:GetSize()
 	local enabled = self:IsEnabled()
@@ -277,12 +285,13 @@ function EditClass:DrawUntranslated(viewPort, noTooltip)
 	local textY = y + 2
 	local textHeight = self.lineHeight or (height - 4)
 	if self.prompt then
+		local prompt = displayPrompt(self.prompt)
 		if not enabled then
-			DrawString(textX, textY, "LEFT", textHeight, self.font, self.disableCol..self.prompt)
+			DrawString(textX, textY, "LEFT", textHeight, self.font, self.disableCol..prompt)
 		else
-			DrawString(textX, textY, "LEFT", textHeight, self.font, self.textCol..self.prompt..":")
+			DrawString(textX, textY, "LEFT", textHeight, self.font, self.textCol..prompt..":")
 		end
-		textX = textX + DrawStringWidth(textHeight, self.font, self.prompt) + textHeight/2
+		textX = textX + DrawStringWidth(textHeight, self.font, prompt) + textHeight/2
 	end
 	if not enabled then
 		return
@@ -500,7 +509,7 @@ function EditClass:OnKeyDown(key, doubleClick)
 			local textY = y + 2
 			local textHeight = self.lineHeight or (height - 4)
 			if self.prompt then
-				textX = textX + DrawStringWidth(textHeight, self.font, self.prompt) + textHeight/2
+				textX = textX + DrawStringWidth(textHeight, self.font, displayPrompt(self.prompt)) + textHeight/2
 			end
 			local cursorX, cursorY = GetCursorPos()
 			self.caret = DrawStringCursorIndex(textHeight, self.font, self.buf, cursorX - textX + self.controls.scrollBarH.offset, cursorY - textY + self.controls.scrollBarV.offset)

@@ -1,0 +1,47 @@
+{
+  "nodes":2865,
+  "pending":[],
+  "red_lines":697,
+  "red_samples":[{
+      "name":"Mana Mastery",
+      "node":63559,
+      "text":"^xF05050你使用防卫技能时，在 1 秒内回复 10% 魔力 ^8（PoB 尚未支持此效果）"
+    },{
+      "name":"Mana Mastery",
+      "node":63559,
+      "text":"^xF05050使用技能时有 10% 的几率回复 10% 魔力 ^8（PoB 尚未支持此效果）"
+    },{
+      "name":"Claw Mastery",
+      "node":12518,
+      "text":"^xF05050若你近期用爪击中过，潜行提高 50% ^8（PoB 尚未支持此效果）"
+    },{
+      "name":"Trial of the Faith",
+      "node":45657,
+      "text":"^xF05050眩晕时在 1 秒内再生 5% 能量护盾 ^8（PoB 尚未支持此效果）"
+    },{
+      "name":"Trial of the Faith",
+      "node":45657,
+      "text":"^xF05050眩晕时在 1 秒内再生 5% 生命 ^8（PoB 尚未支持此效果）"
+    },{
+      "name":"Impale Mastery",
+      "node":49677,
+      "text":"^xF05050钢铁呼唤反射伤害的效果区域扩大 40% ^8（PoB 尚未支持此效果）"
+    },{
+      "name":"Impale Mastery",
+      "node":49677,
+      "text":"^xF05050钢铁呼唤使用速度加快 40% ^8（PoB 尚未支持此效果）"
+    },{
+      "name":"Impale Mastery",
+      "node":49677,
+      "text":"^xF05050钢铁呼唤的钢刃碎片数量上限 +4 ^8（PoB 尚未支持此效果）"
+    },{
+      "name":"Impale Mastery",
+      "node":49677,
+      "text":"^xF05050钢铁呼唤反射伤害提高 10% ^8（PoB 尚未支持此效果）"
+    },{
+      "name":"Impale Mastery",
+      "node":49677,
+      "text":"^xF05050你施加的穿刺效果在没有被穿刺的敌人身上提高 20% ^8（PoB 尚未支持此效果）"
+    }],
+  "scope":"Actual current-tree tooltips; flavour and unsupported warnings on; stat comparisons off"
+}

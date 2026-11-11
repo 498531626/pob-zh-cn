@@ -1,7 +1,7 @@
 {
-  "entries": 6162,
-  "gem_names": 808,
-  "glyphs": 1545,
+  "entries": 12965,
+  "gem_names": 1038,
+  "glyphs": 2024,
   "font": "Microsoft YaHei (local PC copy)",
   "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
   "pob_version": "2.67.2",
@@ -14,15 +14,33 @@
     "passive-reminder_occurrences": 999,
     "mastery-stat_occurrences": 1994,
     "number_mismatch_skipped": 66,
-    "unique_translations": 4969,
+    "passive-flavour_occurrences": 68,
+    "reviewed_translations": 58,
+    "unique_translations": 5131,
     "ambiguous_texts_context_only": 51,
     "local_nodes": 3397,
     "named_nodes_total": 3396,
-    "named_nodes_translated": 3389,
+    "named_nodes_translated": 3396,
     "stat_lines_total": 4984,
-    "stat_lines_translated": 4937,
+    "stat_lines_translated": 4984,
     "mastery_lines_total": 2015,
-    "mastery_lines_translated": 1994
+    "mastery_lines_translated": 2015
   },
-  "scope": "Display text only: UI, gem names, matched 3.29 passive names/stats/masteries; calculation data unchanged"
+  "gem_details": {
+    "gem_pairs": 1038,
+    "exact_entries": 2912,
+    "numeric_templates": 1679,
+    "reviewed_entries": 126,
+    "ambiguous_exact": 23,
+    "ambiguous_templates": 13,
+    "ambiguous_exact_resolved": 19,
+    "ambiguous_templates_resolved": 13
+  },
+  "sidebar_labels": 167,
+  "sidebar_labels_translated": 167,
+  "calculation_labels": 602,
+  "calculation_labels_translated": 602,
+  "configuration_labels": 738,
+  "configuration_labels_translated": 738,
+  "scope": "Display only: UI/sidebar/calculations/configuration, gem and player-granted skill details, matched 3.29 passive names/stats/masteries/reminders. Coverage counts describe the checked source and audit fixtures, not every possible build or historic/jewel-transformed state. Calculation data and user input remain unchanged."
 }

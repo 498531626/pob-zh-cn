@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="cn" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>The_Pantheon - 流亡编年史, Path of Exile Wiki cn</title>
+    <meta name="description" content="path of exile is simply a tool to test your path of building creation">
+    <link rel="alternate" hreflang="en" href="https://poedb.tw/us/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://poedb.tw/tw/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://poedb.tw/cn/" />
+        <link href="/favicon.png" rel="shortcut icon" >
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/jquery.dataTables.min.css" integrity="sha512-1k7mWiTNoyx2XtmI96o+hdjP8nn0f3Z2N4oF/9ZZRgijyV4omsKOXEnqL1gKQNPy2MTSP9rIEWGcH/CInulptA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-5-theme/1.3.0/select2-bootstrap-5-theme.min.css" integrity="sha512-z/90a5SWiu4MWVelb5+ny7sAayYUfMmdXKEAbpj27PfdkamNdyI3hcjxPxkOPbrXoKIm7r9V2mElt5f1OtVhqA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy.min.css" integrity="sha512-HbPh+j4V7pXprvQMt2dtmK/zCEsUeZWYXRln4sOwmoyHPQAPqy/k9lIquKUyKNpNbDGAY06UdiDHcEkBc72yCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.min.css" integrity="sha512-OkYLbkJ4DB7ewvcpNLF9DSFmhdmxFXQ1Cs+XyjMsMMC94LynFJaA9cPXOokugkmZo6O6lwZg+V5dwQMH4S5/3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/css/modal-video.min.css" integrity="sha256-nd8IBqNn9uqwZKfZcLIXQcNxk5TjqrxiLx7PzN5PFW0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" integrity="sha256-auPoJwk/+RK6KSkib92Dkq1Y5hEkZvKtvSwucs15Skg=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video-js.min.css" integrity="sha512-J3tx4ssoARFr4U9VmZmQe2q672q0jUeYizJW3vglkOBTlQ/N6kF3eVqZZzaey/TdIXH69s3HYe2nQwyxK/Emzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link rel="stylesheet" href="https://cdn.poedb.tw/css/stdtheme.2ee77f64c96f1967.css" />
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js" integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" integrity="sha256-Ikk5myJowmDQaYVCUD0Wr+vIDkN8hGI58SGWdE671A8=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.full.min.js" integrity="sha512-RtZU3AyMVArmHLiW0suEZ9McadTdegwbgtiQl5Qqo9kunkVg1ofwueXD8/8wv3Af8jkME3DDe3yLfR8HSJfT2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy-bundle.umd.min.js" integrity="sha512-gbruucq/Opx9jlHfqqZeAg2LNK3Y4BbpXHKDhRC88/tARL/izPOE4Zt2w6X9Sn1UeWaGbL38zW7nkL2jdn5JIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.1/marked.min.js" integrity="sha512-VUuO/d6MS7hXmiFGEj7HtUa2FCI6Ll+xPvX9yX3bxn7ZqDWwleqXa8dtW13brbZ1ld2jiTrv8hWbpfp4B5mi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.all.js" integrity="sha512-A7LzqKE/pm9ofgS0Lxu7qroQS5SkKJQaYJkJ/66nQiWZfEdeGlBq5zEXQ63VRmXZK8zPpCgFf2WQJIAljI0Vdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/js/modal-video.min.js" integrity="sha256-VqINwNxkS4VEDMq5O52YTckX+Mx84X6bafO8NxF21Xw=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js" integrity="sha256-DiHJ7hbvMejsMyP76bpVWacb5HSHQ2sQlrJV8n7KEvA=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/echarts.min.js" integrity="sha512-4/g9GAdOdTpUP2mKClpKsEzaK7FQNgMjq+No0rX8XZlfrCGtbi4r+T/p5fnacsEC3zIAmHKLJUL7sh3/yVA4OQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/theme/dark.min.js" integrity="sha512-3Zm64ayK7DflnnyO2pKkLJX3v9Sb90mvahbwPUuMzEf42HI6k8tquIx5VsNBjEWAcYJWzvimbqnTkLl2QdCUmw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video.min.js" integrity="sha512-48NkCweTzA9u2sP4GgKcEDm6IScPIMga142ipKFNcHfz7feUJXDJxO1jwc2l+5MvWfwMj4BDfQv8WIMhrPxZLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.2.1/mustache.min.js" integrity="sha512-Qjrukx28QnvFWISw9y4wCB0kTB/ISnWXPz5/RME5o8OlZqllWygc1AB64dOBlngeTeStmYmNTNcM6kfEjUdnnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js" integrity="sha512-7O5pXpc0oCRrxk8RUfDYFgn0nO1t+jLuIOQdOMRp4APB7uZ4vSjspzp5y6YDtDs4VzUSTbWzBFZ/LKJhnyFOKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        <script src="https://cdn.poedb.tw/js/ModsView.6d68ad906ceba146.js"></script>
+        <script src="https://cdn.poedb.tw/js/poedb_header.a5ba197f514f530c.js"></script>
+    
+    <script data-cfasync="false">window.nitroAds=window.nitroAds||{createAd:function(){return new Promise(e=>{window.nitroAds.queue.push(["createAd",arguments,e])})},addUserToken:function(){window.nitroAds.queue.push(["addUserToken",arguments])},queue:[]};</script>
+    <script data-cfasync="false" async src="https://s.nitropay.com/ads-562.js"></script>
+
+    <meta property="og:site_name" content="poedb.tw">
+
+  </head>
+
+  <body>
+
+    <div id="consent-box" style="display:none">
+      <button onclick="window.__cmp('showModal');">
+        Update cookie preferences
+      </button>
+    </div>
+    
+    <script>
+      if (window["nitroAds"] && window["nitroAds"].loaded) {
+        document.getElementById("consent-box").style.display = window["__tcfapi"]
+          ? ""
+          : "none";
+      } else {
+        document.addEventListener(
+          "nitroAds.loaded",
+          () =>
+            (document.getElementById("consent-box").style.display = window["__tcfapi"]
+              ? ""
+              : "none")
+        );
+      }
+    </script>
+
+
+    <div class="background-image "></div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3B810SRKBH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3B810SRKBH');
+</script>
+
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="navbar-brand fw-bold" href="/cn/">PoE<span class='brand-suffix'>DB</span><sub></sub></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"  aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Items" data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</a></li>
+                    <li><a class="dropdown-item" href="/cn/Unique_item" data-i18n="ClientStrings|ItemDisplayStringUnique|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Vendor_recipe_system" data-i18n="ClientStrings|TutorialPanelVendorRecipes|Name">商人物品配方</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Gem" data-i18n="ClientStrings|ItemDisplayStringGem|Name">宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Skill_Gems" data-i18n="ItemClasses|Active Skill Gem|Name">技能宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Support_Gems" data-i18n="ItemClasses|Support Skill Gem|Name">辅助宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Transfigured_Gems" data-i18n="ClientStrings|ItemFilterRuleTransfiguredGems|Name">改造宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Exceptional" data-i18n="GemTags|exceptional|Name">Exceptional</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Modifiers" data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</a></li>
+                    <li><a class="dropdown-item" href="/cn/Keywords" data-i18n-tw="提示字">Keywords</a></li>
+                    <li><a class="dropdown-item" href="/cn/Oil" data-i18n="AchievementItems|DeliriumCraftItemsUsingCurrency1_8|Name">圣油</a></li>
+                    <li><a class="dropdown-item" href="/cn/Crafting_Bench" data-i18n="BaseItemTypes|Metadata/Items/HideoutInteractables/HideoutCraftingBench|Code"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Horticrafting" data-i18n="ClientStrings|HarvestCraftingStationTitle|Name">花园工艺</a></li>
+                    <li><a class="dropdown-item" href="/cn/metamods">工艺互动</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/cn/Quest" data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</a></li>
+                    <li><a class="dropdown-item" href="/cn/Ascendancy_class" data-i18n="ClientStrings|TutorialPanelAscendancies|Name">升华职业</a></li>
+                    <li><a class="dropdown-item" href="/cn/Bloodline_Ascendancy_class" data-i18n-tw="血裔職業" data-i18n-cn="血脉职业">Bloodline Ascendancy class</a></li>
+                    <li><a class="dropdown-item" href="/cn/passive-skill-tree/" data-i18n="ClientStrings|ActionOpenPassivePanel|Name">天赋树</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Maps" data-i18n="UniqueStashTypes|Map|Name">地图</a></li>
+                    <li><a class="dropdown-item" href="/cn/Atlas_of_Worlds" data-i18n="MapSeries|MapAtlas|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/atlas-skill-tree/" data-i18n="ClientStrings|ActionOpenAtlasPassivesScreen|Name"></a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item"><a class="nav-link" href="Economy" data-i18n-tw="經濟" data-i18n-cn="经济">Economy</a></li>
+    
+                <li class="nav-item"><a class="ms-4 nav-link  bg-warning rounded-circle" style="color: white" href="/cn/patreon">赞助</a></li>
+              </ul>
+    
+    
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" aria-current="page" href="https://poe2db.tw/cn/">PoE2<span class="brand-suffix">DB</span></a>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-language fa-lg"></i> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/tw/The_Pantheon">TW 繁體中文</a></li>
+                    <li><a class="dropdown-item" href="/cn/The_Pantheon">CN 简体中文</a></li>
+                    <li><a class="dropdown-item" href="/us/The_Pantheon">US English</a></li>
+                    <li><a class="dropdown-item" href="/kr/The_Pantheon">KR 한국어</a></li>
+                    <li><a class="dropdown-item" href="/ru/The_Pantheon">RU Русский</a></li>
+                    <li><a class="dropdown-item" href="/jp/The_Pantheon">JP Japanese</a></li>
+                    <li><a class="dropdown-item" href="/fr/The_Pantheon">FR Français</a></li>
+                    <li><a class="dropdown-item" href="/de/The_Pantheon">DE Deutsch</a></li>
+                    <li><a class="dropdown-item" href="/th/The_Pantheon">TH ภาษาไทย</a></li>
+                    <li><a class="dropdown-item" href="/pt/The_Pantheon">PO Português</a></li>
+                    <li><a class="dropdown-item" href="/sp/The_Pantheon">ES Spanish</a></li>
+                  </ul>
+                </li>
+              </ul>
+    
+            <form class="form-inline my-2 my-lg-0" role="search" action="search">
+              <input type="hidden" name="token" value="f235e62c5b51b59232ed8459010717401e6a93e82ab6e3bd9ee1a581134f293a584258">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q" id="navautosearch">
+            </form>
+    
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+    </header>
+
+<script>sidebar160("leftside_banner", "left");</script>
+<script>sidebar160("rightside_banner", "right");</script>
+
+
+
+    <div class="page ">
+    <div class="page-content theme-showcase container" role="main">
+
+
+<div class="d-flex flex-wrap justify-content-center"><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Expedition_league" data-bs-toggle="tooltip" title="先祖秘藏 v3.15"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/ExpeditionDetonator.webp" alt="ExpeditionDetonator" class="league_minimap" /></span></a><a href="Ultimatum_league" data-bs-toggle="tooltip" title="致命贪婪 v3.14"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/UltimatumAltar.webp" alt="UltimatumAltar" class="league_minimap" /></span></a><a href="Ritual_league" data-bs-toggle="tooltip" title="驱灵仪式 v3.13"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/RitualRune.webp" alt="RitualRune" class="league_minimap" /></span></a><a href="Blight_league" data-bs-toggle="tooltip" title="菌潮 v3.8"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BlightCore.webp" alt="BlightCore" class="league_minimap" /></span></a><a href="Legion_league" data-bs-toggle="tooltip" title="军团 v3.7"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/LegionInitiator.webp" alt="LegionInitiator" class="league_minimap" /></span></a><a href="Betrayal_league" data-bs-toggle="tooltip" title="背叛者 v3.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BetrayalSymbolCatarina.webp" alt="BetrayalSymbolCatarina" class="league_minimap" /></span></a><a href="Incursion_league" data-bs-toggle="tooltip" title="穿越 v3.3"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/IncursionCraftingBench.webp" alt="IncursionCraftingBench" class="league_minimap" /></span></a><a href="Bestiary_league" data-bs-toggle="tooltip" title="猎魔 v3.2"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BestiaryRareMonster.webp" alt="BestiaryRareMonster" class="league_minimap" /></span></a><a href="Abyss_league" data-bs-toggle="tooltip" title="深渊 v3.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Abyss.webp" alt="Abyss" class="league_minimap" /></span></a><a href="Breach_league" data-bs-toggle="tooltip" title="裂隙 v2.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Breach.webp" alt="Breach" class="league_minimap" /></span></a>
+    </div>
+  </div>
+</div><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Allflame_league" data-bs-toggle="tooltip" title="永火之咒 v3.29"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DeepwaterCursedTreasure.webp" alt="DeepwaterCursedTreasure" class="league_minimap" /></span></a><a href="Mirage_league" data-bs-toggle="tooltip" title="沙海幻境 v3.28"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Mirage.webp" alt="Mirage" class="league_minimap" /></span></a><a href="Mercenaries_league" data-bs-toggle="tooltip" title="佣兵 v3.26"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/MercenaryEncounter.webp" alt="MercenaryEncounter" class="league_minimap" /></span></a><a href="Settlers_league" data-bs-toggle="tooltip" title="君锋城下 v3.25"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/VillageShipping.webp" alt="VillageShipping" class="league_minimap" /></span></a><a href="Sanctum_league" data-bs-toggle="tooltip" title="圣地 v3.20"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Sanctum.webp" alt="Sanctum" class="league_minimap" /></span></a><a href="Archnemesis_league" data-bs-toggle="tooltip" title="罪恶枷锁 v3.17"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Archnemesis.webp" alt="Archnemesis" class="league_minimap" /></span></a><a href="Heist_league" data-bs-toggle="tooltip" title="夺宝奇兵 v3.12"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HeistSumgglersCache.webp" alt="HeistSumgglersCache" class="league_minimap" /></span></a><a href="Harvest_league" data-bs-toggle="tooltip" title="庄园 v3.11"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HarvestPortal.webp" alt="HarvestPortal" class="league_minimap" /></span></a><a href="Delirium_league" data-bs-toggle="tooltip" title="惊悸迷雾 v3.10"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/AfflictionInitiator.webp" alt="AfflictionInitiator" class="league_minimap" /></span></a><a href="Delve_league" data-bs-toggle="tooltip" title="地心探索 v3.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DelveMineralVein.webp" alt="DelveMineralVein" class="league_minimap" /></span></a><a href="Essence_league" data-bs-toggle="tooltip" title="精华 v2.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Essence.webp" alt="Essence" class="league_minimap" /></span></a><a href="Tormented_Spirit" data-bs-toggle="tooltip" title="Tormented Spirit v1.3"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.webp" class="league_minimap"/></a><a href="Beyond" data-bs-toggle="tooltip" title="超越 v1.2"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.webp" class="league_minimap"/></a><a href="Strongbox" data-bs-toggle="tooltip" title="保险箱 v1.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Strongbox.webp" alt="Strongbox" class="league_minimap" /></span></a><a href="Shrine" data-bs-toggle="tooltip" title="神殿 v1.0"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Shrine.webp" alt="Shrine" class="league_minimap" /></span></a><a href="Rogue_Exiles" data-bs-toggle="tooltip" title="Rogue Exiles v0.11"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/Anarchy4.webp" class="league_minimap"/></a>
+    </div>
+  </div>
+</div></div>
+
+
+
+<div id="topbanner970"></div><script>topbanner970("topbanner970");</script>
+
+<ul class="nav nav-tabs d-flex flex-wrap" role="tablist"><li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" role="tab" aria-selected="true" href="#万神殿">万神殿 /12 </a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#万神殿流放小百科万神殿流放小百科">万神殿 流放小百科万神殿 流放小百科</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#众神殿系统">众神殿系统</a></li></ul><div class="tab-content"><div id="万神殿" class="tab-pane fade show active"><div   class="card mb-2 ">
+   <h5 class="card-header">万神殿 /12 </h5> <svg viewBox="0 0 967 1027" style="max-width: 675px;">
+<style>
+use:hover {
+    -webkit-filter: drop-shadow(0px 0px 7px rgba(255, 0, 0, 0.9));
+    filter: drop-shadow(0px 0px 7px rgba(255, 0, 0, 0.9))
+}
+</style>
+<defs>
+    <image id="small" width="99" height="99" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/Pantheon/FrameSmallLight.webp"/>
+    <image id="large" width="179" height="179" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/Pantheon/FrameLargeBright.webp"/>
+</defs>
+<image x="0" y="0" width="967" "height="1027" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/Pantheon/PantheonTabBackground.webp"/>
+<g>
+    <use xlink:href="#large" x="60" y="242" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/485e539c28c6f1c4a83a2ae7892845c13491ed850f9c7742830f2342ba51e7a8"/><use xlink:href="#large" x="760" y="300" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/a8763c5c621619a82880cb6067a500f7e440a855680c8da5e5e3f5b4e640860c"/><use xlink:href="#large" x="560" y="357" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/0475fbd6b3987a212198045861b311db597a50a019cebb4e2bae3ff20eff66cb"/><use xlink:href="#large" x="354" y="386" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/334e83159260131fd1d86801302b08024abe71aa10fbbf9ae34a26a9d9f17f5c"/><use xlink:href="#small" x="328" y="584" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/99c43784521c573f9c56d0abefab0c453717c3c206066fe7690176933bb97514"/><use xlink:href="#small" x="425" y="609" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/5984169dcab89faa31a0572b0442b560b9e97f288394753e6908f396d0344107"/><use xlink:href="#small" x="225" y="627" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/0e253dae9e1500ea9da0eb08d7755e74c2a753f80892abcdaa15313ce404ade6"/><use xlink:href="#small" x="703" y="566" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/93ab94a8eb702df768428b5ce5e333c331af6c563755fabef14dec394e22fc9e"/><use xlink:href="#small" x="335" y="711" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/c29d2cb41b0a8d4d25901d3e1a0076117c212fafbb5920e5bca8cd4658b604c2"/><use xlink:href="#small" x="515" y="747" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/3e61a80f8a6b0c14626b914f2726e2b8a0a03e1acd4486d91e2d63c718e4ea25"/><use xlink:href="#small" x="101" y="501" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/271b8a78745e664da46a6bdf1ac267507980df230ce7a686d0e845efa7b2eaae"/><use xlink:href="#small" x="524" y="664" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/e0b9c1a785927998ed1f30da869028e6b997b129c3c67e740c210b7732d5e0b8"/>
+</g>
+</svg>  <div class="row row-cols-1 row-cols-lg-2 g-2 bg-dark"><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/485e539c28c6f1c4a83a2ae7892845c13491ed850f9c7742830f2342ba51e7a8" href="/cn/Soul_of_the_Brine_King"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/TheBrineKing.webp" alt="TheBrineKing" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/485e539c28c6f1c4a83a2ae7892845c13491ed850f9c7742830f2342ba51e7a8" href="/cn/Soul_of_the_Brine_King">惊海之王 索亚格斯之魂</a></div><div class="implicitMod"><span class="text-value">第 6 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/72494b9d7bb5d671474c0e88c5c78bd067da49285894ed3e74c1165a4fcd3743" href="The_Brine_King">惊海之王</a><br/><span class="explicitMod">若过去的 2 秒内你被晕眩或是格挡晕眩，你将无法再被晕眩</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/789e2d2c17f1b8ea7e6207cab2aa9f2bcfdcaf10cdeb1a596e1436ca7d699c62" href="/cn/Nassar%2C_Lion_of_the_Seas">海之雄狮娜萨</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/a52c43543f49d9f4578fd627a2507b0d90eae3c7360e9d25316ec9fdf3023fe8" href="Reef">危机海礁</a><br><div class="explicitMod">晕眩回复和格挡回复提高 <span class='mod-value'>30</span>%</div><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/d9e17c2ae9216ffafbb11006f49dbf3f6947acacb55fad39a27a625d07bbda16" href="/cn/Captain_Tanner_Lightfoot">幽足坦纳尔队长</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/c833f8d9c44a6cac053b25518addc455f982a9abeb2f5d40f5f20a042fccd8b8" href="Coral_Ruins">珊瑚遗迹</a><br><div class="explicitMod"><span class='mod-value'>100</span>% 几率避免被冰冻</div><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/eb4df38cc292c45e8196f622db776ef813cf0f9c031b2b0e74d69a6444b673f8" href="/cn/Shock_and_Horror">恐惧之雷</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/f7b825c807edde2740343b6a4e028c718822437d365a6299da75cc23118a4527" href="Mineral_Pools">废弃矿山</a><br><div class="explicitMod">你受到的冰缓效果降低 <span class='mod-value'>50</span>%</div></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/a8763c5c621619a82880cb6067a500f7e440a855680c8da5e5e3f5b4e640860c" href="/cn/Soul_of_Arakaali"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/Arakaali.webp" alt="Arakaali" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/a8763c5c621619a82880cb6067a500f7e440a855680c8da5e5e3f5b4e640860c" href="/cn/Soul_of_Arakaali">暗影女皇 阿拉卡力之魂</a></div><div class="implicitMod"><span class="text-value">第 7 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/400fd94b82cb44aaba131a3f207751f821a792c07403980e59e47d0437bef28a" href="The_Mother_of_Spiders">阿拉卡力</a><br/><span class="explicitMod">受到的持续性伤害降低 <span class='mod-value'>10</span>%</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/abb1f2376110c7f5bcc07ffff95f768f040c7802e7a15f5e78d7df784253bf9b" href="/cn/Maligaro_the_Mutilator">切断者马雷格罗</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/085c2e58e9137e9316df4cb39a5f1a468472068eb25bc10144491f1a482850e8" href="Overgrown_Shrine">密草神殿</a><br><div class="explicitMod">近期内若你停止受到持续伤害，则生命和能量护盾回复速度加快 <span class='mod-value'>20</span>%</div><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/40c53413d442e3ee6475be547eea312ed33d620ff910ef9acd0354b71291017e" href="/cn/Armala%2C_the_Widow">寡妇制造者阿玛拉</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/7581a9757953b848f6e31e83d051c91bb02d45f71cf54212ac409902bbc8b353" href="Sunken_City">沉沦之城</a><br><div class="explicitMod">你身上的减益效果消失速度加快 <span class='mod-value'>20</span>%</div><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/52b389e448d08c940b2c713d52ad3166abef818d6d9657567ae11d27b083a8e9" href="/cn/Drought-Maddened_Rhoa">旱地恐喙鸟</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/eebfea32814651c1f1d9ff67dfa8e0dbdc53427429196fcaf29a6ede31cb0de2" href="Arid_Lake">荒芜湖域</a><br><div class="explicitMod">对持续伤害有 <span class='mod-value'>+40</span>% 混沌抗性</div></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/0475fbd6b3987a212198045861b311db597a50a019cebb4e2bae3ff20eff66cb" href="/cn/Soul_of_Solaris"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/Solaris.webp" alt="Solaris" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/0475fbd6b3987a212198045861b311db597a50a019cebb4e2bae3ff20eff66cb" href="/cn/Soul_of_Solaris">日耀女神之魂</a></div><div class="implicitMod"><span class="text-value">第 8 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/35343402786843c680193a7cba4b3f16e8eca3e2485811c04fc9d62a278908b2" href="Solar_Eclipse">日食</a><br/><span class="explicitMod">若附近只有 1 个敌人，则受到的物理伤害降低 <span class='mod-value'>6</span>%</span><span class="explicitMod">有 <span class='mod-value'>20</span>% 的几率使受到的范围伤害总降 50%</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/93d4d60a122b470a6ce81c425b9fa9a8c8de21e7e48e20bddfce8a49be9dad50" href="/cn/Oak_the_Mighty">巨力欧克</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/a29f69b6781ec32575a88156789856cdd5874bae6ffc516dbca74ce2f64ba351" href="Mesa">赤红山地</a><br><div class="explicitMod">若你近期内没有被击中，则受到的元素伤害降低 <span class='mod-value'>8</span>%</div><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/e27b168b7b4ac01abbc13262175896b529ec73f59d9b26f4ab9b2fdf4b45f54f" href="/cn/Kitava%2C_The_Destroyer">毁灭者奇塔弗</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/4ca3d33e9d78eda2176a6b98697384a8b9b8cc31e09de9eee0c81466a6392b84" href="Lava_Lake">熔岩之湖</a><br><div class="explicitMod">近期你若受到过暴击伤害，则不再受到暴击的额外伤害</div><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/76db4c0dc4900fa7aa393b5d6abfcef0dcd3ffdc635e635b8f64dcca4b956c56" href="/cn/Forest_of_Flames">烈焰之森</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/0aab600af76630a87658d3b7685fd53e37472450432ca7eee546b2d8be628090" href="Volcano">火山炎域</a><br><div class="explicitMod"><span class='mod-value'>50</span>% 几率避免暴击造成的异常状态</div></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/334e83159260131fd1d86801302b08024abe71aa10fbbf9ae34a26a9d9f17f5c" href="/cn/Soul_of_Lunaris"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/Lunaris.webp" alt="Lunaris" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/334e83159260131fd1d86801302b08024abe71aa10fbbf9ae34a26a9d9f17f5c" href="/cn/Soul_of_Lunaris">月影女神之魂</a></div><div class="implicitMod"><span class="text-value">第 8 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/42ae02cd98eb56c95f243824b59478e79cd79f2c497f61da6b90bd3dffc272dd" href="Lunar_Eclipse">月食</a><br/><span class="explicitMod">身边每有 1 个敌人，自己的移动速度加快 <span class='mod-value'>1</span>%，最多 8%</span><span class="explicitMod">身边每存在 1 个敌人，受到的物理伤害便降低 <span class='mod-value'>1</span>%，最多 8%</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/2bb301294a1bf3236a895c88bd6654b324155eae3570cb530b4ba4cdd97e3d85" href="/cn/Captain_Clayborne%2C_The_Accursed">被诅咒的克莱奔船长</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/b835d4daeeaab02252f6d80e6b1b794a6cba9f25977d0af98c1762b76e3562cc" href="Frozen_Cabins">冻结之舱</a><br><div class="explicitMod"><span class='mod-value'>10</span>% 的几率免疫投射物</div><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/bc59645dfcebce552d60792fdd8d787e01d32477cac2a1db4cc15e46a5474259" href="/cn/Fragment_of_Winter">冬之碎片</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/58510892126c128ecb3be2f2f25949af1d87540eb2973b66313fd0924d80287f" href="Waterways">危机水道</a><br><div class="explicitMod">近期被击中时受到的元素伤害降低 <span class='mod-value'>6</span>%</div><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/9059d46ac5dd22ed45782fe6a12aa83a635258ef02ffa966da1e75dad70b72c7" href="/cn/Glace">冻灵</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/23b045eb14c6600f09049e883d55555f9600e4fe9978e8fa5cf5494f88045d27" href="Beach">危岩海滩</a><br><div class="explicitMod">避免被连锁弹射的投射物击中</div></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/99c43784521c573f9c56d0abefab0c453717c3c206066fe7690176933bb97514" href="/cn/Soul_of_Abberath"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/ClovenGod.webp" alt="ClovenGod" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/99c43784521c573f9c56d0abefab0c453717c3c206066fe7690176933bb97514" href="/cn/Soul_of_Abberath">割裂者 艾贝拉斯之魂</a></div><div class="implicitMod"><span class="text-value">第 6 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/699eb10a2c0a914080d645404082bbd7dad70feb8d93e2d479411437ef16acf2" href="The_Cloven_One">撕裂之神</a><br/><span class="explicitMod">你身上的点燃持续时间总降 <span class='mod-value'>60</span>%</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/d0f6b4871b4faa6b71d05d9632359b0061d6f34f2ec2c9697b690ede2e49134f" href="/cn/Mephod%2C_the_Earth_Scorcher">撼地者米福德</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/7a2cf41ace2a5472bcc53c220b42d231a94f6853cd45529a2b590d6aaa596a37" href="Summit">寒顶之巅</a><br><div class="explicitMod">在燃烧地面上时，移动速度加快 <span class='mod-value'>10</span>%</div><div class="explicitMod">不受燃烧地面影响</div></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/5984169dcab89faa31a0572b0442b560b9e97f288394753e6908f396d0344107" href="/cn/Soul_of_Gruthkul"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/Gruthkul.webp" alt="Gruthkul" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/5984169dcab89faa31a0572b0442b560b9e97f288394753e6908f396d0344107" href="/cn/Soul_of_Gruthkul">绝望之母 格鲁丝克之魂</a></div><div class="implicitMod"><span class="text-value">第 7 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/5a98fe7f276f2b43ce00bc193fbc46c9822b33f30eaec3ebcb203961ee21415c" href="Queen_of_Despair">格鲁丝克</a><br/><span class="explicitMod">近期每次被击中，受到的物理伤害减少 <span class='mod-value'>1</span>%，最多 5%</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/d95bf8c71b28eb818693ee7c8317b1700996af563f8358a55fbcfdffdca8c3dc" href="/cn/Erebix%2C_Lights_Bane">光明克星阿尔碧斯</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/620a4c864c28b2b198a2cf27758271599ccede4fb1d686beeecc3ee9690cd065" href="Cemetery">晨曦墓地</a><br><div class="explicitMod">若近期敌人用攻击击中过你，则它们的攻击速度减慢 <span class='mod-value'>8</span>%</div></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/0e253dae9e1500ea9da0eb08d7755e74c2a753f80892abcdaa15313ce404ade6" href="/cn/Soul_of_Yugul"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/Yugul.webp" alt="Yugul" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/0e253dae9e1500ea9da0eb08d7755e74c2a753f80892abcdaa15313ce404ade6" href="/cn/Soul_of_Yugul">恐惧之源 尤格尔之魂</a></div><div class="implicitMod"><span class="text-value">第 8 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/ed4e06a9938782f8a8c25b3619b3904e75e4394a184a636f363fe913ad5e6b4d" href="Reflection_of_Terror">恐惧映射</a><br/><span class="explicitMod">你和你的召唤生物阻挡受到的 <span class='mod-value'>+50</span>% 反射伤害</span><span class="explicitMod">有 <span class='mod-value'>50</span>% 的几率反射魔蛊</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/aded96493e0b806a5366f14496ff0386cd09b4e3cedc5476ec93abd065898621" href="/cn/Varhesh%2C_Shimmering_Aberration">微光巨侍法赫西</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/fe7dff477fa19a0c2d62d77372ecaa1d63f635e4d573c1e2e801b3077e34deff" href="Terrace">海滨台地</a><br><div class="explicitMod">你受到的诅咒效果降低 <span class='mod-value'>30</span>%</div></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/93ab94a8eb702df768428b5ce5e333c331af6c563755fabef14dec394e22fc9e" href="/cn/Soul_of_Shakari"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/QueenOfTheSands.webp" alt="QueenOfTheSands" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/93ab94a8eb702df768428b5ce5e333c331af6c563755fabef14dec394e22fc9e" href="/cn/Soul_of_Shakari">沙之女神 沙卡丽之魂</a></div><div class="implicitMod"><span class="text-value">第 9 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/a851aa50ca4b0aa6e7e823aec4b2aaaf1a088c47f1cb725d327a918b25d024e2" href="Queen_of_the_Sands">沙之女神</a><br/><span class="explicitMod">你身上至少有 <span class='mod-value'>3</span> 层中毒状态时，你无法中毒</span><span class="explicitMod">你身上的中毒持续时间总降 <span class='mod-value'>50</span>%</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/6d59fa5c894d36531d3aeeb9f1a14804144beac23ba327df74d0d060cb452827" href="/cn/Terror_of_the_Infinite_Drifts">漂泊畏灵</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/2349a5276e5145f2bf18e48359a65c783f404cbb684e50a552139160ceb1d828" href="Desert_Spring">荒漠绿洲</a><br><div class="explicitMod">受到的混沌伤害降低 <span class='mod-value'>5</span>%</div><div class="explicitMod">当在腐蚀地面上时，受到的混沌持续伤害降低 <span class='mod-value'>25</span>%</div></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/c29d2cb41b0a8d4d25901d3e1a0076117c212fafbb5920e5bca8cd4658b604c2" href="/cn/Soul_of_Tukohama"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/FatherOfWar.webp" alt="FatherOfWar" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/c29d2cb41b0a8d4d25901d3e1a0076117c212fafbb5920e5bca8cd4658b604c2" href="/cn/Soul_of_Tukohama">战争之父 图克哈玛之魂</a></div><div class="implicitMod"><span class="text-value">第 6 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/1eebf24d98892477421878918b3d9b778a3349cb7255124e5a57e245a3615325" href="The_Father_of_War">战争之父</a><br/><span class="explicitMod">你每静止一秒，物理伤害减免提高 <span class='mod-value'>3</span>%，最多 9%</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/1b6d9132038ed5d9e129838020e8940d266cad8a64f106733d535dd85184760a" href="/cn/Tahsin%2C_Warmaker">起乱者塔辛</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/b05ca8204bfd3ae3633792693566da324e1782de239280589121953857688e16" href="Siege">围城</a><br><div class="explicitMod">静止时每秒再生 <span class='mod-value'>2</span>% 生命</div></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/3e61a80f8a6b0c14626b914f2726e2b8a0a03e1acd4486d91e2d63c718e4ea25" href="/cn/Soul_of_Ralakesh"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/Ralakesh.webp" alt="Ralakesh" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/3e61a80f8a6b0c14626b914f2726e2b8a0a03e1acd4486d91e2d63c718e4ea25" href="/cn/Soul_of_Ralakesh">万面之主 拉克斯之魂</a></div><div class="implicitMod"><span class="text-value">第 7 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/6f024d15fb1cd785336273e774a9e97e09309336f5c6179e85cddd6b087f6bfa" href="The_Master_of_a_Million_Faces">盗贼头目</a><br/><span class="explicitMod">流血状态下移动不再承受额外的伤害</span><span class="explicitMod">持续物理伤害在移动时降低 <span class='mod-value'>25</span>%</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/4da006185ed2b070878fffd2b60e709c8a12202746ab18e5ca08f1d897c80551" href="/cn/Drek%2C_Apex_Hunter">权利猎人德里克</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/0e75d75d429bb1498be337f466d06ae0ae02cf46310ec455479bbffd3b437daf" href="Fields">无边原野</a><br><div class="explicitMod">若你身上至少有 5 层腐化之血，则腐化之血不能再施加给你</div></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/271b8a78745e664da46a6bdf1ac267507980df230ce7a686d0e845efa7b2eaae" href="/cn/Soul_of_Garukhan"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/RulerOfHighgate.webp" alt="RulerOfHighgate" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/271b8a78745e664da46a6bdf1ac267507980df230ce7a686d0e845efa7b2eaae" href="/cn/Soul_of_Garukhan">风暴女神 格鲁坎之魂</a></div><div class="implicitMod"><span class="text-value">第 9 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/94de45e86a84394e12b0023d41b1acff3a856f05143b686e6cb8ccb6c4b9639e" href="The_Ruler_of_Highgate">海加特山脉的统治者</a><br/><span class="explicitMod">你受到的感电效果降低 <span class='mod-value'>60</span>%</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/f032bbf1737f102a53ca069ae3f06ffad2695f30ca64a31f6822fa2cbe8ea20f" href="/cn/The_Blacksmith">恶灵铁匠</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/00cdfdef654f98227250e3623232f6f0f7e9fcd0ff6604f0f734ad46f83480f7" href="Dunes">暮色沙丘</a><br><div class="explicitMod">免疫致盲</div><div class="explicitMod">你无法被瘫痪</div></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/e0b9c1a785927998ed1f30da869028e6b997b129c3c67e740c210b7732d5e0b8" href="/cn/Soul_of_Ryslatha"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/QuestIcons/PuppetMistress.webp" alt="PuppetMistress" /></a></div><div class="flex-grow-1 ms-2"><div><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PantheonPanelLayout_hover/e0b9c1a785927998ed1f30da869028e6b997b129c3c67e740c210b7732d5e0b8" href="/cn/Soul_of_Ryslatha">傀儡女王 瑞斯拉萨之魂</a></div><div class="implicitMod"><span class="text-value">第 6 章</span> <a class="Quest" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_Quest_hover/4982d65624dfc4f2a2e9f0846e4ffa79de09a25969f3b19eb4812daf36d29a7a" href="The_Puppet_Mistress">傀儡女王</a><br/><span class="explicitMod">若你近期内没使用生命药剂，则生命药剂每 3 秒获得 <span class='mod-value'>3</span> 充能</span><span class="explicitMod">低血时，使用药剂会提高 <span class='mod-value'>60</span>% 生命回复量</span><div class="separator"></div><span class="text-value">抓获<a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/7ba26d591acf7871b2c513a69dbb7c34ee00d9f90bd9c381a1508f295b29167e" href="/cn/Gorulis%2C_Will-Thief">传奇神盗罗格斯</a></span> <a class="WorldAreas" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_WorldAreas_hover/a3e8488846d23017b68e4c3f601d5fb76df472224bda9f18a881ec8fe9000c9f" href="Infested_Valley">疫源林谷</a><br><div class="explicitMod">近期内你击中的敌人生命再生速度降低 <span class='mod-value'>50</span>%</div></div></div></div></div></div>  </div></div><div id="万神殿流放小百科万神殿流放小百科" class="tab-pane fade"><div class='col-lg-6'><div class='card mb-2'><h5 class="card-header">万神殿 流放小百科<h3 class='d-none'>万神殿 流放小百科</h3></h5><div class='card-body'><p>万神殿</p><p>万神殿能让你选择性地强化自己的角色，更好地应对未来的危险。击败第 2 大章中的大小神祇就能获得他们的神力。
+
+你同时只可启用一项主要神力和一项次要神力。每种神力都只能强化角色的一种属性，因此请谨慎考虑将来面对的敌人，选择最适合自己的神力。
+
+你只能在城镇或藏身处改变启用的神力，并且完全免费。</p><p>强化你的万神殿</p><p>万神殿中的能力在后期将可以通过神之容器强化，得到更广泛的防御能力。将神之容器放置在地图装置中并开启万神殿对应的地图。</p><figure><img loading='lazy' src='https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/TutorialPictures/Pantheon1.webp' class='tutorial'/><figcaption class='text-center'>击败地图头目后，你的神之容器将会装满力量在地图装置中等着你取回。
+</figcaption></figure></div></div></div><div class='clearfix'></div></div><div id="众神殿系统" class="tab-pane fade"><div class="card"><h4 class="card-header" data-tabname="Community Wiki">Community Wiki</h4></div><div class="card mb-1">
+    <div class="card-body markdown-body">
+        <a class="btn btn-primary float-end" href='/cn/marked?id=The_Pantheon' data-i18n="ClientStrings|HideoutEditControlEdit|Name">Edit</a>
+        <div id="markContent"><h1>众神殿系统</h1>
+<p>在瓦尔克拉斯土地上，不同的文化供奉著不同的神祉，但是我们却从未感受到神祉的力量，在此时终於明白，第四章的巨兽一直在汲取这些神祉的力量，并压制的他们，而在巨兽死亡后，神祉的力量再度显现，而且他们也并非善类。</p>
+<p>众神殿系统(The Pantheon system)让你获得众神之力来强化防御，运用众神之力来证明旧神并非永恒不朽。在城镇你可以使用各种众神之力而不需要任何花费，让你可以面对各种挑战。</p>
+<p>众神殿系统：战胜瓦尔克拉斯的古老众神，你将可以夺取他们部分的力量。在奥瑞亚的殒落中一共有四个主神之力和七个次神之力。一次可以启动一个主神之力和一个次神之力，回到任合城镇或是藏身处时可以进行更换。透过放置众神圣器於地图装置中，击败特定地图头目后，即可升级神之力。</p>
+<ul>
+<li>四个主神之力和七个次神之力</li>
+<li>一次可以启动一个主神之力和一个次神之力</li>
+<li>主神之力有两个基本属性可以附加三个额外属性，可同时启动三个额外属性</li>
+<li>次神之力有一个基本属性可以附加一个额外属性</li>
+<li>额外属性必须将<a class="whiteitem MapFragment" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_BaseItemTypes_hover/38359c1cfc100fb97a932cf55f22b8d285ca310d3c10fe84de7c9c5a8b12a621" href="Divine_Vessel">众神圣器</a>和指定地图一起放入地图装置并杀死首领即可获得灵魂，完成后从地图装置取出， 该首领於战斗时会获得以下加成<ul>
+<li>传奇头目伤害增加 10%、攻速增加 10%</li>
+<li>传奇头目增加 10% 生命</li>
+<li>传奇头目增加 20% 范围技能</li>
+</ul>
+</li>
+<li>众神圣器可交易，但是捕获灵魂后的无法交易</li>
+</ul>
+</div>
+        <div><hr style='border-top: 1px solid white'>Wikis Content is available under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA 3.0</a> unless otherwise noted.</div>
+    </div>
+</div>
+<script>
+$(function() {
+    lightbox_panel();
+});
+</script>
+</div></div>
+
+<footer class="ccontainer text-center text-lg-left">
+  <div class="card p-4">
+    <div class="row">
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Sites</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a target="_blank" href="https://poedb.tw/">poedb.tw</a> </li>
+          <li> <a target="_blank" href="https://tlidb.com/">tlidb.com</a> </li>
+          <li> <a target="_blank" href="https://poe2db.tw/">poe2db.tw</a> </li>
+              <li> <a target="_blank" href="https://paldb.cc/">paldb.cc</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">News</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="news">GGG Tracker</a> </li>
+          <li> <a href="League#ConcurrentPlayers">Concurrent Players</a> </li>
+          <li> <a href="Ruthless_mode" data-i18n="ClientStrings|InsaneDifficulty|Name">Ruthless mode</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">About Site</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="privacy">Privacy</a> </li>
+          <li> <a href="patreon">Patreon</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Community</h5>
+        <ul class="list-unstyled mb-0">
+
+
+          <li> <a href="https://discord.gg/b4bs4bQsrW">編年史 Discord</a> </li>
+
+          <li><a target="_blank" href="https://www.reddit.com/user/chuanhsing">/u/chuanhsing</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Copyright &copy; 2014-2026 流亡编年史.
+  </div>
+</footer>
+
+<div style=""></div>
+<div class="clearfix"></div><div id="bottom_banner"></div><script>topbanner970("bottom_banner");</script>
+    </div>
+    </div>
+
+    <a href="#top" id="toTop"><span class="fas fa-arrow-circle-up fa-3x"></span></a>
+<script>
+ $(document).ready(function()
+ {
+    if (window.location.hostname != "poedb.tw" && window.location.hostname != "poe2db.tw") {
+        window.location.href="https://poedb.tw/";
+    }
+ });
+</script>
+    <script src="https://cdn.poedb.tw/js/poedb_footer.fed37e57d91aa1eb.js"></script>
+
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"7c3bdd9ddfac4426b6a20a0cd5f64615","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

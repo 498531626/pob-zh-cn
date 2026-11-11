@@ -1,0 +1,2209 @@
+[{
+    "chinese":"\t1 ^xDD0022过量伤害^7",
+    "english":"\t1 ^xDD0022Overkill damage",
+    "skill":"Fireball"
+  },{
+    "chinese":"\t1023 ^xE05030生命^7",
+    "english":"\t1023 ^xE05030Life",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"\t10714 ^xE05030生命^7 (剩余 1)",
+    "english":"\t10714 ^xE05030Life ^7(1 remaining)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"\t10715 ^xE05030生命^7 (剩余 0)",
+    "english":"\t10715 ^xE05030Life ^7(0 remaining)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"\t1430 ^xE05030生命^7",
+    "english":"\t1430 ^xE05030Life",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"\t1432 ^xE05030生命^7",
+    "english":"\t1432 ^xE05030Life",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"\t1456 ^xDD0022过量伤害^7",
+    "english":"\t1456 ^xDD0022Overkill damage",
+    "skill":"Fireball"
+  },{
+    "chinese":"\t14795 ^xDD0022过量伤害^7",
+    "english":"\t14795 ^xDD0022Overkill damage",
+    "skill":"Fireball"
+  },{
+    "chinese":"\t2215 ^xDD0022过量伤害^7",
+    "english":"\t2215 ^xDD0022Overkill damage",
+    "skill":"Fireball"
+  },{
+    "chinese":"\t3708 ^xDD0022过量伤害^7",
+    "english":"\t3708 ^xDD0022Overkill damage",
+    "skill":"Fireball"
+  },{
+    "chinese":"\t5856 ^xE05030生命^7 (剩余 1792)",
+    "english":"\t5856 ^xE05030Life ^7(1792 remaining)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"\t60 ^xE05030生命^7",
+    "english":"\t60 ^xE05030Life",
+    "skill":"Fireball"
+  },{
+    "chinese":"\t60 ^xE05030生命^7 (剩余 0)",
+    "english":"\t60 ^xE05030Life ^7(0 remaining)",
+    "skill":"Fireball"
+  },{
+    "chinese":"\t6046 ^xE05030生命^7 (剩余 4669)",
+    "english":"\t6046 ^xE05030Life ^7(4669 remaining)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"\t726 ^xE05030生命^7",
+    "english":"\t726 ^xE05030Life",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"\t727 ^xE05030生命^7",
+    "english":"\t727 ^xE05030Life",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"\t7648 ^xE05030生命^7 (剩余 0)",
+    "english":"\t7648 ^xE05030Life ^7(0 remaining)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"\t840 ^xE05030生命^7",
+    "english":"\t840 ^xE05030Life",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"\t^8(合计 1023)",
+    "english":"\t^8(1023 total)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"\t^8(合计 1430)",
+    "english":"\t^8(1430 total)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"\t^8(合计 1432)",
+    "english":"\t^8(1432 total)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"\t^8(合计 1456)",
+    "english":"\t^8(1456 total)",
+    "skill":"Fireball"
+  },{
+    "chinese":"\t^8(合计 2275)",
+    "english":"\t^8(2275 total)",
+    "skill":"Fireball"
+  },{
+    "chinese":"\t^8(合计 3708)",
+    "english":"\t^8(3708 total)",
+    "skill":"Fireball"
+  },{
+    "chinese":"\t^8(合计 726)",
+    "english":"\t^8(726 total)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"\t^8(合计 727)",
+    "english":"\t^8(727 total)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"\t^8(合计 840)",
+    "english":"\t^8(840 total)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"(0 + 6) ^8(基础值)",
+    "english":"(0 + 6) ^8(base)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"(1 - 0.0030) ^8(非暴击伤害占比)",
+    "english":"(1 - 0.0030) ^8(portion of damage from non-crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"(1 - 0.0500) ^8(非暴击伤害占比)",
+    "english":"(1 - 0.0500) ^8(portion of damage from non-crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"(1 - 0.0600) ^8(非暴击伤害占比)",
+    "english":"(1 - 0.0600) ^8(portion of damage from non-crits)",
+    "skill":"Arc"
+  },{
+    "chinese":"(1 - 0.1000) ^8(非暴击伤害占比)",
+    "english":"(1 - 0.1000) ^8(portion of damage from non-crits)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"* (4.00 / 0.28) ^8(点燃持续时间／攻击间隔)",
+    "english":"* (4.00 / 0.28) ^8(Ignite Duration / Attack Time)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"* (4.00 / 0.50) ^8(点燃持续时间／攻击间隔)",
+    "english":"* (4.00 / 0.50) ^8(Ignite Duration / Attack Time)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"* (4.00 / 0.60) ^8(点燃持续时间／攻击间隔)",
+    "english":"* (4.00 / 0.60) ^8(Ignite Duration / Attack Time)",
+    "skill":"Arc"
+  },{
+    "chinese":"* (4.00 / 0.72) ^8(点燃持续时间／攻击间隔)",
+    "english":"* (4.00 / 0.72) ^8(Ignite Duration / Attack Time)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"* (4.00 / 0.75) ^8(点燃持续时间／攻击间隔)",
+    "english":"* (4.00 / 0.75) ^8(Ignite Duration / Attack Time)",
+    "skill":"Fireball"
+  },{
+    "chinese":"* (4.00 / 1.00) ^8(点燃持续时间／攻击间隔)",
+    "english":"* (4.00 / 1.00) ^8(Ignite Duration / Attack Time)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"* (4.00 / 1.17) ^8(点燃持续时间／攻击间隔)",
+    "english":"* (4.00 / 1.17) ^8(Ignite Duration / Attack Time)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"* 0.00 ^8(点燃几率)",
+    "english":"* 0.00 ^8(chance to ignite)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"* 0.05 ^8(点燃几率)",
+    "english":"* 0.05 ^8(chance to ignite)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"* 0.06 ^8(点燃几率)",
+    "english":"* 0.06 ^8(chance to ignite)",
+    "skill":"Arc"
+  },{
+    "chinese":"* 0.10 ^8(点燃几率)",
+    "english":"* 0.10 ^8(chance to ignite)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"* 0.29 ^8(点燃几率)",
+    "english":"* 0.29 ^8(chance to ignite)",
+    "skill":"Fireball"
+  },{
+    "chinese":"* 1.00 (敌人伤害修正)",
+    "english":"* 1.00 (modifiers to enemy damage)",
+    "skill":"Fireball"
+  },{
+    "chinese":"* 1.00 ^8(点燃非暴击持续伤害加成)",
+    "english":"* 1.00 ^8(Ignite DoT Multi for Non-Crit)",
+    "skill":"Fireball"
+  },{
+    "chinese":"* 1.00 ^8(点燃持续伤害加成)",
+    "english":"* 1.00 ^8(Ignite DoT Multi)",
+    "skill":"Arc"
+  },{
+    "chinese":"* 1.012 (敌人暴击效果)",
+    "english":"* 1.012 (enemy crit effect)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"* 1.014 (敌人暴击效果)",
+    "english":"* 1.014 (enemy crit effect)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"* 1.015 (敌人暴击效果)",
+    "english":"* 1.015 (enemy crit effect)",
+    "skill":"Fireball"
+  },{
+    "chinese":"* 1.30 ^8(门槛增幅)",
+    "english":"* 1.30 ^8(increased threshold)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"* 1.50 ^8(点燃暴击持续伤害加成)",
+    "english":"* 1.50 ^8(Ignite DoT Multi for Crit)",
+    "skill":"Fireball"
+  },{
+    "chinese":"* 11565.9 ^8(用于晕眩敌人的有效伤害)",
+    "english":"* 11565.9 ^8(effective enemy stun damage)",
+    "skill":"Fireball"
+  },{
+    "chinese":"* 4546.8 ^8(用于晕眩敌人的有效伤害)",
+    "english":"* 4546.8 ^8(effective enemy stun damage)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"* 4725.3 ^8(用于晕眩敌人的有效伤害)",
+    "english":"* 4725.3 ^8(effective enemy stun damage)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"+ 100 x 0.0030 ^8(暴击部分的几率)",
+    "english":"+ 100 x 0.0030 ^8(chance from crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"+ 100 x 0.0500 ^8(暴击部分的几率)",
+    "english":"+ 100 x 0.0500 ^8(chance from crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"+ 100 x 0.0600 ^8(暴击部分的几率)",
+    "english":"+ 100 x 0.0600 ^8(chance from crits)",
+    "skill":"Arc"
+  },{
+    "chinese":"+ 100 x 0.0756 ^8(暴击部分的几率)",
+    "english":"+ 100 x 0.0756 ^8(chance from crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"+ 100 x 0.1000 ^8(暴击部分的几率)",
+    "english":"+ 100 x 0.1000 ^8(chance from crits)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"+ 1014.8 x 0.0600 ^8(暴击伤害)",
+    "english":"+ 1014.8 x 0.0600 ^8(damage from crits)",
+    "skill":"Arc"
+  },{
+    "chinese":"+ 1765.5 x 0.0500 ^8(暴击伤害)",
+    "english":"+ 1765.5 x 0.0500 ^8(damage from crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"+ 208.3 x 0.0500 ^8(暴击伤害)",
+    "english":"+ 208.3 x 0.0500 ^8(damage from crits)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"+ 291.4 x 0.0500 ^8(暴击伤害)",
+    "english":"+ 291.4 x 0.0500 ^8(damage from crits)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"+ 404.2 x 0.0600 ^8(暴击伤害)",
+    "english":"+ 404.2 x 0.0600 ^8(damage from crits)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"+ 65.8 x 0.1000 ^8(暴击伤害)",
+    "english":"+ 65.8 x 0.1000 ^8(damage from crits)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"+ 706.6 x 0.0030 ^8(暴击伤害)",
+    "english":"+ 706.6 x 0.0030 ^8(damage from crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"+ 敌人穿透：0.03",
+    "english":"+ Enemy Pen: 0.03",
+    "skill":"Fireball"
+  },{
+    "chinese":"+ 能量护盾净再生：0.0",
+    "english":"+ Net Energy Shield Regen: 0.0",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"+ 魔力净再生：0.9",
+    "english":"+ Net Mana Regen: 0.9",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"+ [ (0.0030 x 1.5) ^8(暴击伤害占比)",
+    "english":"+ [ (0.0030 x 1.5) ^8(portion of damage from crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"+ [ (0.0500 x 1.3) ^8(暴击伤害占比)",
+    "english":"+ [ (0.0500 x 1.3) ^8(portion of damage from crits)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"+ [ (0.0500 x 1.5) ^8(暴击伤害占比)",
+    "english":"+ [ (0.0500 x 1.5) ^8(portion of damage from crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"+ [ (0.0600 x 1.5) ^8(暴击伤害占比)",
+    "english":"+ [ (0.0600 x 1.5) ^8(portion of damage from crits)",
+    "skill":"Arc"
+  },{
+    "chinese":"+ [ (0.1000 x 1.5) ^8(暴击伤害占比)",
+    "english":"+ [ (0.1000 x 1.5) ^8(portion of damage from crits)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"- 0.0 ^8(能量护盾总持续损失)",
+    "english":"- 0.0 ^8(total energy shield degen)",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"- 0.0 ^8(魔力总持续损失)",
+    "english":"- 0.0 ^8(total mana degen)",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"- 86.4 ^8(生命总持续损失)",
+    "english":"- 86.4 ^8(total life degen)",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"/ 0.00 ^8(寒冰护盾承担的比例)",
+    "english":"/ 0.00 ^8(portion taken from frost shield)",
+    "skill":"Fireball"
+  },{
+    "chinese":"/ 0.63 ^8(承受伤害修正)",
+    "english":"/ 0.63 ^8(modifiers to damage taken)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"/ 0.73 ^8(承受伤害修正)",
+    "english":"/ 0.73 ^8(modifiers to damage taken)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"/ 0.80 ^8(承受伤害修正)",
+    "english":"/ 0.80 ^8(modifiers to damage taken)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"/ 0.82 ^8(实际被击中的几率)",
+    "english":"/ 0.82 ^8(Chance to even be hit)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"/ 0.82 ^8(承受伤害修正)",
+    "english":"/ 0.82 ^8(modifiers to damage taken)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"/ 0.94 ^8(实际被击中的几率)",
+    "english":"/ 0.94 ^8(Chance to even be hit)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"/ 1 ^8(最大层数)",
+    "english":"/ 1 ^8(max number of stacks)",
+    "skill":"Fireball"
+  },{
+    "chinese":"/ 1.00 ^8(实际被击中的几率)",
+    "english":"/ 1.00 ^8(Chance to even be hit)",
+    "skill":"Fireball"
+  },{
+    "chinese":"/ 1.00 ^8(冷却回复提高／降低)",
+    "english":"/ 1.00 ^8(increased/reduced cooldown recovery)",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"/ 1.61 ^8(承受伤害修正)",
+    "english":"/ 1.61 ^8(modifiers to damage taken)",
+    "skill":"Fireball"
+  },{
+    "chinese":"/ 1.62 ^8(承受伤害修正)",
+    "english":"/ 1.62 ^8(modifiers to damage taken)",
+    "skill":"Fireball"
+  },{
+    "chinese":"/ 10715 ^8(晕眩门槛)",
+    "english":"/ 10715 ^8(stun threshold)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"/ 60 ^8(晕眩门槛)",
+    "english":"/ 60 ^8(stun threshold)",
+    "skill":"Fireball"
+  },{
+    "chinese":"/ 9942 ^8(晕眩门槛)",
+    "english":"/ 9942 ^8(stun threshold)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"0 ^8(基础值)",
+    "english":"0 ^8(base)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"0 ^8(寒冰护盾上限)",
+    "english":"0 ^8(frost shield limit)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0 ^8(来自宝石的等级)",
+    "english":"0 ^8(level from gem)",
+    "skill":"Puncture"
+  },{
+    "chinese":"0 ^8(能量护盾上限)",
+    "english":"0 ^8(maximum energy shield)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0 ^8(魔力上限)",
+    "english":"0 ^8(maximum mana)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"0 ^8(来自宝石的品质)",
+    "english":"0 ^8(quality from gem)",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8^70 至 0 (总伤害)",
+    "english":"0 to 0 ^8(total damage)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0 x (1 - 0.0030) ^8(非暴击部分的几率)",
+    "english":"0 x (1 - 0.0030) ^8(chance from non-crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"0 x (1 - 0.0500) ^8(非暴击部分的几率)",
+    "english":"0 x (1 - 0.0500) ^8(chance from non-crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0 x (1 - 0.0600) ^8(非暴击部分的几率)",
+    "english":"0 x (1 - 0.0600) ^8(chance from non-crits)",
+    "skill":"Arc"
+  },{
+    "chinese":"0 x (1 - 0.1000) ^8(非暴击部分的几率)",
+    "english":"0 x (1 - 0.1000) ^8(chance from non-crits)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"0%，在 4 秒内",
+    "english":"0% over 4 seconds",
+    "skill":"Fireball"
+  },{
+    "chinese":"0.0 ^8(每秒 33%)",
+    "english":"0.0 ^8(33% per second)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0.0 ^8(平均击中伤害)",
+    "english":"0.0 ^8(average hit)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"0.0 ^8(基础值)",
+    "english":"0.0 ^8(base)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0.0 ^8(能量护盾总再生)",
+    "english":"0.0 ^8(total energy shield regen)",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"0.0 ^8(生命总再生)",
+    "english":"0.0 ^8(total life regen)",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"0.00 ^8(抵御的击中次数)",
+    "english":"0.00 ^8(Number of mitigated hits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0.00 ^8(平均可承受的总击中次数)",
+    "english":"0.00 ^8(total average number of hits you can take)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0.00s ^8(基础值)",
+    "english":"0.00s ^8(base)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0.05 ^8(命中几率)",
+    "english":"0.05 ^8(chance to hit)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"0.1 ^8(平均伤害)",
+    "english":"0.1 ^8(average damage)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"0.28 ^8(基础值)",
+    "english":"0.28 ^8(base)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"0.30s ^8(基础值)",
+    "english":"0.30s ^8(base)",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"0.35s ^8(基础值)",
+    "english":"0.35s ^8(base)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0.50 ^8(基础值)",
+    "english":"0.50 ^8(base)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"0.60 ^8(基础值)",
+    "english":"0.60 ^8(base)",
+    "skill":"Arc"
+  },{
+    "chinese":"0.64 ^8(闪避失败的几率，仅用于攻击部分)",
+    "english":"0.64 ^8(chance for evasion to fail, only applies to the attack portion)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"0.72 ^8(基础值)",
+    "english":"0.72 ^8(base)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"0.75 ^8(基础值)",
+    "english":"0.75 ^8(base)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0.85 ^8(基础值)",
+    "english":"0.85 ^8(base)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"0.88 ^8(闪避失败的几率，仅用于攻击部分)",
+    "english":"0.88 ^8(chance for evasion to fail, only applies to the attack portion)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"0.9 ^8(基础值)",
+    "english":"0.9 ^8(base)",
+    "skill":"Fireball"
+  },{
+    "chinese":"0.9 ^8(魔力总再生)",
+    "english":"0.9 ^8(total mana regen)",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"1 / 0.50 ^8(击中间隔覆盖值)",
+    "english":"1 / 0.50 ^8(hit time override)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"1 / 0.60 ^8(击中间隔覆盖值)",
+    "english":"1 / 0.60 ^8(hit time override)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"1 / 6.01 ^8(技能冷却时间)",
+    "english":"1 / 6.01 ^8(skill cooldown)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"1 ^8(技能使用次数)",
+    "english":"1 ^8(skill use)",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"1.00 ^8(基础值)",
+    "english":"1.00 ^8(base)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"1.00 ^8(格挡失败的几率)",
+    "english":"1.00 ^8(chance for block to fail)",
+    "skill":"Fireball"
+  },{
+    "chinese":"1.00 ^8(命中几率)",
+    "english":"1.00 ^8(chance to hit)",
+    "skill":"Fireball"
+  },{
+    "chinese":"1.00 ^8(非暴击持续伤害加成)",
+    "english":"1.00 ^8(dot multiplier for non-crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"1.00 ^8(生命承担的比例)",
+    "english":"1.00 ^8(portion taken from life)",
+    "skill":"Fireball"
+  },{
+    "chinese":"1.17 ^8(基础值)",
+    "english":"1.17 ^8(base)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"1.18 ^8(基础值)",
+    "english":"1.18 ^8(base)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"1.31 ^8(抵御的击中次数)",
+    "english":"1.31 ^8(Number of mitigated hits)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"1.33 ^8(基础值)",
+    "english":"1.33 ^8(base)",
+    "skill":"Fireball"
+  },{
+    "chinese":"1.38 ^8(基础值)",
+    "english":"1.38 ^8(base)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"1.5 ^8(平均击中伤害)",
+    "english":"1.5 ^8(average hit)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"1.50 ^8(暴击持续伤害加成)",
+    "english":"1.50 ^8(dot multiplier for crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"1.59 ^8(平均可承受的总击中次数)",
+    "english":"1.59 ^8(total average number of hits you can take)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"1.67 ^8(基础值)",
+    "english":"1.67 ^8(base)",
+    "skill":"Arc"
+  },{
+    "chinese":"1.77 ^8(抵御的击中次数)",
+    "english":"1.77 ^8(Number of mitigated hits)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"1.89 ^8(平均可承受的总击中次数)",
+    "english":"1.89 ^8(total average number of hits you can take)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"1013.2 ^8(暴击来源伤害)",
+    "english":"1013.2 ^8(source damage from crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"1014.8 ^8(暴击来源伤害)",
+    "english":"1014.8 ^8(source damage from crits)",
+    "skill":"Arc"
+  },{
+    "chinese":"105.0 ^8(基础值)",
+    "english":"105.0 ^8(base)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"10714 ^8(使用的资源池)",
+    "english":"10714 ^8(used pool)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"10715 ^8(来自生命的基础值)",
+    "english":"10715 ^8(base from Life)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"10715 ^8(生命上限)",
+    "english":"10715 ^8(maximum life)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"10715 ^8(使用的资源池)",
+    "english":"10715 ^8(used pool)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"^8^7113 至 256 (中毒每秒伤害范围)",
+    "english":"113 to 256 ^8(Poison DPS Range)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"1177.0 x (1 - 0.0500) ^8(非暴击伤害)",
+    "english":"1177.0 x (1 - 0.0500) ^8(damage from non-crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"1206.4 ^8(平均击中伤害)",
+    "english":"1206.4 ^8(average hit)",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8^7140 至 211 (来自技能的基础伤害)",
+    "english":"140 to 211 ^8(base damage from skill)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"^8^7140 至 211 (总伤害)",
+    "english":"140 to 211 ^8(total damage)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"142.1 ^8(每秒伤害)",
+    "english":"142.1 ^8(damage per second)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"142.1 ^8单层中毒每秒伤害^7",
+    "english":"142.1 ^8single poison damage per second",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"^8^7150 至 449 (来自技能的基础伤害)",
+    "english":"150 to 449 ^8(base damage from skill)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"16.00 ^8(基础魔力消耗)",
+    "english":"16.00 ^8(base mana cost)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"160.2 x (1 - 0.0500) ^8(非暴击伤害)",
+    "english":"160.2 x (1 - 0.0500) ^8(damage from non-crits)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"162.7 ^8(平均伤害)",
+    "english":"162.7 ^8(average damage)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"162.7 ^8(平均击中伤害)",
+    "english":"162.7 ^8(average hit)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"^8^71883 至 2825 (来自技能的基础伤害)",
+    "english":"1883 to 2825 ^8(base damage from skill)",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8^71883 至 2825 (总伤害)",
+    "english":"1883 to 2825 ^8(total damage)",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8^7198 至 1122 (来自技能的基础伤害)",
+    "english":"198 to 1122 ^8(base damage from skill)",
+    "skill":"Arc"
+  },{
+    "chinese":"^8^72 至 6 (来自武器的基础伤害)",
+    "english":"2 to 6 ^8(base damage from weapon)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"^8^72 至 6 (总伤害)",
+    "english":"2 to 6 ^8(total damage)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"2.00 ^8(基础值)",
+    "english":"2.00 ^8(base)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"2.00s ^8(中毒持续时间)",
+    "english":"2.00s ^8(poison duration)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"20 ^8(来自宝石的等级)",
+    "english":"20 ^8(level from gem)",
+    "skill":"Fireball"
+  },{
+    "chinese":"20.00 ^8(基础魔力消耗)",
+    "english":"20.00 ^8(base mana cost)",
+    "skill":"Fireball"
+  },{
+    "chinese":"200% ^8(晕眩倍率)",
+    "english":"200% ^8(stun multiplier)",
+    "skill":"Fireball"
+  },{
+    "chinese":"203.0 ^8(基础每秒伤害)",
+    "english":"203.0 ^8(base damage per second)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"21.00 ^8(基础魔力消耗)",
+    "english":"21.00 ^8(base mana cost)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"214.3 ^8(基础值)",
+    "english":"214.3 ^8(base)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"224.1 x (1 - 0.0500) ^8(非暴击伤害)",
+    "english":"224.1 x (1 - 0.0500) ^8(damage from non-crits)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"2268.6 传入伤害",
+    "english":"2268.6 incoming damage",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"227.5 ^8(平均伤害)",
+    "english":"227.5 ^8(average damage)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"227.5 ^8(平均击中伤害)",
+    "english":"227.5 ^8(average hit)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"2272.6 传入伤害",
+    "english":"2272.6 incoming damage",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"2274.6 传入伤害",
+    "english":"2274.6 incoming damage",
+    "skill":"Fireball"
+  },{
+    "chinese":"23.6 ^8(平均伤害)",
+    "english":"23.6 ^8(average damage)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"2453.2 ^8(非暴击来源伤害)",
+    "english":"2453.2 ^8(source damage from non-crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"2480.1 ^8(基础每秒伤害)",
+    "english":"2480.1 ^8(base damage per second)",
+    "skill":"Fireball"
+  },{
+    "chinese":"25 x (1 - 0.0756) ^8(非暴击部分的几率)",
+    "english":"25 x (1 - 0.0756) ^8(chance from non-crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"269.5 x (1 - 0.0600) ^8(非暴击伤害)",
+    "english":"269.5 x (1 - 0.0600) ^8(damage from non-crits)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"^8^7270 至 808 (总伤害)",
+    "english":"270 to 808 ^8(total damage)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"277.6 ^8(平均击中伤害)",
+    "english":"277.6 ^8(average hit)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"28.00 ^8(基础魔力消耗)",
+    "english":"28.00 ^8(base mana cost)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"29.00 ^8(基础魔力消耗)",
+    "english":"29.00 ^8(base mana cost)",
+    "skill":"Arc"
+  },{
+    "chinese":"^8^73 至 9 (总伤害)",
+    "english":"3 to 9 ^8(total damage)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"3.00 ^8(基础魔力消耗)",
+    "english":"3.00 ^8(base mana cost)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"3.60 ^8(基础值)",
+    "english":"3.60 ^8(base)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"3679.7 ^8(暴击来源伤害)",
+    "english":"3679.7 ^8(source damage from crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8^7385 至 897 (来自武器的基础伤害)",
+    "english":"385 to 897 ^8(base damage from weapon)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"^8^7385 至 897 (总伤害)",
+    "english":"385 to 897 ^8(total damage)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"4.00s ^8(基础值)",
+    "english":"4.00s ^8(base)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"40 ^8(基础值)",
+    "english":"40 ^8(base)",
+    "skill":"Fireball"
+  },{
+    "chinese":"404.2 ^8(暴击来源伤害)",
+    "english":"404.2 ^8(source damage from crits)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"^8^7406 至 2300 (总伤害)",
+    "english":"406 to 2300 ^8(total damage)",
+    "skill":"Arc"
+  },{
+    "chinese":"42.0 ^8(基础每秒伤害)",
+    "english":"42.0 ^8(base damage per second)",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"43.9 x (1 - 0.1000) ^8(非暴击伤害)",
+    "english":"43.9 x (1 - 0.1000) ^8(damage from non-crits)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"46.1 ^8(平均击中伤害)",
+    "english":"46.1 ^8(average hit)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"471.0 x (1 - 0.0030) ^8(非暴击伤害)",
+    "english":"471.0 x (1 - 0.0030) ^8(damage from non-crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"471.8 ^8(平均击中伤害)",
+    "english":"471.8 ^8(average hit)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"5.00s ^8(基础值)",
+    "english":"5.00s ^8(base)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"50 ^8(魔力上限)",
+    "english":"50 ^8(maximum mana)",
+    "skill":"Fireball"
+  },{
+    "chinese":"50% (按不超过 1 层点燃取平均)",
+    "english":"50% (averaging <= 1 ignites)",
+    "skill":"Arc"
+  },{
+    "chinese":"^8^7537 至 806 (附加伤害)",
+    "english":"537 to 806 ^8(added damage)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"^8^7537 至 806 (总伤害)",
+    "english":"537 to 806 ^8(total damage)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"54.00 ^8(基础魔力消耗)",
+    "english":"54.00 ^8(base mana cost)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"55.54% 的最大中毒每秒伤害",
+    "english":"55.54% of Maximum Poison DPS",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"5542 ^8(基础值)",
+    "english":"5542 ^8(base)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"6.00s ^8(基础值)",
+    "english":"6.00s ^8(base)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"6.01 ^8(基础值)",
+    "english":"6.01 ^8(base)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"60 ^8(来自生命的基础值)",
+    "english":"60 ^8(base from Life)",
+    "skill":"Fireball"
+  },{
+    "chinese":"60 ^8(生命上限)",
+    "english":"60 ^8(maximum life)",
+    "skill":"Fireball"
+  },{
+    "chinese":"60 ^8(使用的资源池)",
+    "english":"60 ^8(used pool)",
+    "skill":"Fireball"
+  },{
+    "chinese":"61 ^8(使用的资源池)",
+    "english":"61 ^8(used pool)",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8^7638 至 1907 (点燃每秒伤害范围)",
+    "english":"638 to 1907 ^8(Ignite DPS Range)",
+    "skill":"Fireball"
+  },{
+    "chinese":"65.03% 的最大点燃每秒伤害",
+    "english":"65.03% of Maximum Ignite DPS",
+    "skill":"Fireball"
+  },{
+    "chinese":"675.5 ^8(非暴击来源伤害)",
+    "english":"675.5 ^8(source damage from non-crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"676.5 x (1 - 0.0600) ^8(非暴击伤害)",
+    "english":"676.5 x (1 - 0.0600) ^8(damage from non-crits)",
+    "skill":"Arc"
+  },{
+    "chinese":"696.8 ^8(平均击中伤害)",
+    "english":"696.8 ^8(average hit)",
+    "skill":"Arc"
+  },{
+    "chinese":"^8^7717 至 1076 (来自武器的基础伤害)",
+    "english":"717 to 1076 ^8(base damage from weapon)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"^8^7717 至 1076 (总伤害)",
+    "english":"717 to 1076 ^8(total damage)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"7648 ^8(来自生命的基础值)",
+    "english":"7648 ^8(base from Life)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"7648 ^8(生命上限)",
+    "english":"7648 ^8(maximum life)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"7648 ^8(使用的资源池)",
+    "english":"7648 ^8(used pool)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"8.00s ^8(基础值)",
+    "english":"8.00s ^8(base)",
+    "skill":"Fireball"
+  },{
+    "chinese":"9.00 ^8(基础魔力消耗)",
+    "english":"9.00 ^8(base mana cost)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"907.0 传入伤害",
+    "english":"907.0 incoming damage",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"908.6 传入伤害",
+    "english":"908.6 incoming damage",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"909.4 传入伤害",
+    "english":"909.4 incoming damage",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 0 至 0",
+    "english":"= 0 to 0",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 0 至 1",
+    "english":"= 0 to 1",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 0 至 2",
+    "english":"= 0 to 2",
+    "skill":"Cyclone"
+  },{
+    "chinese":"= 0.0 ^8每秒^7",
+    "english":"= 0.0 ^8per second",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 0.00 ^8(平均可承受的总击中次数)",
+    "english":"= 0.00 ^8(total average number of hits you can take)",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8^7= 0.00 秒 (预估死亡所需时间)",
+    "english":"= 0.00 seconds ^8(total time it would take to die)",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 0.1 ^8(总爆发伤害)",
+    "english":"= 0.1 ^8(total burst damage)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"= 0.17 ^8(每秒施法次数)",
+    "english":"= 0.17 ^8(casts per second)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 0.17 ^8(较低的施法频率)",
+    "english":"= 0.17 ^8(lower of cast rates)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 0.28 ^8每次攻击的秒数^7",
+    "english":"= 0.28 ^8seconds per attack",
+    "skill":"Cyclone"
+  },{
+    "chinese":"= 0.50 ^8每次攻击的秒数^7",
+    "english":"= 0.50 ^8seconds per attack",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"= 0.60 ^8每次攻击的秒数^7",
+    "english":"= 0.60 ^8seconds per attack",
+    "skill":"Arc"
+  },{
+    "chinese":"= 0.72 ^8每次攻击的秒数^7",
+    "english":"= 0.72 ^8seconds per attack",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 0.75 ^8每次攻击的秒数^7",
+    "english":"= 0.75 ^8seconds per attack",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 0.85 ^8每秒施法次数^7",
+    "english":"= 0.85 ^8casts per second",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 0.85 ^8每次攻击的秒数^7",
+    "english":"= 0.85 ^8seconds per attack",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 0.9 ^8每秒^7",
+    "english":"= 0.9 ^8per second",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 1.00 ^8(有效移动速度修正)",
+    "english":"= 1.00 ^8(effective movement speed modifier)",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 1.00 ^8每秒施法次数^7",
+    "english":"= 1.00 ^8casts per second",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 1.00 ^8每次攻击的秒数^7",
+    "english":"= 1.00 ^8seconds per attack",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"^8^7= 1.11 秒 (预估死亡所需时间)",
+    "english":"= 1.11 seconds ^8(total time it would take to die)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 1.17 ^8每次攻击的秒数^7",
+    "english":"= 1.17 ^8seconds per attack",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 1.18 ^8每秒施法次数^7",
+    "english":"= 1.18 ^8casts per second",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"^8^7= 1.32 秒 (预估死亡所需时间)",
+    "english":"= 1.32 seconds ^8(total time it would take to die)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 1.33 ^8每秒施法次数^7",
+    "english":"= 1.33 ^8casts per second",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 1.38 ^8每秒施法次数^7",
+    "english":"= 1.38 ^8casts per second",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 1.59 ^8(平均可承受的总击中次数)",
+    "english":"= 1.59 ^8(total average number of hits you can take)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 1.67 ^8每秒施法次数^7",
+    "english":"= 1.67 ^8casts per second",
+    "skill":"Arc"
+  },{
+    "chinese":"= 1.89 ^8(平均可承受的总击中次数)",
+    "english":"= 1.89 ^8(total average number of hits you can take)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 10.80 每秒",
+    "english":"= 10.80 per second",
+    "skill":"Cyclone"
+  },{
+    "chinese":"= 100% ^8(被平均类型击中的几率)",
+    "english":"= 100% ^8(chance to be hit by an Average hit)",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 100.0% ^8(承受的平均类型击中伤害比例)",
+    "english":"= 100.0% ^8(of damage taken from an Average hit)",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 105.0 ^8每秒^7",
+    "english":"= 105.0 ^8per second",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 10510 ^8可承受的最大敌人伤害^7",
+    "english":"= 10510 ^8maximum survivable enemy damage",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 12.42 每秒",
+    "english":"= 12.42 per second",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 1206.4 ^8(总爆发伤害)",
+    "english":"= 1206.4 ^8(total burst damage)",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 12140 ^8可承受的最大敌人伤害^7",
+    "english":"= 12140 ^8maximum survivable enemy damage",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 1240.0 ^8每秒^7",
+    "english":"= 1240.0 ^8per second",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 13025 ^8可承受的最大敌人伤害^7",
+    "english":"= 13025 ^8maximum survivable enemy damage",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 13394 ^8可承受的最大敌人伤害^7",
+    "english":"= 13394 ^8maximum survivable enemy damage",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 135 至 404",
+    "english":"= 135 to 404",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"= 140.0 至 211.0",
+    "english":"= 140.0 to 211.0",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"= 142.1 ^8每秒^7",
+    "english":"= 142.1 ^8per second",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 150.0 至 449.0",
+    "english":"= 150.0 to 449.0",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"= 15699 ^8(可承受的总伤害)",
+    "english":"= 15699 ^8(total damage you can take)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 162.7 ^8(总爆发伤害)",
+    "english":"= 162.7 ^8(total burst damage)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 17008 ^8可承受的最大敌人伤害^7",
+    "english":"= 17008 ^8maximum survivable enemy damage",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 179 至 269",
+    "english":"= 179 to 269",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 18589 ^8(可承受的总伤害)",
+    "english":"= 18589 ^8(total damage you can take)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 1883.0 至 2825.0",
+    "english":"= 1883.0 to 2825.0",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 198.0 至 1122.0",
+    "english":"= 198.0 to 1122.0",
+    "skill":"Arc"
+  },{
+    "chinese":"= 2.0 至 6.0",
+    "english":"= 2.0 to 6.0",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 2.00 ^8每秒施法次数^7",
+    "english":"= 2.00 ^8casts per second",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"= 203 至 1150",
+    "english":"= 203 to 1150",
+    "skill":"Arc"
+  },{
+    "chinese":"= 21.0 ^8每秒^7",
+    "english":"= 21.0 ^8per second",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"= 214.3 ^8每秒^7",
+    "english":"= 214.3 ^8per second",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 227.5 ^8(总爆发伤害)",
+    "english":"= 227.5 ^8(total burst damage)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 23.6 ^8(总爆发伤害)",
+    "english":"= 23.6 ^8(total burst damage)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 26.67 每秒",
+    "english":"= 26.67 per second",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 277.6 ^8(总爆发伤害)",
+    "english":"= 277.6 ^8(total burst damage)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"= 28.00 每秒",
+    "english":"= 28.00 per second",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"= 284.1 ^8每层中毒的伤害^7",
+    "english":"= 284.1 ^8damage per poison stack",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 3.0 至 9.0",
+    "english":"= 3.0 to 9.0",
+    "skill":"Cyclone"
+  },{
+    "chinese":"= 3.60 ^8每秒施法次数^7",
+    "english":"= 3.60 ^8casts per second",
+    "skill":"Cyclone"
+  },{
+    "chinese":"= 32.00 每秒",
+    "english":"= 32.00 per second",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"= 32.94 每秒",
+    "english":"= 32.94 per second",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 35 至 52",
+    "english":"= 35 to 52",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"= 37 ^8可承受的最大敌人伤害^7",
+    "english":"= 37 ^8maximum survivable enemy damage",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 375 至 564",
+    "english":"= 375 to 564",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 38 ^8(可承受的总伤害)",
+    "english":"= 38 ^8(total damage you can take)",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 38 ^8可承受的最大敌人伤害^7",
+    "english":"= 38 ^8maximum survivable enemy damage",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 385.0 至 897.0",
+    "english":"= 385.0 to 897.0",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 46.1 ^8(总爆发伤害)",
+    "english":"= 46.1 ^8(total burst damage)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"= 48.33 每秒",
+    "english":"= 48.33 per second",
+    "skill":"Arc"
+  },{
+    "chinese":"= 537.0 至 806.0",
+    "english":"= 537.0 to 806.0",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 6.00% ^8(暴击几率)",
+    "english":"= 6.00% ^8(crit chance)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 6.01 ^8每次攻击的秒数^7",
+    "english":"= 6.01 ^8seconds per attack",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 60 ^8可承受的最大敌人伤害^7",
+    "english":"= 60 ^8maximum survivable enemy damage",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 696.8 ^8(总爆发伤害)",
+    "english":"= 696.8 ^8(total burst damage)",
+    "skill":"Arc"
+  },{
+    "chinese":"= 7.8 ^8每秒^7",
+    "english":"= 7.8 ^8per second",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"= 717.0 至 1076.0",
+    "english":"= 717.0 to 1076.0",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 8.99 每秒",
+    "english":"= 8.99 per second",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 82% ^8(被平均类型击中的几率)",
+    "english":"= 82% ^8(chance to be hit by an Average hit)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 94% ^8(被平均类型击中的几率)",
+    "english":"= 94% ^8(chance to be hit by an Average hit)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"= 941 至 1412",
+    "english":"= 941 to 1412",
+    "skill":"Fireball"
+  },{
+    "chinese":"= 9560 ^8可承受的最大敌人伤害^7",
+    "english":"= 9560 ^8maximum survivable enemy damage",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 96 至 224",
+    "english":"= 96 to 224",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"= 总净再生：-85.5",
+    "english":"= Total Net Regen: -85.5",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"异常状态门槛",
+    "english":"Ailment Threshold",
+    "skill":"Arc"
+  },{
+    "chinese":"^8^7异常状态计算模式：平均伤害 (可在配置页更改)",
+    "english":"Ailment mode: Average Damage ^8(can be changed in the Configuration tab)",
+    "skill":"Fireball"
+  },{
+    "chinese":"估算闪避几率：0%",
+    "english":"Approximate evade chance: 0%",
+    "skill":"Fireball"
+  },{
+    "chinese":"估算闪避几率：12%",
+    "english":"Approximate evade chance: 12%",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"估算闪避几率：36%",
+    "english":"Approximate evade chance: 36%",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"估算命中几率：5%",
+    "english":"Approximate hit chance: 5%",
+    "skill":"Cyclone"
+  },{
+    "chinese":"估算近战闪避几率：0%",
+    "english":"Approximate melee evade chance: 0%",
+    "skill":"Fireball"
+  },{
+    "chinese":"估算近战闪避几率：12%",
+    "english":"Approximate melee evade chance: 12%",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"估算近战闪避几率：36%",
+    "english":"Approximate melee evade chance: 36%",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"估算投射物闪避几率：0%",
+    "english":"Approximate projectile evade chance: 0%",
+    "skill":"Fireball"
+  },{
+    "chinese":"估算投射物闪避几率：12%",
+    "english":"Approximate projectile evade chance: 12%",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"估算投射物闪避几率：36%",
+    "english":"Approximate projectile evade chance: 36%",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"假设敌人尚未中毒",
+    "english":"Assuming 'non-Poisoned' Enemy",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"平均点燃每秒伤害:",
+    "english":"Average Ignite DPS:",
+    "skill":"Fireball"
+  },{
+    "chinese":"点燃平均伤害取值:",
+    "english":"Average Ignite Roll:",
+    "skill":"Fireball"
+  },{
+    "chinese":"敌人平均命中值：538",
+    "english":"Average enemy accuracy: 538",
+    "skill":"Fireball"
+  },{
+    "chinese":"基础值",
+    "english":"Base",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"基础类型",
+    "english":"Base Type",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"基础伤害:",
+    "english":"Base damage:",
+    "skill":"Fireball"
+  },{
+    "chinese":"基础值：0%",
+    "english":"Base: 0%",
+    "skill":"Fireball"
+  },{
+    "chinese":"暴击时的几率：100%",
+    "english":"Chance on Crit: 100%",
+    "skill":"Fireball"
+  },{
+    "chinese":"暴击时的几率：40%",
+    "english":"Chance on Crit: 40%",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"非暴击时的几率：0%",
+    "english":"Chance on Non-crit: 0%",
+    "skill":"Fireball"
+  },{
+    "chinese":"非暴击时的几率：100%",
+    "english":"Chance on Non-crit: 100%",
+    "skill":"Fireball"
+  },{
+    "chinese":"非暴击时的几率：25%",
+    "english":"Chance on Non-crit: 25%",
+    "skill":"Fireball"
+  },{
+    "chinese":"非暴击时的几率：40%",
+    "english":"Chance on Non-crit: 40%",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"综合几率:",
+    "english":"Combined chance:",
+    "skill":"Fireball"
+  },{
+    "chinese":"暴击部分的贡献:",
+    "english":"Contribution from Crits:",
+    "skill":"Fireball"
+  },{
+    "chinese":"非暴击部分的贡献:",
+    "english":"Contribution from Non-crits:",
+    "skill":"Fireball"
+  },{
+    "chinese":"转化比例",
+    "english":"Conversion",
+    "skill":"Fireball"
+  },{
+    "chinese":"暴击",
+    "english":"Crit",
+    "skill":"Fireball"
+  },{
+    "chinese":"暴击伤害推导:",
+    "english":"Crit Dmg Derivation:",
+    "skill":"Fireball"
+  },{
+    "chinese":"暴击确认判定:",
+    "english":"Crit confirmation roll:",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"每秒伤害范围:",
+    "english":"DPS Range:",
+    "skill":"Fireball"
+  },{
+    "chinese":"暴击伤害:",
+    "english":"Damage from Crits:",
+    "skill":"Fireball"
+  },{
+    "chinese":"非暴击伤害:",
+    "english":"Damage from Non-crits:",
+    "skill":"Fireball"
+  },{
+    "chinese":"持续损失",
+    "english":"Degen",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"敏捷",
+    "english":"Dex",
+    "skill":"Fireball"
+  },{
+    "chinese":"伤害推导:",
+    "english":"Dmg Derivation:",
+    "skill":"Arc"
+  },{
+    "chinese":"持续伤害加成:",
+    "english":"DoT Multiplier:",
+    "skill":"Fireball"
+  },{
+    "chinese":"承受持续伤害的修正：0.60",
+    "english":"Dot Damage Taken modifier: 0.60",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"承受持续伤害的修正：0.80",
+    "english":"Dot Damage Taken modifier: 0.80",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"承受持续伤害的修正：1.00",
+    "english":"Dot Damage Taken modifier: 1.00",
+    "skill":"Fireball"
+  },{
+    "chinese":"承受持续伤害的修正：1.60",
+    "english":"Dot Damage Taken modifier: 1.60",
+    "skill":"Fireball"
+  },{
+    "chinese":"有效每秒伤害修正:",
+    "english":"Effective DPS modifier:",
+    "skill":"Fireball"
+  },{
+    "chinese":"有效持续伤害加成:",
+    "english":"Effective DoT Multiplier:",
+    "skill":"Fireball"
+  },{
+    "chinese":"有效闪避值：16",
+    "english":"Effective Evasion: 16",
+    "skill":"Fireball"
+  },{
+    "chinese":"有效闪避值：19",
+    "english":"Effective Evasion: 19",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"有效闪避值：2032",
+    "english":"Effective Evasion: 2032",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"有效闪避值：5081",
+    "english":"Effective Evasion: 5081",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"有效充能速度:",
+    "english":"Effective Recharge rate:",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8^7敌人击中伤害：2268 (总传入伤害)",
+    "english":"Enemy Hit Damage: 2268 ^8(total incoming damage)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"^8^7敌人击中伤害：2272 (总传入伤害)",
+    "english":"Enemy Hit Damage: 2272 ^8(total incoming damage)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"敌人闪避值：10143",
+    "english":"Enemy evasion: 10143",
+    "skill":"Cyclone"
+  },{
+    "chinese":"^8^7敌人等级：84 (可在配置页覆盖)",
+    "english":"Enemy level: 84 ^8(can be overridden in the Configuration tab)",
+    "skill":"Fireball"
+  },{
+    "chinese":"敌人物理伤害减免：75%",
+    "english":"Enemy physical damage reduction: 75%",
+    "skill":"Cyclone"
+  },{
+    "chinese":"敌人抗性：30%",
+    "english":"Enemy resistance: 30%",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"敌人抗性：50%",
+    "english":"Enemy resistance: 50%",
+    "skill":"Fireball"
+  },{
+    "chinese":"能量护盾恢复:",
+    "english":"Energy Shield Regeneration:",
+    "skill":"Fireball"
+  },{
+    "chinese":"最终值",
+    "english":"Final",
+    "skill":"Fireball"
+  },{
+    "chinese":"最终承受的混沌伤害:",
+    "english":"Final Chaos Damage taken:",
+    "skill":"Fireball"
+  },{
+    "chinese":"最终承受的冰霜伤害:",
+    "english":"Final Cold Damage taken:",
+    "skill":"Fireball"
+  },{
+    "chinese":"最终承受的火焰伤害:",
+    "english":"Final Fire Damage taken:",
+    "skill":"Fireball"
+  },{
+    "chinese":"最终承受的闪电伤害:",
+    "english":"Final Lightning Damage taken:",
+    "skill":"Fireball"
+  },{
+    "chinese":"最终承受的物理伤害:",
+    "english":"Final Physical Damage taken:",
+    "skill":"Fireball"
+  },{
+    "chinese":"最终类型",
+    "english":"Final Type",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"来源",
+    "english":"From",
+    "skill":"Fireball"
+  },{
+    "chinese":"击中伤害:",
+    "english":"Hit damage:",
+    "skill":"Fireball"
+  },{
+    "chinese":"承受",
+    "english":"Incoming",
+    "skill":"Fireball"
+  },{
+    "chinese":"智慧",
+    "english":"Int",
+    "skill":"Fireball"
+  },{
+    "chinese":"生命回复:",
+    "english":"Life Regeneration:",
+    "skill":"Fireball"
+  },{
+    "chinese":"生命: 10715",
+    "english":"Life: 10715",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"生命: 60",
+    "english":"Life: 60",
+    "skill":"Fireball"
+  },{
+    "chinese":"生命: 7648",
+    "english":"Life: 7648",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"主手:",
+    "english":"Main Hand:",
+    "skill":"Cyclone"
+  },{
+    "chinese":"魔力再生:",
+    "english":"Mana Regeneration:",
+    "skill":"Fireball"
+  },{
+    "chinese":"最大值: 75%",
+    "english":"Max: 75%",
+    "skill":"Fireball"
+  },{
+    "chinese":"最大承受击中伤害明细",
+    "english":"Maximum hit damage breakdown",
+    "skill":"Fireball"
+  },{
+    "chinese":"取最大值:",
+    "english":"Maximum of:",
+    "skill":"Fireball"
+  },{
+    "chinese":"最小值：-200%",
+    "english":"Min: -200%",
+    "skill":"Fireball"
+  },{
+    "chinese":"倍率",
+    "english":"Mult",
+    "skill":"Fireball"
+  },{
+    "chinese":"加成",
+    "english":"Multi",
+    "skill":"Fireball"
+  },{
+    "chinese":"倍率",
+    "english":"Multiplier",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"生命净再生：-86.4",
+    "english":"Net Life Regen: -86.4",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"非暴击伤害推导:",
+    "english":"Non-Crit Dmg Derivation:",
+    "skill":"Fireball"
+  },{
+    "chinese":"未被穿透的能量护盾：0",
+    "english":"Non-bypassed Energy Shield: 0",
+    "skill":"Fireball"
+  },{
+    "chinese":"中毒每秒伤害:",
+    "english":"Poison DPS:",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"资源池",
+    "english":"Pool",
+    "skill":"Fireball"
+  },{
+    "chinese":"总伤害占比：0%",
+    "english":"Portion of total damage: 0%",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"总伤害占比：100%",
+    "english":"Portion of total damage: 100%",
+    "skill":"Fireball"
+  },{
+    "chinese":"总伤害占比：99%",
+    "english":"Portion of total damage: 99%",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"怒火再生:",
+    "english":"Rage Regeneration:",
+    "skill":"Fireball"
+  },{
+    "chinese":"充能速度:",
+    "english":"Recharge rate:",
+    "skill":"Fireball"
+  },{
+    "chinese":"护甲减伤：0.37",
+    "english":"Reduction from Armour: 0.37",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"护甲减伤：0.45",
+    "english":"Reduction from Armour: 0.45",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"护甲减伤：55%",
+    "english":"Reduction from Armour: 55%",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"护甲减伤：63%",
+    "english":"Reduction from Armour: 63%",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"抗性：0.60",
+    "english":"Resistance: 0.60",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"抗性：0.80",
+    "english":"Resistance: 0.80",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"抗性：1.60",
+    "english":"Resistance: 1.60",
+    "skill":"Fireball"
+  },{
+    "chinese":"最终异常状态效果",
+    "english":"Resulting ailment effect",
+    "skill":"Arc"
+  },{
+    "chinese":"感电效果",
+    "english":"Shock Effect",
+    "skill":"Arc"
+  },{
+    "chinese":"来源",
+    "english":"Source",
+    "skill":"Fireball"
+  },{
+    "chinese":"来源名称",
+    "english":"Source Name",
+    "skill":"Fireball"
+  },{
+    "chinese":"力量",
+    "english":"Str",
+    "skill":"Fireball"
+  },{
+    "chinese":"此击中将消耗以下资源：",
+    "english":"Such a hit would drain the following resources:",
+    "skill":"Fireball"
+  },{
+    "chinese":"承受的伤害",
+    "english":"Taken",
+    "skill":"Fireball"
+  },{
+    "chinese":"转为该类型承受的比例",
+    "english":"Taken As Percent",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"此次击中的这一部分将消耗以下资源：",
+    "english":"This part of the hit drains the following resources:",
+    "skill":"Fireball"
+  },{
+    "chinese":"合计",
+    "english":"Total",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"总有效持续承伤资源池：10715",
+    "english":"Total Effective Dot Pool: 10715",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"总有效持续承伤资源池：12746",
+    "english":"Total Effective Dot Pool: 12746",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"总有效持续承伤资源池：13393",
+    "english":"Total Effective Dot Pool: 13393",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"总有效持续承伤资源池：17858",
+    "english":"Total Effective Dot Pool: 17858",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"总有效持续承伤资源池：37",
+    "english":"Total Effective Dot Pool: 37",
+    "skill":"Fireball"
+  },{
+    "chinese":"总有效持续承伤资源池：60",
+    "english":"Total Effective Dot Pool: 60",
+    "skill":"Fireball"
+  },{
+    "chinese":"总有效持续承伤资源池：7648",
+    "english":"Total Effective Dot Pool: 7648",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"总有效持续承伤资源池：9560",
+    "english":"Total Effective Dot Pool: 9560",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"能量护盾持续损失总量",
+    "english":"Total Energy Shield Degen",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"生命持续损失总量",
+    "english":"Total Life Degen",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"魔力持续损失总量",
+    "english":"Total Mana Degen",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"总承伤池: 10715",
+    "english":"Total Pool: 10715",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"总承伤池: 60",
+    "english":"Total Pool: 60",
+    "skill":"Fireball"
+  },{
+    "chinese":"总承伤池: 7648",
+    "english":"Total Pool: 7648",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"敌人造成的总伤害",
+    "english":"Total damage from the enemy",
+    "skill":"Fireball"
+  },{
+    "chinese":"减免后承受的总伤害",
+    "english":"Total damage taken after mitigation",
+    "skill":"Fireball"
+  },{
+    "chinese":"伤害承受转化后承受的敌人总伤害",
+    "english":"Total damage taken from the enemy after taken as",
+    "skill":"Fireball"
+  },{
+    "chinese":"总伤害:",
+    "english":"Total damage:",
+    "skill":"Fireball"
+  },{
+    "chinese":"受保护的生命总量:",
+    "english":"Total life protected:",
+    "skill":"Fireball"
+  },{
+    "chinese":"合计: -60%",
+    "english":"Total: -60%",
+    "skill":"Fireball"
+  },{
+    "chinese":"合计: 0%",
+    "english":"Total: 0%",
+    "skill":"Fireball"
+  },{
+    "chinese":"合计: 20%",
+    "english":"Total: 20%",
+    "skill":"Fireball"
+  },{
+    "chinese":"合计: 40%",
+    "english":"Total: 40%",
+    "skill":"Fireball"
+  },{
+    "chinese":"总资源池：10715",
+    "english":"TotalPool: 10715",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"总资源池：60",
+    "english":"TotalPool: 60",
+    "skill":"Fireball"
+  },{
+    "chinese":"总资源池：7648",
+    "english":"TotalPool: 7648",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"类型",
+    "english":"Type",
+    "skill":"Fireball"
+  },{
+    "chinese":"数值",
+    "english":"Value",
+    "skill":"Fireball"
+  },{
+    "chinese":"你无法造成混沌伤害",
+    "english":"You can't deal Chaos damage",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"你无法造成冰霜伤害",
+    "english":"You can't deal Cold damage",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"你无法造成火焰伤害",
+    "english":"You can't deal Fire damage",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"你无法造成闪电伤害",
+    "english":"You can't deal Lightning damage",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"你无法造成物理伤害",
+    "english":"You can't deal Physical damage",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"^8(异常状态门槛约等于生命；部分首领有特定的异常状态门槛)\n(上表表示敌人的异常状态门槛为 X 时，你施加的感电对应数值为 Y)",
+    "english":"^8(ailment threshold is about equal to life, except on bosses that have specific ailment thresholds)\n(the above table shows that when the enemy has X ailment threshold, you ^8shock for Y)",
+    "skill":"Arc"
+  },{
+    "chinese":"^8(两次击中的间隔长于中毒持续时间)",
+    "english":"^8(time between hits is longer than poison duration)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"^8最大承受击中按反向顺序计算——",
+    "english":"^8Maximum hit is calculated in reverse -",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8下一个 0.1 米临界点：效果区域提高 11%／总增 11%",
+    "english":"^8Next 0.1m breakpoint: 11% increased AoE / a 11% more AoE multiplier",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"^8下一个 0.1 米临界点：效果区域提高 13%／总增 13%",
+    "english":"^8Next 0.1m breakpoint: 13% increased AoE / a 13% more AoE multiplier",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8下一个 0.1 米临界点：效果区域提高 15%／总增 15%",
+    "english":"^8Next 0.1m breakpoint: 15% increased AoE / a 15% more AoE multiplier",
+    "skill":"Cyclone"
+  },{
+    "chinese":"^8下一个 0.1 米临界点：效果区域提高 26%／总增 26%",
+    "english":"^8Next 0.1m breakpoint: 26% increased AoE / a 26% more AoE multiplier",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"^8上一个 0.1 米临界点：效果区域降低 1%／总降 1%",
+    "english":"^8Previous 0.1m breakpoint: 1% reduced AoE / a 1% less AoE multiplier",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8此击中将消耗以下资源：",
+    "english":"^8Such a hit would drain the following resources:",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8从生命等资源池出发，经过各项减伤，推算可承受的最大击中：",
+    "english":"^8from health pools, via damage reductions, to the max hit:",
+    "skill":"Fireball"
+  },{
+    "chinese":"^8合并来源最小值 + (合并来源最大值 - 合并来源最小值) * 平均点燃浮动值",
+    "english":"^8min combined sources + (max combined sources - min combined sources) * average ignite roll",
+    "skill":"Fireball"
+  },{
+    "chinese":"^x5CF0BB持续攻击时，最强点燃的平均伤害当前达到其最大伤害的 50.00%",
+    "english":"^x5CF0BBIf attacking constantly, your average strongest Ignite currently achieves ^750.00%^x5CF0BB of its max damage",
+    "skill":"Arc"
+  },{
+    "chinese":"^x5CF0BB持续攻击时，最强点燃的平均伤害当前达到其最大伤害的 60.53%",
+    "english":"^x5CF0BBIf attacking constantly, your average strongest Ignite currently achieves ^760.53%^x5CF0BB of its max damage",
+    "skill":"Fireball"
+  },{
+    "chinese":"^x5CF0BB注意：此计算使用加权平均公式",
+    "english":"^x5CF0BBNOTE: Calculation uses a Weighted Avg formula",
+    "skill":"Fireball"
+  },{
+    "chinese":"^x5CF0BB注意：受到击中时拥有任意能量护盾，即有 50% 的几率避免晕眩。",
+    "english":"^x5CF0BBNOTE: Having any energy shield when the hit occurs grants 50% chance to avoid stun.",
+    "skill":"Fireball"
+  },{
+    "chinese":"^x5CF0BB仅当能量护盾大于总传入伤害时，PoB 才应用此修正。",
+    "english":"^x5CF0BBPOB only applies this modifier when ES > Total incoming damage.",
+    "skill":"Fireball"
+  },{
+    "chinese":"^x5CF0BB持续攻击时，这是敌人所受点燃伤害的平均浮动值",
+    "english":"^x5CF0BBThis is the average roll of an ignite affecting the enemy if you are constantly attacking",
+    "skill":"Fireball"
+  },{
+    "chinese":"来自默认值：2241",
+    "english":"from Default: 2241",
+    "skill":"Fireball"
+  },{
+    "chinese":"来自默认值：896",
+    "english":"from Default: 896",
+    "skill":"Fireball"
+  },{
+    "chinese":"向上取整至最近的服务器运算帧",
+    "english":"rounded up to nearest server tick",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 0.00 ^8(施法频率)",
+    "english":"x 0.00 ^8(cast rate)",
+    "skill":"Righteous Fire"
+  },{
+    "chinese":"x 0.003 ^8(暴击产生的效果占比)",
+    "english":"x 0.003 ^8(portion of instances created by crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 0.0030 ^8(暴击产生的效果占比)",
+    "english":"x 0.0030 ^8(portion of instances created by crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 0.05 ^8(命中几率)",
+    "english":"x 0.05 ^8(chance to hit)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"x 0.05 ^8(命中几率)",
+    "english":"x 0.05 ^8(hit chance)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 0.06 ^8(中毒层数)",
+    "english":"x 0.06 ^8(poison stacks)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 0.17 ^8(施法频率)",
+    "english":"x 0.17 ^8(cast rate)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"x 0.17 ^8(施法速度)",
+    "english":"x 0.17 ^8(cast speed)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"x 0.2415 ^8(暴击产生的效果占比)",
+    "english":"x 0.2415 ^8(portion of instances created by crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 0.247 ^8(暴击产生的效果占比)",
+    "english":"x 0.247 ^8(portion of instances created by crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 0.25 ^8(物理伤害减免)",
+    "english":"x 0.25 ^8(physical damage reduction)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"x 0.250 ^8(有效每秒伤害修正)",
+    "english":"x 0.250 ^8(effective DPS modifier)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"x 0.30 ^8(中毒每秒造成 30% 伤害)",
+    "english":"x 0.30 ^8(poison deals 30% per second)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 0.370 伤害倍率",
+    "english":"x 0.370 damage mult",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"x 0.40 ^8(中毒几率)",
+    "english":"x 0.40 ^8(poison chance)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 0.450 伤害倍率",
+    "english":"x 0.450 damage mult",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"x 0.50 ^8(抗性)",
+    "english":"x 0.50 ^8(resistance)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 0.500 ^8(敌人减益带来的有效每秒伤害修正)",
+    "english":"x 0.500 ^8(effective DPS modifier from enemy debuffs)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 0.500 ^8(有效每秒伤害修正)",
+    "english":"x 0.500 ^8(effective DPS modifier)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 0.60 ^8(抗性)",
+    "english":"x 0.60 ^8(resistance)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"x 0.630 伤害倍率",
+    "english":"x 0.630 damage mult",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"x 0.70 ^8(抗性)",
+    "english":"x 0.70 ^8(resistance)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 0.70 ^8敌人攻击／施法时间^7",
+    "english":"x 0.70 ^8enemy attack/cast time",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 0.700 ^8(敌人减益带来的有效每秒伤害修正)",
+    "english":"x 0.700 ^8(effective DPS modifier from enemy debuffs)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 0.700 ^8(有效每秒伤害修正)",
+    "english":"x 0.700 ^8(effective DPS modifier)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 0.753 ^8(非暴击产生的效果占比)",
+    "english":"x 0.753 ^8(portion of instances created by non-crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 0.7585 ^8(非暴击产生的效果占比)",
+    "english":"x 0.7585 ^8(portion of instances created by non-crits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 0.80 ^8(抗性)",
+    "english":"x 0.80 ^8(resistance)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"x 0.800 伤害倍率",
+    "english":"x 0.800 damage mult",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"x 0.85 ^8(攻击频率)",
+    "english":"x 0.85 ^8(attack rate)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"x 0.9 ^8(点燃每秒造成 90% 伤害)",
+    "english":"x 0.9 ^8(ignite deals 90% per second)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 0.997 ^8(非暴击产生的效果占比)",
+    "english":"x 0.997 ^8(portion of instances created by non-crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 0.9970 ^8(非暴击产生的效果占比)",
+    "english":"x 0.9970 ^8(portion of instances created by non-crits)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 1.00 ^8(攻击频率)",
+    "english":"x 1.00 ^8(attack rate)",
+    "skill":"Summon Stone Golem"
+  },{
+    "chinese":"x 1.00 ^8(格挡效果)",
+    "english":"x 1.00 ^8(block effect)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 1.00 ^8(击中次数)",
+    "english":"x 1.00 ^8(number of hits)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 1.00 ^8(生命和能量护盾承担的比例)",
+    "english":"x 1.00 ^8(portion taken from life and energy shield)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 1.000 ^8(暴击产生的效果占比)",
+    "english":"x 1.000 ^8(portion of instances created by crits)",
+    "skill":"Arc"
+  },{
+    "chinese":"x 1.000 伤害倍率",
+    "english":"x 1.000 damage mult",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 1.18 ^8(施法频率)",
+    "english":"x 1.18 ^8(cast rate)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"x 1.18 ^8(施法速度)",
+    "english":"x 1.18 ^8(cast speed)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"x 1.33 ^8(施法频率)",
+    "english":"x 1.33 ^8(cast rate)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 1.33 ^8(施法速度)",
+    "english":"x 1.33 ^8(cast speed)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 1.38 ^8(攻击频率)",
+    "english":"x 1.38 ^8(attack rate)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 1.38 ^8(攻击速度)",
+    "english":"x 1.38 ^8(attack speed)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 1.38 ^8(每秒击中次数)",
+    "english":"x 1.38 ^8(hits per second)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 1.38 ^8(总增／总降)",
+    "english":"x 1.38 ^8(more/less)",
+    "skill":"Raise Zombie"
+  },{
+    "chinese":"x 1.50 ^8(基础伤害倍率)",
+    "english":"x 1.50 ^8(base damage multiplier)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"x 1.60 ^8(抗性)",
+    "english":"x 1.60 ^8(resistance)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 1.600 伤害倍率",
+    "english":"x 1.600 damage mult",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 1.630 伤害倍率",
+    "english":"x 1.630 damage mult",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 1.67 ^8(施法频率)",
+    "english":"x 1.67 ^8(cast rate)",
+    "skill":"Arc"
+  },{
+    "chinese":"x 1.67 ^8(施法速度)",
+    "english":"x 1.67 ^8(cast speed)",
+    "skill":"Arc"
+  },{
+    "chinese":"x 1.67 ^8(击中频率)",
+    "english":"x 1.67 ^8(hit rate)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"x 10% ^8(能量护盾转化为最大偷取速率的比例)",
+    "english":"x 10% ^8(percentage of energy shield to maximum leech rate)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 2.00 ^8(施法速度)",
+    "english":"x 2.00 ^8(cast speed)",
+    "skill":"Blade Vortex"
+  },{
+    "chinese":"x 2.00 ^8(击中频率)",
+    "english":"x 2.00 ^8(hit rate)",
+    "skill":"Storm Brand"
+  },{
+    "chinese":"x 2.00s ^8(中毒持续时间)",
+    "english":"x 2.00s ^8(poison duration)",
+    "skill":"Poisonous Concoction"
+  },{
+    "chinese":"x 20% ^8(生命转化为最大偷取速率的比例)",
+    "english":"x 20% ^8(percentage of life to maximum leech rate)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 20% ^8(魔力转化为最大偷取速率的比例)",
+    "english":"x 20% ^8(percentage of mana to maximum leech rate)",
+    "skill":"Fireball"
+  },{
+    "chinese":"x 3.60 ^8(攻击频率)",
+    "english":"x 3.60 ^8(attack rate)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"x 3.60 ^8(攻击速度)",
+    "english":"x 3.60 ^8(attack speed)",
+    "skill":"Cyclone"
+  },{
+    "chinese":"x 9860 ^8(总传入伤害)",
+    "english":"x 9860 ^8(total incoming damage)",
+    "skill":"Fireball"
+  }]

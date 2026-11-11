@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="cn" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>裂隙领主血脉 - 流亡编年史, Path of Exile Wiki cn</title>
+    <meta name="description" content="path of exile is simply a tool to test your path of building creation">
+    <link rel="alternate" hreflang="en" href="https://poedb.tw/us/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://poedb.tw/tw/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://poedb.tw/cn/" />
+        <link href="/favicon.png" rel="shortcut icon" >
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/jquery.dataTables.min.css" integrity="sha512-1k7mWiTNoyx2XtmI96o+hdjP8nn0f3Z2N4oF/9ZZRgijyV4omsKOXEnqL1gKQNPy2MTSP9rIEWGcH/CInulptA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-5-theme/1.3.0/select2-bootstrap-5-theme.min.css" integrity="sha512-z/90a5SWiu4MWVelb5+ny7sAayYUfMmdXKEAbpj27PfdkamNdyI3hcjxPxkOPbrXoKIm7r9V2mElt5f1OtVhqA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy.min.css" integrity="sha512-HbPh+j4V7pXprvQMt2dtmK/zCEsUeZWYXRln4sOwmoyHPQAPqy/k9lIquKUyKNpNbDGAY06UdiDHcEkBc72yCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.min.css" integrity="sha512-OkYLbkJ4DB7ewvcpNLF9DSFmhdmxFXQ1Cs+XyjMsMMC94LynFJaA9cPXOokugkmZo6O6lwZg+V5dwQMH4S5/3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/css/modal-video.min.css" integrity="sha256-nd8IBqNn9uqwZKfZcLIXQcNxk5TjqrxiLx7PzN5PFW0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" integrity="sha256-auPoJwk/+RK6KSkib92Dkq1Y5hEkZvKtvSwucs15Skg=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video-js.min.css" integrity="sha512-J3tx4ssoARFr4U9VmZmQe2q672q0jUeYizJW3vglkOBTlQ/N6kF3eVqZZzaey/TdIXH69s3HYe2nQwyxK/Emzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link rel="stylesheet" href="https://cdn.poedb.tw/css/stdtheme.2ee77f64c96f1967.css" />
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js" integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" integrity="sha256-Ikk5myJowmDQaYVCUD0Wr+vIDkN8hGI58SGWdE671A8=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.full.min.js" integrity="sha512-RtZU3AyMVArmHLiW0suEZ9McadTdegwbgtiQl5Qqo9kunkVg1ofwueXD8/8wv3Af8jkME3DDe3yLfR8HSJfT2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy-bundle.umd.min.js" integrity="sha512-gbruucq/Opx9jlHfqqZeAg2LNK3Y4BbpXHKDhRC88/tARL/izPOE4Zt2w6X9Sn1UeWaGbL38zW7nkL2jdn5JIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.1/marked.min.js" integrity="sha512-VUuO/d6MS7hXmiFGEj7HtUa2FCI6Ll+xPvX9yX3bxn7ZqDWwleqXa8dtW13brbZ1ld2jiTrv8hWbpfp4B5mi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.all.js" integrity="sha512-A7LzqKE/pm9ofgS0Lxu7qroQS5SkKJQaYJkJ/66nQiWZfEdeGlBq5zEXQ63VRmXZK8zPpCgFf2WQJIAljI0Vdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/js/modal-video.min.js" integrity="sha256-VqINwNxkS4VEDMq5O52YTckX+Mx84X6bafO8NxF21Xw=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js" integrity="sha256-DiHJ7hbvMejsMyP76bpVWacb5HSHQ2sQlrJV8n7KEvA=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/echarts.min.js" integrity="sha512-4/g9GAdOdTpUP2mKClpKsEzaK7FQNgMjq+No0rX8XZlfrCGtbi4r+T/p5fnacsEC3zIAmHKLJUL7sh3/yVA4OQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/theme/dark.min.js" integrity="sha512-3Zm64ayK7DflnnyO2pKkLJX3v9Sb90mvahbwPUuMzEf42HI6k8tquIx5VsNBjEWAcYJWzvimbqnTkLl2QdCUmw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video.min.js" integrity="sha512-48NkCweTzA9u2sP4GgKcEDm6IScPIMga142ipKFNcHfz7feUJXDJxO1jwc2l+5MvWfwMj4BDfQv8WIMhrPxZLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.2.1/mustache.min.js" integrity="sha512-Qjrukx28QnvFWISw9y4wCB0kTB/ISnWXPz5/RME5o8OlZqllWygc1AB64dOBlngeTeStmYmNTNcM6kfEjUdnnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js" integrity="sha512-7O5pXpc0oCRrxk8RUfDYFgn0nO1t+jLuIOQdOMRp4APB7uZ4vSjspzp5y6YDtDs4VzUSTbWzBFZ/LKJhnyFOKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        <script src="https://cdn.poedb.tw/js/ModsView.6d68ad906ceba146.js"></script>
+        <script src="https://cdn.poedb.tw/js/poedb_header.a5ba197f514f530c.js"></script>
+    
+    <script data-cfasync="false">window.nitroAds=window.nitroAds||{createAd:function(){return new Promise(e=>{window.nitroAds.queue.push(["createAd",arguments,e])})},addUserToken:function(){window.nitroAds.queue.push(["addUserToken",arguments])},queue:[]};</script>
+    <script data-cfasync="false" async src="https://s.nitropay.com/ads-562.js"></script>
+
+    <meta property="og:site_name" content="poedb.tw">
+<meta property="og:title" content="裂隙领主血脉" />
+
+  </head>
+
+  <body>
+
+    <div id="consent-box" style="display:none">
+      <button onclick="window.__cmp('showModal');">
+        Update cookie preferences
+      </button>
+    </div>
+    
+    <script>
+      if (window["nitroAds"] && window["nitroAds"].loaded) {
+        document.getElementById("consent-box").style.display = window["__tcfapi"]
+          ? ""
+          : "none";
+      } else {
+        document.addEventListener(
+          "nitroAds.loaded",
+          () =>
+            (document.getElementById("consent-box").style.display = window["__tcfapi"]
+              ? ""
+              : "none")
+        );
+      }
+    </script>
+
+
+    <div class="background-image "></div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3B810SRKBH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3B810SRKBH');
+</script>
+
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="navbar-brand fw-bold" href="/cn/">PoE<span class='brand-suffix'>DB</span><sub></sub></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"  aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Items" data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</a></li>
+                    <li><a class="dropdown-item" href="/cn/Unique_item" data-i18n="ClientStrings|ItemDisplayStringUnique|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Vendor_recipe_system" data-i18n="ClientStrings|TutorialPanelVendorRecipes|Name">商人物品配方</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Gem" data-i18n="ClientStrings|ItemDisplayStringGem|Name">宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Skill_Gems" data-i18n="ItemClasses|Active Skill Gem|Name">技能宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Support_Gems" data-i18n="ItemClasses|Support Skill Gem|Name">辅助宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Transfigured_Gems" data-i18n="ClientStrings|ItemFilterRuleTransfiguredGems|Name">改造宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Exceptional" data-i18n="GemTags|exceptional|Name">Exceptional</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Modifiers" data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</a></li>
+                    <li><a class="dropdown-item" href="/cn/Keywords" data-i18n-tw="提示字">Keywords</a></li>
+                    <li><a class="dropdown-item" href="/cn/Oil" data-i18n="AchievementItems|DeliriumCraftItemsUsingCurrency1_8|Name">圣油</a></li>
+                    <li><a class="dropdown-item" href="/cn/Crafting_Bench" data-i18n="BaseItemTypes|Metadata/Items/HideoutInteractables/HideoutCraftingBench|Code"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Horticrafting" data-i18n="ClientStrings|HarvestCraftingStationTitle|Name">花园工艺</a></li>
+                    <li><a class="dropdown-item" href="/cn/metamods">工艺互动</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/cn/Quest" data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</a></li>
+                    <li><a class="dropdown-item" href="/cn/Ascendancy_class" data-i18n="ClientStrings|TutorialPanelAscendancies|Name">升华职业</a></li>
+                    <li><a class="dropdown-item" href="/cn/Bloodline_Ascendancy_class" data-i18n-tw="血裔職業" data-i18n-cn="血脉职业">Bloodline Ascendancy class</a></li>
+                    <li><a class="dropdown-item" href="/cn/passive-skill-tree/" data-i18n="ClientStrings|ActionOpenPassivePanel|Name">天赋树</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Maps" data-i18n="UniqueStashTypes|Map|Name">地图</a></li>
+                    <li><a class="dropdown-item" href="/cn/Atlas_of_Worlds" data-i18n="MapSeries|MapAtlas|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/atlas-skill-tree/" data-i18n="ClientStrings|ActionOpenAtlasPassivesScreen|Name"></a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item"><a class="nav-link" href="Economy" data-i18n-tw="經濟" data-i18n-cn="经济">Economy</a></li>
+    
+                <li class="nav-item"><a class="ms-4 nav-link  bg-warning rounded-circle" style="color: white" href="/cn/patreon">赞助</a></li>
+              </ul>
+    
+    
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" aria-current="page" href="https://poe2db.tw/cn/">PoE2<span class="brand-suffix">DB</span></a>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-language fa-lg"></i> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/tw/Breachlord_Bloodline">TW 繁體中文</a></li>
+                    <li><a class="dropdown-item" href="/cn/Breachlord_Bloodline">CN 简体中文</a></li>
+                    <li><a class="dropdown-item" href="/us/Breachlord_Bloodline">US English</a></li>
+                    <li><a class="dropdown-item" href="/kr/Breachlord_Bloodline">KR 한국어</a></li>
+                    <li><a class="dropdown-item" href="/ru/Breachlord_Bloodline">RU Русский</a></li>
+                    <li><a class="dropdown-item" href="/jp/Breachlord_Bloodline">JP Japanese</a></li>
+                    <li><a class="dropdown-item" href="/fr/Breachlord_Bloodline">FR Français</a></li>
+                    <li><a class="dropdown-item" href="/de/Breachlord_Bloodline">DE Deutsch</a></li>
+                    <li><a class="dropdown-item" href="/th/Breachlord_Bloodline">TH ภาษาไทย</a></li>
+                    <li><a class="dropdown-item" href="/pt/Breachlord_Bloodline">PO Português</a></li>
+                    <li><a class="dropdown-item" href="/sp/Breachlord_Bloodline">ES Spanish</a></li>
+                  </ul>
+                </li>
+              </ul>
+    
+            <form class="form-inline my-2 my-lg-0" role="search" action="search">
+              <input type="hidden" name="token" value="378bb227ff744b2362250b690b5beebb3ff7e42c2e7e7fbabbab277b027e79556cbebe">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q" id="navautosearch">
+            </form>
+    
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+    </header>
+
+<script>sidebar160("leftside_banner", "left");</script>
+<script>sidebar160("rightside_banner", "right");</script>
+
+
+
+    <div class="page ">
+    <div class="page-content theme-showcase container" role="main">
+
+
+<div class="d-flex flex-wrap justify-content-center"><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Expedition_league" data-bs-toggle="tooltip" title="先祖秘藏 v3.15"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/ExpeditionDetonator.webp" alt="ExpeditionDetonator" class="league_minimap" /></span></a><a href="Ultimatum_league" data-bs-toggle="tooltip" title="致命贪婪 v3.14"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/UltimatumAltar.webp" alt="UltimatumAltar" class="league_minimap" /></span></a><a href="Ritual_league" data-bs-toggle="tooltip" title="驱灵仪式 v3.13"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/RitualRune.webp" alt="RitualRune" class="league_minimap" /></span></a><a href="Blight_league" data-bs-toggle="tooltip" title="菌潮 v3.8"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BlightCore.webp" alt="BlightCore" class="league_minimap" /></span></a><a href="Legion_league" data-bs-toggle="tooltip" title="军团 v3.7"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/LegionInitiator.webp" alt="LegionInitiator" class="league_minimap" /></span></a><a href="Betrayal_league" data-bs-toggle="tooltip" title="背叛者 v3.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BetrayalSymbolCatarina.webp" alt="BetrayalSymbolCatarina" class="league_minimap" /></span></a><a href="Incursion_league" data-bs-toggle="tooltip" title="穿越 v3.3"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/IncursionCraftingBench.webp" alt="IncursionCraftingBench" class="league_minimap" /></span></a><a href="Bestiary_league" data-bs-toggle="tooltip" title="猎魔 v3.2"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BestiaryRareMonster.webp" alt="BestiaryRareMonster" class="league_minimap" /></span></a><a href="Abyss_league" data-bs-toggle="tooltip" title="深渊 v3.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Abyss.webp" alt="Abyss" class="league_minimap" /></span></a><a href="Breach_league" data-bs-toggle="tooltip" title="裂隙 v2.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Breach.webp" alt="Breach" class="league_minimap" /></span></a>
+    </div>
+  </div>
+</div><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Allflame_league" data-bs-toggle="tooltip" title="永火之咒 v3.29"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DeepwaterCursedTreasure.webp" alt="DeepwaterCursedTreasure" class="league_minimap" /></span></a><a href="Mirage_league" data-bs-toggle="tooltip" title="沙海幻境 v3.28"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Mirage.webp" alt="Mirage" class="league_minimap" /></span></a><a href="Mercenaries_league" data-bs-toggle="tooltip" title="佣兵 v3.26"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/MercenaryEncounter.webp" alt="MercenaryEncounter" class="league_minimap" /></span></a><a href="Settlers_league" data-bs-toggle="tooltip" title="君锋城下 v3.25"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/VillageShipping.webp" alt="VillageShipping" class="league_minimap" /></span></a><a href="Sanctum_league" data-bs-toggle="tooltip" title="圣地 v3.20"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Sanctum.webp" alt="Sanctum" class="league_minimap" /></span></a><a href="Archnemesis_league" data-bs-toggle="tooltip" title="罪恶枷锁 v3.17"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Archnemesis.webp" alt="Archnemesis" class="league_minimap" /></span></a><a href="Heist_league" data-bs-toggle="tooltip" title="夺宝奇兵 v3.12"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HeistSumgglersCache.webp" alt="HeistSumgglersCache" class="league_minimap" /></span></a><a href="Harvest_league" data-bs-toggle="tooltip" title="庄园 v3.11"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HarvestPortal.webp" alt="HarvestPortal" class="league_minimap" /></span></a><a href="Delirium_league" data-bs-toggle="tooltip" title="惊悸迷雾 v3.10"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/AfflictionInitiator.webp" alt="AfflictionInitiator" class="league_minimap" /></span></a><a href="Delve_league" data-bs-toggle="tooltip" title="地心探索 v3.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DelveMineralVein.webp" alt="DelveMineralVein" class="league_minimap" /></span></a><a href="Essence_league" data-bs-toggle="tooltip" title="精华 v2.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Essence.webp" alt="Essence" class="league_minimap" /></span></a><a href="Tormented_Spirit" data-bs-toggle="tooltip" title="Tormented Spirit v1.3"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.webp" class="league_minimap"/></a><a href="Beyond" data-bs-toggle="tooltip" title="超越 v1.2"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.webp" class="league_minimap"/></a><a href="Strongbox" data-bs-toggle="tooltip" title="保险箱 v1.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Strongbox.webp" alt="Strongbox" class="league_minimap" /></span></a><a href="Shrine" data-bs-toggle="tooltip" title="神殿 v1.0"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Shrine.webp" alt="Shrine" class="league_minimap" /></span></a><a href="Rogue_Exiles" data-bs-toggle="tooltip" title="Rogue Exiles v0.11"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/Anarchy4.webp" class="league_minimap"/></a>
+    </div>
+  </div>
+</div></div>
+
+
+
+<div id="topbanner970"></div><script>topbanner970("topbanner970");</script>
+
+<ul class="nav nav-tabs d-flex flex-wrap" role="tablist"><li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" role="tab" aria-selected="true" href="#裂隙领主血脉天赋">裂隙领主血脉 天赋 /6 </a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#BreachlordBloodline">Breachlord Bloodline</a></li></ul><div class="tab-content"><div id="裂隙领主血脉天赋" class="tab-pane fade show active"><div   class="card mb-2 ">
+   <h5 class="card-header">裂隙领主血脉 天赋 /6 </h5> <svg id="passive_skill_tree" viewBox='-11454.5 7507.82 1350 1350' class='ascendancySVG'
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+svg {
+    background-color: #222;
+}
+.nodes, .connections {
+    color: gray;
+}
+.connections .black {
+    color: black;
+    stroke-width: 3;
+}
+circle.notable.Druid1 {
+    stroke: lightblue;
+}
+circle.normal.Druid1 {
+    fill: lightblue;
+}
+image.circle-image {
+    clip-path: circle(50%);
+}
+
+</style>
+<defs>
+  <image id="basic" width="96" height="96" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/PassiveSkillScreenAscendancyFrameSmallCanAllocate.webp"/>
+  <image id="notable" width="160" height="160" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/PassiveSkillScreenAscendancyFrameLargeCanAllocate.webp"/>
+  <image id="keystone" width="160" height="160" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/PassiveSkillScreenAscendancyFrameLargeCanAllocate.webp"/>
+  <image id="basic2" width="150" height="150" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/PassiveSkillScreenAscendancyFrameSmallCanAllocate.webp"/>
+  <image id="notable2" width="240" height="240" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/PassiveSkillScreenAscendancyFrameLargeCanAllocate.webp"/>
+  <image id="keystone2" width="240" height="240" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/PassiveSkillScreenAscendancyFrameLargeCanAllocate.webp"/>
+</defs>
+<g class="connections" fill="none" stroke-width="12" stroke="currentColor">
+<image x="-11454" y="7507" width="1350" height="1350" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/BossAscendancy/Breachlord/BreachlordAscendancyFrame.webp"/><line x1='-10617' y1='8182' x2='-10489' y2='8015' id='c35069-6344'/>
+<line class='black' x1='-10617' y1='8182' x2='-10489' y2='8015' id='c35069-6344'/>
+<line x1='-10941' y1='8182' x2='-11114' y2='8182' id='c53398-48711'/>
+<line class='black' x1='-10941' y1='8182' x2='-11114' y2='8182' id='c53398-48711'/>
+<line x1='-10698' y1='8323' x2='-10542' y2='8419' id='c48406-52855'/>
+<line class='black' x1='-10698' y1='8323' x2='-10542' y2='8419' id='c48406-52855'/>
+<line x1='-10779' y1='8182' x2='-10617' y2='8182' id='c63630-35069'/>
+<line class='black' x1='-10779' y1='8182' x2='-10617' y2='8182' id='c63630-35069'/>
+<line x1='-10779' y1='8182' x2='-10698' y2='8323' id='c63630-48406'/>
+<line class='black' x1='-10779' y1='8182' x2='-10698' y2='8323' id='c63630-48406'/>
+<line x1='-10779' y1='8182' x2='-10941' y2='8182' id='c63630-53398'/>
+<line class='black' x1='-10779' y1='8182' x2='-10941' y2='8182' id='c63630-53398'/>
+
+</g>
+<g class="nodes" stroke="currentColor" fill="currentColor">
+<image class="circle-image" x="-10539" y="7965" width="100" height="100" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.webp" />
+<a xlink:href="Esh_of_the_Storm#"><use x="-10569" y="7935" id="n6344" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/50dbba1757dbda9afbcc9f3421a456721a9c7eb1b4343a0cda538f00d8ee7c57" xlink:href="#notable"/></a><image class="circle-image" x="-11164" y="8132" width="100" height="100" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.webp" />
+<a xlink:href="Tul_of_the_Blizzard#"><use x="-11194" y="8102" id="n48711" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/b24f2bdd1cc999810f6bd4fa696c3433c3186b4819652804596c3ec886c4725a" xlink:href="#notable"/></a><image class="circle-image" x="-10592" y="8369" width="100" height="100" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.webp" />
+<a xlink:href="Cryogenesis#"><use x="-10622" y="8339" id="n52855" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/624d44a8f4cc523d5b6d91720cb081678eee77e5ad5d90cb49090333244ecf90" xlink:href="#notable"/></a><image class="circle-image" x="-10647" y="8152" width="60" height="60" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.webp" />
+<a xlink:href="Lightning_Damage#"><use x="-10665" y="8134" id="n35069" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f8d98d72c4bee08a7090292cddca7069093192326f843120bd2d4e54cb07ad2c" xlink:href="#basic"/></a><image class="circle-image" x="-10971" y="8152" width="60" height="60" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.webp" />
+<a xlink:href="Cold_Damage#"><use x="-10989" y="8134" id="n53398" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/34020befbf23da97b32075c0c82cbcc1c30c7d759ba452d4b9a5ff2ceac8ab02" xlink:href="#basic"/></a><image class="circle-image" x="-10728" y="8293" width="60" height="60" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.webp" />
+<a xlink:href="Maximum_Life#"><use x="-10746" y="8275" id="n48406" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e900c3da95eb3cb72b01945e4faedc240306287c55bbc33cf4b0cf55ff338a67" xlink:href="#basic"/></a><image class="circle-image" x="-10809" y="8152" width="60" height="60" xlink:href="https://cdn.poedb.tw/image/Art/2DArt/UIImages/InGame/PassiveSkillScreenAscendancyMiddle.webp" />
+
+</g>
+</svg><style>#n63630 {color:yellow}
+</style>  <div class="row row-cols-1 row-cols-lg-2 g-2 bg-dark"><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0">  <div class="passive-icon-container passive-icon-type__notable ">
+    <div class="passive-icon-frame"></div>
+    <a href="/cn/Esh_of_the_Storm" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/50dbba1757dbda9afbcc9f3421a456721a9c7eb1b4343a0cda538f00d8ee7c57">
+      <img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.webp">
+    </a>
+  </div></div><div class="flex-grow-1 ms-2"><div><a class="PassiveSkills" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/50dbba1757dbda9afbcc9f3421a456721a9c7eb1b4343a0cda538f00d8ee7c57" href="Esh_of_the_Storm">风暴之艾许</a></div><div class="property">Bloodline: <span class='colourDefault'><a href="Breachlord_Bloodline">裂隙领主血脉</a></span></div><div class="separator"></div><div class="implicitMod">若所有已装备的戒指都是突触戒指，你的击中会无视敌人的闪电抗性</div><div class="implicitMod">若至少装备了 4 件秽生传奇物品，所有闪电技能宝石等级 <span class='mod-value'>+2</span></div><div class="implicitMod"><span class='mod-value'>+30</span> 智慧</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0">  <div class="passive-icon-container passive-icon-type__basic ">
+    <div class="passive-icon-frame"></div>
+    <a href="/cn/Lightning_Damage" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f8d98d72c4bee08a7090292cddca7069093192326f843120bd2d4e54cb07ad2c">
+      <img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.webp">
+    </a>
+  </div></div><div class="flex-grow-1 ms-2"><div><a class="PassiveSkills" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f8d98d72c4bee08a7090292cddca7069093192326f843120bd2d4e54cb07ad2c" href="Lightning_Damage">闪电伤害</a></div><div class="property">Bloodline: <span class='colourDefault'><a href="Breachlord_Bloodline">裂隙领主血脉</a></span></div><div class="separator"></div><div class="implicitMod">闪电伤害提高 <span class='mod-value'>25</span>%</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0">  <div class="passive-icon-container passive-icon-type__notable ">
+    <div class="passive-icon-frame"></div>
+    <a href="/cn/Tul_of_the_Blizzard" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/b24f2bdd1cc999810f6bd4fa696c3433c3186b4819652804596c3ec886c4725a">
+      <img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.webp">
+    </a>
+  </div></div><div class="flex-grow-1 ms-2"><div><a class="PassiveSkills" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/b24f2bdd1cc999810f6bd4fa696c3433c3186b4819652804596c3ec886c4725a" href="Tul_of_the_Blizzard">暴雪之托沃</a></div><div class="property">Bloodline: <span class='colourDefault'><a href="Breachlord_Bloodline">裂隙领主血脉</a></span></div><div class="separator"></div><div class="implicitMod">敌人被冰冻的持续时间延长 <span class='mod-value'>30</span>%</div><div class="implicitMod">若至少装备了 4 件秽生传奇物品，所有冰霜技能宝石等级 <span class='mod-value'>+2</span></div><div class="implicitMod">若所有已装备的戒指都是冰凝戒指，你的击中会无视敌人的冰霜抗性</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0">  <div class="passive-icon-container passive-icon-type__basic ">
+    <div class="passive-icon-frame"></div>
+    <a href="/cn/Cold_Damage" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/34020befbf23da97b32075c0c82cbcc1c30c7d759ba452d4b9a5ff2ceac8ab02">
+      <img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.webp">
+    </a>
+  </div></div><div class="flex-grow-1 ms-2"><div><a class="PassiveSkills" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/34020befbf23da97b32075c0c82cbcc1c30c7d759ba452d4b9a5ff2ceac8ab02" href="Cold_Damage">冰霜伤害</a></div><div class="property">Bloodline: <span class='colourDefault'><a href="Breachlord_Bloodline">裂隙领主血脉</a></span></div><div class="separator"></div><div class="implicitMod">冰霜伤害提高 <span class='mod-value'>25</span>%</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0">  <div class="passive-icon-container passive-icon-type__notable ">
+    <div class="passive-icon-frame"></div>
+    <a href="/cn/Cryogenesis" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/624d44a8f4cc523d5b6d91720cb081678eee77e5ad5d90cb49090333244ecf90">
+      <img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachNotable4.webp">
+    </a>
+  </div></div><div class="flex-grow-1 ms-2"><div><a class="PassiveSkills" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/624d44a8f4cc523d5b6d91720cb081678eee77e5ad5d90cb49090333244ecf90" href="Cryogenesis">寒霜之源</a></div><div class="property">Bloodline: <span class='colourDefault'><a href="Breachlord_Bloodline">裂隙领主血脉</a></span></div><div class="separator"></div><div class="implicitMod">如果敏捷高于其他两项属性，你获得的附加其他类型伤害将转为获得附加冰霜伤害</div><div class="implicitMod">如果智力高于其他两项属性，你获得的附加其他类型伤害将转为获得附加闪电伤害</div><div class="implicitMod">元素打击的附加伤害无法通过该方式被替换</div><div class="implicitMod"><span class="item_description">（武器上增加该武器伤害的局部词缀，并不会为你提供附加伤害，因此不受此影响。）</span></div><div class="implicitMod"><span class="item_description">(属性分为力量，敏捷和智慧三种)</span></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0">  <div class="passive-icon-container passive-icon-type__basic ">
+    <div class="passive-icon-frame"></div>
+    <a href="/cn/Maximum_Life" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e900c3da95eb3cb72b01945e4faedc240306287c55bbc33cf4b0cf55ff338a67">
+      <img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/BreachBossClaspedHands.webp">
+    </a>
+  </div></div><div class="flex-grow-1 ms-2"><div><a class="PassiveSkills" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e900c3da95eb3cb72b01945e4faedc240306287c55bbc33cf4b0cf55ff338a67" href="Maximum_Life">生命上限</a></div><div class="property">Bloodline: <span class='colourDefault'><a href="Breachlord_Bloodline">裂隙领主血脉</a></span></div><div class="separator"></div><div class="implicitMod">生命上限提高 <span class='mod-value'>8</span>%</div></div></div></div></div>  </div></div><div id="BreachlordBloodline" class="tab-pane fade"><div class="card"><h4 class="card-header" data-tabname="Community Wiki">Community Wiki</h4></div><div class="card mb-1">
+    <div class="card-body markdown-body">
+        <a class="btn btn-primary float-end" href='/cn/marked?id=Breachlord_Bloodline' data-i18n="ClientStrings|HideoutEditControlEdit|Name">Edit</a>
+        <div id="markContent"><h1>Breachlord Bloodline</h1>
+<p>The Breachlord Bloodline is a <a href='Bloodline_Ascendancy_class'>Bloodline Ascendancy class</a>. It can be obtained by defeating <a  data-hover="https://cdn.poedb.tw/cache1/us/Poe_Data_MonsterVarieties_hover/d7ca6df6d6f3b44676f6ab39439ad12ea243d034d0a586d4033a3d772496144a" href="/cn/It_That_Was_Tul">It That Was Tul</a> and <a  data-hover="https://cdn.poedb.tw/cache1/us/Poe_Data_MonsterVarieties_hover/fd6a1acecdc2332460dd20d921c470c010c8796fbff6cddadb42cdc4a2eed8a5" href="/cn/It_That_Was_Esh">It That Was Esh</a> in a <a class="WorldAreas " data-hover="https://cdn.poedb.tw/cache1/us/Poe_Data_WorldAreas_hover/78b2bf8668719bcec6d5e4edaa76a75524e9a822b2f225e1f4633cc80df3dbcb" href="/cn/Hive_Colony">Hive Colony</a>(<a class="whiteitem MapFragment" data-hover="https://cdn.poedb.tw/cache1/us/Poe_Data_BaseItemTypes_hover/826a3953bb306a6add3a6a5743db2ae6825bae09b3bf76ddf84d6224b598b374" href="Hivebrain_Gland">Hivebrain Gland</a>).</p>
+</div>
+        <div><hr style='border-top: 1px solid white'>Wikis Content is available under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA 3.0</a> unless otherwise noted.</div>
+    </div>
+</div>
+<script>
+$(function() {
+    lightbox_panel();
+});
+</script>
+</div></div><div class='vte '><div class='card mb-2'><h5 class="card-header"><small class='float-end'> <span>2.5</span></small>裂隙<a href="Breach_league" data-bs-toggle="tooltip" title="裂隙 v2.5"  class="vte_icon"><span class="MinimapIcons"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Breach.webp" alt="Breach" class="league_minimap" /></span></a></h5><div class="card-body"><div class="py-1 itemList"><ul><li><span class="disabled">Mechanism</span></li> <li><a href="Version_2.5.0">Patch Notes</a></li> <li><a href="Breach_league">赛季</a></li> <li><a href="Breach">裂隙</a></li> <li><a href="The_Genesis_Tree">起源之树</a></li> <li><a href="the-genesis-tree/">起源之树 Calc</a></li> <li><a href="Foulborn">秽生</a></li> <li><a href="Ailith%2C_First_of_the_Keepers">艾利丝，守护者之首</a></li> <li><a href="Breachlord_Bloodline">裂隙领主血脉</a></li></ul></div><div class="py-1 itemList"><ul><li><span class="disabled">通货</span></li> <li><a class="item_currency StackableCurrency" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/def158417e922ea9cd9eaf1a7ab98393b815ebc0d6f31e491da2ac7e72c74f74" href="Grasping_Astrolabe"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Currency/Atlas/AtlasMissionBreach.webp" alt="AtlasMissionBreach" height="16" />贪婪星盘</a></li> <li><a class="item_currency StackableCurrency" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/80fddb566b3e629480f37fad8e8d870ecbeb576652901ea57a4e55e55c53edf2" href="Foulborn_Orb_of_Augmentation"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Currency/Chayula/FoulbornAugmentation.webp" alt="FoulbornAugmentation" height="16" />秽生增幅石</a></li> <li><a class="item_currency StackableCurrency" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/3323b3f72467414d520ea8d7201ad8ae01f2142dbee4401d7a84c411f4636686" href="Foulborn_Exalted_Orb"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Currency/Chayula/FoulbornExalted.webp" alt="FoulbornExalted" height="16" />秽生崇高石</a></li> <li><a class="item_currency StackableCurrency" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/b94422bc0db1e2c8500005b920d5da45e4ee5d02dca674e7f6006670f5d53366" href="Foulborn_Regal_Orb"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Currency/Chayula/FoulbornRegal.webp" alt="FoulbornRegal" height="16" />秽生富豪石</a></li></ul></div><div class="py-1 itemList"><ul><li><span class="disabled">物品</span></li> <li><a class="whiteitem MapFragment" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/f59f1db353773dd8a72514123de7ebee4a41ae4dd2943531bd1d81e9d0f6f0bc" href="Hivebrain_Gland">虫脑腺体</a></li> <li><a class="whiteitem BrequelFruit" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/9a816d57632593476bb85f28a287baaf9e90dd7d9c3ae92e2806bb1004dbe85a" href="Ancient_Wombgift">远古孕育赠礼</a></li> <li><a class="whiteitem BrequelFruit" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/a9e8c4e429199ce02da074dc9af731754e98c856310c99751907d40c27a329ec" href="Lavish_Wombgift">丰裕孕育赠礼</a></li> <li><a class="whiteitem BrequelFruit" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/bdffd5ab02cc9728e6d57c4edcbe8d4423746cce77b328743bd14918f3939054" href="Mysterious_Wombgift">神秘孕育赠礼</a></li> <li><a class="whiteitem BrequelFruit" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/b1d31f014c553a922ddf0bf5d32ff458fd0158e86eab83e0dfc6a4649fe5e0c1" href="Provisioning_Wombgift">供养孕育赠礼</a></li> <li><a class="whiteitem Ring" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/c5c5d1238b18b2df169ec15760274545c43c067cb8dbcbe581e2e49c90408a08" href="Cryonic_Ring">冰凝戒指</a></li> <li><a class="whiteitem Ring" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/51669a5773c6d164b9db593bcb10177e78094935b0a3e16690d407cadfcefb2e" href="Enthalpic_Ring">炽能戒指</a></li> <li><a class="whiteitem Ring" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/b5f3764aa57ee486af1089ed8c79cbce1bbf5a844977219054e5aa98cf75d4b3" href="Synaptic_Ring">突触戒指</a></li> <li><a class="whiteitem Ring" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/79b7626de8433638d88c33ebdd1a12a1ef0596817f374db2fbf42ce4084b0251" href="Organic_Ring">有机戒指</a></li> <li><a class="whiteitem Ring" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/1bdcf2280abeb0b97ef81a4c602b4c13f3510e3b7f366b9bbd06d49459c45679" href="Fugitive_Ring">逃亡戒指</a></li> <li><a class="whiteitem Ring" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/3ebc23d2a281bbe8a14bbf7af646d1a382c4d29e79290af29d0f3f46518955ac" href="Formless_Ring">无形戒指</a></li></ul></div><div class="py-1 itemList"><ul><li><span class="disabled">圣甲虫</span></li> <li><a class="whiteitem MapFragment" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/6d57a854da2535ba32a6d9189859709ff347cac3a3e593d9af268e0cfdcda12e" href="Breach_Scarab_of_the_Hive">虫群之裂隙圣甲虫</a></li> <li><a class="whiteitem MapFragment" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/5937f659a7b20e9a5371064923d5bbbc47eb6bb581377e49e232172617715f96" href="Breach_Scarab_of_Instability">不稳之裂隙圣甲虫</a></li> <li><a class="whiteitem MapFragment" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/d0b4c9acc4e6b5a31be4856d941c0f48d2e5eac358ffb272ac7db032a623aeef" href="Breach_Scarab_of_the_Marshal">元帅之裂隙圣甲虫</a></li> <li><a class="whiteitem MapFragment" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/84367d5465dad89df35b1165910b44ffa5048600a36df0fe6146af81bf33a102" href="Breach_Scarab_of_the_Incensed_Swarm">狂怒虫群之裂隙圣甲虫</a></li> <li><a class="whiteitem MapFragment" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/b9bbfad0775f403eab4559a434de960987ce588ed3ce3f98c8c6e0179f220516" href="Breach_Scarab_of_Resonant_Cascade">增涌共鸣之裂隙圣甲虫</a></li></ul></div><div class="py-1 itemList"><ul><li><span class="disabled">传奇</span></li> <li><span class="UniqueItems UniqueItem">Hand of the Lords</span></li> <li><span class="UniqueItems UniqueItem">The Grey Wind</span></li> <li><a class="UniqueItems UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/34cf36efd1bc5cf2df170b44e5c7836bae3b7847778a05fc4d729e0c1868f4ee" href="The_Will_of_Tul">托沃的意志</a></li> <li><a class="UniqueItems UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/80f0749c2518d9f1531c348c19cfbd4151f43f1be93490292203ef13353989c7" href="The_Will_of_Xoph">索伏的意志</a></li> <li><a class="UniqueItems UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/01a6b544b06d06982610dd6b1cdba76d0563921925db4ac6421623af244faf1e" href="The_Will_of_Esh">艾许的意志</a></li> <li><a class="UniqueItems UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/0904e787317ec6719e3782277501212a08d132b0c92f4f3add1eb9ac26bf0051" href="The_Will_of_Uul-Netol">乌尔尼多的意志</a></li> <li><a class="UniqueItems UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/1720a689faa918d7ad1b6adb18b2baaca05bbc86c3107b5a805407746c7e3ce2" href="The_Sundered_Will">崩解意志</a></li> <li><a class="UniqueItems UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/da2a5f1866689e8147a55cfc31788ecee52cd1d3dac669a2c39cc9e79bbe4c2f" href="Lost_Unity">失落归一</a></li></ul></div><div class="py-1 itemList"><ul><li><span class="disabled">首领</span></li> <li><a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/d941dc584ddc4e0a703ce937030836955d515297d7e0e329ef1fb4ae94c0de34" href="/cn/Vruun%2C_Marshal_of_Xesht">弗伦，薛斯的元帅</a></li> <li><a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/db34be96e232f82ce19a1ee4d1f4fa2e92372cd2b6d0006b34f54640bc8578e5" href="/cn/It_That_Was_Tul">曾为托沃之物</a></li> <li><a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/911ca3be400cf60b84399abf61ccda1a9b443edccf62ce6b5dfa1d168dd8c86c" href="/cn/It_That_Was_Esh">曾为艾许之物</a></li></ul></div></div></div></div>
+
+<footer class="ccontainer text-center text-lg-left">
+  <div class="card p-4">
+    <div class="row">
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Sites</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a target="_blank" href="https://poedb.tw/">poedb.tw</a> </li>
+          <li> <a target="_blank" href="https://tlidb.com/">tlidb.com</a> </li>
+          <li> <a target="_blank" href="https://poe2db.tw/">poe2db.tw</a> </li>
+              <li> <a target="_blank" href="https://paldb.cc/">paldb.cc</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">News</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="news">GGG Tracker</a> </li>
+          <li> <a href="League#ConcurrentPlayers">Concurrent Players</a> </li>
+          <li> <a href="Ruthless_mode" data-i18n="ClientStrings|InsaneDifficulty|Name">Ruthless mode</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">About Site</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="privacy">Privacy</a> </li>
+          <li> <a href="patreon">Patreon</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Community</h5>
+        <ul class="list-unstyled mb-0">
+
+
+          <li> <a href="https://discord.gg/b4bs4bQsrW">編年史 Discord</a> </li>
+
+          <li><a target="_blank" href="https://www.reddit.com/user/chuanhsing">/u/chuanhsing</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Copyright &copy; 2014-2026 流亡编年史.
+  </div>
+</footer>
+
+<div style=""></div>
+<div class="clearfix"></div><div id="bottom_banner"></div><script>topbanner970("bottom_banner");</script>
+    </div>
+    </div>
+
+    <a href="#top" id="toTop"><span class="fas fa-arrow-circle-up fa-3x"></span></a>
+<script>
+ $(document).ready(function()
+ {
+    if (window.location.hostname != "poedb.tw" && window.location.hostname != "poe2db.tw") {
+        window.location.href="https://poedb.tw/";
+    }
+ });
+</script>
+    <script src="https://cdn.poedb.tw/js/poedb_footer.fed37e57d91aa1eb.js"></script>
+
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"7c3bdd9ddfac4426b6a20a0cd5f64615","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

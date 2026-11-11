@@ -1,0 +1,247 @@
+{
+  "Crab Totem": {
+    "zh": "蟹图腾",
+    "kind": "gem",
+    "status": "editorial-helper-label-verified-game-terms",
+    "english_source": "src/Data/Skills/other.lua",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "Festering Resentment Cast on Block": {
+    "zh": "积怨溃脓：格挡时施放",
+    "kind": "gem",
+    "status": "editorial-helper-label-verified-game-terms",
+    "english_source": "https://poedb.tw/us/Festering_Resentment",
+    "source": "https://poedb.tw/cn/Festering_Resentment"
+  },
+  "Foulborn Kitava's Thirst": {
+    "zh": "秽生奇塔弗之渴望",
+    "kind": "gem",
+    "status": "editorial-helper-label-verified-game-terms",
+    "english_source": "https://poedb.tw/us/Kitavas_Thirst",
+    "source": "https://poedb.tw/cn/Kitavas_Thirst"
+  },
+  "Hex on Trap": {
+    "zh": "陷阱触发魔蛊",
+    "kind": "gem",
+    "status": "editorial-helper-label-verified-game-terms",
+    "english_source": "src/Data/Skills/other.lua",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "Mjolner": {
+    "zh": "沉默之雷",
+    "kind": "gem",
+    "status": "editorial-helper-label-verified-game-terms",
+    "english_source": "https://poedb.tw/us/Mjölner",
+    "source": "https://poedb.tw/cn/Mjölner"
+  },
+  "Poet's Pen": {
+    "zh": "诗人之笔",
+    "kind": "gem",
+    "status": "editorial-helper-label-verified-game-terms",
+    "english_source": "https://poedb.tw/us/The_Poets_Pen",
+    "source": "https://poedb.tw/cn/The_Poets_Pen"
+  },
+  "Summon Volatile Anomaly": {
+    "zh": "召唤异动奇点",
+    "kind": "gem",
+    "status": "editorial-helper-label-verified-game-terms",
+    "english_source": "https://poedb.tw/us/Volatile_Anomaly",
+    "source": "https://poedb.tw/cn/Volatile_Anomaly"
+  },
+  "SupportTriggerFireSpellOnHit": {
+    "zh": "击中时触发火焰法术（辅助）",
+    "kind": "gem",
+    "status": "editorial-helper-label-verified-game-terms",
+    "english_source": "src/Data/Skills/other.lua",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "Svalinn Cast on Block": {
+    "zh": "斯瓦林：格挡时施放",
+    "kind": "gem",
+    "status": "editorial-helper-label-verified-game-terms",
+    "english_source": "https://poedb.tw/us/Svalinn",
+    "source": "https://poedb.tw/cn/Svalinn"
+  },
+  "Trigger Craft": {
+    "zh": "工艺触发法术",
+    "kind": "gem",
+    "status": "editorial-helper-label-verified-game-terms",
+    "english_source": "src/Data/Skills/other.lua",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "Triggered Summon Phantasm": {
+    "zh": "触发召唤幻灵",
+    "kind": "gem",
+    "status": "editorial-helper-label-verified-game-terms",
+    "english_source": "https://poedb.tw/us/Summon_Phantasm_Support",
+    "source": "https://poedb.tw/cn/Summon_Phantasm_Support"
+  },
+  "{0} seconds additional Base Duration per 100 Intelligence": {
+    "zh": "每 100 点智慧使基础持续时间延长 {0} 秒",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Icestorm",
+    "source": "https://poedb.tw/cn/Icestorm"
+  },
+  "Deals {0} to {1} base Cold Damage per 10 Intelligence": {
+    "zh": "每 10 点智慧造成 {0} 至 {1} 基础冰霜伤害",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Icestorm",
+    "source": "https://poedb.tw/cn/Icestorm"
+  },
+  "{0}% chance to Trigger this Skill when your Animated Guardian Kills an Enemy": {
+    "zh": "你的幻化守卫击败敌人时有 {0}% 的几率触发此技能",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Animate_Guardians_Weapon",
+    "source": "https://poedb.tw/cn/Animate_Guardians_Weapon"
+  },
+  "{0}% chance to Trigger this Spell on Kill": {
+    "zh": "击败敌人时有 {0}% 的几率触发该法术",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Volatile_Anomaly",
+    "source": "https://poedb.tw/cn/Volatile_Anomaly"
+  },
+  "{0}% more Attack Speed": {
+    "zh": "攻击速度总增 {0}%",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "src/Data/StatDescriptions",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "{0}% reduced Totem Placement range": {
+    "zh": "图腾放置距离缩短 {0}%",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "src/Data/StatDescriptions",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "Chilled Ground from this Skill has a base effect of {0}%": {
+    "zh": "该技能造成冰缓地面的基础效果为 {0}%",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Volatile_Anomaly",
+    "source": "https://poedb.tw/cn/Volatile_Anomaly"
+  },
+  "Consumes 10 Remembrance\nShaper Memory uses your Shaper Skill {0} time": {
+    "zh": "消耗 10 铭记\n塑界者的记忆使用塑界者技能 {0} 次",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Summon_Shaper_Memory",
+    "source": "https://poedb.tw/cn/Summon_Shaper_Memory"
+  },
+  "Consumes up to 1 corpse": {
+    "zh": "最多消耗 1 具灵柩",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Stalking_Pustule",
+    "source": "https://poedb.tw/cn/Stalking_Pustule"
+  },
+  "Fires {0} times": {
+    "zh": "发射 {0} 次",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "src/Data/StatDescriptions",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "Maximum {0} Visiting Harbinger of Focus": {
+    "zh": "最多 {0} 个降世不屈先驱者",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Summon_Visiting_Harbinger_of_Focus",
+    "source": "https://poedb.tw/cn/Summon_Visiting_Harbinger_of_Focus"
+  },
+  "Maximum {0} Visiting Harbinger of Time": {
+    "zh": "最多 {0} 个降世时空先驱者",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Summon_Visiting_Harbinger_of_Time",
+    "source": "https://poedb.tw/cn/Summon_Visiting_Harbinger_of_Time"
+  },
+  "Maximum {0} Visiting Harbinger of the Arcane": {
+    "zh": "最多 {0} 个降世秘法先驱者",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Summon_Visiting_Harbinger_of_the_Arcane",
+    "source": "https://poedb.tw/cn/Summon_Visiting_Harbinger_of_the_Arcane"
+  },
+  "Minion deals Fire Damage equal to {0}% of its maximum Life per Second to Enemies in a Base radius of {1} metres": {
+    "zh": "召唤生物每秒对基础范围 {1} 米内的敌人造成生命上限 {0}% 的火焰伤害",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Summon_Sentinel_of_Radiance",
+    "source": "https://poedb.tw/cn/Summon_Sentinel_of_Radiance"
+  },
+  "Skills Repeat an additional {0} Times": {
+    "zh": "技能额外重复 {0} 次",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "src/Data/StatDescriptions",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "Supported Skills can apply {0} additional Curses": {
+    "zh": "被辅助技能可以额外施加 {0} 个诅咒",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "src/Data/StatDescriptions",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "Trigger this Skill on Melee Hit": {
+    "zh": "近战击中时触发此技能",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "src/Data/StatDescriptions",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "Trigger this Skill when an Animated Weapon Kills an Enemy": {
+    "zh": "幻化武器击败敌人时触发此技能",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Animate_Guardians_Weapon",
+    "source": "https://poedb.tw/cn/Animate_Guardians_Weapon"
+  },
+  "Trigger this Skill when you Consume a corpse": {
+    "zh": "消耗灵柩时触发此技能",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "src/Data/StatDescriptions",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "Trigger this Spell on Melee Hit while Cursed": {
+    "zh": "被诅咒时，近战击中会触发该法术",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Elemental_Warding",
+    "source": "https://poedb.tw/cn/Elemental_Warding"
+  },
+  "Trigger this Spell when you lose Cat's Stealth": {
+    "zh": "失去猫之隐匿时触发该法术",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "src/Data/StatDescriptions",
+    "source": "src/Data/Skills/other.lua"
+  },
+  "You cannot use this Skill yourself, Shaper Memory will use it for you": {
+    "zh": "你无法亲自使用此技能，塑界者的记忆会代你使用",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Summon_Shaper_Memory",
+    "source": "https://poedb.tw/cn/Summon_Shaper_Memory"
+  },
+  "Summons a Phantasm minion, which uses a piercing projectile spell that deals physical damage.": {
+    "zh": "召唤一个幻灵，它会使用造成物理伤害的穿透投射物法术。",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Summon_Phantasm_Support",
+    "source": "https://poedb.tw/cn/Summon_Phantasm_Support"
+  },
+  "Creates an orb which moves towards nearby enemies, exploding after a duration or when it gets close enough. The explosion deals cold spell damage in an area, and leaves behind a Vortex on the ground for a secondary duration which continues to deal cold damage over time and chill enemies caught in it.": {
+    "zh": "制造一个向附近敌人移动的法球，在一段时间后或足够接近敌人时爆炸。爆炸造成范围冰霜法术伤害，并在地面留下一个持续额外时间的漩涡，对其中的敌人持续造成冰霜伤害并使其冰缓。",
+    "kind": "gem-detail",
+    "status": "local-english-and-paired-reference-semantic-review",
+    "english_source": "https://poedb.tw/us/Volatile_Anomaly",
+    "source": "https://poedb.tw/cn/Volatile_Anomaly"
+  }
+}

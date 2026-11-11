@@ -1,0 +1,549 @@
+{
+  "Fury of Nature": {
+    "zh": "自然之怒",
+    "kind": "passive-name",
+    "node_id": "18054",
+    "source": "https://poedb.tw/cn/Fury_of_Nature",
+    "english_source": "https://poedb.tw/us/Fury_of_Nature",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Non-Damaging Elemental Ailments you inflict spread to nearby enemies within 2 metres": {
+    "zh": "你造成的非伤害元素异常状态会扩散给 2 米内的其他敌人",
+    "kind": "passive-stat",
+    "node_id": "18054",
+    "source": "https://poedb.tw/cn/Fury_of_Nature",
+    "english_source": "https://poedb.tw/us/Fury_of_Nature",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Non-Damaging Elemental Ailments you inflict have 100% more Effect": {
+    "zh": "你造成的非伤害性元素异常状态的效果总增 100%",
+    "kind": "passive-stat",
+    "node_id": "18054",
+    "source": "https://poedb.tw/cn/Fury_of_Nature",
+    "english_source": "https://poedb.tw/us/Fury_of_Nature",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Unleashed Potential": {
+    "zh": "释放潜能",
+    "kind": "passive-name",
+    "node_id": "19355",
+    "source": "https://poedb.tw/cn/Unleashed_Potential",
+    "english_source": "https://poedb.tw/us/Unleashed_Potential",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "400% increased Endurance, Frenzy and Power Charge Duration": {
+    "zh": "耐力球，狂怒球，以及暴击球的持续时间延长 400%",
+    "kind": "passive-stat",
+    "node_id": "19355",
+    "source": "https://poedb.tw/cn/Unleashed_Potential",
+    "english_source": "https://poedb.tw/us/Unleashed_Potential",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "25% chance to gain a Power, Frenzy or Endurance Charge on Kill": {
+    "zh": "击败敌人时有 25% 的几率获得一个暴击球、狂怒球或耐力球",
+    "kind": "passive-stat",
+    "node_id": "19355",
+    "source": "https://poedb.tw/cn/Unleashed_Potential",
+    "english_source": "https://poedb.tw/us/Unleashed_Potential",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "+1 to Maximum Endurance Charges": {
+    "zh": "耐力球数量上限 +1",
+    "kind": "passive-stat",
+    "node_id": "19355",
+    "source": "https://poedb.tw/cn/Unleashed_Potential",
+    "english_source": "https://poedb.tw/us/Unleashed_Potential",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "+1 to Maximum Frenzy Charges": {
+    "zh": "狂怒球数量上限 +1",
+    "kind": "passive-stat",
+    "node_id": "19355",
+    "source": "https://poedb.tw/cn/Unleashed_Potential",
+    "english_source": "https://poedb.tw/us/Unleashed_Potential",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "+1 to Maximum Power Charges": {
+    "zh": "暴击球数量上限 +1",
+    "kind": "passive-stat",
+    "node_id": "19355",
+    "source": "https://poedb.tw/cn/Unleashed_Potential",
+    "english_source": "https://poedb.tw/us/Unleashed_Potential",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Nine Lives": {
+    "zh": "九条命",
+    "kind": "passive-name",
+    "node_id": "27602",
+    "source": "https://poedb.tw/cn/Nine_Lives",
+    "english_source": "https://poedb.tw/us/Nine_Lives",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "25% of Damage taken Recouped as Life, Mana and Energy Shield": {
+    "zh": "受到伤害的 25% 补偿为生命、魔力和能量护盾",
+    "kind": "passive-stat",
+    "node_id": "27602",
+    "source": "https://poedb.tw/cn/Nine_Lives",
+    "english_source": "https://poedb.tw/us/Nine_Lives",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Recoup Effects instead occur over 3 seconds": {
+    "zh": "回收效果改为在3秒内生效",
+    "kind": "passive-stat",
+    "node_id": "27602",
+    "source": "https://poedb.tw/cn/Nine_Lives",
+    "english_source": "https://poedb.tw/us/Nine_Lives",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Fatal Flourish": {
+    "zh": "致命绽放",
+    "kind": "passive-name",
+    "node_id": "42469",
+    "source": "https://poedb.tw/cn/Fatal_Flourish",
+    "english_source": "https://poedb.tw/us/Fatal_Flourish",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Final Repeat of Attack Skills deals 60% more Damage": {
+    "zh": "攻击技能的最后一次重复造成的伤害总增 60%",
+    "kind": "passive-stat",
+    "node_id": "42469",
+    "source": "https://poedb.tw/cn/Fatal_Flourish",
+    "english_source": "https://poedb.tw/us/Fatal_Flourish",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Non-Travel Attack Skills Repeat an additional Time": {
+    "zh": "非旅行攻击技能额外重复一次",
+    "kind": "passive-stat",
+    "node_id": "42469",
+    "source": "https://poedb.tw/cn/Fatal_Flourish",
+    "english_source": "https://poedb.tw/us/Fatal_Flourish",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Indomitable Resolve": {
+    "zh": "不屈坚毅",
+    "kind": "passive-name",
+    "node_id": "52435",
+    "source": "https://poedb.tw/cn/Indomitable_Resolve",
+    "english_source": "https://poedb.tw/us/Indomitable_Resolve",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Deal 10% less Damage": {
+    "zh": "造成的伤害总降 10%",
+    "kind": "passive-stat",
+    "node_id": "52435",
+    "source": "https://poedb.tw/cn/Indomitable_Resolve",
+    "english_source": "https://poedb.tw/us/Indomitable_Resolve",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Take 25% less Damage": {
+    "zh": "受到的伤害总降 25%",
+    "kind": "passive-stat",
+    "node_id": "52435",
+    "source": "https://poedb.tw/cn/Indomitable_Resolve",
+    "english_source": "https://poedb.tw/us/Indomitable_Resolve",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Harness the Void": {
+    "zh": "虚空掌控",
+    "kind": "passive-name",
+    "node_id": "57331",
+    "source": "https://poedb.tw/cn/Harness_the_Void",
+    "english_source": "https://poedb.tw/us/Harness_the_Void",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "27% chance to gain 25% of Non-Chaos Damage with Hits as Extra Chaos Damage": {
+    "zh": "有 27% 的几率获得额外混沌伤害，其数值等同于非混沌伤害的 25%",
+    "kind": "passive-stat",
+    "node_id": "57331",
+    "source": "https://poedb.tw/cn/Harness_the_Void",
+    "english_source": "https://poedb.tw/us/Harness_the_Void",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "13% chance to gain 50% of Non-Chaos Damage with Hits as Extra Chaos Damage": {
+    "zh": "有 13% 的几率获得额外混沌伤害，其数值等同于非混沌伤害的 50%",
+    "kind": "passive-stat",
+    "node_id": "57331",
+    "source": "https://poedb.tw/cn/Harness_the_Void",
+    "english_source": "https://poedb.tw/us/Harness_the_Void",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "7% chance to gain 100% of Non-Chaos Damage with Hits as Extra Chaos Damage": {
+    "zh": "有 7% 的几率获得额外混沌伤害，其数值等同于非混沌伤害的 100%",
+    "kind": "passive-stat",
+    "node_id": "57331",
+    "source": "https://poedb.tw/cn/Harness_the_Void",
+    "english_source": "https://poedb.tw/us/Harness_the_Void",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "Searing Purity": {
+    "zh": "炽热净化",
+    "kind": "passive-name",
+    "node_id": "57568",
+    "source": "https://poedb.tw/cn/Searing_Purity",
+    "english_source": "https://poedb.tw/us/Searing_Purity",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "45% of Chaos Damage taken as Fire Damage": {
+    "zh": "受到混沌伤害的 45% 视作火焰伤害",
+    "kind": "passive-stat",
+    "node_id": "57568",
+    "source": "https://poedb.tw/cn/Searing_Purity",
+    "english_source": "https://poedb.tw/us/Searing_Purity",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "45% of Chaos Damage taken as Lightning Damage": {
+    "zh": "受到混沌伤害的 45% 视作闪电伤害",
+    "kind": "passive-stat",
+    "node_id": "57568",
+    "source": "https://poedb.tw/cn/Searing_Purity",
+    "english_source": "https://poedb.tw/us/Searing_Purity",
+    "status": "paired-page-local-semantics-reviewed"
+  },
+  "10% chance to double Stun Duration": {
+    "zh": "有 10% 的几率使晕眩持续时间翻倍",
+    "kind": "passive-stat",
+    "node_ids": [
+      "2411",
+      "31825",
+      "35436"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "20% chance to double Stun Duration": {
+    "zh": "有 20% 的几率使晕眩持续时间翻倍",
+    "kind": "passive-stat",
+    "node_ids": [
+      "38790"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "50% chance to double Stun Duration": {
+    "zh": "有 50% 的几率使晕眩持续时间翻倍",
+    "kind": "passive-stat",
+    "node_ids": [
+      "38922"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Gain 10% of Physical Damage as Extra Lightning Damage for each of your Hallowing Flames that have been removed by an allied hit recently, up to 80%": {
+    "zh": "你施加的崇敬烈焰近期内每被友方击中移除一层，便获得等同于物理伤害 10% 的额外闪电伤害，最多 80%",
+    "kind": "passive-stat",
+    "node_ids": [
+      "3458"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "20% chance to gain an Endurance Charge when you Stun an Enemy with a Melee Hit": {
+    "zh": "近战击中使敌人晕眩时，有 20% 的几率获得一个耐力球",
+    "kind": "passive-stat",
+    "node_ids": [
+      "6588",
+      "19725",
+      "37698",
+      "53216",
+      "62023"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Remove a random Elemental Ailment when you use a Mana Flask": {
+    "zh": "使用魔力药剂时移除一种随机元素异常状态",
+    "kind": "passive-stat",
+    "node_ids": [
+      "9393",
+      "9458",
+      "18750",
+      "20736",
+      "41016",
+      "45019",
+      "46665",
+      "46761"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "25% chance to gain a Flask Charge when you deal a Critical Strike": {
+    "zh": "暴击时有 25% 的几率获得一次药剂充能",
+    "kind": "passive-stat",
+    "node_ids": [
+      "9393",
+      "9458",
+      "18750",
+      "20736",
+      "41016",
+      "45019",
+      "46665",
+      "46761"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "If you've Consumed a corpse Recently, you and your Minions have 30% increased Area of Effect": {
+    "zh": "若你近期内消耗过灵柩，你和你的召唤生物的效果区域提高 30%",
+    "kind": "passive-stat",
+    "node_ids": [
+      "10099",
+      "11490"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "With at least one nearby corpse, you and nearby Allies deal 10% more Damage": {
+    "zh": "周围有至少一个灵柩时，你和周围友军造成的伤害总增 10%",
+    "kind": "passive-stat",
+    "node_ids": [
+      "11490"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "With at least one nearby corpse, nearby Enemies deal 10% reduced Damage": {
+    "zh": "周围有至少一个灵柩时，周围敌人造成的伤害降低 10%",
+    "kind": "passive-stat",
+    "node_ids": [
+      "11490"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Attacks fire an additional Projectile": {
+    "zh": "攻击额外发射一个投射物",
+    "kind": "passive-stat",
+    "node_ids": [
+      "13375"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Projectiles Pierce an additional Target": {
+    "zh": "投射物额外穿透一个目标",
+    "kind": "passive-stat",
+    "node_ids": [
+      "13812",
+      "31222"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "1% additional Physical Damage Reduction per Minion, up to 10%": {
+    "zh": "每有一个召唤生物，便获得 1% 额外物理伤害减免，最多 10%",
+    "kind": "passive-stat",
+    "node_ids": [
+      "14603"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "You can inflict Bleeding on an Enemy up to 8 times\nYour Bleeding does not deal extra Damage while the Enemy is moving and cannot be Aggravated\n50% less Damage with Bleeding": {
+    "zh": "你可以对一个敌人施加最多 8 层流血\n你的流血不会因敌人移动而造成额外伤害，且不能被加剧\n流血伤害总降 50%",
+    "kind": "passive-stat",
+    "node_ids": [
+      "17818"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Every 10 seconds:\nTake 50% less Damage from Hits for 5 seconds\nTake 50% less Damage over Time for 5 seconds": {
+    "zh": "每 10 秒：\n受到的击中伤害总降 50%，持续 5 秒\n受到的持续伤害总降 50%，持续 5 秒",
+    "kind": "passive-stat",
+    "node_ids": [
+      "28884"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "25% chance to gain a Frenzy Charge when you Block": {
+    "zh": "格挡时有 25% 的几率获得一个狂怒球",
+    "kind": "passive-stat",
+    "node_ids": [
+      "33725"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell": {
+    "zh": "你或你的图腾以法术击中敌人时，获得秘术增强",
+    "kind": "passive-stat",
+    "node_ids": [
+      "40510",
+      "42144"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Projectiles deal 20% increased Damage with Hits and Ailments for\neach remaining Chain, up to a maximum of 100%": {
+    "zh": "投射物每剩余一次连锁，击中和异常状态伤害提高 20%，最多 100%",
+    "kind": "passive-stat",
+    "node_ids": [
+      "42068"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Damageable Minions deal 30% increased Damage for each second they have been alive,\nup to a maximum of 150%": {
+    "zh": "可受伤害的召唤生物每存活一秒，造成的伤害提高 30%，\n最多 150%",
+    "kind": "passive-stat",
+    "node_ids": [
+      "43660"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Damageable Minions take 5% increased Damage for each second they have been alive,\nup to a maximum of 50%": {
+    "zh": "可受伤害的召唤生物每存活一秒，受到的伤害提高 5%，\n最多 50%",
+    "kind": "passive-stat",
+    "node_ids": [
+      "43660"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Gain Accuracy Rating equal to twice your Strength": {
+    "zh": "获得等同于力量两倍的命中值",
+    "kind": "passive-stat",
+    "node_ids": [
+      "44297"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "1% increased Critical Strike Chance per point of Strength or Intelligence, whichever is lower": {
+    "zh": "取力量与智慧中的较低值，每点使暴击几率提高 1%",
+    "kind": "passive-stat",
+    "node_ids": [
+      "53884"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Gain a Flask Charge when you deal a Critical Strike": {
+    "zh": "暴击时获得一次药剂充能",
+    "kind": "passive-stat",
+    "node_ids": [
+      "54928"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "1% additional Physical Damage Reduction per Endurance Charge": {
+    "zh": "每有一个耐力球，获得 1% 额外物理伤害减免",
+    "kind": "passive-stat",
+    "node_ids": [
+      "56789"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "+1% Chance to Block Attack Damage per Summoned Skeleton": {
+    "zh": "每有一个召唤的异灵魔侍，攻击伤害格挡几率 +1%",
+    "kind": "passive-stat",
+    "node_ids": [
+      "59067"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "Gain a Power Charge after Spending a total of 200 Mana": {
+    "zh": "累计消耗 200 点魔力后获得一个暴击球",
+    "kind": "passive-stat",
+    "node_ids": [
+      "62504"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "25% chance to gain an Endurance Charge when you Stun an Enemy": {
+    "zh": "使敌人晕眩时，有 25% 的几率获得一个耐力球",
+    "kind": "passive-stat",
+    "node_ids": [
+      "62595"
+    ],
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed"
+  },
+  "(Being Blinded causes 20% less Accuracy Rating and Evasion Rating)": {
+    "zh": "（被致盲时，命中值和闪避值总降 20%）",
+    "kind": "passive-reminder",
+    "node_id": "5087",
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed",
+    "review_note": "CN reference adds a duration absent from this English clause; retain only the local clause."
+  },
+  "(Creates a Suspended Mirage - an astral-infused clone of yourself that is suspended in time, just before the release of the spellcast that triggered them. On reaching three Suspended Mirages, all Suspended Mirages will be released, using the spell which was cast to create them. Suspended Mirages are not created by Vaal spells, channelling spells, instant spells, or spells which create minions)": {
+    "zh": "（创造一个悬停的幻境——一个注入星界能量、悬停在时间中的自身克隆体，定格在即将释放触发该效果的那个法术的瞬间。当达到 3 个悬停幻境时，所有悬停幻境将被释放，触发创造出它们时所施放的法术。悬停的幻境无法由瓦尔技能、持续吟唱技能、瞬发技能或创造召唤生物的技能产生）",
+    "kind": "passive-reminder",
+    "node_id": "8081",
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed",
+    "review_note": "English three and Chinese 3 denote the same count."
+  },
+  "(Elemental Ailments are Ignited, Scorched, Chilled, Frozen, Brittled, Shocked, and Sapped)": {
+    "zh": "（元素异常状态包括点燃、烧灼、冰缓、冻结、脆弱、感电和力竭）",
+    "kind": "passive-reminder",
+    "node_id": "18054",
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed",
+    "review_note": "Brittled is the local spelling of Brittle; reference uses the standard ailment list."
+  },
+  "(Lucky things are rolled twice and the best result used)": {
+    "zh": "（幸运会重复判定两次，并采用较好的结果）",
+    "kind": "passive-reminder",
+    "node_id": "2598",
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed",
+    "review_note": "English twice and Chinese two denote the same count."
+  },
+  "(Unlucky things are rolled twice and the worst result used)": {
+    "zh": "（不幸会重复判定两次，并采用较差的结果）",
+    "kind": "passive-reminder",
+    "node_id": "14103",
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed",
+    "review_note": "English twice and Chinese two denote the same count."
+  },
+  "Hallowing Flame lasts for six seconds and cannot benefit the one who inflicted it)": {
+    "zh": "圣焰持续 6 秒，且施加者无法从中获益。）",
+    "kind": "passive-reminder",
+    "node_id": "3458",
+    "source": "https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5",
+    "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
+    "status": "paired-id-local-semantics-reviewed",
+    "review_note": "English six and Chinese 6 denote the same duration."
+  }
+}

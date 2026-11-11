@@ -7,53 +7,19 @@
     "passive-reminder_occurrences": 999,
     "mastery-stat_occurrences": 1994,
     "number_mismatch_skipped": 66,
-    "unique_translations": 4969,
+    "passive-flavour_occurrences": 68,
+    "reviewed_translations": 58,
+    "unique_translations": 5131,
     "ambiguous_texts_context_only": 51,
     "local_nodes": 3397,
     "named_nodes_total": 3396,
-    "named_nodes_translated": 3389,
+    "named_nodes_translated": 3396,
     "stat_lines_total": 4984,
-    "stat_lines_translated": 4937,
+    "stat_lines_translated": 4984,
     "mastery_lines_total": 2015,
-    "mastery_lines_translated": 1994
+    "mastery_lines_translated": 2015
   },
-  "unmatched": [
-    {
-      "node_id": "18054",
-      "kind": "node",
-      "english": "Fury of Nature"
-    },
-    {
-      "node_id": "19355",
-      "kind": "node",
-      "english": "Unleashed Potential"
-    },
-    {
-      "node_id": "27602",
-      "kind": "node",
-      "english": "Nine Lives"
-    },
-    {
-      "node_id": "42469",
-      "kind": "node",
-      "english": "Fatal Flourish"
-    },
-    {
-      "node_id": "52435",
-      "kind": "node",
-      "english": "Indomitable Resolve"
-    },
-    {
-      "node_id": "57331",
-      "kind": "node",
-      "english": "Harness the Void"
-    },
-    {
-      "node_id": "57568",
-      "kind": "node",
-      "english": "Searing Purity"
-    }
-  ],
+  "unmatched": [],
   "conflicts": [
     {
       "english": "Evasion",

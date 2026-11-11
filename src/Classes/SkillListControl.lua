@@ -72,18 +72,24 @@ end)
 function SkillListClass:GetRowValue(column, index, socketGroup)
 	if column == 1 then
 		local label = socketGroup.displayLabel or "?"
+		if Localization and (not socketGroup.label or socketGroup.label == "") then
+			label = label:gsub("([^,]+)", function(name)
+				return (name:match("^%s*") or "") .. Localization:TranslateUI(name:gsub("^%s+", ""):gsub("%s+$", ""))
+			end)
+		end
 		local currentMainSkill = self.skillsTab.build.mainSocketGroup == index
 		local disabled = not socketGroup.enabled or not socketGroup.slotEnabled
 		if disabled then
 			local colour = currentMainSkill and "" or "^x7F7F7F"
-			label = colour .. label .. " (Disabled)"
+			label = colour .. label .. " " .. (Localization and Localization:TranslateUI("(Disabled)") or "(Disabled)")
 		end
 		if currentMainSkill then 
-			local activeLabel = disabled and " (Forced Active)" or " (Active)"
+			local activeLabel = disabled and "(Forced Active)" or "(Active)"
+			activeLabel = " " .. (Localization and Localization:TranslateUI(activeLabel) or activeLabel)
 			label = label .. colorCodes.RELIC .. activeLabel
 		end
 		if socketGroup.includeInFullDPS then 
-			label = label .. colorCodes.CUSTOM .. " (FullDPS)"
+			label = label .. colorCodes.CUSTOM .. " " .. (Localization and Localization:TranslateUI("(FullDPS)") or "(FullDPS)")
 		end
 		
 		if not socketGroup.source then

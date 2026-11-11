@@ -37,6 +37,8 @@ def build_passives():
         return True
     def lines(local_lines, english_lines, chinese_lines, node_id, kind):
         if len(english_lines) != len(chinese_lines):
+            if kind == 'passive-flavour' and list(map(clean, local_lines)) == list(map(clean, english_lines)):
+                add('\n'.join(local_lines), '\n'.join(chinese_lines), kind, node_id)
             return
         matched = dict(zip(map(clean, english_lines), chinese_lines))
         for line in local_lines:
@@ -57,12 +59,27 @@ def build_passives():
                 counts['nodes_with_name'] += 1
         lines(node.get('stats', []), english.get('stats', []), chinese.get('stats', []), node_id, 'passive-stat')
         lines(node.get('reminderText', []), english.get('reminderText', []), chinese.get('reminderText', []), node_id, 'passive-reminder')
+        lines(node.get('flavourText', []), english.get('flavourText', []), chinese.get('flavourText', []), node_id, 'passive-flavour')
         ee = {v['effect']: v for v in english.get('masteryEffects', [])}
         ze = {v['effect']: v for v in chinese.get('masteryEffects', [])}
         for effect in node.get('masteryEffects', []):
             effect_id = effect['effect']
             if effect_id in ee and effect_id in ze:
                 lines(effect['stats'], ee[effect_id]['stats'], ze[effect_id]['stats'], node_id, 'mastery-stat')
+    reviewed = json.loads((HERE / 'passive-reviewed.json').read_text('utf8'))
+    for english, meta in reviewed.items():
+        matched = 0
+        for node_id, node in pob['nodes'].items():
+            texts = [node.get('name', ''), *node.get('stats', []), *node.get('reminderText', [])]
+            texts.extend(s for effect in node.get('masteryEffects', []) for s in effect['stats'])
+            if english in texts:
+                contexts[node_id][english] = meta['zh']
+                matched += 1
+        if not matched:
+            raise ValueError('Reviewed passive no longer exists: ' + english)
+        candidates[english] = {meta['zh']: meta}
+    misses = [m for m in misses if m.get('english') not in reviewed]
+    counts['reviewed_translations'] = len(reviewed)
     entries = {}
     conflicts = []
     for english, options in candidates.items():
@@ -70,6 +87,23 @@ def build_passives():
             entries[english] = next(iter(options.values()))
         else:
             conflicts.append({'english': english, 'translations': list(options)})
+    # Class and bloodline dropdowns are tree metadata, not named passive nodes.
+    # Match ascendancies by ID and check against the local metadata as well.
+    def ascendancies(tree):
+        groups = tree.get('alternate_ascendancies', [])[:]
+        for group in tree.get('classes', []):
+            groups.extend(group.get('ascendancies', []))
+        return {v['id']: v for v in groups}
+    ea, za, pa = ascendancies(en), ascendancies(cn), ascendancies(pob)
+    for class_id in ea.keys() & za.keys() & pa.keys():
+        english, chinese, local = ea[class_id], za[class_id], pa[class_id]
+        for field in ('name', 'flavourText'):
+            if local.get(field) and local[field] == english.get(field) and chinese.get(field):
+                for old, new in [(local[field], chinese[field]),
+                                 (local[field].replace('\\n','\n'),chinese[field].replace('\\n','\n'))]:
+                    entries[old] = {'zh': new, 'kind':'ascendancy-'+field, 'status':'paired-id-local-english-checked',
+                        'source':'https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5',
+                        'english_source':'https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5'}
     counts['unique_translations'] = len(entries)
     counts['ambiguous_texts_context_only'] = len(conflicts)
     counts['local_nodes'] = len(pob['nodes'])

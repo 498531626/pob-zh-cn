@@ -2,11 +2,33 @@
 local L = { mode = "bilingual", suspended = 0 }
 local dictionary = LoadModule("Localization/Dictionary")
 local passiveContexts = LoadModule("Localization/PassiveContexts")
+local panelLabels = LoadModule("Localization/PanelLabels")
+local skillTemplates = LoadModule("Localization/SkillTemplates")
+local displayTemplates = LoadModule("Localization/DisplayTemplates")
+local displayTerms = LoadModule("Localization/DisplayTerms")
+local calcLabels = LoadModule("Localization/CalcLabels")
+local numericFields = {}
+for _, labels in ipairs({calcLabels, panelLabels}) do
+	for _, label in ipairs(labels) do numericFields[label:gsub(":$", "")] = true end
+end
 local glyphs = LoadModule("Localization/Glyphs")
 local rawDraw, rawWidth, rawCursor, rawColor = DrawString, DrawStringWidth, DrawStringCursorIndex, SetDrawColor
 local currentColor = {1, 1, 1, 1}
 local cache = {}
 local atlas
+local passiveMultiline = {}
+for id, context in pairs(passiveContexts) do
+	local groups = {}
+	for text in pairs(context) do
+		if text:find("\n", 1, true) then
+			local lines = {}
+			for line in (text .. "\n"):gmatch("(.-)\n") do lines[#lines+1] = line end
+			groups[#groups+1] = {text=text, lines=lines}
+		end
+	end
+	table.sort(groups, function(a,b) return #a.lines > #b.lines end)
+	passiveMultiline[id] = groups
+end
 local settingPath = GetScriptPath() .. "/Localization/language.cfg"
 local file = io.open(settingPath, "r")
 if file then
@@ -25,9 +47,242 @@ function L:Cycle()
 	if output then output:write(self.mode, "\n"); output:close() end
 end
 
-function L:Translate(text, nodeId)
+-- The tree parser splits one stat into several sd lines. Rejoin only exact
+-- source sequences already verified in this node's translation context.
+function L:PassiveLineGroups(nodeId, lines)
+	local result, index = {}, 1
+	local candidates = self:EffectiveMode() ~= "en" and passiveMultiline[tostring(nodeId)] or {}
+	while index <= #lines do
+		local matched
+		for _, candidate in ipairs(candidates or {}) do
+			local same = true
+			for offset, line in ipairs(candidate.lines) do
+				if lines[index+offset-1] ~= line then same=false;break end
+			end
+			if same then matched=candidate;break end
+		end
+		local last = matched and index+#matched.lines-1 or index
+		result[#result+1] = {first=index,last=last,text=matched and matched.text or lines[index]}
+		index = last+1
+	end
+	return result
+end
+
+-- Only recognise the display formats emitted by CompareStatList. Retain the
+-- exact numeric text, separators, signs, units, percentages and colour codes.
+local gemFields = {
+	["Level"]=true, ["Cost & Reservation Multiplier"]=true, ["Reservation Override"]=true,
+	["Reservation"]=true, ["Cost"]=true, ["Cooldown Time"]=true, ["Soul Gain Prevention"]=true,
+	["Attack Speed"]=true, ["Attack Time"]=true, ["Attack Damage"]=true, ["Cast Time"]=true,
+	["Critical Strike Chance"]=true, ["Effectiveness of Added Damage"]=true, ["Quality"]=true,
+}
+local function formattedChinese(body)
+	for _, template in ipairs(displayTemplates) do
+		local values = {body:match(template.pattern)}
+		if #values == #template.kinds then
+			local valid = true
+			for i, value in ipairs(values) do
+				local translated = displayTerms[value] or dictionary[value]
+				if template.kinds[i] == "term" and translated ~= nil then values[i] = translated
+				elseif value ~= "" and value:gsub("[%d%s%+%-%.,%%]", "") ~= "" then valid = false; break end
+			end
+			if valid then return (template.zh:gsub("{(%d+)}", function(i) return values[tonumber(i)+1] end)) end
+		end
+	end
+end
+-- These UI messages append user-controlled names, paths or status text. Keep
+-- that payload intact unless it has a reviewed exact translation of its own.
+local function interfaceChinese(body, nodeId)
+	local context = nodeId and passiveContexts[tostring(nodeId)]
+	local function nameChinese(value)
+		local base, seed = value:match("^(.-)( %d+)$")
+		return (context and context[value]) or dictionary[value]
+			or (base and dictionary[base] and dictionary[base] .. seed) or value
+	end
+	local prefixes = {
+		["Convert to "]="转换为 ", ["Character import status: "]="角色导入状态：",
+		["Current Path: "]="当前路径：", ["User settings path cannot be loaded: "]="无法加载用户设置路径：",
+		["Path of Building Community Fork v"]="PoB 社区版 v", ["Sorted by "]="排序依据：",
+		["Whisper for "]="发送交易私聊：", ["Search for "]="搜索：", ["Sorting "]="正在排序：",
+		["Overrides the default save location for builds.\nThe default location is: '"]="覆盖构筑的默认保存位置。\n默认位置为：'",
+		["which is being provided by "]="此技能由以下物品或天赋提供：",
+		["any other group socketed into "]="对应物品：",
+		["Current build: "]="当前构筑：", ["Version: "]="版本：",
+		["Price: "]="价格：",
+	}
+	local rawPayload = {
+		["Current build: "]=true, ["Version: "]=true, ["Current Path: "]=true,
+		["User settings path cannot be loaded: "]=true, ["Path of Building Community Fork v"]=true,
+		["Convert to "]=true, ["Sorting "]=true,
+		["Overrides the default save location for builds.\nThe default location is: '"]=true,
+	}
+	for prefix, chinese in pairs(prefixes) do
+		if body:sub(1, #prefix) == prefix then
+			local value = body:sub(#prefix+1)
+			return chinese .. (rawPayload[prefix] and value or nameChinese(value))
+		end
+	end
+	local skill = body:match("^This is a special group created for the '(.-)' skill,$")
+	if skill then return "此特殊技能组用于技能“" .. (dictionary[skill] or skill) .. "”，" end
+	local name = body:match("^(.-) can appear on:$")
+	if name then return nameChinese(name) .. "可出现在：" end
+	name = body:match("^(.-) was successfully added to your build%.$")
+	if name then return nameChinese(name) .. "已成功加入构筑。" end
+	name = body:match("^(.-) only:$")
+	if name then return "仅 " .. nameChinese(name) .. "：" end
+	local variant, count = body:match("^Variant: (.-) %((%d+) variants%)$")
+	if variant then return "变体：" .. nameChinese(variant) .. "（" .. count .. " 个变体）" end
+	local version = body:match("^Convert will replace all trees that are not Version (.-)%.\nThis action cannot be undone%.%s*$")
+	if version then return "转换将替换所有非 " .. version .. " 版本的天赋树。\n此操作无法撤销。\n" end
+	local action, target, result = body:match("^(%a+) (.-) (changes nothing.-)%.$")
+	if not action then action, target, result = body:match("^(%a+) (.-) (will give you:)%s*$") end
+	local actions = {Anointing="涂油分配", Allocating="分配"}
+	if actions[action] then
+		local reasons = {
+			["changes nothing"]="不会产生变化。",
+			["changes nothing because this node is already allocated on the tree"]="不会产生变化，因为天赋树上已分配此天赋。",
+			["changes nothing because this node is already anointed"]="不会产生变化，因为此天赋已经涂油分配。",
+			["will give you:"]="将产生以下变化：",
+		}
+		if reasons[result] then return actions[action] .. "“" .. nameChinese(target) .. "”" .. reasons[result] end
+	end
+	local verb, target = body:match("^(%a+) (.+)$")
+	local verbs = {Anoint="涂油分配 ", Remove="移除 "}
+	if verbs[verb] and (dictionary[target] or (context and context[target])) then return verbs[verb] .. nameChinese(target) end
+end
+local function dynamicChinese(body)
+	local interface = interfaceChinese(body)
+	if interface then return interface end
+	local number = body:match("^([%d%,%.]+) DPS$")
+	if number then return number .. " 每秒伤害" end
+	local mathPrefix, low, high = body:match("^([=%+%*/x%s%-]*)([%+%-]?[%d%,%.]+) to ([%+%-]?[%d%,%.]+)$")
+	if low then return mathPrefix .. low .. " 至 " .. high end
+	number = body:match("^(%d+) [Ww]arnings?$")
+	if number then return number .. " 条警告" end
+	local namedField, value = body:match("^(Current build):%s*(.+)$")
+	if not namedField then namedField, value = body:match("^(Version):%s*(.+)$") end
+	if namedField then return dictionary[namedField] .. ": " .. value end
+	number = body:match("^Level:%s*(%d+)$")
+	if number then return dictionary.Level .. ": " .. number end
+	local sort = body:match("^Sort by (.+)$")
+	if sort and dictionary[sort] then return "按" .. dictionary[sort] .. "排序" end
+	local minion = body:match("^Sort by Minion (.+)$")
+	if minion and dictionary[minion] then return "按召唤生物" .. dictionary[minion] .. "排序" end
+	local version, variant = body:match("^(%d+%.%d+) %((.-)%)$")
+	local variants = {ruthless="残暴模式", alternate="替代版本", ["ruthless alternate"]="残暴模式替代版本"}
+	if variants[variant] then return version .. "（" .. variants[variant] .. "）" end
+	local field, tail = body:match("^(.-):%s*(.+)$")
+	local plainField = field and field:gsub("%^x%x%x%x%x%x%x", ""):gsub("%^%d", "")
+	if numericFields[plainField] and dictionary[plainField] and not gemFields[plainField] then
+		local codes = field:match("(%^x%x%x%x%x%x%x)$") or field:match("(%^%d)$") or ""
+		-- Section headers concatenate their live value after the label. Only
+		-- known calculation/sidebar fields enter this path; values stay intact.
+		return dictionary[plainField] .. codes .. ": " .. tail:gsub("%f[%a]DPS%f[%A]", "每秒伤害")
+	end
+	local index = body:match("^Active Skill #(%d+):$")
+	if index then return "主动技能 #" .. index .. "：" end
+	index = body:match("^Active Skill #(%d+)'s Main Minion Skill:$")
+	if index then return "主动技能 #" .. index .. " 的召唤生物主技能：" end
+	local gemName, gemNumbers = body:match("^(.-)( %^7%d.*)$")
+	if gemName and dictionary[gemName] then
+		local plain = gemNumbers:gsub("%^x%x%x%x%x%x%x", ""):gsub("%^%d", "")
+		if plain:match("^ %d[%d%+%/]*$") then return dictionary[gemName] .. gemNumbers end
+	end
+	field, tail = body:match("^(.-): (.+)$")
+	if gemFields[field] then
+		tail = tail:gsub("([%d%,%.]+) to ([%d%,%.]+)", "%1 至 %2")
+		tail = tail:gsub("Instant", dictionary.Instant):gsub("of base", dictionary["of base"])
+			:gsub("%f[%a]sec%f[%A]", dictionary.sec):gsub("%f[%a]uses%f[%A]", dictionary.uses)
+			:gsub("%f[%a]Mana%f[%A]", dictionary.Mana):gsub("%f[%a]Life%f[%A]", dictionary.Life)
+			:gsub("%f[%a]Rage%f[%A]", dictionary.Rage):gsub("%(Max%)", dictionary["(Max)"])
+		return dictionary[field] .. ": " .. tail
+	end
+	if body:match("^Requires ") then
+		local plain = body:gsub("%^x%x%x%x%x%x%x", ""):gsub("%^%d", "")
+		local check = plain:gsub("^Requires ", ""):gsub("Level ", ""):gsub("Str", "")
+			:gsub("Dex", ""):gsub("Int", ""):gsub("Omni", ""):gsub("[%d%s,]", "")
+		if check == "" then
+			return body:gsub("^Requires ", dictionary.Requires .. " "):gsub("Level ", dictionary.Level .. " ")
+				:gsub("Str", dictionary.Strength):gsub("Dex", dictionary.Dexterity):gsub("Int", dictionary.Intelligence)
+				:gsub("Omni", dictionary.Omni)
+		end
+	end
+	local quality, source = body:match("^(%+%d+%%) Quality from (.+)$")
+	if quality and dictionary["Quality from " .. source] then return quality .. " " .. dictionary["Quality from " .. source] end
+	for _, template in ipairs(skillTemplates) do
+		local values = {body:match(template.pattern)}
+		if #values == template.values then
+			local valid = true
+			for _, value in ipairs(values) do
+				if not value:match("^[%+%-]?%d+%.?%d*$") and not value:match("^[%+%-]?%(%-?%d+%.?%d*%-%-?%d+%.?%d*%)$") then valid = false; break end
+			end
+			if valid then return (template.zh:gsub("{(%d+)}", function(i) return values[tonumber(i) + 1] end)) end
+		end
+	end
+	-- Calculation breakdowns retain their formula and values. Only complete,
+	-- reviewed annotations are replaced; an unknown annotation stays original.
+	local formulaChanged = false
+	local renderedParts = {}
+	body:gsub("%b()", function(part)
+		local function replace(value)
+			formulaChanged = true; renderedParts[part] = value; return value
+		end
+		if dictionary[part] then return replace(dictionary[part]) end
+		local inner = part:sub(2, -2)
+		local note = dictionary[inner] or formattedChinese(inner)
+		if not note then
+			local translated = L:Translate(inner, nil, "zh")
+			if translated ~= inner then note = translated end
+		end
+		if note then return replace("(" .. note .. ")") end
+		return part
+	end)
+	if formulaChanged then
+		local pieces, cursor = {}, 1
+		while true do
+			local first, last = body:find("%b()", cursor)
+			if not first then break end
+			pieces[#pieces+1] = L:Translate(body:sub(cursor, first-1), nil, "zh")
+			local part = body:sub(first, last)
+			pieces[#pieces+1] = renderedParts[part] or part
+			cursor = last+1
+		end
+		pieces[#pieces+1] = L:Translate(body:sub(cursor), nil, "zh")
+		return (table.concat(pieces):gsub("([%d%,%.]+) to ([%d%,%.]+)", "%1 至 %2"))
+	end
+	local formatted = formattedChinese(body)
+	if formatted then return formatted end
+	local math, suffix = body:match("^(.-%s)([%a][%a%s/]+)$")
+	if math and math:find("%d") and math:gsub("[%d%s%+%-%*/x=%,%.%%%(%):]", "") == "" and dictionary[suffix] then
+		return math .. dictionary[suffix]
+	end
+	if body:match("^[%+%-]") then
+		for _, label in ipairs(panelLabels) do
+			local first, last = body:find(" " .. label, 1, true)
+			if first then
+				local value, tail = body:sub(1, first - 1), body:sub(last + 1)
+				if value:find("%d") and value:gsub("[%d%+%-%.,%%'%s]", ""):gsub("s", "") == ""
+					and (tail == "" or tail:match("^ %(") or tail:match("^ %^8%[")) then
+					return value .. " " .. dictionary[label] .. tail:gsub("per point", dictionary["per point"])
+				end
+			end
+		end
+	end
+	local count, tail = body:match("^(%d+) points to node(.*)$")
+	if count then
+		return count .. " " .. dictionary["points to node"] .. tail:gsub("%(Can be allocated without pathing to it%)", dictionary["(Can be allocated without pathing to it)"])
+	end
+	count = body:match("^(%d+) nodes in trace path$")
+	if count then return count .. " " .. dictionary["nodes in trace path"] end
+	local value, code, suffix = body:match("^(.-)(%^x%x%x%x%x%x%x) %((%a+)%)$")
+	if value and (suffix == "Guard" or suffix == "Immune") and value:find("%d") then
+		return value .. code .. " (" .. dictionary[suffix] .. ")"
+	end
+end
+
+function L:Translate(text, nodeId, displayMode)
 	if type(text) ~= "string" or self.suspended > 0 or self:EffectiveMode() == "en" then return text end
-	local mode = self:EffectiveMode()
+	local mode = displayMode or self:EffectiveMode()
 	local key = mode .. "\0" .. tostring(nodeId or "") .. "\0" .. text
 	if cache[key] then return cache[key] end
 	-- Colour prefixes can contain any mix of numeric and hex escape codes.
@@ -37,20 +292,70 @@ function L:Translate(text, nodeId)
 		if not code then break end
 		prefix, body = prefix .. code, body:sub(#code + 1)
 	end
-	local trailing = body:match(":$") or (body:sub(-3) == "：" and "：") or ""
+	if body:sub(1,3) == "<- " or body:sub(1,3) == "-> " then
+		prefix, body = prefix .. body:sub(1,3), body:sub(4)
+	end
+	local leading, rest = body:match("^(%s+)(.+)$")
+	if leading then
+		local translated = self:Translate(prefix .. rest, nodeId, displayMode)
+		if translated ~= prefix .. rest then return prefix .. leading .. translated:sub(#prefix+1) end
+	end
+	local core, whitespace = body:match("^(.-)(%s+)$")
+	if core and core ~= "" then
+		local translated = self:Translate(prefix .. core, nodeId, displayMode)
+		if translated ~= prefix .. core then return translated .. whitespace end
+	end
+	-- This suffix is added after unsupported passive/gem stats are formatted.
+	-- Resolve the original line with its node context, preserving its red colour.
+	local unsupported = " ^8(Not supported in PoB yet)"
+	if body:sub(-#unsupported) == unsupported then
+		return self:Translate(prefix .. body:sub(1, -#unsupported - 1), nodeId, displayMode)
+			.. " ^8" .. self:Translate("(Not supported in PoB yet)", nil, displayMode)
+	end
+	local trailing = body:match("(%^x%x%x%x%x%x%x:)$") or body:match("(%^%d:)$")
+		or body:match(":$") or (body:sub(-3) == "：" and "：") or ""
 	local name = trailing ~= "" and body:sub(1, -#trailing - 1) or body
 	local context = nodeId and passiveContexts[tostring(nodeId)]
 	local direct = context and context[body] or dictionary[body]
 	local zh = direct or (context and context[name]) or dictionary[name]
+	local dynamic = not zh and (interfaceChinese(body, nodeId) or (not body:find("[\128-\255]") and dynamicChinese(body)))
 	local result = text
 	if direct then
 		result = prefix .. zh .. (mode == "bilingual" and " / " .. body or "")
 	elseif zh then
 		result = prefix .. zh .. (mode == "bilingual" and " / " .. name or "") .. trailing
+	elseif dynamic then
+		result = prefix .. dynamic .. (mode == "bilingual" and " / " .. body or "")
+	elseif body:find("^", 1, true) then
+		local plain = body:gsub("%^x%x%x%x%x%x%x", ""):gsub("%^%d", "")
+		if plain ~= body then
+			local translated = self:Translate(plain, nodeId, "zh")
+			if translated ~= plain then
+				-- Inline colour codes split otherwise exact sentences. Restore
+				-- highlights on known terms after translating the complete text.
+				local start = 1
+				while start <= #body do
+					local first = body:find("^", start, true)
+					if not first then break end
+					local code = body:sub(first):match("^%^x%x%x%x%x%x%x") or body:sub(first):match("^%^%d")
+					if code then
+						local nextCode = body:find("^", first + #code, true) or (#body + 1)
+						local term = body:sub(first + #code, nextCode - 1):match("^%s*(.-)%s*$")
+						local zhTerm = dictionary[term]
+						if code ~= "^7" and zhTerm then
+							local left, right = translated:find(zhTerm, 1, true)
+							if left then translated = translated:sub(1,left-1)..code..zhTerm.."^7"..translated:sub(right+1) end
+						end
+						start = nextCode
+					else start = first + 1 end
+				end
+				result = prefix .. translated .. (mode == "bilingual" and " / " .. body or "")
+			end
+		end
 	elseif body:find("\n", 1, true) then
 		local lines = {}
 		for line in (body .. "\n"):gmatch("(.-)\n") do
-			lines[#lines + 1] = self:Translate(prefix .. line, nodeId)
+			lines[#lines + 1] = self:Translate(prefix .. line, nodeId, displayMode)
 		end
 		result = table.concat(lines, "\n")
 	end
@@ -59,6 +364,13 @@ function L:Translate(text, nodeId)
 	cache[key] = result
 	self.cacheSize = self.cacheSize + 1
 	return result
+end
+
+-- Fixed-size UI cells cannot fit two full labels. In comparison mode keep the
+-- interface compact and show both languages in the wrapped detail tooltips.
+-- English mode and holding Alt still expose the complete original interface.
+function L:TranslateUI(text)
+	return self:Translate(text, nil, self:EffectiveMode() == "bilingual" and "zh" or nil)
 end
 
 local function tokens(text)
@@ -127,13 +439,13 @@ function SetDrawColor(...)
 end
 
 function DrawStringWidth(height, font, text)
-	return measure(height, font, L:Translate(text))
+	return measure(height, font, L:TranslateUI(text))
 end
 
 -- All alignments mirror the native renderer. Atlas glyphs share the same colour
 -- and draw layer as the original text; western text keeps its original font.
 function DrawString(left, top, align, height, font, text)
-	text = L:Translate(text)
+	text = L:TranslateUI(text)
 	if not text:find("[\128-\255]") then return rawDraw(left, top, align, height, font, text) end
 	if not atlas then atlas = NewImageHandle(); atlas:Load("Localization/ChineseGlyphs.png") end
 	local originalColor = currentColor
@@ -174,7 +486,7 @@ function L:WithoutTranslation(func, ...)
 end
 
 function L:ButtonText(x, y, width, height, font, text)
-	local translated = self:Translate(text)
+	local translated = self:TranslateUI(text)
 	local fit = math.min(height, height * (width - 6) / math.max(1, measure(height, font, translated)))
 	fit = math.max(8, fit)
 	-- Already translated; prevent a second lookup (e.g. English mode labels).

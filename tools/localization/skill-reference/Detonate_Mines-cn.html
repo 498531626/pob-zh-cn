@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="cn" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>引爆地雷 - 流亡编年史, Path of Exile Wiki cn</title>
+    <meta name="description" content="path of exile is simply a tool to test your path of building creation">
+    <link rel="alternate" hreflang="en" href="https://poedb.tw/us/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://poedb.tw/tw/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://poedb.tw/cn/" />
+        <link href="/favicon.png" rel="shortcut icon" >
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/jquery.dataTables.min.css" integrity="sha512-1k7mWiTNoyx2XtmI96o+hdjP8nn0f3Z2N4oF/9ZZRgijyV4omsKOXEnqL1gKQNPy2MTSP9rIEWGcH/CInulptA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-5-theme/1.3.0/select2-bootstrap-5-theme.min.css" integrity="sha512-z/90a5SWiu4MWVelb5+ny7sAayYUfMmdXKEAbpj27PfdkamNdyI3hcjxPxkOPbrXoKIm7r9V2mElt5f1OtVhqA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy.min.css" integrity="sha512-HbPh+j4V7pXprvQMt2dtmK/zCEsUeZWYXRln4sOwmoyHPQAPqy/k9lIquKUyKNpNbDGAY06UdiDHcEkBc72yCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.min.css" integrity="sha512-OkYLbkJ4DB7ewvcpNLF9DSFmhdmxFXQ1Cs+XyjMsMMC94LynFJaA9cPXOokugkmZo6O6lwZg+V5dwQMH4S5/3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/css/modal-video.min.css" integrity="sha256-nd8IBqNn9uqwZKfZcLIXQcNxk5TjqrxiLx7PzN5PFW0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" integrity="sha256-auPoJwk/+RK6KSkib92Dkq1Y5hEkZvKtvSwucs15Skg=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video-js.min.css" integrity="sha512-J3tx4ssoARFr4U9VmZmQe2q672q0jUeYizJW3vglkOBTlQ/N6kF3eVqZZzaey/TdIXH69s3HYe2nQwyxK/Emzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link rel="stylesheet" href="https://cdn.poedb.tw/css/stdtheme.2ee77f64c96f1967.css" />
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js" integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" integrity="sha256-Ikk5myJowmDQaYVCUD0Wr+vIDkN8hGI58SGWdE671A8=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.full.min.js" integrity="sha512-RtZU3AyMVArmHLiW0suEZ9McadTdegwbgtiQl5Qqo9kunkVg1ofwueXD8/8wv3Af8jkME3DDe3yLfR8HSJfT2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy-bundle.umd.min.js" integrity="sha512-gbruucq/Opx9jlHfqqZeAg2LNK3Y4BbpXHKDhRC88/tARL/izPOE4Zt2w6X9Sn1UeWaGbL38zW7nkL2jdn5JIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.1/marked.min.js" integrity="sha512-VUuO/d6MS7hXmiFGEj7HtUa2FCI6Ll+xPvX9yX3bxn7ZqDWwleqXa8dtW13brbZ1ld2jiTrv8hWbpfp4B5mi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.all.js" integrity="sha512-A7LzqKE/pm9ofgS0Lxu7qroQS5SkKJQaYJkJ/66nQiWZfEdeGlBq5zEXQ63VRmXZK8zPpCgFf2WQJIAljI0Vdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/js/modal-video.min.js" integrity="sha256-VqINwNxkS4VEDMq5O52YTckX+Mx84X6bafO8NxF21Xw=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js" integrity="sha256-DiHJ7hbvMejsMyP76bpVWacb5HSHQ2sQlrJV8n7KEvA=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/echarts.min.js" integrity="sha512-4/g9GAdOdTpUP2mKClpKsEzaK7FQNgMjq+No0rX8XZlfrCGtbi4r+T/p5fnacsEC3zIAmHKLJUL7sh3/yVA4OQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/theme/dark.min.js" integrity="sha512-3Zm64ayK7DflnnyO2pKkLJX3v9Sb90mvahbwPUuMzEf42HI6k8tquIx5VsNBjEWAcYJWzvimbqnTkLl2QdCUmw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video.min.js" integrity="sha512-48NkCweTzA9u2sP4GgKcEDm6IScPIMga142ipKFNcHfz7feUJXDJxO1jwc2l+5MvWfwMj4BDfQv8WIMhrPxZLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.2.1/mustache.min.js" integrity="sha512-Qjrukx28QnvFWISw9y4wCB0kTB/ISnWXPz5/RME5o8OlZqllWygc1AB64dOBlngeTeStmYmNTNcM6kfEjUdnnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js" integrity="sha512-7O5pXpc0oCRrxk8RUfDYFgn0nO1t+jLuIOQdOMRp4APB7uZ4vSjspzp5y6YDtDs4VzUSTbWzBFZ/LKJhnyFOKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        <script src="https://cdn.poedb.tw/js/ModsView.6d68ad906ceba146.js"></script>
+        <script src="https://cdn.poedb.tw/js/poedb_header.a5ba197f514f530c.js"></script>
+    
+    <script data-cfasync="false">window.nitroAds=window.nitroAds||{createAd:function(){return new Promise(e=>{window.nitroAds.queue.push(["createAd",arguments,e])})},addUserToken:function(){window.nitroAds.queue.push(["addUserToken",arguments])},queue:[]};</script>
+    <script data-cfasync="false" async src="https://s.nitropay.com/ads-562.js"></script>
+
+    <meta property="og:site_name" content="poedb.tw">
+<meta property="og:title" content="引爆地雷" />
+<meta property="og:description" content="引爆一个地雷，启动传爆序列。它将持续引爆周围的地雷。" />
+<meta property="og:image" content="https://cdn.poedb.tw/image/Art/2DItems/Gems/DetonateMines.webp" />
+
+  </head>
+
+  <body>
+
+    <div id="consent-box" style="display:none">
+      <button onclick="window.__cmp('showModal');">
+        Update cookie preferences
+      </button>
+    </div>
+    
+    <script>
+      if (window["nitroAds"] && window["nitroAds"].loaded) {
+        document.getElementById("consent-box").style.display = window["__tcfapi"]
+          ? ""
+          : "none";
+      } else {
+        document.addEventListener(
+          "nitroAds.loaded",
+          () =>
+            (document.getElementById("consent-box").style.display = window["__tcfapi"]
+              ? ""
+              : "none")
+        );
+      }
+    </script>
+
+
+    <div class="background-image "></div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3B810SRKBH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3B810SRKBH');
+</script>
+
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="navbar-brand fw-bold" href="/cn/">PoE<span class='brand-suffix'>DB</span><sub></sub></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"  aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Items" data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</a></li>
+                    <li><a class="dropdown-item" href="/cn/Unique_item" data-i18n="ClientStrings|ItemDisplayStringUnique|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Vendor_recipe_system" data-i18n="ClientStrings|TutorialPanelVendorRecipes|Name">商人物品配方</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Gem" data-i18n="ClientStrings|ItemDisplayStringGem|Name">宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Skill_Gems" data-i18n="ItemClasses|Active Skill Gem|Name">技能宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Support_Gems" data-i18n="ItemClasses|Support Skill Gem|Name">辅助宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Transfigured_Gems" data-i18n="ClientStrings|ItemFilterRuleTransfiguredGems|Name">改造宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Exceptional" data-i18n="GemTags|exceptional|Name">Exceptional</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Modifiers" data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</a></li>
+                    <li><a class="dropdown-item" href="/cn/Keywords" data-i18n-tw="提示字">Keywords</a></li>
+                    <li><a class="dropdown-item" href="/cn/Oil" data-i18n="AchievementItems|DeliriumCraftItemsUsingCurrency1_8|Name">圣油</a></li>
+                    <li><a class="dropdown-item" href="/cn/Crafting_Bench" data-i18n="BaseItemTypes|Metadata/Items/HideoutInteractables/HideoutCraftingBench|Code"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Horticrafting" data-i18n="ClientStrings|HarvestCraftingStationTitle|Name">花园工艺</a></li>
+                    <li><a class="dropdown-item" href="/cn/metamods">工艺互动</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/cn/Quest" data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</a></li>
+                    <li><a class="dropdown-item" href="/cn/Ascendancy_class" data-i18n="ClientStrings|TutorialPanelAscendancies|Name">升华职业</a></li>
+                    <li><a class="dropdown-item" href="/cn/Bloodline_Ascendancy_class" data-i18n-tw="血裔職業" data-i18n-cn="血脉职业">Bloodline Ascendancy class</a></li>
+                    <li><a class="dropdown-item" href="/cn/passive-skill-tree/" data-i18n="ClientStrings|ActionOpenPassivePanel|Name">天赋树</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Maps" data-i18n="UniqueStashTypes|Map|Name">地图</a></li>
+                    <li><a class="dropdown-item" href="/cn/Atlas_of_Worlds" data-i18n="MapSeries|MapAtlas|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/atlas-skill-tree/" data-i18n="ClientStrings|ActionOpenAtlasPassivesScreen|Name"></a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item"><a class="nav-link" href="Economy" data-i18n-tw="經濟" data-i18n-cn="经济">Economy</a></li>
+    
+                <li class="nav-item"><a class="ms-4 nav-link  bg-warning rounded-circle" style="color: white" href="/cn/patreon">赞助</a></li>
+              </ul>
+    
+    
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" aria-current="page" href="https://poe2db.tw/cn/">PoE2<span class="brand-suffix">DB</span></a>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-language fa-lg"></i> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/tw/Detonate_Mines">TW 繁體中文</a></li>
+                    <li><a class="dropdown-item" href="/cn/Detonate_Mines">CN 简体中文</a></li>
+                    <li><a class="dropdown-item" href="/us/Detonate_Mines">US English</a></li>
+                    <li><a class="dropdown-item" href="/kr/Detonate_Mines">KR 한국어</a></li>
+                    <li><a class="dropdown-item" href="/ru/Detonate_Mines">RU Русский</a></li>
+                    <li><a class="dropdown-item" href="/jp/Detonate_Mines">JP Japanese</a></li>
+                    <li><a class="dropdown-item" href="/fr/Detonate_Mines">FR Français</a></li>
+                    <li><a class="dropdown-item" href="/de/Detonate_Mines">DE Deutsch</a></li>
+                    <li><a class="dropdown-item" href="/th/Detonate_Mines">TH ภาษาไทย</a></li>
+                    <li><a class="dropdown-item" href="/pt/Detonate_Mines">PO Português</a></li>
+                    <li><a class="dropdown-item" href="/sp/Detonate_Mines">ES Spanish</a></li>
+                  </ul>
+                </li>
+              </ul>
+    
+            <form class="form-inline my-2 my-lg-0" role="search" action="search">
+              <input type="hidden" name="token" value="a9a10129bc0f570793e33e33357679b16ca491b67eb41f2a3f5afd7a221418ffd8e8a4">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q" id="navautosearch">
+            </form>
+    
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+    </header>
+
+<script>sidebar160("leftside_banner", "left");</script>
+<script>sidebar160("rightside_banner", "right");</script>
+
+
+
+    <div class="page ">
+    <div class="page-content theme-showcase container" role="main">
+
+
+<div class="d-flex flex-wrap justify-content-center"><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Expedition_league" data-bs-toggle="tooltip" title="先祖秘藏 v3.15"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/ExpeditionDetonator.webp" alt="ExpeditionDetonator" class="league_minimap" /></span></a><a href="Ultimatum_league" data-bs-toggle="tooltip" title="致命贪婪 v3.14"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/UltimatumAltar.webp" alt="UltimatumAltar" class="league_minimap" /></span></a><a href="Ritual_league" data-bs-toggle="tooltip" title="驱灵仪式 v3.13"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/RitualRune.webp" alt="RitualRune" class="league_minimap" /></span></a><a href="Blight_league" data-bs-toggle="tooltip" title="菌潮 v3.8"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BlightCore.webp" alt="BlightCore" class="league_minimap" /></span></a><a href="Legion_league" data-bs-toggle="tooltip" title="军团 v3.7"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/LegionInitiator.webp" alt="LegionInitiator" class="league_minimap" /></span></a><a href="Betrayal_league" data-bs-toggle="tooltip" title="背叛者 v3.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BetrayalSymbolCatarina.webp" alt="BetrayalSymbolCatarina" class="league_minimap" /></span></a><a href="Incursion_league" data-bs-toggle="tooltip" title="穿越 v3.3"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/IncursionCraftingBench.webp" alt="IncursionCraftingBench" class="league_minimap" /></span></a><a href="Bestiary_league" data-bs-toggle="tooltip" title="猎魔 v3.2"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BestiaryRareMonster.webp" alt="BestiaryRareMonster" class="league_minimap" /></span></a><a href="Abyss_league" data-bs-toggle="tooltip" title="深渊 v3.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Abyss.webp" alt="Abyss" class="league_minimap" /></span></a><a href="Breach_league" data-bs-toggle="tooltip" title="裂隙 v2.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Breach.webp" alt="Breach" class="league_minimap" /></span></a>
+    </div>
+  </div>
+</div><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Allflame_league" data-bs-toggle="tooltip" title="永火之咒 v3.29"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DeepwaterCursedTreasure.webp" alt="DeepwaterCursedTreasure" class="league_minimap" /></span></a><a href="Mirage_league" data-bs-toggle="tooltip" title="沙海幻境 v3.28"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Mirage.webp" alt="Mirage" class="league_minimap" /></span></a><a href="Mercenaries_league" data-bs-toggle="tooltip" title="佣兵 v3.26"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/MercenaryEncounter.webp" alt="MercenaryEncounter" class="league_minimap" /></span></a><a href="Settlers_league" data-bs-toggle="tooltip" title="君锋城下 v3.25"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/VillageShipping.webp" alt="VillageShipping" class="league_minimap" /></span></a><a href="Sanctum_league" data-bs-toggle="tooltip" title="圣地 v3.20"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Sanctum.webp" alt="Sanctum" class="league_minimap" /></span></a><a href="Archnemesis_league" data-bs-toggle="tooltip" title="罪恶枷锁 v3.17"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Archnemesis.webp" alt="Archnemesis" class="league_minimap" /></span></a><a href="Heist_league" data-bs-toggle="tooltip" title="夺宝奇兵 v3.12"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HeistSumgglersCache.webp" alt="HeistSumgglersCache" class="league_minimap" /></span></a><a href="Harvest_league" data-bs-toggle="tooltip" title="庄园 v3.11"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HarvestPortal.webp" alt="HarvestPortal" class="league_minimap" /></span></a><a href="Delirium_league" data-bs-toggle="tooltip" title="惊悸迷雾 v3.10"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/AfflictionInitiator.webp" alt="AfflictionInitiator" class="league_minimap" /></span></a><a href="Delve_league" data-bs-toggle="tooltip" title="地心探索 v3.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DelveMineralVein.webp" alt="DelveMineralVein" class="league_minimap" /></span></a><a href="Essence_league" data-bs-toggle="tooltip" title="精华 v2.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Essence.webp" alt="Essence" class="league_minimap" /></span></a><a href="Tormented_Spirit" data-bs-toggle="tooltip" title="Tormented Spirit v1.3"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.webp" class="league_minimap"/></a><a href="Beyond" data-bs-toggle="tooltip" title="超越 v1.2"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.webp" class="league_minimap"/></a><a href="Strongbox" data-bs-toggle="tooltip" title="保险箱 v1.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Strongbox.webp" alt="Strongbox" class="league_minimap" /></span></a><a href="Shrine" data-bs-toggle="tooltip" title="神殿 v1.0"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Shrine.webp" alt="Shrine" class="league_minimap" /></span></a><a href="Rogue_Exiles" data-bs-toggle="tooltip" title="Rogue Exiles v0.11"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/Anarchy4.webp" class="league_minimap"/></a>
+    </div>
+  </div>
+</div></div>
+
+
+
+<div id="topbanner970"></div><script>topbanner970("topbanner970");</script>
+
+<ul class="nav nav-tabs d-flex flex-wrap" role="tablist"><li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" role="tab" aria-selected="true" href="#引爆地雷SkillGemDetonateMines">引爆地雷 SkillGemDetonateMines</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#被辅助">被辅助 /24 </a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#引爆地雷怪物">引爆地雷 怪物 /7 </a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#DetonateMines">Detonate Mines</a></li></ul><div class="tab-content"><div id="引爆地雷SkillGemDetonateMines" class="tab-pane fade show active"><span data-tabname="引爆地雷 <small>SkillGemDetonateMines</small>"></span><div class="py-2"><div class="d-flex flex-wrap">
+
+<div class="newItemPopup GemPopup  "
+>
+    <div class="itemHeader singleLine">
+
+        <div class="itemName typeLine">
+            <span class="lc">引爆地雷</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="Stats">
+            <div class="property"><a class="GemTags" href="Mine">地雷</a>, <a class="GemTags" href="Spell">法术</a></div><div class="property">冷却时间: <span class='colourDefault'>0.20 秒</span></div><div class="property">施放间隔: <span class='colourDefault'>瞬发</span></div><div class="separator"></div><div class="requirements">需求 等级 <span class="colourDefault">8</span>, <span class="colourDefault">0</span> 力量, <span class="colourDefault">0</span> 敏捷, <span class="colourDefault">0</span> 智慧</div><div class="separator"></div><div class="secDescrText">引爆一个地雷，启动传爆序列。它将持续引爆周围的地雷。</div><div class="separator"></div><div class="explicitMod">第一个地雷立刻引爆<br/>传爆序列中每个之前的地雷都使总引爆速度总增 <span class='mod-value'>10</span>%</div><div class="quality-text"><br />
+<span class="white">品质额外效果：</span></div><div class="qualityMod">地雷引爆速度加快 <span class='mod-value'>(0<span class="ndash">—</span>20)</span>%</div>
+        </div>
+
+
+        <div class="separator"></div>
+        <div class="default fst-italic">
+            放入物品插槽以获得此技能。右键点击可从插槽中移除。
+        </div>
+
+        <div>
+            Detonate Mines
+        </div>
+    </div>
+</div>
+
+
+        <div class="itemboximage">
+
+                <img loading="lazy" class="" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/DetonateMines.webp"/>
+
+            <img loading="lazy" class="gemSkill" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/detonatemines.webp"/>
+        </div>
+
+
+
+</div>
+</div><div class="row row-cols-1 row-cols-lg-2"><div class="col"><div   class="card mb-2 ">
+   <h5 class="card-header">属类</h5>  <div class="card-body"><div class="d-flex align-items-center gap-2"><div class="d-inline-block text-center"><a class="gemitem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/41ce150e7fdbb0a834c32ff8f7073bc71214f70f938c9a7166619c70e2716b35" href="/cn/Detonate_Mines"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/DetonateMines.webp" alt="DetonateMines" class="w1" /></a><div><a class="gemitem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/41ce150e7fdbb0a834c32ff8f7073bc71214f70f938c9a7166619c70e2716b35" href="/cn/Detonate_Mines">引爆地雷</a></div></div></div></div>   </div></div></div><div   class="card mb-2 ">
+   <h5 class="card-header">等级效果 /10 </h5> <div   class="card mb-2 ">
+      <div class="table-responsive"><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>固定</th></tr></thead><tbody id="cGTpriGihB"><tr><td>CooldownTime: 200</td></tr><tr><td>第一个地雷立刻引爆\n传爆序列中每个之前的地雷都使总引爆速度总增 <span class='mod-value'>10</span>%</td></tr></tbody></table></div>  </div>  <div class="table-responsive"><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>等级</th><th>需求等级</th><th>力量</th><th>智慧</th><th>敏捷</th><th>基本伤害</th><th>经验值</th></tr></thead><tbody id="M3rlUR9HmZ"><tr><td>1</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100%, 100%, 100%</td><td></td></tr><tr><td>2</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100%, 100%, 100%</td><td></td></tr><tr><td>3</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100%, 100%, 100%</td><td></td></tr><tr><td>4</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100%, 100%, 100%</td><td></td></tr><tr><td>5</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100%, 100%, 100%</td><td></td></tr><tr><td>6</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100%, 100%, 100%</td><td></td></tr><tr><td>7</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100%, 100%, 100%</td><td></td></tr><tr><td>8</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100%, 100%, 100%</td><td></td></tr><tr><td>9</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100%, 100%, 100%</td><td></td></tr><tr><td>10</td><td>8</td><td>0</td><td>0</td><td>0</td><td>100%, 100%, 100%</td><td></td></tr></tbody></table></div>  </div><div class="row"></div><div   class="card mb-2 ">
+   <h5 class="card-header">Attribute /10 </h5> <h3 style='display: none'>引爆地雷</h3>  <div class='table-responsive'><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>名字</th><th>显示物品素质</th></tr></thead><tbody>
+<tr><td>Cost</td><td>iLvl 1: <span class="border-bottom">普通: 1x<a class="item_currency StackableCurrency" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/e98a37b253ae4bf3907d6dc2645be178d5dbcc52a52d25e16752b5bef683e81c" href="Orb_of_Transmutation"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Currency/CurrencyUpgradeToMagic.webp" alt="CurrencyUpgradeToMagic" height="16" />蜕变石</a></span></td></tr>
+<tr><td>关键字</td><td><a href='/cn/Mine'>地雷</a></td></tr>
+<tr><td>Id</td><td>GemDetonateMines</td></tr>
+<tr><td>DropLevel  <span class='fas fa-info-circle' data-bs-toggle='tooltip' title='Item Filter'></span></td><td>8</td></tr>
+<tr><td>BaseType <span class='fas fa-info-circle' data-bs-toggle='tooltip' title='Item Filter'></span></td><td>引爆地雷</td></tr>
+<tr><td>Class <span class='fas fa-info-circle' data-bs-toggle='tooltip' title='Item Filter'></span></td><td><a class="ItemClasses " href="Skill_Gems">技能宝石</a></td></tr>
+<tr><td>TargetTypes</td><td>地面, </td></tr>
+<tr><td>Type</td><td>法术, 陷阱技能, 图腾技能, 可触发, 立即, 冷却</td></tr>
+<tr><td>ItemType</td><td>Metadata/Items/Gems/SkillGemDetonateMines</td></tr>
+<tr><td>ActiveSkillsCode</td><td>detonate_mines</td></tr></tbody></table></div>  </div><div class="d-flex flex-wrap">
+
+<div class="newItemPopup GemPopup  "
+>
+    <div class="itemHeader singleLine">
+
+        <div class="itemName typeLine">
+            <span class="lc">引爆地雷</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="Stats">
+            <div class="property"><a class="GemTags" href="Mine">地雷</a>, <a class="GemTags" href="Spell">法术</a></div><div class="property">冷却时间: <span class='colourDefault'>0.20 秒</span></div><div class="property">施放间隔: <span class='colourDefault'>瞬发</span></div><div class="separator"></div><div class="requirements">需求 等级 <span class="colourDefault">8</span>, <span class="colourDefault">0</span> 力量, <span class="colourDefault">0</span> 敏捷, <span class="colourDefault">0</span> 智慧</div><div class="separator"></div><div class="secDescrText">引爆一个地雷，启动传爆序列。它将持续引爆周围的地雷。</div><div class="separator"></div><div class="explicitMod">第一个地雷立刻引爆<br/>传爆序列中每个之前的地雷都使总引爆速度总增 <span class='mod-value'>10</span>%</div><div class="explicitMod"><span class="secondary">base deal no damage [1]</span></div><div class="quality-text"><br />
+<span class="white">品质额外效果：</span></div><div class="qualityMod">地雷引爆速度加快 <span class='mod-value'>(0<span class="ndash">—</span>20)</span>%</div>
+        </div>
+
+
+        <div class="separator"></div>
+        <div class="default fst-italic">
+            放入物品插槽以获得此技能。右键点击可从插槽中移除。
+        </div>
+
+        <div>
+            Detonate Mines
+        </div>
+    </div>
+</div>
+
+
+        <div class="itemboximage">
+
+                <img loading="lazy" class="" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/DetonateMines.webp"/>
+
+            <img loading="lazy" class="gemSkill" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/detonatemines.webp"/>
+        </div>
+
+
+
+</div>
+</div><div id="被辅助" class="tab-pane fade"><div   class="card mb-2 ">
+   <h5 class="card-header">被辅助 /24 </h5> <div class='card-body'><li>主动类型: 法术, 陷阱技能, 图腾技能, 可触发, 立即, 冷却</li></div>  <script>
+$(document).ready(function () {
+    filterClick($('input[name=filterkBkboXQR1I]'));
+});
+</script>
+
+<form>
+    <div class="input-group my-2">
+        <button name="card-reset" type="reset" class="btn btn-outline-secondary">Reset</button>
+        <input name="filterkBkboXQR1I" class="form-control" placeholder="Search">
+    </div>
+</form><div class="row row-cols-1 row-cols-lg-2 g-2 bg-dark"><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c4cbec57c5957a8ee7a57208f7b916b2162f535a018227112758b1812b18489a" href="/cn/Inspiration_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/ReducedManaCost.webp" alt="ReducedManaCost" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c4cbec57c5957a8ee7a57208f7b916b2162f535a018227112758b1812b18489a" href="/cn/Inspiration_Support">启迪（辅）</a><div>辅助任意技能。召唤生物、图腾、陷阱、地雷无法获得启迪球。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/d22717cd157ffd0b9bbf8339d8e3cbf20b14a13f32390d9ba8ec160b7238aa99" href="/cn/Spell_Totem_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Totem.webp" alt="Totem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/d22717cd157ffd0b9bbf8339d8e3cbf20b14a13f32390d9ba8ec160b7238aa99" href="/cn/Spell_Totem_Support">法术图腾(辅)</a><div>辅助非触发类法术技能，你将不再直接施放被辅助的法术，而是召唤一个图腾为你施放该法术。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/26e4cadf3ec87b04ce3f7d23a782b608d6f422f02121a1431f2452c1552b95b6" href="/cn/Cast_on_Melee_Kill_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastOnMeleeKill.webp" alt="CastOnMeleeKill" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/26e4cadf3ec87b04ce3f7d23a782b608d6f422f02121a1431f2452c1552b95b6" href="/cn/Cast_on_Melee_Kill_Support">近战击败时施放(辅)</a><div>必须同时辅助一个攻击技能和一个法术技能。法术技能会在攻击技能击败敌人时触发。无法辅助图腾、陷阱或地雷。瓦尔技能、持续吟唱类技能和有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8ea167ee93c49d5d2675e86a0f7b1b0f80d57fa5fac767ba9454d55b71498c2a" href="/cn/Empower_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Empower.webp" alt="Empower" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8ea167ee93c49d5d2675e86a0f7b1b0f80d57fa5fac767ba9454d55b71498c2a" href="/cn/Empower_Support">赋予(辅)</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的等级。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/33144396102606755a900793d4c03396ebca95cfdfe48bea1b4b336c88d55422" href="/cn/Cast_when_Damage_Taken_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastOnDmgTaken.webp" alt="CastOnDmgTaken" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/33144396102606755a900793d4c03396ebca95cfdfe48bea1b4b336c88d55422" href="/cn/Cast_when_Damage_Taken_Support">受伤时施放(辅)</a><div>所有被辅助的法术技能会记录你受到的伤害，当受到的总伤害达到阈值时触发。无法辅助图腾、陷阱或地雷施放的技能。瓦尔技能、持续吟唱技能或有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1333986b34937995dec9091827ec528950510033ec6265fdc027db00089b3173" href="/cn/Awakened_Empower_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/EmpowerPlus.webp" alt="EmpowerPlus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1333986b34937995dec9091827ec528950510033ec6265fdc027db00089b3173" href="/cn/Awakened_Empower_Support">赋予（强辅）</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的等级。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/aabc2479a9330f84b6b6f51ef3540285b5a48bb3c10ddf4065c7fbd43a305208" href="/cn/Lifetap_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/LifeTap.webp" alt="LifeTap" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/aabc2479a9330f84b6b6f51ef3540285b5a48bb3c10ddf4065c7fbd43a305208" href="/cn/Lifetap_Support">赤炼（辅）</a><div>辅助任意非祝福技能。召唤生物不能获得赤炼效果。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b5948b68f65bb74166996ae1acae997fbbd255f6dd2bd0487e0a5b3963335dab" href="/cn/Transfusion_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/TransfusionSupport.webp" alt="TransfusionSupport" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b5948b68f65bb74166996ae1acae997fbbd255f6dd2bd0487e0a5b3963335dab" href="/cn/Transfusion_Support">渗透（辅）</a><div>辅助非祝福法术。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/d24cf70cb86a72f2396131f1a9d9783c21aafa8344fd3cc475dbe604fa7d277e" href="/cn/Trap_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Trap.webp" alt="Trap" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/d24cf70cb86a72f2396131f1a9d9783c21aafa8344fd3cc475dbe604fa7d277e" href="/cn/Trap_Support">陷阱(辅)</a><div>辅助法术技能，或使用弓类或法杖的攻击技能。你不再使用被辅助的技能，而是投掷陷阱，当一个敌人接近时为你使用该技能。陷阱无法使用吟唱技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/392802b890d4187e29e45b85710c9ce776f32e34ade3ad4a33efa13a57b89f00" href="/cn/Cast_On_Critical_Strike_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastOnCrit.webp" alt="CastOnCrit" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/392802b890d4187e29e45b85710c9ce776f32e34ade3ad4a33efa13a57b89f00" href="/cn/Cast_On_Critical_Strike_Support">暴击时施放(辅)</a><div>必须同时辅助一个攻击技能和一个法术技能。法术技能会在攻击技能对敌人造成暴击时触发。无法辅助图腾、陷阱或地雷。瓦尔技能、持续吟唱类技能和有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f9c2d4ac24b77419b51d16d1f28b8d935e6e9d596f309bd464b7c5536504822b" href="/cn/Cast_on_Death_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastOnDeath.webp" alt="CastOnDeath" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f9c2d4ac24b77419b51d16d1f28b8d935e6e9d596f309bd464b7c5536504822b" href="/cn/Cast_on_Death_Support">死亡时施放(辅)</a><div>你被击败时触发所有被辅助的法术。无法辅助图腾、陷阱或地雷施放的技能。瓦尔技能、持续吟唱类技能或有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/25464416fad96d890806631b6ea1d92f23f5a4fa5d0b09bfce7e4960d3d4fe0c" href="/cn/Enhance_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/enhance.webp" alt="enhance" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/25464416fad96d890806631b6ea1d92f23f5a4fa5d0b09bfce7e4960d3d4fe0c" href="/cn/Enhance_Support">增幅(辅)</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的品质。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/e175770c50548725e6f6fa1b3b0269edc1257132ab4cca028780a89a1a2488a3" href="/cn/Awakened_Cast_On_Critical_Strike_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/CastOnCritPlus.webp" alt="CastOnCritPlus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/e175770c50548725e6f6fa1b3b0269edc1257132ab4cca028780a89a1a2488a3" href="/cn/Awakened_Cast_On_Critical_Strike_Support">暴击时施放（强辅）</a><div>必须同时辅助一个攻击技能和一个法术技能。法术技能会在攻击技能对敌人造成暴击时触发。无法辅助图腾、陷阱或地雷。瓦尔技能、持续吟唱类技能和有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f345173a6ca0907ee7f1dd51ebef1af81ce8ba77c7cbc0d0ce5bb75ff8d70072" href="/cn/Awakened_Enhance_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/enhanceplus.webp" alt="enhanceplus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f345173a6ca0907ee7f1dd51ebef1af81ce8ba77c7cbc0d0ce5bb75ff8d70072" href="/cn/Awakened_Enhance_Support">增幅（强辅）</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的品质。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a87a1587506e20786e3515e3840088e73808e05d6689b3a38686511aa3605a84" href="/cn/Second_Wind_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SecondWindSupport.webp" alt="SecondWindSupport" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a87a1587506e20786e3515e3840088e73808e05d6689b3a38686511aa3605a84" href="/cn/Second_Wind_Support">助力之风（辅）</a><div>辅助有冷却时间的技能。
+无法辅助触发技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/49d0f9038fe014f13ea9c415783917ced480aa183331828dc0c11d6c71587689" href="/cn/Cast_on_Ward_Break_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastonWardBreak.webp" alt="CastonWardBreak" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/49d0f9038fe014f13ea9c415783917ced480aa183331828dc0c11d6c71587689" href="/cn/Cast_on_Ward_Break_Support">结界破碎时释放（辅）</a><div>每个被辅助的法术技能将在你的结界破裂时触发。无法辅助由图腾、陷阱或地雷使用的技能。瓦尔技能、持续吟唱技能以及带有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/19c58626a6291d11f4c9ce3946c71ecbe0cfaf6b6872e63db7ca1640435f65b3" href="/cn/Cast_when_Stunned_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastOnStun.webp" alt="CastOnStun" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/19c58626a6291d11f4c9ce3946c71ecbe0cfaf6b6872e63db7ca1640435f65b3" href="/cn/Cast_when_Stunned_Support">晕眩时施放(辅)</a><div>你被晕眩时有几率触发所有被辅助的法术技能。无法辅助图腾、陷阱或地雷施放的技能。瓦尔技能、持续吟唱技能或有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/5910ff00fd85eb7b2b03163e5f79e30b26cbc3011cc09aa259f070323e511425" href="/cn/Enlighten_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Enlighten.webp" alt="Enlighten" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/5910ff00fd85eb7b2b03163e5f79e30b26cbc3011cc09aa259f070323e511425" href="/cn/Enlighten_Support">启蒙(辅)</a><div>辅助任意技能，当该宝石达到 2 级或以上时，对被辅助技能施加消耗和保留加成。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/4828e6ef45c91c69c8c36e5d29642fb86b1a98f404d30010fd84eaad8529afad" href="/cn/Cast_while_Channelling_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastWhileChanneling.webp" alt="CastWhileChanneling" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/4828e6ef45c91c69c8c36e5d29642fb86b1a98f404d30010fd84eaad8529afad" href="/cn/Cast_while_Channelling_Support">吟唱时施放(辅)</a><div>必须同时辅助一个持续吟唱技能和一个非吟唱法术技能。吟唱技能在吟唱过程中每隔一段时间会触发一个法术技能。无法辅助图腾、陷阱或地雷施放的技能。瓦尔技能和有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8341c86a32780735e46691a41d4485f039110619b6c3c441a868f102ffae38e3" href="/cn/Arcane_Surge_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/ArcaneSurge.webp" alt="ArcaneSurge" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8341c86a32780735e46691a41d4485f039110619b6c3c441a868f102ffae38e3" href="/cn/Arcane_Surge_Support">秘术增强(辅)</a><div>所有被辅助的法术技能会记录你消耗的魔力，当消耗的总魔力达到阈值时提供一个增益效果。不能辅助图腾、陷阱、地雷施放的技能，不能辅助有保留效果的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8957dec4c9cb2088f322f78556d0dcf3b2da83752c7433b6a00d02e407413620" href="/cn/Awakened_Cast_While_Channelling_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/CastWhileChannelingPlus.webp" alt="CastWhileChannelingPlus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8957dec4c9cb2088f322f78556d0dcf3b2da83752c7433b6a00d02e407413620" href="/cn/Awakened_Cast_While_Channelling_Support">吟唱时施放（强辅）</a><div>必须同时辅助一个持续吟唱技能和一个非吟唱法术技能。吟唱技能在吟唱过程中每隔一段时间会触发一个法术技能。无法辅助图腾、陷阱或地雷施放的技能。瓦尔技能和有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a38e8e8d6f26c806b2ab82d44e46a162d59c2dea6ef40e736b3c31f823576d66" href="/cn/Awakened_Enlighten_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/Enlightenplus.webp" alt="Enlightenplus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a38e8e8d6f26c806b2ab82d44e46a162d59c2dea6ef40e736b3c31f823576d66" href="/cn/Awakened_Enlighten_Support">启蒙（强辅）</a><div>辅助任意技能，当该宝石达到 2 级或以上时，对被辅助技能施加消耗和保留加成。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/06c21f1c087941a0be3bfc772d6955cb670eb9396a955c8ab83b92dc280705ae" href="/cn/Cooldown_Recovery_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CooldownRecovery.webp" alt="CooldownRecovery" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/06c21f1c087941a0be3bfc772d6955cb670eb9396a955c8ab83b92dc280705ae" href="/cn/Cooldown_Recovery_Support">冷却回复（辅）</a><div>辅助有冷却时间的技能。无法作用于召唤生物的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gemitem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c5dd16edf97d8f97db2884fb86b7670b93aa0ecd70791c05803847bc6ccd538f" href="/cn/Eclipse_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Eclipse.webp" alt="Eclipse" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gemitem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c5dd16edf97d8f97db2884fb86b7670b93aa0ecd70791c05803847bc6ccd538f" href="/cn/Eclipse_Support">月蚀（辅）</a><div>辅助所有技能宝石。
+无法辅助非源自宝石的技能。</div></div></div></div></div>  </div></div><div id="引爆地雷怪物" class="tab-pane fade"><div   class="card mb-2 ">
+   <h5 class="card-header">引爆地雷 怪物 /7 </h5>   <div class="table-responsive"><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>名字</th><th>伤害%</th><th>生命%</th><th>幽魂</th></tr></thead><tbody id="XpFfJzl1Br"><tr><td><a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/8053ac84e942a9f65e093f8cf0f92f9755a425a384f1a6a91d148c9b12028d1a" href="/cn/DNT_Merc_Shadow_1">[DNT] Merc Shadow 1</a></td><td></td><td></td><td><span class='fa-solid fa-check'></span></td></tr><tr><td><a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/0a86998c734e42d7ee4d1cc1f0fe767cc96d4dea43772964fa10e7f13f891411" href="/cn/DNT_Merc_Shadow_2">[DNT] Merc Shadow 2</a></td><td></td><td></td><td><span class='fa-solid fa-check'></span></td></tr><tr><td><a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/ba70b77a0a1f340fc68f99ce2e67b13cae187dcdc12e39833412a9d304cddc88" href="/cn/Silva_Fearsting">恐惧之锋席尔瓦</a></td><td></td><td></td><td><span class='fa-solid fa-check'></span></td></tr><tr><td><a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/d69e1181f14feed10f6c4de36ed027d83486307ccb0d7ef1261636a5317a3d41" href="/cn/Jarek_Irontrap">铁刃贾雷克</a></td><td></td><td></td><td><span class='fa-solid fa-check'></span></td></tr><tr><td><a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/391fd96082a2b4317798fd9ddc6871ad4ae0b38a1fb6c936e887889e74b91206" href="/cn/Rima%2C_Deep_Temptress">深渊魅影莉玛</a></td><td></td><td></td><td><span class='fa-solid fa-check'></span></td></tr><tr><td><a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/6e955e763280dc3ffee8f9cd88ffd295373984d9443d205f9ced52160d62d5a1" href="/cn/Auriot">奥利欧特</a></td><td></td><td></td><td><span class='fa-solid fa-check'></span></td></tr><tr><td><a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/57d1d7b0dd2b52721c79f818328b5e321f2d91e1088560ce67ac493f3a9d0d34" href="/cn/Effigy_of_the_Depths">黑渊塑像</a></td><td></td><td></td><td><span class='fa-solid fa-check'></span></td></tr></tbody></table></div>  </div></div><div id="DetonateMines" class="tab-pane fade"><div class="card"><h4 class="card-header" data-tabname="Community Wiki">Community Wiki</h4></div><div class="card mb-1">
+    <div class="card-body markdown-body">
+        <a class="btn btn-primary float-end" href='/cn/marked?id=Detonate_Mines' data-i18n="ClientStrings|HideoutEditControlEdit|Name">Edit</a>
+        <div id="markContent"><h1>Detonate Mines</h1>
+<p><strong>Detonate Mines</strong> is a skill gem that performs the same function as the gem-less detonate skill that is automatically made available when a player has used a <a href='Mine'>mine</a>. Unlike detonating mines using the hotkey, the Detonate Mines skill gem can take advantage of mechanics afforded by being linked to support gems.</p>
+<h2>Skill functions and interactions</h2>
+<ul>
+<li><p>Detonate Mines is a colourless gem and can be placed into any item socket.</p>
+</li>
+<li><p><strong>Trigger Gems</strong> : Detonate Mines can be linked to trigger gems like <a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/us/Poe_Data_GemEffects_hover/5817ddf77c781f40055f1c54ee901139d289624368a065f1aa3c57eab7204b53" href="/cn/Cast_when_Damage_Taken_Support">Cast when Damage Taken Support</a> or <a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/us/Poe_Data_GemEffects_hover/b52cf1c7dc0562d8e55cdfdc081d2d7393dc16b76aa141a3d86a875417cd779e" href="/cn/Spell_Totem_Support">Spell Totem Support</a> to allow the player to detonate mines without need to manually use a key.</p>
+</li>
+</ul>
+<h2>Version history</h2>
+<table class="table"><thead><tr><th>Version</th><th>Changes</th></thead><tbody>
+<tr>
+  <td>3.8.0</td>
+  <td>
+    <li>(undocumented) Added stat: <span class="explicitMod">First Mine Detonates Instantly</span>
+    <li>(undocumented) Added stat: <span class="explicitMod">Mines get 10% more Detonation Speed for each prior Mine in Detonation Sequence</span>
+    <li>(undocumented) Now grants <span class="explicitMod">Mines have 1% increased Detonation Speed</span> per 1% quality (previously <span class="explicitMod">5% increased Cast Speed</span> per 1% quality).
+  </td>
+</tr>
+<tr>
+  <td>2.0.0</td>
+  <td>
+    <li>Detonate Mines has been added to the game.
+  </td>
+</tr>
+</tbody></table></div>
+        <div><hr style='border-top: 1px solid white'>Wikis Content is available under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA 3.0</a> unless otherwise noted.</div>
+    </div>
+</div>
+<script>
+$(function() {
+    lightbox_panel();
+});
+</script>
+</div></div>
+
+<footer class="ccontainer text-center text-lg-left">
+  <div class="card p-4">
+    <div class="row">
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Sites</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a target="_blank" href="https://poedb.tw/">poedb.tw</a> </li>
+          <li> <a target="_blank" href="https://tlidb.com/">tlidb.com</a> </li>
+          <li> <a target="_blank" href="https://poe2db.tw/">poe2db.tw</a> </li>
+              <li> <a target="_blank" href="https://paldb.cc/">paldb.cc</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">News</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="news">GGG Tracker</a> </li>
+          <li> <a href="League#ConcurrentPlayers">Concurrent Players</a> </li>
+          <li> <a href="Ruthless_mode" data-i18n="ClientStrings|InsaneDifficulty|Name">Ruthless mode</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">About Site</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="privacy">Privacy</a> </li>
+          <li> <a href="patreon">Patreon</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Community</h5>
+        <ul class="list-unstyled mb-0">
+
+
+          <li> <a href="https://discord.gg/b4bs4bQsrW">編年史 Discord</a> </li>
+
+          <li><a target="_blank" href="https://www.reddit.com/user/chuanhsing">/u/chuanhsing</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Copyright &copy; 2014-2026 流亡编年史.
+  </div>
+</footer>
+
+<div style=""></div>
+<div class="clearfix"></div><div id="bottom_banner"></div><script>topbanner970("bottom_banner");</script>
+    </div>
+    </div>
+
+    <a href="#top" id="toTop"><span class="fas fa-arrow-circle-up fa-3x"></span></a>
+<script>
+ $(document).ready(function()
+ {
+    if (window.location.hostname != "poedb.tw" && window.location.hostname != "poe2db.tw") {
+        window.location.href="https://poedb.tw/";
+    }
+ });
+</script>
+    <script src="https://cdn.poedb.tw/js/poedb_footer.fed37e57d91aa1eb.js"></script>
+
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"7c3bdd9ddfac4426b6a20a0cd5f64615","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

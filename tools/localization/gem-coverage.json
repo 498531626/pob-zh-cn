@@ -1,0 +1,3076 @@
+{
+  "counts": {
+    "gem_pairs": 1038,
+    "exact_entries": 2912,
+    "numeric_templates": 1679,
+    "reviewed_entries": 126,
+    "ambiguous_exact": 23,
+    "ambiguous_templates": 13,
+    "ambiguous_exact_resolved": 19,
+    "ambiguous_templates_resolved": 13
+  },
+  "rejected": [
+    {
+      "slug": "Abberath's_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Abberath's_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can add multiple charges per action [1]"
+    },
+    {
+      "slug": "Abberath's_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Ancestral_Cry",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Buff grants {0}% to all Maximum Elemental"
+    },
+    {
+      "slug": "Ancestral_Cry",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Resistances per 10 Power, counting a maximum of 30 Power"
+    },
+    {
+      "slug": "Asenath's_Chant",
+      "reason": "card-name",
+      "english": "SupportTriggerSpellOnBowAttack",
+      "chinese": "SupportTriggerSpellOnBowAttack"
+    },
+    {
+      "slug": "Aspect_of_the_Avian",
+      "reason": "numeric-span-mismatch",
+      "english": "bird_aspect"
+    },
+    {
+      "slug": "Aspect_of_the_Cat",
+      "reason": "numeric-span-mismatch",
+      "english": "cat_aspect"
+    },
+    {
+      "slug": "Aspect_of_the_Spider",
+      "reason": "numeric-span-mismatch",
+      "english": "spider aspect web interval ms [1000]"
+    },
+    {
+      "slug": "Avenging_Flame",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Avenging_Flame",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill is totemified [1]"
+    },
+    {
+      "slug": "Avenging_Flame",
+      "reason": "numeric-span-mismatch",
+      "english": "do not predict totem life [1]"
+    },
+    {
+      "slug": "Avenging_Flame",
+      "reason": "numeric-span-mismatch",
+      "english": "infernal bolt cannot be triggered [1]"
+    },
+    {
+      "slug": "Avenging_Flame",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Blade_Trap",
+      "reason": "local-template-mismatch",
+      "english": "Trap lasts {0} second\nRotates {1} time"
+    },
+    {
+      "slug": "Blazing_Glare",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Blood_Offering",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Blood_Offering",
+      "reason": "numeric-span-mismatch",
+      "english": "damage_+%"
+    },
+    {
+      "slug": "Blood_Offering",
+      "reason": "numeric-span-mismatch",
+      "english": "base_life_regeneration_rate_per_minute"
+    },
+    {
+      "slug": "Blood_Sacrament",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Blood_Sacrament",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Bone_Armour",
+      "reason": "numeric-span-mismatch",
+      "english": "base_additional_physical_damage_reduction_%"
+    },
+    {
+      "slug": "Bone_Armour",
+      "reason": "numeric-span-mismatch",
+      "english": "affected_by_guard_skill"
+    },
+    {
+      "slug": "Bone_Armour",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Bone_Nova",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Bone_Nova",
+      "reason": "numeric-span-mismatch",
+      "english": "monster projectile variation [15]"
+    },
+    {
+      "slug": "Bone_Nova",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Brandsurge",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Bursting_Toad",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Bursting_Toad",
+      "reason": "numeric-span-mismatch",
+      "english": "triggered hextoad [1]"
+    },
+    {
+      "slug": "Call_the_Pyre",
+      "reason": "numeric-span-mismatch",
+      "english": "cast time overrides attack duration [1]"
+    },
+    {
+      "slug": "Call_the_Pyre",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Call_the_Pyre",
+      "reason": "numeric-span-mismatch",
+      "english": "is graft skill [1]"
+    },
+    {
+      "slug": "Caustic_Retribution",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Caustic_Retribution",
+      "reason": "numeric-span-mismatch",
+      "english": "visual hit effect chaos is green [1]"
+    },
+    {
+      "slug": "Ceaseless_Flesh",
+      "reason": "card-name",
+      "english": "None",
+      "chinese": "None"
+    },
+    {
+      "slug": "Ceaseless_Flesh",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [70,80]"
+    },
+    {
+      "slug": "Ceaseless_Flesh",
+      "reason": "numeric-span-mismatch",
+      "english": "base number of restless dead allowed [100]"
+    },
+    {
+      "slug": "Ceaseless_Flesh",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [28]"
+    },
+    {
+      "slug": "Charged_Mines_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "{0}% chance to gain a Frenzy Charge when a Mine from Supported"
+    },
+    {
+      "slug": "Charged_Mines_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Skills is Detonated targeting an Enemy"
+    },
+    {
+      "slug": "Cinders",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Clarity",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Cold_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "has_aegis_shield_type"
+    },
+    {
+      "slug": "Cold_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis recharge delay ms [10000]"
+    },
+    {
+      "slug": "Cold_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis unique shield max value [1000]"
+    },
+    {
+      "slug": "Cold_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Combust",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Commandment_of_Blades",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Commandment_of_Blades",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Commandment_of_Flames",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Commandment_of_Flames",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Commandment_of_Force",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Commandment_of_Frost",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Commandment_of_Frost",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Commandment_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Commandment_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "projectile spiral nova starting angle offset [-90]"
+    },
+    {
+      "slug": "Commandment_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "projectile spiral nova time ms [800]"
+    },
+    {
+      "slug": "Commandment_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire arrows [1]"
+    },
+    {
+      "slug": "Commandment_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire wand projectiles [1]"
+    },
+    {
+      "slug": "Commandment_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Commandment_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Commandment_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "skill override pvp scaling time ms [450]"
+    },
+    {
+      "slug": "Commandment_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Commandment_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Commandment_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "skill override pvp scaling time ms [450]"
+    },
+    {
+      "slug": "Commandment_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "attack is not melee override [1]"
+    },
+    {
+      "slug": "Commandment_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "attack unusable if triggerable [1]"
+    },
+    {
+      "slug": "Commandment_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "extra gore chance override % [30]"
+    },
+    {
+      "slug": "Commandment_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Commandment_of_Light",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Commandment_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [75]"
+    },
+    {
+      "slug": "Commandment_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [4]"
+    },
+    {
+      "slug": "Commandment_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [1]"
+    },
+    {
+      "slug": "Commandment_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Commandment_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "base projectile ground effect duration [2000]"
+    },
+    {
+      "slug": "Commandment_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "projectiles drop ground effects on client [1]"
+    },
+    {
+      "slug": "Commandment_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "projectiles drop ground ice [1]"
+    },
+    {
+      "slug": "Commandment_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire arrows [1]"
+    },
+    {
+      "slug": "Commandment_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire wand projectiles [1]"
+    },
+    {
+      "slug": "Commandment_of_Thunder",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Commandment_of_War",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [1]"
+    },
+    {
+      "slug": "Commandment_of_Winter",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Commandment_of_Winter",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Commandment_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [75]"
+    },
+    {
+      "slug": "Commandment_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "chance to cast on owned kill % [100]"
+    },
+    {
+      "slug": "Commandment_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [10]"
+    },
+    {
+      "slug": "Commandment_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "minions explode on death for % max life at end of duration [20]"
+    },
+    {
+      "slug": "Commandment_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [3]"
+    },
+    {
+      "slug": "Commandment_of_the_Tempest",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Companionship_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Minions from Supported Skills take {0}% of Hit Damage from their Life before"
+    },
+    {
+      "slug": "Companionship_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "you if they are your only Minion"
+    },
+    {
+      "slug": "Consecrate",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Contaminate",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Contaminate",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Convocation",
+      "reason": "local-template-mismatch",
+      "english": "{0}% increased Skill Effect Duration\n{1}% increased Cooldown Recovery Rate"
+    },
+    {
+      "slug": "Convocation",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Convocation",
+      "reason": "local-template-mismatch",
+      "english": "{0}% increased Skill Effect Duration\n{1}% increased Cooldown Recovery Rate"
+    },
+    {
+      "slug": "Convocation",
+      "reason": "local-template-mismatch",
+      "english": "{0}% increased Skill Effect Duration\n{1}% increased Cooldown Recovery Rate"
+    },
+    {
+      "slug": "Convocation",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Convocation",
+      "reason": "local-template-mismatch",
+      "english": "{0}% increased Skill Effect Duration\n{1}% increased Cooldown Recovery Rate"
+    },
+    {
+      "slug": "Corpse_Walk",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Corrupting_Cry_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Supported Warcries inflict {0} Corrupted Blood Debuffs on the first"
+    },
+    {
+      "slug": "Corrupting_Cry_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "enemy Hit by each Attack they Exert"
+    },
+    {
+      "slug": "Cospri's_Malice",
+      "reason": "card-name",
+      "english": "SupportUniqueCosprisMaliceColdSpellsCastOnMeleeCriticalStrike",
+      "chinese": "SupportUniqueCosprisMaliceColdSpellsCastOnMeleeCriticalStrike"
+    },
+    {
+      "slug": "Crab_Totem",
+      "reason": "card-name",
+      "english": "None",
+      "chinese": "None"
+    },
+    {
+      "slug": "Create_Lesser_Shrine",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Death_Aura",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Death_Walk",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Death_Walk",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can add multiple charges per action [1]"
+    },
+    {
+      "slug": "Death_Walk",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Death_Wish",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Decree_of_Blades",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Decree_of_Blades",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Decree_of_Flames",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Decree_of_Flames",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Decree_of_Force",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Decree_of_Frost",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Decree_of_Frost",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Decree_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Decree_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "projectile spiral nova starting angle offset [-90]"
+    },
+    {
+      "slug": "Decree_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "projectile spiral nova time ms [800]"
+    },
+    {
+      "slug": "Decree_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire arrows [1]"
+    },
+    {
+      "slug": "Decree_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire wand projectiles [1]"
+    },
+    {
+      "slug": "Decree_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Decree_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Decree_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "skill override pvp scaling time ms [450]"
+    },
+    {
+      "slug": "Decree_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "attack is not melee override [1]"
+    },
+    {
+      "slug": "Decree_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "attack unusable if triggerable [1]"
+    },
+    {
+      "slug": "Decree_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "extra gore chance override % [30]"
+    },
+    {
+      "slug": "Decree_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Decree_of_Light",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Decree_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [66]"
+    },
+    {
+      "slug": "Decree_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [4]"
+    },
+    {
+      "slug": "Decree_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [1]"
+    },
+    {
+      "slug": "Decree_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Decree_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "base projectile ground effect duration [2000]"
+    },
+    {
+      "slug": "Decree_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "projectiles drop ground effects on client [1]"
+    },
+    {
+      "slug": "Decree_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "projectiles drop ground ice [1]"
+    },
+    {
+      "slug": "Decree_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire arrows [1]"
+    },
+    {
+      "slug": "Decree_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire wand projectiles [1]"
+    },
+    {
+      "slug": "Decree_of_Thunder",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Decree_of_War",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [1]"
+    },
+    {
+      "slug": "Decree_of_Winter",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Decree_of_Winter",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Decree_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [66]"
+    },
+    {
+      "slug": "Decree_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "chance to cast on owned kill % [100]"
+    },
+    {
+      "slug": "Decree_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [10]"
+    },
+    {
+      "slug": "Decree_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "minions explode on death for % max life at end of duration [20]"
+    },
+    {
+      "slug": "Decree_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [3]"
+    },
+    {
+      "slug": "Decree_of_the_Tempest",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Default_Attack",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire arrows [1]"
+    },
+    {
+      "slug": "Default_Attack",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire wand projectiles [1]"
+    },
+    {
+      "slug": "Detonate_Mines",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Doryani's_Touch",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Earthshatter",
+      "reason": "local-template-mismatch",
+      "english": "{0} Maximum Spikes\nCreates {1} fissure"
+    },
+    {
+      "slug": "Earthshatter_of_Fragility",
+      "reason": "local-template-mismatch",
+      "english": "{0} Maximum Spikes\nCreates {1} fissure"
+    },
+    {
+      "slug": "Edict_of_Blades",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Edict_of_Blades",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Edict_of_Flames",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Edict_of_Flames",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Edict_of_Force",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Edict_of_Frost",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Edict_of_Frost",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Edict_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Edict_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "projectile spiral nova starting angle offset [-90]"
+    },
+    {
+      "slug": "Edict_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "projectile spiral nova time ms [800]"
+    },
+    {
+      "slug": "Edict_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire arrows [1]"
+    },
+    {
+      "slug": "Edict_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire wand projectiles [1]"
+    },
+    {
+      "slug": "Edict_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Edict_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Edict_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "skill override pvp scaling time ms [450]"
+    },
+    {
+      "slug": "Edict_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "attack is not melee override [1]"
+    },
+    {
+      "slug": "Edict_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "attack unusable if triggerable [1]"
+    },
+    {
+      "slug": "Edict_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "extra gore chance override % [30]"
+    },
+    {
+      "slug": "Edict_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Edict_of_Light",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Edict_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [53]"
+    },
+    {
+      "slug": "Edict_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [4]"
+    },
+    {
+      "slug": "Edict_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [1]"
+    },
+    {
+      "slug": "Edict_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Edict_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "base projectile ground effect duration [2000]"
+    },
+    {
+      "slug": "Edict_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "projectiles drop ground effects on client [1]"
+    },
+    {
+      "slug": "Edict_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "projectiles drop ground ice [1]"
+    },
+    {
+      "slug": "Edict_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire arrows [1]"
+    },
+    {
+      "slug": "Edict_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire wand projectiles [1]"
+    },
+    {
+      "slug": "Edict_of_Thunder",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Edict_of_War",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [1]"
+    },
+    {
+      "slug": "Edict_of_Winter",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Edict_of_Winter",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Edict_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [53]"
+    },
+    {
+      "slug": "Edict_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "chance to cast on owned kill % [100]"
+    },
+    {
+      "slug": "Edict_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [10]"
+    },
+    {
+      "slug": "Edict_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "minions explode on death for % max life at end of duration [20]"
+    },
+    {
+      "slug": "Edict_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [3]"
+    },
+    {
+      "slug": "Edict_of_the_Tempest",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Elemental_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "has_aegis_shield_type"
+    },
+    {
+      "slug": "Elemental_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis recharge delay ms [10000]"
+    },
+    {
+      "slug": "Elemental_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis unique shield max value [50,1000]"
+    },
+    {
+      "slug": "Elemental_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Elemental_Warding",
+      "reason": "numeric-span-mismatch",
+      "english": "immune_to_curses"
+    },
+    {
+      "slug": "Elemental_Warding",
+      "reason": "numeric-span-mismatch",
+      "english": "unaffected_by_curses"
+    },
+    {
+      "slug": "Elemental_Warding",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Elemental_Warding",
+      "reason": "numeric-span-mismatch",
+      "english": "curse nova damage +% final per curse removed [25]"
+    },
+    {
+      "slug": "Envy",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Explosive_Toad",
+      "reason": "card-name",
+      "english": "None",
+      "chinese": "None"
+    },
+    {
+      "slug": "Explosive_Toad",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Explosive_Toad",
+      "reason": "numeric-span-mismatch",
+      "english": "triggered hextoad [1]"
+    },
+    {
+      "slug": "Falling_Crystal",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Falling_Crystal",
+      "reason": "numeric-span-mismatch",
+      "english": "triggered by crystalfall support [1]"
+    },
+    {
+      "slug": "Festering_Resentment",
+      "reason": "card-name",
+      "english": "Festering Resentment",
+      "chinese": "积怨溃脓"
+    },
+    {
+      "slug": "Festering_Resentment",
+      "reason": "card-name",
+      "english": "SupportUniqueVirulenceSpellsCastOnBlock",
+      "chinese": "SupportUniqueVirulenceSpellsCastOnBlock"
+    },
+    {
+      "slug": "Fiery_Impact",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Fire_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "has_aegis_shield_type"
+    },
+    {
+      "slug": "Fire_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis recharge delay ms [5000]"
+    },
+    {
+      "slug": "Fire_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis unique shield max value [409,303561]"
+    },
+    {
+      "slug": "Fire_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Fire_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Fire_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Fire_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Flames_of_Judgement",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Flames_of_Judgement",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Fleshrend",
+      "reason": "numeric-span-mismatch",
+      "english": "base_physical_damage_taken_per_minute"
+    },
+    {
+      "slug": "Fleshrend",
+      "reason": "numeric-span-mismatch",
+      "english": "degen_effect_+%"
+    },
+    {
+      "slug": "Fleshrend",
+      "reason": "numeric-span-mismatch",
+      "english": "active skill projectile speed +% variation final [25]"
+    },
+    {
+      "slug": "Fleshrend",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Fleshrend",
+      "reason": "numeric-span-mismatch",
+      "english": "triggered by pact of ghorr [1]"
+    },
+    {
+      "slug": "Frenzy",
+      "reason": "local-template-mismatch",
+      "english": "{0}% more Attack Damage per Frenzy Charge\n{1}% more Attack Speed per Frenzy Charge"
+    },
+    {
+      "slug": "Frenzy_of_Onslaught",
+      "reason": "local-template-mismatch",
+      "english": "{0}% more Attack Damage per Frenzy Charge\n{1}% more Attack Speed per Frenzy Charge"
+    },
+    {
+      "slug": "Frozen_Sweep",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Frozen_Sweep",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Ghostly_Artillery",
+      "reason": "numeric-span-mismatch",
+      "english": "active skill additional projectiles fire parallel x dist [60]"
+    },
+    {
+      "slug": "Ghostly_Artillery",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Ghostly_Artillery",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Ghostly_Artillery",
+      "reason": "numeric-span-mismatch",
+      "english": "triggered ghost cannons base number of cannons to fire [6]"
+    },
+    {
+      "slug": "Gluttony_of_Elements",
+      "reason": "numeric-span-mismatch",
+      "english": "cannot gain souls [1]"
+    },
+    {
+      "slug": "Gluttony_of_Elements",
+      "reason": "numeric-span-mismatch",
+      "english": "damage_+%"
+    },
+    {
+      "slug": "Gluttony_of_Elements",
+      "reason": "numeric-span-mismatch",
+      "english": "life_regeneration_rate_per_minute_%"
+    },
+    {
+      "slug": "Gluttony_of_Elements",
+      "reason": "numeric-span-mismatch",
+      "english": "immune_to_curses"
+    },
+    {
+      "slug": "Gluttony_of_Elements",
+      "reason": "numeric-span-mismatch",
+      "english": "base_additional_physical_damage_reduction_%"
+    },
+    {
+      "slug": "Gluttony_of_Elements",
+      "reason": "numeric-span-mismatch",
+      "english": "attack_and_cast_speed_+%"
+    },
+    {
+      "slug": "Gluttony_of_Elements",
+      "reason": "numeric-span-mismatch",
+      "english": "base_elemental_damage_heals"
+    },
+    {
+      "slug": "Gluttony_of_Elements",
+      "reason": "numeric-span-mismatch",
+      "english": "cannot_gain_souls"
+    },
+    {
+      "slug": "Gluttony_of_Elements",
+      "reason": "numeric-span-mismatch",
+      "english": "base_life_mana_es_recovery_rate_+%"
+    },
+    {
+      "slug": "Gore_Shockwave",
+      "reason": "numeric-span-mismatch",
+      "english": "attack trigger on melee hit with atleast 150 strength % [100]"
+    },
+    {
+      "slug": "Gore_Shockwave",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Heaven's_Scourge",
+      "reason": "numeric-span-mismatch",
+      "english": "active skill base auto targetting radius [70]"
+    },
+    {
+      "slug": "Heaven's_Scourge",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Heaven's_Scourge",
+      "reason": "numeric-span-mismatch",
+      "english": "skill triggered by pact of lycia [1]"
+    },
+    {
+      "slug": "Heaven's_Scourge",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Herald_of_the_Hive",
+      "reason": "numeric-span-mismatch",
+      "english": "base herald of the breach pulse delay ms [2000]"
+    },
+    {
+      "slug": "Herald_of_the_Hive",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Herald_of_the_Hive",
+      "reason": "numeric-span-mismatch",
+      "english": "display skill deals secondary damage [1]"
+    },
+    {
+      "slug": "Herald_of_the_Hive",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Herald_of_the_Hive",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can add multiple charges per action [1]"
+    },
+    {
+      "slug": "Herald_of_the_Hive",
+      "reason": "numeric-span-mismatch",
+      "english": "skill override pvp scaling time ms [1000]"
+    },
+    {
+      "slug": "Icestorm",
+      "reason": "numeric-span-mismatch",
+      "english": "firestorm drop ground ice duration ms [4000]"
+    },
+    {
+      "slug": "Icestorm",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Icicle_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Icicle_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "monster projectile variation [38]"
+    },
+    {
+      "slug": "Icicle_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Incinerate_of_Expanse",
+      "reason": "local-template-mismatch",
+      "english": "Final wave deals {0}% more Damage with Hits\nFinal wave deals {1}% more Damage with Ignite"
+    },
+    {
+      "slug": "Intimidating_Cry",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no attack damage [1]"
+    },
+    {
+      "slug": "Intimidating_Cry",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no secondary damage [1]"
+    },
+    {
+      "slug": "Intimidating_Cry",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no spell damage [1]"
+    },
+    {
+      "slug": "Intimidating_Cry",
+      "reason": "numeric-span-mismatch",
+      "english": "cannot cancel skill before contact point [1]"
+    },
+    {
+      "slug": "Intimidating_Cry",
+      "reason": "numeric-span-mismatch",
+      "english": "use intimidating cry buff visual for intimidate [1]"
+    },
+    {
+      "slug": "Intimidating_Cry",
+      "reason": "numeric-span-mismatch",
+      "english": "base_movement_velocity_+%"
+    },
+    {
+      "slug": "Invention_Support",
+      "reason": "local-template-mismatch",
+      "english": "Supported Skills have {0}% increased Trap Duration\nSupported Skills have {1}% increased Mine Duration"
+    },
+    {
+      "slug": "Kinetic_Anomaly",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Kinetic_Flux",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Kitava's_Thirst",
+      "reason": "card-name",
+      "english": "SupportCastOnManaSpent",
+      "chinese": "SupportCastOnManaSpent"
+    },
+    {
+      "slug": "Kitavas_Thirst",
+      "reason": "card-name",
+      "english": "SupportCastOnManaSpent",
+      "chinese": "SupportCastOnManaSpent"
+    },
+    {
+      "slug": "Lightning_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "has_aegis_shield_type"
+    },
+    {
+      "slug": "Lightning_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis recharge delay ms [10000]"
+    },
+    {
+      "slug": "Lightning_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis unique shield max value [1000]"
+    },
+    {
+      "slug": "Lightning_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Lightning_Bolt",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Lightning_Bolt",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Lightning_Bolt",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Lightning_Bolt",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Lightning_Bolt",
+      "reason": "numeric-span-mismatch",
+      "english": "unique mjolner lightning spells triggered [1]"
+    },
+    {
+      "slug": "Maloney's_Mechanism",
+      "reason": "card-name",
+      "english": "SupportTriggerBowSkillOnBowAttack",
+      "chinese": "SupportTriggerBowSkillOnBowAttack"
+    },
+    {
+      "slug": "Manifest_Dancing_Dervishes",
+      "reason": "numeric-span-mismatch",
+      "english": "disable weapons [1]"
+    },
+    {
+      "slug": "Manifest_Dancing_Dervishes",
+      "reason": "numeric-span-mismatch",
+      "english": "infinite minion duration [1]"
+    },
+    {
+      "slug": "Misty_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Misty_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "disable skill repeats [1]"
+    },
+    {
+      "slug": "Misty_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "skill cannot be interrupted [1]"
+    },
+    {
+      "slug": "Misty_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "skill cannot be knocked back [1]"
+    },
+    {
+      "slug": "Misty_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "skill cannot be stunned [1]"
+    },
+    {
+      "slug": "Mjölner",
+      "reason": "card-name",
+      "english": "Mjölner",
+      "chinese": "沉默之雷"
+    },
+    {
+      "slug": "Mjölner",
+      "reason": "card-name",
+      "english": "SupportUniqueMjolnerLightningSpellsCastOnHit",
+      "chinese": "SupportUniqueMjolnerLightningSpellsCastOnHit"
+    },
+    {
+      "slug": "Molten_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Molten_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Molten_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Molten_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "show number of projectiles [1]"
+    },
+    {
+      "slug": "Overheat_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Supported Skills consume all Fortification on use, dealing {0}% more Damage with"
+    },
+    {
+      "slug": "Overheat_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Ailments per 3 Fortification consumed"
+    },
+    {
+      "slug": "Overloaded_Intensity_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Gain a stack of Overloaded Intensity for {0} seconds after"
+    },
+    {
+      "slug": "Overloaded_Intensity_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "losing 6 Intensity with Supported Skills"
+    },
+    {
+      "slug": "Pacify",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Pact_of_Beidat",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no attack damage [1]"
+    },
+    {
+      "slug": "Pact_of_Beidat",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no secondary damage [1]"
+    },
+    {
+      "slug": "Pact_of_Beidat",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no spell damage [1]"
+    },
+    {
+      "slug": "Pact_of_Beidat",
+      "reason": "numeric-span-mismatch",
+      "english": "cannot cancel skill before contact point [1]"
+    },
+    {
+      "slug": "Pact_of_Ghorr",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no attack damage [1]"
+    },
+    {
+      "slug": "Pact_of_Ghorr",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no secondary damage [1]"
+    },
+    {
+      "slug": "Pact_of_Ghorr",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no spell damage [1]"
+    },
+    {
+      "slug": "Pact_of_Ghorr",
+      "reason": "numeric-span-mismatch",
+      "english": "cannot cancel skill before contact point [1]"
+    },
+    {
+      "slug": "Pact_of_Ghorr",
+      "reason": "numeric-span-mismatch",
+      "english": "active skill projectile speed +% variation final [25]"
+    },
+    {
+      "slug": "Pact_of_Ghorr",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Pact_of_Ghorr",
+      "reason": "numeric-span-mismatch",
+      "english": "triggered by pact of ghorr [1]"
+    },
+    {
+      "slug": "Pact_of_Ghorr",
+      "reason": "numeric-span-mismatch",
+      "english": "active skill projectile speed +% variation final [25]"
+    },
+    {
+      "slug": "Pact_of_Ghorr",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Pact_of_Ghorr",
+      "reason": "numeric-span-mismatch",
+      "english": "triggered by pact of ghorr [1]"
+    },
+    {
+      "slug": "Pact_of_K'Tash",
+      "reason": "numeric-span-mismatch",
+      "english": "Empowered Skills deal {0}% more Damage"
+    },
+    {
+      "slug": "Pact_of_K'Tash",
+      "reason": "numeric-span-mismatch",
+      "english": "Empowers the next damaging Vaal Spell you Cast"
+    },
+    {
+      "slug": "Pact_of_K'Tash",
+      "reason": "numeric-span-mismatch",
+      "english": "Empowered Skills deal {0}% more Damage"
+    },
+    {
+      "slug": "Pact_of_K'Tash",
+      "reason": "numeric-span-mismatch",
+      "english": "Empowers the next damaging Vaal Spell you Cast"
+    },
+    {
+      "slug": "Pact_of_K'Tash",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no attack damage [1]"
+    },
+    {
+      "slug": "Pact_of_K'Tash",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no secondary damage [1]"
+    },
+    {
+      "slug": "Pact_of_K'Tash",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no spell damage [1]"
+    },
+    {
+      "slug": "Pact_of_K'Tash",
+      "reason": "numeric-span-mismatch",
+      "english": "cannot cancel skill before contact point [1]"
+    },
+    {
+      "slug": "Pact_of_KTash",
+      "reason": "numeric-span-mismatch",
+      "english": "Empowered Skills deal {0}% more Damage"
+    },
+    {
+      "slug": "Pact_of_KTash",
+      "reason": "numeric-span-mismatch",
+      "english": "Empowers the next damaging Vaal Spell you Cast"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "Empowered Skills deal {0}% more Damage"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "Empowers the next {0} Channelling Spells you Cast"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "Empowered Skills deal {0}% more Damage"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "Empowers the next {0} Channelling Spells you Cast"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no attack damage [1]"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no secondary damage [1]"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no spell damage [1]"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "cannot cancel skill before contact point [1]"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "active skill base auto targetting radius [70]"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "skill triggered by pact of lycia [1]"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "active skill base auto targetting radius [70]"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "skill triggered by pact of lycia [1]"
+    },
+    {
+      "slug": "Pact_of_Lycia",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Penance_Mark",
+      "reason": "numeric-span-mismatch",
+      "english": "penance_mark_summon_phantasms_when_hit"
+    },
+    {
+      "slug": "Penance_Mark",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Perforate_of_Duality",
+      "reason": "local-template-mismatch",
+      "english": "{0}% more Damage while in Blood Stance\n{1}% more Area of Effect while in Sand Stance"
+    },
+    {
+      "slug": "Physical_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "has_aegis_shield_type"
+    },
+    {
+      "slug": "Physical_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis recharge delay ms [5000]"
+    },
+    {
+      "slug": "Physical_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis unique shield max value [51,20927]"
+    },
+    {
+      "slug": "Physical_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Portal",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Primal_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "has_aegis_shield_type"
+    },
+    {
+      "slug": "Primal_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis recharge delay ms [5000]"
+    },
+    {
+      "slug": "Primal_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "aegis unique shield max value per allocated notable [75]"
+    },
+    {
+      "slug": "Primal_Aegis",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Purifying_Flame",
+      "reason": "local-template-mismatch",
+      "english": "{0} metres to radius\n{1} metres to radius of Consecrated Ground"
+    },
+    {
+      "slug": "Rage_Vortex",
+      "reason": "numeric-span-mismatch",
+      "english": "Ragestorm deals {0}% more Damage per {1} Rage Sacrificed"
+    },
+    {
+      "slug": "Rage_Vortex",
+      "reason": "numeric-span-mismatch",
+      "english": "Ragestorm has {0} metres to radius per {1} Rage sacrificed"
+    },
+    {
+      "slug": "Rage_Vortex_of_Berserking",
+      "reason": "numeric-span-mismatch",
+      "english": "Each second, {0}% more Rage loss Rate"
+    },
+    {
+      "slug": "Rage_Vortex_of_Berserking",
+      "reason": "numeric-span-mismatch",
+      "english": "Maximum {0} Ragestorms"
+    },
+    {
+      "slug": "Raise_Spiders",
+      "reason": "numeric-span-mismatch",
+      "english": "damage +% vs players [-85]"
+    },
+    {
+      "slug": "Raise_Spiders",
+      "reason": "numeric-span-mismatch",
+      "english": "minion dies when parent dies [1]"
+    },
+    {
+      "slug": "Raise_Spiders",
+      "reason": "numeric-span-mismatch",
+      "english": "number of spider minions allowed [20]"
+    },
+    {
+      "slug": "Raise_Spiders",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Raise_Spiders",
+      "reason": "numeric-span-mismatch",
+      "english": "take no actions while parent dead [1]"
+    },
+    {
+      "slug": "Rallying_Cry",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Buff grants Added Attack Damage equal to {0}% of the Damage of your Main"
+    },
+    {
+      "slug": "Rallying_Cry",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Hand Weapon per 5 Power, counting a maximum of 30 Power"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "physical_damage_taken_%_to_deal_to_attacker"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "elemental_damage_taken_%_to_deal_to_attacker"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "physical_damage_taken_%_to_deal_to_attacker"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "elemental_damage_taken_%_to_deal_to_attacker"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "monster_thorns_bloodline"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "physical_damage_taken_%_to_deal_to_attacker"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "elemental_damage_taken_%_to_deal_to_attacker"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "monster_thorns_bloodline_large_model"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "physical_damage_taken_%_to_deal_to_attacker"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "elemental_damage_taken_%_to_deal_to_attacker"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "card-name",
+      "english": "Mirage Saviour",
+      "chinese": "蜃影救世者"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "force lite skill effects [1]"
+    },
+    {
+      "slug": "Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Ruthless_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Ruthless Blows with Supported Skills deal {0}% more Damage with"
+    },
+    {
+      "slug": "Ruthless_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Ailments caused by Melee Hits"
+    },
+    {
+      "slug": "Sacred_Wisps_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Sacred Wisps have {0}% chance to use the Triggering Skill when you fire a"
+    },
+    {
+      "slug": "Sacred_Wisps_Support",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Projectile with that Skill"
+    },
+    {
+      "slug": "Savage_Barnacle",
+      "reason": "numeric-span-mismatch",
+      "english": "barnacle snap base activate rate ms [800]"
+    },
+    {
+      "slug": "Savage_Barnacle",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Savage_Barnacle",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can add multiple charges per action [1]"
+    },
+    {
+      "slug": "Seize_the_Flesh",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Seize_the_Flesh",
+      "reason": "numeric-span-mismatch",
+      "english": "is graft skill [1]"
+    },
+    {
+      "slug": "Seven_Teachings",
+      "reason": "card-name",
+      "english": "SupportTriggerSpellOnUnarmedMeleeCriticalHit",
+      "chinese": "SupportTriggerSpellOnUnarmedMeleeCriticalHit"
+    },
+    {
+      "slug": "Shade_Form",
+      "reason": "numeric-span-mismatch",
+      "english": "physical_immunity"
+    },
+    {
+      "slug": "Shade_Form",
+      "reason": "numeric-span-mismatch",
+      "english": "stealth_+%"
+    },
+    {
+      "slug": "Shaper's_Despair",
+      "reason": "numeric-span-mismatch",
+      "english": "apply gauntlet ruin on hit [1]"
+    },
+    {
+      "slug": "Shaper's_Despair",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1,2]"
+    },
+    {
+      "slug": "Shaper's_Despair",
+      "reason": "numeric-span-mismatch",
+      "english": "projectile uses contact position [1]"
+    },
+    {
+      "slug": "Shaper's_Devastation",
+      "reason": "numeric-span-mismatch",
+      "english": "apply gauntlet ruin on hit [1]"
+    },
+    {
+      "slug": "Shaper's_Devastation",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1,-50]"
+    },
+    {
+      "slug": "Shaper's_Devastation",
+      "reason": "numeric-span-mismatch",
+      "english": "monster penalty against minions damage +% final vs player minions [-50,30]"
+    },
+    {
+      "slug": "Shaper's_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "base lightning damage to deal per minute [365066]"
+    },
+    {
+      "slug": "Shaper's_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "monster penalty against minions damage +% final vs player minions [-60]"
+    },
+    {
+      "slug": "Shield_of_Light",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Additional waves will be created from Allies within a Base"
+    },
+    {
+      "slug": "Shield_of_Light",
+      "reason": "line-numeric-span-mismatch",
+      "english": "radius of {0} metres of the first Enemy struck"
+    },
+    {
+      "slug": "Shock_Ground",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Shock_Ground",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Signal_Prey",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Smite",
+      "reason": "numeric-span-mismatch",
+      "english": "Lightning strikes {0} target within {1} metres"
+    },
+    {
+      "slug": "Smite_of_Divine_Judgement",
+      "reason": "numeric-span-mismatch",
+      "english": "Lightning strikes {0} targets within {1} metres"
+    },
+    {
+      "slug": "Spectral_Spirits",
+      "reason": "numeric-span-mismatch",
+      "english": "infinite minion duration [1]"
+    },
+    {
+      "slug": "Spectral_Spirits",
+      "reason": "numeric-span-mismatch",
+      "english": "minion dies when parent dies [1]"
+    },
+    {
+      "slug": "Spectral_Spirits",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [3]"
+    },
+    {
+      "slug": "Spectral_Spirits",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Spectral_Spirits",
+      "reason": "numeric-span-mismatch",
+      "english": "take no actions while parent dead [1]"
+    },
+    {
+      "slug": "Spirit_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Spirit_Burst",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Squirming_Terror",
+      "reason": "card-name",
+      "english": "summon_writhing_worm_buff",
+      "chinese": "summon_writhing_worm_buff"
+    },
+    {
+      "slug": "Squirming_Terror",
+      "reason": "card-name",
+      "english": "SupportTriggerSpellOnKill",
+      "chinese": "SupportTriggerSpellOnKill"
+    },
+    {
+      "slug": "Stalking_Pustule",
+      "reason": "card-name",
+      "english": "None",
+      "chinese": "None"
+    },
+    {
+      "slug": "Stalking_Pustule",
+      "reason": "card-name",
+      "english": "None",
+      "chinese": "None"
+    },
+    {
+      "slug": "Stalking_Pustule",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Stalking_Pustule",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Stalking_Pustule",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Starfall",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Starfall",
+      "reason": "numeric-span-mismatch",
+      "english": "cannot pierce [1]"
+    },
+    {
+      "slug": "Starfall",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Starfall",
+      "reason": "numeric-span-mismatch",
+      "english": "skill art variation [11]"
+    },
+    {
+      "slug": "Storm_Cascade",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Storm_Cascade",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Storm_of_Judgement",
+      "reason": "numeric-span-mismatch",
+      "english": "atziri do not gain skill charges [1]"
+    },
+    {
+      "slug": "Storm_of_Judgement",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Storm_of_Judgement",
+      "reason": "numeric-span-mismatch",
+      "english": "console skill dont chase [1]"
+    },
+    {
+      "slug": "Storm_of_Judgement",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Summon_Arbalists",
+      "reason": "card-name",
+      "english": "Summoned Arbalist",
+      "chinese": "召唤的劲弩"
+    },
+    {
+      "slug": "Summon_Arbalists",
+      "reason": "card-name",
+      "english": "None",
+      "chinese": "None"
+    },
+    {
+      "slug": "Summon_Arbalists",
+      "reason": "card-name",
+      "english": "Cannot Be Damaged",
+      "chinese": "伤害免疫"
+    },
+    {
+      "slug": "Summon_Arbalists",
+      "reason": "numeric-span-mismatch",
+      "english": "infinite minion duration [1]"
+    },
+    {
+      "slug": "Summon_Bestial_Rhoa",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [70]"
+    },
+    {
+      "slug": "Summon_Bestial_Rhoa",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [12]"
+    },
+    {
+      "slug": "Summon_Bestial_Rhoa",
+      "reason": "numeric-span-mismatch",
+      "english": "infinite minion duration [1]"
+    },
+    {
+      "slug": "Summon_Bestial_Snake",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [2]"
+    },
+    {
+      "slug": "Summon_Bestial_Snake",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [70]"
+    },
+    {
+      "slug": "Summon_Bestial_Snake",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [14]"
+    },
+    {
+      "slug": "Summon_Bestial_Snake",
+      "reason": "numeric-span-mismatch",
+      "english": "infinite minion duration [1]"
+    },
+    {
+      "slug": "Summon_Bestial_Ursa",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [1]"
+    },
+    {
+      "slug": "Summon_Bestial_Ursa",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [70]"
+    },
+    {
+      "slug": "Summon_Bestial_Ursa",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [13]"
+    },
+    {
+      "slug": "Summon_Bestial_Ursa",
+      "reason": "numeric-span-mismatch",
+      "english": "infinite minion duration [1]"
+    },
+    {
+      "slug": "Summon_Elemental_Relic",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [24]"
+    },
+    {
+      "slug": "Summon_Greater_Harbinger_of_Brutality",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [11]"
+    },
+    {
+      "slug": "Summon_Greater_Harbinger_of_Directions",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [9]"
+    },
+    {
+      "slug": "Summon_Greater_Harbinger_of_Focus",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [8]"
+    },
+    {
+      "slug": "Summon_Greater_Harbinger_of_Storms",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [10]"
+    },
+    {
+      "slug": "Summon_Greater_Harbinger_of_Time",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [7]"
+    },
+    {
+      "slug": "Summon_Greater_Harbinger_of_the_Arcane",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [6]"
+    },
+    {
+      "slug": "Summon_Harbinger_of_Brutality",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [5]"
+    },
+    {
+      "slug": "Summon_Harbinger_of_Directions",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [3]"
+    },
+    {
+      "slug": "Summon_Harbinger_of_Focus",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [2]"
+    },
+    {
+      "slug": "Summon_Harbinger_of_Storms",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [4]"
+    },
+    {
+      "slug": "Summon_Harbinger_of_Time",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [1]"
+    },
+    {
+      "slug": "Summon_Hiveborn",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [72,95]"
+    },
+    {
+      "slug": "Summon_Hiveborn",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [29]"
+    },
+    {
+      "slug": "Summon_Hiveborn",
+      "reason": "numeric-span-mismatch",
+      "english": "minion targeting use parent location [1]"
+    },
+    {
+      "slug": "Summon_Hiveborn",
+      "reason": "numeric-span-mismatch",
+      "english": "triggered by hiveborn support [1]"
+    },
+    {
+      "slug": "Summon_Living_Lightning",
+      "reason": "numeric-span-mismatch",
+      "english": "living lightning beam attack time ms [140]"
+    },
+    {
+      "slug": "Summon_Sacred_Wisps",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Sacred Wisps have {0}% chance to use the Triggering Skill when you fire a"
+    },
+    {
+      "slug": "Summon_Sacred_Wisps",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Projectile with that Skill"
+    },
+    {
+      "slug": "Summon_Sentinel_of_Radiance",
+      "reason": "numeric-span-mismatch",
+      "english": "Minion deals Fire Damage equal to {0}% of its maximum Life per Second to Enemies in a Base radius of {1} metres"
+    },
+    {
+      "slug": "Summon_Sentinel_of_Radiance",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [23]"
+    },
+    {
+      "slug": "Summon_Sentinel_of_Radiance",
+      "reason": "numeric-span-mismatch",
+      "english": "infinite minion duration [1]"
+    },
+    {
+      "slug": "Summon_Spectral_Tiger",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [70]"
+    },
+    {
+      "slug": "Summon_Spectral_Tiger",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [30]"
+    },
+    {
+      "slug": "Summon_Spectral_Tiger",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Summon_Spectral_Wolf",
+      "reason": "card-name",
+      "english": "Spectral Wolf Companion",
+      "chinese": "幽狼"
+    },
+    {
+      "slug": "Summon_Spectral_Wolf",
+      "reason": "card-name",
+      "english": "None",
+      "chinese": "None"
+    },
+    {
+      "slug": "Summon_Spectral_Wolf",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [55,30000]"
+    },
+    {
+      "slug": "Summon_Spectral_Wolf",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [8,1]"
+    },
+    {
+      "slug": "Summon_Spectral_Wolf",
+      "reason": "numeric-span-mismatch",
+      "english": "number of wolves allowed [10,8]"
+    },
+    {
+      "slug": "Summon_Spectral_Wolf",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Summon_Spectral_Wolf",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [70]"
+    },
+    {
+      "slug": "Summon_Spectral_Wolf",
+      "reason": "numeric-span-mismatch",
+      "english": "chance to trigger level 20 summon spectral wolf on crit from cleave or reave % [100]"
+    },
+    {
+      "slug": "Summon_Spectral_Wolf",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [8]"
+    },
+    {
+      "slug": "Summon_Spectral_Wolf",
+      "reason": "numeric-span-mismatch",
+      "english": "number of wolves allowed [10]"
+    },
+    {
+      "slug": "Summon_Spectral_Wolf",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Summon_Taunting_Contraption",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Summon_Taunting_Contraption",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [70]"
+    },
+    {
+      "slug": "Summon_Taunting_Contraption",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [17]"
+    },
+    {
+      "slug": "Summon_Taunting_Contraption",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Summon_Visiting_Harbinger_of_Focus",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [14]"
+    },
+    {
+      "slug": "Summon_Visiting_Harbinger_of_Time",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [13]"
+    },
+    {
+      "slug": "Summon_Visiting_Harbinger_of_the_Arcane",
+      "reason": "numeric-span-mismatch",
+      "english": "alternate minion [12]"
+    },
+    {
+      "slug": "Summon_Void_Spawn",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [70]"
+    },
+    {
+      "slug": "Summon_Void_Spawn",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [27]"
+    },
+    {
+      "slug": "Summon_Void_Spawn",
+      "reason": "numeric-span-mismatch",
+      "english": "infinite minion duration [1]"
+    },
+    {
+      "slug": "Svalinn",
+      "reason": "card-name",
+      "english": "Svalinn",
+      "chinese": "斯瓦林"
+    },
+    {
+      "slug": "Svalinn",
+      "reason": "card-name",
+      "english": "SupportTriggerElementalSpellOnBlock",
+      "chinese": "SupportTriggerElementalSpellOnBlock"
+    },
+    {
+      "slug": "Swift_Assembly_Support",
+      "reason": "local-template-mismatch",
+      "english": "Supported Skills have {0}% increased Mine Throwing Speed\nSupported Skills have {1}% increased Trap Throwing Speed"
+    },
+    {
+      "slug": "Tawhoa's_Chosen",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Tears_of_Rot",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Tentacle_Whip",
+      "reason": "numeric-span-mismatch",
+      "english": "attack unusable if triggerable [1]"
+    },
+    {
+      "slug": "Tentacle_Whip",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "The_Poets_Pen",
+      "reason": "card-name",
+      "english": "The Poet's Pen",
+      "chinese": "诗人之笔"
+    },
+    {
+      "slug": "The_Poets_Pen",
+      "reason": "card-name",
+      "english": "SupportTriggerSpellOnAttack",
+      "chinese": "SupportTriggerSpellOnAttack"
+    },
+    {
+      "slug": "Thirst_for_Blood",
+      "reason": "numeric-span-mismatch",
+      "english": "vampiric_icon_bleeding_damage_+%_final"
+    },
+    {
+      "slug": "Thunderburst",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Thunderburst",
+      "reason": "numeric-span-mismatch",
+      "english": "quality display base number of projectiles is gem [1]"
+    },
+    {
+      "slug": "Thunderburst",
+      "reason": "numeric-span-mismatch",
+      "english": "triggered by windstorm [1]"
+    },
+    {
+      "slug": "Twister",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Twister",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Unbound_Avatar",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Unseen_Strike",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Vaal_Breach",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Vaal_Breach",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill disabled [1]"
+    },
+    {
+      "slug": "Vaal_Breach",
+      "reason": "numeric-span-mismatch",
+      "english": "cannot cancel skill before contact point [1]"
+    },
+    {
+      "slug": "Vaal_Breach",
+      "reason": "numeric-span-mismatch",
+      "english": "skill cannot be stunned before contact point [1]"
+    },
+    {
+      "slug": "Vaal_Breach",
+      "reason": "numeric-span-mismatch",
+      "english": "base deal no damage [1]"
+    },
+    {
+      "slug": "Vaal_Smite",
+      "reason": "numeric-span-mismatch",
+      "english": "Lightning strikes {0} targets within {1} metres"
+    },
+    {
+      "slug": "Vixen's_Entrapment",
+      "reason": "card-name",
+      "english": "SupportUniqueCastCurseOnCurse",
+      "chinese": "SupportUniqueCastCurseOnCurse"
+    },
+    {
+      "slug": "Void_Gaze",
+      "reason": "numeric-span-mismatch",
+      "english": "base_chaos_damage_resistance_%"
+    },
+    {
+      "slug": "Void_Gaze",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Void_Shot",
+      "reason": "numeric-span-mismatch",
+      "english": "attack unusable if triggerable [1]"
+    },
+    {
+      "slug": "Void_Shot",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Void_Shot",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Void_Shot",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire arrows [1]"
+    },
+    {
+      "slug": "Volatile_Anomaly",
+      "reason": "card-name",
+      "english": "Volatile Anomaly",
+      "chinese": "异动奇点"
+    },
+    {
+      "slug": "Volatile_Anomaly",
+      "reason": "card-name",
+      "english": "None",
+      "chinese": "None"
+    },
+    {
+      "slug": "Volatile_Anomaly",
+      "reason": "card-name",
+      "english": "None",
+      "chinese": "None"
+    },
+    {
+      "slug": "Volatile_Anomaly",
+      "reason": "card-name",
+      "english": "Volatile Anomaly",
+      "chinese": "异动奇点"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Gains {0}% of Physical Damage as Extra Fire Damage per"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Red Socket on Equipped Gloves"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Gains {0}% of Physical Damage as Extra Cold Damage per"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Green Socket on Equipped Gloves"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Gains {0}% of Physical Damage as Extra Lightning Damage per"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Blue Socket on Equipped Gloves"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "line-numeric-span-mismatch",
+      "english": "Gains {0}% of Physical Damage as Extra Chaos Damage per"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "line-numeric-span-mismatch",
+      "english": "White Socket on Equipped Gloves"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill is trapped [1]"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Will_of_the_Lords",
+      "reason": "numeric-span-mismatch",
+      "english": "trap variation [23]"
+    },
+    {
+      "slug": "Wing_of_the_Wyvern",
+      "reason": "card-name",
+      "english": "SupportTriggerSpellOnBowAttackFreezeHit",
+      "chinese": "SupportTriggerSpellOnBowAttackFreezeHit"
+    },
+    {
+      "slug": "Word_of_Blades",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Word_of_Blades",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Word_of_Flames",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Word_of_Flames",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Word_of_Force",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Word_of_Frost",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Word_of_Frost",
+      "reason": "numeric-span-mismatch",
+      "english": "spell uncastable if triggerable [1]"
+    },
+    {
+      "slug": "Word_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Word_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "projectile spiral nova starting angle offset [-90]"
+    },
+    {
+      "slug": "Word_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "projectile spiral nova time ms [800]"
+    },
+    {
+      "slug": "Word_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire arrows [1]"
+    },
+    {
+      "slug": "Word_of_Fury",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire wand projectiles [1]"
+    },
+    {
+      "slug": "Word_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "base skill show average damage instead of dps [1]"
+    },
+    {
+      "slug": "Word_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Word_of_Inferno",
+      "reason": "numeric-span-mismatch",
+      "english": "skill override pvp scaling time ms [450]"
+    },
+    {
+      "slug": "Word_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "attack is not melee override [1]"
+    },
+    {
+      "slug": "Word_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "attack unusable if triggerable [1]"
+    },
+    {
+      "slug": "Word_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "extra gore chance override % [30]"
+    },
+    {
+      "slug": "Word_of_Ire",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Word_of_Light",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Word_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [32]"
+    },
+    {
+      "slug": "Word_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [4]"
+    },
+    {
+      "slug": "Word_of_Reflection",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [1]"
+    },
+    {
+      "slug": "Word_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Word_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "base projectile ground effect duration [2000]"
+    },
+    {
+      "slug": "Word_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "projectiles drop ground effects on client [1]"
+    },
+    {
+      "slug": "Word_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "projectiles drop ground ice [1]"
+    },
+    {
+      "slug": "Word_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire arrows [1]"
+    },
+    {
+      "slug": "Word_of_Spite",
+      "reason": "numeric-span-mismatch",
+      "english": "skill can fire wand projectiles [1]"
+    },
+    {
+      "slug": "Word_of_Thunder",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Word_of_War",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [1]"
+    },
+    {
+      "slug": "Word_of_Winter",
+      "reason": "numeric-span-mismatch",
+      "english": "base is projectile [1]"
+    },
+    {
+      "slug": "Word_of_Winter",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    },
+    {
+      "slug": "Word_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "base display minion actor level [32]"
+    },
+    {
+      "slug": "Word_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "chance to cast on owned kill % [100]"
+    },
+    {
+      "slug": "Word_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "display minion monster type [10]"
+    },
+    {
+      "slug": "Word_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "minions explode on death for % max life at end of duration [20]"
+    },
+    {
+      "slug": "Word_of_the_Grave",
+      "reason": "numeric-span-mismatch",
+      "english": "number of monsters to summon [3]"
+    },
+    {
+      "slug": "Word_of_the_Tempest",
+      "reason": "numeric-span-mismatch",
+      "english": "is area damage [1]"
+    }
+  ],
+  "ambiguous": {
+    "Base Debuff Duration is {0} seconds": [
+      "基础减益持续时间为 {0} 秒",
+      "减益效果基础持续时间为 {0} 秒"
+    ],
+    "{0}% more Damage with Hits and Ailments for each stage": [
+      "每阶使击中和异常状态伤害总增 {0}%",
+      "每一阶会使击中伤害和异常状态伤害总增 {0}%"
+    ],
+    "Maximum {0} Stages": [
+      "最多 {0} 层",
+      "最大 {0} 层"
+    ],
+    "Rotates {0} time": [
+      "转动次数 {0}",
+      "转动 {0} 次"
+    ],
+    "{0}% increased Blind Effect": [
+      "致盲效果提高{0}%",
+      "致盲效果提高 {0}%"
+    ],
+    "Explosion deals base Fire Damage equal to {0}% of the corpse's Maximum Life": [
+      "爆炸造成的基础火焰伤害等于尸体最大生命的{0}%",
+      "爆炸造成的火焰伤害等同于灵柩最大生命的 {0}%"
+    ],
+    "Hits from Final wave deal {0}% of Damage per stage": [
+      "最后一波的攻击每阶段造成 {0}% 的伤害",
+      "最后一波的击中每层造成 {0}% 的伤害"
+    ],
+    "Explosion deals {0}% more Damage with Hits and Ailments": [
+      "爆炸造成的击中和异常状态伤害总增 {0}%",
+      "爆炸会使击中伤害和异常状态伤害总增 {0}%"
+    ],
+    "Projectiles deal {0}% more Damage per previous Projectile fired in sequence": [
+      "此前连续发射的每一个投射物使投射物造成的伤害总增 {0}%",
+      "此前连续发射的每一个投射物使投射物伤害总增 {0}%"
+    ],
+    "Lifetap lasts {0} seconds": [
+      "赤炼效果持续 {0} 秒",
+      "赤炼效果 {0} 秒"
+    ],
+    "{0} Maximum Stages": [
+      "最多 {0} 层",
+      "最大层数 {0}"
+    ],
+    "Buff grants {0} Mana Regeneration per second": [
+      "增益效果使你每秒再生 {0} 魔力",
+      "增益效果每秒再生 {0} 魔力"
+    ],
+    "Maximum {0} caught Projectiles": [
+      "最多 {0} 个抓回的投射物",
+      "抓回的投射物上限 {0}"
+    ]
+  },
+  "ambiguous_exact": {
+    "Supports any skill that hits enemies.": [
+      "辅助任意击中敌人的技能。",
+      "辅助任何能击中敌人的技能。",
+      "辅助可击中敌人的技能。"
+    ],
+    "Supports melee strike skills, causing them to also strike at extra targets simultaneously. The extra targets must be a minimum distance from the user. If supporting a minion attack skill, the minion's skills will not also strike extra targets. Cannot support Vaal skills or triggered skills.": [
+      "辅助近战打击技能，使该技能可以同时打击额外的目标，额外目标和使用者之间必须保持最小距离。如果用来辅助召唤生物的攻击技能，则该召唤生物不会攻击多个目标。无法辅助瓦尔技能或触发技能。",
+      "辅助近战打击技能，使该技能可以同时打击额外的目标，额外目标和使用者之间必须保持最小距离。如果用来辅助召唤生物的攻击技能，则该召唤生物不会获得额外打击目标。无法辅助瓦尔技能或触发技能。"
+    ],
+    "Supports spell skills that deal damage with hits and have no reservation. Cannot support arcane skills, Brand skills, Orb skills, Vaal skills, or skills used by totems, traps or mines. Cannot modify the skills of minions.": [
+      "辅助击中造成伤害且没有保留效果的技能。无法辅助奥术技能、烙印技能、法球技能、瓦尔技能，图腾、陷阱、地雷施放的技能。无法影响召唤生物的技能。",
+      "辅助造成击中伤害且无保留效果的法术技能。无法辅助奥术技能、烙印技能、法球技能、瓦尔技能，以及由图腾、陷阱或地雷使用的技能。无法作用于召唤生物的技能。"
+    ],
+    "This Skill's Mana Reservation is the total of the Mana Reservations of Supported Skills, and cannot be further modified": [
+      "该技能的魔力保留为被辅助技能的魔力保留的总和，并且无法被进一步修改",
+      "该技能的魔力保留等于被辅助技能魔力保留的总量，不能再作更改"
+    ],
+    "Supports projectile skills, making their projectiles fork into two projectiles the first two times they hit an enemy and don't pierce it.": [
+      "辅助投射物技能，使它们的投射物在头两次击中敌人时并不穿透，而是分叉成两个。",
+      "辅助投射物技能，使它们的投射物在头两次击中敌人且未穿透时，分裂为两个。"
+    ],
+    "Supports skills which create Minions.": [
+      "辅助召唤生物技能。",
+      "辅助创造召唤生物的技能。"
+    ],
+    "Blood Offering": [
+      "生命奉献",
+      "血脉奉献"
+    ],
+    "Creates an area of Consecrated Ground, providing life regeneration and reducing the effect of curses for you and allies who stand in it.": [
+      "产生一片奉献地面，为你和友军提供生命再生，并降低你们身上的诅咒效果。",
+      "产生一片奉献地面，为你和友军提供生命再生效果，并降低你们身上的诅咒效果。"
+    ],
+    "Corpse Walk": [
+      "灵盒行走",
+      "灵柩行走"
+    ],
+    "Discharge all the character's charges to deal elemental damage to all nearby monsters.": [
+      "释放角色身上所有的能量球并对周围所有敌人造成元素伤害.",
+      "释放角色身上所有的能量球并对周围所有敌人造成元素伤害。"
+    ],
+    "Attacks enemies with a melee strike, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the enemy's corpse will be consumed and a Sentinel of Dominance with the same rarity, prefix and suffix modifiers will be summoned for a longer secondary duration.": [
+      "近战攻击敌人，在短期内施加一个减益效果。如果非传奇敌人被该效果击败，则会消耗它的灵盒创造一个统御哨兵，具有相同稀有度、前缀和后缀，并持续一段更长的时间。",
+      "近战攻击敌人，在短期内施加一个减益效果。如果非传奇敌人在受到该效果影响时击败，则会消耗它的灵柩创造一个统御哨兵，具有相同稀有度、前缀和后缀，并持续一段更长的时间。"
+    ],
+    "Flaming bolts rain down over the targeted area. They explode when landing, dealing damage to nearby enemies.": [
+      "低语呢喃, 呼唤无数火焰之球如雨一般洒落在目标区域. 每颗火球落地时将会爆炸, 并对周围的敌人造成伤害.",
+      "低语呢喃，呼唤无数火焰之球如雨一般洒落在目标区域。每颗火球落地时将会爆炸，并对周围的敌人造成伤害。"
+    ],
+    "This spell consumes multiple cooldown uses to summon icy Statues in a ring. Each Statue uses your Frozen Sweep attack once before vanishing. Requires an Axe, Mace, Sceptre, or Staff. This skill cannot be triggered, supported by Spell Echo or Unleash, or used by Totems, Traps, or Mines.": [
+      "此法术消耗多个冷却时间次数来召唤一圈寒冰雕像。每个雕像都会在消失前使用你的冰封横扫攻击。需要斧类、锤类、短杖或长杖。该技能不能由图腾、陷阱、地雷施放，也不能被触发或受“施法回响”和“释出”辅助。",
+      "此法术消耗多个冷却时间次数来召唤一圈寒冰雕像。每个雕像都会在消失前使用你的冰封横扫攻击。需要斧类、锤类、短杖或长杖。该技能不能被触发或受“施法回响”和“释出”辅助，不能由图腾、陷阱、地雷使用。"
+    ],
+    "Gluttony of Elements": [
+      "元素饕餮",
+      "元素之愈"
+    ],
+    "Gathers kinetic energy into an anomaly at the targeted location, which will explode when enemies are near it, dealing your wand's damage in an area. The anomaly will dissipate after a duration.": [
+      "在目标地点将动能汇聚成一个异变点，当有敌人靠近时会爆炸，以范围伤害形式造成等同于魔杖的伤害。该异变点持续一段时间后便会消散。",
+      "在目标地点聚集动能形成异变，当敌人接近时将爆炸，以你的法杖伤害为基础造成范围伤害。该异变持续一段时间后自动消散。"
+    ],
+    "Deals chaos damage to a single enemy, dealing more damage if they are Hexed, then removing the Hex. If the enemy was Hexed, also deals area damage to other enemies around the target, boosting damage and removing Hexes from those enemies in the same way.": [
+      "对单个敌人造成混沌伤害，如果它有魔蛊效果则造成更高伤害，并移除魔蛊。如果这些目标身上也有魔蛊，还会对目标附近的其他敌人造成范围伤害，并且造成更高伤害，还会用相同的方式移除它们的魔蛊。",
+      "对单独目标造成混沌伤害，如果它有魔蛊效果则造成更高伤害，然后移除魔蛊。目标具有魔蛊效果时还会对目标周围其它敌人造成范围伤害，并且如果这些目标身上也有魔蛊，则同样造成更高伤害并移除魔蛊。"
+    ],
+    "Summons a totem that channels to fire a stream of flame at nearby enemies, and creates an area of consecrated ground around the totem.": [
+      "召唤一个图腾, 它会持续的对附近的敌人喷射火焰，并在图腾周围创造一片奉献地面。",
+      "召唤一个图腾，它会持续对附近的敌人喷射火焰，并在图腾周围创造一片奉献地面。"
+    ],
+    "Supported Spells gain Intensity when you Cast them, to a maximum of 3": [
+      "被辅助法术在施放时获得凝聚状态，最大 3 层",
+      "施放被辅助法术可以获得凝聚，最大 3 层"
+    ],
+    "While you channel this skill, it releases pulses of electrical energy, dealing lightning damage in a semicircular area in front of you.": [
+      "汇聚雷霆之力并从手中快速的释放多次闪电, 对你面前弧状区域内的所有敌人造成伤害.",
+      "汇聚雷霆之力并从手中快速释放多次闪电，对你面前弧状区域内的所有敌人造成伤害。"
+    ],
+    "Portal": [
+      "时空之门",
+      "传送门"
+    ],
+    "Supports melee attack skills. Cannot support triggered attacks, attacks used by things other than you, or skills which create minions.": [
+      "辅助近战攻击技能。无法辅助触发类攻击、非你亲自使用的攻击，或创造召唤生物的技能。",
+      "辅助近战攻击技能，无法辅助触发攻击技能、除你之外的生物使用的攻击技能，或能够召唤生物的技能。"
+    ],
+    "Summons a short-lived flaming skull that rushes at nearby enemies and attacks them rapidly, converting all its physical damage to fire. Enemies will not directly engage these spirits, and can pass through them.": [
+      "召唤只能存在极短时间的愤怒狂灵，这些火焰魔侍将会冲至敌人身边并快速的进行攻击，将所有物理伤害转化为火焰伤害，敌方生物将不会主动攻击这些狂灵，并可以穿越它们。",
+      "召唤只能存在极短时间的愤怒狂灵，这些火焰魔侍将会冲至敌人身边并快速的进行攻击，并将其造成的所有物理伤害转化为火焰伤害。敌方生物将不会主动攻击这些狂灵，并可以穿越它们。"
+    ],
+    "Your melee weapon strikes enemies, converting physical damage to a random element. Then, depending on the element chosen, it releases a fiery explosion, an arcing bolt of lightning, or an icy wave. It will avoid choosing the same element twice in a row.": [
+      "使用近战武器打击敌人，将物理伤害转换为随机的元素伤害。根据转换成的元素释放出猛烈的爆炸、弧动的闪电箭或冰霜波。它不会连续两次选择相同的元素。",
+      "使用近战武器打击敌人，将物理伤害转换为随机的元素伤害。根据转换成的元素释放出猛烈的爆炸、弧动的闪电箭或冰霜波。不会连续两次选择相同的元素。"
+    ]
+  }
+}

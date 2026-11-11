@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="cn" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>艾贝拉斯之角 羊角法杖 - 流亡编年史, Path of Exile Wiki cn</title>
+    <meta name="description" content="path of exile is simply a tool to test your path of building creation">
+    <link rel="alternate" hreflang="en" href="https://poedb.tw/us/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://poedb.tw/tw/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://poedb.tw/cn/" />
+        <link href="/favicon.png" rel="shortcut icon" >
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/jquery.dataTables.min.css" integrity="sha512-1k7mWiTNoyx2XtmI96o+hdjP8nn0f3Z2N4oF/9ZZRgijyV4omsKOXEnqL1gKQNPy2MTSP9rIEWGcH/CInulptA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-5-theme/1.3.0/select2-bootstrap-5-theme.min.css" integrity="sha512-z/90a5SWiu4MWVelb5+ny7sAayYUfMmdXKEAbpj27PfdkamNdyI3hcjxPxkOPbrXoKIm7r9V2mElt5f1OtVhqA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy.min.css" integrity="sha512-HbPh+j4V7pXprvQMt2dtmK/zCEsUeZWYXRln4sOwmoyHPQAPqy/k9lIquKUyKNpNbDGAY06UdiDHcEkBc72yCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.min.css" integrity="sha512-OkYLbkJ4DB7ewvcpNLF9DSFmhdmxFXQ1Cs+XyjMsMMC94LynFJaA9cPXOokugkmZo6O6lwZg+V5dwQMH4S5/3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/css/modal-video.min.css" integrity="sha256-nd8IBqNn9uqwZKfZcLIXQcNxk5TjqrxiLx7PzN5PFW0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" integrity="sha256-auPoJwk/+RK6KSkib92Dkq1Y5hEkZvKtvSwucs15Skg=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video-js.min.css" integrity="sha512-J3tx4ssoARFr4U9VmZmQe2q672q0jUeYizJW3vglkOBTlQ/N6kF3eVqZZzaey/TdIXH69s3HYe2nQwyxK/Emzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link rel="stylesheet" href="https://cdn.poedb.tw/css/stdtheme.2ee77f64c96f1967.css" />
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js" integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" integrity="sha256-Ikk5myJowmDQaYVCUD0Wr+vIDkN8hGI58SGWdE671A8=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.full.min.js" integrity="sha512-RtZU3AyMVArmHLiW0suEZ9McadTdegwbgtiQl5Qqo9kunkVg1ofwueXD8/8wv3Af8jkME3DDe3yLfR8HSJfT2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy-bundle.umd.min.js" integrity="sha512-gbruucq/Opx9jlHfqqZeAg2LNK3Y4BbpXHKDhRC88/tARL/izPOE4Zt2w6X9Sn1UeWaGbL38zW7nkL2jdn5JIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.1/marked.min.js" integrity="sha512-VUuO/d6MS7hXmiFGEj7HtUa2FCI6Ll+xPvX9yX3bxn7ZqDWwleqXa8dtW13brbZ1ld2jiTrv8hWbpfp4B5mi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.all.js" integrity="sha512-A7LzqKE/pm9ofgS0Lxu7qroQS5SkKJQaYJkJ/66nQiWZfEdeGlBq5zEXQ63VRmXZK8zPpCgFf2WQJIAljI0Vdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/js/modal-video.min.js" integrity="sha256-VqINwNxkS4VEDMq5O52YTckX+Mx84X6bafO8NxF21Xw=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js" integrity="sha256-DiHJ7hbvMejsMyP76bpVWacb5HSHQ2sQlrJV8n7KEvA=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/echarts.min.js" integrity="sha512-4/g9GAdOdTpUP2mKClpKsEzaK7FQNgMjq+No0rX8XZlfrCGtbi4r+T/p5fnacsEC3zIAmHKLJUL7sh3/yVA4OQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/theme/dark.min.js" integrity="sha512-3Zm64ayK7DflnnyO2pKkLJX3v9Sb90mvahbwPUuMzEf42HI6k8tquIx5VsNBjEWAcYJWzvimbqnTkLl2QdCUmw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video.min.js" integrity="sha512-48NkCweTzA9u2sP4GgKcEDm6IScPIMga142ipKFNcHfz7feUJXDJxO1jwc2l+5MvWfwMj4BDfQv8WIMhrPxZLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.2.1/mustache.min.js" integrity="sha512-Qjrukx28QnvFWISw9y4wCB0kTB/ISnWXPz5/RME5o8OlZqllWygc1AB64dOBlngeTeStmYmNTNcM6kfEjUdnnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js" integrity="sha512-7O5pXpc0oCRrxk8RUfDYFgn0nO1t+jLuIOQdOMRp4APB7uZ4vSjspzp5y6YDtDs4VzUSTbWzBFZ/LKJhnyFOKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        <script src="https://cdn.poedb.tw/js/ModsView.6d68ad906ceba146.js"></script>
+        <script src="https://cdn.poedb.tw/js/poedb_header.a5ba197f514f530c.js"></script>
+    
+    <script data-cfasync="false">window.nitroAds=window.nitroAds||{createAd:function(){return new Promise(e=>{window.nitroAds.queue.push(["createAd",arguments,e])})},addUserToken:function(){window.nitroAds.queue.push(["addUserToken",arguments])},queue:[]};</script>
+    <script data-cfasync="false" async src="https://s.nitropay.com/ads-562.js"></script>
+
+    <meta property="og:site_name" content="poedb.tw">
+<meta property="og:title" content="艾贝拉斯之角 羊角法杖" />
+<meta property="og:description" content="+(30—50)% 暴击导致的点燃持续伤害加成
+给法术附加 (4—6) 到 (8—12) 点火焰伤害
+全域暴击率提高 (80—120)%
+每击败一名被点燃的敌人获得10点生命
+敌人被点燃的持续时间缩短 25%" />
+<meta property="og:image" content="https://cdn.poedb.tw/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wychverge.webp" />
+
+  </head>
+
+  <body>
+
+    <div id="consent-box" style="display:none">
+      <button onclick="window.__cmp('showModal');">
+        Update cookie preferences
+      </button>
+    </div>
+    
+    <script>
+      if (window["nitroAds"] && window["nitroAds"].loaded) {
+        document.getElementById("consent-box").style.display = window["__tcfapi"]
+          ? ""
+          : "none";
+      } else {
+        document.addEventListener(
+          "nitroAds.loaded",
+          () =>
+            (document.getElementById("consent-box").style.display = window["__tcfapi"]
+              ? ""
+              : "none")
+        );
+      }
+    </script>
+
+
+    <div class="background-image "></div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3B810SRKBH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3B810SRKBH');
+</script>
+
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="navbar-brand fw-bold" href="/cn/">PoE<span class='brand-suffix'>DB</span><sub></sub></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"  aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Items" data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</a></li>
+                    <li><a class="dropdown-item" href="/cn/Unique_item" data-i18n="ClientStrings|ItemDisplayStringUnique|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Vendor_recipe_system" data-i18n="ClientStrings|TutorialPanelVendorRecipes|Name">商人物品配方</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Gem" data-i18n="ClientStrings|ItemDisplayStringGem|Name">宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Skill_Gems" data-i18n="ItemClasses|Active Skill Gem|Name">技能宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Support_Gems" data-i18n="ItemClasses|Support Skill Gem|Name">辅助宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Transfigured_Gems" data-i18n="ClientStrings|ItemFilterRuleTransfiguredGems|Name">改造宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Exceptional" data-i18n="GemTags|exceptional|Name">Exceptional</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Modifiers" data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</a></li>
+                    <li><a class="dropdown-item" href="/cn/Keywords" data-i18n-tw="提示字">Keywords</a></li>
+                    <li><a class="dropdown-item" href="/cn/Oil" data-i18n="AchievementItems|DeliriumCraftItemsUsingCurrency1_8|Name">圣油</a></li>
+                    <li><a class="dropdown-item" href="/cn/Crafting_Bench" data-i18n="BaseItemTypes|Metadata/Items/HideoutInteractables/HideoutCraftingBench|Code"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Horticrafting" data-i18n="ClientStrings|HarvestCraftingStationTitle|Name">花园工艺</a></li>
+                    <li><a class="dropdown-item" href="/cn/metamods">工艺互动</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/cn/Quest" data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</a></li>
+                    <li><a class="dropdown-item" href="/cn/Ascendancy_class" data-i18n="ClientStrings|TutorialPanelAscendancies|Name">升华职业</a></li>
+                    <li><a class="dropdown-item" href="/cn/Bloodline_Ascendancy_class" data-i18n-tw="血裔職業" data-i18n-cn="血脉职业">Bloodline Ascendancy class</a></li>
+                    <li><a class="dropdown-item" href="/cn/passive-skill-tree/" data-i18n="ClientStrings|ActionOpenPassivePanel|Name">天赋树</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Maps" data-i18n="UniqueStashTypes|Map|Name">地图</a></li>
+                    <li><a class="dropdown-item" href="/cn/Atlas_of_Worlds" data-i18n="MapSeries|MapAtlas|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/atlas-skill-tree/" data-i18n="ClientStrings|ActionOpenAtlasPassivesScreen|Name"></a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item"><a class="nav-link" href="Economy" data-i18n-tw="經濟" data-i18n-cn="经济">Economy</a></li>
+    
+                <li class="nav-item"><a class="ms-4 nav-link  bg-warning rounded-circle" style="color: white" href="/cn/patreon">赞助</a></li>
+              </ul>
+    
+    
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" aria-current="page" href="https://poe2db.tw/cn/">PoE2<span class="brand-suffix">DB</span></a>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-language fa-lg"></i> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/tw/Abberaths_Horn">TW 繁體中文</a></li>
+                    <li><a class="dropdown-item" href="/cn/Abberaths_Horn">CN 简体中文</a></li>
+                    <li><a class="dropdown-item" href="/us/Abberaths_Horn">US English</a></li>
+                    <li><a class="dropdown-item" href="/kr/Abberaths_Horn">KR 한국어</a></li>
+                    <li><a class="dropdown-item" href="/ru/Abberaths_Horn">RU Русский</a></li>
+                    <li><a class="dropdown-item" href="/jp/Abberaths_Horn">JP Japanese</a></li>
+                    <li><a class="dropdown-item" href="/fr/Abberaths_Horn">FR Français</a></li>
+                    <li><a class="dropdown-item" href="/de/Abberaths_Horn">DE Deutsch</a></li>
+                    <li><a class="dropdown-item" href="/th/Abberaths_Horn">TH ภาษาไทย</a></li>
+                    <li><a class="dropdown-item" href="/pt/Abberaths_Horn">PO Português</a></li>
+                    <li><a class="dropdown-item" href="/sp/Abberaths_Horn">ES Spanish</a></li>
+                  </ul>
+                </li>
+              </ul>
+    
+            <form class="form-inline my-2 my-lg-0" role="search" action="search">
+              <input type="hidden" name="token" value="ce3bcbf30073df09e808545bd144e2f35a1ef34d4c751d388789fee8b670560f87fd9e">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q" id="navautosearch">
+            </form>
+    
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+    </header>
+
+<script>sidebar160("leftside_banner", "left");</script>
+<script>sidebar160("rightside_banner", "right");</script>
+
+
+
+    <div class="page ">
+    <div class="page-content theme-showcase container" role="main">
+
+
+<div class="d-flex flex-wrap justify-content-center"><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Expedition_league" data-bs-toggle="tooltip" title="先祖秘藏 v3.15"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/ExpeditionDetonator.webp" alt="ExpeditionDetonator" class="league_minimap" /></span></a><a href="Ultimatum_league" data-bs-toggle="tooltip" title="致命贪婪 v3.14"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/UltimatumAltar.webp" alt="UltimatumAltar" class="league_minimap" /></span></a><a href="Ritual_league" data-bs-toggle="tooltip" title="驱灵仪式 v3.13"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/RitualRune.webp" alt="RitualRune" class="league_minimap" /></span></a><a href="Blight_league" data-bs-toggle="tooltip" title="菌潮 v3.8"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BlightCore.webp" alt="BlightCore" class="league_minimap" /></span></a><a href="Legion_league" data-bs-toggle="tooltip" title="军团 v3.7"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/LegionInitiator.webp" alt="LegionInitiator" class="league_minimap" /></span></a><a href="Betrayal_league" data-bs-toggle="tooltip" title="背叛者 v3.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BetrayalSymbolCatarina.webp" alt="BetrayalSymbolCatarina" class="league_minimap" /></span></a><a href="Incursion_league" data-bs-toggle="tooltip" title="穿越 v3.3"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/IncursionCraftingBench.webp" alt="IncursionCraftingBench" class="league_minimap" /></span></a><a href="Bestiary_league" data-bs-toggle="tooltip" title="猎魔 v3.2"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BestiaryRareMonster.webp" alt="BestiaryRareMonster" class="league_minimap" /></span></a><a href="Abyss_league" data-bs-toggle="tooltip" title="深渊 v3.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Abyss.webp" alt="Abyss" class="league_minimap" /></span></a><a href="Breach_league" data-bs-toggle="tooltip" title="裂隙 v2.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Breach.webp" alt="Breach" class="league_minimap" /></span></a>
+    </div>
+  </div>
+</div><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Allflame_league" data-bs-toggle="tooltip" title="永火之咒 v3.29"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DeepwaterCursedTreasure.webp" alt="DeepwaterCursedTreasure" class="league_minimap" /></span></a><a href="Mirage_league" data-bs-toggle="tooltip" title="沙海幻境 v3.28"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Mirage.webp" alt="Mirage" class="league_minimap" /></span></a><a href="Mercenaries_league" data-bs-toggle="tooltip" title="佣兵 v3.26"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/MercenaryEncounter.webp" alt="MercenaryEncounter" class="league_minimap" /></span></a><a href="Settlers_league" data-bs-toggle="tooltip" title="君锋城下 v3.25"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/VillageShipping.webp" alt="VillageShipping" class="league_minimap" /></span></a><a href="Sanctum_league" data-bs-toggle="tooltip" title="圣地 v3.20"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Sanctum.webp" alt="Sanctum" class="league_minimap" /></span></a><a href="Archnemesis_league" data-bs-toggle="tooltip" title="罪恶枷锁 v3.17"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Archnemesis.webp" alt="Archnemesis" class="league_minimap" /></span></a><a href="Heist_league" data-bs-toggle="tooltip" title="夺宝奇兵 v3.12"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HeistSumgglersCache.webp" alt="HeistSumgglersCache" class="league_minimap" /></span></a><a href="Harvest_league" data-bs-toggle="tooltip" title="庄园 v3.11"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HarvestPortal.webp" alt="HarvestPortal" class="league_minimap" /></span></a><a href="Delirium_league" data-bs-toggle="tooltip" title="惊悸迷雾 v3.10"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/AfflictionInitiator.webp" alt="AfflictionInitiator" class="league_minimap" /></span></a><a href="Delve_league" data-bs-toggle="tooltip" title="地心探索 v3.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DelveMineralVein.webp" alt="DelveMineralVein" class="league_minimap" /></span></a><a href="Essence_league" data-bs-toggle="tooltip" title="精华 v2.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Essence.webp" alt="Essence" class="league_minimap" /></span></a><a href="Tormented_Spirit" data-bs-toggle="tooltip" title="Tormented Spirit v1.3"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.webp" class="league_minimap"/></a><a href="Beyond" data-bs-toggle="tooltip" title="超越 v1.2"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.webp" class="league_minimap"/></a><a href="Strongbox" data-bs-toggle="tooltip" title="保险箱 v1.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Strongbox.webp" alt="Strongbox" class="league_minimap" /></span></a><a href="Shrine" data-bs-toggle="tooltip" title="神殿 v1.0"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Shrine.webp" alt="Shrine" class="league_minimap" /></span></a><a href="Rogue_Exiles" data-bs-toggle="tooltip" title="Rogue Exiles v0.11"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/Anarchy4.webp" class="league_minimap"/></a>
+    </div>
+  </div>
+</div></div>
+
+
+
+<div id="topbanner970"></div><script>topbanner970("topbanner970");</script>
+
+<ul class="nav nav-tabs d-flex flex-wrap" role="tablist"><li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" role="tab" aria-selected="true" href="#艾贝拉斯之角传奇">艾贝拉斯之角 传奇</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#AbberathsHorn">Abberath's Horn</a></li></ul><div class="tab-content"><div id="艾贝拉斯之角传奇" class="tab-pane fade show active"><span data-tabname="艾贝拉斯之角 <small>传奇</small>"></span><h3 style='display: none'>艾贝拉斯之角</h3><div class="my-2"><div class="d-flex flex-wrap">
+
+<div class="newItemPopup UniquePopup  "
+>
+    <div class="itemHeader doubleLine">
+
+        <div class="itemName">
+            <span class="lc">艾贝拉斯之角</span>
+        </div>
+        <div class="itemName typeLine">
+            <span class="lc">羊角法杖</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="Stats">
+            <div class="property">法杖</div><div class="property">品质: <span class='colourAugmented'>+20%</span></div><div class="property">物理伤害: <span class='colourAugmented'>8.4 to 15.6</span></div><div class="property">攻击暴击率: <span class='colourDefault'>8%</span></div><div class="property">每秒攻击次数: <span class='colourDefault'>1.4</span></div><div class="separator"></div><div class="requirements">需求 等级 <span class="colourDefault">6</span>, <span class="colourDefault">29</span> 智慧</div><div class="separator"></div><div class="implicitMod">攻击和法术附加 <span class='mod-value'>(1<span class="ndash">—</span>2)</span>-<span class='mod-value'>(3<span class="ndash">—</span>4)</span> 基础火焰伤害</div><div class="separator"></div><div class="explicitMod"><span class='mod-value'>+(30<span class="ndash">—</span>50)</span>% 暴击导致的点燃持续伤害加成</div><div class="explicitMod">给法术附加 <span class='mod-value'>(4<span class="ndash">—</span>6)</span> 到 <span class='mod-value'>(8<span class="ndash">—</span>12)</span> 点火焰伤害</div><div class="explicitMod">全域暴击率提高 <span class='mod-value'>(80<span class="ndash">—</span>120)</span>%</div><div class="explicitMod">每击败一名被点燃的敌人获得<span class='mod-value'>10</span>点生命</div><div class="explicitMod">敌人被点燃的持续时间缩短 <span class='mod-value'>25</span>%</div>
+        </div>
+
+        <div class="separator"></div>
+        <div class="FlavourText">
+            山羊王饮烟食焰，其残体蔓延大地。
+        </div>
+
+
+        <div>
+            Abberath's Horn
+        </div>
+    </div>
+</div>
+
+
+        <div class="itemboximage">
+
+                <img loading="lazy" class="" src="https://cdn.poedb.tw/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wychverge.webp"/>
+
+        </div>
+
+
+
+</div>
+</div><div   class="card mb-2 ">
+   <h5 class="card-header">艾贝拉斯之角 Attr /5 </h5>   <div class='table-responsive'><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>名字</th><th>显示物品素质</th></tr></thead><tbody>
+<tr><td>市集</td><td><a target="_blank" href="https://poe.game.qq.com/trade/search/S29%E8%B5%9B%E5%AD%A3?q=%7B%22query%22%3A%7B%22name%22%3A%22%5Cu827e%5Cu8d1d%5Cu62c9%5Cu65af%5Cu4e4b%5Cu89d2%22%7D%7D">市集</a></td></tr>
+<tr><td>关键字</td><td><a href='/cn/Kill'>Kill</a>, <a href='/cn/Duration'>持续时间</a>, <a href='/cn/Ignite'>点燃</a></td></tr>
+<tr><td>Icon</td><td>Art/2DItems/Weapons/OneHandWeapons/Wands/Wychverge</td></tr>
+<tr><td>Release Version</td><td><a href='Warbands_and_Tempest_league'>军团与风暴</a></td></tr>
+<tr><td>BaseType</td><td><a class="whiteitem Wand" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BaseItemTypes_hover/99f09c50bac3f23ac267c174b82ae65a4943d29ca2422ea819fec2bc32189805" href="Goats_Horn">羊角法杖</a></td></tr></tbody></table></div>  </div><div class="clearfix row"><div class='col-lg-6'><div   class="card mb-2 ">
+   <h5 class="card-header"><span class='item_magic'>攻击和法术附加 <span class='mod-value'>(1<span class="ndash">—</span>2)</span>-<span class='mod-value'>(3<span class="ndash">—</span>4)</span> 基础火焰伤害</span></h5>   <table class='table table-hover table-striped mb-0'>
+<tr><th>Family<td>AddedFireDamageSpellsAndAttacks
+<tr><th>Domains<td>物品 (1)
+<tr><th>GenerationType<td>传奇 (3)
+<tr><th>Req. level<td>1
+<tr><th>Stats<td><li>spell and attack maximum added fire damage <span class="badge bg-primary">3 <span class="ndash">—</span> 4</span> <span class="badge bg-secondary">全域</span></li><li>spell and attack minimum added fire damage <span class="badge bg-primary">1 <span class="ndash">—</span> 2</span> <span class="badge bg-secondary">全域</span></li>
+<tr><th>Craft Tags<td><span class='badge bg-primary'><i>elemental_damage</i></span> <span class='badge bg-primary'><i>caster_damage</i></span> <span class='badge bg-primary'>伤害</span> <span class='badge bg-primary'>元素</span> <span class='badge bg-primary'>火焰</span> <span class='badge bg-primary'>攻击</span> <span class='badge bg-primary'>施法</span> </table>  </div></div><div class='col-lg-6'><div   class="card mb-2 ">
+   <h5 class="card-header"><span class='item_magic'><span class='mod-value'>+(30<span class="ndash">—</span>50)</span>% 暴击导致的点燃持续伤害加成</span></h5>   <table class='table table-hover table-striped mb-0'>
+<tr><th>Family<td>DamageOverTimeMultiplier
+<tr><th>Domains<td>物品 (1)
+<tr><th>GenerationType<td>传奇 (3)
+<tr><th>Req. level<td>1
+<tr><th>Stats<td><li>critical ignite dot multiplier + <span class="badge bg-primary">30 <span class="ndash">—</span> 50</span> <span class="badge bg-secondary">全域</span></li>
+<tr><th>Craft Tags<td><span class='badge bg-primary'><i>elemental_damage</i></span> <span class='badge bg-primary'>伤害</span> <span class='badge bg-primary'>元素</span> <span class='badge bg-primary'>火焰</span> <span class='badge bg-primary'>异常状态</span> </table>  </div></div><div class='col-lg-6'><div   class="card mb-2 ">
+   <h5 class="card-header"><span class='item_magic'>给法术附加 <span class='mod-value'>(4<span class="ndash">—</span>6)</span> 到 <span class='mod-value'>(8<span class="ndash">—</span>12)</span> 点火焰伤害</span></h5>   <table class='table table-hover table-striped mb-0'>
+<tr><th>Family<td>SpellAddedElementalDamage
+<tr><th>Domains<td>物品 (1)
+<tr><th>GenerationType<td>传奇 (3)
+<tr><th>Req. level<td>1
+<tr><th>Stats<td><li>spell maximum added fire damage <span class="badge bg-primary">8 <span class="ndash">—</span> 12</span> <span class="badge bg-secondary">全域</span></li><li>spell minimum added fire damage <span class="badge bg-primary">4 <span class="ndash">—</span> 6</span> <span class="badge bg-secondary">全域</span></li>
+<tr><th>Adds Tags<td><span class='badge bg-primary'>has_caster_mod</span> 
+<tr><th>Craft Tags<td><span class='badge bg-primary'><i>elemental_damage</i></span> <span class='badge bg-primary'><i>caster_damage</i></span> <span class='badge bg-primary'>伤害</span> <span class='badge bg-primary'>元素</span> <span class='badge bg-primary'>火焰</span> <span class='badge bg-primary'>施法</span> </table>  </div></div><div class='col-lg-6'><div   class="card mb-2 ">
+   <h5 class="card-header"><span class='item_magic'>全域暴击率提高 <span class='mod-value'>(80<span class="ndash">—</span>120)</span>%</span></h5>   <table class='table table-hover table-striped mb-0'>
+<tr><th>Family<td>CriticalStrikeChanceIncrease
+<tr><th>Domains<td>物品 (1)
+<tr><th>GenerationType<td>传奇 (3)
+<tr><th>Req. level<td>1
+<tr><th>Stats<td><li>critical strike chance +% <span class="badge bg-primary">80 <span class="ndash">—</span> 120</span> <span class="badge bg-secondary">全域</span></li>
+<tr><th>Craft Tags<td><span class='badge bg-primary'>暴击</span> </table>  </div></div><div class='col-lg-6'><div   class="card mb-2 ">
+   <h5 class="card-header"><span class='item_magic'>每击败一名被点燃的敌人获得<span class='mod-value'>10</span>点生命</span></h5>   <table class='table table-hover table-striped mb-0'>
+<tr><th>Family<td>LifeGainedOnKillingIgnitedEnemies
+<tr><th>Domains<td>物品 (1)
+<tr><th>GenerationType<td>传奇 (3)
+<tr><th>Req. level<td>1
+<tr><th>Stats<td><li>life gained on killing ignited enemies <span class="badge bg-primary">10 <span class="ndash">—</span> 10</span> <span class="badge bg-secondary">全域</span></li>
+<tr><th>Craft Tags<td><span class='badge bg-primary'><i>resource</i></span> <span class='badge bg-primary'>生命</span> </table>  </div></div><div class='col-lg-6'><div   class="card mb-2 ">
+   <h5 class="card-header"><span class='item_magic'>敌人被点燃的持续时间缩短 <span class='mod-value'>25</span>%</span></h5>   <table class='table table-hover table-striped mb-0'>
+<tr><th>Family<td>BurnDuration
+<tr><th>Domains<td>物品 (1)
+<tr><th>GenerationType<td>传奇 (3)
+<tr><th>Req. level<td>1
+<tr><th>Stats<td><li>ignite duration +% <span class="badge bg-primary">-25 <span class="ndash">—</span> -25</span> <span class="badge bg-secondary">全域</span></li>
+<tr><th>Craft Tags<td><span class='badge bg-primary'>元素</span> <span class='badge bg-primary'>火焰</span> <span class='badge bg-primary'>异常状态</span> </table>  </div></div></div></div><div id="AbberathsHorn" class="tab-pane fade"><div class="card"><h4 class="card-header" data-tabname="Community Wiki">Community Wiki</h4></div><div class="card mb-1">
+    <div class="card-body markdown-body">
+        <a class="btn btn-primary float-end" href='/cn/marked?id=Abberaths_Horn' data-i18n="ClientStrings|HideoutEditControlEdit|Name">Edit</a>
+        <div id="markContent"><h1>Abberath&#39;s Horn</h1>
+<h2>Version history</h2>
+<table class="table"><thead><tr><th>Version</th><th>Changes</th></thead><tbody>
+<tr>
+  <td>2.6.0</td>
+  <td>
+    <li>Base type damage increased to 7-13 (up from 5-10).
+    <li>Base type critical strike chance reduced to 7% (down from 8%).
+  </td>
+</tr>
+<tr>
+  <td>2.3.0</td>
+  <td>
+    <li>The implicits on <a class="ItemClasses" href="Sceptres">Sceptres</a>s and <a class="ItemClasses" href="Wands">Wands</a>s have been increased in value. Sceptres now also follow an increasing sequence of elemental damage similar to what wands have. The highest Wand implicit can go up to 42%. The highest Sceptre implicit can go up to 40%.
+  </td>
+</tr>
+<tr>
+  <td>2.0.0</td>
+  <td>
+    <li>Introduced to the game.
+  </td>
+</tr>
+</tbody></table></div>
+        <div><hr style='border-top: 1px solid white'>Wikis Content is available under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA 3.0</a> unless otherwise noted.</div>
+    </div>
+</div>
+<script>
+$(function() {
+    lightbox_panel();
+});
+</script>
+</div></div>
+
+<footer class="ccontainer text-center text-lg-left">
+  <div class="card p-4">
+    <div class="row">
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Sites</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a target="_blank" href="https://poedb.tw/">poedb.tw</a> </li>
+          <li> <a target="_blank" href="https://tlidb.com/">tlidb.com</a> </li>
+          <li> <a target="_blank" href="https://poe2db.tw/">poe2db.tw</a> </li>
+              <li> <a target="_blank" href="https://paldb.cc/">paldb.cc</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">News</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="news">GGG Tracker</a> </li>
+          <li> <a href="League#ConcurrentPlayers">Concurrent Players</a> </li>
+          <li> <a href="Ruthless_mode" data-i18n="ClientStrings|InsaneDifficulty|Name">Ruthless mode</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">About Site</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="privacy">Privacy</a> </li>
+          <li> <a href="patreon">Patreon</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Community</h5>
+        <ul class="list-unstyled mb-0">
+
+
+          <li> <a href="https://discord.gg/b4bs4bQsrW">編年史 Discord</a> </li>
+
+          <li><a target="_blank" href="https://www.reddit.com/user/chuanhsing">/u/chuanhsing</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Copyright &copy; 2014-2026 流亡编年史.
+  </div>
+</footer>
+
+<div style=""></div>
+<div class="clearfix"></div><div id="bottom_banner"></div><script>topbanner970("bottom_banner");</script>
+    </div>
+    </div>
+
+    <a href="#top" id="toTop"><span class="fas fa-arrow-circle-up fa-3x"></span></a>
+<script>
+ $(document).ready(function()
+ {
+    if (window.location.hostname != "poedb.tw" && window.location.hostname != "poe2db.tw") {
+        window.location.href="https://poedb.tw/";
+    }
+ });
+</script>
+    <script src="https://cdn.poedb.tw/js/poedb_footer.fed37e57d91aa1eb.js"></script>
+
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"7c3bdd9ddfac4426b6a20a0cd5f64615","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

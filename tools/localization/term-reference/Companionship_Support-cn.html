@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="cn" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>忠诚伙伴（辅） - 流亡编年史, Path of Exile Wiki cn</title>
+    <meta name="description" content="path of exile is simply a tool to test your path of building creation">
+    <link rel="alternate" hreflang="en" href="https://poedb.tw/us/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://poedb.tw/tw/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://poedb.tw/cn/" />
+        <link href="/favicon.png" rel="shortcut icon" >
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/jquery.dataTables.min.css" integrity="sha512-1k7mWiTNoyx2XtmI96o+hdjP8nn0f3Z2N4oF/9ZZRgijyV4omsKOXEnqL1gKQNPy2MTSP9rIEWGcH/CInulptA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-5-theme/1.3.0/select2-bootstrap-5-theme.min.css" integrity="sha512-z/90a5SWiu4MWVelb5+ny7sAayYUfMmdXKEAbpj27PfdkamNdyI3hcjxPxkOPbrXoKIm7r9V2mElt5f1OtVhqA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy.min.css" integrity="sha512-HbPh+j4V7pXprvQMt2dtmK/zCEsUeZWYXRln4sOwmoyHPQAPqy/k9lIquKUyKNpNbDGAY06UdiDHcEkBc72yCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.min.css" integrity="sha512-OkYLbkJ4DB7ewvcpNLF9DSFmhdmxFXQ1Cs+XyjMsMMC94LynFJaA9cPXOokugkmZo6O6lwZg+V5dwQMH4S5/3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/css/modal-video.min.css" integrity="sha256-nd8IBqNn9uqwZKfZcLIXQcNxk5TjqrxiLx7PzN5PFW0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" integrity="sha256-auPoJwk/+RK6KSkib92Dkq1Y5hEkZvKtvSwucs15Skg=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video-js.min.css" integrity="sha512-J3tx4ssoARFr4U9VmZmQe2q672q0jUeYizJW3vglkOBTlQ/N6kF3eVqZZzaey/TdIXH69s3HYe2nQwyxK/Emzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link rel="stylesheet" href="https://cdn.poedb.tw/css/stdtheme.2ee77f64c96f1967.css" />
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js" integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" integrity="sha256-Ikk5myJowmDQaYVCUD0Wr+vIDkN8hGI58SGWdE671A8=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.full.min.js" integrity="sha512-RtZU3AyMVArmHLiW0suEZ9McadTdegwbgtiQl5Qqo9kunkVg1ofwueXD8/8wv3Af8jkME3DDe3yLfR8HSJfT2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy-bundle.umd.min.js" integrity="sha512-gbruucq/Opx9jlHfqqZeAg2LNK3Y4BbpXHKDhRC88/tARL/izPOE4Zt2w6X9Sn1UeWaGbL38zW7nkL2jdn5JIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.1/marked.min.js" integrity="sha512-VUuO/d6MS7hXmiFGEj7HtUa2FCI6Ll+xPvX9yX3bxn7ZqDWwleqXa8dtW13brbZ1ld2jiTrv8hWbpfp4B5mi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.all.js" integrity="sha512-A7LzqKE/pm9ofgS0Lxu7qroQS5SkKJQaYJkJ/66nQiWZfEdeGlBq5zEXQ63VRmXZK8zPpCgFf2WQJIAljI0Vdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/js/modal-video.min.js" integrity="sha256-VqINwNxkS4VEDMq5O52YTckX+Mx84X6bafO8NxF21Xw=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js" integrity="sha256-DiHJ7hbvMejsMyP76bpVWacb5HSHQ2sQlrJV8n7KEvA=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/echarts.min.js" integrity="sha512-4/g9GAdOdTpUP2mKClpKsEzaK7FQNgMjq+No0rX8XZlfrCGtbi4r+T/p5fnacsEC3zIAmHKLJUL7sh3/yVA4OQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/theme/dark.min.js" integrity="sha512-3Zm64ayK7DflnnyO2pKkLJX3v9Sb90mvahbwPUuMzEf42HI6k8tquIx5VsNBjEWAcYJWzvimbqnTkLl2QdCUmw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video.min.js" integrity="sha512-48NkCweTzA9u2sP4GgKcEDm6IScPIMga142ipKFNcHfz7feUJXDJxO1jwc2l+5MvWfwMj4BDfQv8WIMhrPxZLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.2.1/mustache.min.js" integrity="sha512-Qjrukx28QnvFWISw9y4wCB0kTB/ISnWXPz5/RME5o8OlZqllWygc1AB64dOBlngeTeStmYmNTNcM6kfEjUdnnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js" integrity="sha512-7O5pXpc0oCRrxk8RUfDYFgn0nO1t+jLuIOQdOMRp4APB7uZ4vSjspzp5y6YDtDs4VzUSTbWzBFZ/LKJhnyFOKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        <script src="https://cdn.poedb.tw/js/ModsView.6d68ad906ceba146.js"></script>
+        <script src="https://cdn.poedb.tw/js/poedb_header.a5ba197f514f530c.js"></script>
+    
+    <script data-cfasync="false">window.nitroAds=window.nitroAds||{createAd:function(){return new Promise(e=>{window.nitroAds.queue.push(["createAd",arguments,e])})},addUserToken:function(){window.nitroAds.queue.push(["addUserToken",arguments])},queue:[]};</script>
+    <script data-cfasync="false" async src="https://s.nitropay.com/ads-562.js"></script>
+
+    <meta property="og:site_name" content="poedb.tw">
+<meta property="og:title" content="忠诚伙伴（辅）" />
+<meta property="og:description" content="辅助可创造可被伤害的召唤生物的技能。无法辅助触发类技能。" />
+<meta property="og:image" content="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Companionship.webp" />
+
+  </head>
+
+  <body>
+
+    <div id="consent-box" style="display:none">
+      <button onclick="window.__cmp('showModal');">
+        Update cookie preferences
+      </button>
+    </div>
+    
+    <script>
+      if (window["nitroAds"] && window["nitroAds"].loaded) {
+        document.getElementById("consent-box").style.display = window["__tcfapi"]
+          ? ""
+          : "none";
+      } else {
+        document.addEventListener(
+          "nitroAds.loaded",
+          () =>
+            (document.getElementById("consent-box").style.display = window["__tcfapi"]
+              ? ""
+              : "none")
+        );
+      }
+    </script>
+
+
+    <div class="background-image "></div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3B810SRKBH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3B810SRKBH');
+</script>
+
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="navbar-brand fw-bold" href="/cn/">PoE<span class='brand-suffix'>DB</span><sub></sub></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"  aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Items" data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</a></li>
+                    <li><a class="dropdown-item" href="/cn/Unique_item" data-i18n="ClientStrings|ItemDisplayStringUnique|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Vendor_recipe_system" data-i18n="ClientStrings|TutorialPanelVendorRecipes|Name">商人物品配方</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Gem" data-i18n="ClientStrings|ItemDisplayStringGem|Name">宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Skill_Gems" data-i18n="ItemClasses|Active Skill Gem|Name">技能宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Support_Gems" data-i18n="ItemClasses|Support Skill Gem|Name">辅助宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Transfigured_Gems" data-i18n="ClientStrings|ItemFilterRuleTransfiguredGems|Name">改造宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Exceptional" data-i18n="GemTags|exceptional|Name">Exceptional</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Modifiers" data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</a></li>
+                    <li><a class="dropdown-item" href="/cn/Keywords" data-i18n-tw="提示字">Keywords</a></li>
+                    <li><a class="dropdown-item" href="/cn/Oil" data-i18n="AchievementItems|DeliriumCraftItemsUsingCurrency1_8|Name">圣油</a></li>
+                    <li><a class="dropdown-item" href="/cn/Crafting_Bench" data-i18n="BaseItemTypes|Metadata/Items/HideoutInteractables/HideoutCraftingBench|Code"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Horticrafting" data-i18n="ClientStrings|HarvestCraftingStationTitle|Name">花园工艺</a></li>
+                    <li><a class="dropdown-item" href="/cn/metamods">工艺互动</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/cn/Quest" data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</a></li>
+                    <li><a class="dropdown-item" href="/cn/Ascendancy_class" data-i18n="ClientStrings|TutorialPanelAscendancies|Name">升华职业</a></li>
+                    <li><a class="dropdown-item" href="/cn/Bloodline_Ascendancy_class" data-i18n-tw="血裔職業" data-i18n-cn="血脉职业">Bloodline Ascendancy class</a></li>
+                    <li><a class="dropdown-item" href="/cn/passive-skill-tree/" data-i18n="ClientStrings|ActionOpenPassivePanel|Name">天赋树</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Maps" data-i18n="UniqueStashTypes|Map|Name">地图</a></li>
+                    <li><a class="dropdown-item" href="/cn/Atlas_of_Worlds" data-i18n="MapSeries|MapAtlas|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/atlas-skill-tree/" data-i18n="ClientStrings|ActionOpenAtlasPassivesScreen|Name"></a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item"><a class="nav-link" href="Economy" data-i18n-tw="經濟" data-i18n-cn="经济">Economy</a></li>
+    
+                <li class="nav-item"><a class="ms-4 nav-link  bg-warning rounded-circle" style="color: white" href="/cn/patreon">赞助</a></li>
+              </ul>
+    
+    
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" aria-current="page" href="https://poe2db.tw/cn/">PoE2<span class="brand-suffix">DB</span></a>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-language fa-lg"></i> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/tw/Companionship_Support">TW 繁體中文</a></li>
+                    <li><a class="dropdown-item" href="/cn/Companionship_Support">CN 简体中文</a></li>
+                    <li><a class="dropdown-item" href="/us/Companionship_Support">US English</a></li>
+                    <li><a class="dropdown-item" href="/kr/Companionship_Support">KR 한국어</a></li>
+                    <li><a class="dropdown-item" href="/ru/Companionship_Support">RU Русский</a></li>
+                    <li><a class="dropdown-item" href="/jp/Companionship_Support">JP Japanese</a></li>
+                    <li><a class="dropdown-item" href="/fr/Companionship_Support">FR Français</a></li>
+                    <li><a class="dropdown-item" href="/de/Companionship_Support">DE Deutsch</a></li>
+                    <li><a class="dropdown-item" href="/th/Companionship_Support">TH ภาษาไทย</a></li>
+                    <li><a class="dropdown-item" href="/pt/Companionship_Support">PO Português</a></li>
+                    <li><a class="dropdown-item" href="/sp/Companionship_Support">ES Spanish</a></li>
+                  </ul>
+                </li>
+              </ul>
+    
+            <form class="form-inline my-2 my-lg-0" role="search" action="search">
+              <input type="hidden" name="token" value="dcdf0129765dddb53fd58b14e22ac295f8011930745ef3240bb749f089aee8c79b5c79">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q" id="navautosearch">
+            </form>
+    
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+    </header>
+
+<script>sidebar160("leftside_banner", "left");</script>
+<script>sidebar160("rightside_banner", "right");</script>
+
+
+
+    <div class="page ">
+    <div class="page-content theme-showcase container" role="main">
+
+
+<div class="d-flex flex-wrap justify-content-center"><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Expedition_league" data-bs-toggle="tooltip" title="先祖秘藏 v3.15"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/ExpeditionDetonator.webp" alt="ExpeditionDetonator" class="league_minimap" /></span></a><a href="Ultimatum_league" data-bs-toggle="tooltip" title="致命贪婪 v3.14"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/UltimatumAltar.webp" alt="UltimatumAltar" class="league_minimap" /></span></a><a href="Ritual_league" data-bs-toggle="tooltip" title="驱灵仪式 v3.13"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/RitualRune.webp" alt="RitualRune" class="league_minimap" /></span></a><a href="Blight_league" data-bs-toggle="tooltip" title="菌潮 v3.8"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BlightCore.webp" alt="BlightCore" class="league_minimap" /></span></a><a href="Legion_league" data-bs-toggle="tooltip" title="军团 v3.7"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/LegionInitiator.webp" alt="LegionInitiator" class="league_minimap" /></span></a><a href="Betrayal_league" data-bs-toggle="tooltip" title="背叛者 v3.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BetrayalSymbolCatarina.webp" alt="BetrayalSymbolCatarina" class="league_minimap" /></span></a><a href="Incursion_league" data-bs-toggle="tooltip" title="穿越 v3.3"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/IncursionCraftingBench.webp" alt="IncursionCraftingBench" class="league_minimap" /></span></a><a href="Bestiary_league" data-bs-toggle="tooltip" title="猎魔 v3.2"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BestiaryRareMonster.webp" alt="BestiaryRareMonster" class="league_minimap" /></span></a><a href="Abyss_league" data-bs-toggle="tooltip" title="深渊 v3.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Abyss.webp" alt="Abyss" class="league_minimap" /></span></a><a href="Breach_league" data-bs-toggle="tooltip" title="裂隙 v2.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Breach.webp" alt="Breach" class="league_minimap" /></span></a>
+    </div>
+  </div>
+</div><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Allflame_league" data-bs-toggle="tooltip" title="永火之咒 v3.29"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DeepwaterCursedTreasure.webp" alt="DeepwaterCursedTreasure" class="league_minimap" /></span></a><a href="Mirage_league" data-bs-toggle="tooltip" title="沙海幻境 v3.28"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Mirage.webp" alt="Mirage" class="league_minimap" /></span></a><a href="Mercenaries_league" data-bs-toggle="tooltip" title="佣兵 v3.26"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/MercenaryEncounter.webp" alt="MercenaryEncounter" class="league_minimap" /></span></a><a href="Settlers_league" data-bs-toggle="tooltip" title="君锋城下 v3.25"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/VillageShipping.webp" alt="VillageShipping" class="league_minimap" /></span></a><a href="Sanctum_league" data-bs-toggle="tooltip" title="圣地 v3.20"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Sanctum.webp" alt="Sanctum" class="league_minimap" /></span></a><a href="Archnemesis_league" data-bs-toggle="tooltip" title="罪恶枷锁 v3.17"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Archnemesis.webp" alt="Archnemesis" class="league_minimap" /></span></a><a href="Heist_league" data-bs-toggle="tooltip" title="夺宝奇兵 v3.12"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HeistSumgglersCache.webp" alt="HeistSumgglersCache" class="league_minimap" /></span></a><a href="Harvest_league" data-bs-toggle="tooltip" title="庄园 v3.11"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HarvestPortal.webp" alt="HarvestPortal" class="league_minimap" /></span></a><a href="Delirium_league" data-bs-toggle="tooltip" title="惊悸迷雾 v3.10"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/AfflictionInitiator.webp" alt="AfflictionInitiator" class="league_minimap" /></span></a><a href="Delve_league" data-bs-toggle="tooltip" title="地心探索 v3.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DelveMineralVein.webp" alt="DelveMineralVein" class="league_minimap" /></span></a><a href="Essence_league" data-bs-toggle="tooltip" title="精华 v2.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Essence.webp" alt="Essence" class="league_minimap" /></span></a><a href="Tormented_Spirit" data-bs-toggle="tooltip" title="Tormented Spirit v1.3"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.webp" class="league_minimap"/></a><a href="Beyond" data-bs-toggle="tooltip" title="超越 v1.2"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.webp" class="league_minimap"/></a><a href="Strongbox" data-bs-toggle="tooltip" title="保险箱 v1.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Strongbox.webp" alt="Strongbox" class="league_minimap" /></span></a><a href="Shrine" data-bs-toggle="tooltip" title="神殿 v1.0"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Shrine.webp" alt="Shrine" class="league_minimap" /></span></a><a href="Rogue_Exiles" data-bs-toggle="tooltip" title="Rogue Exiles v0.11"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/Anarchy4.webp" class="league_minimap"/></a>
+    </div>
+  </div>
+</div></div>
+
+
+
+<div id="topbanner970"></div><script>topbanner970("topbanner970");</script>
+
+<ul class="nav nav-tabs d-flex flex-wrap" role="tablist"><li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" role="tab" aria-selected="true" href="#忠诚伙伴（辅）SupportGemCompanionship">忠诚伙伴（辅） SupportGemCompanionship</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#可辅助">可辅助 /50 </a></li></ul><div class="tab-content"><div id="忠诚伙伴（辅）SupportGemCompanionship" class="tab-pane fade show active"><span data-tabname="忠诚伙伴（辅） <small>SupportGemCompanionship</small>"></span><div class="py-2"><div class="d-flex flex-wrap">
+
+<div class="newItemPopup GemPopup  "
+>
+    <div class="itemHeader singleLine">
+
+        <div class="itemName typeLine">
+            <span class="lc">忠诚伙伴（辅）</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="Stats">
+            <div class="property"><a class="GemTags" href="Exceptional">卓越</a>, <a class="GemTags" href="Support">辅助</a>, <a class="GemTags" href="Minion">召唤生物</a></div><div class="property">等级: <span class='colourDefault'>(1<span class="ndash">—</span>3)</span></div><div class="property">消耗及保留加成: <span class='colourDefault'>140%</span></div><div class="separator"></div><div class="requirements">需求 等级 <span class="colourDefault">(72<span class="ndash">—</span>76)</span>, <span class="colourDefault">(72<span class="ndash">—</span>75)</span> 敏捷, <span class="colourDefault">(50<span class="ndash">—</span>52)</span> 智慧</div><div class="separator"></div><div class="secDescrText">辅助可创造可被伤害的召唤生物的技能。无法辅助触发类技能。</div><div class="separator"></div><div class="explicitMod">如果被辅助技能的召唤生物是你唯一的召唤生物，<br/>则你受到击中伤害的 <span class='mod-value'>15</span>% 会优先从它们的生命中扣除</div><div class="explicitMod">若它们是你唯一的召唤生物，来自被辅助技能的召唤生物受到的伤害总降 <span class='mod-value'>(24<span class="ndash">—</span>28)</span>%</div><div class="quality-text"><br />
+<span class="white">品质额外效果：</span></div><div class="qualityMod">被辅助技能的召唤生物最大生命提高 <span class='mod-value'>(0<span class="ndash">—</span>20)</span>%</div>
+        </div>
+
+        <div class="separator"></div>
+        <div class="FlavourText">
+            “漆黑丝克玛与她的德卡拉并肩作战时<br/>已是令人敬畏的战士，但当她骑乘着<br/>忠诚的战驹史庸驰骋时，更是无可阻挡。”
+        </div>
+
+        <div class="separator"></div>
+        <div class="default fst-italic">
+            这是一颗辅助宝石。它并不会为你的角色增加属性数值，但会强化与其连接的技能宝石。将其放置于物品上同样颜色的插槽并连接想要强化的技能宝石。点击右键从插槽中移除。
+        </div>
+
+        <div>
+            Companionship Support
+        </div>
+    </div>
+</div>
+
+
+        <div class="itemboximage">
+
+                <img loading="lazy" class="gem-exceptional" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Companionship.webp"/>
+
+        </div>
+
+
+
+</div>
+</div><div class="row row-cols-1 row-cols-lg-2"><div class="col"><div   class="card mb-2 ">
+   <h5 class="card-header">属类</h5>  <div class="card-body"><div class="d-flex align-items-center gap-2"><div class="d-inline-block text-center"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/24003414fda2d6d1575e2be0daa715f0064de8eaa71455cb3e9409bcbffd047a" href="/cn/Companionship_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Companionship.webp" alt="Companionship" class="w1 gem-exceptional" /></a><div><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/24003414fda2d6d1575e2be0daa715f0064de8eaa71455cb3e9409bcbffd047a" href="/cn/Companionship_Support">忠诚伙伴（辅）</a></div></div></div></div>   </div></div></div><div   class="card mb-2 ">
+   <h5 class="card-header">等级效果 /15 </h5> <div   class="card mb-2 ">
+      <div class="table-responsive"><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>固定</th></tr></thead><tbody id="YMLNnQZw5M"><tr><td>Mana: 140%</td></tr><tr><td>如果被辅助技能的召唤生物是你唯一的召唤生物，\n则你受到击中伤害的 <span class='mod-value'>15</span>% 会优先从它们的生命中扣除</td></tr></tbody></table></div>  </div>  <form><div class="input-group"><input name="card-reset" type="reset" class="btn btn-outline-secondary" value="Reset"><input name="card-query" placeholder="Search" class="form-control" data-target="#bCcpdlUIru tr"></div></form><div class="table-responsive"><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>等级</th><th>需求等级</th><th>智慧</th><th>敏捷</th><th>基本伤害</th><th><span class="explicitMod">若它们是你唯一的召唤生物，来自被辅助技能的召唤生物受到的伤害总降 <span class='mod-value'>24</span>%</span></th><th>经验值</th></tr></thead><tbody id="bCcpdlUIru"><tr><td>1</td><td>72</td><td>50</td><td>72</td><td>100%, 100%, 100%</td><td>24</td><td>226,854,909</td></tr><tr><td>2</td><td>74</td><td>51</td><td>74</td><td>100%, 100%, 100%</td><td>26</td><td>1,439,190,228</td></tr><tr><td>3</td><td>76</td><td>52</td><td>75</td><td>100%, 100%, 100%</td><td>28</td><td></td></tr><tr><td>4</td><td>78</td><td>54</td><td>77</td><td>100%, 100%, 100%</td><td>30</td><td></td></tr><tr><td>5</td><td>80</td><td>55</td><td>79</td><td>100%, 100%, 100%</td><td>31</td><td></td></tr><tr><td>6</td><td>82</td><td>56</td><td>81</td><td>100%, 100%, 100%</td><td>32</td><td></td></tr><tr><td>7</td><td>84</td><td>58</td><td>83</td><td>100%, 100%, 100%</td><td>33</td><td></td></tr><tr><td>8</td><td>86</td><td>59</td><td>85</td><td>100%, 100%, 100%</td><td>34</td><td></td></tr><tr><td>9</td><td>88</td><td>60</td><td>87</td><td>100%, 100%, 100%</td><td>35</td><td></td></tr><tr><td>10</td><td>90</td><td>62</td><td>89</td><td>100%, 100%, 100%</td><td>36</td><td></td></tr><tr><td>11</td><td>91</td><td>62</td><td>90</td><td>100%, 100%, 100%</td><td>37</td><td></td></tr><tr><td>12</td><td>92</td><td>63</td><td>91</td><td>100%, 100%, 100%</td><td>38</td><td></td></tr><tr><td>13</td><td>93</td><td>64</td><td>92</td><td>100%, 100%, 100%</td><td>39</td><td></td></tr><tr><td>14</td><td>94</td><td>64</td><td>93</td><td>100%, 100%, 100%</td><td>40</td><td></td></tr><tr><td>15</td><td>95</td><td>65</td><td>93</td><td>100%, 100%, 100%</td><td>41</td><td></td></tr></tbody></table></div>  </div><div class="row"><div id="echartsYToGuqbysL" class="col-lg-6 echarts echartGemLevel"></div>
+<script>
+$(function() {
+    echarts.init(document.getElementById('echartsYToGuqbysL'), 'dark').setOption({"title":{"text":"若它们是你唯一的召唤生物，来自被辅助技能的召唤生物受到的伤害总降 24%"},"tooltip":{"trigger":"axis"},"xAxis":{"name":"Level","data":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]},"yAxis":{"type":"value"},"series":[{"data":["24","26","28","30","31","32","33","34","35","36","37","38","39","40","41"],"type":"line"}]});
+});
+</script>
+</div><div   class="card mb-2 ">
+   <h5 class="card-header">Attribute /8 </h5> <h3 style='display: none'>忠诚伙伴（辅）</h3>  <div class='table-responsive'><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>名字</th><th>显示物品素质</th></tr></thead><tbody>
+<tr><td>Dropped by</td><td><a  data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_MonsterVarieties_hover/4bdc49920b5b63cafa566d2cf6d4f45c4dc3dd7a3e546e81e6473ad132e6b239" href="/cn/Aukuna%2C_the_Black_Sekhema">奥库娜，漆黑丝克玛</a></td></tr>
+<tr><td>关键字</td><td><a href='/cn/Hit'>Hit</a>, <a href='/cn/Minion'>召唤生物</a></td></tr>
+<tr><td>Id</td><td>SupportCompanionship</td></tr>
+<tr><td>DropLevel  <span class='fas fa-info-circle' data-bs-toggle='tooltip' title='Item Filter'></span></td><td>72</td></tr>
+<tr><td>BaseType <span class='fas fa-info-circle' data-bs-toggle='tooltip' title='Item Filter'></span></td><td>忠诚伙伴（辅）</td></tr>
+<tr><td>Class <span class='fas fa-info-circle' data-bs-toggle='tooltip' title='Item Filter'></span></td><td><a class="ItemClasses " href="Support_Gems">辅助宝石</a></td></tr>
+<tr><td>Icon</td><td><span class='gem_icon gem_green_bg'>C</span></td></tr>
+<tr><td>ItemType</td><td>Metadata/Items/Gems/SupportGemCompanionship</td></tr></tbody></table></div>  </div><div class="d-flex flex-wrap">
+
+<div class="newItemPopup GemPopup  "
+>
+    <div class="itemHeader singleLine">
+
+        <div class="itemName typeLine">
+            <span class="lc">忠诚伙伴（辅）</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="Stats">
+            <div class="property"><a class="GemTags" href="Exceptional">卓越</a>, <a class="GemTags" href="Support">辅助</a>, <a class="GemTags" href="Minion">召唤生物</a></div><div class="property">等级: <span class='colourDefault'>(1<span class="ndash">—</span>3)</span></div><div class="property">消耗及保留加成: <span class='colourDefault'>140%</span></div><div class="separator"></div><div class="requirements">需求 等级 <span class="colourDefault">(72<span class="ndash">—</span>76)</span>, <span class="colourDefault">(72<span class="ndash">—</span>75)</span> 敏捷, <span class="colourDefault">(50<span class="ndash">—</span>52)</span> 智慧</div><div class="separator"></div><div class="secDescrText">辅助可创造可被伤害的召唤生物的技能。无法辅助触发类技能。</div><div class="separator"></div><div class="explicitMod">如果被辅助技能的召唤生物是你唯一的召唤生物，<br/>则你受到击中伤害的 <span class='mod-value'>15</span>% 会优先从它们的生命中扣除</div><div class="explicitMod">若它们是你唯一的召唤生物，来自被辅助技能的召唤生物受到的伤害总降 <span class='mod-value'>(24<span class="ndash">—</span>28)</span>%</div><div class="quality-text"><br />
+<span class="white">品质额外效果：</span></div><div class="qualityMod">被辅助技能的召唤生物最大生命提高 <span class='mod-value'>(0<span class="ndash">—</span>20)</span>%</div>
+        </div>
+
+        <div class="separator"></div>
+        <div class="FlavourText">
+            “漆黑丝克玛与她的德卡拉并肩作战时<br/>已是令人敬畏的战士，但当她骑乘着<br/>忠诚的战驹史庸驰骋时，更是无可阻挡。”
+        </div>
+
+        <div class="separator"></div>
+        <div class="default fst-italic">
+            这是一颗辅助宝石。它并不会为你的角色增加属性数值，但会强化与其连接的技能宝石。将其放置于物品上同样颜色的插槽并连接想要强化的技能宝石。点击右键从插槽中移除。
+        </div>
+
+        <div>
+            Companionship Support
+        </div>
+    </div>
+</div>
+
+
+        <div class="itemboximage">
+
+                <img loading="lazy" class="gem-exceptional" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Companionship.webp"/>
+
+        </div>
+
+
+
+</div>
+</div><div id="可辅助" class="tab-pane fade"><div   class="card mb-2 ">
+   <h5 class="card-header">可辅助 /50 </h5> <div class='card-body'><li>允许类型: 创造召唤物</li><li>排除类型: MinionsAreUndamagable, 被触发</li></div>  <script>
+$(document).ready(function () {
+    filterClick($('input[name=filterUQWSOQGySl]'));
+});
+</script>
+
+<form>
+    <div class="input-group my-2">
+        <button name="card-reset" type="reset" class="btn btn-outline-secondary">Reset</button>
+        <input name="filterUQWSOQGySl" class="form-control" placeholder="Search">
+    </div>
+</form><div class="row row-cols-1 row-cols-lg-2 g-2 bg-dark"><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1bf98c0c05add4adfd969571b7dbd4e931f86f6b464fc663e3a17a705ed16a81" href="/cn/Dominating_Blow"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/DominatingBlow.webp" alt="DominatingBlow" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1bf98c0c05add4adfd969571b7dbd4e931f86f6b464fc663e3a17a705ed16a81" href="/cn/Dominating_Blow">霸气之击</a><div>近战攻击敌人，在短期内施加一个减益效果。如果非传奇敌人被该效果击败，则会消耗它的灵盒创造一个统御哨兵，具有相同稀有度、前缀和后缀，并持续一段更长的时间。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/7f75013669a3f0ed51c2adc45b23c9f618db70b77c9d9b1dd848141ebdb6d361" href="/cn/Dominating_Blow_of_Inspiring"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/DominatingBlow.webp" alt="DominatingBlow" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/7f75013669a3f0ed51c2adc45b23c9f618db70b77c9d9b1dd848141ebdb6d361" href="/cn/Dominating_Blow_of_Inspiring">奋发之霸气之击</a><div>近战攻击敌人，在短期内施加一个减益效果。如果非传奇敌人在受到该效果影响时击败，则会消耗它的灵柩创造一个统御哨兵，具有相同稀有度、前缀和后缀，并持续一段更长的时间。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/35e852e932309a5ffcec9c7b515555da1f8fd59d669aaef57778945266a23224" href="/cn/Animate_Guardian"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/AnimateArmour.webp" alt="AnimateArmour" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/35e852e932309a5ffcec9c7b515555da1f8fd59d669aaef57778945266a23224" href="/cn/Animate_Guardian">幻化守卫</a><div>为一位隐形守卫幻化一把近战武器或一件护甲，使其为你而战。可以为同一个守卫附加多个幻化物品。无法为其幻化未鉴定的物品。无法用于陷阱或地雷。如果守卫被击败，你无法再该地图再次召唤幻化守卫。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/ab86916b26331899337ba1f1856aa4a4de7c3b6b15d22d089199a9e9406bbd05" href="/cn/Animate_Guardian_of_Smiting"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/AnimateArmour.webp" alt="AnimateArmour" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/ab86916b26331899337ba1f1856aa4a4de7c3b6b15d22d089199a9e9406bbd05" href="/cn/Animate_Guardian_of_Smiting">惩击之幻化守卫</a><div>为一位隐形守卫幻化一把近战武器或一件护甲，使其为你而战，它会使用圣裁之惩击并忽略武器限制。可以为同一个守卫附加多个幻化物品。无法为其幻化未鉴定的物品。无法用于陷阱或地雷。如果守卫被击败，你无法再该地图再次召唤幻化守卫。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/00c6b7d0e80fe99c24930841fcb1d6081d853b6eb70e41ad2901972645c4041b" href="/cn/Herald_of_Purity"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/HeraldOfLight%20Gem.webp" alt="HeraldOfLight20Gem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/00c6b7d0e80fe99c24930841fcb1d6081d853b6eb70e41ad2901972645c4041b" href="/cn/Herald_of_Purity">纯净之捷</a><div>获得一个增益效果，使你造成更多物理伤害。在该效果下击败敌人后，该技能会召唤一个【纯净哨兵】，如【纯净哨兵】已经达到上限，则刷新其中一个的持续时间和生命值。【纯净哨兵】会使用单人近战攻击和范围近战攻击。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/081048a2560f0155043c29996dc8e071023c93b021743eb2ccc4330ec257816e" href="/cn/Summon_Flame_Golem"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/FireElementalSummon.webp" alt="FireElementalSummon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/081048a2560f0155043c29996dc8e071023c93b021743eb2ccc4330ec257816e" href="/cn/Summon_Flame_Golem">召唤烈焰魔像</a><div>召唤一个烈焰魔像，启动时会提高你的伤害和效果区域。烈焰魔像会施放火焰放射，火焰波浪，还会射出会爆炸的弧状移动投射物。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1957bc4c4294ba0ac350f377cfe701c77824a46c8aabd0984c20070c05a91b84" href="/cn/Summon_Flame_Golem_of_Hordes"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/FireElementalSummon.webp" alt="FireElementalSummon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1957bc4c4294ba0ac350f377cfe701c77824a46c8aabd0984c20070c05a91b84" href="/cn/Summon_Flame_Golem_of_Hordes">结群之召唤烈焰魔像</a><div>召唤一个烈焰魔像。烈焰魔像会施放火焰放射，火焰波浪，还会射出会爆炸的弧状移动投射物。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/fbe49a398dcdda8e4dcc207d488f82b0f5672deeab4f27358c0c2d32a06d02b6" href="/cn/Summon_Flame_Golem_of_the_Meteor"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/FireElementalSummon.webp" alt="FireElementalSummon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/fbe49a398dcdda8e4dcc207d488f82b0f5672deeab4f27358c0c2d32a06d02b6" href="/cn/Summon_Flame_Golem_of_the_Meteor">陨星之召唤烈焰魔像</a><div>召唤一个烈焰魔像。烈焰魔像被召唤时从天而降，撞击时造成范围伤害并留下燃烧地面。落地后会施放火焰放射和火焰波浪。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/7672881b87f6b3e5042b6a937047b8358d9f18fdd478dbbc3205980d06553c3c" href="/cn/Summon_Stone_Golem"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/RockGolem.webp" alt="RockGolem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/7672881b87f6b3e5042b6a937047b8358d9f18fdd478dbbc3205980d06553c3c" href="/cn/Summon_Stone_Golem">召唤巨石魔像</a><div>召唤一个为你提供额外生命回复和防御的巨石魔像。除了一般的近战攻击外，巨石魔像会使用滚动冲撞，还有沉重的冲击波来嘲讽附近的敌人。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/910c2a5d9c5dd906e084ad63446627875550ff20122f06ea58b1e23d20c00801" href="/cn/Summon_Stone_Golem_of_Hordes"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/RockGolem.webp" alt="RockGolem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/910c2a5d9c5dd906e084ad63446627875550ff20122f06ea58b1e23d20c00801" href="/cn/Summon_Stone_Golem_of_Hordes">结群之召唤巨石魔像</a><div>召唤一个巨石魔像。除了一般的近战攻击外，巨石魔像会使用滚动冲撞，还有沉重的猛击来嘲讽附近的敌人。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/0390f9360b9bd631e474f7446837043d82036a2e23e477e8b063adf671c1b56e" href="/cn/Summon_Stone_Golem_of_Safeguarding"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/RockGolem.webp" alt="RockGolem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/0390f9360b9bd631e474f7446837043d82036a2e23e477e8b063adf671c1b56e" href="/cn/Summon_Stone_Golem_of_Safeguarding">卫护之召唤巨石魔像</a><div>召唤一个巨石魔像，你受到敌人击中物理伤害的一定比例由其生命承担。除了一般的近战攻击外，巨石魔像会使用滚动冲撞，还有沉重的猛击来嘲讽附近的敌人。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/7b97de8af7c79f4c1fecf1cf00351629d211be15e158a8b0d4e1ced2a7726279" href="/cn/Absolution"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/AbsolutionBlastGem.webp" alt="AbsolutionBlastGem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/7b97de8af7c79f4c1fecf1cf00351629d211be15e158a8b0d4e1ced2a7726279" href="/cn/Absolution">赦罪</a><div>伤害一片区域内的敌人，在短时间内施加一个减益效果。若受该减益效果影响的非传奇敌人被击败，则消耗它的灵柩来召唤一名持续时间独立的赦罪哨卫。如果你召唤的赦罪哨卫达到数量上限，则刷新其中一个的持续时间和生命值。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/4beaecef0bb783bb2b92dc786e3b091f8b933ef2ac60a07ca8fff3ec79abec9a" href="/cn/Absolution_of_Inspiring"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/AbsolutionBlastGem.webp" alt="AbsolutionBlastGem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/4beaecef0bb783bb2b92dc786e3b091f8b933ef2ac60a07ca8fff3ec79abec9a" href="/cn/Absolution_of_Inspiring">奋发之赦罪</a><div>伤害一片区域内的敌人，在短时间内施加一个减益效果。若受该减益效果影响的非传奇敌人被击败，则消耗它的灵柩来召唤一名持续时间独立的赦罪哨卫。如果你召唤的赦罪哨卫达到数量上限，则刷新其中一个的持续时间和生命值。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/7e09a88e1bbb47c7df595fbf15e68472cacad99b5c7089d4681ac887a4eef4fa" href="/cn/Animate_Weapon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/AnimateWeapon.webp" alt="AnimateWeapon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/7e09a88e1bbb47c7df595fbf15e68472cacad99b5c7089d4681ac887a4eef4fa" href="/cn/Animate_Weapon">幻化武器</a><div>幻化一把近战武器或徘徊之刃为你而战，无法幻化未鉴定的物品。无法幻化有6个插槽的物品。无法用于陷阱或地雷。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/99d02bcee37ba43ff9d8bc8dda7e917a20502d465f44115ce49ffaa09e09289e" href="/cn/Animate_Weapon_of_Self_Reflection"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/AnimateWeapon.webp" alt="AnimateWeapon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/99d02bcee37ba43ff9d8bc8dda7e917a20502d465f44115ce49ffaa09e09289e" href="/cn/Animate_Weapon_of_Self_Reflection">自省之幻化武器</a><div>幻化一把你的主手近战武器副本为你而战，无法用于陷阱或地雷。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/96d07d0f77acb92ac892593c3f6192804e1f8b65dad284a1480fe2d53f89884b" href="/cn/Animate_Weapon_of_Ranged_Arms"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/AnimateWeapon.webp" alt="AnimateWeapon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/96d07d0f77acb92ac892593c3f6192804e1f8b65dad284a1480fe2d53f89884b" href="/cn/Animate_Weapon_of_Ranged_Arms">远程之幻化武器</a><div>幻化一把远程武器或徘徊之刃为你而战，无法幻化未鉴定的物品。无法幻化有6个插槽的物品。无法用于陷阱或地雷。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/9cb7dd6c29201db1ef38f88bf2cd2c0162f73401fb032280f1f66e0524dd1b05" href="/cn/Blink_Arrow"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/BlinkArrow.webp" alt="BlinkArrow" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/9cb7dd6c29201db1ef38f88bf2cd2c0162f73401fb032280f1f66e0524dd1b05" href="/cn/Blink_Arrow">闪现射击</a><div>对目标地点射出一支箭, 当箭到达时将你传送至目标地, 并在原地留下一个你的复制体. 这个复制体使用跟你一样的弓与箭袋.</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1cead41804d4bb5586f4d5738f1b1a917587ea4bbe600588a1f810bd14919bd1" href="/cn/Blink_Arrow_of_Bombarding_Clones"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/BlinkArrow.webp" alt="BlinkArrow" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1cead41804d4bb5586f4d5738f1b1a917587ea4bbe600588a1f810bd14919bd1" href="/cn/Blink_Arrow_of_Bombarding_Clones">轰炸复制体之闪现射击</a><div>对目标地点射出一支箭，当箭到达时将你传送至目标地，并在原地留下一个你的复制体。这个复制体使用跟你一样的弓与箭袋，会向空中射击并在一个目标周围倾泻箭矢。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/45bd7e56004336b38664ee461e5477f4e1127f24e992e8a172d5e087e6006981" href="/cn/Blink_Arrow_of_Prismatic_Clones"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/BlinkArrow.webp" alt="BlinkArrow" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/45bd7e56004336b38664ee461e5477f4e1127f24e992e8a172d5e087e6006981" href="/cn/Blink_Arrow_of_Prismatic_Clones">棱光复制体之闪现射击</a><div>对目标地点射出一支箭，当箭到达时将你传送至目标地，并在原地留下一个你的复制体。这个复制体使用跟你一样的弓与箭袋，并射出随机元素之箭，将造成的所有物理伤害转化为选中的元素伤害，并且不造成其他类型的伤害。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/67ec1932e9afce5c60e34b1cefbc04abbcaeb5c858e0d70a8b31ff081ae8a200" href="/cn/Mirror_Arrow"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/MirrorArrow.webp" alt="MirrorArrow" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/67ec1932e9afce5c60e34b1cefbc04abbcaeb5c858e0d70a8b31ff081ae8a200" href="/cn/Mirror_Arrow">魅影射击</a><div>对目标地点射出一支箭, 当箭到达时在目标地创造一个你的复制体. 这个复制体使用跟你一样的弓与箭袋.</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/818a4d07e9eee9cb13f380895f14d11060921bca5f2a47728f4c28daab2e3e55" href="/cn/Mirror_Arrow_of_Bombarding_Clones"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/MirrorArrow.webp" alt="MirrorArrow" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/818a4d07e9eee9cb13f380895f14d11060921bca5f2a47728f4c28daab2e3e55" href="/cn/Mirror_Arrow_of_Bombarding_Clones">轰炸复制体之魅影射击</a><div>对目标地点射出一支箭，当箭到达时在目标地创造一个你的复制体。这个复制体使用跟你一样的弓与箭袋，会向空中射击并在一个目标周围倾泻箭矢。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b65eced56dce09194c5062b0f9ddc661b37d21d393f5ba1f5f1754a9d23a2479" href="/cn/Mirror_Arrow_of_Prismatic_Clones"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/MirrorArrow.webp" alt="MirrorArrow" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b65eced56dce09194c5062b0f9ddc661b37d21d393f5ba1f5f1754a9d23a2479" href="/cn/Mirror_Arrow_of_Prismatic_Clones">棱光复制体之魅影射击</a><div>对目标地点射出一支箭，当箭到达时在目标地创造一个你的复制体。这个复制体使用跟你一样的弓与箭袋，并射出随机元素之箭，将造成的所有物理伤害转化为选中的元素伤害，并且不造成其他类型的伤害。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/08f7670789c501b87c20a18d4183fdae488937fc658e271fca8518f0900338f0" href="/cn/Summon_Ice_Golem"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/IceElementalSummon.webp" alt="IceElementalSummon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/08f7670789c501b87c20a18d4183fdae488937fc658e271fca8518f0900338f0" href="/cn/Summon_Ice_Golem">召唤寒冰魔像</a><div>召唤一个寒冰魔像，启动时会提高你的暴击和命中。除了一般的近战攻击外，寒冰魔像会施放寒冰弹幕和冰缓回旋攻击。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c6f9b4e5715cc1927a7d8d6e7809f0894c1824f2b23add28d87e222e315adab3" href="/cn/Summon_Ice_Golem_of_Hordes"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/IceElementalSummon.webp" alt="IceElementalSummon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c6f9b4e5715cc1927a7d8d6e7809f0894c1824f2b23add28d87e222e315adab3" href="/cn/Summon_Ice_Golem_of_Hordes">结群之召唤寒冰魔像</a><div>召唤一个寒冰魔像。除了一般的近战攻击外，寒冰魔像会施放寒冰弹幕和冰缓回旋攻击。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/3d15a39f8b65c33066128615d08ba89aa4233fc48201b87707780236d300e0ca" href="/cn/Summon_Ice_Golem_of_Shattering"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/IceElementalSummon.webp" alt="IceElementalSummon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/3d15a39f8b65c33066128615d08ba89aa4233fc48201b87707780236d300e0ca" href="/cn/Summon_Ice_Golem_of_Shattering">碎冰之召唤寒冰魔像</a><div>召唤一个寒冰魔像。除了一般的近战攻击外，寒冰魔像会施放寒冰弹幕和冰缓回旋攻击。它会在低血时触发一个自毁法术，造成范围伤害并发射环形的冰霜投射物。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/3ece3c8327fd0ab67ff12ac2a95362b619b1635581001661b35c8019ba2bda78" href="/cn/Vaal_Animate_Weapon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/VaalGems/VaalAnimateWeapon.webp" alt="VaalAnimateWeapon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/3ece3c8327fd0ab67ff12ac2a95362b619b1635581001661b35c8019ba2bda78" href="/cn/Vaal_Animate_Weapon">瓦尔：幻化武器</a><div>幻化多把近战武器和徘徊之刃为你而战，并且将它们变成不同的传奇武器。无法幻化未鉴定的武器。无法幻化有6个插槽的物品。无法用于陷阱或地雷。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/0bc7f51cd9bdc2bf09b21b80c34e3ee5c241e5afd086c6ae376569c42b62494d" href="/cn/Raise_Zombie"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/RaiseZombie.webp" alt="RaiseZombie" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/0bc7f51cd9bdc2bf09b21b80c34e3ee5c241e5afd086c6ae376569c42b62494d" href="/cn/Raise_Zombie">魔卫复苏</a><div>从一个灵柩中复苏一只魔卫，它会跟随你并攻击敌人。魔卫会近战打击。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/49cab5a65c54014576e3226f8773ce5a8990457705fac5e253887c8af22e457a" href="/cn/Raise_Zombie_of_Slamming"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/RaiseZombie.webp" alt="RaiseZombie" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/49cab5a65c54014576e3226f8773ce5a8990457705fac5e253887c8af22e457a" href="/cn/Raise_Zombie_of_Slamming">猛击之魔卫复苏</a><div>从一个灵柩中复苏一只魔卫，它会跟随你并攻击敌人。魔卫会近战打击，也会使用一种无法闪避的范围猛击。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a6c1ad409ae53fa1a7c4daf507fbb1c537d3d379f3d707bd5ca8ae2997dff3aa" href="/cn/Raise_Zombie_of_Falling"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/RaiseZombie.webp" alt="RaiseZombie" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a6c1ad409ae53fa1a7c4daf507fbb1c537d3d379f3d707bd5ca8ae2997dff3aa" href="/cn/Raise_Zombie_of_Falling">殒命之魔卫复苏</a><div>将亡灵魔法射向目标位置的上空，汇聚成一只魔卫。该魔卫会坠击地面，造成范围冲击伤害。该魔卫无法在坠击中幸存。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/ef966ee314d3d3da394b70c2274f04ac818c0c3f9d4794ed64a163ce8a61b335" href="/cn/Raise_Spectre"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/RaiseSpectre.webp" alt="RaiseSpectre" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/ef966ee314d3d3da394b70c2274f04ac818c0c3f9d4794ed64a163ce8a61b335" href="/cn/Raise_Spectre">召唤灵体</a><div>唱名唤魂，从目标灵柩唤醒其灵体并使它为你而战.</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f8efc70248f3465b7198a20c430581d81ce5fcafb34ce48da5ac75e3afa4292b" href="/cn/Raise_Spectre_of_Transience"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/RaiseSpectre.webp" alt="RaiseSpectre" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f8efc70248f3465b7198a20c430581d81ce5fcafb34ce48da5ac75e3afa4292b" href="/cn/Raise_Spectre_of_Transience">瞬息之召唤灵体</a><div>唱名唤魂，从目标灵柩唤醒其临时灵体，并使它在一段时间内为你而战。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/25a2c9913e00f7b692650e4f15ecdfb4ded06aa7ef3ab3fac3e925528c8c5c37" href="/cn/Summon_Skeletons"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/SummonSkeletons.webp" alt="SummonSkeletons" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/25a2c9913e00f7b692650e4f15ecdfb4ded06aa7ef3ab3fac3e925528c8c5c37" href="/cn/Summon_Skeletons">召唤魔侍</a><div>在目标地点召唤魔侍武士。它们使用近战攻击，并在持续时间结束后消失。在侵略状态下，魔侍武士会冲撞周围的敌人。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/ea5e0ba4d591eb563e38fcfa6fe016249edee8de8aa574cb4543821a114cba96" href="/cn/Summon_Skeletons_of_Archers"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/SummonSkeletons.webp" alt="SummonSkeletons" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/ea5e0ba4d591eb563e38fcfa6fe016249edee8de8aa574cb4543821a114cba96" href="/cn/Summon_Skeletons_of_Archers">射手之召唤魔侍</a><div>在目标地点召唤魔侍弓箭手。它们会发射箭矢，并在持续时间结束后消失。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/080f2f8c5c22f02cb90d6df51a4b6fa8df1f537b672f4d8f364b39880c2e5bb4" href="/cn/Summon_Skeletons_of_Mages"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/SummonSkeletons.webp" alt="SummonSkeletons" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/080f2f8c5c22f02cb90d6df51a4b6fa8df1f537b672f4d8f364b39880c2e5bb4" href="/cn/Summon_Skeletons_of_Mages">法师之召唤魔侍</a><div>在目标地点召唤随机元素类型的魔侍法师。它们会施放对应元素的投射物法术，并在持续时间结束后消失。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/5309e6950b2c49874ad4b6a0b4b741905c45329a509521a87cea23147fe7b999" href="/cn/Vaal_Summon_Skeletons"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/VaalGems/VaalSummonSkeletons.webp" alt="VaalSummonSkeletons" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/5309e6950b2c49874ad4b6a0b4b741905c45329a509521a87cea23147fe7b999" href="/cn/Vaal_Summon_Skeletons">瓦尔：召唤魔侍</a><div>召唤一支由强大的魔侍将军所统率，由魔侍兵，魔侍弓箭手与魔侍法师所组成的魔侍大军。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a4c092f3e5c9cb9d1c58ab1b0cc3a12dcff635f260d414be7f9330e99d9aff48" href="/cn/Summon_Raging_Spirit"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/SummonElemental.webp" alt="SummonElemental" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a4c092f3e5c9cb9d1c58ab1b0cc3a12dcff635f260d414be7f9330e99d9aff48" href="/cn/Summon_Raging_Spirit">召唤愤怒狂灵</a><div>召唤只能存在极短时间的愤怒狂灵，这些火焰魔侍将会冲至敌人身边并快速的进行攻击，将所有物理伤害转化为火焰伤害，敌方生物将不会主动攻击这些狂灵，并可以穿越它们。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/7b16c3ae63576a5b08f06a54d26f41dc168b9f414fdd2857b2845c00cc19842f" href="/cn/Summon_Raging_Spirit_of_Enormity"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/SummonElemental.webp" alt="SummonElemental" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/7b16c3ae63576a5b08f06a54d26f41dc168b9f414fdd2857b2845c00cc19842f" href="/cn/Summon_Raging_Spirit_of_Enormity">凶恶之召唤愤怒狂灵</a><div>召唤只能存在极短时间的愤怒狂灵，这些火焰魔侍将会冲至敌人身边并快速的进行攻击，并将其造成的所有物理伤害转化为火焰伤害。敌方生物将不会主动攻击这些狂灵，并可以穿越它们。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/cb3ee19bb33378b0b738ae34f06f0f7dd0d7d38514296f6c0eaf3fade8af8786" href="/cn/Summon_Chaos_Golem"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/ChaosElementalSummon.webp" alt="ChaosElementalSummon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/cb3ee19bb33378b0b738ae34f06f0f7dd0d7d38514296f6c0eaf3fade8af8786" href="/cn/Summon_Chaos_Golem">召唤混沌魔像</a><div>召唤一个混沌魔像，启动时使你获得持续伤害和混沌抗性。除了一般的近战攻击外，混沌魔像会施放一个造成持续伤害的混沌光环和混沌之刺。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/002ba1edd61c9e24643409db68d1b0a14d5db011e6e7841ff800149bd4637ae2" href="/cn/Summon_Chaos_Golem_of_Hordes"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/ChaosElementalSummon.webp" alt="ChaosElementalSummon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/002ba1edd61c9e24643409db68d1b0a14d5db011e6e7841ff800149bd4637ae2" href="/cn/Summon_Chaos_Golem_of_Hordes">结群之召唤混沌魔像</a><div>召唤一个混沌魔像。除了一般的近战攻击外，混沌魔像会施放一个造成持续伤害的混沌光环和混沌之刺。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/39438d4a333240168314708c531bab46caf1cf8146df91faf692a3ed6ed23c58" href="/cn/Summon_Chaos_Golem_of_the_Maelstr%C3%B6m"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/ChaosElementalSummon.webp" alt="ChaosElementalSummon" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/39438d4a333240168314708c531bab46caf1cf8146df91faf692a3ed6ed23c58" href="/cn/Summon_Chaos_Golem_of_the_Maelstr%C3%B6m">混渊之召唤混沌魔像</a><div>召唤一个混沌魔像。除了一般的近战攻击外，混沌魔像会施放一个造成高额持续伤害并施加死亡凋零的混沌光环。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/57c8b9aae694404c7a2dbf627afd080fd268c4903bcf26e1a92dd1633ad06621" href="/cn/Summon_Lightning_Golem"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/LightningGolem.webp" alt="LightningGolem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/57c8b9aae694404c7a2dbf627afd080fd268c4903bcf26e1a92dd1633ad06621" href="/cn/Summon_Lightning_Golem">召唤闪电魔像</a><div>召唤一个闪电魔像，给予你额外的攻击、施法速度和魔力再生。魔像会对敌人进行雷击，召唤会电击敌人的闪电球，并施放一个为魔像及其周围友军的法术和攻击附加闪电伤害的临时光环。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/4888e1bce37b3d3031aac692b3f7ea333d1ab9cefeb90da9393bd139a648806b" href="/cn/Summon_Lightning_Golem_of_Hordes"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/LightningGolem.webp" alt="LightningGolem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/4888e1bce37b3d3031aac692b3f7ea333d1ab9cefeb90da9393bd139a648806b" href="/cn/Summon_Lightning_Golem_of_Hordes">结群之召唤闪电魔像</a><div>召唤一个闪电魔像。魔像会射出投射物法术，召唤会电击敌人的闪电球，并施放一个为魔像及其周围友军的法术和攻击附加闪电伤害的临时光环。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/9a7647a83557f6631293e32c17966093ee652339a5abc6ebf7c9987da6b7de15" href="/cn/Summon_Holy_Relic"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/HolyRelic.webp" alt="HolyRelic" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/9a7647a83557f6631293e32c17966093ee652339a5abc6ebf7c9987da6b7de15" href="/cn/Summon_Holy_Relic">召唤圣物</a><div>召唤一个停留在你身旁的圣物。当你使用攻击击中敌人，圣物会触发一个新星法术，对敌人造成物理伤害并为周围友军提供生命再生。召唤生物受到的生命再生效果更高。圣物的新星法术冷却时间很短。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/e21c218cb52bf6bcbbba5a4f259dc8cac802145e65932219abadd5fab3d329ce" href="/cn/Summon_Holy_Relic_of_Conviction"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/HolyRelic.webp" alt="HolyRelic" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/e21c218cb52bf6bcbbba5a4f259dc8cac802145e65932219abadd5fab3d329ce" href="/cn/Summon_Holy_Relic_of_Conviction">定罪之召唤圣物</a><div>召唤一个停留在你身旁的圣物。当你使用攻击击中敌人，圣物会触发一个法术，对附近一名敌人周围的所有敌人造成物理伤害。圣物的法术冷却时间很短。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b637cd34dc2534cd06defdfc1ab6d2482992b398434f716cae6ca73973d1ef82" href="/cn/Summon_Carrion_Golem"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/SummonCarrionGolemGem.webp" alt="SummonCarrionGolemGem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b637cd34dc2534cd06defdfc1ab6d2482992b398434f716cae6ca73973d1ef82" href="/cn/Summon_Carrion_Golem">召唤腐化魔像</a><div>召唤一个腐化魔像，给非魔像召唤生物附加物理伤害。这种魔像可以挥出伤害递增，速度越来越快的破空斩，还可以发出骸骨突刺。并使它附近每个非魔像召唤生物造成更多伤害。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/970acd5ff057a406c9066f1f440aa82633cbf8f83407b8106c57190ef2b17e59" href="/cn/Summon_Carrion_Golem_of_Hordes"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/SummonCarrionGolemGem.webp" alt="SummonCarrionGolemGem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/970acd5ff057a406c9066f1f440aa82633cbf8f83407b8106c57190ef2b17e59" href="/cn/Summon_Carrion_Golem_of_Hordes">结群之召唤腐化魔像</a><div>召唤一个腐化魔像。腐化魔像可以挥出伤害递增，速度越来越快的破空斩，还可以发出骸骨突刺。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/0fbef0bdb27b9920401bd6a6723a115b6024ffdebaaca1e8337bb67a6a4e7555" href="/cn/Summon_Carrion_Golem_of_Scavenging"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/SummonCarrionGolemGem.webp" alt="SummonCarrionGolemGem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/0fbef0bdb27b9920401bd6a6723a115b6024ffdebaaca1e8337bb67a6a4e7555" href="/cn/Summon_Carrion_Golem_of_Scavenging">敛骸之召唤腐化魔像</a><div>召唤一个腐化魔像。腐化魔像可以挥出伤害递增，速度越来越快的破空斩，可以消耗灵柩来治疗自己，并获得发出毁灭性骸骨突刺的能力。附近每个非魔像召唤生物可以使它造成更多伤害。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a175614932dc77a1359e72fb74d49c11727605e6aee4859fbeb54556e4a03e7a" href="/cn/Summon_Reaper"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/SummonReaperSkillGem.webp" alt="SummonReaperSkillGem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a175614932dc77a1359e72fb74d49c11727605e6aee4859fbeb54556e4a03e7a" href="/cn/Summon_Reaper">召唤追命死灵</a><div>召唤一个强力的追命死灵，它会施放凌厉的区域攻击。追命死灵会削弱你的其它召唤生物，偶尔还会消耗它们来强化自己，并给自己回血。召唤追命死灵后再施放该技能可以让它冲向目标地点施放一次强力攻击。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/18294e949bd12ab1ed939a10195069bdd477b4b05aba4475e9807a6893bde861" href="/cn/Summon_Reaper_of_Revenants"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/SummonReaperSkillGem.webp" alt="SummonReaperSkillGem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/18294e949bd12ab1ed939a10195069bdd477b4b05aba4475e9807a6893bde861" href="/cn/Summon_Reaper_of_Revenants">亡魂之召唤追命死灵</a><div>召唤一个追命死灵，它会施放多种区域攻击。追命死灵会削弱你的其它非追命死灵的召唤生物，还会消耗它们以治疗并暂时强化自己。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/dc7213752623bc6265852bc90821f74e9962c1ec042ecd5159c5837b6b091c6b" href="/cn/Summon_Reaper_of_Eviscerating"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/SummonReaperSkillGem.webp" alt="SummonReaperSkillGem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/dc7213752623bc6265852bc90821f74e9962c1ec042ecd5159c5837b6b091c6b" href="/cn/Summon_Reaper_of_Eviscerating">裂骨之召唤追命死灵</a><div>召唤一个强力的追命死灵，它会被动地跟随你，不会攻击敌人。追命死灵会削弱你的其它召唤生物，还会消耗它们以治疗并暂时强化自己。召唤追命死灵后再施放该技能可以让它冲向目标地点施放一次强力攻击。不能被触发或受“施法回响”和“释出”辅助，不能由图腾、陷阱、地雷使用。 </div></div></div></div></div>  </div></div></div><div class="card mb-1">
+    <div class="card-body markdown-body">
+        <a class="btn btn-primary float-end" href='/cn/marked?id=Companionship_Support' data-i18n="ClientStrings|HideoutEditControlEdit|Name">Edit</a>
+        
+        <div><hr style='border-top: 1px solid white'>Wikis Content is available under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA 3.0</a> unless otherwise noted.</div>
+    </div>
+</div>
+
+
+<footer class="ccontainer text-center text-lg-left">
+  <div class="card p-4">
+    <div class="row">
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Sites</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a target="_blank" href="https://poedb.tw/">poedb.tw</a> </li>
+          <li> <a target="_blank" href="https://tlidb.com/">tlidb.com</a> </li>
+          <li> <a target="_blank" href="https://poe2db.tw/">poe2db.tw</a> </li>
+              <li> <a target="_blank" href="https://paldb.cc/">paldb.cc</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">News</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="news">GGG Tracker</a> </li>
+          <li> <a href="League#ConcurrentPlayers">Concurrent Players</a> </li>
+          <li> <a href="Ruthless_mode" data-i18n="ClientStrings|InsaneDifficulty|Name">Ruthless mode</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">About Site</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="privacy">Privacy</a> </li>
+          <li> <a href="patreon">Patreon</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Community</h5>
+        <ul class="list-unstyled mb-0">
+
+
+          <li> <a href="https://discord.gg/b4bs4bQsrW">編年史 Discord</a> </li>
+
+          <li><a target="_blank" href="https://www.reddit.com/user/chuanhsing">/u/chuanhsing</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Copyright &copy; 2014-2026 流亡编年史.
+  </div>
+</footer>
+
+<div style=""></div>
+<div class="clearfix"></div><div id="bottom_banner"></div><script>topbanner970("bottom_banner");</script>
+    </div>
+    </div>
+
+    <a href="#top" id="toTop"><span class="fas fa-arrow-circle-up fa-3x"></span></a>
+<script>
+ $(document).ready(function()
+ {
+    if (window.location.hostname != "poedb.tw" && window.location.hostname != "poe2db.tw") {
+        window.location.href="https://poedb.tw/";
+    }
+ });
+</script>
+    <script src="https://cdn.poedb.tw/js/poedb_footer.fed37e57d91aa1eb.js"></script>
+
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"7c3bdd9ddfac4426b6a20a0cd5f64615","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

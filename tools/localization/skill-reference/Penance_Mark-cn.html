@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="cn" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>忏悔印记 - 流亡编年史, Path of Exile Wiki cn</title>
+    <meta name="description" content="path of exile is simply a tool to test your path of building creation">
+    <link rel="alternate" hreflang="en" href="https://poedb.tw/us/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://poedb.tw/tw/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://poedb.tw/cn/" />
+        <link href="/favicon.png" rel="shortcut icon" >
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/jquery.dataTables.min.css" integrity="sha512-1k7mWiTNoyx2XtmI96o+hdjP8nn0f3Z2N4oF/9ZZRgijyV4omsKOXEnqL1gKQNPy2MTSP9rIEWGcH/CInulptA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-5-theme/1.3.0/select2-bootstrap-5-theme.min.css" integrity="sha512-z/90a5SWiu4MWVelb5+ny7sAayYUfMmdXKEAbpj27PfdkamNdyI3hcjxPxkOPbrXoKIm7r9V2mElt5f1OtVhqA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy.min.css" integrity="sha512-HbPh+j4V7pXprvQMt2dtmK/zCEsUeZWYXRln4sOwmoyHPQAPqy/k9lIquKUyKNpNbDGAY06UdiDHcEkBc72yCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.min.css" integrity="sha512-OkYLbkJ4DB7ewvcpNLF9DSFmhdmxFXQ1Cs+XyjMsMMC94LynFJaA9cPXOokugkmZo6O6lwZg+V5dwQMH4S5/3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/css/modal-video.min.css" integrity="sha256-nd8IBqNn9uqwZKfZcLIXQcNxk5TjqrxiLx7PzN5PFW0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" integrity="sha256-auPoJwk/+RK6KSkib92Dkq1Y5hEkZvKtvSwucs15Skg=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video-js.min.css" integrity="sha512-J3tx4ssoARFr4U9VmZmQe2q672q0jUeYizJW3vglkOBTlQ/N6kF3eVqZZzaey/TdIXH69s3HYe2nQwyxK/Emzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link rel="stylesheet" href="https://cdn.poedb.tw/css/stdtheme.2ee77f64c96f1967.css" />
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js" integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" integrity="sha256-Ikk5myJowmDQaYVCUD0Wr+vIDkN8hGI58SGWdE671A8=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.full.min.js" integrity="sha512-RtZU3AyMVArmHLiW0suEZ9McadTdegwbgtiQl5Qqo9kunkVg1ofwueXD8/8wv3Af8jkME3DDe3yLfR8HSJfT2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy-bundle.umd.min.js" integrity="sha512-gbruucq/Opx9jlHfqqZeAg2LNK3Y4BbpXHKDhRC88/tARL/izPOE4Zt2w6X9Sn1UeWaGbL38zW7nkL2jdn5JIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.1/marked.min.js" integrity="sha512-VUuO/d6MS7hXmiFGEj7HtUa2FCI6Ll+xPvX9yX3bxn7ZqDWwleqXa8dtW13brbZ1ld2jiTrv8hWbpfp4B5mi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.all.js" integrity="sha512-A7LzqKE/pm9ofgS0Lxu7qroQS5SkKJQaYJkJ/66nQiWZfEdeGlBq5zEXQ63VRmXZK8zPpCgFf2WQJIAljI0Vdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/js/modal-video.min.js" integrity="sha256-VqINwNxkS4VEDMq5O52YTckX+Mx84X6bafO8NxF21Xw=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js" integrity="sha256-DiHJ7hbvMejsMyP76bpVWacb5HSHQ2sQlrJV8n7KEvA=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/echarts.min.js" integrity="sha512-4/g9GAdOdTpUP2mKClpKsEzaK7FQNgMjq+No0rX8XZlfrCGtbi4r+T/p5fnacsEC3zIAmHKLJUL7sh3/yVA4OQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/theme/dark.min.js" integrity="sha512-3Zm64ayK7DflnnyO2pKkLJX3v9Sb90mvahbwPUuMzEf42HI6k8tquIx5VsNBjEWAcYJWzvimbqnTkLl2QdCUmw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video.min.js" integrity="sha512-48NkCweTzA9u2sP4GgKcEDm6IScPIMga142ipKFNcHfz7feUJXDJxO1jwc2l+5MvWfwMj4BDfQv8WIMhrPxZLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.2.1/mustache.min.js" integrity="sha512-Qjrukx28QnvFWISw9y4wCB0kTB/ISnWXPz5/RME5o8OlZqllWygc1AB64dOBlngeTeStmYmNTNcM6kfEjUdnnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js" integrity="sha512-7O5pXpc0oCRrxk8RUfDYFgn0nO1t+jLuIOQdOMRp4APB7uZ4vSjspzp5y6YDtDs4VzUSTbWzBFZ/LKJhnyFOKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        <script src="https://cdn.poedb.tw/js/ModsView.6d68ad906ceba146.js"></script>
+        <script src="https://cdn.poedb.tw/js/poedb_header.a5ba197f514f530c.js"></script>
+    
+    <script data-cfasync="false">window.nitroAds=window.nitroAds||{createAd:function(){return new Promise(e=>{window.nitroAds.queue.push(["createAd",arguments,e])})},addUserToken:function(){window.nitroAds.queue.push(["addUserToken",arguments])},queue:[]};</script>
+    <script data-cfasync="false" async src="https://s.nitropay.com/ads-562.js"></script>
+
+    <meta property="og:site_name" content="poedb.tw">
+<meta property="og:title" content="忏悔印记" />
+<meta property="og:description" content="诅咒一名敌人，使其在被击中时产生多个幻灵。幻灵被视作被标记的敌人的盟友，拥有相同的怪物等级，会施放造成物理伤害的投射物法术，并且免疫诅咒和击退。你同时只能施加一个印记。" />
+<meta property="og:image" content="https://web.poecdn.com/image/Art/2DArt/SkillIcons/PenanceMark.png?scale=0" />
+
+  </head>
+
+  <body>
+
+    <div id="consent-box" style="display:none">
+      <button onclick="window.__cmp('showModal');">
+        Update cookie preferences
+      </button>
+    </div>
+    
+    <script>
+      if (window["nitroAds"] && window["nitroAds"].loaded) {
+        document.getElementById("consent-box").style.display = window["__tcfapi"]
+          ? ""
+          : "none";
+      } else {
+        document.addEventListener(
+          "nitroAds.loaded",
+          () =>
+            (document.getElementById("consent-box").style.display = window["__tcfapi"]
+              ? ""
+              : "none")
+        );
+      }
+    </script>
+
+
+    <div class="background-image "></div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3B810SRKBH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3B810SRKBH');
+</script>
+
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="navbar-brand fw-bold" href="/cn/">PoE<span class='brand-suffix'>DB</span><sub></sub></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"  aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Items" data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</a></li>
+                    <li><a class="dropdown-item" href="/cn/Unique_item" data-i18n="ClientStrings|ItemDisplayStringUnique|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Vendor_recipe_system" data-i18n="ClientStrings|TutorialPanelVendorRecipes|Name">商人物品配方</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Gem" data-i18n="ClientStrings|ItemDisplayStringGem|Name">宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Skill_Gems" data-i18n="ItemClasses|Active Skill Gem|Name">技能宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Support_Gems" data-i18n="ItemClasses|Support Skill Gem|Name">辅助宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Transfigured_Gems" data-i18n="ClientStrings|ItemFilterRuleTransfiguredGems|Name">改造宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Exceptional" data-i18n="GemTags|exceptional|Name">Exceptional</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Modifiers" data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</a></li>
+                    <li><a class="dropdown-item" href="/cn/Keywords" data-i18n-tw="提示字">Keywords</a></li>
+                    <li><a class="dropdown-item" href="/cn/Oil" data-i18n="AchievementItems|DeliriumCraftItemsUsingCurrency1_8|Name">圣油</a></li>
+                    <li><a class="dropdown-item" href="/cn/Crafting_Bench" data-i18n="BaseItemTypes|Metadata/Items/HideoutInteractables/HideoutCraftingBench|Code"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Horticrafting" data-i18n="ClientStrings|HarvestCraftingStationTitle|Name">花园工艺</a></li>
+                    <li><a class="dropdown-item" href="/cn/metamods">工艺互动</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/cn/Quest" data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</a></li>
+                    <li><a class="dropdown-item" href="/cn/Ascendancy_class" data-i18n="ClientStrings|TutorialPanelAscendancies|Name">升华职业</a></li>
+                    <li><a class="dropdown-item" href="/cn/Bloodline_Ascendancy_class" data-i18n-tw="血裔職業" data-i18n-cn="血脉职业">Bloodline Ascendancy class</a></li>
+                    <li><a class="dropdown-item" href="/cn/passive-skill-tree/" data-i18n="ClientStrings|ActionOpenPassivePanel|Name">天赋树</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Maps" data-i18n="UniqueStashTypes|Map|Name">地图</a></li>
+                    <li><a class="dropdown-item" href="/cn/Atlas_of_Worlds" data-i18n="MapSeries|MapAtlas|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/atlas-skill-tree/" data-i18n="ClientStrings|ActionOpenAtlasPassivesScreen|Name"></a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item"><a class="nav-link" href="Economy" data-i18n-tw="經濟" data-i18n-cn="经济">Economy</a></li>
+    
+                <li class="nav-item"><a class="ms-4 nav-link  bg-warning rounded-circle" style="color: white" href="/cn/patreon">赞助</a></li>
+              </ul>
+    
+    
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" aria-current="page" href="https://poe2db.tw/cn/">PoE2<span class="brand-suffix">DB</span></a>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-language fa-lg"></i> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/tw/Penance_Mark">TW 繁體中文</a></li>
+                    <li><a class="dropdown-item" href="/cn/Penance_Mark">CN 简体中文</a></li>
+                    <li><a class="dropdown-item" href="/us/Penance_Mark">US English</a></li>
+                    <li><a class="dropdown-item" href="/kr/Penance_Mark">KR 한국어</a></li>
+                    <li><a class="dropdown-item" href="/ru/Penance_Mark">RU Русский</a></li>
+                    <li><a class="dropdown-item" href="/jp/Penance_Mark">JP Japanese</a></li>
+                    <li><a class="dropdown-item" href="/fr/Penance_Mark">FR Français</a></li>
+                    <li><a class="dropdown-item" href="/de/Penance_Mark">DE Deutsch</a></li>
+                    <li><a class="dropdown-item" href="/th/Penance_Mark">TH ภาษาไทย</a></li>
+                    <li><a class="dropdown-item" href="/pt/Penance_Mark">PO Português</a></li>
+                    <li><a class="dropdown-item" href="/sp/Penance_Mark">ES Spanish</a></li>
+                  </ul>
+                </li>
+              </ul>
+    
+            <form class="form-inline my-2 my-lg-0" role="search" action="search">
+              <input type="hidden" name="token" value="709c5d08149f9d5fcd886a550429be0c4ac2fe5a26f10824fe4daea116bb538949572f">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q" id="navautosearch">
+            </form>
+    
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+    </header>
+
+<script>sidebar160("leftside_banner", "left");</script>
+<script>sidebar160("rightside_banner", "right");</script>
+
+
+
+    <div class="page ">
+    <div class="page-content theme-showcase container" role="main">
+
+
+<div class="d-flex flex-wrap justify-content-center"><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Expedition_league" data-bs-toggle="tooltip" title="先祖秘藏 v3.15"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/ExpeditionDetonator.webp" alt="ExpeditionDetonator" class="league_minimap" /></span></a><a href="Ultimatum_league" data-bs-toggle="tooltip" title="致命贪婪 v3.14"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/UltimatumAltar.webp" alt="UltimatumAltar" class="league_minimap" /></span></a><a href="Ritual_league" data-bs-toggle="tooltip" title="驱灵仪式 v3.13"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/RitualRune.webp" alt="RitualRune" class="league_minimap" /></span></a><a href="Blight_league" data-bs-toggle="tooltip" title="菌潮 v3.8"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BlightCore.webp" alt="BlightCore" class="league_minimap" /></span></a><a href="Legion_league" data-bs-toggle="tooltip" title="军团 v3.7"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/LegionInitiator.webp" alt="LegionInitiator" class="league_minimap" /></span></a><a href="Betrayal_league" data-bs-toggle="tooltip" title="背叛者 v3.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BetrayalSymbolCatarina.webp" alt="BetrayalSymbolCatarina" class="league_minimap" /></span></a><a href="Incursion_league" data-bs-toggle="tooltip" title="穿越 v3.3"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/IncursionCraftingBench.webp" alt="IncursionCraftingBench" class="league_minimap" /></span></a><a href="Bestiary_league" data-bs-toggle="tooltip" title="猎魔 v3.2"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BestiaryRareMonster.webp" alt="BestiaryRareMonster" class="league_minimap" /></span></a><a href="Abyss_league" data-bs-toggle="tooltip" title="深渊 v3.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Abyss.webp" alt="Abyss" class="league_minimap" /></span></a><a href="Breach_league" data-bs-toggle="tooltip" title="裂隙 v2.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Breach.webp" alt="Breach" class="league_minimap" /></span></a>
+    </div>
+  </div>
+</div><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Allflame_league" data-bs-toggle="tooltip" title="永火之咒 v3.29"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DeepwaterCursedTreasure.webp" alt="DeepwaterCursedTreasure" class="league_minimap" /></span></a><a href="Mirage_league" data-bs-toggle="tooltip" title="沙海幻境 v3.28"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Mirage.webp" alt="Mirage" class="league_minimap" /></span></a><a href="Mercenaries_league" data-bs-toggle="tooltip" title="佣兵 v3.26"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/MercenaryEncounter.webp" alt="MercenaryEncounter" class="league_minimap" /></span></a><a href="Settlers_league" data-bs-toggle="tooltip" title="君锋城下 v3.25"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/VillageShipping.webp" alt="VillageShipping" class="league_minimap" /></span></a><a href="Sanctum_league" data-bs-toggle="tooltip" title="圣地 v3.20"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Sanctum.webp" alt="Sanctum" class="league_minimap" /></span></a><a href="Archnemesis_league" data-bs-toggle="tooltip" title="罪恶枷锁 v3.17"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Archnemesis.webp" alt="Archnemesis" class="league_minimap" /></span></a><a href="Heist_league" data-bs-toggle="tooltip" title="夺宝奇兵 v3.12"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HeistSumgglersCache.webp" alt="HeistSumgglersCache" class="league_minimap" /></span></a><a href="Harvest_league" data-bs-toggle="tooltip" title="庄园 v3.11"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HarvestPortal.webp" alt="HarvestPortal" class="league_minimap" /></span></a><a href="Delirium_league" data-bs-toggle="tooltip" title="惊悸迷雾 v3.10"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/AfflictionInitiator.webp" alt="AfflictionInitiator" class="league_minimap" /></span></a><a href="Delve_league" data-bs-toggle="tooltip" title="地心探索 v3.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DelveMineralVein.webp" alt="DelveMineralVein" class="league_minimap" /></span></a><a href="Essence_league" data-bs-toggle="tooltip" title="精华 v2.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Essence.webp" alt="Essence" class="league_minimap" /></span></a><a href="Tormented_Spirit" data-bs-toggle="tooltip" title="Tormented Spirit v1.3"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.webp" class="league_minimap"/></a><a href="Beyond" data-bs-toggle="tooltip" title="超越 v1.2"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.webp" class="league_minimap"/></a><a href="Strongbox" data-bs-toggle="tooltip" title="保险箱 v1.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Strongbox.webp" alt="Strongbox" class="league_minimap" /></span></a><a href="Shrine" data-bs-toggle="tooltip" title="神殿 v1.0"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Shrine.webp" alt="Shrine" class="league_minimap" /></span></a><a href="Rogue_Exiles" data-bs-toggle="tooltip" title="Rogue Exiles v0.11"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/Anarchy4.webp" class="league_minimap"/></a>
+    </div>
+  </div>
+</div></div>
+
+
+
+<div id="topbanner970"></div><script>topbanner970("topbanner970");</script>
+
+<ul class="nav nav-tabs d-flex flex-wrap" role="tablist"><li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" role="tab" aria-selected="true" href="#PenanceMark传奇">Penance Mark 传奇 /1 </a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#curse_penance_markbuff">curse_penance_mark buff</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#PenanceMarkPenanceMark">Penance Mark Penance Mark</a></li></ul><div class="tab-content"><div id="PenanceMark传奇" class="tab-pane fade show active"><div   class="card mb-2 ">
+   <h5 class="card-header">Penance Mark 传奇 /1 </h5>   <div class="row row-cols-1 row-cols-lg-2 g-2 bg-dark"><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="UniqueItems UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/63118b38899c1aa300f9d857ca398f331714cc797eeb7576aff549210b36126f" href="The_Hateful_Accuser"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Rings/RitualPhantasmRing.webp" alt="RitualPhantasmRing" class="w1" /></a></div><div class="flex-grow-1 ms-2"><div><a class="UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/63118b38899c1aa300f9d857ca398f331714cc797eeb7576aff549210b36126f" href="/cn/The_Hateful_Accuser"><span class="uniqueName">憎恨控诉</span> <span class="uniqueTypeLine">无名戒指</span></a></div><div class="requirements">需求 等级 <span class="colourDefault">50</span></div><div class="implicitMod">自身受到的元素异常状态时间延长 <span class='mod-value'>50</span>%<br>你受到的诅咒效果降低 <span class='mod-value'>50</span>%</div><div class="separator"></div><div class="explicitMod">获得 <span class='mod-value'>20</span> 级<a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_ActiveSkills_hover/ab364fff303f0de9c999d8e18682684d28e6d357d43ff8b3ae3bf317d09f1796" href="/cn/Penance_Mark">忏悔印记</a></div><div class="explicitMod">施法速度加快 <span class='mod-value'>(6<span class="ndash">—</span>12)</span>%</div><div class="explicitMod"><span class='mod-value'>+(30<span class="ndash">—</span>60)</span> 最大生命</div><div class="explicitMod"><span class='mod-value'>+(7<span class="ndash">—</span>19)</span>% 混沌抗性</div></div></div></div></div>  </div></div><div id="curse_penance_markbuff" class="tab-pane fade"><span data-tabname="curse_penance_mark buff"></span><div class="d-flex flex-wrap">
+
+<div class="newItemPopup GemPopup  "
+>
+    <div class="itemHeader singleLine">
+
+        <div class="itemName typeLine">
+            <span class="lc">忏悔印记</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="Stats">
+            <div class="secDescrText">你被诅咒了。当你被击中时，多个披枷幽影会在你身旁出现。</div><div class="separator"></div><div class="explicitMod">penance_mark_summon_phantasms_when_hit</div>
+        </div>
+
+
+
+        <div>
+            Penance Mark
+        </div>
+    </div>
+</div>
+
+
+        <div class="itemboximage">
+          <div class="buff-icon-container buff-icon-type__Buff">
+            <div class="buff-icon-frame"></div>
+            <a>
+              <img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/PenanceMark.webp">
+            </a>
+          </div>
+
+
+        </div>
+
+
+
+</div>
+<div   class="card mb-2 ">
+   <h5 class="card-header">Attribute /3 </h5> <h3 style='display: none'>curse_penance_mark</h3>  <div class='table-responsive'><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>名字</th><th>显示物品素质</th></tr></thead><tbody>
+<tr><td>BuffGroupsID</td><td>37</td></tr>
+<tr><td>IsBuffDefinition</td><td>1</td></tr>
+<tr><td>BuffMergeModesID</td><td>3</td></tr></tbody></table></div>  </div><div class='row'><div class='col-lg-6'><div   class="card mb-2 ">
+   <h5 class="card-header"><span class='item_magic'><span class='item_magic' data-id='19433'></span></span></h5>   <table class='table table-hover table-striped mb-0'><tr><th>Code<td>penance mark summon phantasms when hit<tr><th>IsPublic<td>1<tr><th>IsLocal<td>0<tr><th>IsWeaponLocal<td>0<tr><th>IsProxied<td><tr><th>IsParty<td>1<tr><th>IsVirtual<td>0<tr><th>IsScalable<td>1<tr><th>StatSemantics<td>3</table>  </div></div></div></div><div id="PenanceMarkPenanceMark" class="tab-pane fade"><span data-tabname="Penance Mark <small>Penance Mark</small>" data-category="ActiveSkills"></span><div class="d-flex flex-wrap">
+
+<div class="newItemPopup GemPopup  "
+>
+    <div class="itemHeader singleLine">
+
+        <div class="itemName typeLine">
+            <span class="lc">忏悔印记</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="Stats">
+            <div class="property">等级: <span class='colourDefault'>20</span></div><div class="property">消耗: <span class='colourDefault'>(33<span class="ndash">—</span>0) 点魔力</span></div><div class="property">施放间隔: <span class='colourDefault'>0.50 秒</span></div><div class="separator"></div><div class="secDescrText">诅咒一名敌人，使其在被击中时产生多个幻灵。幻灵被视作被标记的敌人的盟友，拥有相同的怪物等级，会施放造成物理伤害的投射物法术，并且免疫诅咒和击退。你同时只能施加一个印记。</div><div class="separator"></div><div class="explicitMod">被诅咒的敌人被击中时产生 <span class='mod-value'>2</span> 个披枷幽影，每秒只能触发一次。</div><div class="explicitMod">附着后可获得总计 <span class='mod-value'>3</span> 秒的持续时间</div><div class="explicitMod"><span class="secondary">base deal no damage [1]</span></div>
+        </div>
+
+
+
+        <div>
+            Penance Mark
+        </div>
+    </div>
+</div>
+
+
+        <div class="itemboximage">
+
+                <img loading="lazy" class="" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/PenanceMark.webp"/>
+
+        </div>
+
+
+
+</div>
+<div   class="card mb-2 ">
+   <h5 class="card-header">等级效果 /1 </h5> <div   class="card mb-2 ">
+      <div class="table-responsive"><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>固定</th></tr></thead><tbody id="D2XyhpZIHU"><tr><td>Mana: 33</td></tr><tr><td>附着后可获得总计 <span class='mod-value'>3</span> 秒的持续时间</td></tr><tr><td>被诅咒的敌人被击中时产生 <span class='mod-value'>2</span> 个披枷幽影，每秒只能触发一次。</td></tr></tbody></table></div>  </div>  <div class="table-responsive"><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>等级</th><th>需求等级</th><th>经验值</th></tr></thead><tbody id="N1q0K4hrJr"><tr><td>20</td><td>70</td><td></td></tr></tbody></table></div>  </div><div class="row"></div><div   class="card mb-2 ">
+   <h5 class="card-header">Attribute /5 </h5> <h3 style='display: none'>Penance Mark</h3>  <div class='table-responsive'><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>名字</th><th>显示物品素质</th></tr></thead><tbody>
+<tr><td>BaseType <span class='fas fa-info-circle' data-bs-toggle='tooltip' title='Item Filter'></span></td><td>Penance Mark</td></tr>
+<tr><td>TargetTypes</td><td>地面, 敌人, </td></tr>
+<tr><td>Type</td><td>法术, 陷阱技能, 图腾技能, 地雷技能, 法术可重复, 可触发, 附加诅咒, 可齐射, InstantNoRepeatWhenHeld, InstantShiftAttackForLeftMouse, Mark, 持续时间</td></tr>
+<tr><td>BuffIcon</td><td><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/PenanceMark.webp" alt="PenanceMark" /></td></tr>
+<tr><td>ActiveSkillsCode</td><td>penance_mark</td></tr></tbody></table></div>  </div><div   class="card mb-2 ">
+   <h5 class="card-header">被辅助 /37 </h5> <div class='card-body'><li>主动类型: 法术, 陷阱技能, 图腾技能, 地雷技能, 法术可重复, 可触发, 附加诅咒, 可齐射, InstantNoRepeatWhenHeld, InstantShiftAttackForLeftMouse, Mark, 持续时间</li></div>  <script>
+$(document).ready(function () {
+    filterClick($('input[name=filterjlQmfrkvUZ]'));
+});
+</script>
+
+<form>
+    <div class="input-group my-2">
+        <button name="card-reset" type="reset" class="btn btn-outline-secondary">Reset</button>
+        <input name="filterjlQmfrkvUZ" class="form-control" placeholder="Search">
+    </div>
+</form><div class="row row-cols-1 row-cols-lg-2 g-2 bg-dark"><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c4cbec57c5957a8ee7a57208f7b916b2162f535a018227112758b1812b18489a" href="/cn/Inspiration_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/ReducedManaCost.webp" alt="ReducedManaCost" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c4cbec57c5957a8ee7a57208f7b916b2162f535a018227112758b1812b18489a" href="/cn/Inspiration_Support">启迪（辅）</a><div>辅助任意技能。召唤生物、图腾、陷阱、地雷无法获得启迪球。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/96656ff6e35156916a24f7222f0c7e862f4ecd10b85d3039dc65521c39bd12f8" href="/cn/More_Duration_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/IncreasedDuration.webp" alt="IncreasedDuration" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/96656ff6e35156916a24f7222f0c7e862f4ecd10b85d3039dc65521c39bd12f8" href="/cn/More_Duration_Support">持续时间总增（辅）</a><div>辅助任意有持续时间的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/d22717cd157ffd0b9bbf8339d8e3cbf20b14a13f32390d9ba8ec160b7238aa99" href="/cn/Spell_Totem_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Totem.webp" alt="Totem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/d22717cd157ffd0b9bbf8339d8e3cbf20b14a13f32390d9ba8ec160b7238aa99" href="/cn/Spell_Totem_Support">法术图腾(辅)</a><div>辅助非触发类法术技能，你将不再直接施放被辅助的法术，而是召唤一个图腾为你施放该法术。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/26e4cadf3ec87b04ce3f7d23a782b608d6f422f02121a1431f2452c1552b95b6" href="/cn/Cast_on_Melee_Kill_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastOnMeleeKill.webp" alt="CastOnMeleeKill" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/26e4cadf3ec87b04ce3f7d23a782b608d6f422f02121a1431f2452c1552b95b6" href="/cn/Cast_on_Melee_Kill_Support">近战击败时施放(辅)</a><div>必须同时辅助一个攻击技能和一个法术技能。法术技能会在攻击技能击败敌人时触发。无法辅助图腾、陷阱或地雷。瓦尔技能、持续吟唱类技能和有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8ea167ee93c49d5d2675e86a0f7b1b0f80d57fa5fac767ba9454d55b71498c2a" href="/cn/Empower_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Empower.webp" alt="Empower" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8ea167ee93c49d5d2675e86a0f7b1b0f80d57fa5fac767ba9454d55b71498c2a" href="/cn/Empower_Support">赋予(辅)</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的等级。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b10107fe62b42ae1b38f8251a7a9048b4817ab25dc3f4d4dfe643f60616cc3ce" href="/cn/Less_Duration_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/ReduceDuration.webp" alt="ReduceDuration" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b10107fe62b42ae1b38f8251a7a9048b4817ab25dc3f4d4dfe643f60616cc3ce" href="/cn/Less_Duration_Support">持续时间总降(辅)</a><div>辅助任意有持续时间的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/33144396102606755a900793d4c03396ebca95cfdfe48bea1b4b336c88d55422" href="/cn/Cast_when_Damage_Taken_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastOnDmgTaken.webp" alt="CastOnDmgTaken" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/33144396102606755a900793d4c03396ebca95cfdfe48bea1b4b336c88d55422" href="/cn/Cast_when_Damage_Taken_Support">受伤时施放(辅)</a><div>所有被辅助的法术技能会记录你受到的伤害，当受到的总伤害达到阈值时触发。无法辅助图腾、陷阱或地雷施放的技能。瓦尔技能、持续吟唱技能或有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1333986b34937995dec9091827ec528950510033ec6265fdc027db00089b3173" href="/cn/Awakened_Empower_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/EmpowerPlus.webp" alt="EmpowerPlus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1333986b34937995dec9091827ec528950510033ec6265fdc027db00089b3173" href="/cn/Awakened_Empower_Support">赋予（强辅）</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的等级。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/aabc2479a9330f84b6b6f51ef3540285b5a48bb3c10ddf4065c7fbd43a305208" href="/cn/Lifetap_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/LifeTap.webp" alt="LifeTap" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/aabc2479a9330f84b6b6f51ef3540285b5a48bb3c10ddf4065c7fbd43a305208" href="/cn/Lifetap_Support">赤炼（辅）</a><div>辅助任意非祝福技能。召唤生物不能获得赤炼效果。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b5948b68f65bb74166996ae1acae997fbbd255f6dd2bd0487e0a5b3963335dab" href="/cn/Transfusion_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/TransfusionSupport.webp" alt="TransfusionSupport" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b5948b68f65bb74166996ae1acae997fbbd255f6dd2bd0487e0a5b3963335dab" href="/cn/Transfusion_Support">渗透（辅）</a><div>辅助非祝福法术。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/d24cf70cb86a72f2396131f1a9d9783c21aafa8344fd3cc475dbe604fa7d277e" href="/cn/Trap_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Trap.webp" alt="Trap" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/d24cf70cb86a72f2396131f1a9d9783c21aafa8344fd3cc475dbe604fa7d277e" href="/cn/Trap_Support">陷阱(辅)</a><div>辅助法术技能，或使用弓类或法杖的攻击技能。你不再使用被辅助的技能，而是投掷陷阱，当一个敌人接近时为你使用该技能。陷阱无法使用吟唱技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/392802b890d4187e29e45b85710c9ce776f32e34ade3ad4a33efa13a57b89f00" href="/cn/Cast_On_Critical_Strike_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastOnCrit.webp" alt="CastOnCrit" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/392802b890d4187e29e45b85710c9ce776f32e34ade3ad4a33efa13a57b89f00" href="/cn/Cast_On_Critical_Strike_Support">暴击时施放(辅)</a><div>必须同时辅助一个攻击技能和一个法术技能。法术技能会在攻击技能对敌人造成暴击时触发。无法辅助图腾、陷阱或地雷。瓦尔技能、持续吟唱类技能和有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f9c2d4ac24b77419b51d16d1f28b8d935e6e9d596f309bd464b7c5536504822b" href="/cn/Cast_on_Death_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastOnDeath.webp" alt="CastOnDeath" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f9c2d4ac24b77419b51d16d1f28b8d935e6e9d596f309bd464b7c5536504822b" href="/cn/Cast_on_Death_Support">死亡时施放(辅)</a><div>你被击败时触发所有被辅助的法术。无法辅助图腾、陷阱或地雷施放的技能。瓦尔技能、持续吟唱类技能或有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/25464416fad96d890806631b6ea1d92f23f5a4fa5d0b09bfce7e4960d3d4fe0c" href="/cn/Enhance_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/enhance.webp" alt="enhance" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/25464416fad96d890806631b6ea1d92f23f5a4fa5d0b09bfce7e4960d3d4fe0c" href="/cn/Enhance_Support">增幅(辅)</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的品质。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b3660530d501769688957a5d638225e3c3c5bfded85f6ad6f00ae14031c6f8b9" href="/cn/Swift_Affliction_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportRapidDecayGem.webp" alt="SupportRapidDecayGem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b3660530d501769688957a5d638225e3c3c5bfded85f6ad6f00ae14031c6f8b9" href="/cn/Swift_Affliction_Support">极速腐化(辅)</a><div>辅助任意有持续时间或能通过击中造成异常状态的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/e175770c50548725e6f6fa1b3b0269edc1257132ab4cca028780a89a1a2488a3" href="/cn/Awakened_Cast_On_Critical_Strike_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/CastOnCritPlus.webp" alt="CastOnCritPlus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/e175770c50548725e6f6fa1b3b0269edc1257132ab4cca028780a89a1a2488a3" href="/cn/Awakened_Cast_On_Critical_Strike_Support">暴击时施放（强辅）</a><div>必须同时辅助一个攻击技能和一个法术技能。法术技能会在攻击技能对敌人造成暴击时触发。无法辅助图腾、陷阱或地雷。瓦尔技能、持续吟唱类技能和有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c04b4d8422b29f3cba20886ff5d48f93559bdc88961217c2967af58c5cd6aca4" href="/cn/Awakened_Swift_Affliction_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/SupportRapidDecayPlus.webp" alt="SupportRapidDecayPlus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c04b4d8422b29f3cba20886ff5d48f93559bdc88961217c2967af58c5cd6aca4" href="/cn/Awakened_Swift_Affliction_Support">极速腐化（强辅）</a><div>辅助任意有持续时间或能通过击中造成异常状态的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f345173a6ca0907ee7f1dd51ebef1af81ce8ba77c7cbc0d0ce5bb75ff8d70072" href="/cn/Awakened_Enhance_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/enhanceplus.webp" alt="enhanceplus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f345173a6ca0907ee7f1dd51ebef1af81ce8ba77c7cbc0d0ce5bb75ff8d70072" href="/cn/Awakened_Enhance_Support">增幅（强辅）</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的品质。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/fae4471a4041f47302db8bca9c9c506a0e4604929568fd87a77620f7e70034c2" href="/cn/Mark_On_Hit_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/MarkOnHitting.webp" alt="MarkOnHitting" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/fae4471a4041f47302db8bca9c9c506a0e4604929568fd87a77620f7e70034c2" href="/cn/Mark_On_Hit_Support">击中时施加印记（辅）</a><div>辅助印记诅咒技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/49d0f9038fe014f13ea9c415783917ced480aa183331828dc0c11d6c71587689" href="/cn/Cast_on_Ward_Break_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastonWardBreak.webp" alt="CastonWardBreak" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/49d0f9038fe014f13ea9c415783917ced480aa183331828dc0c11d6c71587689" href="/cn/Cast_on_Ward_Break_Support">结界破碎时释放（辅）</a><div>每个被辅助的法术技能将在你的结界破裂时触发。无法辅助由图腾、陷阱或地雷使用的技能。瓦尔技能、持续吟唱技能以及带有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/aa8caa2cab14440b0ef3259f065fb15688c6edfe4019ea8a0bea51d75bdd27ef" href="/cn/Faster_Casting_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/FasterCast.webp" alt="FasterCast" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/aa8caa2cab14440b0ef3259f065fb15688c6edfe4019ea8a0bea51d75bdd27ef" href="/cn/Faster_Casting_Support">快速施法(辅)</a><div>辅助非瞬发法术技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/478beee30aa0ecff2f2e3c6a96b0632745b6c3b8d00c11e80e1edbc5e8c53ef4" href="/cn/Blastchain_Mine_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/RemoteMine.webp" alt="RemoteMine" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/478beee30aa0ecff2f2e3c6a96b0632745b6c3b8d00c11e80e1edbc5e8c53ef4" href="/cn/Blastchain_Mine_Support">链爆地雷（辅）</a><div>辅助法术技能，或使用弓类或法杖的攻击技能。你不再使用被辅助的技能，而是投掷地雷，当你将地雷引爆时为你使用该技能。地雷无法使用吟唱技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/d4ed00727d2adb884204e054b014b7d814f807e53cd4ac85ea5fc93b0fb7854a" href="/cn/Spell_Echo_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Echo.webp" alt="Echo" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/d4ed00727d2adb884204e054b014b7d814f807e53cd4ac85ea5fc93b0fb7854a" href="/cn/Spell_Echo_Support">施法回响(辅)</a><div>辅助法术技能，使其施放时自动重复一次。无法辅助瓦尔技能、图腾技能、持续吟唱技能、触发技能、瞬发技能、反击技能、闪现技能或有保留效果的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/19c58626a6291d11f4c9ce3946c71ecbe0cfaf6b6872e63db7ca1640435f65b3" href="/cn/Cast_when_Stunned_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastOnStun.webp" alt="CastOnStun" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/19c58626a6291d11f4c9ce3946c71ecbe0cfaf6b6872e63db7ca1640435f65b3" href="/cn/Cast_when_Stunned_Support">晕眩时施放(辅)</a><div>你被晕眩时有几率触发所有被辅助的法术技能。无法辅助图腾、陷阱或地雷施放的技能。瓦尔技能、持续吟唱技能或有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/5910ff00fd85eb7b2b03163e5f79e30b26cbc3011cc09aa259f070323e511425" href="/cn/Enlighten_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Enlighten.webp" alt="Enlighten" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/5910ff00fd85eb7b2b03163e5f79e30b26cbc3011cc09aa259f070323e511425" href="/cn/Enlighten_Support">启蒙(辅)</a><div>辅助任意技能，当该宝石达到 2 级或以上时，对被辅助技能施加消耗和保留加成。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/4828e6ef45c91c69c8c36e5d29642fb86b1a98f404d30010fd84eaad8529afad" href="/cn/Cast_while_Channelling_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CastWhileChanneling.webp" alt="CastWhileChanneling" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/4828e6ef45c91c69c8c36e5d29642fb86b1a98f404d30010fd84eaad8529afad" href="/cn/Cast_while_Channelling_Support">吟唱时施放(辅)</a><div>必须同时辅助一个持续吟唱技能和一个非吟唱法术技能。吟唱技能在吟唱过程中每隔一段时间会触发一个法术技能。无法辅助图腾、陷阱或地雷施放的技能。瓦尔技能和有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/fe93559507b1833e8361c69567de92516243e8e6c0acce1c70263c697abbd756" href="/cn/Efficacy_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Efficacy.webp" alt="Efficacy" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/fe93559507b1833e8361c69567de92516243e8e6c0acce1c70263c697abbd756" href="/cn/Efficacy_Support">效能(辅)</a><div>辅助任意能造成伤害或有持续时间的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8341c86a32780735e46691a41d4485f039110619b6c3c441a868f102ffae38e3" href="/cn/Arcane_Surge_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/ArcaneSurge.webp" alt="ArcaneSurge" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8341c86a32780735e46691a41d4485f039110619b6c3c441a868f102ffae38e3" href="/cn/Arcane_Surge_Support">秘术增强(辅)</a><div>所有被辅助的法术技能会记录你消耗的魔力，当消耗的总魔力达到阈值时提供一个增益效果。不能辅助图腾、陷阱、地雷施放的技能，不能辅助有保留效果的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/3e9f2f73578547cf4bc018aa510bf4e7d7f0d7cab4f29fe120fee64c2f4a4091" href="/cn/Unleash_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/UnleashSupport.webp" alt="UnleashSupport" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/3e9f2f73578547cf4bc018aa510bf4e7d7f0d7cab4f29fe120fee64c2f4a4091" href="/cn/Unleash_Support">释出（辅）</a><div>辅助法术类技能，使其在施放时效果可以重复。无法辅助具有冷却时间的技能、触发类技能、烙印技能、瓦尔技能、持续吟唱技能、有保留效果的技能，或图腾、陷阱和地雷使用的技能。无法影响召唤生物的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/647c184a5feaafb8c1eb6c64e8b6190642da63cff4760030f43b92027105ff62" href="/cn/High-Impact_Mine_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/AltRemoteMineSupportGem.webp" alt="AltRemoteMineSupportGem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/647c184a5feaafb8c1eb6c64e8b6190642da63cff4760030f43b92027105ff62" href="/cn/High-Impact_Mine_Support">高爆地雷（辅）</a><div>辅助法术技能，或使用弓类或法杖的攻击技能。你不再使用被辅助的技能，而是投掷地雷，当你将地雷引爆时为你使用该技能。地雷无法使用吟唱技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8957dec4c9cb2088f322f78556d0dcf3b2da83752c7433b6a00d02e407413620" href="/cn/Awakened_Cast_While_Channelling_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/CastWhileChannelingPlus.webp" alt="CastWhileChannelingPlus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8957dec4c9cb2088f322f78556d0dcf3b2da83752c7433b6a00d02e407413620" href="/cn/Awakened_Cast_While_Channelling_Support">吟唱时施放（强辅）</a><div>必须同时辅助一个持续吟唱技能和一个非吟唱法术技能。吟唱技能在吟唱过程中每隔一段时间会触发一个法术技能。无法辅助图腾、陷阱或地雷施放的技能。瓦尔技能和有保留效果的技能无法被触发。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/774e77a1bdc94739fce7eea13e6f3748a0a8020955c0e6c1532452a842308f96" href="/cn/Awakened_Spell_Echo_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/EchoPlus.webp" alt="EchoPlus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/774e77a1bdc94739fce7eea13e6f3748a0a8020955c0e6c1532452a842308f96" href="/cn/Awakened_Spell_Echo_Support">施法回响（强辅）</a><div>辅助法术技能，使其施放时自动重复一次。无法辅助瓦尔技能、图腾技能、持续吟唱技能、触发技能、瞬发技能、反击技能、闪现技能或有保留效果的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/5e1b48d11a699daf93f8aeb9073bf8cccc6e39b50f6c10f40d059e44dd42510d" href="/cn/Awakened_Unleash_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/UnleashPlus.webp" alt="UnleashPlus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/5e1b48d11a699daf93f8aeb9073bf8cccc6e39b50f6c10f40d059e44dd42510d" href="/cn/Awakened_Unleash_Support">释出（强辅）</a><div>辅助法术类技能，使其在施放时效果可以重复。无法辅助具有冷却时间的技能、触发类技能、烙印技能、瓦尔技能、持续吟唱技能、有保留效果的技能，或图腾、陷阱和地雷使用的技能。无法影响召唤生物的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a38e8e8d6f26c806b2ab82d44e46a162d59c2dea6ef40e736b3c31f823576d66" href="/cn/Awakened_Enlighten_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/Enlightenplus.webp" alt="Enlightenplus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a38e8e8d6f26c806b2ab82d44e46a162d59c2dea6ef40e736b3c31f823576d66" href="/cn/Awakened_Enlighten_Support">启蒙（强辅）</a><div>辅助任意技能，当该宝石达到 2 级或以上时，对被辅助技能施加消耗和保留加成。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/de66e850527bdb8a334b5ecf8665544ac5fe9685bec0f6dc4555f17e0f2fae84" href="/cn/Greater_Spell_Echo_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Echo.webp" alt="Echo" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/de66e850527bdb8a334b5ecf8665544ac5fe9685bec0f6dc4555f17e0f2fae84" href="/cn/Greater_Spell_Echo_Support">高阶施法回响（辅）</a><div>辅助法术技能，使其施放时重复一次。无法辅助瓦尔技能、图腾技能、烙印技能、持续吟唱技能、触发技能、瞬发技能、反击技能、闪现技能或有保留效果的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f6220e4c09832e8c4ba2685e089b8c183267d30528c06486be04fe3a4c81978c" href="/cn/Greater_Unleash_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/UnleashSupport.webp" alt="UnleashSupport" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f6220e4c09832e8c4ba2685e089b8c183267d30528c06486be04fe3a4c81978c" href="/cn/Greater_Unleash_Support">高阶释出（辅）</a><div>辅助法术类技能，使其在施放时效果可以重复。无法辅助具有冷却时间的技能、触发类技能、烙印技能、瓦尔技能、持续吟唱技能、有保留效果的技能，或图腾、陷阱和地雷使用的技能。无法影响召唤生物的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gemitem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c5dd16edf97d8f97db2884fb86b7670b93aa0ecd70791c05803847bc6ccd538f" href="/cn/Eclipse_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Eclipse.webp" alt="Eclipse" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gemitem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c5dd16edf97d8f97db2884fb86b7670b93aa0ecd70791c05803847bc6ccd538f" href="/cn/Eclipse_Support">月蚀（辅）</a><div>辅助所有技能宝石。
+无法辅助非源自宝石的技能。</div></div></div></div></div>  </div></div></div><div class="card mb-1">
+    <div class="card-body markdown-body">
+        <a class="btn btn-primary float-end" href='/cn/marked?id=Penance_Mark' data-i18n="ClientStrings|HideoutEditControlEdit|Name">Edit</a>
+        
+        <div><hr style='border-top: 1px solid white'>Wikis Content is available under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA 3.0</a> unless otherwise noted.</div>
+    </div>
+</div>
+
+
+<footer class="ccontainer text-center text-lg-left">
+  <div class="card p-4">
+    <div class="row">
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Sites</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a target="_blank" href="https://poedb.tw/">poedb.tw</a> </li>
+          <li> <a target="_blank" href="https://tlidb.com/">tlidb.com</a> </li>
+          <li> <a target="_blank" href="https://poe2db.tw/">poe2db.tw</a> </li>
+              <li> <a target="_blank" href="https://paldb.cc/">paldb.cc</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">News</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="news">GGG Tracker</a> </li>
+          <li> <a href="League#ConcurrentPlayers">Concurrent Players</a> </li>
+          <li> <a href="Ruthless_mode" data-i18n="ClientStrings|InsaneDifficulty|Name">Ruthless mode</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">About Site</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="privacy">Privacy</a> </li>
+          <li> <a href="patreon">Patreon</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Community</h5>
+        <ul class="list-unstyled mb-0">
+
+
+          <li> <a href="https://discord.gg/b4bs4bQsrW">編年史 Discord</a> </li>
+
+          <li><a target="_blank" href="https://www.reddit.com/user/chuanhsing">/u/chuanhsing</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Copyright &copy; 2014-2026 流亡编年史.
+  </div>
+</footer>
+
+<div style=""></div>
+<div class="clearfix"></div><div id="bottom_banner"></div><script>topbanner970("bottom_banner");</script>
+    </div>
+    </div>
+
+    <a href="#top" id="toTop"><span class="fas fa-arrow-circle-up fa-3x"></span></a>
+<script>
+ $(document).ready(function()
+ {
+    if (window.location.hostname != "poedb.tw" && window.location.hostname != "poe2db.tw") {
+        window.location.href="https://poedb.tw/";
+    }
+ });
+</script>
+    <script src="https://cdn.poedb.tw/js/poedb_footer.fed37e57d91aa1eb.js"></script>
+
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"7c3bdd9ddfac4426b6a20a0cd5f64615","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

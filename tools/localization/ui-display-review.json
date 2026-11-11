@@ -1,0 +1,164 @@
+{
+  "scope": "Explicit technical values and representative assembled UI messages. These samples verify display grammar, not every possible user payload or game state.",
+  "technical": {
+    "English": "Language selector must retain the language endonym.",
+    "中文 / English": "Bilingual language selector endonyms.",
+    "VAR BOLD": "Font identifier passed through a rendering helper.",
+    "II": "Roman numeral identifying the second weapon set.",
+    "PC": "Platform identifier.",
+    "PS4": "Platform identifier.",
+    "FFFFFF": "Hexadecimal colour value.",
+    "Assets/intangibilitybg.png": "Image asset path.",
+    "Assets/memorybg.png": "Image asset path.",
+    "/Path of Building/": "Literal directory name used in a settings-path example.",
+    "base_critical_strike_multiplier": "Internal stat identifier, not rendered prose.",
+    "height": "Control property key, not rendered prose.",
+    "label": "Control property key, not rendered prose.",
+    "http": "Network protocol identifier.",
+    "socks5": "Network protocol identifier.",
+    "socks5h": "Network protocol identifier.",
+    "Scholar's Platinum Kris of Joy": "Copyable English item-parser input example; must retain the original parser language."
+  },
+  "examples": [
+    {
+      "english": "123 Gold required to switch to this tree.",
+      "chinese": "切换到此天赋树需要 123 金币。"
+    },
+    {
+      "english": "123 Gold required to unallocate these nodes",
+      "chinese": "取消分配这些天赋需要 123 金币"
+    },
+    {
+      "english": "123 Gold required to unallocate this node",
+      "chinese": "取消分配此天赋需要 123 金币"
+    },
+    {
+      "english": "4 Additional Stats",
+      "chinese": "4 条额外属性"
+    },
+    {
+      "english": "Heart of Oak can appear on:",
+      "chinese": "橡木之心可出现在："
+    },
+    {
+      "english": "Anointing Heart of Oak changes nothing.",
+      "chinese": "涂油分配“橡木之心”不会产生变化。"
+    },
+    {
+      "english": "Anointing Heart of Oak changes nothing because this node is already anointed.",
+      "chinese": "涂油分配“橡木之心”不会产生变化，因为此天赋已经涂油分配。"
+    },
+    {
+      "english": "Allocating Heart of Oak will give you:",
+      "chinese": "分配“橡木之心”将产生以下变化："
+    },
+    {
+      "english": "Default only:",
+      "chinese": "仅 默认："
+    },
+    {
+      "english": "No changes from allocating this node or the nodes leading to it.",
+      "chinese": "点出此天赋及通往它的天赋后属性不变。"
+    },
+    {
+      "english": "4 points gained from unallocating these nodes",
+      "chinese": "取消分配这些天赋可返还 4 点"
+    },
+    {
+      "english": "Level: 1 to 20",
+      "chinese": "等级: 1 至 20"
+    },
+    {
+      "english": "Tip: Press Ctrl+D to disable the display of stat differences.",
+      "chinese": "提示：按 Ctrl+D 隐藏属性差异。"
+    },
+    {
+      "english": "Tip: Press Ctrl+D to enable the display of stat differences.",
+      "chinese": "提示：按 Ctrl+D 显示属性差异。"
+    },
+    {
+      "english": "Tip: Press Ctrl+D in the Items tab to disable the display of stat differences.",
+      "chinese": "提示：在物品页按 Ctrl+D 隐藏属性差异。"
+    },
+    {
+      "english": "Tip: Press Ctrl+D in the Items tab to enable the display of stat differences.",
+      "chinese": "提示：在物品页按 Ctrl+D 显示属性差异。"
+    },
+    {
+      "english": "Variant: Default (2 variants)",
+      "chinese": "变体：默认（2 个变体）"
+    },
+    {
+      "english": "Glorious Vanity 1234 was successfully added to your build.",
+      "chinese": "光彩夺目 1234已成功加入构筑。"
+    },
+    {
+      "english": "Active Skill #12's Main Minion Skill:",
+      "chinese": "主动技能 #12 的召唤生物主技能："
+    },
+    {
+      "english": "Convert will replace all trees that are not Version 3.29.\nThis action cannot be undone.\n",
+      "chinese": "转换将替换所有非 3.29 版本的天赋树。\n此操作无法撤销。\n"
+    },
+    {
+      "english": "Can support Strength threshold jewels",
+      "chinese": "可支持力量门槛珠宝"
+    },
+    {
+      "english": "Can support Dexterity threshold jewels",
+      "chinese": "可支持敏捷门槛珠宝"
+    },
+    {
+      "english": "Can support Intelligence threshold jewels",
+      "chinese": "可支持智慧门槛珠宝"
+    },
+    {
+      "english": "Tip: Right click to edit the tattoo for this node",
+      "chinese": "提示：右键点击，编辑此节点的纹身。"
+    },
+    {
+      "english": "Tip: Right click to edit the runegraft for this node",
+      "chinese": "提示：右键点击，编辑此节点的符文嵌板。"
+    },
+    {
+      "english": "Click Import... above to import a build to compare against.",
+      "chinese": "点击上方的“导入…”按钮，导入用于比较的构筑。"
+    },
+    {
+      "english": "Enter the new name for this folder:",
+      "chinese": "输入此文件夹的新名称："
+    },
+    {
+      "english": "Enter the new name for this build:",
+      "chinese": "输入此构筑的新名称："
+    },
+    {
+      "english": "Tattoo Count: 10",
+      "chinese": "纹身数量：10"
+    },
+    {
+      "english": "This is a special group created for the 'Fireball' skill,",
+      "chinese": "此特殊技能组用于技能“火球”，"
+    },
+    {
+      "english": "Elemental DPS: 123.5",
+      "chinese": "元素每秒伤害：123.5"
+    },
+    {
+      "english": "Current build: Strength",
+      "chinese": "当前构筑：Strength"
+    },
+    {
+      "english": "Current build: 我的构筑",
+      "chinese": "当前构筑：我的构筑"
+    },
+    {
+      "english": "User settings path cannot be loaded: E:/我的构筑/Settings.xml",
+      "chinese": "无法加载用户设置路径：E:/我的构筑/Settings.xml"
+    },
+    {
+      "english": "Anointing Heart of Oak changes nothing because this node is already allocated on the tree.",
+      "chinese": "涂油分配“橡木之心”不会产生变化，因为天赋树上已分配此天赋。"
+    }
+  ]
+}

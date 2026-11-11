@@ -1396,6 +1396,7 @@ function PassiveTreeViewClass:DoesNodeMatchSearchParams(node)
 end
 
 function PassiveTreeViewClass:AddNodeName(tooltip, node, build)
+	tooltip.localizationNodeId = node.id
 	local fontSizeBig = main.showFlavourText and 18 or 16
 	tooltip:SetRecipe(node.recipe)
 	local tooltipMap = {
@@ -1523,7 +1524,7 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build)
 		end
 	end
 
-	local function addModInfoToTooltip(node, i, line)
+	local function addModInfoToTooltip(node, i, line, lastIndex)
 		if node.mods[i] then
 			if launch.devModeAlt and node.mods[i].list then
 				-- Modifier debugging info
@@ -1538,7 +1539,12 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build)
 					line = line .. "  " .. modStr
 				end
 			end
-			if line ~= " " and (node.mods[i].extra or not node.mods[i].list) then 
+			local unsupported = false
+			for index = i, lastIndex or i do
+				local mod = node.mods[index]
+				if mod and (mod.extra or not mod.list) then unsupported = true end
+			end
+			if line ~= " " and unsupported then
 				local line = colorCodes.UNSUPPORTED..line
 				line = main.notSupportedModTooltips and (line .. main.notSupportedTooltipText) or line
 				tooltip:AddLine(fontSizeBig, line, "FONTIN")
@@ -1568,10 +1574,15 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build)
 		if node.alloc and compareNode then
 			mNode = self.compareSpec.nodes[node.id]
 			if node.sd[1] ~= mNode.sd[1] then
-				for i, line in ipairs(node.sd) do
-					addModInfoToTooltip(node, i, "<- "..line)
-					masteryColor = colorCodes.DEXTERITY.."-> "
+				local groups = Localization and Localization:PassiveLineGroups(node.id, node.sd)
+				if groups then
+					for _, group in ipairs(groups) do
+						addModInfoToTooltip(node, group.first, "<- "..group.text, group.last)
+					end
+				else
+					for i, line in ipairs(node.sd) do addModInfoToTooltip(node, i, "<- "..line) end
 				end
+				masteryColor = colorCodes.DEXTERITY.."-> "
 			end
 		end
 	end
@@ -1586,10 +1597,18 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build)
 			local effectData = build.spec.tree.masteryEffects[effect.effect]
 			-- Must step through every mod, and filter out already allocated mods later 
 			-- Otherwise red not supported text applies to the wrong indexes
-			for _, line in ipairs(effectData.sd) do
-				lineCount = lineCount + 1
+			local groups = Localization and Localization:PassiveLineGroups(mNode.id, effectData.sd)
+			if groups then
 				if not existingMastery then
-					addModInfoToTooltip(mNode, lineCount, line)
+					for _, group in ipairs(groups) do
+						addModInfoToTooltip(mNode, lineCount+group.first, group.text, lineCount+group.last)
+					end
+				end
+				lineCount = lineCount + #effectData.sd
+			else
+				for _, line in ipairs(effectData.sd) do
+					lineCount = lineCount + 1
+					if not existingMastery then addModInfoToTooltip(mNode, lineCount, line) end
 				end
 			end
 			if not existingMastery and n < #mNode.masteryEffects then
@@ -1602,8 +1621,13 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build)
 	-- This stanza actives for both Mastery and non Mastery tooltips. Proof: add '"Blah "..' to addModInfoToTooltip
 	if mNode.sd[1] and not mNode.allMasteryOptions then
 		tooltip:AddLine(16, "")
-		for i, line in ipairs(mNode.sd) do
-			addModInfoToTooltip(mNode, i, masteryColor..line)
+		local groups = Localization and Localization:PassiveLineGroups(mNode.id, mNode.sd)
+		if groups then
+			for _, group in ipairs(groups) do
+				addModInfoToTooltip(mNode, group.first, masteryColor..group.text, group.last)
+			end
+		else
+			for i, line in ipairs(mNode.sd) do addModInfoToTooltip(mNode, i, masteryColor..line) end
 		end
 		-- add child tooltip for skills
 		for _, mod in ipairs(mNode.finalModList or mNode.modList or {}) do
@@ -1639,8 +1663,11 @@ function PassiveTreeViewClass:AddNodeTooltip(tooltip, node, build)
 	-- Flavour text
 	if node.flavourText and main.showFlavourText then
 		tooltip:AddSeparator(14)
-		for _, line in ipairs(node.flavourText) do
-			tooltip:AddLine(fontSizeBig, colorCodes.UNIQUE..line, "FONTIN ITALIC")
+		local groups = Localization and Localization:PassiveLineGroups(node.id, node.flavourText)
+		if groups then
+			for _, group in ipairs(groups) do tooltip:AddLine(fontSizeBig, colorCodes.UNIQUE..group.text, "FONTIN ITALIC") end
+		else
+			for _, line in ipairs(node.flavourText) do tooltip:AddLine(fontSizeBig, colorCodes.UNIQUE..line, "FONTIN ITALIC") end
 		end
 	end
 

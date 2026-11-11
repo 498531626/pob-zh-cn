@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="cn" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>猫之势 - 流亡编年史, Path of Exile Wiki cn</title>
+    <meta name="description" content="path of exile is simply a tool to test your path of building creation">
+    <link rel="alternate" hreflang="en" href="https://poedb.tw/us/" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://poedb.tw/tw/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://poedb.tw/cn/" />
+        <link href="/favicon.png" rel="shortcut icon" >
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/jquery.dataTables.min.css" integrity="sha512-1k7mWiTNoyx2XtmI96o+hdjP8nn0f3Z2N4oF/9ZZRgijyV4omsKOXEnqL1gKQNPy2MTSP9rIEWGcH/CInulptA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-5-theme/1.3.0/select2-bootstrap-5-theme.min.css" integrity="sha512-z/90a5SWiu4MWVelb5+ny7sAayYUfMmdXKEAbpj27PfdkamNdyI3hcjxPxkOPbrXoKIm7r9V2mElt5f1OtVhqA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy.min.css" integrity="sha512-HbPh+j4V7pXprvQMt2dtmK/zCEsUeZWYXRln4sOwmoyHPQAPqy/k9lIquKUyKNpNbDGAY06UdiDHcEkBc72yCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.min.css" integrity="sha512-OkYLbkJ4DB7ewvcpNLF9DSFmhdmxFXQ1Cs+XyjMsMMC94LynFJaA9cPXOokugkmZo6O6lwZg+V5dwQMH4S5/3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/css/modal-video.min.css" integrity="sha256-nd8IBqNn9uqwZKfZcLIXQcNxk5TjqrxiLx7PzN5PFW0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" integrity="sha256-auPoJwk/+RK6KSkib92Dkq1Y5hEkZvKtvSwucs15Skg=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video-js.min.css" integrity="sha512-J3tx4ssoARFr4U9VmZmQe2q672q0jUeYizJW3vglkOBTlQ/N6kF3eVqZZzaey/TdIXH69s3HYe2nQwyxK/Emzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link rel="stylesheet" href="https://cdn.poedb.tw/css/stdtheme.2ee77f64c96f1967.css" />
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/js/bootstrap.bundle.min.js" integrity="sha512-HvOjJrdwNpDbkGJIG2ZNqDlVqMo77qbs4Me4cah0HoDrfhrbA+8SBlZn1KrvAQw7cILLPFJvdwIgphzQmMm+Pw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js" integrity="sha256-Ikk5myJowmDQaYVCUD0Wr+vIDkN8hGI58SGWdE671A8=" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js" integrity="sha512-BkpSL20WETFylMrcirBahHfSnY++H2O1W+UnEEO4yNIl+jI2+zowyoGJpbtk6bx97fBXf++WJHSSK2MV4ghPcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.full.min.js" integrity="sha512-RtZU3AyMVArmHLiW0suEZ9McadTdegwbgtiQl5Qqo9kunkVg1ofwueXD8/8wv3Af8jkME3DDe3yLfR8HSJfT2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.7/tippy-bundle.umd.min.js" integrity="sha512-gbruucq/Opx9jlHfqqZeAg2LNK3Y4BbpXHKDhRC88/tARL/izPOE4Zt2w6X9Sn1UeWaGbL38zW7nkL2jdn5JIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.1/marked.min.js" integrity="sha512-VUuO/d6MS7hXmiFGEj7HtUa2FCI6Ll+xPvX9yX3bxn7ZqDWwleqXa8dtW13brbZ1ld2jiTrv8hWbpfp4B5mi4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.2.1/sweetalert2.all.js" integrity="sha512-A7LzqKE/pm9ofgS0Lxu7qroQS5SkKJQaYJkJ/66nQiWZfEdeGlBq5zEXQ63VRmXZK8zPpCgFf2WQJIAljI0Vdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/modal-video@2.4.6/js/modal-video.min.js" integrity="sha256-VqINwNxkS4VEDMq5O52YTckX+Mx84X6bafO8NxF21Xw=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js" integrity="sha256-DiHJ7hbvMejsMyP76bpVWacb5HSHQ2sQlrJV8n7KEvA=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/echarts.min.js" integrity="sha512-4/g9GAdOdTpUP2mKClpKsEzaK7FQNgMjq+No0rX8XZlfrCGtbi4r+T/p5fnacsEC3zIAmHKLJUL7sh3/yVA4OQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/6.0.0/theme/dark.min.js" integrity="sha512-3Zm64ayK7DflnnyO2pKkLJX3v9Sb90mvahbwPUuMzEf42HI6k8tquIx5VsNBjEWAcYJWzvimbqnTkLl2QdCUmw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.19.1/video.min.js" integrity="sha512-48NkCweTzA9u2sP4GgKcEDm6IScPIMga142ipKFNcHfz7feUJXDJxO1jwc2l+5MvWfwMj4BDfQv8WIMhrPxZLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.2.1/mustache.min.js" integrity="sha512-Qjrukx28QnvFWISw9y4wCB0kTB/ISnWXPz5/RME5o8OlZqllWygc1AB64dOBlngeTeStmYmNTNcM6kfEjUdnnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js" integrity="sha512-7O5pXpc0oCRrxk8RUfDYFgn0nO1t+jLuIOQdOMRp4APB7uZ4vSjspzp5y6YDtDs4VzUSTbWzBFZ/LKJhnyFOKw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js" integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        <script src="https://cdn.poedb.tw/js/ModsView.6d68ad906ceba146.js"></script>
+        <script src="https://cdn.poedb.tw/js/poedb_header.a5ba197f514f530c.js"></script>
+    
+    <script data-cfasync="false">window.nitroAds=window.nitroAds||{createAd:function(){return new Promise(e=>{window.nitroAds.queue.push(["createAd",arguments,e])})},addUserToken:function(){window.nitroAds.queue.push(["addUserToken",arguments])},queue:[]};</script>
+    <script data-cfasync="false" async src="https://s.nitropay.com/ads-562.js"></script>
+
+    <meta property="og:site_name" content="poedb.tw">
+<meta property="og:title" content="猫之势" />
+<meta property="og:description" content="当生效时，依次轮流赋予玩家猫之隐匿和猫之敏捷。猫之隐匿会提高暴击率，短时间内有一定几率避免伤害，并使你更难被敌人发现。猫之敏捷会在一段时间内增加你的攻击和施法速度。" />
+<meta property="og:image" content="https://web.poecdn.com/image/Art/2DArt/SkillIcons/CatAspect.png?scale=0" />
+
+  </head>
+
+  <body>
+
+    <div id="consent-box" style="display:none">
+      <button onclick="window.__cmp('showModal');">
+        Update cookie preferences
+      </button>
+    </div>
+    
+    <script>
+      if (window["nitroAds"] && window["nitroAds"].loaded) {
+        document.getElementById("consent-box").style.display = window["__tcfapi"]
+          ? ""
+          : "none";
+      } else {
+        document.addEventListener(
+          "nitroAds.loaded",
+          () =>
+            (document.getElementById("consent-box").style.display = window["__tcfapi"]
+              ? ""
+              : "none")
+        );
+      }
+    </script>
+
+
+    <div class="background-image "></div>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3B810SRKBH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3B810SRKBH');
+</script>
+
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="navbar-brand fw-bold" href="/cn/">PoE<span class='brand-suffix'>DB</span><sub></sub></a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"  aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Items" data-i18n="ClientStrings|UIOptionsSectionTitleItems|Name">物品</a></li>
+                    <li><a class="dropdown-item" href="/cn/Unique_item" data-i18n="ClientStrings|ItemDisplayStringUnique|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Vendor_recipe_system" data-i18n="ClientStrings|TutorialPanelVendorRecipes|Name">商人物品配方</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Gem" data-i18n="ClientStrings|ItemDisplayStringGem|Name">宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Skill_Gems" data-i18n="ItemClasses|Active Skill Gem|Name">技能宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Support_Gems" data-i18n="ItemClasses|Support Skill Gem|Name">辅助宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Transfigured_Gems" data-i18n="ClientStrings|ItemFilterRuleTransfiguredGems|Name">改造宝石</a></li>
+                    <li><a class="dropdown-item" href="/cn/Exceptional" data-i18n="GemTags|exceptional|Name">Exceptional</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="themes">
+                    <li><a class="dropdown-item" href="/cn/Modifiers" data-i18n="ClientStrings|ExpeditionModsTitle|Name">词缀</a></li>
+                    <li><a class="dropdown-item" href="/cn/Keywords" data-i18n-tw="提示字">Keywords</a></li>
+                    <li><a class="dropdown-item" href="/cn/Oil" data-i18n="AchievementItems|DeliriumCraftItemsUsingCurrency1_8|Name">圣油</a></li>
+                    <li><a class="dropdown-item" href="/cn/Crafting_Bench" data-i18n="BaseItemTypes|Metadata/Items/HideoutInteractables/HideoutCraftingBench|Code"></a></li>
+                    <li><a class="dropdown-item" href="/cn/Horticrafting" data-i18n="ClientStrings|HarvestCraftingStationTitle|Name">花园工艺</a></li>
+                    <li><a class="dropdown-item" href="/cn/metamods">工艺互动</a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</span> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/cn/Quest" data-i18n="ClientStrings|ItemDisplayStringQuest|Name">使命</a></li>
+                    <li><a class="dropdown-item" href="/cn/Ascendancy_class" data-i18n="ClientStrings|TutorialPanelAscendancies|Name">升华职业</a></li>
+                    <li><a class="dropdown-item" href="/cn/Bloodline_Ascendancy_class" data-i18n-tw="血裔職業" data-i18n-cn="血脉职业">Bloodline Ascendancy class</a></li>
+                    <li><a class="dropdown-item" href="/cn/passive-skill-tree/" data-i18n="ClientStrings|ActionOpenPassivePanel|Name">天赋树</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/cn/Maps" data-i18n="UniqueStashTypes|Map|Name">地图</a></li>
+                    <li><a class="dropdown-item" href="/cn/Atlas_of_Worlds" data-i18n="MapSeries|MapAtlas|Name"></a></li>
+                    <li><a class="dropdown-item" href="/cn/atlas-skill-tree/" data-i18n="ClientStrings|ActionOpenAtlasPassivesScreen|Name"></a></li>
+                  </ul>
+                </li>
+    
+                <li class="nav-item"><a class="nav-link" href="Economy" data-i18n-tw="經濟" data-i18n-cn="经济">Economy</a></li>
+    
+                <li class="nav-item"><a class="ms-4 nav-link  bg-warning rounded-circle" style="color: white" href="/cn/patreon">赞助</a></li>
+              </ul>
+    
+    
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" aria-current="page" href="https://poe2db.tw/cn/Aspect_of_the_Cat">PoE2<span class="brand-suffix">DB</span></a>
+                </li>
+    
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-language fa-lg"></i> <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a class="dropdown-item" href="/tw/Aspect_of_the_Cat">TW 繁體中文</a></li>
+                    <li><a class="dropdown-item" href="/cn/Aspect_of_the_Cat">CN 简体中文</a></li>
+                    <li><a class="dropdown-item" href="/us/Aspect_of_the_Cat">US English</a></li>
+                    <li><a class="dropdown-item" href="/kr/Aspect_of_the_Cat">KR 한국어</a></li>
+                    <li><a class="dropdown-item" href="/ru/Aspect_of_the_Cat">RU Русский</a></li>
+                    <li><a class="dropdown-item" href="/jp/Aspect_of_the_Cat">JP Japanese</a></li>
+                    <li><a class="dropdown-item" href="/fr/Aspect_of_the_Cat">FR Français</a></li>
+                    <li><a class="dropdown-item" href="/de/Aspect_of_the_Cat">DE Deutsch</a></li>
+                    <li><a class="dropdown-item" href="/th/Aspect_of_the_Cat">TH ภาษาไทย</a></li>
+                    <li><a class="dropdown-item" href="/pt/Aspect_of_the_Cat">PO Português</a></li>
+                    <li><a class="dropdown-item" href="/sp/Aspect_of_the_Cat">ES Spanish</a></li>
+                  </ul>
+                </li>
+              </ul>
+    
+            <form class="form-inline my-2 my-lg-0" role="search" action="search">
+              <input type="hidden" name="token" value="8d2001924b643fd4f2274f2bd24f7b13f6206cf1886157066f15a4c195d53f31ded71a">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="q" id="navautosearch">
+            </form>
+    
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+    </header>
+
+<script>sidebar160("leftside_banner", "left");</script>
+<script>sidebar160("rightside_banner", "right");</script>
+
+
+
+    <div class="page ">
+    <div class="page-content theme-showcase container" role="main">
+
+
+<div class="d-flex flex-wrap justify-content-center"><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Expedition_league" data-bs-toggle="tooltip" title="先祖秘藏 v3.15"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/ExpeditionDetonator.webp" alt="ExpeditionDetonator" class="league_minimap" /></span></a><a href="Ultimatum_league" data-bs-toggle="tooltip" title="致命贪婪 v3.14"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/UltimatumAltar.webp" alt="UltimatumAltar" class="league_minimap" /></span></a><a href="Ritual_league" data-bs-toggle="tooltip" title="驱灵仪式 v3.13"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/RitualRune.webp" alt="RitualRune" class="league_minimap" /></span></a><a href="Blight_league" data-bs-toggle="tooltip" title="菌潮 v3.8"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BlightCore.webp" alt="BlightCore" class="league_minimap" /></span></a><a href="Legion_league" data-bs-toggle="tooltip" title="军团 v3.7"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/LegionInitiator.webp" alt="LegionInitiator" class="league_minimap" /></span></a><a href="Betrayal_league" data-bs-toggle="tooltip" title="背叛者 v3.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BetrayalSymbolCatarina.webp" alt="BetrayalSymbolCatarina" class="league_minimap" /></span></a><a href="Incursion_league" data-bs-toggle="tooltip" title="穿越 v3.3"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/IncursionCraftingBench.webp" alt="IncursionCraftingBench" class="league_minimap" /></span></a><a href="Bestiary_league" data-bs-toggle="tooltip" title="猎魔 v3.2"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/BestiaryRareMonster.webp" alt="BestiaryRareMonster" class="league_minimap" /></span></a><a href="Abyss_league" data-bs-toggle="tooltip" title="深渊 v3.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Abyss.webp" alt="Abyss" class="league_minimap" /></span></a><a href="Breach_league" data-bs-toggle="tooltip" title="裂隙 v2.5"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Breach.webp" alt="Breach" class="league_minimap" /></span></a>
+    </div>
+  </div>
+</div><div class="card mb-2" id="head_toolbar">
+  <div class="card-body p-1">
+    <div class="league_bar text-center">
+      <a href="Allflame_league" data-bs-toggle="tooltip" title="永火之咒 v3.29"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DeepwaterCursedTreasure.webp" alt="DeepwaterCursedTreasure" class="league_minimap" /></span></a><a href="Mirage_league" data-bs-toggle="tooltip" title="沙海幻境 v3.28"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Mirage.webp" alt="Mirage" class="league_minimap" /></span></a><a href="Mercenaries_league" data-bs-toggle="tooltip" title="佣兵 v3.26"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/MercenaryEncounter.webp" alt="MercenaryEncounter" class="league_minimap" /></span></a><a href="Settlers_league" data-bs-toggle="tooltip" title="君锋城下 v3.25"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/VillageShipping.webp" alt="VillageShipping" class="league_minimap" /></span></a><a href="Sanctum_league" data-bs-toggle="tooltip" title="圣地 v3.20"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Sanctum.webp" alt="Sanctum" class="league_minimap" /></span></a><a href="Archnemesis_league" data-bs-toggle="tooltip" title="罪恶枷锁 v3.17"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Archnemesis.webp" alt="Archnemesis" class="league_minimap" /></span></a><a href="Heist_league" data-bs-toggle="tooltip" title="夺宝奇兵 v3.12"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HeistSumgglersCache.webp" alt="HeistSumgglersCache" class="league_minimap" /></span></a><a href="Harvest_league" data-bs-toggle="tooltip" title="庄园 v3.11"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/HarvestPortal.webp" alt="HarvestPortal" class="league_minimap" /></span></a><a href="Delirium_league" data-bs-toggle="tooltip" title="惊悸迷雾 v3.10"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/AfflictionInitiator.webp" alt="AfflictionInitiator" class="league_minimap" /></span></a><a href="Delve_league" data-bs-toggle="tooltip" title="地心探索 v3.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/DelveMineralVein.webp" alt="DelveMineralVein" class="league_minimap" /></span></a><a href="Essence_league" data-bs-toggle="tooltip" title="精华 v2.4"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Essence.webp" alt="Essence" class="league_minimap" /></span></a><a href="Tormented_Spirit" data-bs-toggle="tooltip" title="Tormented Spirit v1.3"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/SpeakeroftheDead.webp" class="league_minimap"/></a><a href="Beyond" data-bs-toggle="tooltip" title="超越 v1.2"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/EndlessTide.webp" class="league_minimap"/></a><a href="Strongbox" data-bs-toggle="tooltip" title="保险箱 v1.1"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Strongbox.webp" alt="Strongbox" class="league_minimap" /></span></a><a href="Shrine" data-bs-toggle="tooltip" title="神殿 v1.0"  class="league_bar_icon"><span class="MinimapIcons"><img loading="lazy" decoding="async" src="https://cdn.poedb.tw/image/Art/2DArt/minimap/player/Shrine.webp" alt="Shrine" class="league_minimap" /></span></a><a href="Rogue_Exiles" data-bs-toggle="tooltip" title="Rogue Exiles v0.11"  class="league_bar_icon"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/passives/AtlasTrees/Anarchy4.webp" class="league_minimap"/></a>
+    </div>
+  </div>
+</div></div>
+
+
+
+<div id="topbanner970"></div><script>topbanner970("topbanner970");</script>
+
+<ul class="nav nav-tabs d-flex flex-wrap" role="tablist"><li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" role="tab" aria-selected="true" href="#AspectoftheCat传奇">Aspect of the Cat 传奇 /3 </a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#cat_aspectbuff">cat_aspect buff</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#AspectoftheCatAspectoftheCat">Aspect of the Cat Aspect of the Cat</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#Acronym">Aspect of the Cat 关键字</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="tab" role="tab" aria-selected="false" href="#傲猫祝福">傲猫祝福</a></li></ul><div class="tab-content"><div id="AspectoftheCat传奇" class="tab-pane fade show active"><div   class="card mb-2 ">
+   <h5 class="card-header">Aspect of the Cat 传奇 /3 </h5>   <div class="row row-cols-1 row-cols-lg-2 g-2 bg-dark"><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"></div><div class="flex-grow-1 ms-2"><div><a class="UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/29597031b19c6deb46a9da70b20733d27cb44e333a0dcc2be17c7a85e84af1b9" href="/cn/Farruls_Bite"><span class="uniqueName">大地之牙</span> <span class="uniqueTypeLine">鹰喙之面</span></a></div><div class="requirements">需求 等级 <span class="colourDefault">57</span>, <span class="colourDefault">64</span> 敏捷, <span class="colourDefault">64</span> 智慧</div><div class="explicitMod">获得 <span class='mod-value'>20</span> 级的主动技能<a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_ActiveSkills_hover/830abc87f881508f1db31bffe4e6728e402418afeec59ba568a46a675deca8f9" href="/cn/Aspect_of_the_Cat">猫之势</a></div><div class="explicitMod">该装备的闪避与能量护盾提高 <span class='mod-value'>(180<span class="ndash">—</span>220)</span>%</div><div class="explicitMod"><span class='mod-value'>+(25<span class="ndash">—</span>35)</span>% 冰霜抗性</div><div class="explicitMod">受到猫之势影响时，<span class='mod-value'>+1</span>% 暴击率</div><div class="explicitMod">拥有<a class="BuffDefinitions" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BuffDefinitions_hover/24b204142e229b6201cb7ad4335affc0452ed053f4e7e822acb10f4090be434b" href="Cats_Stealth">猫之隐匿</a>时，暴击有 <span class='mod-value'>(10<span class="ndash">—</span>20)</span>% 的几率致盲敌人</div><div class="explicitMod">对致盲敌人的击中和异常状态伤害提高 <span class='mod-value'>(40<span class="ndash">—</span>50)</span>%</div><div class="explicitMod"><span class="item_description">(伤害类异常状态包括流血、点燃和中毒)</span></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"></div><div class="flex-grow-1 ms-2"><div><a class="UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/442bb20e9ac391f823d3f7f3275d1676c73e8aac6a90cd35aebd72a7566485e7" href="/cn/Farruls_Fur"><span class="uniqueName">大地之护</span> <span class="uniqueTypeLine">胜利盔甲</span></a></div><div class="requirements">需求 等级 <span class="colourDefault">69</span>, <span class="colourDefault">95</span> 力量, <span class="colourDefault">116</span> 敏捷</div><div class="explicitMod">该装备的护甲与闪避提高 <span class='mod-value'>(100<span class="ndash">—</span>150)</span>%</div><div class="explicitMod"><span class='mod-value'>+(80<span class="ndash">—</span>100)</span> 最大生命</div><div class="explicitMod"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_ActiveSkills_hover/830abc87f881508f1db31bffe4e6728e402418afeec59ba568a46a675deca8f9" href="/cn/Aspect_of_the_Cat">猫之势</a>没有保留效果</div><div class="explicitMod"><a class="BuffDefinitions" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BuffDefinitions_hover/24b204142e229b6201cb7ad4335affc0452ed053f4e7e822acb10f4090be434b" href="Cats_Stealth">猫之隐匿</a>持续时间 <span class='mod-value'>+2</span> 秒</div><div class="explicitMod">你获得猫之隐匿时也会同时获得自身最大数量的狂怒球和暴击球</div><div class="explicitMod">拥有猫之隐匿时获得迷踪状态</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"></div><div class="flex-grow-1 ms-2"><div><a class="UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/fda79fdaf3f27829af9e3432c63318aac75c0cc55fd6adc74f61e4b9ed03664f" href="/cn/Replica_Farruls_Fur"><span class="uniqueName">大地之护【仿品】</span> <span class="uniqueTypeLine">胜利盔甲</span></a></div><div class="requirements">需求 等级 <span class="colourDefault">69</span>, <span class="colourDefault">95</span> 力量, <span class="colourDefault">116</span> 敏捷</div><div class="explicitMod">该装备的护甲与闪避提高 <span class='mod-value'>(100<span class="ndash">—</span>150)</span>%</div><div class="explicitMod"><span class='mod-value'>+(80<span class="ndash">—</span>100)</span> 最大生命</div><div class="explicitMod"><a class="BuffDefinitions" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BuffDefinitions_hover/4a796bd1569444d036753851ded1f02ce2f9a6aa26fdb5bd42149f2a3f473c9e" href="Cats_Agility">猫之敏捷</a>持续时间 <span class='mod-value'>+2</span> 秒</div><div class="explicitMod"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_ActiveSkills_hover/830abc87f881508f1db31bffe4e6728e402418afeec59ba568a46a675deca8f9" href="/cn/Aspect_of_the_Cat">猫之势</a>没有保留效果</div><div class="explicitMod">你获得猫之敏捷时，狂怒球和耐力球获得至数量上限</div><div class="explicitMod">你有猫之敏捷时，具有猛攻效果</div></div></div></div></div>  </div></div><div id="cat_aspectbuff" class="tab-pane fade"><span data-tabname="cat_aspect buff"></span><div class="d-flex flex-wrap">
+
+<div class="newItemPopup GemPopup  "
+>
+    <div class="itemHeader singleLine">
+
+        <div class="itemName typeLine">
+            <span class="lc">猫之势</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="Stats">
+            <div class="secDescrText">cat_aspect</div>
+        </div>
+
+
+
+        <div>
+            Aspect of the Cat
+        </div>
+    </div>
+</div>
+
+
+        <div class="itemboximage">
+          <div class="buff-icon-container buff-icon-type__Buff">
+            <div class="buff-icon-frame"></div>
+            <a>
+              <img loading="lazy" src="">
+            </a>
+          </div>
+
+
+        </div>
+
+
+
+</div>
+<div   class="card mb-2 ">
+   <h5 class="card-header">Attribute /6 </h5> <h3 style='display: none'>cat_aspect</h3>  <div class='table-responsive'><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>名字</th><th>显示物品素质</th></tr></thead><tbody>
+<tr><td>IsInvisible</td><td>1</td></tr>
+<tr><td>IsRemovable</td><td>1</td></tr>
+<tr><td>IsSkillBuff</td><td>1</td></tr>
+<tr><td>BuffGroupsID</td><td>37</td></tr>
+<tr><td>IsBuffDefinition</td><td>1</td></tr>
+<tr><td>BuffMergeModesID</td><td>2</td></tr></tbody></table></div>  </div><div class='row'></div></div><div id="AspectoftheCatAspectoftheCat" class="tab-pane fade"><span data-tabname="Aspect of the Cat <small>Aspect of the Cat</small>" data-category="ActiveSkills"></span><div class="d-flex flex-wrap">
+
+<div class="newItemPopup GemPopup  "
+>
+    <div class="itemHeader singleLine">
+
+        <div class="itemName typeLine">
+            <span class="lc">猫之势</span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="Stats">
+            <div class="property">等级: <span class='colourDefault'>(20<span class="ndash">—</span>35)</span></div><div class="property">保留: <span class='colourDefault'>25% 魔力</span></div><div class="property">冷却时间: <span class='colourDefault'>0.50 秒</span></div><div class="property">施放间隔: <span class='colourDefault'>瞬发</span></div><div class="separator"></div><div class="secDescrText">当生效时，依次轮流赋予玩家猫之隐匿和猫之敏捷。猫之隐匿会提高暴击率，短时间内有一定几率避免伤害，并使你更难被敌人发现。猫之敏捷会在一段时间内增加你的攻击和施法速度。</div><div class="separator"></div><div class="explicitMod">基础持续时间为 <span class='mod-value'>4</span> 秒</div><div class="explicitMod">基础额外效果持续时间 <span class='mod-value'>6</span> 秒</div><div class="explicitMod">施法速度加快 <span class='mod-value'>(10<span class="ndash">—</span>20)</span>%</div><div class="explicitMod">攻击速度加快 <span class='mod-value'>(10<span class="ndash">—</span>20)</span>%</div><div class="explicitMod">暴击率提高 <span class='mod-value'>(100<span class="ndash">—</span>140)</span>%</div><div class="explicitMod">有 <span class='mod-value'>15</span>% 的几率避免来自击中的每一种伤害</div><div class="explicitMod">潜行提高 <span class='mod-value'>100</span>%</div>
+        </div>
+
+
+
+        <div>
+            Aspect of the Cat
+        </div>
+    </div>
+</div>
+
+
+        <div class="itemboximage">
+
+                <img loading="lazy" class="" src="https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/CatAspect.webp"/>
+
+        </div>
+
+
+
+</div>
+<div   class="card mb-2 ">
+   <h5 class="card-header">等级效果 /3 </h5> <div   class="card mb-2 ">
+      <div class="table-responsive"><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>固定</th></tr></thead><tbody id="RZFqgxvr52"><tr><td>Mana: 25%</td></tr><tr><td>CooldownTime: 500</td></tr><tr><td>有 <span class='mod-value'>15</span>% 的几率避免来自击中的每一种伤害</td></tr><tr><td>潜行提高 <span class='mod-value'>100</span>%</td></tr><tr><td>基础持续时间为 <span class='mod-value'>4</span> 秒</td></tr><tr><td>基础额外效果持续时间 <span class='mod-value'>6</span> 秒</td></tr></tbody></table></div>  </div>  <div class="table-responsive"><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>等级</th><th>需求等级</th><th>基本伤害</th><th><span class="explicitMod">暴击率提高 <span class='mod-value'>100</span>%</span></th><th><span class="explicitMod">攻击速度加快 <span class='mod-value'>10</span>%</span></th><th><span class="explicitMod">施法速度加快 <span class='mod-value'>10</span>%</span></th><th>经验值</th></tr></thead><tbody id="ns9b6RBaWE"><tr><td>20</td><td>1</td><td>100%, 100%, 100%</td><td>100</td><td>10</td><td>10</td><td></td></tr><tr><td>30</td><td>1</td><td>100%, 100%, 100%</td><td>120</td><td>16</td><td>16</td><td></td></tr><tr><td>35</td><td>1</td><td>100%, 100%, 100%</td><td>140</td><td>20</td><td>20</td><td></td></tr></tbody></table></div>  </div><div class="row"><div id="echartssPz5NN0O0T" class="col-lg-6 echarts echartGemLevel"></div>
+<script>
+$(function() {
+    echarts.init(document.getElementById('echartssPz5NN0O0T'), 'dark').setOption({"title":{"text":"暴击率提高 100%"},"tooltip":{"trigger":"axis"},"xAxis":{"name":"Level","data":[1,2,3]},"yAxis":{"type":"value"},"series":[{"data":["100","120","140"],"type":"line"}]});
+});
+</script>
+<div id="echartsfN43PvmKvJ" class="col-lg-6 echarts echartGemLevel"></div>
+<script>
+$(function() {
+    echarts.init(document.getElementById('echartsfN43PvmKvJ'), 'dark').setOption({"title":{"text":"攻击速度加快 10%"},"tooltip":{"trigger":"axis"},"xAxis":{"name":"Level","data":[1,2,3]},"yAxis":{"type":"value"},"series":[{"data":["10","16","20"],"type":"line"}]});
+});
+</script>
+<div id="echartsqO6m6dMsJt" class="col-lg-6 echarts echartGemLevel"></div>
+<script>
+$(function() {
+    echarts.init(document.getElementById('echartsqO6m6dMsJt'), 'dark').setOption({"title":{"text":"施法速度加快 10%"},"tooltip":{"trigger":"axis"},"xAxis":{"name":"Level","data":[1,2,3]},"yAxis":{"type":"value"},"series":[{"data":["10","16","20"],"type":"line"}]});
+});
+</script>
+</div><div   class="card mb-2 ">
+   <h5 class="card-header">Attribute /4 </h5> <h3 style='display: none'>Aspect of the Cat</h3>  <div class='table-responsive'><table class='table table-hover table-striped mb-0 filters bg-dark '><thead><tr><th>名字</th><th>显示物品素质</th></tr></thead><tbody>
+<tr><td>BaseType <span class='fas fa-info-circle' data-bs-toggle='tooltip' title='Item Filter'></span></td><td>Aspect of the Cat</td></tr>
+<tr><td>TargetTypes</td><td>任何</td></tr>
+<tr><td>Type</td><td>增益, 法术, 消耗保留, 持续时间, 立即, InstantNoRepeatWhenHeld, InstantShiftAttackForLeftMouse, 冷却</td></tr>
+<tr><td>ActiveSkillsCode</td><td>aspect_cat</td></tr></tbody></table></div>  </div><div   class="card mb-2 ">
+   <h5 class="card-header">被辅助 /18 </h5> <div class='card-body'><li>主动类型: 增益, 法术, 消耗保留, 持续时间, 立即, InstantNoRepeatWhenHeld, InstantShiftAttackForLeftMouse, 冷却</li></div>  <div class="row row-cols-1 row-cols-lg-2 g-2 bg-dark"><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c4cbec57c5957a8ee7a57208f7b916b2162f535a018227112758b1812b18489a" href="/cn/Inspiration_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/ReducedManaCost.webp" alt="ReducedManaCost" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c4cbec57c5957a8ee7a57208f7b916b2162f535a018227112758b1812b18489a" href="/cn/Inspiration_Support">启迪（辅）</a><div>辅助任意技能。召唤生物、图腾、陷阱、地雷无法获得启迪球。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/96656ff6e35156916a24f7222f0c7e862f4ecd10b85d3039dc65521c39bd12f8" href="/cn/More_Duration_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/IncreasedDuration.webp" alt="IncreasedDuration" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/96656ff6e35156916a24f7222f0c7e862f4ecd10b85d3039dc65521c39bd12f8" href="/cn/More_Duration_Support">持续时间总增（辅）</a><div>辅助任意有持续时间的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/470c339b2c11a76dcc64b0cebd2a35a7e80949cbd817e45dccec21b15e67f4d8" href="/cn/Arrogance_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/BloodMagic.webp" alt="BloodMagic" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/470c339b2c11a76dcc64b0cebd2a35a7e80949cbd817e45dccec21b15e67f4d8" href="/cn/Arrogance_Support">赤嚣（辅）</a><div>辅助具有保留效果的非祝福技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8ea167ee93c49d5d2675e86a0f7b1b0f80d57fa5fac767ba9454d55b71498c2a" href="/cn/Empower_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Empower.webp" alt="Empower" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/8ea167ee93c49d5d2675e86a0f7b1b0f80d57fa5fac767ba9454d55b71498c2a" href="/cn/Empower_Support">赋予(辅)</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的等级。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b10107fe62b42ae1b38f8251a7a9048b4817ab25dc3f4d4dfe643f60616cc3ce" href="/cn/Less_Duration_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/ReduceDuration.webp" alt="ReduceDuration" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b10107fe62b42ae1b38f8251a7a9048b4817ab25dc3f4d4dfe643f60616cc3ce" href="/cn/Less_Duration_Support">持续时间总降(辅)</a><div>辅助任意有持续时间的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1333986b34937995dec9091827ec528950510033ec6265fdc027db00089b3173" href="/cn/Awakened_Empower_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/EmpowerPlus.webp" alt="EmpowerPlus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/1333986b34937995dec9091827ec528950510033ec6265fdc027db00089b3173" href="/cn/Awakened_Empower_Support">赋予（强辅）</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的等级。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/aabc2479a9330f84b6b6f51ef3540285b5a48bb3c10ddf4065c7fbd43a305208" href="/cn/Lifetap_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/LifeTap.webp" alt="LifeTap" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/aabc2479a9330f84b6b6f51ef3540285b5a48bb3c10ddf4065c7fbd43a305208" href="/cn/Lifetap_Support">赤炼（辅）</a><div>辅助任意非祝福技能。召唤生物不能获得赤炼效果。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b5948b68f65bb74166996ae1acae997fbbd255f6dd2bd0487e0a5b3963335dab" href="/cn/Transfusion_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/TransfusionSupport.webp" alt="TransfusionSupport" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b5948b68f65bb74166996ae1acae997fbbd255f6dd2bd0487e0a5b3963335dab" href="/cn/Transfusion_Support">渗透（辅）</a><div>辅助非祝福法术。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/25464416fad96d890806631b6ea1d92f23f5a4fa5d0b09bfce7e4960d3d4fe0c" href="/cn/Enhance_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/enhance.webp" alt="enhance" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/25464416fad96d890806631b6ea1d92f23f5a4fa5d0b09bfce7e4960d3d4fe0c" href="/cn/Enhance_Support">增幅(辅)</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的品质。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b3660530d501769688957a5d638225e3c3c5bfded85f6ad6f00ae14031c6f8b9" href="/cn/Swift_Affliction_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportRapidDecayGem.webp" alt="SupportRapidDecayGem" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/b3660530d501769688957a5d638225e3c3c5bfded85f6ad6f00ae14031c6f8b9" href="/cn/Swift_Affliction_Support">极速腐化(辅)</a><div>辅助任意有持续时间或能通过击中造成异常状态的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c04b4d8422b29f3cba20886ff5d48f93559bdc88961217c2967af58c5cd6aca4" href="/cn/Awakened_Swift_Affliction_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/SupportRapidDecayPlus.webp" alt="SupportRapidDecayPlus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c04b4d8422b29f3cba20886ff5d48f93559bdc88961217c2967af58c5cd6aca4" href="/cn/Awakened_Swift_Affliction_Support">极速腐化（强辅）</a><div>辅助任意有持续时间或能通过击中造成异常状态的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f345173a6ca0907ee7f1dd51ebef1af81ce8ba77c7cbc0d0ce5bb75ff8d70072" href="/cn/Awakened_Enhance_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/enhanceplus.webp" alt="enhanceplus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/f345173a6ca0907ee7f1dd51ebef1af81ce8ba77c7cbc0d0ce5bb75ff8d70072" href="/cn/Awakened_Enhance_Support">增幅（强辅）</a><div>辅助任意技能，当该宝石达到 2 级或以上时，提升被辅助技能的品质。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a87a1587506e20786e3515e3840088e73808e05d6689b3a38686511aa3605a84" href="/cn/Second_Wind_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SecondWindSupport.webp" alt="SecondWindSupport" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_green" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a87a1587506e20786e3515e3840088e73808e05d6689b3a38686511aa3605a84" href="/cn/Second_Wind_Support">助力之风（辅）</a><div>辅助有冷却时间的技能。
+无法辅助触发技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/5910ff00fd85eb7b2b03163e5f79e30b26cbc3011cc09aa259f070323e511425" href="/cn/Enlighten_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Enlighten.webp" alt="Enlighten" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/5910ff00fd85eb7b2b03163e5f79e30b26cbc3011cc09aa259f070323e511425" href="/cn/Enlighten_Support">启蒙(辅)</a><div>辅助任意技能，当该宝石达到 2 级或以上时，对被辅助技能施加消耗和保留加成。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/fe93559507b1833e8361c69567de92516243e8e6c0acce1c70263c697abbd756" href="/cn/Efficacy_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Efficacy.webp" alt="Efficacy" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/fe93559507b1833e8361c69567de92516243e8e6c0acce1c70263c697abbd756" href="/cn/Efficacy_Support">效能(辅)</a><div>辅助任意能造成伤害或有持续时间的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a38e8e8d6f26c806b2ab82d44e46a162d59c2dea6ef40e736b3c31f823576d66" href="/cn/Awakened_Enlighten_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/SupportPlus/Enlightenplus.webp" alt="Enlightenplus" class="w1" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/a38e8e8d6f26c806b2ab82d44e46a162d59c2dea6ef40e736b3c31f823576d66" href="/cn/Awakened_Enlighten_Support">启蒙（强辅）</a><div>辅助任意技能，当该宝石达到 2 级或以上时，对被辅助技能施加消耗和保留加成。无法辅助非技能宝石带来的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/06c21f1c087941a0be3bfc772d6955cb670eb9396a955c8ab83b92dc280705ae" href="/cn/Cooldown_Recovery_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/CooldownRecovery.webp" alt="CooldownRecovery" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/06c21f1c087941a0be3bfc772d6955cb670eb9396a955c8ab83b92dc280705ae" href="/cn/Cooldown_Recovery_Support">冷却回复（辅）</a><div>辅助有冷却时间的技能。无法作用于召唤生物的技能。</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"><a class="gemitem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c5dd16edf97d8f97db2884fb86b7670b93aa0ecd70791c05803847bc6ccd538f" href="/cn/Eclipse_Support"><img loading="lazy" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/Eclipse.webp" alt="Eclipse" class="w1 gem-exceptional" /></a></div><div class="flex-grow-1 ms-2"><a class="gemitem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_GemEffects_hover/c5dd16edf97d8f97db2884fb86b7670b93aa0ecd70791c05803847bc6ccd538f" href="/cn/Eclipse_Support">月蚀（辅）</a><div>辅助所有技能宝石。
+无法辅助非源自宝石的技能。</div></div></div></div></div>  </div></div><div id="Acronym" class="tab-pane fade"><span data-tabid="Acronym" data-tabname="Aspect of the Cat <small>关键字</small>"></span><div   class="card mb-2 ">
+   <h5 class="card-header"> 传奇 /5 </h5>   <div class="row row-cols-1 row-cols-lg-2 g-2 bg-dark"><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"></div><div class="flex-grow-1 ms-2"><div><a class="UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/442bb20e9ac391f823d3f7f3275d1676c73e8aac6a90cd35aebd72a7566485e7" href="/cn/Farruls_Fur"><span class="uniqueName">大地之护</span> <span class="uniqueTypeLine">胜利盔甲</span></a></div><div class="requirements">需求 等级 <span class="colourDefault">69</span>, <span class="colourDefault">95</span> 力量, <span class="colourDefault">116</span> 敏捷</div><div class="explicitMod">该装备的护甲与闪避提高 <span class='mod-value'>(100<span class="ndash">—</span>150)</span>%</div><div class="explicitMod"><span class='mod-value'>+(80<span class="ndash">—</span>100)</span> 最大生命</div><div class="explicitMod"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_ActiveSkills_hover/830abc87f881508f1db31bffe4e6728e402418afeec59ba568a46a675deca8f9" href="/cn/Aspect_of_the_Cat">猫之势</a>没有保留效果</div><div class="explicitMod"><a class="BuffDefinitions" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BuffDefinitions_hover/24b204142e229b6201cb7ad4335affc0452ed053f4e7e822acb10f4090be434b" href="Cats_Stealth">猫之隐匿</a>持续时间 <span class='mod-value'>+2</span> 秒</div><div class="explicitMod">你获得猫之隐匿时也会同时获得自身最大数量的狂怒球和暴击球</div><div class="explicitMod">拥有猫之隐匿时获得迷踪状态</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"></div><div class="flex-grow-1 ms-2"><div><a class="UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/29597031b19c6deb46a9da70b20733d27cb44e333a0dcc2be17c7a85e84af1b9" href="/cn/Farruls_Bite"><span class="uniqueName">大地之牙</span> <span class="uniqueTypeLine">鹰喙之面</span></a></div><div class="requirements">需求 等级 <span class="colourDefault">57</span>, <span class="colourDefault">64</span> 敏捷, <span class="colourDefault">64</span> 智慧</div><div class="explicitMod">获得 <span class='mod-value'>20</span> 级的主动技能<a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_ActiveSkills_hover/830abc87f881508f1db31bffe4e6728e402418afeec59ba568a46a675deca8f9" href="/cn/Aspect_of_the_Cat">猫之势</a></div><div class="explicitMod">该装备的闪避与能量护盾提高 <span class='mod-value'>(180<span class="ndash">—</span>220)</span>%</div><div class="explicitMod"><span class='mod-value'>+(25<span class="ndash">—</span>35)</span>% 冰霜抗性</div><div class="explicitMod">受到猫之势影响时，<span class='mod-value'>+1</span>% 暴击率</div><div class="explicitMod">拥有<a class="BuffDefinitions" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BuffDefinitions_hover/24b204142e229b6201cb7ad4335affc0452ed053f4e7e822acb10f4090be434b" href="Cats_Stealth">猫之隐匿</a>时，暴击有 <span class='mod-value'>(10<span class="ndash">—</span>20)</span>% 的几率致盲敌人</div><div class="explicitMod">对致盲敌人的击中和异常状态伤害提高 <span class='mod-value'>(40<span class="ndash">—</span>50)</span>%</div><div class="explicitMod"><span class="item_description">(伤害类异常状态包括流血、点燃和中毒)</span></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"></div><div class="flex-grow-1 ms-2"><div><a class="UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/13cb3367b53eca3525c1d27c42bebfb16c651867321c411d3045b6fe9a0135c8" href="/cn/Farruls_Pounce"><span class="uniqueName">大地之握</span> <span class="uniqueTypeLine">火蝮鳞手套</span></a></div><div class="requirements">需求 等级 <span class="colourDefault">59</span>, <span class="colourDefault">45</span> 力量, <span class="colourDefault">45</span> 敏捷</div><div class="explicitMod"><span class='mod-value'>+(400<span class="ndash">—</span>500)</span> 命中值</div><div class="explicitMod">该装备的护甲与闪避提高 <span class='mod-value'>(100<span class="ndash">—</span>140)</span>%</div><div class="explicitMod"><span class='mod-value'>+(50<span class="ndash">—</span>70)</span> 最大生命</div><div class="explicitMod">拥有<a class="BuffDefinitions" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BuffDefinitions_hover/24b204142e229b6201cb7ad4335affc0452ed053f4e7e822acb10f4090be434b" href="Cats_Stealth">猫之隐匿</a>时，你的攻击必定造成流血</div><div class="explicitMod">对流血敌人的击中和异常状态伤害提高 <span class='mod-value'>(40<span class="ndash">—</span>50)</span>%</div><div class="explicitMod">拥有猫之隐匿时获得<a class="PassiveSkills" data-hover="?s=Data%5CPassiveSkills%2F17818" href="Crimson_Dance">玫红之舞</a></div><div class="explicitMod"><span class="item_description">（流血造成持续物理伤害，伤害取决于技能初始的物理伤害，移动时受到的流血伤害总增 200%）</span></div><div class="explicitMod"><span class="item_description">(伤害类异常状态包括流血、点燃和中毒)</span></div><div class="explicitMod"><span class="item_description">（你至多可以对敌人造成 8 层流血状态；你造成的流血不会在敌人移动时造成额外伤害，也无法变为恶性；你造成的流血伤害总降 50%）</span></div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"></div><div class="flex-grow-1 ms-2"><div><a class="UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/68a953e89cea4e1cd590980219dca150139da6dc5fa86a2f9d034d98ee9baa8d" href="/cn/Farruls_Chase"><span class="uniqueName">大地之痕</span> <span class="uniqueTypeLine">迷踪短靴</span></a></div><div class="requirements">需求 等级 <span class="colourDefault">69</span>, <span class="colourDefault">120</span> 敏捷</div><div class="explicitMod">当你失去<a class="BuffDefinitions" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BuffDefinitions_hover/24b204142e229b6201cb7ad4335affc0452ed053f4e7e822acb10f4090be434b" href="Cats_Stealth">猫之隐匿</a>时，触发 <span class='mod-value'>20</span> 级的<a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_ActiveSkills_hover/3f040db2b693243f703789c4978e4b4619458ddb74c61ffb7a183dbfb8341a00" href="/cn/Intimidating_Cry">威吓战吼</a></div><div class="explicitMod">该装备的闪避值提高 <span class='mod-value'>(110<span class="ndash">—</span>150)</span>%</div><div class="explicitMod"><span class='mod-value'>+(50<span class="ndash">—</span>70)</span> 最大生命</div><div class="explicitMod">移动速度加快 <span class='mod-value'>20</span>%</div><div class="explicitMod"><span class='mod-value'>(40<span class="ndash">—</span>50)</span>% 几率避免致流血</div><div class="explicitMod">你获得猫之隐匿时移动速度加快 <span class='mod-value'>20</span>%</div></div></div></div><div class="col"><div class="d-flex border-top rounded"><div class="flex-shrink-0"></div><div class="flex-grow-1 ms-2"><div><a class="UniqueItem" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_UniqueItems_hover/fda79fdaf3f27829af9e3432c63318aac75c0cc55fd6adc74f61e4b9ed03664f" href="/cn/Replica_Farruls_Fur"><span class="uniqueName">大地之护【仿品】</span> <span class="uniqueTypeLine">胜利盔甲</span></a></div><div class="requirements">需求 等级 <span class="colourDefault">69</span>, <span class="colourDefault">95</span> 力量, <span class="colourDefault">116</span> 敏捷</div><div class="explicitMod">该装备的护甲与闪避提高 <span class='mod-value'>(100<span class="ndash">—</span>150)</span>%</div><div class="explicitMod"><span class='mod-value'>+(80<span class="ndash">—</span>100)</span> 最大生命</div><div class="explicitMod"><a class="BuffDefinitions" data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_BuffDefinitions_hover/4a796bd1569444d036753851ded1f02ce2f9a6aa26fdb5bd42149f2a3f473c9e" href="Cats_Agility">猫之敏捷</a>持续时间 <span class='mod-value'>+2</span> 秒</div><div class="explicitMod"><a data-hover="https://cdn.poedb.tw/cache1/cn/Poe_Data_ActiveSkills_hover/830abc87f881508f1db31bffe4e6728e402418afeec59ba568a46a675deca8f9" href="/cn/Aspect_of_the_Cat">猫之势</a>没有保留效果</div><div class="explicitMod">你获得猫之敏捷时，狂怒球和耐力球获得至数量上限</div><div class="explicitMod">你有猫之敏捷时，具有猛攻效果</div></div></div></div></div>  </div></div><div id="傲猫祝福" class="tab-pane fade"><div class="card"><h4 class="card-header" data-tabname="Community Wiki">Community Wiki</h4></div><div class="card mb-1">
+    <div class="card-body markdown-body">
+        <a class="btn btn-primary float-end" href='/cn/marked?id=Aspect_of_the_Cat' data-i18n="ClientStrings|HideoutEditControlEdit|Name">Edit</a>
+        <div id="markContent"><h1>傲猫祝福</h1>
+<p><strong>傲猫祝福</strong>是<a href='Aspect'>野兽祝福</a>技能，可获得两种<a href="Buff">增益</a>， <a data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_BuffDefinitions_hover/3516d880196151d0d167fcd029bbd79d37644d52b74d24aca01e3206b8c443ea" href="/cn/Cats_Stealth">傲猫隐身</a>增加 100% 暴率、15% 机率避免来自<a href='Hit'>击中</a>的所有伤害和增加 100% <a href="Stealth">隐身</a>，而<a data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_BuffDefinitions_hover/4db6debda00303f051df18799b2a5c06194aac6e561b4a6b4e09bf84fcc95fb2" href="/cn/Cats_Agility">傲猫姣捷</a>增加 10% <a href='Attack_speed'>攻击速度</a>和<a href='Cast_speed'>施放速度</a>，持续时间分别为 4 秒和 6 秒，游戏会记录增益效果剩余持续时间，并当重新启动时继续计算。固无法透过移除增益(卸除装备 / 切换技能)，以保持其一增益的持续持间。</p>
+<p>傲猫祝福可以透过<a class="UniqueItems uniqueitem" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_UniqueItems_hover/6e517a4353a6913918328c52af50403ac444c9fa3d1f29e4dd62b684693d7225" href="Farruls_Bite">费尔罗□喙</a>取得，或兽园制作添加到物品后缀(<span data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_Mods_hover/001e61bf46eaa7c59341942313762e85c8c32d6e5abf97060d59d0f68fa62b2a" class="explicitMod">费尔罗之</span> )，透过<a href="Bestiary_league#%E7%8D%BB%E7%A5%AD%E7%8D%B5%E8%AD%9C">献祭猎谱</a>中的<a  data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_MonsterVarieties_hover/a01c8aee942b2f943b4e5bbaa4b018c694451b00b2e45b2253e7b6eec0841198" href="/cn/Farrul%2C_First_of_the_Plains">初始之地费尔罗</a>， 命运卡<a class="divination DivinationCard" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_BaseItemTypes_hover/b2a330b65bb79687baee1baef4a2e7363f32e93baeed23704968954c8a557c1b" href="A_Familiar_Call">似曾相识</a>也可换取傲猫祝福的饰品，此技能可以使用<a class="UniqueItems uniqueitem" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_UniqueItems_hover/3800d0b077b1b5c07b83bff845877ba67e47381318ceb195f286d59b1a6800c1" href="Farruls_Chase">费尔罗猎靴</a>、<a class="UniqueItems uniqueitem" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_UniqueItems_hover/5c045ebed532b9bc80f84bcec65d43038cab1ded5940f47f5913dad17dde59fc" href="Farruls_Fur">费尔罗羽衣</a> (或<a class="UniqueItems uniqueitem" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_UniqueItems_hover/3c92522fa08ee1b0852ef4c9ce1455325628e1db092762d53a8247663b277196" href="Replica_Farruls_Fur">赝品．费尔罗羽衣</a>) 和<a class="UniqueItems uniqueitem" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_UniqueItems_hover/05cc8b84ca8362af00eeffe739acdcb530ad2afb651034646b0cc978fc9e7daa" href="Farruls_Pounce">费尔罗锋爪</a>产生变化。</p>
+<h2>辅助技能</h2>
+<p>若制作的<a data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_ActiveSkills_hover/e475a2e759379fca9ea82934034a348b8c0755c375053617cc1e0bbfeea838b2" href="/cn/Aspect_of_the_Cat">傲猫祝福</a>物品上有插槽，或是来自<a class="UniqueItems uniqueitem" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_UniqueItems_hover/6e517a4353a6913918328c52af50403ac444c9fa3d1f29e4dd62b684693d7225" href="Farruls_Bite">费尔罗□喙</a>的傲猫祝福，该技能可以透过<a href="Support_Skill_Gem">辅助技能</a>辅助它，例如，<a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_GemEffects_hover/bc44612c226099d2b52b4fc0df0a769d1b6cab32276393390884cecc26fb09eb" href="/cn/Royale_Increased_Duration_Support">持续时间延长辅助</a>、<a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_GemEffects_hover/d11cd3c24556ce1bfb5e7bcded2da2d6bdfb769ee0d39baacd0fe75704198853" href="/cn/Less_Duration_Support">持续时间缩短辅助</a>或<a class="gem_blue" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_GemEffects_hover/81bfe72666d6bf7f569cf9760c2d8e315c70e6416d38298987e27a70b176ea62" href="/cn/Efficacy_Support">效能辅助</a>改变<a data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_BuffDefinitions_hover/3516d880196151d0d167fcd029bbd79d37644d52b74d24aca01e3206b8c443ea" href="/cn/Cats_Stealth">傲猫隐身</a>和<a data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_BuffDefinitions_hover/4db6debda00303f051df18799b2a5c06194aac6e561b4a6b4e09bf84fcc95fb2" href="/cn/Cats_Agility">傲猫姣捷</a>的持续时间，或使用<a class="gem_red" data-hover="https://cdn.poedb.tw/cache1/tw/Poe_Data_GemEffects_hover/9d408a2f0c21eaf23af0134be36170faece91667b50263a9f6664acb67223b6d" href="/cn/Arrogance_Support">傲慢辅助</a>来<a href='Reservation'>保留</a>生命而非魔力。</p>
+</div>
+        <div><hr style='border-top: 1px solid white'>Wikis Content is available under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">CC BY-NC-SA 3.0</a> unless otherwise noted.</div>
+    </div>
+</div>
+<script>
+$(function() {
+    lightbox_panel();
+});
+</script>
+</div></div>
+
+<footer class="ccontainer text-center text-lg-left">
+  <div class="card p-4">
+    <div class="row">
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Sites</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a target="_blank" href="https://poedb.tw/">poedb.tw</a> </li>
+          <li> <a target="_blank" href="https://tlidb.com/">tlidb.com</a> </li>
+          <li> <a target="_blank" href="https://poe2db.tw/">poe2db.tw</a> </li>
+              <li> <a target="_blank" href="https://paldb.cc/">paldb.cc</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">News</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="news">GGG Tracker</a> </li>
+          <li> <a href="League#ConcurrentPlayers">Concurrent Players</a> </li>
+          <li> <a href="Ruthless_mode" data-i18n="ClientStrings|InsaneDifficulty|Name">Ruthless mode</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">About Site</h5>
+        <ul class="list-unstyled mb-0">
+          <li> <a href="privacy">Privacy</a> </li>
+          <li> <a href="patreon">Patreon</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Community</h5>
+        <ul class="list-unstyled mb-0">
+
+
+          <li> <a href="https://discord.gg/b4bs4bQsrW">編年史 Discord</a> </li>
+
+          <li><a target="_blank" href="https://www.reddit.com/user/chuanhsing">/u/chuanhsing</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Copyright &copy; 2014-2026 流亡编年史.
+  </div>
+</footer>
+
+<div style=""></div>
+<div class="clearfix"></div><div id="bottom_banner"></div><script>topbanner970("bottom_banner");</script>
+    </div>
+    </div>
+
+    <a href="#top" id="toTop"><span class="fas fa-arrow-circle-up fa-3x"></span></a>
+<script>
+ $(document).ready(function()
+ {
+    if (window.location.hostname != "poedb.tw" && window.location.hostname != "poe2db.tw") {
+        window.location.href="https://poedb.tw/";
+    }
+ });
+</script>
+    <script src="https://cdn.poedb.tw/js/poedb_footer.fed37e57d91aa1eb.js"></script>
+
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"7c3bdd9ddfac4426b6a20a0cd5f64615","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
