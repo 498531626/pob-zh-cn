@@ -52,6 +52,51 @@ build.itemsTab:PopulateSlots()
 build.buildFlag=true
 runCallback('OnFrame')
 build.viewMode='ITEMS'
+-- Imported anointments and the editor must retain the English parser line,
+-- while every current recipe displays the reviewed notable name.
+local notableCount=0
+local steelwood
+local anointNames=LoadModule('Localization/AnointNames')
+build.itemsTab:SetDisplayItem(new('Item','Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85'))
+build.itemsTab:AnointDisplayItem(1)
+local anointPopup=assert(main.popups[1])
+local notableDB=assert(anointPopup.controls.notableDB)
+for _,node in pairs(build.spec.nodes)do
+ if node.recipe and #node.recipe>=1 then
+  local zh=assert(anointNames[node.dn],'Missing anoint name: '..node.dn)
+  L.mode='zh'
+  assert(L:Translate('Allocates '..node.dn)=='分配 '..zh,node.dn)
+  assert(L:Translate('Anoint '..node.dn)=='涂油分配 '..zh,node.dn)
+  assert(notableDB:GetRowValue(1,1,node):find(zh,1,true),'Notable row: '..node.dn)
+  L.mode='en';assert(L:Translate('Allocates '..node.dn)=='Allocates '..node.dn)
+  notableCount=notableCount+1
+  if node.dn=='Steelwood Stance'then steelwood=node end
+ end
+end
+main:ClosePopup()
+assert(steelwood and notableCount>100,'Anoint recipe inventory missing')
+local amulet=new('Item','Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85\nAllocates Steelwood Stance (enchant)\n+129 to maximum Life')
+local amuletRaw=amulet:BuildRaw()
+build.itemsTab:AddItem(amulet,true)
+build.itemsTab.slots.Amulet:SetSelItemId(amulet.id)
+build.itemsTab:PopulateSlots()
+build.itemsTab:SetDisplayItem(amulet)
+L.mode='zh'
+tip:Clear();build.itemsTab:AddItemTooltip(tip,amulet,nil,true)
+local text='';for _,line in ipairs(tip.lines)do text=text..(line.text or '')..'\n'end
+assert(text:find('分配 身坚如铁',1,true) and not text:find('Allocates',1,true),text)
+assert(build.itemsTab:getAnoint(amulet)[1]=='Steelwood Stance')
+assert(amulet:BuildRaw()==amuletRaw)
+local edited=build.itemsTab:anointItem(steelwood)
+assert(build.itemsTab:getAnoint(edited)[1]=='Steelwood Stance')
+assert(edited:BuildRaw():find('Allocates Steelwood Stance',1,true))
+assert(L:Translate('(replacing ^6New Item, Onyx Amulet^7)'):find('替换',1,true))
+assert(L:Translate('Socket #12')=='插槽 #12')
+assert(L:Translate('^7^7Loadouts:')=='^7^7配装方案:')
+assert(L:Translate('Allocates Unknown Passive')=='Allocates Unknown Passive')
+assert(L:Translate('Dragon Heart')=='Dragon Heart','User rare title was changed')
+build.itemsTab:SetDisplayItem()
+print('All '..notableCount..' anoint recipes and imported Steelwood Stance: display, editor and raw parser lines passed')
 local saved=build:SaveDB('fixture')
 for _,mode in ipairs({'zh','en','zh'})do
  L.mode=mode
