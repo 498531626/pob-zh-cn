@@ -1,11 +1,12 @@
 {
-  "entries": 12965,
+  "entries": 35570,
   "gem_names": 1038,
-  "glyphs": 2024,
+  "glyphs": 2416,
   "font": "Microsoft YaHei (local PC copy)",
   "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
   "pob_version": "2.67.2",
   "name_reference_retrieved": "2026-11-11",
+  "item_reference_retrieved": "2026-11-12",
   "passives": {
     "matched_node_ids": 3390,
     "passive-name_occurrences": 3389,
@@ -36,11 +37,21 @@
     "ambiguous_exact_resolved": 19,
     "ambiguous_templates_resolved": 13
   },
+  "item_details": {
+    "paired_mod_records": 103475,
+    "exact_entries": 23156,
+    "numeric_templates": 3904,
+    "composed_entries": 3465,
+    "ambiguous_exact_resolved": 63,
+    "ambiguous_templates_resolved": 27,
+    "ambiguous_exact": 63,
+    "ambiguous_templates": 27
+  },
   "sidebar_labels": 167,
   "sidebar_labels_translated": 167,
   "calculation_labels": 602,
   "calculation_labels_translated": 602,
   "configuration_labels": 738,
   "configuration_labels_translated": 738,
-  "scope": "Display only: UI/sidebar/calculations/configuration, gem and player-granted skill details, matched 3.29 passive names/stats/masteries/reminders. Coverage counts describe the checked source and audit fixtures, not every possible build or historic/jewel-transformed state. Calculation data and user input remain unchanged."
+  "scope": "Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.29 passives, paired item names/bases/modifiers and finite item UI clauses. Item audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged."
 }

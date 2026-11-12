@@ -19,6 +19,7 @@ from config_locale import compose_config
 from fetch_gem_reference import gem_sources
 from config_tooltips import compose_tooltip
 from display_formats import compile_formats
+from item_locale import build_items
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
@@ -145,6 +146,15 @@ def build():
     entries.update({k: {'zh': v, 'kind': 'gem-ui', 'status': 'source-code-checked',
                         'source': 'src/Classes/GemTooltip.lua; src/Modules/Build.lua'}
                     for k, v in detail_ui.items()})
+    item_ui = json.loads((HERE / 'item-ui.json').read_text('utf8'))
+    for k, v in item_ui.items():
+        entries.setdefault(k, {'zh': v, 'kind': 'item-ui', 'status': 'source-code-checked',
+                        'source': 'src/Classes/ItemsTab.lua; https://poedb.tw/cn/League'}
+        )
+    item_entries, item_templates, item_report = build_items(entries, gem_templates)
+    # Existing reviewed UI/gem terminology remains the canonical shared word.
+    for en, meta in item_entries.items():
+        entries.setdefault(en, meta)
     # Translate() separates leading colour tags before dictionary lookup.
     # Retain source keys for provenance and add the corresponding display body.
     for en, meta in list(entries.items()):
@@ -158,6 +168,8 @@ def build():
     (OUT / 'catalog.json').write_text(json.dumps(entries, ensure_ascii=False, indent=2) + '\n', 'utf-8')
     def lua(s):
         return json.dumps(s, ensure_ascii=False)
+    (OUT / 'ItemDisplayTerms.lua').write_text('return {\n' + ''.join(
+        '[' + lua(en) + ']=' + lua(zh) + ',\n' for en, zh in item_ui.items()) + '}\n', 'utf8')
     formats = compile_formats(json.loads((HERE / 'display-formats.json').read_text('utf8')))
     display_terms = json.loads((HERE / 'display-format-terms.json').read_text('utf8'))
     for prefix in ('Ancestral', 'Infernal', 'Intimidating', 'Rallying', 'Seismic', 'Battlemage'):
@@ -172,6 +184,9 @@ def build():
     (OUT / 'SkillTemplates.lua').write_text('return {\n' + ''.join(
         '{en=' + lua(v['en']) + ',zh=' + lua(v['zh']) + ',pattern=' + lua(v['pattern'])
         + ',values=' + str(v['values']) + '},\n' for v in gem_templates) + '}\n', 'utf8')
+    (OUT / 'ItemTemplates.lua').write_text('return {\n' + ''.join(
+        '{en=' + lua(v['en']) + ',zh=' + lua(v['zh']) + ',pattern=' + lua(v['pattern'])
+        + ',values=' + str(v['values']) + '},\n' for v in item_templates) + '}\n', 'utf8')
     (OUT / 'PassiveContexts.lua').write_text('return {\n' + ''.join(
         f'[{lua(node_id)}] = {{' + ''.join(f'[{lua(en)}]={lua(zh)},' for en, zh in texts.items()) + '},\n'
         for node_id, texts in sorted(passive_contexts.items())) + '}\n', 'utf8')
@@ -196,7 +211,7 @@ def build():
     font = ImageFont.truetype(str(font_path), 48, index=0)
     extra = '英文中文对照切换按住临时查看未翻译保留术语参考流亡编年史模式'
     extra += (ROOT / 'src/Modules/Localization.lua').read_text('utf8')
-    all_text = ''.join(v['zh'] for v in entries.values()) + ''.join(v['zh'] for v in gem_templates) + ''.join(v['zh'] for v in formats) + ''.join(display_terms.values()) + ''.join(zh for texts in passive_contexts.values() for zh in texts.values()) + extra
+    all_text = ''.join(v['zh'] for v in entries.values()) + ''.join(v['zh'] for v in gem_templates + item_templates) + ''.join(v['zh'] for v in formats) + ''.join(display_terms.values()) + ''.join(zh for texts in passive_contexts.values() for zh in texts.values()) + extra
     chars = sorted({c for c in all_text if ord(c) > 127})
     cell, cols = 64, 64
     rows = (len(chars) + cols - 1) // cols
@@ -215,11 +230,11 @@ def build():
     report = {'entries': len(entries), 'gem_names': sum(v['kind'] == 'gem' and 'alias_of' not in v for v in entries.values()),
               'glyphs': len(chars), 'font': 'Microsoft YaHei (local PC copy)',
               'font_sha256': hashlib.sha256(font_path.read_bytes()).hexdigest(),
-              'pob_version': '2.67.2', 'name_reference_retrieved': '2026-11-11',
-              'passives': passive_report, 'gem_details': gem_report, 'sidebar_labels': len(labels), 'sidebar_labels_translated': len(labels),
+              'pob_version': '2.67.2', 'name_reference_retrieved': '2026-11-11', 'item_reference_retrieved': '2026-11-12',
+              'passives': passive_report, 'gem_details': gem_report, 'item_details': item_report, 'sidebar_labels': len(labels), 'sidebar_labels_translated': len(labels),
               'calculation_labels': len(calc_labels), 'calculation_labels_translated': len(calc_labels),
               'configuration_labels': len(config_labels), 'configuration_labels_translated': len(config_labels) - len(config_pending),
-              'scope': 'Display only: UI/sidebar/calculations/configuration, gem and player-granted skill details, matched 3.29 passive names/stats/masteries/reminders. Coverage counts describe the checked source and audit fixtures, not every possible build or historic/jewel-transformed state. Calculation data and user input remain unchanged.'}
+              'scope': 'Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.29 passives, paired item names/bases/modifiers and finite item UI clauses. Item audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged.'}
     (OUT / 'build-info.json').write_text(json.dumps(report, indent=2) + '\n', 'utf-8')
     print(json.dumps(report), flush=True)
 

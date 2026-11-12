@@ -1,0 +1,21 @@
+{
+  "by_kind":{
+    "affix-name":2152,
+    "base-name":1094,
+    "base-stat":400,
+    "craft-stat":19997,
+    "craft-stat-group":4202,
+    "item-type":46,
+    "unique-name":1295,
+    "unique-stat":7214
+  },
+  "pending_by_kind":{
+    "affix-name":867,
+    "base-name":5,
+    "base-stat":35,
+    "craft-stat":2464,
+    "craft-stat-group":2773,
+    "unique-stat":612
+  },
+  "total":36400
+}

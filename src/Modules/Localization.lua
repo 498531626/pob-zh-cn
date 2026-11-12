@@ -4,6 +4,14 @@ local dictionary = LoadModule("Localization/Dictionary")
 local passiveContexts = LoadModule("Localization/PassiveContexts")
 local panelLabels = LoadModule("Localization/PanelLabels")
 local skillTemplates = LoadModule("Localization/SkillTemplates")
+local itemTemplates = LoadModule("Localization/ItemTemplates")
+local itemDisplayTerms = LoadModule("Localization/ItemDisplayTerms")
+local itemTemplateIndex = {}
+for _, template in ipairs(itemTemplates) do
+	local key = template.en:match("%a+") or ""
+	itemTemplateIndex[key] = itemTemplateIndex[key] or {}
+	table.insert(itemTemplateIndex[key], template)
+end
 local displayTemplates = LoadModule("Localization/DisplayTemplates")
 local displayTerms = LoadModule("Localization/DisplayTerms")
 local calcLabels = LoadModule("Localization/CalcLabels")
@@ -153,6 +161,76 @@ end
 local function dynamicChinese(body)
 	local interface = interfaceChinese(body)
 	if interface then return interface end
+	local title, base = body:match("^(.-), (.-)$")
+	if dictionary[base] and not title:find(":", 1, true) then return (dictionary[title] or title) .. ", " .. dictionary[base] end
+	local equipSlot = body:match("^Equipping this item in (.-) will give you:$")
+	if equipSlot and dictionary[equipSlot] then return "在" .. dictionary[equipSlot] .. "装备此物品将产生以下变化：" end
+	local removeSlot = body:match("^Removing this item from (.-) will give you:$")
+	if removeSlot and dictionary[removeSlot] then return "从" .. dictionary[removeSlot] .. "移除此物品将产生以下变化：" end
+	local itemStat, itemStatValue = body:match("^(.-): (.+)$")
+	if (itemStat == "Physical Damage" or itemStat == "Elemental Damage" or itemStat == "Chaos Damage" or itemStat == "Sockets") and dictionary[itemStat] then
+		return dictionary[itemStat] .. ": " .. itemStatValue:gsub("%f[%a]DPS%f[%A]", "每秒伤害")
+	end
+	if itemStat == "Weapon Range" and dictionary[itemStat] then
+		local plain = itemStatValue:gsub("%^x%x%x%x%x%x%x", ""):gsub("%^%d", "")
+		if plain:match("^[%d%.]+ metres$") then return dictionary[itemStat] .. ": " .. itemStatValue:gsub("metres$", "米") end
+	end
+	if itemStat == "Variant" then
+		local variant, count = itemStatValue:match("^(.-) %((%d+) variants%)$")
+		return dictionary.Variant .. ": " .. L:Translate(variant or itemStatValue, nil, "zh") .. (count and "（共 " .. count .. " 个版本）" or "")
+	end
+	if itemStat == "Limited to" or itemStat == "Radius" or itemStat == "Source" or itemStat == "Exclusive to" or itemStat == "Tincture effect modifier" then
+		local value = L:Translate(itemStatValue, nil, "zh")
+		if itemStat == "Exclusive to" then
+			local values={}
+			for league in itemStatValue:gmatch("[^,]+")do
+				local name=league:match("^%s*(.-)%s*$");values[#values+1]=itemDisplayTerms[name] or dictionary[name] or name
+			end
+			value=table.concat(values, "、")
+		end
+		return (dictionary[itemStat] or itemStat) .. ": " .. value
+	end
+	local average, minimum = body:match("^Flask uptime: ([%d%.]+%%) average, ([%d%.]+%%) minimum$")
+	if average then return "药剂覆盖率：平均 " .. average .. "，最低 " .. minimum end
+	local foulborn = body:match("^Foulborn (.+)$")
+	if foulborn then
+		local translated = L:Translate(foulborn, nil, "zh")
+		if translated ~= foulborn then return dictionary.Foulborn .. " " .. translated end
+	end
+	local itemField, itemValue = body:match("^(Affix): (.+)$")
+	if not itemField then itemField, itemValue = body:match("^(Tags): (.+)$") end
+	if itemField == "Affix" then
+		local tier, affix = itemValue:match("^Tier (%d+) %((.+)%)$")
+		if tier then return dictionary.Affix .. ": " .. tier .. " 阶（" .. L:Translate(affix, nil, "zh") .. "）" end
+		return dictionary.Affix .. ": " .. L:Translate(itemValue, nil, "zh")
+	elseif itemField == "Tags" then
+		local tags = {attack="攻击", caster="施法", life="生命", mana="魔力", resource="资源",
+			defences="防御", defence="防御", armour="护甲", evasion="闪避", energy_shield="能量护盾",
+			critical="暴击", speed="速度", physical_damage="物理伤害", physical="物理", fire="火焰",
+			cold="冰霜", lightning="闪电", chaos="混沌", damage="伤害", elemental_damage="元素伤害",
+			elemental="元素", attribute="属性", resistance="抗性", ailment="异常状态", gem="技能石",
+			minion="召唤生物", curse="诅咒", aura="光环", block="格挡", flask="药剂", poison="中毒",
+			bleed="流血", bleeding="流血", dot="持续伤害"}
+		return dictionary.Tags .. ": " .. itemValue:gsub("[%a_]+", function(tag) return tags[tag] or tag end)
+	end
+	local itemCount = body:match("^(%d+) Tiers$")
+	if itemCount then return itemCount .. " 个档位" end
+	local fromLevel, toLevel = body:match("^Level: (%d+) to (%d+)$")
+	if fromLevel then return dictionary.Level .. ": " .. fromLevel .. " 至 " .. toLevel end
+	local retained = body:match("^%[Retained%] (.+)$")
+	if retained then return "[保留] " .. L:Translate(retained, nil, "zh") end
+	if body:find("/", 1, true) then
+		local parts, valid = {}, true
+		for part in body:gmatch("[^/]+") do
+			local translated = L:Translate(part, nil, "zh")
+			if translated == part then valid=false;break end
+			parts[#parts+1] = translated
+		end
+		if valid and #parts > 1 then return table.concat(parts, "/") end
+		local joined = body:gsub("/", "\n")
+		local translated = L:Translate(joined, nil, "zh")
+		if translated ~= joined and not translated:find("%a") then return translated:gsub("\n", "/") end
+	end
 	local number = body:match("^([%d%,%.]+) DPS$")
 	if number then return number .. " 每秒伤害" end
 	local mathPrefix, low, high = body:match("^([=%+%*/x%s%-]*)([%+%-]?[%d%,%.]+) to ([%+%-]?[%d%,%.]+)$")
@@ -217,6 +295,16 @@ local function dynamicChinese(body)
 				if not value:match("^[%+%-]?%d+%.?%d*$") and not value:match("^[%+%-]?%(%-?%d+%.?%d*%-%-?%d+%.?%d*%)$") then valid = false; break end
 			end
 			if valid then return (template.zh:gsub("{(%d+)}", function(i) return values[tonumber(i) + 1] end)) end
+		end
+	end
+	for _, template in ipairs(itemTemplateIndex[body:match("%a+") or ""] or {}) do
+		local values = {body:match(template.pattern)}
+		if #values == template.values then
+			local valid = true
+			for _, value in ipairs(values) do
+				if not value:match("^[%+%-]?%d+%.?%d*$") and not value:match("^[%+%-]?%(%-?%d+%.?%d*%-%-?%d+%.?%d*%)$") and not value:match("^[%+%-]?#$") then valid=false;break end
+			end
+			if valid then return (template.zh:gsub("{(%d+)}", function(i) return values[tonumber(i)+1] end)) end
 		end
 	end
 	-- Calculation breakdowns retain their formula and values. Only complete,

@@ -9,6 +9,8 @@
 - 中文显示包括侧栏属性、计算页标签和已核对的公式说明、配置标签与提示、技能详情，以及 3.29 天赋名称、属性、专精、提醒和背景说明。
 - 天赋的红色“PoB 尚未支持此效果”提示保留红色警告；相关属性文字仍可翻译。翻译不会使原本不支持的效果参与计算。
 - 技能详情包括名称、标签、需求、消耗、冷却、品质、描述和数值词条，以及已核对的装备和升华提供的技能。中英对照模式的固定界面标签使用紧凑中文，完整详情中显示中文和英文。
+- 物品页补充了暗金名称、装备底材、制作词缀、范围值和档位占位符，以及词缀档位、标签、版本、插槽和装备对比等动态提示。物品参考来自 PoEDB 同页的中英文卡片和词缀记录，先核对记录身份和数值，再用于显示。资料快照以 gzip 保存于 `tools/localization/item-reference/`。
+- 物品专项清单包含历史、绝版及特殊数据，尚有未核对条目；`item-display-pending.json` 和 `item-runtime-pending.json` 保留这些原文，不能将此批更新理解为所有物品和所有词缀均已完成。
 - 未核对的新内容仍回退英文。覆盖数字针对当前源码和检查用例，不代表所有历史天赋、珠宝变换、装备词缀或任意构筑状态均已验证。
 - 界面输入框、内部技能 ID、物品词缀解析、构筑保存格式和计算数据继续使用原始数据。搜索与复制功能仍按原版英文运行。
 
@@ -31,16 +33,19 @@
 在源码目录执行：
 
 ```powershell
+python tools/localization/export_item_sources.py
 python tools/localization/build_locale.py
 python tools/localization/test_locale.py
 python tools/localization/audit_ui_display.py
 python tools/localization/audit_skill_display.py
+python tools/localization/audit_item_display.py
 ```
 
 实际计算和天赋浮窗检查必须使用独立的临时副本，不能指向源目录，以免读取用户设置或构筑：
 
 ```powershell
 python tools/localization/audit_calc_display.py --workspace E:/POB/Localization-QA --passives
+python tools/localization/audit_item_runtime.py --workspace E:/POB/Localization-QA
 ```
 
 参考数据快照保存在 `tools/localization/`，可用 `fetch_reference.ps1` 刷新。同版本生成使用 `pob-tree-en.json` 本地树快照；升级 PoB 或更换天赋树版本时必须同时重新导出本地树并调整参考版本，不能沿用旧的覆盖统计。
@@ -53,5 +58,7 @@ python tools/localization/audit_calc_display.py --workspace E:/POB/Localization-
 - 10 个代表性技能的 552 条去重计算说明未发现英文残留；英文、中文及对照模式的数值输出一致。
 - 当前构筑天赋树的 2,865 个实际浮窗未发现英文残留，其中包含 697 行红色属性说明。此项关闭属性差异计算以逐点检查；属性差异格式另有专项检查。
 - 真实窗口检查覆盖计算页、公式展开、天赋与属性对比、红色专精提示、选中技能的详情和中英切换。输入框保留原文，提示和标签按语言显示。
+- 物品后台检查使用原版物品解析器、制作逻辑和 Tooltip，核对 1,332 件暗金与 6 件制作装备在三种语言模式下的原始文本和已解析词缀数值。物品实际窗口验收被用户按 Esc 中止，尚未完成制作操作的界面验收。
+- 本批物品生成 23,156 条精确译文和 3,904 个数值模板。本地名称清单中的 1,295 个暗金名称均已匹配；1,094 个底材中仍有 5 个旧箭袋名称待核对。6 件制作样例的完整详情没有英文残留；全暗金浮窗中仍有 525 件包含未核对的来源、特殊效果或变体说明。词缀清单的待核对统计含重复档位与历史数据，不等同于当前物品数量。
 
-检查发现未翻译项时会写入对应 `*-pending.json` 并返回失败。上述结果不替代所有构筑、所有珠宝变换和完整游戏流程的回归验证；新增上游文字应重新运行生成和检查。
+界面、技能、计算和天赋的严格检查发现未翻译项时会写入对应 `*-pending.json` 并返回失败。物品清单包含历史和未核对数据，目前输出覆盖及待核对报告；物品数据被翻译过程修改时仍立即失败。上述结果不替代所有构筑、所有珠宝变换和完整游戏流程的回归验证；新增上游文字应重新运行生成和检查。

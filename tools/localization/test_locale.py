@@ -48,6 +48,7 @@ local dict = LoadModule('Localization/Dictionary')
 local panelLabels = LoadModule('Localization/PanelLabels')
 local calcLabels = LoadModule('Localization/CalcLabels')
 local templates = LoadModule('Localization/SkillTemplates')
+local itemTemplates = LoadModule('Localization/ItemTemplates')
 for en,zh in pairs(dict) do
     assert(not zh:match('{%d+}'),'Unbound numeric placeholder in exact translation: '..en)
 end
@@ -84,6 +85,34 @@ assert(L:Translate('Active Skill #12:')=='主动技能 #12：')
 local function expand(s)
     return (s:gsub('{(%d+)}',function(i) return tostring(123.25 + tonumber(i)*100) end))
 end
+local function numberCounts(s)
+    local result={}
+    for n in s:gmatch('[%+%-]?%d+%.?%d*')do result[n]=(result[n]or 0)+1 end
+    return result
+end
+for _,template in ipairs(itemTemplates)do
+    local en=expand(template.en)
+    L.mode='zh';local zh=L:Translate(en)
+    assert(zh~=en,'Untranslated item template: '..template.en)
+    local before,after=numberCounts(en),numberCounts(zh)
+    for n,count in pairs(before)do assert(after[n]==count,'Item numeric value lost: '..template.en..' => '..zh)end
+    assert(not zh:match('{%d+}'),'Unbound item number: '..template.en)
+    L.mode='en';assert(L:Translate(en)==en,'Item English changed')
+    L.mode='bilingual';assert(L:Translate(en):find(en,1,true),'Item comparison lost source')
+end
+L.mode='zh'
+assert(L:Translate('Affix: Tier 2 (of the Eagle)'):find('2',1,true))
+assert(L:Translate('Tags: attack, speed')=='标签: 攻击, 速度')
+assert(L:Translate('Level: 12 to 86')=='等级: 12 至 86')
+assert(L:Translate('Variant: Current (3 variants)')=='变体：当前（3 个变体）')
+assert(L:Translate('Physical Damage: 12-34 (50.5 DPS)')=='物理伤害: 12-34 (50.5 每秒伤害)')
+assert(L:Translate('Exclusive to: Blight')=='仅限于: 菌潮')
+assert(dict.Blight~='菌潮','League name overwrote the skill name')
+assert(L:Translate('Source: No longer obtainable')=='来源: 已绝版')
+assert(L:Translate('Weapon Range: ^71.3 metres')=='武器范围: ^71.3 米')
+assert(L:Translate('+(12-34) to maximum Life')~= '+(12-34) to maximum Life')
+assert(L:Translate('+# to maximum Life')~= '+# to maximum Life')
+assert(L:Translate('Secret Item Modifier 123')=='Secret Item Modifier 123')
 for _,label in ipairs(calcLabels) do
     L.mode='zh';assert(L:Translate('^x8888FF'..label..'^7:')=='^x8888FF'..dict[label]..'^7:',label)
 end

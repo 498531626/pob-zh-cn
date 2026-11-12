@@ -1,0 +1,770 @@
+{
+  "{0}% increased maximum Energy Shield": {
+    "zh": "能量护盾上限提高 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% increased maximum Life": {
+    "zh": "生命上限提高 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% increased Critical Strike Chance": {
+    "zh": "暴击几率提高 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% Chance to Block Attack Damage": {
+    "zh": "{0}% 攻击伤害格挡率",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0} to Strength and Dexterity": {
+    "zh": "{0} 力量和敏捷",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% chance to gain Onslaught for {1} seconds on Kill": {
+    "zh": "击败敌人时有 {0}% 的几率获得猛攻状态，持续 {1} 秒",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Recover {0}% of Mana on Kill": {
+    "zh": "魔力在击败敌人时恢复 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% Chance to Block Spell Damage": {
+    "zh": "{0}% 格挡法术伤害几率",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% increased Attack Speed per {1} Dexterity": {
+    "zh": "每 {1} 点敏捷会使攻击速度加快 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% increased Experience gain": {
+    "zh": "经验值加成提高 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% chance for Poisons inflicted with this Weapon to deal {1}% more Damage": {
+    "zh": "该武器施加的中毒效果有 {0}% 的几率使中毒伤害总增 {1}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Grants Immunity to Ignite for {0} seconds if used while Ignited": {
+    "zh": "被点燃时使用可以在 {0} 秒内免疫点燃",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% Chance to Block Attack Damage while you have at least {1} Crab Barriers": {
+    "zh": "你拥有至少 {1} 个深海屏障时，攻击伤害格挡几率 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% increased Damage per {1} Dexterity": {
+    "zh": "每 {1} 点敏捷可使伤害提高 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% increased Spell Damage per {1} Intelligence": {
+    "zh": "每 {1} 点智慧会使法术伤害提高 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Grants Level {0} Wrath Skill": {
+    "zh": "提供 {0} 级雷霆",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% increased Damage per {1} Intelligence": {
+    "zh": "每 {1} 点智慧可使伤害提高 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% increased Damage per {1} Strength": {
+    "zh": "每 {1} 点力量可使伤害提高 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Grants Level {0} Discipline Skill": {
+    "zh": "提供 {0} 级纪律",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% chance to Intimidate Enemies for {1} seconds on Hit": {
+    "zh": "击中有 {0}% 的几率威吓敌人 {1} 秒",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "While a Unique Enemy is in your Presence, Flasks gain {0} Charges every {1} seconds": {
+    "zh": "有一个传奇怪物出现在你面前：药剂每 {1} 秒获得 {0} 次充能",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Lose {0}% of Energy Shield on Kill": {
+    "zh": "能量护盾在击败敌人时失去 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "While a Pinnacle Atlas Boss is in your Presence, Flasks gain {0} Charges every {1} seconds": {
+    "zh": "有一个异界图鉴最终首领出现在你面前：药剂每 {0} 秒获得 {1} 次充能",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Lose {0}% of Life on Kill": {
+    "zh": "生命在击败敌人时失去 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Grants Level {0} Purity of Lightning Skill": {
+    "zh": "提供 {0} 级闪电净化",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "{0}% increased Spell Damage per {1} Strength": {
+    "zh": "每 {1} 点力量可使法术伤害提高 {0}%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Diamond Ring": {
+    "zh": "宝钻戒指",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Notable Passive Skills in Radius are Transformed to": {
+    "zh": "范围内的核心天赋替换为：",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "5% increased maximum Energy Shield": {
+    "zh": "能量护盾上限提高 5%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "5% increased maximum Life": {
+    "zh": "生命上限提高 5%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Ashbark Tincture": {
+    "zh": "灰树皮萃取物",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Ironwood Tincture": {
+    "zh": "铁木林萃取物",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Curse Enemies with Flammability on Hit": {
+    "zh": "击中时对敌人附加易燃诅咒。",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Passives granting Lightning Resistance or all Elemental Resistances in Radius": {
+    "zh": "给范围内提供闪电抗性或所有元素抗性的天赋",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Cannot be Stunned": {
+    "zh": "无法被晕眩",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Two-Toned Boots": {
+    "zh": "异色鞋",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Curse Enemies with Temporal Chains on Hit": {
+    "zh": "击中时对敌人附加时空锁链诅咒。",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Oakbranch Tincture": {
+    "zh": "橡木枝萃取物",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of Redemption": {
+    "zh": "救赎之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Upgraded": {
+    "zh": "升级的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Subterranean": {
+    "zh": "地心的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Burnished": {
+    "zh": "磨光的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Freezing": {
+    "zh": "急冻的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Frigid": {
+    "zh": "寒风的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Blue": {
+    "zh": "纯蓝的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of the Marksman": {
+    "zh": "神箭手之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Zaffre": {
+    "zh": "钴蓝的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of Precision": {
+    "zh": "精准之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Mage's": {
+    "zh": "法师的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Empowering": {
+    "zh": "赋能的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Flaming": {
+    "zh": "火焰的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Frozen": {
+    "zh": "冻结的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Chilled": {
+    "zh": "冷冻的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Shocking": {
+    "zh": "电震的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of Rage": {
+    "zh": "震怒之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Glinting": {
+    "zh": "反光的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Humming": {
+    "zh": "低鸣的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Overpowering": {
+    "zh": "威压的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Honed": {
+    "zh": "砥砺的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of Steadiness": {
+    "zh": "稳固之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Micro-Distillery Belt": {
+    "zh": "低酿腰带",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of the Gladiator": {
+    "zh": "角斗士之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of Pouring": {
+    "zh": "倾述之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of the Elevated Crusade": {
+    "zh": "尊崇圣战者之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of the Elevated Elder": {
+    "zh": "尊崇裂界者之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of Elevated Redemption": {
+    "zh": "尊崇救赎之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Elevated Crusader's": {
+    "zh": "尊崇圣战者的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Elevated Hunter's": {
+    "zh": "尊崇狩猎者的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Gladiator's": {
+    "zh": "角斗士的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Grants Level 10 Wrath Skill": {
+    "zh": "提供 10 级雷霆",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Curse Enemies with Despair on Hit": {
+    "zh": "击中时对敌人附加绝望诅咒。",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Curse Enemies with Conductivity on Hit": {
+    "zh": "击中时对敌人附加导电诅咒。",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Curse Enemies with Elemental Weakness on Hit": {
+    "zh": "击中时对敌人附加元素要害诅咒。",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Curse Enemies with Frostbite on Hit": {
+    "zh": "击中时对敌人附加冻伤诅咒。",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Grants Level 15 Wrath Skill": {
+    "zh": "提供 15 级雷霆",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Occultist's": {
+    "zh": "神秘学者的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "15% chance to Intimidate Enemies for 4 seconds on Hit": {
+    "zh": "击中有 15% 的几率威吓敌人 4 秒",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Malicious": {
+    "zh": "恶意的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of the Guardian": {
+    "zh": "守护者之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of the Necromancer": {
+    "zh": "召唤师之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of the Assassin": {
+    "zh": "刺客大师之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Recover 1% of Mana on Kill": {
+    "zh": "魔力在击败敌人时恢复 1%",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Vile": {
+    "zh": "恶劣的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Clouded": {
+    "zh": "多云的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Tainted": {
+    "zh": "污染的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Darkened": {
+    "zh": "黑暗的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Malignant": {
+    "zh": "恶性的",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Curse Enemies with Enfeeble on Hit": {
+    "zh": "击中时用衰弱诅咒敌人",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "of the Deadeye": {
+    "zh": "锐眼之",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item"
+  },
+  "Maelstrom Staff": {
+    "zh": "风暴长杖",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Energy Blade One Handed": {
+    "zh": "能量之刃（单手）",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Energy Blade Two Handed": {
+    "zh": "能量之刃（双手）",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Solstice Vigil": {
+    "zh": "至日不眠",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Iron Heart": {
+    "zh": "钢铁要塞（旧称）",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Bloodboil": {
+    "zh": "冬日之织（旧称）",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Can be Anointed": {
+    "zh": "可以涂油",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "You are Crushed": {
+    "zh": "你被碾压",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Arrows Pierce an additional Target": {
+    "zh": "箭矢额外穿透一个目标",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Hits with this Weapon ignore Enemy Physical Damage Reduction": {
+    "zh": "该武器击中无视敌人物理伤害减免",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Creates Chilled Ground on Use": {
+    "zh": "使用时制造冰缓地面",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Taunts nearby Enemies on use": {
+    "zh": "使用时嘲讽周围敌人",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Properties are doubled while in a Breach": {
+    "zh": "在裂隙中属性翻倍",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Bow": {
+    "zh": "弓",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Charm": {
+    "zh": "咒符",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Claw": {
+    "zh": "爪",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Cluster": {
+    "zh": "星团",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Dagger": {
+    "zh": "匕首",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Flask": {
+    "zh": "药剂",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Graft": {
+    "zh": "嫁接",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Hybrid": {
+    "zh": "复合",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Jewel": {
+    "zh": "珠宝",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "One Handed Axe": {
+    "zh": "单手斧",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "One Handed Mace": {
+    "zh": "单手锤",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Quiver": {
+    "zh": "箭袋",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Rune Dagger": {
+    "zh": "符文匕首",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Shield": {
+    "zh": "盾牌",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Staff": {
+    "zh": "长杖",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Talisman": {
+    "zh": "魔符",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Thrusting": {
+    "zh": "细剑",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Timeless": {
+    "zh": "永恒",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Two Handed Axe": {
+    "zh": "双手斧",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Two Handed Mace": {
+    "zh": "双手锤",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Two Handed Sword": {
+    "zh": "双手剑",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Utility": {
+    "zh": "功能",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Wand": {
+    "zh": "法杖",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "Warstaff": {
+    "zh": "战杖",
+    "kind": "item-type",
+    "status": "reviewed-source",
+    "source": "src/Data/Bases"
+  },
+  "The Hateful Accuser": {
+    "zh": "憎恨控诉",
+    "kind": "item-reviewed",
+    "status": "reviewed-source-and-poedb",
+    "source": "https://poedb.tw/cn/Version_3.17.0; https://ptr.poedb.tw/cn/Solstice_Vigil; https://poedb.tw/cn/Maelstr%C3%B6m_Staff; src/Data/Bases"
+  },
+  "Grants Immunity to Ignite for {0} seconds if used while Ignited\nRemoves all Burning when used": {
+    "zh": "被点燃时使用可以在 {0} 秒内免疫点燃\n使用时移除所有燃烧效果",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-variants",
+    "source": "https://poedb.tw/cn/Utility_Flasks"
+  }
+}
