@@ -17,6 +17,8 @@ local imbuedTooltipText = "\"Socketed in\" item must be set in order to add an i
 
 local GemSelectClass = newClass("GemSelectControl", "EditControl", function(self, anchor, rect, skillsTab, index, changeFunc, forceTooltip, imbued)
 	self.EditControl(anchor, rect, nil, nil, "^ %a':-")
+	-- Localize the selected name only while this field is not being edited.
+	self.translateInactive = true
 	self.controls.scrollBar = new("ScrollBarControl", { "TOPRIGHT", self, "TOPRIGHT" }, {-1, 0, 18, 0}, (self.height - 4) * 4)
 	self.controls.scrollBar.y = function()
 		local width, height = self:GetSize()

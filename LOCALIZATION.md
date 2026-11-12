@@ -13,7 +13,7 @@
 - 物品专项清单包含历史、绝版及特殊数据，尚有未核对条目；`item-display-pending.json` 和 `item-runtime-pending.json` 保留这些原文，不能将此批更新理解为所有物品和所有词缀均已完成。
 - 数据库专项另覆盖精华、通货、灵体与召唤物名称、万神殿、纹身及符文之结、附魔、兽园与熔炉工艺、星团小天赋和首领技能预设。当前各类的实际遗漏见 [数据库汉化检查](tools/localization/数据库汉化检查.md)，可直接用 Excel 打开其中的 CSV 清单。
 - 未核对的新内容仍回退英文。覆盖数字针对当前源码和检查用例，不代表所有历史天赋、珠宝变换、装备词缀或任意构筑状态均已验证。
-- 界面输入框、内部技能 ID、物品词缀解析、构筑保存格式和计算数据继续使用原始数据。搜索与复制功能仍按原版英文运行。
+- 技能页已选中的宝石名称在未编辑时显示中文；点击编辑时恢复英文，输入和搜索仍按原版英文运行。F8 和 Alt 可回看英文。其他输入框、内部技能 ID、物品词缀解析、构筑保存格式和计算数据继续使用原始数据。
 
 ## 翻译来源及核对
 
@@ -51,6 +51,7 @@ python tools/localization/audit_database_display.py
 ```powershell
 python tools/localization/audit_calc_display.py --workspace E:/POB/Localization-QA --passives
 python tools/localization/audit_item_runtime.py --workspace E:/POB/Localization-QA
+python tools/localization/audit_selected_gems.py --workspace E:/POB/Localization-QA
 ```
 
 参考数据快照保存在 `tools/localization/`，可用 `fetch_reference.ps1` 刷新。同版本生成使用 `pob-tree-en.json` 本地树快照；升级 PoB 或更换天赋树版本时必须同时重新导出本地树并调整参考版本，不能沿用旧的覆盖统计。
@@ -69,5 +70,7 @@ python tools/localization/audit_item_runtime.py --workspace E:/POB/Localization-
 本轮数据库显示字段检查 5,711 条按类别去重的记录，含英文项从 3,609 条降至 1,010 条，补齐 2,599 条。精华、通货、召唤物、灵体、万神殿、纹身名称、星团与首领预设在此清单中均无英文残留；剩余为 659 条兽园/熔炉属性、218 条附魔属性和 133 条纹身/符文之结属性。名称在不同类别中会分别计数。数据库配对提供 2,460 条精确译文与 1,002 个数值模板；与既有词典合并后共 39,361 条精确文本。
 
 本轮三种语言模式和数据库属性数值保持检查通过；“a Frenzy Charge”被 PoEDB 写成“1 个狂怒球”的等价表述单独记录在审计报告中。实际物品、计算和天赋后台检查通过，真实窗口抽查再次被物理 Esc 中止，未完成本轮窗口验收。
+
+已选宝石名称另做了针对性修复：六个实际 GemSelectControl（充能打击、近战物理伤害、无情、震波、护体、武器元素伤害）在未编辑/编辑状态、三种语言和 Alt 回看下通过检查，英文搜索、技能保存数据和计算数值保持一致。后台水平滚动检查使用确定性的文字宽度，不代表真实字体像素测量。真实测试窗口已看到六个中文名称完整显示；后续窗口捕获失败，因此未继续进行窗口中的编辑操作。
 
 界面、技能、计算和天赋的严格检查发现未翻译项时会写入对应 `*-pending.json` 并返回失败。物品清单包含历史和未核对数据，目前输出覆盖及待核对报告；物品数据被翻译过程修改时仍立即失败。上述结果不替代所有构筑、所有珠宝变换和完整游戏流程的回归验证；新增上游文字应重新运行生成和检查。

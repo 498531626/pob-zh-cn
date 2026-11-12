@@ -1,0 +1,22 @@
+{
+  "checks":["actual GemSelectControl Draw","inactive Chinese; focused English","English/bilingual/Alt modes","English search and re-selection","scroll offset isolation","skill serialization and numeric calculation outputs unchanged"],
+  "gems":[{
+      "chinese":"充能打击",
+      "english":"Static Strike"
+    },{
+      "chinese":"近战物理伤害(辅)",
+      "english":"Melee Physical Damage"
+    },{
+      "chinese":"无情(辅)",
+      "english":"Ruthless"
+    },{
+      "chinese":"震波（辅）",
+      "english":"Shockwave"
+    },{
+      "chinese":"护体(辅)",
+      "english":"Fortify"
+    },{
+      "chinese":"武器元素伤害(辅)",
+      "english":"Elemental Damage with Attacks"
+    }]
+}

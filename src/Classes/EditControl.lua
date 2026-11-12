@@ -318,7 +318,15 @@ function EditClass:Draw(viewPort, noTooltip)
 			elseif self.protected then
 				DrawString(-self.controls.scrollBarH.offset, -self.controls.scrollBarV.offset, "LEFT", textHeight, self.font, string.rep(protected_replace, #self.buf))
 			else
-				DrawString(-self.controls.scrollBarH.offset, -self.controls.scrollBarV.offset, "LEFT", textHeight, self.font, self.buf)
+				local displayText = self.buf
+				local offset = self.controls.scrollBarH.offset
+				if self.translateInactive and Localization then
+					displayText = Localization:TranslateUI(displayText)
+					-- The editing scroll offset measures the English buffer. Start
+					-- a translated name at the left edge without changing that offset.
+					if displayText ~= self.buf then offset = 0 end
+				end
+				DrawString(-offset, -self.controls.scrollBarV.offset, "LEFT", textHeight, self.font, displayText)
 			end
 		end
 		SetViewport()
