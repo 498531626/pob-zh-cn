@@ -397,10 +397,11 @@ function main:OnFrame()
 	self.mainBarHeight = 58 + totalToastHeight
 
 	-- Draw main controls
+	local mainBarWidth = m_max(312, 160 + self.controls.forkLabel:GetSize(), 160 + self.controls.versionLabel:GetSize())
 	SetDrawColor(0.85, 0.85, 0.85)
-	DrawImage(nil, 0, self.screenH - 58, 312, 58)
+	DrawImage(nil, 0, self.screenH - 58, mainBarWidth, 58)
 	SetDrawColor(0.1, 0.1, 0.1)
-	DrawImage(nil, 0, self.screenH - 54, 308, 54)
+	DrawImage(nil, 0, self.screenH - 54, mainBarWidth - 4, 54)
 	self:DrawControls(self.viewPort)
 
 	if self.popups[1] then
