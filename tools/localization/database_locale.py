@@ -93,6 +93,7 @@ def page_pairs(en_path, zh_path):
 
 def build_database():
     rows=json.loads((HERE/'database-source.json').read_text('utf8'))
+    rows+=json.loads((HERE/'legion-source.json').read_text('utf8'))
     local={r['english'].strip()for r in rows}
     shapes={shape(e)for e in local}
     exact,patterns=defaultdict(dict),defaultdict(dict)
@@ -129,6 +130,17 @@ def build_database():
         else:
             assert en in local,en
             entries[en]=meta
+    legion_local={r['english'].strip() for r in json.loads((HERE/'legion-source.json').read_text('utf8'))}
+    for en,zh in json.loads((HERE/'legion-reviewed.json').read_text('utf8')).items():
+        en,zh=en.strip(),zh.strip()
+        assert en in legion_local, 'Reviewed timeless text no longer exists: '+en
+        paired=numeric_pair(en,zh)
+        assert paired, 'Timeless numeric values changed: '+en
+        meta={'zh':zh,'kind':'timeless-display','status':'source-clause-reviewed',
+              'source':'Data/TimelessJewelData/LegionPassives.lua; Classes/PassiveSpec.lua'}
+        entries[en]=meta
+        e,z,n=paired
+        if n:templates[e]=dict(meta,en=e,zh=z,values=n,pattern=lua_pattern(e))
     report={'source_rows':len(rows),'matched_pairs':pairs,'exact_entries':len(entries),'numeric_templates':len(templates),
             'ambiguous_exact':{k:list(v)for k,v in exact.items()if len(v)>1},
             'ambiguous_templates':{k:list(v)for k,v in patterns.items()if len(v)>1}}

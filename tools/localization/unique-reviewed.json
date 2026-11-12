@@ -6,6 +6,7 @@
   "Take {0} Fire Damage when you Ignite an Enemy": "点燃敌人时受到 {0} 火焰伤害",
   "You can inflict an additional Ignite on each Enemy": "你可以对每个敌人额外施加一个点燃",
   "Survival": "生存",
+  "Passive Skills in Radius can be Allocated without being connected to your tree": "范围内的天赋无需与天赋树相连即可分配",
   "Removes all but one Life on use": "使用时将生命扣至一点",
   "Removed life is Regenerated as Energy Shield over {0} seconds": "扣除的生命在 {0} 秒内再生为能量护盾",
   "{0}% chance to gain a Flask Charge when you deal a Critical Strike": "造成暴击时有 {0}% 的几率获得一次药剂充能",

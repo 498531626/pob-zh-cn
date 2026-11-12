@@ -1,7 +1,7 @@
 {
-  "entries": 40241,
+  "entries": 40575,
   "gem_names": 1038,
-  "glyphs": 2458,
+  "glyphs": 2469,
   "font": "Microsoft YaHei (local PC copy)",
   "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
   "pob_version": "2.67.2",
@@ -39,19 +39,19 @@
   },
   "item_details": {
     "paired_mod_records": 103475,
-    "exact_entries": 25646,
-    "numeric_templates": 4269,
-    "composed_entries": 5721,
-    "ambiguous_exact_resolved": 63,
+    "exact_entries": 25759,
+    "numeric_templates": 4281,
+    "composed_entries": 5832,
+    "ambiguous_exact_resolved": 64,
     "ambiguous_templates_resolved": 27,
     "ambiguous_exact": 64,
     "ambiguous_templates": 28
   },
   "database_details": {
-    "source_rows": 5711,
-    "matched_pairs": 12161,
-    "exact_entries": 2474,
-    "numeric_templates": 1002,
+    "source_rows": 6275,
+    "matched_pairs": 12469,
+    "exact_entries": 2745,
+    "numeric_templates": 1065,
     "ambiguous_exact": 17,
     "ambiguous_templates": 5
   },

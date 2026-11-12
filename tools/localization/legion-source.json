@@ -1,0 +1,2257 @@
+[{
+    "english":"+5 to Devotion",
+    "kind":"timeless-stat",
+    "source":"Classes/PassiveSpec.lua"
+  },{
+    "english":"30% less Life Recovery from Flasks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_1"
+  },{
+    "english":"Life Recovery from Flasks also applies to Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_1"
+  },{
+    "english":"Supreme Decadence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_1"
+  },{
+    "english":"Enemies Hitting you have 10% chance to gain an Endurance, ",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_2"
+  },{
+    "english":"Frenzy or Power Charge",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_2"
+  },{
+    "english":"Nearby Allies and Enemies Share Charges with you",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_2"
+  },{
+    "english":"Supreme Grandstanding",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_2"
+  },{
+    "english":"40% more Mana Reservation of Aura Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_3"
+  },{
+    "english":"Aura Skills have 1% more Aura Effect per 2% of maximum Mana they Reserve",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_3"
+  },{
+    "english":"Auras from your Skills can only affect you",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_3"
+  },{
+    "english":"Supreme Ego",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_3"
+  },{
+    "english":"Gain no inherent bonuses from Attributes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_3_v2"
+  },{
+    "english":"Ignore Attribute Requirements",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_3_v2"
+  },{
+    "english":"Supreme Ostentation",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_3_v2"
+  },{
+    "english":"25% increased Accuracy Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_accuracy_1"
+  },{
+    "english":"War Games",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_accuracy_1"
+  },{
+    "english":"80% increased Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_armour_1"
+  },{
+    "english":"Gleaming Legion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_armour_1"
+  },{
+    "english":"15% increased Attack Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_attack_speed_1"
+  },{
+    "english":"Voll's Coup",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_attack_speed_1"
+  },{
+    "english":"12% increased effect of Non-Curse Auras from your Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_aura_1"
+  },{
+    "english":"Superiority",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_aura_1"
+  },{
+    "english":"50% increased Damage with Bleeding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_bleed_damage_1"
+  },{
+    "english":"Bleeding you inflict deals Damage 10% faster",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_bleed_damage_1"
+  },{
+    "english":"Geofri's End",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_bleed_damage_1"
+  },{
+    "english":"+12% Chance to Block Attack Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_block_1"
+  },{
+    "english":"City Walls",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_block_1"
+  },{
+    "english":"12% Chance to Block Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_block_2"
+  },{
+    "english":"Sceptre Pinnacle",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_block_2"
+  },{
+    "english":"15% increased Cast Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_cast_speed_1"
+  },{
+    "english":"Dialla's Wit",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_cast_speed_1"
+  },{
+    "english":"+37% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_chaos_resistance_1"
+  },{
+    "english":"With Eyes Open",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_chaos_resistance_1"
+  },{
+    "english":"30% increased Effect of Chill",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_chill_1"
+  },{
+    "english":"Rites of Lunaris",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_chill_1"
+  },{
+    "english":"80% chance to Avoid being Chilled",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_chill_2"
+  },{
+    "english":"Rites of Solaris",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_chill_2"
+  },{
+    "english":"80% increased Cold Damage with Attack Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_cold_attack_1"
+  },{
+    "english":"Bloody Flowers' Rebellion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_cold_attack_1"
+  },{
+    "english":"+50% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_cold_resistance_1"
+  },{
+    "english":"Street Urchin",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_cold_resistance_1"
+  },{
+    "english":"80% increased Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_crit_1"
+  },{
+    "english":"Flawless Execution",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_crit_1"
+  },{
+    "english":"+40% to Critical Strike Multiplier",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_crit_2"
+  },{
+    "english":"Brutal Execution",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_crit_2"
+  },{
+    "english":"20% chance to Avoid Elemental Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_dodge_1"
+  },{
+    "english":"Secret Tunnels",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_dodge_1"
+  },{
+    "english":"+12% chance to Suppress Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_dodge_2"
+  },{
+    "english":"Purity Rebel",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_dodge_2"
+  },{
+    "english":"Eternal Resilience",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_endurance_1"
+  },{
+    "english":"Gain 1 Endurance Charge every second if you've been Hit Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_endurance_1"
+  },{
+    "english":"8% increased Armour per Endurance Charge",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_endurance_2"
+  },{
+    "english":"Eternal Fortitude",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_endurance_2"
+  },{
+    "english":"10% increased Damage per Endurance Charge",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_endurance_3"
+  },{
+    "english":"Eternal Dominance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_endurance_3"
+  },{
+    "english":"80% increased Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_evasion_1"
+  },{
+    "english":"Shadowy Streets",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_evasion_1"
+  },{
+    "english":"80% increased Fire Damage with Attack Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_fire_attack_1"
+  },{
+    "english":"Night of a Thousand Ribbons",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_fire_attack_1"
+  },{
+    "english":"+50% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_fire_resistance_1"
+  },{
+    "english":"Crematorium Worker",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_fire_resistance_1"
+  },{
+    "english":"20% increased Flask Effect Duration",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_flask_duration_1"
+  },{
+    "english":"Freshly Brewed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_flask_duration_1"
+  },{
+    "english":"10% chance to gain a Frenzy Charge on Hit",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_frenzy_1"
+  },{
+    "english":"Eternal Fervour",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_frenzy_1"
+  },{
+    "english":"8% increased Evasion Rating per Frenzy Charge",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_frenzy_2"
+  },{
+    "english":"Eternal Adaptiveness",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_frenzy_2"
+  },{
+    "english":"10% increased Damage per Frenzy Charge",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_frenzy_3"
+  },{
+    "english":"Eternal Bloodlust",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_frenzy_3"
+  },{
+    "english":"10% increased maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_life_1"
+  },{
+    "english":"Robust Diet",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_life_1"
+  },{
+    "english":"80% increased Lightning Damage with Attack Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_lightning_attack_1"
+  },{
+    "english":"Chitus' Heart",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_lightning_attack_1"
+  },{
+    "english":"+50% to Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_lightning_resistance_1"
+  },{
+    "english":"Baleful Augmentation",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_lightning_resistance_1"
+  },{
+    "english":"30% increased maximum Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_mana_1"
+  },{
+    "english":"Pooled Resources",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_mana_1"
+  },{
+    "english":"50% increased Mana Regeneration Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_mana_regen_1"
+  },{
+    "english":"Laureate",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_mana_regen_1"
+  },{
+    "english":"Minions deal 80% increased Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_minion_1"
+  },{
+    "english":"Slum Lord",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_minion_1"
+  },{
+    "english":"Axiom Warden",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_minion_2"
+  },{
+    "english":"Minions have 80% increased maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_minion_2"
+  },{
+    "english":"80% increased Physical Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_physical_damage_1"
+  },{
+    "english":"Gemling Training",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_physical_damage_1"
+  },{
+    "english":"80% increased Melee Physical Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_physical_damage_2"
+  },{
+    "english":"Rigwald's Might",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_physical_damage_2"
+  },{
+    "english":"15% chance to gain a Power Charge on Critical Strike",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_power_1"
+  },{
+    "english":"Eternal Subjugation",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_power_1"
+  },{
+    "english":"4% increased Energy Shield per Power Charge",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_power_2"
+  },{
+    "english":"Eternal Separation",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_power_2"
+  },{
+    "english":"10% increased Damage per Power Charge",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_power_3"
+  },{
+    "english":"Eternal Exploitation",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_power_3"
+  },{
+    "english":"80% increased Projectile Attack Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_projectile_attack_damage_1"
+  },{
+    "english":"Lioneye's Focus",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_projectile_attack_damage_1"
+  },{
+    "english":"12% increased Mana Reservation Efficiency of Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_rarity_1"
+  },{
+    "english":"Discerning Taste",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_rarity_1"
+  },{
+    "english":"30% increased Effect of Shock",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_shock_1"
+  },{
+    "english":"Virtue Gem Surgery",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_shock_1"
+  },{
+    "english":"80% chance to Avoid being Shocked",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_shock_2"
+  },{
+    "english":"Rural Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_shock_2"
+  },{
+    "english":"80% increased Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_spell_1"
+  },{
+    "english":"Gemling Inquisition",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_spell_1"
+  },{
+    "english":"80% increased Spell Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_spell_2"
+  },{
+    "english":"Gemling Ambush",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_spell_2"
+  },{
+    "english":"Price of Glory",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_small_blank"
+  },{
+    "english":"+2 to Strength",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_attribute_strength"
+  },{
+    "english":"Strength",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_attribute_strength"
+  },{
+    "english":"2% additional Physical Damage Reduction for every 3% Life Recovery per second from Leech",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_1"
+  },{
+    "english":"Life Recovery from Non-Instant Leech is not applied",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_1"
+  },{
+    "english":"Strength of Blood",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_1"
+  },{
+    "english":"50% less Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_2"
+  },{
+    "english":"50% less Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_2"
+  },{
+    "english":"50% of Cold and Lightning Damage taken as Fire Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_2"
+  },{
+    "english":"Tempered by War",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_2"
+  },{
+    "english":"Chance to Block Attack Damage is doubled",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_3"
+  },{
+    "english":"Chance to Block Spell Damage is doubled",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_3"
+  },{
+    "english":"Glancing Blows",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_3"
+  },{
+    "english":"You take 65% of Damage from Blocked Hits",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_3"
+  },{
+    "english":"1 Rage Regenerated for every 25 Mana Regeneration per Second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_3_v2"
+  },{
+    "english":"Chainbreaker",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_3_v2"
+  },{
+    "english":"Does not delay Inherent Loss of Rage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_3_v2"
+  },{
+    "english":"Mana Recovery from Regeneration is not applied",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_3_v2"
+  },{
+    "english":"Skills Cost +3 Rage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_keystone_3_v2"
+  },{
+    "english":"20% increased Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_armour"
+  },{
+    "english":"Add Armour",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_armour"
+  },{
+    "english":"20% increased Burning Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_burning_damage"
+  },{
+    "english":"Add Burning Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_burning_damage"
+  },{
+    "english":"Add Damage From Crits",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_damage_from_crits"
+  },{
+    "english":"You take 10% reduced Extra Damage from Critical Strikes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_damage_from_crits"
+  },{
+    "english":"5% chance to deal Double Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_double_damage"
+  },{
+    "english":"Add Double Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_double_damage"
+  },{
+    "english":"5% chance to gain an Endurance Charge on Kill",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_endurance_charge_on_kill"
+  },{
+    "english":"Add Endurance Charge On Kill",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_endurance_charge_on_kill"
+  },{
+    "english":"Add Faster Ignite",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_faster_ignite"
+  },{
+    "english":"Ignites you inflict deal Damage 10% faster",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_faster_ignite"
+  },{
+    "english":"+20% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_fire_resistance"
+  },{
+    "english":"Add Fire Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_fire_resistance"
+  },{
+    "english":"+1 to maximum Fortification",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_fortify_effect"
+  },{
+    "english":"Add Fortify Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_fortify_effect"
+  },{
+    "english":"10% chance to Intimidate Enemies for 4 seconds on Hit",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_intimidate"
+  },{
+    "english":"Add Intimidate",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_intimidate"
+  },{
+    "english":"0.4% of Attack Damage Leeched as Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_leech"
+  },{
+    "english":"Add Leech",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_leech"
+  },{
+    "english":"4% increased maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_life"
+  },{
+    "english":"Add Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_life"
+  },{
+    "english":"Add Life Regen",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_life_regen"
+  },{
+    "english":"Regenerate 1% of Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_life_regen"
+  },{
+    "english":"30% increased Melee Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_melee_crit_chance"
+  },{
+    "english":"Add Melee Crit Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_melee_crit_chance"
+  },{
+    "english":"+15% to Melee Critical Strike Multiplier",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_melee_crit_multi"
+  },{
+    "english":"Add Melee Crit Multi",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_melee_crit_multi"
+  },{
+    "english":"20% increased Melee Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_melee_damage"
+  },{
+    "english":"Add Melee Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_melee_damage"
+  },{
+    "english":"5% increased Strength",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_percent_strength"
+  },{
+    "english":"Add Percent Strength",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_percent_strength"
+  },{
+    "english":"Add Physical Added As Fire",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_physical_added_as_fire"
+  },{
+    "english":"Gain 5% of Physical Damage as Extra Fire Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_physical_added_as_fire"
+  },{
+    "english":"20% increased Physical Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_physical_damage"
+  },{
+    "english":"Add Physical Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_physical_damage"
+  },{
+    "english":"Add Rage On Melee Hit",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_rage_on_melee_hit"
+  },{
+    "english":"Gain 1 Rage on Melee Hit",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_rage_on_melee_hit"
+  },{
+    "english":"10% reduced Enemy Stun Threshold",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_reduced_stun_threshold"
+  },{
+    "english":"Add Reduced Stun Threshold",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_reduced_stun_threshold"
+  },{
+    "english":"+20 to Strength",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_strength"
+  },{
+    "english":"Add Strength",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_strength"
+  },{
+    "english":"20% increased Stun Duration on Enemies",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_stun_duration"
+  },{
+    "english":"Add Stun Duration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_stun_duration"
+  },{
+    "english":"20% increased Totem Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_totem_damage"
+  },{
+    "english":"Add Totem Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_totem_damage"
+  },{
+    "english":"12% increased Totem Placement speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_totem_placement_speed"
+  },{
+    "english":"Add Totem Placement Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_totem_placement_speed"
+  },{
+    "english":"8% increased Warcry Buff Effect",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_warcry_buff_effect"
+  },{
+    "english":"Add Warcry Buff Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_warcry_buff_effect"
+  },{
+    "english":"+4 to Strength",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_small_strength"
+  },{
+    "english":"Strength",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#karui_small_strength"
+  },{
+    "english":"+2 to Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_attribute_dex"
+  },{
+    "english":"Dex",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_attribute_dex"
+  },{
+    "english":"10% more chance to Evade Attacks if you have been Hit by an Attack Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_1"
+  },{
+    "english":"20% less Attack Damage taken if you haven't been Hit by an Attack Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_1"
+  },{
+    "english":"20% more Attack Damage taken if you have been Hit by an Attack Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_1"
+  },{
+    "english":"Wind Dancer",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_1"
+  },{
+    "english":"Flasks Gain 4 Charges per empty Flask Slot every 5 seconds",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_1_v2"
+  },{
+    "english":"The Traitor",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_1_v2"
+  },{
+    "english":"Can't use Helmets",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_2"
+  },{
+    "english":"Dance with Death",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_2"
+  },{
+    "english":"Enemies' Damage with Critical Strikes against you is Lucky",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_2"
+  },{
+    "english":"Your Critical Strike Chance is Lucky",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_2"
+  },{
+    "english":"Your Damage with Critical Strikes is Lucky",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_2"
+  },{
+    "english":"25% more Melee Critical Strike Chance while Blinded",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_3"
+  },{
+    "english":"Blind does not affect your Light Radius",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_3"
+  },{
+    "english":"Second Sight",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_3"
+  },{
+    "english":"You are Blind",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_keystone_3"
+  },{
+    "english":"5% increased Accuracy Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_accuracy"
+  },{
+    "english":"Add Accuracy",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_accuracy"
+  },{
+    "english":"10% increased Duration of Elemental Ailments on Enemies",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_ailment_duration"
+  },{
+    "english":"Add Ailment Duration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_ailment_duration"
+  },{
+    "english":"10% increased Effect of Non-Damaging Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_ailment_effect"
+  },{
+    "english":"Add Ailment Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_ailment_effect"
+  },{
+    "english":"25% chance to gain Alchemist's Genius when you use a Flask",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_alchemists_genius"
+  },{
+    "english":"Add Alchemists Genius",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_alchemists_genius"
+  },{
+    "english":"8% increased effect of Non-Curse Auras from your Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_aura_effect"
+  },{
+    "english":"Add Aura Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_aura_effect"
+  },{
+    "english":"5% chance to Blind Enemies on Hit",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_blind"
+  },{
+    "english":"Add Blind",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_blind"
+  },{
+    "english":"+20% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_cold_resistance"
+  },{
+    "english":"Add Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_cold_resistance"
+  },{
+    "english":"+20 to Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_dexterity"
+  },{
+    "english":"Add Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_dexterity"
+  },{
+    "english":"20% increased Elemental Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_elemental_damage"
+  },{
+    "english":"Add Elemental Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_elemental_damage"
+  },{
+    "english":"20% increased Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_evasion"
+  },{
+    "english":"Add Evasion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_evasion"
+  },{
+    "english":"Add Faster Poison",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_faster_poison"
+  },{
+    "english":"Poisons you inflict deal Damage 10% faster",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_faster_poison"
+  },{
+    "english":"10% increased Flask Charges gained",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_flask_charges"
+  },{
+    "english":"Add Flask Charges",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_flask_charges"
+  },{
+    "english":"5% chance to gain a Frenzy Charge on Kill",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_frenzy_charge_on_kill"
+  },{
+    "english":"Add Frenzy Charge On Kill",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_frenzy_charge_on_kill"
+  },{
+    "english":"25% increased Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_global_crit_chance"
+  },{
+    "english":"Add Global Crit Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_global_crit_chance"
+  },{
+    "english":"4% increased maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_life"
+  },{
+    "english":"Add Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_life"
+  },{
+    "english":"Add Minion Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_minion_damage"
+  },{
+    "english":"Minions deal 20% increased Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_minion_damage"
+  },{
+    "english":"Add Minion Movement Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_minion_movement_speed"
+  },{
+    "english":"Minions have 15% increased Movement Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_minion_movement_speed"
+  },{
+    "english":"5% increased Movement Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_movement_speed"
+  },{
+    "english":"Add Movement Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_movement_speed"
+  },{
+    "english":"Add Onslaught",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_onslaught"
+  },{
+    "english":"You gain Onslaught for 8 seconds on Kill",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_onslaught"
+  },{
+    "english":"5% increased Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_percent_dexterity"
+  },{
+    "english":"Add Percent Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_percent_dexterity"
+  },{
+    "english":"Add Physical Added As Cold",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_physical_added_as_cold"
+  },{
+    "english":"Gain 5% of Physical Damage as Extra Cold Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_physical_added_as_cold"
+  },{
+    "english":"20% increased Damage with Poison",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_poison_damage"
+  },{
+    "english":"Add Poison Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_poison_damage"
+  },{
+    "english":"20% increased Projectile Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_projectile_damage"
+  },{
+    "english":"Add Projectile Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_projectile_damage"
+  },{
+    "english":"5% increased Attack and Cast Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_speed"
+  },{
+    "english":"Add Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_speed"
+  },{
+    "english":"20% chance to Avoid being Stunned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_stun_avoid"
+  },{
+    "english":"Add Stun Avoid",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_stun_avoid"
+  },{
+    "english":"+4 to Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_small_dex"
+  },{
+    "english":"Dex",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_small_dex"
+  },{
+    "english":"+10 to Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_devotion_node"
+  },{
+    "english":"Devotion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_devotion_node"
+  },{
+    "english":"Removes all Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_keystone_1"
+  },{
+    "english":"The Agnostic",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_keystone_1"
+  },{
+    "english":"While not on Full Life, Sacrifice 20% of Mana per Second to Recover that much Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_keystone_1"
+  },{
+    "english":"-15% to all maximum Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_keystone_1_v2"
+  },{
+    "english":"Armour applies to Fire, Cold and Lightning Damage taken from Hits instead of Physical Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_keystone_1_v2"
+  },{
+    "english":"Transcendence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_keystone_1_v2"
+  },{
+    "english":"3% more Spell Damage per Power Charge",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_keystone_2"
+  },{
+    "english":"Gain Power Charges instead of Frenzy Charges",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_keystone_2"
+  },{
+    "english":"Inner Conviction",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_keystone_2"
+  },{
+    "english":"80% of Maximum Mana is Converted to twice that much Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_keystone_3"
+  },{
+    "english":"Power of Purpose",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_keystone_3"
+  },{
+    "english":"5% additional Physical Damage Reduction while you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_additional_physical_reduction"
+  },{
+    "english":"Martyr's Might",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_additional_physical_reduction"
+  },{
+    "english":"Gain Arcane Surge on Hit with Spells if you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_arcane_surge"
+  },{
+    "english":"Zealot",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_arcane_surge"
+  },{
+    "english":"15% of Physical Damage Converted to Cold Damage while you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_cold_conversion"
+  },{
+    "english":"Calming Devotion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_cold_conversion"
+  },{
+    "english":"10% chance to inflict Cold Exposure on Hit if you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_cold_exposure"
+  },{
+    "english":"Smite the Ignorant",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_cold_exposure"
+  },{
+    "english":"Cloistered",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_consecrated_ground_ailments"
+  },{
+    "english":"Immune to Elemental Ailments while on Consecrated Ground if you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_consecrated_ground_ailments"
+  },{
+    "english":"+5 to Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_devotion"
+  },{
+    "english":"Devotion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_devotion"
+  },{
+    "english":"15% of Physical Damage Converted to Fire Damage while you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_fire_conversion"
+  },{
+    "english":"Heated Devotion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_fire_conversion"
+  },{
+    "english":"10% chance to inflict Fire Exposure on Hit if you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_fire_exposure"
+  },{
+    "english":"Smite the Wicked",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_fire_exposure"
+  },{
+    "english":"15% of Physical Damage Converted to Lightning Damage while you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_lightning_conversion"
+  },{
+    "english":"Thundrous Devotion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_lightning_conversion"
+  },{
+    "english":"10% chance to inflict Lightning Exposure on Hit if you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_lightning_exposure"
+  },{
+    "english":"Smite the Heretical",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_lightning_exposure"
+  },{
+    "english":"Gain 5% of Maximum Mana as Extra Maximum Energy Shield while you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_mana_added_as_energy_shield"
+  },{
+    "english":"Thoughts and Prayers",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_mana_added_as_energy_shield"
+  },{
+    "english":"+1% to all maximum Resistances if you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_max_resistances"
+  },{
+    "english":"Intolerance of Sin",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_max_resistances"
+  },{
+    "english":"+1 to Minimum Endurance Charges while you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_minimum_endurance_charge"
+  },{
+    "english":"Enduring Faith",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_minimum_endurance_charge"
+  },{
+    "english":"+1 to Minimum Frenzy Charges while you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_minimum_frenzy_charge"
+  },{
+    "english":"Frenzied Faith",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_minimum_frenzy_charge"
+  },{
+    "english":"+1 to Minimum Power Charges while you have at least 150 Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_minimum_power_charge"
+  },{
+    "english":"Powerful Faith",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_notable_minimum_power_charge"
+  },{
+    "english":"+5 to Devotion",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_small_devotion"
+  },{
+    "english":"Devotion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#templar_small_devotion"
+  },{
+    "english":"+5% to maximum Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_1"
+  },{
+    "english":"50% of Elemental Damage taken as Chaos Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_1"
+  },{
+    "english":"All Damage taken bypasses Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_1"
+  },{
+    "english":"Divine Flesh",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_1"
+  },{
+    "english":"50% less Life Regeneration Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_2"
+  },{
+    "english":"50% less maximum Total Life Recovery per Second from Leech",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_2"
+  },{
+    "english":"Energy Shield Recharge instead applies to Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_2"
+  },{
+    "english":"Eternal Youth",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_2"
+  },{
+    "english":"Cannot Recharge or Regenerate Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_2_v2"
+  },{
+    "english":"Energy Shield starts at zero",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_2_v2"
+  },{
+    "english":"Immortal Ambition",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_2_v2"
+  },{
+    "english":"Life Leech effects Recover Energy Shield instead while on Full Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_2_v2"
+  },{
+    "english":"Life Leech effects are not removed when Unreserved Life is Filled",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_2_v2"
+  },{
+    "english":"Lose 5% of Energy Shield per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_2_v2"
+  },{
+    "english":"50% of Non-Chaos Damage taken bypasses Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_3"
+  },{
+    "english":"Corrupted Soul",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_3"
+  },{
+    "english":"Gain 15% of Maximum Life as Extra Maximum Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_keystone_3"
+  },{
+    "english":"(3-4)% additional Physical Damage Reduction",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_armour_1"
+  },{
+    "english":"(30-40)% increased Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_armour_1"
+  },{
+    "english":"Automaton Studies",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_armour_1"
+  },{
+    "english":"(7-10)% increased effect of Non-Curse Auras from your Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_aura_1"
+  },{
+    "english":"20% increased Area of Effect of Aura Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_aura_1"
+  },{
+    "english":"Commanding Presence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_aura_1"
+  },{
+    "english":"(6-10) Life gained when you Block",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_block_1"
+  },{
+    "english":"+8% Chance to Block Attack Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_block_1"
+  },{
+    "english":"Blood-Quenched Bulwark",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_block_1"
+  },{
+    "english":"(20-30)% increased Defences from Equipped Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_block_2"
+  },{
+    "english":"8% Chance to Block Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_block_2"
+  },{
+    "english":"Thaumaturgical Protection",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_block_2"
+  },{
+    "english":"(25-35)% increased Chaos Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_chaos_damage_1"
+  },{
+    "english":"25% chance to inflict Withered for 2 seconds on Hit",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_chaos_damage_1"
+  },{
+    "english":"Ritual of Shadows",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_chaos_damage_1"
+  },{
+    "english":"(25-35)% increased Chaos Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_chaos_damage_2"
+  },{
+    "english":"0.2% of Chaos Damage Leeched as Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_chaos_damage_2"
+  },{
+    "english":"Revitalising Darkness",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_chaos_damage_2"
+  },{
+    "english":"+(13-19)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_chaos_resistance_1"
+  },{
+    "english":"+1% to maximum Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_chaos_resistance_1"
+  },{
+    "english":"Cult of Chaos",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_chaos_resistance_1"
+  },{
+    "english":"(25-35)% increased Cold Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_damage_1"
+  },{
+    "english":"Damage Penetrates (2-4)% Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_damage_1"
+  },{
+    "english":"Ritual of Stillness",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_damage_1"
+  },{
+    "english":"(25-35)% increased Cold Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_damage_2"
+  },{
+    "english":"0.2% of Cold Damage Leeched as Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_damage_2"
+  },{
+    "english":"Revitalising Frost",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_damage_2"
+  },{
+    "english":"(25-35)% increased Cold Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_damage_3"
+  },{
+    "english":"10% of Physical Damage Converted to Cold Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_damage_3"
+  },{
+    "english":"Flesh to Frost",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_damage_3"
+  },{
+    "english":"+(20-30)% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_resistance_1"
+  },{
+    "english":"+1% to maximum Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_resistance_1"
+  },{
+    "english":"Cult of Ice",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_cold_resistance_1"
+  },{
+    "english":"(4-6)% increased Effect of your Curses",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_curse_1"
+  },{
+    "english":"Ancient Hex",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_curse_1"
+  },{
+    "english":"Curse Skills have 20% increased Skill Effect Duration",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_curse_1"
+  },{
+    "english":"(25-35)% increased Damage over Time",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_damage_over_time_1"
+  },{
+    "english":"(7-11)% increased Skill Effect Duration",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_damage_over_time_1"
+  },{
+    "english":"Exquisite Pain",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_damage_over_time_1"
+  },{
+    "english":"(8-10)% chance to Avoid Elemental Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_dodge_1"
+  },{
+    "english":"(8-10)% chance to Avoid being Stunned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_dodge_1"
+  },{
+    "english":"Jungle Paths",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_dodge_1"
+  },{
+    "english":"+(8-10)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_dodge_2"
+  },{
+    "english":"+6% chance to Suppress Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_dodge_2"
+  },{
+    "english":"Temple Paths",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_dodge_2"
+  },{
+    "english":"(10-15)% increased Energy Shield Recharge Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_energy_shield_1"
+  },{
+    "english":"(8-12)% increased maximum Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_energy_shield_1"
+  },{
+    "english":"Energy Flow Studies",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_energy_shield_1"
+  },{
+    "english":"(8-12)% increased maximum Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_energy_shield_2"
+  },{
+    "english":"0.3% of Spell Damage Leeched as Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_energy_shield_2"
+  },{
+    "english":"Soul Worship",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_energy_shield_2"
+  },{
+    "english":"(30-40)% increased Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_evasion_1"
+  },{
+    "english":"(5-7)% chance to Blind Enemies on Hit",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_evasion_1"
+  },{
+    "english":"Construct Studies",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_evasion_1"
+  },{
+    "english":"(25-35)% increased Fire Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_damage_1"
+  },{
+    "english":"Damage Penetrates (2-4)% Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_damage_1"
+  },{
+    "english":"Ritual of Immolation",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_damage_1"
+  },{
+    "english":"(25-35)% increased Fire Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_damage_2"
+  },{
+    "english":"0.2% of Fire Damage Leeched as Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_damage_2"
+  },{
+    "english":"Revitalising Flames",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_damage_2"
+  },{
+    "english":"(25-35)% increased Fire Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_damage_3"
+  },{
+    "english":"10% of Physical Damage Converted to Fire Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_damage_3"
+  },{
+    "english":"Flesh to Flames",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_damage_3"
+  },{
+    "english":"+(20-30)% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_resistance_1"
+  },{
+    "english":"+1% to maximum Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_resistance_1"
+  },{
+    "english":"Cult of Fire",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_fire_resistance_1"
+  },{
+    "english":"(6-10)% increased maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_life_1"
+  },{
+    "english":"Regenerate (0.7-1.2)% of Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_life_1"
+  },{
+    "english":"Ritual of Flesh",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_life_1"
+  },{
+    "english":"(6-10)% increased maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_life_2"
+  },{
+    "english":"0.4% of Attack Damage Leeched as Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_life_2"
+  },{
+    "english":"Flesh Worship",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_life_2"
+  },{
+    "english":"(25-35)% increased Lightning Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_damage_1"
+  },{
+    "english":"Damage Penetrates (2-4)% Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_damage_1"
+  },{
+    "english":"Ritual of Thunder",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_damage_1"
+  },{
+    "english":"(25-35)% increased Lightning Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_damage_2"
+  },{
+    "english":"0.2% of Lightning Damage Leeched as Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_damage_2"
+  },{
+    "english":"Revitalising Lightning",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_damage_2"
+  },{
+    "english":"(25-35)% increased Lightning Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_damage_3"
+  },{
+    "english":"10% of Physical Damage Converted to Lightning Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_damage_3"
+  },{
+    "english":"Flesh to Lightning",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_damage_3"
+  },{
+    "english":"+(20-30)% to Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_resistance_1"
+  },{
+    "english":"+1% to maximum Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_resistance_1"
+  },{
+    "english":"Cult of Lightning",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_lightning_resistance_1"
+  },{
+    "english":"(15-25)% increased Mana Regeneration Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_mana_1"
+  },{
+    "english":"(17-23)% increased maximum Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_mana_1"
+  },{
+    "english":"Ritual of Memory",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_mana_1"
+  },{
+    "english":"Hierarchy",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_minion_damage_1"
+  },{
+    "english":"Minions deal (25-35)% increased Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_minion_damage_1"
+  },{
+    "english":"Minions have (15-20)% increased maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_minion_damage_1"
+  },{
+    "english":"(2-4)% chance to deal Double Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_physical_damage_1"
+  },{
+    "english":"(25-35)% increased Physical Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_physical_damage_1"
+  },{
+    "english":"Ritual of Might",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_physical_damage_1"
+  },{
+    "english":"(25-35)% increased Physical Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_physical_damage_2"
+  },{
+    "english":"0.2% of Physical Damage Leeched as Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_physical_damage_2"
+  },{
+    "english":"Revitalising Winds",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_physical_damage_2"
+  },{
+    "english":"(25-35)% increased Physical Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_physical_damage_3"
+  },{
+    "english":"Bleeding you inflict deals Damage 10% faster",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_physical_damage_3"
+  },{
+    "english":"Bloody Savagery",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_physical_damage_3"
+  },{
+    "english":"Legacy of the Vaal",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_random_defence"
+  },{
+    "english":"Might of the Vaal",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_random_offense"
+  },{
+    "english":"(25-35)% increased Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_spell_damage_1"
+  },{
+    "english":"(35-50)% increased Spell Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_spell_damage_1"
+  },{
+    "english":"Thaumaturgical Aptitude",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_spell_damage_1"
+  },{
+    "english":"(7-12)% increased Area Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_area_damage"
+  },{
+    "english":"(7-12)% increased Area Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_area_damage"
+  },{
+    "english":"Area Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_area_damage"
+  },{
+    "english":"Area Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_area_damage"
+  },{
+    "english":"(4-7)% increased Area of Effect",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_area_of_effect"
+  },{
+    "english":"(4-7)% increased Area of Effect",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_area_of_effect"
+  },{
+    "english":"Area Of Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_area_of_effect"
+  },{
+    "english":"Area of Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_area_of_effect"
+  },{
+    "english":"(7-12)% increased Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_armour"
+  },{
+    "english":"(7-12)% increased Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_armour"
+  },{
+    "english":"Armour",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_armour"
+  },{
+    "english":"Armour",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_armour"
+  },{
+    "english":"+2% Chance to Block Attack Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_block"
+  },{
+    "english":"+2% Chance to Block Attack Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_block"
+  },{
+    "english":"Attack Block",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_block"
+  },{
+    "english":"Block",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_block"
+  },{
+    "english":"(7-12)% increased Attack Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_damage"
+  },{
+    "english":"(7-12)% increased Attack Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_damage"
+  },{
+    "english":"Attack Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_damage"
+  },{
+    "english":"Attack Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_damage"
+  },{
+    "english":"3% chance to Avoid Elemental Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_dodge"
+  },{
+    "english":"3% chance to Avoid Elemental Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_dodge"
+  },{
+    "english":"Attack Dodge",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_dodge"
+  },{
+    "english":"Avoid Elemental Ailments",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_dodge"
+  },{
+    "english":"(3-4)% increased Attack Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_speed"
+  },{
+    "english":"(3-4)% increased Attack Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_speed"
+  },{
+    "english":"Attack Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_speed"
+  },{
+    "english":"Attack Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_attack_speed"
+  },{
+    "english":"(2-4)% increased effect of Non-Curse Auras from your Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_aura_effect"
+  },{
+    "english":"(2-4)% increased effect of Non-Curse Auras from your Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_aura_effect"
+  },{
+    "english":"Aura Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_aura_effect"
+  },{
+    "english":"Aura Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_aura_effect"
+  },{
+    "english":"(2-3)% increased Cast Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cast_speed"
+  },{
+    "english":"(2-3)% increased Cast Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cast_speed"
+  },{
+    "english":"Cast Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cast_speed"
+  },{
+    "english":"Cast Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cast_speed"
+  },{
+    "english":"(3-6)% chance to Freeze",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_freeze"
+  },{
+    "english":"(3-6)% chance to Freeze",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_freeze"
+  },{
+    "english":"Chance To Freeze",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_freeze"
+  },{
+    "english":"Freeze Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_freeze"
+  },{
+    "english":"(3-6)% chance to Ignite",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_ignite"
+  },{
+    "english":"(3-6)% chance to Ignite",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_ignite"
+  },{
+    "english":"Chance To Ignite",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_ignite"
+  },{
+    "english":"Ignite Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_ignite"
+  },{
+    "english":"(3-6)% chance to Shock",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_shock"
+  },{
+    "english":"(3-6)% chance to Shock",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_shock"
+  },{
+    "english":"Chance To Shock",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_shock"
+  },{
+    "english":"Shock Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chance_to_shock"
+  },{
+    "english":"(7-12)% increased Chaos Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chaos_damage"
+  },{
+    "english":"(7-12)% increased Chaos Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chaos_damage"
+  },{
+    "english":"Chaos Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chaos_damage"
+  },{
+    "english":"Chaos Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chaos_damage"
+  },{
+    "english":"+(6-10)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chaos_resistance"
+  },{
+    "english":"+(6-10)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chaos_resistance"
+  },{
+    "english":"Chaos Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chaos_resistance"
+  },{
+    "english":"Chaos Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_chaos_resistance"
+  },{
+    "english":"(7-12)% increased Cold Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cold_damage"
+  },{
+    "english":"(7-12)% increased Cold Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cold_damage"
+  },{
+    "english":"Cold Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cold_damage"
+  },{
+    "english":"Cold Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cold_damage"
+  },{
+    "english":"+(9-14)% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cold_resistance"
+  },{
+    "english":"+(9-14)% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cold_resistance"
+  },{
+    "english":"Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cold_resistance"
+  },{
+    "english":"Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_cold_resistance"
+  },{
+    "english":"(7-14)% increased Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_critical_strike_chance"
+  },{
+    "english":"(7-14)% increased Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_critical_strike_chance"
+  },{
+    "english":"Critical Strike Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_critical_strike_chance"
+  },{
+    "english":"Critical Strike Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_critical_strike_chance"
+  },{
+    "english":"+(6-10)% to Critical Strike Multiplier",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_critical_strike_multiplier"
+  },{
+    "english":"+(6-10)% to Critical Strike Multiplier",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_critical_strike_multiplier"
+  },{
+    "english":"Critical Strike Multiplier",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_critical_strike_multiplier"
+  },{
+    "english":"Critical Strike Multiplier",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_critical_strike_multiplier"
+  },{
+    "english":"2% increased Effect of your Curses",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_curse_effect"
+  },{
+    "english":"2% increased Effect of your Curses",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_curse_effect"
+  },{
+    "english":"Curse Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_curse_effect"
+  },{
+    "english":"Curse Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_curse_effect"
+  },{
+    "english":"(7-12)% increased Damage over Time",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_damage_over_time"
+  },{
+    "english":"(7-12)% increased Damage over Time",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_damage_over_time"
+  },{
+    "english":"Damage Over Time",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_damage_over_time"
+  },{
+    "english":"Damage Over Time",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_damage_over_time"
+  },{
+    "english":"(4-7)% increased Skill Effect Duration",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_duration"
+  },{
+    "english":"(4-7)% increased Skill Effect Duration",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_duration"
+  },{
+    "english":"Duration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_duration"
+  },{
+    "english":"Skill Duration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_duration"
+  },{
+    "english":"(3-5)% increased maximum Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_energy_shield"
+  },{
+    "english":"(3-5)% increased maximum Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_energy_shield"
+  },{
+    "english":"Energy Shield",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_energy_shield"
+  },{
+    "english":"Energy Shield",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_energy_shield"
+  },{
+    "english":"(7-12)% increased Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_evasion"
+  },{
+    "english":"(7-12)% increased Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_evasion"
+  },{
+    "english":"Evasion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_evasion"
+  },{
+    "english":"Evasion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_evasion"
+  },{
+    "english":"(7-12)% increased Fire Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_fire_damage"
+  },{
+    "english":"(7-12)% increased Fire Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_fire_damage"
+  },{
+    "english":"Fire Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_fire_damage"
+  },{
+    "english":"Fire Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_fire_damage"
+  },{
+    "english":"+(9-14)% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_fire_resistance"
+  },{
+    "english":"+(9-14)% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_fire_resistance"
+  },{
+    "english":"Fire Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_fire_resistance"
+  },{
+    "english":"Fire Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_fire_resistance"
+  },{
+    "english":"(2-4)% increased maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_life"
+  },{
+    "english":"(2-4)% increased maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_life"
+  },{
+    "english":"Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_life"
+  },{
+    "english":"Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_life"
+  },{
+    "english":"(7-12)% increased Lightning Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_lightning_damage"
+  },{
+    "english":"(7-12)% increased Lightning Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_lightning_damage"
+  },{
+    "english":"Lightning Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_lightning_damage"
+  },{
+    "english":"Lightning Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_lightning_damage"
+  },{
+    "english":"+(9-14)% to Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_lightning_resistance"
+  },{
+    "english":"+(9-14)% to Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_lightning_resistance"
+  },{
+    "english":"Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_lightning_resistance"
+  },{
+    "english":"Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_lightning_resistance"
+  },{
+    "english":"(4-6)% increased maximum Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_mana"
+  },{
+    "english":"(4-6)% increased maximum Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_mana"
+  },{
+    "english":"Mana",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_mana"
+  },{
+    "english":"Mana",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_mana"
+  },{
+    "english":"(12-17)% increased Mana Regeneration Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_mana_regeneration"
+  },{
+    "english":"(12-17)% increased Mana Regeneration Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_mana_regeneration"
+  },{
+    "english":"Mana Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_mana_regeneration"
+  },{
+    "english":"Mana Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_mana_regeneration"
+  },{
+    "english":"Minion Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_minion_damage"
+  },{
+    "english":"Minion Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_minion_damage"
+  },{
+    "english":"Minions deal (8-13)% increased Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_minion_damage"
+  },{
+    "english":"Minions deal (8-13)% increased Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_minion_damage"
+  },{
+    "english":"(2-3)% increased Movement Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_movement_speed"
+  },{
+    "english":"(2-3)% increased Movement Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_movement_speed"
+  },{
+    "english":"Movement Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_movement_speed"
+  },{
+    "english":"Movement Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_movement_speed"
+  },{
+    "english":"(7-12)% increased Physical Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_physical_damage"
+  },{
+    "english":"(7-12)% increased Physical Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_physical_damage"
+  },{
+    "english":"Physical Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_physical_damage"
+  },{
+    "english":"Physical Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_physical_damage"
+  },{
+    "english":"(7-12)% increased Projectile Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_projectile_damage"
+  },{
+    "english":"(7-12)% increased Projectile Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_projectile_damage"
+  },{
+    "english":"Projectile Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_projectile_damage"
+  },{
+    "english":"Projectile Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_projectile_damage"
+  },{
+    "english":"(7-12)% increased Projectile Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_projectile_speed"
+  },{
+    "english":"(7-12)% increased Projectile Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_projectile_speed"
+  },{
+    "english":"Projectile Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_projectile_speed"
+  },{
+    "english":"Projectile Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_projectile_speed"
+  },{
+    "english":"2% Chance to Block Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_block"
+  },{
+    "english":"2% Chance to Block Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_block"
+  },{
+    "english":"Spell Block",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_block"
+  },{
+    "english":"Spell Block",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_block"
+  },{
+    "english":"(7-12)% increased Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_damage"
+  },{
+    "english":"(7-12)% increased Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_damage"
+  },{
+    "english":"Spell Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_damage"
+  },{
+    "english":"Spell Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_damage"
+  },{
+    "english":"+4% chance to Suppress Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_dodge"
+  },{
+    "english":"+4% chance to Suppress Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_dodge"
+  },{
+    "english":"Spell Dodge",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_dodge"
+  },{
+    "english":"Spell Suppression",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_small_spell_dodge"
+  }]
