@@ -4964,11 +4964,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["chance","to","gain","an","Endurance","Charge","when","you","Hit","Bleeding","Enemy"]
   },{
-    "chinese":"(5-10)% of Elemental Damage taken as Chaos Damage if 4 Hunter Items are Equipped",
-    "english":"(5-10)% of Elemental Damage taken as Chaos Damage if 4 Hunter Items are Equipped",
-    "kind":"craft-stat",
-    "remaining_english_words":["of","Elemental","Damage","taken","as","Chaos","Damage","if","Hunter","Items","are","Equipped"]
-  },{
     "chinese":"(5-10)% of Physical Damage taken as Cold Damage if 4 Redeemer Items are Equipped",
     "english":"(5-10)% of Physical Damage taken as Cold Damage if 4 Redeemer Items are Equipped",
     "kind":"craft-stat",
@@ -10244,11 +10239,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["Lose","Mana","per","second"]
   },{
-    "chinese":"Lose 0.4% of Energy Shield per second",
-    "english":"Lose 0.4% of Energy Shield per second",
-    "kind":"craft-stat",
-    "remaining_english_words":["Lose","of","Energy","Shield","per","second"]
-  },{
     "chinese":"Lose 0.4% of Life per second",
     "english":"Lose 0.4% of Life per second",
     "kind":"craft-stat",
@@ -10768,11 +10758,6 @@
     "english":"Passive Skills in Radius also grant 7% increased Evasion Rating",
     "kind":"craft-stat",
     "remaining_english_words":["Passive","Skills","in","Radius","also","grant","increased","Evasion","Rating"]
-  },{
-    "chinese":"Passive Skills in Radius can be Allocated without being connected to your tree",
-    "english":"Passive Skills in Radius can be Allocated without being connected to your tree",
-    "kind":"craft-stat",
-    "remaining_english_words":["Passive","Skills","in","Radius","can","be","Allocated","without","being","connected","to","your","tree"]
   },{
     "chinese":"Penetrate 1% Elemental Resistances per Frenzy Charge",
     "english":"Penetrate 1% Elemental Resistances per Frenzy Charge",
@@ -13274,11 +13259,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["Totems","have","increased","Cast","Speed","per","Summoned","Totem"]
   },{
-    "chinese":"Transcendence",
-    "english":"Transcendence",
-    "kind":"craft-stat",
-    "remaining_english_words":["Transcendence"]
-  },{
     "chinese":"Trap Skills have (10-15)% increased Skill Effect Duration",
     "english":"Trap Skills have (10-15)% increased Skill Effect Duration",
     "kind":"craft-stat",
@@ -13963,16 +13943,6 @@
     "english":"You gain Adrenaline for 3 seconds on using a Vaal Skill",
     "kind":"craft-stat",
     "remaining_english_words":["You","gain","Adrenaline","for","seconds","on","using","Vaal","Skill"]
-  },{
-    "chinese":"You gain Onslaught for 3 seconds on Kill",
-    "english":"You gain Onslaught for 3 seconds on Kill",
-    "kind":"craft-stat",
-    "remaining_english_words":["You","gain","Onslaught","for","seconds","on","Kill"]
-  },{
-    "chinese":"You gain Onslaught for 4 seconds on Kill",
-    "english":"You gain Onslaught for 4 seconds on Kill",
-    "kind":"craft-stat",
-    "remaining_english_words":["You","gain","Onslaught","for","seconds","on","Kill"]
   },{
     "chinese":"You gain an Endurance Charge on Kill",
     "english":"You gain an Endurance Charge on Kill",
@@ -16128,11 +16098,6 @@
     "english":"(80-90)% reduced Amount Recovered\n(200-250)% increased Recovery rate\nLife Leech is instant during Effect",
     "kind":"craft-stat-group",
     "remaining_english_words":["Life","Leech","is","instant","during","Effect"]
-  },{
-    "chinese":"+(44-47) 最大能量护盾\nLose 0.4% of Energy Shield per second",
-    "english":"+(44-47) to maximum Energy Shield\nLose 0.4% of Energy Shield per second",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["Lose","of","Energy","Shield","per","second"]
   },{
     "chinese":"+(46-48)% 冰霜抗性\n0.4% of Cold Damage Leeched by Enemy as Life",
     "english":"+(46-48)% to Cold Resistance\n0.4% of Cold Damage Leeched by Enemy as Life",
@@ -29442,12 +29407,6 @@
     "kind":"unique-stat",
     "remaining_english_words":["reduced","Mana","Cost","of","Minion","Skills"]
   },{
-    "chinese":"(10-20)% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire",
-    "english":"(10-20)% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire",
-    "kind":"unique-stat",
-    "remaining_english_words":["of","Cold","and","Lightning","Damage","taken","as","Fire","Damage","while","affected","by","Purity","of","Fire"],
-    "source":"Data/Uniques/Special/Generated.lua"
-  },{
     "chinese":"(10-20)% of Fire and Cold Damage taken as Lightning Damage while",
     "english":"(10-20)% of Fire and Cold Damage taken as Lightning Damage while",
     "kind":"unique-stat",
@@ -29636,12 +29595,6 @@
     "english":"(40-60)% increased Physical Damage while using Pride",
     "kind":"unique-stat",
     "remaining_english_words":["increased","Physical","Damage","while","using","Pride"],
-    "source":"Data/Uniques/Special/Generated.lua"
-  },{
-    "chinese":"(5-10)% of Elemental Damage taken as Chaos Damage if 4 Hunter Items are Equipped",
-    "english":"(5-10)% of Elemental Damage taken as Chaos Damage if 4 Hunter Items are Equipped",
-    "kind":"unique-stat",
-    "remaining_english_words":["of","Elemental","Damage","taken","as","Chaos","Damage","if","Hunter","Items","are","Equipped"],
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "chinese":"(5-10)% of Physical Damage taken as Cold Damage if 4 Redeemer Items are Equipped",
@@ -33662,12 +33615,6 @@
     "kind":"unique-stat",
     "remaining_english_words":["more","Damage","with","Arrow","Hits","at","Close","Range","while","you","have","Iron","Reflexes"]
   },{
-    "chinese":"30% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire",
-    "english":"30% of Cold and Lightning Damage taken as Fire Damage while affected by Purity of Fire",
-    "kind":"unique-stat",
-    "remaining_english_words":["of","Cold","and","Lightning","Damage","taken","as","Fire","Damage","while","affected","by","Purity","of","Fire"],
-    "source":"Data/Uniques/Special/Generated.lua"
-  },{
     "chinese":"30% of Fire and Cold Damage taken as Lightning Damage while",
     "english":"30% of Fire and Cold Damage taken as Lightning Damage while",
     "kind":"unique-stat",
@@ -35306,11 +35253,6 @@
     "english":"Passive Skills in Radius also grant 7% increased Evasion Rating",
     "kind":"unique-stat",
     "remaining_english_words":["Passive","Skills","in","Radius","also","grant","increased","Evasion","Rating"]
-  },{
-    "chinese":"Passive Skills in Radius can be Allocated without being connected to your tree",
-    "english":"Passive Skills in Radius can be Allocated without being connected to your tree",
-    "kind":"unique-stat",
-    "remaining_english_words":["Passive","Skills","in","Radius","can","be","Allocated","without","being","connected","to","your","tree"]
   },{
     "chinese":"Physical Damage per 10 Strength",
     "english":"Physical Damage per 10 Strength",
@@ -37904,22 +37846,6 @@
     "kind":"unique-stat",
     "remaining_english_words":["You","gain","Onslaught","for","second","per","Endurance","Charge","when","Hit"]
   },{
-    "chinese":"You gain Onslaught for 2 seconds on Kill",
-    "english":"You gain Onslaught for 2 seconds on Kill",
-    "kind":"unique-stat",
-    "remaining_english_words":["You","gain","Onslaught","for","seconds","on","Kill"]
-  },{
-    "chinese":"You gain Onslaught for 4 seconds on Kill",
-    "english":"You gain Onslaught for 4 seconds on Kill",
-    "kind":"unique-stat",
-    "remaining_english_words":["You","gain","Onslaught","for","seconds","on","Kill"]
-  },{
-    "chinese":"You gain Onslaught for 4 seconds on Kill while affected by Haste",
-    "english":"You gain Onslaught for 4 seconds on Kill while affected by Haste",
-    "kind":"unique-stat",
-    "remaining_english_words":["You","gain","Onslaught","for","seconds","on","Kill","while","affected","by","Haste"],
-    "source":"Data/Uniques/Special/Generated.lua"
-  },{
     "chinese":"You gain an Endurance Charge on Kill",
     "english":"You gain an Endurance Charge on Kill",
     "kind":"unique-stat",
@@ -38987,12 +38913,6 @@
     "english":"On Killing a Poisoned Enemy, Enemies within 3 metres are Poisoned",
     "kind":"unique-tooltip",
     "remaining_english_words":["On","Killing","Poisoned","Enemy","Enemies","within","metres","are","Poisoned"],
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "chinese":"Passive Skills in Radius can be Allocated without being connected to your tree",
-    "english":"Passive Skills in Radius can be Allocated without being connected to your tree",
-    "kind":"unique-tooltip",
-    "remaining_english_words":["Passive","Skills","in","Radius","can","be","Allocated","without","being","connected","to","your","tree"],
     "source":"runtime uniqueDB tooltip"
   },{
     "chinese":"Physical Damage per 10 Strength",

@@ -1,5 +1,5 @@
 {
-  "entries": 40575,
+  "entries": 40735,
   "gem_names": 1038,
   "glyphs": 2469,
   "font": "Microsoft YaHei (local PC copy)",
@@ -57,6 +57,8 @@
   },
   "sidebar_labels": 176,
   "sidebar_labels_translated": 176,
+  "skill_part_labels": 179,
+  "skill_part_labels_translated": 179,
   "calculation_labels": 602,
   "calculation_labels_translated": 602,
   "configuration_labels": 738,

@@ -20191,11 +20191,11 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+123 Elemental Max Hit (+332.4%)",
+    "english":"+125 to Accuracy Rating per 10 Dexterity on Unallocated Passives in Radius",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+125 to Accuracy Rating per 10 Dexterity on Unallocated Passives in Radius",
+    "english":"+126 Elemental Max Hit (+340.5%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -20203,7 +20203,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+133 Effective Hit Pool (+349.0%)",
+    "english":"+136 Effective Hit Pool (+356.0%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -20276,6 +20276,18 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+2 Accuracy Rating per 2 Intelligence",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+2 Chaos Max Hit (+5.3%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+2 Effective Hit Pool (+6.4%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+2 Elemental Max Hit (+5.4%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -20495,7 +20507,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+201 Phys Max Hit (+335.0%)",
+    "english":"+205 Phys Max Hit (+341.7%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -20576,6 +20588,10 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+278 Armour",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+3 Effective Hit Pool (+6.9%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -20731,10 +20747,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+35 Phys Max Hit (+58.3%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+35 to maximum Energy Shield",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -20756,6 +20768,18 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+360 to Accuracy Rating",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+39 Phys Max Hit (+65.0%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+4 Phys Max Hit (+6.7%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+4 Total Life (+6.7%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -20844,10 +20868,6 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+475 to Accuracy Rating",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+5 Effective Hit Pool (+12.5%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -20991,10 +21011,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+57 Elemental Max Hit (+154.1%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+6 to Maximum Life per Elder Item Equipped",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -21015,6 +21031,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+60 Elemental Max Hit (+162.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+60 to Maximum Charges",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -21031,7 +21051,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+62 Effective Hit Pool (+163.2%)",
+    "english":"+65 Effective Hit Pool (+170.2%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -21059,6 +21079,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+8 Effective Hit Pool (+20.3%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+8% Chance to Block Attack Damage while Dual Wielding",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -21071,11 +21095,11 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+94 Phys Max Hit (+156.7%)",
+    "english":"+95 Intelligence Required",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+95 Intelligence Required",
+    "english":"+98 Phys Max Hit (+163.3%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -21160,10 +21184,6 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"-(80-70)% to all Elemental Resistances",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"-0 Effective Hit Pool (-0.6%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -24320,6 +24340,10 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"60% reduced Mana Regeneration Rate",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"7% increased maximum Life",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -30671,10 +30695,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"Enemies you Kill have a 16% chance to Explode, dealing a tenth of their maximum Life as Physical Damage",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"Enemies you Kill have a 20% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -31428,6 +31448,14 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"Equipping this item in Helmet will give you:",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"Equipping this item in Ring 1 will give you:",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"Equipping this item in Ring 2 will give you:",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -36835,7 +36863,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"Nearby Enemies have -9% to Fire Resistance",
+    "english":"Nearby Enemies have -12% to Fire Resistance",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -42148,6 +42176,26 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"Requires Level 75, 158 Str, 76 Dex",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"Requires Level 76, 131 Dex, 95 Int",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"Requires Level 76, 154 Int",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"Requires Level 76, 194 Int",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"Requires Level 76, 212 Dex",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"Requires Level 76, 98 Str",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{

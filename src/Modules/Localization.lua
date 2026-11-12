@@ -505,6 +505,14 @@ function L:Translate(text, nodeId, displayMode)
 	return result
 end
 
+-- Skill-part labels can share English names with item bases or affixes.
+local skillPartNames = LoadModule("Localization/SkillPartNames")
+function L:TranslateSkillPart(text, mode)
+	if self.suspended > 0 or (mode or self:EffectiveMode()) == "en" then return text end
+	if skillPartNames[text] then return skillPartNames[text] end
+	return self:Translate(text, nil, mode)
+end
+
 -- UI labels and detail tooltips follow the same selected language.
 function L:TranslateUI(text)
 	return self:Translate(text)
