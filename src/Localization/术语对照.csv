@@ -11764,6 +11764,7 @@ You can have an additional Brand Attached to an Enemy","召唤图腾的上限 -1
 -60% to Critical Strike Multiplier for Spell Damage,法术伤害的暴击伤害加成 -60%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -60% to Lightning Resistance,-60% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Lightning_Coil,https://poedb.tw/us/Lightning_Coil
 -8% to all Elemental Resistances,-8% 所有元素抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+0 Blades,0 层刀刃,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 0.1% of Physical Attack Damage Leeched as Mana,物理攻击伤害的 0.1% 转化为魔力偷取,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 0.2% of Attack Damage Leeched as Life,攻击伤害的 0.2% 转化为生命偷取,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Cobalt_Jewel,https://poedb.tw/us/Cobalt_Jewel
 0.2% of Attack Damage Leeched as Mana,攻击伤害的 0.2% 转化为魔力偷取,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Shadows_and_Dust,https://poedb.tw/us/Shadows_and_Dust
@@ -11854,7 +11855,13 @@ You can have an additional Brand Attached to an Enemy","召唤图腾的上限 -1
 0.8% of Spell Damage Leeched as Energy Shield during Effect,生效期间，0.8% 的法术伤害转化为能量护盾偷取,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Iron_Flask,https://poedb.tw/us/Iron_Flask
 1 - chance to avoid stun,1 - 避免晕眩的几率,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 1 / duration - trauma per second * increased attack speed per trauma / 100,1 / 持续时间 - 每秒创伤层数 * 每层创伤的攻击速度增幅 / 100,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
+1 Hit,1 次击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+1 Improvement,强化 1 次,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+1 Orb Tick,法球触发 1 次,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+1 Projectile,1 个投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 1 Rage Regenerated for every 25 Mana Regeneration per Second,每秒每再生 25 点魔力，便再生 1 点怒火,timeless-display,source-clause-reviewed,Data/TimelessJewelData/LegionPassives.lua; Classes/PassiveSpec.lua,
+1 Wave,1 道波,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+1 charge,1 层充能,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 1 maximum Beam Target,最多 1 个光束目标,gem-detail,paired-reference-semantic-review,tools/localization/gem-reviewed.json,src/Data/StatDescriptions
 1 to (19-20) Added Lightning Damage with Axe Attacks,斧类攻击附加 1 到 (19-20) 点闪电伤害,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Murderous_Eye_Jewel,https://poedb.tw/us/Murderous_Eye_Jewel
 1 to (19-20) Added Lightning Damage with Bow Attacks,弓类攻击附加 1 到 (19-20) 点闪电伤害,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Searching_Eye_Jewel,https://poedb.tw/us/Searching_Eye_Jewel
@@ -12016,6 +12023,7 @@ Gain Accuracy Rating equal to your Strength","每 10 点力量使暴击率提高
 1.6% of Attack Damage Leeched as Mana,攻击伤害的 1.6% 转化为魔力偷取,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 1.6% of Physical Attack Damage Leeched as Life,物理攻击伤害的 1.6% 会转化为生命偷取,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Law_of_the_Wilds,https://poedb.tw/us/Law_of_the_Wilds
 1.6% of Spell Damage Leeched as Energy Shield,法术伤害的 1.6% 转化为能量护盾偷取,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+10 Blades,10 层刀刃,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 10 units equals 1 metre,10 单位等于 1 米,config-tooltip,source-clauses-reviewed,src/Modules/ConfigOptions.lua,
 10% Chance for Traps to Trigger an additional time,陷阱有 10% 的几率额外触发一次,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 10% Chance to Block Attack Damage,10% 攻击伤害格挡率,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
@@ -13444,6 +13452,8 @@ Warcry Skills have (26-30)% increased Area of Effect","战吼的增益效果提�
 "2 Enemy Writhing Worms escape the Flask when used
 Writhing Worms are destroyed when Hit","使用药剂时产生 2 只敌对的蠕虫
 蠕虫在被击中时摧毁",item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Writhing_Jar,https://poedb.tw/us/The_Writhing_Jar
+2 Improvements,强化 2 次,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+2 Overlapping Waves,2 道重叠波,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 2 to 3 Added Physical Damage with Axe Attacks,斧类攻击附加 2 到 3 点物理伤害,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Murderous_Eye_Jewel,https://poedb.tw/us/Murderous_Eye_Jewel
 2 to 3 Added Physical Damage with Bow Attacks,弓类攻击附加 2 到 3 点物理伤害,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Searching_Eye_Jewel,https://poedb.tw/us/Searching_Eye_Jewel
 2 to 3 Added Physical Damage with Claw Attacks,爪类攻击附加 2 到 3 点物理伤害,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Murderous_Eye_Jewel,https://poedb.tw/us/Murderous_Eye_Jewel
@@ -14427,6 +14437,7 @@ Cannot deal non-Lightning Damage","最大闪电伤害总增 25%
 28% increased Armour,护甲提高 28%,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 28% increased Damage over Time,持续伤害提高 28%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 28% increased Spell Damage,法术伤害提高 28%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+3 Improvements,强化 3 次,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 3 to 4 Added Physical Damage with Axe Attacks,斧类攻击附加 3 到 4 点物理伤害,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Murderous_Eye_Jewel,https://poedb.tw/us/Murderous_Eye_Jewel
 3 to 4 Added Physical Damage with Bow Attacks,弓类攻击附加 3 到 4 点物理伤害,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Searching_Eye_Jewel,https://poedb.tw/us/Searching_Eye_Jewel
 3 to 4 Added Physical Damage with Claw Attacks,爪类攻击附加 3 到 4 点物理伤害,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Murderous_Eye_Jewel,https://poedb.tw/us/Murderous_Eye_Jewel
@@ -15360,6 +15371,7 @@ Never deal Critical Strikes","攻击伤害在命中值大于生命上限的情�
 45% of Fire Damage Converted to Chaos Damage,45% 的火焰伤害转换为混沌伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 48% increased Damage over Time,持续伤害提高 48%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 48% increased Spell Damage,法术伤害提高 48%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+5 Blades,5 层刀刃,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 5 Maximum Void Charges,5 最大虚空之矢数量,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Voidfletcher,https://poedb.tw/us/Voidfletcher
 "5 power, counting a maximum of 25 Power",最多 25 威力值,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Enduring_Cry,https://poedb.tw/us/Enduring_Cry
 5 to 10 Added Fire Damage with Bow Attacks,弓类攻击附加 5 到 10 点火焰伤害,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Blackgleam,https://poedb.tw/us/Blackgleam
@@ -18733,6 +18745,7 @@ Affliction Regeneration,折磨再生,game-term,paired-link-target,https://poedb.
 "After a short preparation time, you fire individual projectiles repeatedly with a Bow or Wand. These projectiles have a small randomised spread. This skill cannot be Triggered.",在短暂的准备之后，你使用弓或法杖重复发射单个投射物，这些投射物会稍微随机散射。该技能无法被触发。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Barrage,https://poedb.tw/us/Barrage
 "After a short preparation time, you fire projectiles repeatedly with a Bow or Wand. These projectiles have a small randomised spread. This skill cannot be Triggered.",在短暂的准备之后，你使用弓或法杖重复发射投射物。这些投射物会稍微随机散射。该技能无法被触发。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Barrage_of_Volley_Fire,https://poedb.tw/us/Barrage_of_Volley_Fire
 After selecting a row You can also shift+click on another row to select a range of rows to search.,选中一行后，可按住 Shift 点击另一行，选择连续多行进行搜索。,ui-detail,source-code-checked,,
+Aftershock,余震,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Agate Amulet,玛瑙护身符,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Aylardex,https://poedb.tw/us/The_Aylardex
 Aged,老朽的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Mana_Flasks,https://poedb.tw/us/Mana_Flasks
 Agent of Destruction,毁灭使徒,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -18778,6 +18791,8 @@ Alira's Deadeye,阿莉亚的穿心之弓,database-name,paired-local-source,https
 Alivia's Grace,艾莉薇娅之雅,game-term,paired-link-target,https://poedb.tw/cn/Alivias_Grace,https://poedb.tw/us/Alivias_Grace
 All,全部,ui,editorial-ui,,
 All Attack Damage Chills when you Stun,晕眩时所有攻击伤害造成冰缓,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Callinellus_Malleus,https://poedb.tw/us/Callinellus_Malleus
+All Bolts Hitting,全部闪电击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+All Bolts in Range,范围内全部闪电,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 All Damage Taken from Hits can Chill you,受到的所有击中伤害会使你冰缓,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Call_of_the_Void,https://poedb.tw/us/Call_of_the_Void
 All Damage Taken from Hits can Ignite you,被击中时受到的所有伤害都可以点燃你,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Mokous_Embrace,https://poedb.tw/us/Mokous_Embrace
 All Damage can Freeze,所有伤害均可冻结,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Expeditions_End,https://poedb.tw/us/Expeditions_End
@@ -18795,7 +18810,11 @@ All Damage with Hits can Chill,所有击中的伤害都有冰缓效果,passive-s
 All Damage with Maces and Sceptres inflicts Chill,锤类和短杖的所有伤害都施加冰缓状态,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 All Damage with Triggered Spells can Poison,所有触发法术的伤害都可以造成中毒,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Festering_Resentment,https://poedb.tw/us/Festering_Resentment
 All Elemental Damage Converted to Chaos Damage,所有元素伤害转换为混沌伤害,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Original_Sin,https://poedb.tw/us/Original_Sin
+All Flasks,全部药剂,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 All Hits with your next Non-Channelling Attack within 4 seconds of taking a Critical Strike will be Critical Strikes,在受到暴击后的 4 秒内，你的下一个非持续吟唱攻击的所有击中造成暴击,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Binds_of_Bloody_Vengeance,https://poedb.tw/us/Binds_of_Bloody_Vengeance
+All Primary Projectiles,全部主要投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+All Projectiles,全部投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+All Projectiles Hit,全部投射物击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 All Relics,所有圣物,database-reviewed,reviewed-pob-display-source,src/Data/BossSkills.lua; src/Data/Minions.lua; src/Data/ClusterJewels.lua,
 All Sockets,全部插槽,ui,editorial-ui,,
 All Sockets are Blue,所有插槽均为蓝色,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -18805,6 +18824,7 @@ All Sockets are White,所有插槽都是白色,item-stat,paired-record-local-eng
 All Types,所有类型,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 "All are invited to his feast, one way or another.",所有人都将参加盛宴，无论哪种途径。,passive-flavour,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 All bonuses from an Equipped Shield apply to your Minions instead of you,盾牌上的所有属性会套用于你的召唤生物，而非角色本身,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+All explosions hitting,全部爆炸命中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 All gems default to level 1.,所有宝石的默认等级为 1。,ui,editorial-ui,,
 All gems default to their highest valid corrupted gem level.,所有宝石默认使用腐化可达到的最高等级。,ui,editorial-ui,,
 "All gems default to their highest valid non-corrupted gem level that your character meets the level requirement for.
@@ -18815,6 +18835,7 @@ All hits are Critical Strikes,所有击中都造成暴击,config-ui,editorial-ui
 All hits are Critical Strikes while holding a Fishing Rod,装备鱼竿时，所有击中为暴击,database-stat,paired-local-source,https://poedb.tw/cn/Fishing_Rods,https://poedb.tw/us/Fishing_Rods
 All other Summoned Totems die when you Summon a Totem,当你召唤图腾时，其他所有已召唤图腾死亡,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 All skills:,所有技能：,ui-detail,source-code-checked,,
+All waves hitting,全部波命中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Allelopathy,相生相克,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Allelopathy,https://poedb.tw/us/Allelopathy
 Allflame,永火之咒,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
 Allflame Infused Coral,染火珊瑚,game-term,paired-link-target,https://poedb.tw/cn/Allflame_Infused_Coral,https://poedb.tw/us/Allflame_Infused_Coral
@@ -19023,6 +19044,7 @@ Any slot,任意装备槽,item-ui,source-code-checked,src/Classes/ItemsTab.lua; h
 Any source,任意来源,ui-detail,source-code-checked,,
 Any type,任意类型,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
 Anywhere,任意位置,ui-detail,source-code-checked,,
+AoE Explosion,范围爆炸,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 AoE Radius,效果区域半径,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 "AoE, Attack, Physical, Duration, Fire","效果区域, 攻击, 物理, 持续时间, 火焰",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Divine_Blast,https://poedb.tw/us/Divine_Blast
 "AoE, Attack, Physical, Duration, Fire, Orb","效果区域, 攻击, 物理, 持续时间, 火焰, 法球",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Divine_Blast_of_Radiance,https://poedb.tw/us/Divine_Blast_of_Radiance
@@ -19180,6 +19202,7 @@ Are your Minions always on Full Life?,你的召唤生物生命是否始终全满
 Are your Minions always on Low Life?,你的召唤生物是否始终处于贫血状态？,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Area Damage,范围伤害,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Area Damage Mastery,范围伤害专精,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Area Hit,范围击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Area Of Effect,效果区域,timeless-display,source-clause-reviewed,Data/TimelessJewelData/LegionPassives.lua; Classes/PassiveSpec.lua,
 Area Skills have 10% chance to Knock Enemies Back on Hit,范围技能击中时，有 10% 的几率击退敌人,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Area of Effect,效果区域,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
@@ -19258,6 +19281,7 @@ Arohongui's Moonlight,欧亚红古的月光,game-term,paired-link-target,https:/
 Arrogance,赤嚣（辅）,gem,paired-name,https://poedb.tw/cn/Arrogance_Support,https://poedb.tw/us/Arrogance_Support
 Arrogance Support,赤嚣（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Arrogance_Support,https://poedb.tw/us/Arrogance_Support
 Arrogance of the Vaal,瓦尔的傲慢,game-term,paired-link-target,https://poedb.tw/cn/Arrogance_of_the_Vaal,https://poedb.tw/us/Arrogance_of_the_Vaal
+Arrow,箭矢,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Arrow Dancing,箭矢闪跃,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Arrow Nova,箭之新星（辅）,gem,paired-name,https://poedb.tw/cn/Arrow_Nova_Support,https://poedb.tw/us/Arrow_Nova_Support
 Arrow Nova Support,箭之新星（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Arrow_Nova_Support,https://poedb.tw/us/Arrow_Nova_Support
@@ -19817,6 +19841,9 @@ Auto,自动,ui,editorial-ui,,
 Autoexertion,自动增助,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Autoexertion,https://poedb.tw/us/Autoexertion
 Automation,自动化,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Automation,https://poedb.tw/us/Automation
 Automaton Studies,神兵之学,database-name,paired-local-source,https://poedb.tw/cn/Timeless_Jewel,https://poedb.tw/us/Timeless_Jewel
+Autopulse (Frozen & Shocked),自动脉冲（冻结且感电）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Autopulse (Frozen),自动脉冲（冻结）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Autopulse (Shocked),自动脉冲（感电）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Auxium,奥术之符,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Auxium,https://poedb.tw/us/Auxium
 Available Mastery node options are:,可选的专精效果：,ui-detail,source-code-checked,,
 Available Spectres,可用幽魂,ui-detail,source-code-checked,,
@@ -19828,14 +19855,25 @@ Avatar of the Wilds,荒野化身,passive-name,paired-id-english-and-numbers-chec
 Avenging Flame,复仇之焰,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Avenging_Flame,https://poedb.tw/us/Avenging_Flame
 Aventail Helmet,战意之盔,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Mindspiral,https://poedb.tw/us/Mindspiral
 Average,平均值,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
+Average # traps (bad placement),平均陷阱数（放置不佳）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Average # traps (good placement),平均陷阱数（放置良好）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Average Balls (5th attack),平均熔岩球（第 5 次攻击）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Average Balls Hitting,平均熔岩球命中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Average Bleed Roll,流血平均伤害取值,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Average Burst Damage,平均爆发伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Average DPS,平均每秒伤害,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Average Damage,平均伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Average Dmg. inc. Ignite,平均伤害（含点燃）,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Average Hit,平均击中伤害,ui,editorial-ui,,
 Average Ignite DPS,平均点燃每秒伤害,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 Average Ignite Roll,点燃平均伤害取值,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Average Of All Sources,全部来源平均值,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Average Seq More,连段平均总增,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+"Average active traps, all waves",平均生效陷阱数，全部波,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+"Average active traps, average waves",平均生效陷阱数，平均波数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+"Average active traps, one wave",平均生效陷阱数，单道波,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Average explosions hitting,平均爆炸命中数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Average waves hitting configured size enemy,按所设敌人体型计算平均命中波数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 "Average: Averages out Warcry usage with cast time, attack speed and warcry cooldown.",平均：根据施放时间、攻击速度和战吼冷却时间计算战吼使用的平均效果。,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Average: Averages the effect based on Pact uptime.,平均：根据契约生效时间占比计算平均效果。,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Average: Damage Reduction from Defending with Double Armour is proportional to chance,平均：以两倍护甲防御获得的伤害减免按触发几率折算,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
@@ -20098,6 +20136,9 @@ Battlemage's,斗法者的,affix-name,paired-record-local-english-numbers-checked
 Battlemage's Cry,魔武战号,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Battlemages_Cry,https://poedb.tw/us/Battlemages_Cry
 Beacon of Hope,希望道标,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Beacon of Madness,疯狂的象征,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Beacon_of_Madness,https://poedb.tw/us/Beacon_of_Madness
+Beam,光束,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Beam Implosion,光束内爆,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Beams,光束,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Bear Trap,捕熊陷阱,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Bear_Trap,https://poedb.tw/us/Bear_Trap
 Bear Trap has 10% increased Cooldown Recovery Rate,捕熊陷阱的冷却回复率提高 10%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
 Bear Trap has 15% increased Cooldown Recovery Rate,捕熊陷阱的冷却回复率提高 15%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
@@ -20198,6 +20239,8 @@ Blade Blast of Dagger Detonation,轰匕之乱剑穿心,gem,paired-slug-name-loca
 Blade Blast of Unloading,倾泻之乱剑穿心,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Blade_Blast_of_Unloading,https://poedb.tw/us/Blade_Blast_of_Unloading
 Blade Flurry,刀刃乱舞,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Blade_Flurry,https://poedb.tw/us/Blade_Flurry
 Blade Flurry of Incision,割痕之刀刃乱舞,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Blade_Flurry_of_Incision,https://poedb.tw/us/Blade_Flurry_of_Incision
+Blade Hits Per Cast,每次施法刀刃击中数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Blade Hits Per Sec,每秒刀刃击中数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Blade Master,刀剑宗师,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Blade Trap,剑刃陷阱,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Blade_Trap,https://poedb.tw/us/Blade_Trap
 Blade Trap of Greatswords,巨剑之剑刃陷阱,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Blade_Trap_of_Greatswords,https://poedb.tw/us/Blade_Trap_of_Greatswords
@@ -20496,6 +20539,8 @@ Boss,首领,ui,editorial-ui,,
 Boss Item,首领掉落,ui-detail,source-code-checked,,
 Boss Skill Preset,首领技能预设,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Both,两者,ui-detail,source-code-checked,,
+Both Waves,两道波,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Both slashes,两次斩击,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Bottled Faith,瓶中信仰,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bottled_Faith,https://poedb.tw/us/Bottled_Faith
 Bottomless,无底的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Iron_Flask,https://poedb.tw/us/Iron_Flask
 Bounces Count,弹跳次数,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
@@ -20977,6 +21022,10 @@ Carved Wand,粗纹法杖,base-name,paired-record-local-english-numbers-checked,h
 Carved to glorify (2000-10000) new faithful converted by High Templar Maxarius,赞美 (2000-10000) 名被神主玛萨留斯转化的新信徒,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Militant_Faith,https://poedb.tw/us/Militant_Faith
 Carving Knife,刻骨刀,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Carving_Knife,https://poedb.tw/us/Carving_Knife
 Caspiro (Supreme Ostentation),卡斯皮罗（无上宣示）,ui-detail,source-code-checked,,
+Cast (Frozen & Shocked),施放（冻结且感电）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Cast (Frozen),施放（冻结）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Cast (No Ailment),施放（无异常状态）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Cast (Shocked),施放（感电）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Cast Level 10 Fire Burst on Hit,击中施放 10 级火焰爆破,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 Cast Level 20 Fire Burst on Hit,击中施放 20 级火焰爆破,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
 Cast On Critical Strike,暴击时施放(辅),gem,paired-name,https://poedb.tw/cn/Cast_On_Critical_Strike_Support,https://poedb.tw/us/Cast_On_Critical_Strike_Support
@@ -20996,6 +21045,8 @@ Cast on Death Support,死亡时施放(辅),gem,paired-slug-name-local-english-nu
 Cast on Frostbolt?,是否在寒冰弹上施放？,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Cast on Melee Kill,近战击败时施放(辅),gem,paired-name,https://poedb.tw/cn/Cast_on_Melee_Kill_Support,https://poedb.tw/us/Cast_on_Melee_Kill_Support
 Cast on Melee Kill Support,近战击败时施放(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Cast_on_Melee_Kill_Support,https://poedb.tw/us/Cast_on_Melee_Kill_Support
+Cast on Player,对玩家施放,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Cast on Skeleton,对魔侍施放,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Cast on Ward Break,结界破碎时释放（辅）,gem,paired-name,https://poedb.tw/cn/Cast_on_Ward_Break_Support,https://poedb.tw/us/Cast_on_Ward_Break_Support
 Cast on Ward Break Support,结界破碎时释放（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Cast_on_Ward_Break_Support,https://poedb.tw/us/Cast_on_Ward_Break_Support
 Cast time,施法耗时,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
@@ -21160,6 +21211,7 @@ Changed Stance in the last 1s?,过去 1 秒内是否切换过姿态？,config-ui
 Changed Stance recently?,近期内是否切换过姿态？,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Changes the colour scheme used for the node power display on the passive tree.,更改天赋树节点强度显示使用的配色。,ui-detail,source-code-checked,,
 Changes which protocol is used when downloading updates and importing builds.,更改下载更新和导入构筑时使用的网络协议。,ui-detail,source-code-checked,,
+Channel & Release,引导与释放,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Channel Time,持续吟唱时间,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 "Channel this skill to move towards a targeted location while spinning constantly attacking enemies in an area around you. While channelling this skill, you cannot be knocked back.",持续吟唱该技能，向指定地点旋转移动，持续攻击你周围的敌人。持续吟唱该技能时，你无法被击退。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Cyclone_of_Tumult,https://poedb.tw/us/Cyclone_of_Tumult
 "Channel this skill to reserve more and more of your life, building up power in a marker on the ground under you. Release to deal physical damage in an area based on how much life you reserved. Cannot be cast by Totems.",吟唱该技能会不断保留生命，为你身下的印记灌注力量。施放印记会根据保留的生命量造成物理伤害。不能被图腾施放。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Blood_Sacrament,https://poedb.tw/us/Blood_Sacrament
@@ -21174,6 +21226,7 @@ Channel time,持续吟唱耗时,pob-panel,source-code-checked,src/Modules/BuildD
 "Channel to project an illusion which you steer. You gain stages while it moves, until it stops at a maximum total distance. Waves of area damage frequently pulse along its path, based on your attack speed. Stop channelling to teleport to the illusion, dealing a final wave of damage. Requires a Melee Weapon.",向你朝向的方向吟唱并发射一个幻象。幻象移动时你获得层数，直至其移动到最大距离为止。幻象行进的路径上会根据你的攻击速度来频繁爆发范围伤害。停止吟唱后可将自己传送至幻象处，并以一波伤害作为技能收尾。需要近战武器。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Charged_Dash,https://poedb.tw/us/Charged_Dash
 "Channel to spread runes on the ground in a growing pattern. The runes fade away after a duration, or will be immediately removed and deal damage in a circular area when detonated by Rune Blast. Enemies standing on the runes are Hindered, reducing their movement speed.",持续吟唱，在地上不断扩大的结界中扩散符纹。符纹持续一段时间后消失，或者被【爆裂符纹】引爆，立刻朝四面八方造成伤害。站立在符纹上的敌人会被【缓速】，并降低移动速度。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Stormbind_of_Teleportation,https://poedb.tw/us/Stormbind_of_Teleportation
 Channeling for # seconds,引导持续秒数,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
+Channelling,引导中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Channelling Damage,引导伤害,ui,editorial-ui,,
 Channelling Skill Damage,吟唱技能伤害,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Channelling Skill Damage Mastery,吟唱技能伤害专精,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -21193,6 +21246,8 @@ Channelling Spells have 10% more Cost,引导法术的消耗总增 10%,config-ui,
 "Channelling draws in energy around you to repeatedly build up stages, damaging a number of nearby enemies when you do so. Release to unleash this energy in a powerful burst around you. Maximum of 10 Stages.",持续吟唱时会在你的周围汇聚能量，不断堆叠，对周围的一群敌人造成伤害。释放此技能会在你周围产生一次强大的冲击。最多叠加 10 层。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Divine_Ire_of_Holy_Lightning,https://poedb.tw/us/Divine_Ire_of_Holy_Lightning
 Channelling draws in energy around you to repeatedly build up stages. Release to unleash this energy in a beam in front of you. Modifiers to area of effect do not affect this skill. Maximum of 10 Stages.,持续吟唱时会在你的周围汇聚能量，不断堆叠。释放此技能会在你面前射出一道光束。效果范围词缀不影响该技能。最多叠加 10 层。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Divine_Ire_of_Disintegration,https://poedb.tw/us/Divine_Ire_of_Disintegration
 Channelling stops when Total Circle Radius reaches 9 metres,当圆圈总范围达到 9 米时停止吟唱,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Vaal_Blade_Flurry,https://poedb.tw/us/Vaal_Blade_Flurry
+"Channelling, Max Stages",引导中，最大层数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+"Channelling, No Stages",引导中，无层数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 "Channelling, Spell, Support","持续吟唱, 法术, 辅助",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Focused_Channelling_Support,https://poedb.tw/us/Focused_Channelling_Support
 "Channels to build up a large explosion, which is released when you stop using the skill. The longer you channel, the larger the area of effect and damage of the explosion.",持续吟唱来施放大型的爆炸。吟唱的时间越长，爆炸的范围与造成的伤害越大。停止使用该技能变会触发爆炸。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Flameblast,https://poedb.tw/us/Flameblast
 "Channels to build up an explosion, which is released when you stop using the skill or automatically at maximum stages. The longer you channel, the larger the area of effect and damage of the explosion.",持续吟唱来施放一场爆炸。吟唱的时间越长，爆炸的范围与造成的伤害越大。停止使用该技能或达到最大层数时会触发爆炸。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Flameblast_of_Celerity,https://poedb.tw/us/Flameblast_of_Celerity
@@ -21483,6 +21538,8 @@ Coin of Skill,技能硬币,database-name,paired-local-source,https://poedb.tw/cn
 Cold,冰霜,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Cold Aegis,凝冰守护,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Cold_Aegis,https://poedb.tw/us/Cold_Aegis
 Cold Ailment Duration,冰霜异常状态持续时间,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Cold AoE,冰霜范围伤害,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Cold Attack,冰霜攻击,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Cold Beam,寒冰射线,game-term,paired-link-target,https://poedb.tw/cn/Cold_Beam,https://poedb.tw/us/Cold_Beam
 Cold Conduction,寒冰导体,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Cold Damage,冰霜伤害,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -21533,6 +21590,7 @@ Cold Swarm,寒冰飞虫,game-term,paired-link-target,https://poedb.tw/cn/Cold_Sw
 Cold Taken as,冰霜承伤转化,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Cold Thorns,寒冰之刺,game-term,paired-link-target,https://poedb.tw/cn/Cold_Thorns,https://poedb.tw/us/Cold_Thorns
 Cold and Lightning Damage,冰霜与闪电伤害,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Cold hit,冰霜击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Cold to Fire,寒冰转烈焰(辅),gem,paired-name,https://poedb.tw/cn/Cold_to_Fire_Support,https://poedb.tw/us/Cold_to_Fire_Support
 Cold to Fire Support,寒冰转烈焰(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Cold_to_Fire_Support,https://poedb.tw/us/Cold_to_Fire_Support
 Cold to the Core,冻彻心扉,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -21564,6 +21622,7 @@ Combat Rush grants 20% more Attack Speed to Travel Skills not Supported by Close
 Combat Stamina,战斗精力,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Combat-Ready,战斗准备,game-term,paired-link-target,https://poedb.tw/cn/Combat-Ready,https://poedb.tw/us/Combat-Ready
 Combatant's,战斗的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Claws,https://poedb.tw/us/Claws
+Combined Average Projectiles,合并平均投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Combined DPS,综合每秒伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Combined Node Weight,天赋总权重,ui-detail,source-code-checked,,
 Combined Total Damage,综合总伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
@@ -21623,6 +21682,8 @@ Conductivity,导电,gem,paired-slug-name-local-english-numeric-spans-checked,htt
 Conductivity can affect Hexproof Enemies,导电可以影响魔蛊免疫的敌人,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Conductivity self-only,导电仅作用于自身,config-ui,finite-grammar-known-terms,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/Buff,
 Conduit,能量连接,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Cone,锥形,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Cone AoE,锥形范围伤害,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Cone Helmet,锥顶盔,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Cone_Helmet,https://poedb.tw/us/Cone_Helmet
 Confident Combatant,自信斗士,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Config,配置,ui,editorial-ui,,
@@ -21847,6 +21908,9 @@ Conversion Trap 20% increased Cooldown Recovery Rate,迷魅陷阱的冷却回复
 Conversion Trap 30% increased Cooldown Recovery Rate,迷魅陷阱的冷却回复率提高 30%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
 Conversions,伤害转化,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Convert,转换,ui-detail,source-code-checked,,
+Convert to cold,转化为冰霜,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Convert to fire,转化为火焰,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Convert to lightning,转化为闪电,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 "Convert will replace your current tree.
 Copy + Convert will backup your current tree.
 ","转换会替换当前天赋树。
@@ -21896,6 +21960,7 @@ Cornered Prey,困兽犹斗,passive-name,paired-id-english-and-numbers-checked,ht
 Corona Solaris,日耀之冠,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Corona_Solaris,https://poedb.tw/us/Corona_Solaris
 Coronal Leather,光耀皮甲,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Coronal_Leather,https://poedb.tw/us/Coronal_Leather
 Coronal Maul,花冠重锤,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Desecrated_Chalice,https://poedb.tw/us/The_Desecrated_Chalice
+Corpse Explosion,灵柩爆炸,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Corpse Level,灵柩等级,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Corpse Life,灵柩生命,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Corpse Pact,灵柩契约,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -22767,6 +22832,8 @@ Debilitated enemies deal 10% less damage.,虚弱敌人造成的伤害总降 10%�
 Debuff,减益,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Debuff Dur. Mult.,减益持续时间倍率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Debuff Expiry Rate,减益效果衰退速度,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Debuff Explosion - 1 Stack,减益爆炸 - 1 层,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Debuff Explosion - 6 Stacks,减益爆炸 - 6 层,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Debuffs on you expire (15-20)% faster,你身上的减益效果消失速度加快 (15-20)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Torrents_Reclamation,https://poedb.tw/us/The_Torrents_Reclamation
 Debuffs on you expire (15-20)% faster while affected by Haste,受到迅捷影响时，你身上的减益效果消失速度加快 (15-20)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 Debuffs on you expire (80-100)% faster,你身上的减益效果消失速度加快 (80-100)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Stasis_Prison,https://poedb.tw/us/Stasis_Prison
@@ -23951,6 +24018,7 @@ Energy From Naught,无中生有,passive-name,paired-id-english-and-numbers-check
 Energy From Within,潜能防护,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Energy_From_Within,https://poedb.tw/us/Energy_From_Within
 Energy Leech,能量偷取（辅）,gem,paired-name,https://poedb.tw/cn/Energy_Leech_Support,https://poedb.tw/us/Energy_Leech_Support
 Energy Leech Support,能量偷取（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Energy_Leech_Support,https://poedb.tw/us/Energy_Leech_Support
+Energy Pulse,能量脉冲,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Energy Shield,能量护盾,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Energy Shield Aura,护盾光环,game-term,paired-link-target,https://poedb.tw/cn/Energy_Shield_Aura,https://poedb.tw/us/Energy_Shield_Aura
 Energy Shield Cost,能量护盾消耗,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
@@ -24330,6 +24398,9 @@ Explicit:,外延词缀：,ui-detail,source-code-checked,,
 Explode a nearby Corpse when Firing Projectiles,发射投射物时引爆附近的一个灵柩,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Cremation_of_Exhuming,https://poedb.tw/us/Cremation_of_Exhuming
 Exploit Weakness,开发要害,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Explosion,爆炸,ui,editorial-ui,,
+Explosion (# of fuses),爆炸（指定引信数量）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Explosion (Maximum Sustainable Fuses),爆炸（可维持的最大引信数量）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Explosions,爆炸,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Explosions /s,每秒爆炸次数,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Explosive Arrow,爆炸箭矢,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Explosive_Arrow,https://poedb.tw/us/Explosive_Arrow
 Explosive Arrow deals 25% increased Damage,爆炸箭矢的伤害提高 25%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
@@ -24542,6 +24613,7 @@ Filigree,金属丝的,affix-name,paired-record-local-english-numbers-checked,htt
 Filter Nodes:,过滤节点：,ui-detail,source-code-checked,,
 Final,最终值,ui-detail,source-code-checked,,
 Final (all hits use final),末次（所有击中使用末次效果）,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
+Final Burst,最终爆发,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Final Burst cannot Knockback,最后一次爆发无法击退,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Glacial_Cascade,https://poedb.tw/us/Glacial_Cascade
 Final Burst has 100% more Radius,最后一次爆发范围总增 100%,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Glacial_Cascade,https://poedb.tw/us/Glacial_Cascade
 Final Chaos Damage taken,最终承受的混沌伤害,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
@@ -24552,6 +24624,7 @@ Final Physical Damage taken,最终承受的物理伤害,calculation-explanation,
 Final Repeat of Attack Skills deals 60% more Damage,攻击技能的最后一次重复造成的伤害总增 60%,passive-stat,paired-page-local-semantics-reviewed,https://poedb.tw/cn/Fatal_Flourish,https://poedb.tw/us/Fatal_Flourish
 Final Repeat of Spells has 40% increased Area of Effect,法术最后一次重复的效果区域扩大 40%,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Final Type,最终类型,ui-detail,source-code-checked,,
+Final Wave Area,最后一道波的范围,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Final only,仅末次,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Final wave always Ignites,最后一波必定点燃,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Incinerate_of_Expanse,https://poedb.tw/us/Incinerate_of_Expanse
 Find Timeless Jewel,查找永恒珠宝,ui,editorial-ui,,
@@ -24565,7 +24638,9 @@ Fir Round Shield,杉木圆盾,base-name,paired-record-local-english-numbers-chec
 Fire,火焰,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Fire / Cold / Lightning: Modifiers will grant their full value as the specified element,火焰／冰霜／闪电：词缀数值全部计入指定元素,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Fire Aegis,烈焰守护,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Fire_Aegis,https://poedb.tw/us/Fire_Aegis
+Fire AoE,火焰范围伤害,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Fire Arrow Quiver,火灵箭袋,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Fire_Arrow_Quiver,https://poedb.tw/us/Fire_Arrow_Quiver
+Fire Attack,火焰攻击,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Fire Attunement,火冥功,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Fire Burst,火焰爆破,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Fire_Burst,https://poedb.tw/us/Fire_Burst
 Fire Damage,火焰伤害,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -24626,6 +24701,8 @@ Fire and Cold Damage,火焰和冰霜伤害,passive-name,paired-id-english-and-nu
 "Fire arrows into the air that rain down around the targeted area, dealing damage to enemies they hit and creating spore pods where they land. Each spore pod deals chaos damage over time to nearby enemies and withers them, causing them to take increased chaos damage. The pods last for a duration before bursting, dealing area damage.",向天空射出一串箭矢，并洒向目标区域，对击中的敌人造成伤害，并在落地后创造孢囊。每个孢囊会对周围的敌人持续造成混沌伤害并施加死亡凋零，使其受到的混沌伤害提高。短时间后，孢囊会爆炸，造成范围伤害。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Toxic_Rain_of_Withering,https://poedb.tw/us/Toxic_Rain_of_Withering
 "Fire arrows into the air that rain down around the targeted area, dealing damage to enemies they hit and creating spore pods where they land. Each spore pod slows the movement speed of nearby enemies. The pods last for a duration before bursting, dealing area damage.",向天空射出一串箭矢，并洒向目标区域，对击中的敌人造成伤害，并在落地后创造孢囊。每个孢囊都会减低周围敌人的移动速度。短时间后，孢囊会爆炸，造成范围伤害。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Toxic_Rain_of_Sporeburst,https://poedb.tw/us/Toxic_Rain_of_Sporeburst
 Fire at most 1 Projectile,最多发射 1 个投射物,database-stat,paired-local-source,https://poedb.tw/cn/Runegraft,https://poedb.tw/us/Runegraft
+Fire explosion,火焰爆炸,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Fire hit,火焰击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Fire icy projectiles around you in all directions.,向你周围所有方向发射寒冰投射物。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Word_of_Frost,https://poedb.tw/us/Word_of_Frost
 "Fire, AoE, Attack, Melee, Bow","火焰, 效果区域, 攻击, 近战, 弓箭",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Call_the_Pyre,https://poedb.tw/us/Call_the_Pyre
 "Fire, AoE, Support, Minion","火焰, 效果区域, 辅助, 召唤生物",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Infernal_Legion_Support,https://poedb.tw/us/Infernal_Legion_Support
@@ -24722,8 +24799,14 @@ Firesong,烈火之歌,unique-name,paired-record-local-english-numbers-checked,ht
 Firestorm,烈炎风暴,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Firestorm,https://poedb.tw/us/Firestorm
 Firestorm of Meteors,陨星之烈炎风暴,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Firestorm_of_Meteors,https://poedb.tw/us/Firestorm_of_Meteors
 Firestorm of Pelting,碎焰之烈炎风暴,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Firestorm_of_Pelting,https://poedb.tw/us/Firestorm_of_Pelting
+"First Form, 1 Projectile",第一形态，1 个投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+"First Form, All Projectiles",第一形态，全部投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+First Hammer,首个锤击,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+First Hit,第一次击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+First Impact,首次冲击,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 First Mine Detonates Instantly,第一个地雷立刻引爆,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Detonate_Mines,https://poedb.tw/us/Detonate_Mines
 First Snow,初雪,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/First_Snow,https://poedb.tw/us/First_Snow
+First Wave Area,第一道波的范围,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 First and Final shots of Barrage sequences fire Projectiles that Return to you,弹幕的首次与最终射击发射的投射物会归返,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 "First to Strike, Last to Fall",嗜战如命,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Fish Rot upon being Caught,鱼儿一抓就腐烂,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Fishing_Rods,https://poedb.tw/us/Fishing_Rods
@@ -26470,6 +26553,8 @@ Grinning Fetish,远古之祭,base-name,paired-record-local-english-numbers-check
 Grip of the Council,议会之握,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Grip_of_the_Council,https://poedb.tw/us/Grip_of_the_Council
 Gripped Gloves,擒拿手套,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Gripped_Gloves,https://poedb.tw/us/Gripped_Gloves
 Grizzly Pelt,灰熊皮盔,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Grizzly_Pelt,https://poedb.tw/us/Grizzly_Pelt
+Ground DoT,地面持续伤害,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Ground Fissure,地面裂缝,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Ground Slam,裂地之击,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Ground_Slam,https://poedb.tw/us/Ground_Slam
 Ground Slam has a 16% increased angle,裂地之击的角度扩大 16%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
 Ground Slam has a 24% increased angle,裂地之击的角度扩大 24%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
@@ -26520,6 +26605,7 @@ Hair Trigger,发闸机关,unique-name,paired-record-local-english-numbers-checke
 Hairy Bonecruncher,长毛碎骨兽,database-name,paired-local-source,https://poedb.tw/cn/Shaggy_Monstrosity,https://poedb.tw/us/Shaggy_Monstrosity
 Hale,健壮的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 Hale Negator,强健否决者,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Hale_Negator,https://poedb.tw/us/Hale_Negator
+Half Bolts Hitting,半数闪电击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Half of your Strength is added to your Minions,你一半的力量属性将添加至你的召唤生物身上,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Baron,https://poedb.tw/us/The_Baron
 Half-remembered Goliath,遗世巨像,database-name,paired-local-source,https://poedb.tw/cn/Half-remembered_Goliath,https://poedb.tw/us/Half-remembered_Goliath
 Hallow,圣化（辅）,gem,paired-name,https://poedb.tw/cn/Hallow_Support,https://poedb.tw/us/Hallow_Support
@@ -27107,6 +27193,7 @@ Holy Flame Totem fires 2 additional Projectiles,圣焰图腾可以额外发射 2
 Holy Flame Totem has 20% increased Projectile Speed,圣焰图腾投射物速度加快 20%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
 Holy Flame Totem has 30% increased Projectile Speed,圣焰图腾投射物速度加快 30%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
 Holy Flame Totem of Ire,怒焰之圣焰图腾,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Holy_Flame_Totem_of_Ire,https://poedb.tw/us/Holy_Flame_Totem_of_Ire
+Holy Hammer,神圣之锤,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Holy Hammers,神圣之锤,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Holy_Hammers,https://poedb.tw/us/Holy_Hammers
 Holy Hammers of Spirals,螺旋之神圣之锤,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Holy_Hammers_of_Spirals,https://poedb.tw/us/Holy_Hammers_of_Spirals
 Holy Relic,圣物,database-name,paired-local-source,https://poedb.tw/cn/Holy_Relic,https://poedb.tw/us/Holy_Relic
@@ -27253,6 +27340,8 @@ Icicle Mines,冰锥地雷,game-term,paired-link-target,https://poedb.tw/cn/Icicl
 Icy,结冰的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 Icy blades,寒冰刀刃,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 "Icy bolts rain down over the targeted area. They explode when landing, dealing damage to nearby enemies and chilling them, as well as causing patches of chilled ground. Skill damage is based on Intelligence.","冰箭如雨般洒落在目标区域. 落地时将会爆炸, 对周围敌人造成伤害并冰缓它们, 并造成冰结地面. 技能伤害以智慧数值为基础.",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Icestorm,https://poedb.tw/us/Icestorm
+Icy wave,寒冰波,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Idle,闲置,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 "If Amethyst Flask Charges are consumed, 37% of Physical Damage as Extra Chaos Damage",如果消耗紫晶药剂充能次数，造成相当于物理伤害 37% 的额外混沌伤害,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 "If Bismuth Flask Charges are consumed, Penetrate 25% Elemental Resistances",如果消耗灰岩药剂充能次数，穿透 25% 的元素抗性,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 "If Diamond Flask Charges are consumed, 250% increased Critical Strike Chance",如果消耗宝钻药剂充能次数，暴击几率提高 250%,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -27820,7 +27909,10 @@ Inherent loss of Rage is 10% slower,怒火固有损耗减慢 10%,passive-stat,pa
 Inherent loss of Rage is 20% faster,怒火固有损耗加快 20%,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Inherent loss of Rage is 20% slower,怒火固有损耗减慢 20%,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Inherent loss of Rage is 8% slower,怒火固有损耗减慢 8%,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Initial Bursts,初始爆发,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Initial effect,初始效果,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
+Initial hit,初始击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Initial impact,初始冲击,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Inner Choking Miasma,内部屏息瘴气,game-term,paired-link-target,https://poedb.tw/cn/Inner_Choking_Miasma,https://poedb.tw/us/Inner_Choking_Miasma
 Inner Conviction,内在信念,database-name,paired-local-source,https://poedb.tw/cn/Timeless_Jewel,https://poedb.tw/us/Timeless_Jewel
 Inner Deatomisation Storm,内在崩解风暴,game-term,paired-link-target,https://poedb.tw/cn/Inner_Deatomisation_Storm,https://poedb.tw/us/Inner_Deatomisation_Storm
@@ -28477,9 +28569,11 @@ Lightless Astrolabe,暗光星盘,database-name,paired-local-source,https://poedb
 Lightning,闪电,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Lightning Aegis,闪电护盾,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Lightning_Aegis,https://poedb.tw/us/Lightning_Aegis
 Lightning Ailment Effect,闪电异常状态效果,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Lightning AoE,闪电范围伤害,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Lightning Arrow,闪电箭矢,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Lightning_Arrow,https://poedb.tw/us/Lightning_Arrow
 Lightning Arrow hits 2 additional Enemies,闪电箭矢击中额外 2 个敌人,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
 Lightning Arrow of Electrocution,电殛之闪电箭矢,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Lightning_Arrow_of_Electrocution,https://poedb.tw/us/Lightning_Arrow_of_Electrocution
+Lightning Attack,闪电攻击,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Lightning Beam,闪电连接,game-term,paired-link-target,https://poedb.tw/cn/Lightning_Beam,https://poedb.tw/us/Lightning_Beam
 Lightning Bolt,雷霆万钧,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Lightning_Bolt,https://poedb.tw/us/Lightning_Bolt
 Lightning Bomb,雷祸,game-term,paired-link-target,https://poedb.tw/cn/Lightning_Bomb,https://poedb.tw/us/Lightning_Bomb
@@ -28564,7 +28658,9 @@ Lightning Trap pierces 2 additional Targets,闪电陷阱穿透 2 个额外目标
 Lightning Trap pierces 3 additional Targets,闪电陷阱穿透 3 个额外目标,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
 Lightning Walker,雷灵之道,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Lightning Warp,闪电传送,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Lightning_Warp,https://poedb.tw/us/Lightning_Warp
+Lightning bolt,闪电,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 "Lightning crackles in a series of small bursts, each damaging enemies caught in the area.","放出一连串会爆裂的小雷球, 每个对撞上的敌人造成范围伤害.",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Storm_Cascade,https://poedb.tw/us/Storm_Cascade
+Lightning hit,闪电击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Lightning strikes a number of enemies around a targeted location. Cannot be supported by Spell Cascade.,闪电击中目标位置周围的多个敌人。无法被多重范围施法辅助。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Lightning_Conduit_of_the_Heavens,https://poedb.tw/us/Lightning_Conduit_of_the_Heavens
 "Lightning strikes all Shocked enemies around a targeted location, then removes Shock from those enemies. Shocks cannot expire on enemies in range while casting this spell. Cannot be supported by Spell Cascade or Unleash.",闪电击中目标位置周围所有感电的敌人，然后消除这些敌人的感电效果。施放该法术时，范围内的敌人受到的感电效果不会流逝。不受“多重范围施法”和“释出”辅助。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Lightning_Conduit,https://poedb.tw/us/Lightning_Conduit
 "Lightning, Arcane, Support, Spell","闪电, 奥术, 辅助, 法术",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Archmage_Support,https://poedb.tw/us/Archmage_Support
@@ -28867,6 +28963,8 @@ Magic Utility Flasks applied to you have 30% increased Effect,对你施用的魔
 Magic Utility Flasks cannot be Used,不能使用魔法非恢复类药剂,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Mageblood,https://poedb.tw/us/Mageblood
 Magister's,导师的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Convoking_Wand,https://poedb.tw/us/Convoking_Wand
 Magistrate Crown,行政者战冠,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Crown_of_the_Tyrant,https://poedb.tw/us/Crown_of_the_Tyrant
+Magma Balls,熔岩球,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Magma Balls (5th attack),熔岩球（第 5 次攻击）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Magma Hound Talisman,熔岩猎犬魔符,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Magma_Hound_Talisman,https://poedb.tw/us/Magma_Hound_Talisman
 Magmancer's,熔岩法师的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Staves,https://poedb.tw/us/Staves
 Magmatic,熔岩的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bone_Spirit_Shield,https://poedb.tw/us/Bone_Spirit_Shield
@@ -28882,6 +28980,7 @@ Mahuxotl's Machination,马赫索托之诈,unique-name,paired-record-local-englis
 Maim,瘫痪(辅),gem,paired-name,https://poedb.tw/cn/Maim_Support,https://poedb.tw/us/Maim_Support
 Maim Immune,免疫瘫痪,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Maim Immunity,免疫瘫痪,game-term,paired-link-target,https://poedb.tw/cn/Maim_Immunity,https://poedb.tw/us/Maim_Immunity
+Maim Shockwave,瘫痪震波,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Maim Support,瘫痪(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Maim_Support,https://poedb.tw/us/Maim_Support
 Maim on Hit,击中时造成瘫痪,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Vaal_Rain_of_Arrows,https://poedb.tw/us/Vaal_Rain_of_Arrows
 Maim you inflict causes Hits against the target to have 20% more Critical Strike Chance,你施加的残废使击中该目标的暴击几率总增 20%,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -29050,6 +29149,8 @@ Manifested Dancing Dervishes disables both weapon slots,幻化之刃德尔维希
 Manifold Ring,集成戒指,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Manifold_Ring,https://poedb.tw/us/Manifold_Ring
 Mantra of Flames,烈炎之兆,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Mantra_of_Flames,https://poedb.tw/us/Mantra_of_Flames
 Manual,手动,ui,editorial-ui,,
+Manual Stacks,手动设置层数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Manual Stages,手动设置阶段数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Map Prefix Modifiers,地图前缀词缀,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Map Suffix Modifiers,地图后缀词缀,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Map Tier,地图阶级,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
@@ -29147,6 +29248,8 @@ Maw of Mischief,害人之口,unique-name,paired-record-local-english-numbers-che
 Max,最大值,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Max Bleed Stacks,最大流血层数,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Max Chain Count,最大连锁次数,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Max Channelled Orbs,最大引导法球数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Max Duration Explode,持续时间结束时爆炸,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Max Effect,最大效果,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Max Effect: always ignores if you have any chance,最大效果：只要有触发几率就视为始终无视,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Max Effect: damage is based on maximum effect,最大效果：按最大效果计算伤害,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
@@ -29159,6 +29262,8 @@ Max Impale Stacks,最大穿刺层数,pob-panel,source-code-checked,src/Modules/B
 Max Level:,最高等级：,ui-detail,source-code-checked,,
 Max Number of Seals,最大封印数量,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Max Price:,最高价格：,ui-detail,source-code-checked,,
+Max Pulse per Brand,每个烙印最大脉冲数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Max Ruin,最大摧灭层数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Max Sust. Fuses,可维持引信数量上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Maxarius (Transcendence),玛萨留斯（超然飞升）,ui-detail,source-code-checked,,
 Maximum,最大值,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
@@ -29197,6 +29302,7 @@ Maximum Energy Shield is increased by Chance to Block Spell Damage,法术伤害�
 Maximum Fire Resistance,最大火焰抗性,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Maximum Fortification,最大防卫,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Maximum Hit Taken,单次最大承伤,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Maximum Hits,最大击中次数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Maximum Life,生命上限,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 "Maximum Life becomes 1, Immune to Chaos Damage",最大生命上限变成 1，免疫混沌伤害,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Maximum Lightning Resistance,最大闪电抗性,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -29211,6 +29317,8 @@ Maximum Scorch,最大烧灼,pob-panel,source-code-checked,src/Modules/BuildDispl
 Maximum Shock,最大感电,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Maximum Spectres and Minion Life,灵体和召唤生物生命上限,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Maximum Stacks,最大层数,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Maximum Stages,最大阶段数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Maximum Sustainable Stacks,可维持的最大层数,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Maximum effect,最大效果,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Maximum hit damage breakdown,最大承受击中伤害明细,ui-detail,source-code-checked,,
 Maximum hit is calculated in reverse -,最大承受击中按反向顺序计算——,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
@@ -29262,6 +29370,7 @@ Melee Damage and Life,近战伤害和生命,passive-name,paired-id-english-and-n
 Melee Damage and Strike Range,近战伤害和打击范围,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Melee Evade Ch.,近战闪避率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Melee Evade Chance,近战闪避率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Melee Hit,近战击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Melee Hits Fortify,近战击中提供护体状态,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Melee Hits Fortify if 6 Warlord Items are Equipped,装备 6 件督军物品时，近战击中提供护体状态,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 Melee Hits count as Rampage Kills,近战击中视为暴走击败,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Dancing_Dervish,https://poedb.tw/us/The_Dancing_Dervish
@@ -29438,6 +29547,7 @@ Minion Damage while you have a Herald Mastery,捷效果下召唤生物伤害专�
 "Minion Damage, Mana",召唤生物伤害、魔力,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 "Minion Damage, Skill Duration",召唤生物伤害、技能持续时间,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Minion Defence Mastery,召唤生物防御专精,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Minion Explosion,召唤生物爆炸,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Minion Instability,复仇之灵,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Minion Life,召唤生物生命(辅),gem,paired-name,https://poedb.tw/cn/Minion_Life_Support,https://poedb.tw/us/Minion_Life_Support
 Minion Life Mastery,召唤生物生命专精,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -30547,6 +30657,7 @@ Moving while Bleeding doesn't cause Minions to take extra Damage,流血状态下
 Moving while Bleeding doesn't cause you to take extra Damage,流血状态下移动不再承受额外的伤害,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Mult,倍率,ui-detail,source-code-checked,,
 Multi,加成,ui-detail,source-code-checked,,
+Multi Target,多目标,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Multi-part area skills,多部分范围技能,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Multiple Projectiles,多重投射(辅),gem,paired-name,https://poedb.tw/cn/Multiple_Projectiles_Support,https://poedb.tw/us/Multiple_Projectiles_Support
 Multiple Projectiles Support,多重投射(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Multiple_Projectiles_Support,https://poedb.tw/us/Multiple_Projectiles_Support
@@ -30773,6 +30884,8 @@ Nitrate,硝酸盐的,affix-name,paired-record-local-english-numbers-checked,http
 No,否,ui,editorial-ui,,
 No Chance to Block,没有格档率,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Kongmings_Stratagem,https://poedb.tw/us/Kongmings_Stratagem
 No Chaos Resistance,无混沌抗性,game-term,paired-link-target,https://poedb.tw/cn/No_Chaos_Resistance,https://poedb.tw/us/No_Chaos_Resistance
+No Flask,无药剂,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+No Flasks,无药剂,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 No Forgiveness,罪无可恕,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 No Loadouts,无配装方案,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
 No Physical Damage,没有物理伤害,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Cospris_Malice,https://poedb.tw/us/Cospris_Malice
@@ -30857,6 +30970,7 @@ Normal Maximum,常规最高等级,ui,editorial-ui,,
 Awakened gems default to their highest valid non-corrupted gem level.","普通宝石默认使用最高有效腐化等级。
 觉醒宝石默认使用最高有效未腐化等级。",ui-detail,source-code-checked,,
 Normal gems default to their highest valid non-corrupted gem level.,普通宝石默认使用未经腐化可达到的最高等级。,ui,editorial-ui,,
+Normal pulse,普通脉冲,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Not yet available,尚未推出,ui-detail,source-code-checked,,
 Notable Passive Skills in Radius are Transformed to,范围内的核心天赋替换为：,item-reviewed,reviewed-paired-variants,https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item,
 "Notable Passive Skills in Radius are Transformed to
@@ -31004,6 +31118,7 @@ For each Charge removed this way, that Attack gains +2% to Damage over time Mult
 "Once activated, continuously spends mana to cause volleys of ethereal weapons rain from the sky around you, dealing damage to enemies they impact. Each Blade will target a separate enemy in the volley area if possible. Each enemy can only be hit once by each volley, even if multiple blades land near them. This skill cannot be triggered or used by Totems, Traps, or Mines.",激活后持续消耗魔力，在你周围召唤出从天空降下的虚空武器，对命中的敌人造成伤害。每把刀刃会尽量攻击箭雨区域内的不同敌人。每个敌人每次箭雨攻击只会被命中一次，无论多少武器落在附近。该技能无法被触发，也不能由图腾、陷阱、地雷使用。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Bladefall_of_Trarthus,https://poedb.tw/us/Bladefall_of_Trarthus
 "Once per second, raise a nearby corpse as a shambling undead. This minion will follow you and attack your enemies with melee strikes, but quickly falls apart. These minions have significantly increased attack speed while on low life.",每秒一次，将附近的一具灵柩复活为一名蹒跚的不死生物。该召唤生物会跟随你并以近战打击攻击你的敌人，但会很快崩解。当这些召唤生物处于低生命时，攻击速度显著提高。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Ceaseless_Flesh,https://poedb.tw/us/Ceaseless_Flesh
 Ondar's Clasp,恩德的迅影,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Ondars_Clasp,https://poedb.tw/us/Ondars_Clasp
+One Bolt,一道闪电,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 One Handed Axe,单手斧,item-type,reviewed-source,src/Data/Bases,
 One Handed Damage,单手武器伤害,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 One Handed Mace,单手锤,item-type,reviewed-source,src/Data/Bases,
@@ -31012,7 +31127,12 @@ One Handed Sword,单手剑,ui-detail,source-code-checked,,
 One Step Ahead,快人一步,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 One With Nature,天人合一,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 One With Nothing,徒手空拳,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/One_With_Nothing,https://poedb.tw/us/One_With_Nothing
+One explosion hitting,一次爆炸命中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 One modifier from Consumed Jewels will be retained,来自被消耗珠宝的一个词缀将被保留,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Subsume_the_Source,https://poedb.tw/us/Subsume_the_Source
+One slash,一次斩击,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+One trap (bad placement),一个陷阱（放置不佳）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+One trap (good placement),一个陷阱（放置良好）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+One wave hitting,一道波命中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 One with the River,与水同行,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 One with the Shield,顽强壁垒,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Oni-Goroshi,鬼弑,game-term,paired-page-name-checked,https://poedb.tw/cn/Oni-Goroshi,https://poedb.tw/us/Oni-Goroshi
@@ -31094,9 +31214,11 @@ Other Ailment Defences,其他异常状态防御,pob-panel,source-code-checked,sr
 Other Avoidance,其他伤害避免,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Other Defences,其他防御,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Other Effects,其他效果,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Other Hammers,其余锤击,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Other trades:,其他交易：,ui-detail,source-code-checked,,
 Otherworldly Pressure,异界威压,game-term,paired-link-target,https://poedb.tw/cn/Otherworldly_Pressure,https://poedb.tw/us/Otherworldly_Pressure
 Outer Deatomisation Storm,外在崩解风暴,game-term,paired-link-target,https://poedb.tw/cn/Outer_Deatomisation_Storm,https://poedb.tw/us/Outer_Deatomisation_Storm
+Outgoing Projectile,去程投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Overcharge,过载（辅）,gem,paired-name,https://poedb.tw/cn/Overcharge_Support,https://poedb.tw/us/Overcharge_Support
 Overcharge Support,过载（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Overcharge_Support,https://poedb.tw/us/Overcharge_Support
 Overcharged,超载,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -31723,6 +31845,7 @@ Primal Skull Talisman,皇骨魔符,base-name,paired-record-local-english-numbers
 Primal Spirit,原始精神,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Primal Thunderbird,原始雷鸟,database-name,paired-local-source,https://poedb.tw/cn/Primal_Thunderbird,https://poedb.tw/us/Primal_Thunderbird
 Primal Wisps found,寻找原始鬼灵,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Primary Debuff,主要减益,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Primary Node Weight:,节点主要权重：,ui-detail,source-code-checked,,
 Prime,全盛的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 Prime Cleaver,首要砍刀,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Prime_Cleaver,https://poedb.tw/us/Prime_Cleaver
@@ -31814,6 +31937,7 @@ Projectile travel distance,投射物飞行距离,config-ui,editorial-ui,src/Modu
 "Projectile, Spell, AoE, Fire","投射物, 法术, 效果区域, 火焰",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Fireball,https://poedb.tw/us/Fireball
 "Projectile, Spell, AoE, Vaal, Fire","投射物, 法术, 效果区域, 瓦尔, 火焰",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Vaal_Fireball,https://poedb.tw/us/Vaal_Fireball
 "Projectile, Support, Totem","投射物, 辅助, 图腾",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Focused_Ballista_Support,https://poedb.tw/us/Focused_Ballista_Support
+Projectiles,投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Projectiles Chain +1 times while you have Phasing,你在迷踪状态下，投射物连锁次数 +1,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Voidwalker,https://poedb.tw/us/Replica_Voidwalker
 Projectiles Chain in random directions,投射物朝随机方向连锁,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Poisonous_Concoction_of_Bouncing,https://poedb.tw/us/Poisonous_Concoction_of_Bouncing
 Projectiles Fire from where the Payload Arrow lands,投射物在负载箭矢落地时发射,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Tornado_Shot_of_Cloudburst,https://poedb.tw/us/Tornado_Shot_of_Cloudburst
@@ -31935,6 +32059,7 @@ Proxy server:,代理服务器：,ui-detail,source-code-checked,,
 Prudent,谨简的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Life_Flasks,https://poedb.tw/us/Life_Flasks
 Psychotic Axe,癫狂斧,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Psychotic_Axe,https://poedb.tw/us/Psychotic_Axe
 Pugilist,迅击者,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Pugilist,https://poedb.tw/us/Pugilist
+Pulse,脉冲,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Pulses Per Trap,每个陷阱脉冲次数,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Pulsing,脉冲的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 Pulverise,粉碎（辅）,gem,paired-name,https://poedb.tw/cn/Pulverise_Support,https://poedb.tw/us/Pulverise_Support
@@ -32184,6 +32309,7 @@ Rage Loss Delay,怒火流失延迟,pob-panel,source-code-checked,src/Modules/Bui
 Rage Mastery,怒火专精,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Rage Regen,怒火再生,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Rage Regeneration,怒火再生,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
+Rage Storm,盛怒风暴,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Rage Support,怒火（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Rage_Support,https://poedb.tw/us/Rage_Support
 Rage Vortex,怒火漩涡,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Rage_Vortex,https://poedb.tw/us/Rage_Vortex
 Rage Vortex Sacrifices +3% of Rage,怒火漩涡献祭的怒火 +3%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
@@ -32868,6 +32994,7 @@ Rejuvenation Totem,回春图腾,gem,paired-slug-name-local-english-numeric-spans
 Rejuvenation Totem Aura,回春图腾光环,game-term,paired-link-target,https://poedb.tw/cn/Rejuvenation_Totem_Aura,https://poedb.tw/us/Rejuvenation_Totem_Aura
 Rejuvenation Totem also grants Mana Regeneration equal to 10% of its Life Regeneration,回春图腾还会提供相当于其生命再生 10% 的魔力再生,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
 Rejuvenation Totem also grants Mana Regeneration equal to 15% of its Life Regeneration,回春图腾还会提供相当于其生命再生 15% 的魔力再生,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
+Release,释放,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 "Release a beam which deals lightning damage to enemies in a long area in front of you, and has several smaller beams branch off from it at an angle, hitting more enemies to the sides.",发射波束，对你前方长形范围内的敌人造成闪电伤害，并呈一定角度分裂出一些小型波束，击中两侧其它敌人。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Crackling_Lance_of_Branching,https://poedb.tw/us/Crackling_Lance_of_Branching
 Release a concentrated beam which deals lightning damage to enemies in a long area in front of you.,发射汇聚波束，对你前方长形范围内的敌人造成闪电伤害。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Crackling_Lance_of_Disintegration,https://poedb.tw/us/Crackling_Lance_of_Disintegration
 "Release a lightning charged spinning copy of your weapon or its projectiles that rotates around a point, damaging enemies in an area.","复制并释放出一个你所使用的武器或其投射物, 并带有闪电在一个定点旋转, 对区域中的敌人造成伤害. 有 10 秒冷却时间.",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Word_of_Ire,https://poedb.tw/us/Word_of_Ire
@@ -33152,6 +33279,7 @@ Retaliation Skills have 8% increased Speed,反击技能的速度加快 8%,passiv
 "Retaliation, Support","反击, 辅助",gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Expert_Retaliation_Support,https://poedb.tw/us/Expert_Retaliation_Support
 Retch Talisman,反刍鸟魔符,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Retch_Talisman,https://poedb.tw/us/Retch_Talisman
 Retribution,制裁,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Returning Projectile,返程投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Returning Projectiles,投射物归返（辅）,gem,paired-name,https://poedb.tw/cn/Returning_Projectiles_Support,https://poedb.tw/us/Returning_Projectiles_Support
 Returning Projectiles Pierce all Targets,返回的投射物贯穿所有目标,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Venom_Gyre,https://poedb.tw/us/Venom_Gyre
 Returning Projectiles Support,投射物归返（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Returning_Projectiles_Support,https://poedb.tw/us/Returning_Projectiles_Support
@@ -33216,6 +33344,7 @@ Rigwald's Savagery,野性瑞佛,unique-name,paired-record-local-english-numbers-
 Rime Gaze,酷寒的凝视,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Rime_Gaze,https://poedb.tw/us/Rime_Gaze
 Rimedweller's,霜民的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 Ring,戒指,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Kalandras_Touch,https://poedb.tw/us/Kalandras_Touch
+Ring + Nova,环形与新星,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Ring 1,戒指一,ui,editorial-ui,,
 Ring 2,戒指二,ui,editorial-ui,,
 Ring 3,戒指 3,ui-detail,source-code-checked,,
@@ -33288,6 +33417,7 @@ Royal Plate,皇家战铠,base-name,paired-record-local-english-numbers-checked,h
 Royal Sceptre,皇家短杖,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Black_Cane,https://poedb.tw/us/The_Black_Cane
 Royal Skean,皇家短匕,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Heartbreaker,https://poedb.tw/us/Replica_Heartbreaker
 Royal Staff,皇家长杖,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Stormheart,https://poedb.tw/us/The_Stormheart
+Ruby,红玉药剂,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Ruby Amulet,血色护身符,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Star_of_Wraeclast,https://poedb.tw/us/Star_of_Wraeclast
 Ruby Flask,红玉药剂,game-term,paired-link-target,https://poedb.tw/cn/Ruby_Flask,https://poedb.tw/us/Ruby_Flask
 Ruby Ring,红玉戒指,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Ruby_Ring,https://poedb.tw/us/Ruby_Ring
@@ -33463,6 +33593,8 @@ Sapped,精疲力尽,game-term,paired-link-target,https://poedb.tw/cn/Sapped,http
 Sapped Ground,力竭地面,game-term,paired-link-target,https://poedb.tw/cn/Sapped_Ground,https://poedb.tw/us/Sapped_Ground
 "Sapped enemies deal less damage, up to 20%.",力竭敌人造成的伤害总降，最多 20%。,config-tooltip,source-clauses-reviewed,src/Modules/ConfigOptions.lua,
 Sapphire,蓝宝石的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
+Sapphire + Ruby,蓝玉药剂 + 红玉药剂,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Sapphire + Topaz,蓝玉药剂 + 黄玉药剂,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Sapphire Flask,蓝玉药剂,game-term,paired-link-target,https://poedb.tw/cn/Sapphire_Flask,https://poedb.tw/us/Sapphire_Flask
 Sapphire Ring,蓝玉戒指,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Pyre,https://poedb.tw/us/Pyre
 Sapping,削弱的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Life_Flasks,https://poedb.tw/us/Life_Flasks
@@ -33595,10 +33727,14 @@ Searing Rune,灼烧符文,game-term,paired-link-target,https://poedb.tw/cn/Seari
 Season of Ice,寒冰之季,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Seasoned Hunter,资深猎手,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Seasoned Swordplay,熟练剑技,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+"Second Form, 1 Projectile",第二形态，1 个投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+"Second Form, All Projectiles",第二形态，全部投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Second Hit,第二次击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Second Sight,慧眼,database-name,paired-local-source,https://poedb.tw/cn/Timeless_Jewel,https://poedb.tw/us/Timeless_Jewel
 Second Skin,天衣无缝,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Second Wind,助力之风（辅）,gem,paired-name,https://poedb.tw/cn/Second_Wind_Support,https://poedb.tw/us/Second_Wind_Support
 Second Wind Support,助力之风（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Second_Wind_Support,https://poedb.tw/us/Second_Wind_Support
+Secondary Debuff,次要减益,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Secondary Duration,次要持续时间,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Secondary Node Weight,次要天赋权重,ui,editorial-ui,,
 Secondary Radius,次要半径,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
@@ -33630,6 +33766,8 @@ Sekhem,威能短杖,base-name,paired-record-local-english-numbers-checked,https:
 Select a metric to calculate power report,选择用于计算提升报告的指标,ui-detail,source-code-checked,,
 Select the item in which this skill is socketed.,选择插有此技能宝石的装备。,ui,editorial-ui,,
 Selective Precision,定向精准,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Self Cast,自行施放,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Self Explosion,自身爆炸,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Self hit Damage,自身击中伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Self-Control,自制,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Self-Flagellation,残虐之欢愉,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Self-Flagellation,https://poedb.tw/us/Self-Flagellation
@@ -33805,6 +33943,7 @@ Shaper's Presence,塑界者姿态,game-term,paired-link-target,https://poedb.tw/
 Shaper's Seed,塑界者之籽,game-term,paired-link-target,https://poedb.tw/cn/Shapers_Seed,https://poedb.tw/us/Shapers_Seed
 Shaper's Touch,塑界之触,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Shapers_Touch,https://poedb.tw/us/Shapers_Touch
 Sharding Tempest,裂片风暴,game-term,paired-link-target,https://poedb.tw/cn/Sharding_Tempest,https://poedb.tw/us/Sharding_Tempest
+Shards,碎片,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Share,分享,ui,editorial-ui,,
 Share Endurance Charges with nearby party members,与周围队友分享耐力球,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Ambus_Charge,https://poedb.tw/us/Replica_Ambus_Charge
 "Share Endurance, Frenzy and Power Charges with nearby party members",与周围队友分享耐力、狂怒与暴击球,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -33913,9 +34052,11 @@ Shocks you inflict spread to other Enemies within 1.6 metres,你造成的感电�
 Shocks you inflict spread to other Enemies within 1.7 metres,你造成的感电会扩散给 1.7 米内的其他敌人,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Gloves_dex,https://poedb.tw/us/Gloves_dex
 Shocks you when you reach Maximum Power Charges,暴击球达到最大数量时，你被感电,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Malachais_Loop,https://poedb.tw/us/Malachais_Loop
 Shockwave,震波（辅）,gem,paired-name,https://poedb.tw/cn/Shockwave_Support,https://poedb.tw/us/Shockwave_Support
+Shockwave Repeat,震波重复,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Shockwave Support,震波（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Shockwave_Support,https://poedb.tw/us/Shockwave_Support
 Shockwave Totem,震波图腾,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Shockwave_Totem,https://poedb.tw/us/Shockwave_Totem
 Shockwave Totem of Authority,统御之震波图腾,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Shockwave_Totem_of_Authority,https://poedb.tw/us/Shockwave_Totem_of_Authority
+Shockwaves,震波,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Short Bow,短弓,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Quill_Rain,https://poedb.tw/us/Quill_Rain
 Show Advanced Info,显示高级信息,ui,editorial-ui,,
 Show All Configurations,显示所有配置,ui-detail,source-code-checked,,
@@ -34030,6 +34171,9 @@ Sin Trek,敏锐思维,unique-name,paired-record-local-english-numbers-checked,ht
 Sin's Rebirth,再生的罪恶,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Sins_Rebirth,https://poedb.tw/us/Sins_Rebirth
 Singing Siren,冥曲海妖,database-name,paired-local-source,https://poedb.tw/cn/Singing_Siren,https://poedb.tw/us/Singing_Siren
 Single Poison DPS,单层中毒每秒伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Single Projectile,单个投射物,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Single Projectile Hit,单个投射物击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Single Target,单目标,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Singular Delirium Orb,单独的雾魇宝珠,database-name,paired-local-source,https://poedb.tw/cn/Timeless_Delirium_Orb,https://poedb.tw/us/Timeless_Delirium_Orb
 Singularity,奇异,game-term,paired-link-target,https://poedb.tw/cn/Singularity,https://poedb.tw/us/Singularity
 Sinister,恶劣的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Crimson_Jewel,https://poedb.tw/us/Crimson_Jewel
@@ -34171,6 +34315,7 @@ Skullbreaker,碎颅斗士,passive-name,paired-id-english-and-numbers-checked,htt
 Skullhead,光辉之颅,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Skullhead,https://poedb.tw/us/Skullhead
 Skyforth,空向,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Skyforth,https://poedb.tw/us/Skyforth
 Skysunder,破天者,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Skysunder,https://poedb.tw/us/Skysunder
+Slam,猛击,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 "Slam the ground, calling down a Holy Hammer from above. On hitting an enemy, another Hammer will cascade forward, repeating if further enemies are hit, up to a cap. A Power Charge can be expended to call down additional Hammers to either side of the initial slam. Requires a Mace, Sceptre or Staff.",猛击地面，从空中召唤一柄神圣之锤。命中敌人时，会有另一柄锤子向前落下；若继续命中其他敌人则会重复此过程，直到达到上限。可以消耗一个暴击球以在初始猛击两侧召唤额外的神圣之锤。需要装备锤、短杖或长杖。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Holy_Hammers,https://poedb.tw/us/Holy_Hammers
 "Slam the ground, consuming all Endurance Charges and unleashing a fiery fissure in front of you, dealing area damage and randomly releasing a number of smaller fissures branching off from it. Requires a Mace, Sceptre, Sword, Axe, Staff, or Unarmed.",猛击地面，消耗所有耐力球，在前方制造一道灼热的裂缝，造成范围伤害，并随机分出一些更小的裂缝。需要锤类、短杖、剑类、斧类、长杖或徒手发动。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Tectonic_Slam_of_Cataclysm,https://poedb.tw/us/Tectonic_Slam_of_Cataclysm
 "Slam the ground, consuming all Power Charges and calling down a cascade of holy hammers from above in an outward spiral. Further hammers are called down for each Power Charge consumed. Requires a Mace, Sceptre or Staff.",砸击地面，消耗所有暴击球，并从天召唤一系列神圣之锤，以向外盘旋的形式倾泻而落。每消耗 1 个暴击球便会额外召唤更多锤子。需要钉锤、短杖或长杖。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Holy_Hammers_of_Spirals,https://poedb.tw/us/Holy_Hammers_of_Spirals
@@ -35869,6 +36014,7 @@ Spider Matriarch,蛛巢主母,database-name,paired-local-source,https://poedb.tw
 Spider Minion,蜘蛛爪牙,database-name,paired-local-source,https://poedb.tw/cn/Spider_Minion,https://poedb.tw/us/Spider_Minion
 Spider's Web,蜘蛛网,game-term,paired-link-target,https://poedb.tw/cn/Spiders_Web,https://poedb.tw/us/Spiders_Web
 Spidersilk Robe,蛛丝之袍,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Covenant,https://poedb.tw/us/The_Covenant
+Spike,尖刺,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Spike-Point Arrow Quiver,刺锋箭袋,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Soul_Strike,https://poedb.tw/us/Replica_Soul_Strike
 Spiked Bulwark,荆刺守护,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Spiked Bundle,尖木刺盾,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Spiked_Bundle,https://poedb.tw/us/Spiked_Bundle
@@ -36093,6 +36239,7 @@ Storm Call of Trarthus,特拉特斯之风暴呼唤,gem,paired-slug-name-local-en
 Storm Cascade,风暴突袭,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Storm_Cascade,https://poedb.tw/us/Storm_Cascade
 Storm Cloud,暴雨之弦,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Storm_Cloud,https://poedb.tw/us/Storm_Cloud
 Storm Drinker,风暴痛饮,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Storm Explosion,风暴爆炸,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Storm Prison,禁锢暴风,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Storm_Prison,https://poedb.tw/us/Storm_Prison
 Storm Rain,暴雨箭,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Storm_Rain,https://poedb.tw/us/Storm_Rain
 Storm Rain has 25% increased Beam frequency,暴雨箭波束频率加快 25%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
@@ -36168,6 +36315,7 @@ String of Servitude,奴役之索,unique-name,paired-record-local-english-numbers
 Strong Arm,强壮手臂,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Strong-Willed,意志坚强的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 Stronger Pulses always Critically Strike,强力脉冲必定暴击,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Lightning_Tendrils_of_Eccentricity,https://poedb.tw/us/Lightning_Tendrils_of_Eccentricity
+Stronger pulse,强化脉冲,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Stubborn Student,倔强学徒,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Studded,镶嵌的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Belts,https://poedb.tw/us/Belts
 Studded Belt,扣钉腰带,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Magnate,https://poedb.tw/us/The_Magnate
@@ -36200,6 +36348,7 @@ Subjugating (100-8000) souls in the thrall of Ulaman,征服 (100-8000) 个受乌
 Sublime Form,崇高之形,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Sublime Sensation,崇高感,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Sublime Vision,崇高愿景,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Sublime_Vision,https://poedb.tw/us/Sublime_Vision
+Subsequent Impacts,后续冲击,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Substantial,重多的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Life_Flasks,https://poedb.tw/us/Life_Flasks
 Subsume the Source,源质兼并,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Subsume_the_Source,https://poedb.tw/us/Subsume_the_Source
 Subsuming Spirit Shield,归纳魔盾,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Subsuming_Spirit_Shield,https://poedb.tw/us/Subsuming_Spirit_Shield
@@ -36924,6 +37073,7 @@ Talon Axe,猛禽爪斧,base-name,paired-record-local-english-numbers-checked,htt
 Tangled Fossil,纠缠化石,database-name,paired-local-source,https://poedb.tw/cn/Tangled_Fossil,https://poedb.tw/us/Tangled_Fossil
 Tanu Ahi,烈火送葬,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Tanu_Ahi,https://poedb.tw/us/Tanu_Ahi
 Taproot,砥砺深根,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Taproot,https://poedb.tw/us/Taproot
+Target,目标,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 "Targets a corpse, and deals spell damage to enemies around the corpse, as well as causing the corpse to explode, dealing fire damage. The explosion is not affected by modifiers to spell damage and cannot be reflected.",对一个灵柩施法，使其周围目标都受到一个法术伤害。同时使该灵柩爆炸， 对附近的敌人造成火焰伤害。爆炸造成的伤害无法被法术伤害词缀加成，并且无法被反射。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Detonate_Dead,https://poedb.tw/us/Detonate_Dead
 "Targets a corpse, and deals spell damage to enemies around the corpse, as well as causing the corpse to explode, dealing fire damage. The explosion is not affected by modifiers to spell damage and cannot be reflected. This will continue to target other corpses in the area, with a shorter delay between each one, until it runs out of corpses or has destroyed 8 corpses. Cannot be supported by Spell Cascade.",对一个灵柩施法，使其周围目标都受到一个法术伤害。同时使该灵柩爆炸，对附近的敌人造成火焰伤害。爆炸造成的伤害无法被法术伤害词缀加成，并且无法被反射。爆炸会继续指定区域内的其他灵柩，每个灵柩之间的爆炸间隔较短，直到灵柩消耗殆尽或有 8 个灵柩被引爆。无法被多重范围施法辅助。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Detonate_Dead_of_Chain_Reaction,https://poedb.tw/us/Detonate_Dead_of_Chain_Reaction
 "Targets a corpse, and deals spell damage to enemies around the corpse, as well as causing the corpse to explode, dealing fire damage. The explosion is not affected by modifiers to spell damage and cannot be reflected. This will continue to target other corpses in the area, with an increasing delay between each one, until it runs out of corpses or has destroyed 22 corpses.",对一个灵柩施法，使其周围目标都受到一个法术伤害。同时使该灵柩爆炸， 对附近的敌人造成火焰伤害。爆炸造成的伤害无法被法术伤害词缀加成，并且无法被反射。爆炸会继续指定区域内的其他灵柩，每个灵柩之间的爆炸间隔持续延长，直到灵柩消耗殆尽或有 22 个灵柩被引爆。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Vaal_Detonate_Dead,https://poedb.tw/us/Vaal_Detonate_Dead
@@ -37429,6 +37579,7 @@ Thief's Craft,盗贼工艺,passive-name,paired-id-english-and-numbers-checked,ht
 Thief's Garb,窃贼之装,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Thiefs_Garb,https://poedb.tw/us/Thiefs_Garb
 Thief's Torment,窃罪,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Thiefs_Torment,https://poedb.tw/us/Thiefs_Torment
 Thin,稀薄的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Tinctures,https://poedb.tw/us/Tinctures
+Third Hit,第三次击中,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Thirst for Blood,鲜血渴求,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Thirst_for_Blood,https://poedb.tw/us/Thirst_for_Blood
 Thirst for Horrors,颤栗之饥,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Thirst_for_Horrors,https://poedb.tw/us/Thirst_for_Horrors
 This Attack can be Exerted as though it was not a Vaal Skill,该攻击可以如同非瓦尔技能一样被增助,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Vaal_Ground_Slam,https://poedb.tw/us/Vaal_Ground_Slam
@@ -37449,6 +37600,8 @@ This Skill's Area of Effect cannot be modified,该技能的效果范围无法受
 This Skill's Cooldown does not recover during its effect,效果持续时间内无法回复该技能的冷却时间,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Withering_Step,https://poedb.tw/us/Withering_Step
 This Skill's Duration cannot be modified,该技能的持续时间无法被更改,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Unbound_Avatar,https://poedb.tw/us/Unbound_Avatar
 "This Skill's Mana Reservation is the total of the Mana Reservations of Supported Skills, and cannot be further modified",该技能的魔力保留等于被辅助技能魔力保留的总量，不能再作更改,gem-detail,paired-reference-semantic-review,https://poedb.tw/cn/Autoexertion,https://poedb.tw/us/Autoexertion
+This Source Only,仅此来源,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+"This Source Only, Ignoring Chance",仅此来源，忽略触发几率,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 "This Spell gains Intensity when you Cast it, to a maximum of 3",施放该法术时获得凝聚状态，最大 3 层,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Crackling_Lance,https://poedb.tw/us/Crackling_Lance
 This Spell is Triggered when Gained,获得时触发该技能,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Tears_of_Rot,https://poedb.tw/us/Tears_of_Rot
 "This Spell loses 1 Intensity every 0.5 seconds while moving, or immediately if you teleport",该法术在移动时每隔 0.5 秒失去 1 层凝聚，传送时会立刻失去,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Crackling_Lance,https://poedb.tw/us/Crackling_Lance
@@ -37818,6 +37971,7 @@ This will enable the Unholy Might buff.,启用不洁之力增益。,config-toolt
 This will override the number of Mines per throw,覆盖每次投掷的地雷数量,config-tooltip,source-clauses-reviewed,src/Modules/ConfigOptions.lua,
 This will override the number of Traps per throw,覆盖每次投掷的陷阱数量,config-tooltip,source-clauses-reviewed,src/Modules/ConfigOptions.lua,
 Thorium Spirit Shield,暗金魔盾,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Thorium_Spirit_Shield,https://poedb.tw/us/Thorium_Spirit_Shield
+Thorn Arrows,荆棘箭矢,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Thorn Rapier,棘刺细剑,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Thorn_Rapier,https://poedb.tw/us/Thorn_Rapier
 Thorned Shrine,荆棘神龛,game-term,paired-link-target,https://poedb.tw/cn/Thorned_Shrine,https://poedb.tw/us/Thorned_Shrine
 Thorned Vines,荆棘蔓藤,game-term,paired-link-target,https://poedb.tw/cn/Thorned_Vines,https://poedb.tw/us/Thorned_Vines
@@ -37998,6 +38152,8 @@ Toad's Price,蟾蜍的代价,passive-name,paired-id-english-and-numbers-checked,
 Tolerance,宽容,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Tomahawk,征战之斧,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Moonbenders_Wing,https://poedb.tw/us/Moonbenders_Wing
 Tombfist,陵拳,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Tombfist,https://poedb.tw/us/Tombfist
+Topaz,黄玉药剂,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
+Topaz + Ruby,黄玉药剂 + 红玉药剂,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Topaz Flask,黄玉药剂,game-term,paired-link-target,https://poedb.tw/cn/Topaz_Flask,https://poedb.tw/us/Topaz_Flask
 Topaz Ring,黄玉戒指,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Precursors_Emblem,https://poedb.tw/us/Precursors_Emblem
 Topotante's,托钵塔特的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bone_Spirit_Shield,https://poedb.tw/us/Bone_Spirit_Shield
@@ -38058,6 +38214,7 @@ Total Stone Golem Life,巨石魔像总生命,ui-detail,source-code-checked,,
 Total Vaal Rejuvenation Totem Life,瓦尔回春图腾总生命,ui-detail,source-code-checked,,
 Total Void Spawn Life,虚空后裔总生命,ui-detail,source-code-checked,,
 Total Void Spawn Life override,虚空后裔总生命覆盖值,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
+Total Weighted Ball Average,熔岩球总加权平均值,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Total Wisp DPS,幽魂总每秒伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Total damage,总伤害,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 Total damage from the enemy,敌人造成的总伤害,ui-detail,source-code-checked,,
@@ -38591,6 +38748,7 @@ Unholy Scalding,邪恶灼烧,game-term,paired-link-target,https://poedb.tw/cn/Un
 Unholy Trinity,不洁三体（辅）,gem,paired-name,https://poedb.tw/cn/Unholy_Trinity_Support,https://poedb.tw/us/Unholy_Trinity_Support
 Unholy Trinity Support,不洁三体（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Unholy_Trinity_Support,https://poedb.tw/us/Unholy_Trinity_Support
 Unholy Urn,不洁之瓮,game-term,paired-link-target,https://poedb.tw/cn/Unholy_Urn,https://poedb.tw/us/Unholy_Urn
+Unimproved,未强化,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Unique,传奇,ui,editorial-ui,,
 Unique Enemy is in your Presence,低血状态会触发该技能,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Summon_Spirit_of_Maata,https://poedb.tw/us/Summon_Spirit_of_Maata
 Unique Map Modifiers,传奇地图词缀,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
@@ -39125,6 +39283,7 @@ Wailing Essence of Torment,折磨之哀嚎精华,database-name,paired-local-sour
 Wailing Essence of Woe,悲痛之哀嚎精华,database-name,paired-local-source,https://poedb.tw/cn/Essence_Spirit,https://poedb.tw/us/Essence_Spirit
 Wailing Essence of Wrath,雷霆之哀嚎精华,database-name,paired-local-source,https://poedb.tw/cn/Essence_Spirit,https://poedb.tw/us/Essence_Spirit
 Wailing Essence of Zeal,热情之哀嚎精华,database-name,paired-local-source,https://poedb.tw/cn/Essence_Spirit,https://poedb.tw/us/Essence_Spirit
+Wait for max charges,等待充能达到上限,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 "Waits for a duration before teleporting to a targeted destination, with the duration based on the distance and your movement speed. When the teleport occurs, lightning damage is dealt to the area around both where the player was and where they teleported to. Casting again will queue up multiple teleportations to occur in sequence.",指定一个传送目的地，等待一段时间，该时间由距离和你的移动速度决定。传送发生时，对玩家原本所在位置和传送目的地周围同时施加闪电伤害。重复释放会按照顺序反复进行传送。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Lightning_Warp,https://poedb.tw/us/Lightning_Warp
 Wake of Destruction,覆灭之兆,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Wake_of_Destruction,https://poedb.tw/us/Wake_of_Destruction
 Wall of Brambles,荆棘之墙,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Wall_of_Brambles,https://poedb.tw/us/Wall_of_Brambles
@@ -39255,6 +39414,7 @@ Wasting Touch: 9% reduced Life and Energy Shield recovery rate per stack,废败�
 Watcher Talisman,守望者魔符,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Watcher_Talisman,https://poedb.tw/us/Watcher_Talisman
 Watcher's Eye,守望之眼,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Watchers_Eye,https://poedb.tw/us/Watchers_Eye
 Watchtowers,守望之塔,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Wave,波,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Wave Pulse Rate,波动脉冲频率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Wave of Conviction,定罪波,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Wave_of_Conviction,https://poedb.tw/us/Wave_of_Conviction
 Wave of Conviction deals 25% increased Damage,定罪波的伤害提高 25%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int

@@ -1,5 +1,5 @@
 {
-  "entries": 40086,
+  "entries": 40246,
   "gem_names": 1038,
   "glyphs": 2468,
   "font": "Microsoft YaHei (local PC copy)",
@@ -61,5 +61,7 @@
   "calculation_labels_translated": 602,
   "configuration_labels": 738,
   "configuration_labels_translated": 738,
-  "scope": "Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.29 passives, paired item names/bases/modifiers, essence/currency/monster/pantheon/tattoo/enchantment/cluster/boss preset display fields and finite display clauses. Item/database audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged."
+  "scope": "Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.29 passives, paired item names/bases/modifiers, essence/currency/monster/pantheon/tattoo/enchantment/cluster/boss preset display fields and finite display clauses. Item/database audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged.",
+  "skill_part_labels": 179,
+  "skill_part_labels_translated": 179
 }

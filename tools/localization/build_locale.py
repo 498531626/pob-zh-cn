@@ -39,6 +39,14 @@ def write_term_csv(entries):
             w.writerow([display_en, v['zh'], v['kind'], v['status'], v.get('source', ''), v.get('english_source', '')])
 
 
+def write_dictionary(entries):
+    (OUT / 'catalog.json').write_text(json.dumps(entries, ensure_ascii=False, indent=2) + '\n', 'utf8')
+    (OUT / 'Dictionary.lua').write_text('return {\n' + ''.join(
+        '\t[' + json.dumps(en, ensure_ascii=False) + '] = ' + json.dumps(meta['zh'], ensure_ascii=False) + ',\n'
+        for en, meta in sorted(entries.items())) + '}\n', 'utf8')
+    write_term_csv(entries)
+
+
 def build():
     entries = json.loads((HERE / 'ui-terms.json').read_text('utf-8'))
     entries = {k: ({'zh': v, 'kind': 'ui', 'status': 'editorial-ui'} if isinstance(v, str) else v)
@@ -164,6 +172,14 @@ def build():
     entries.update({k: {'zh': v, 'kind': 'gem-ui', 'status': 'source-code-checked',
                         'source': 'src/Classes/GemTooltip.lua; src/Modules/Build.lua'}
                     for k, v in detail_ui.items()})
+    part_terms = json.loads((HERE / 'skill-part-terms.json').read_text('utf8'))
+    part_labels = set()
+    for path in (ROOT / 'src/Data/Skills').glob('*.lua'):
+        for block in re.findall(r'\bparts\s*=\s*\{(.*?)\n\t\},', path.read_text('utf8'), re.S):
+            part_labels.update(re.findall(r'\bname\s*=\s*"([^"\n]+)"', block))
+    missing_parts = part_labels - (entries.keys() | part_terms.keys())
+    if missing_parts:
+        raise ValueError(f'Untranslated skill parts: {sorted(missing_parts)}')
     item_ui = json.loads((HERE / 'item-ui.json').read_text('utf8'))
     for k, v in item_ui.items():
         entries.setdefault(k, {'zh': v, 'kind': 'item-ui', 'status': 'source-code-checked',
@@ -180,6 +196,9 @@ def build():
     # Existing reviewed UI/gem terminology remains the canonical shared word.
     for en, meta in item_entries.items():
         entries.setdefault(en, meta)
+    for en, zh in part_terms.items():
+        entries.setdefault(en, {'zh': zh, 'kind': 'skill-part', 'status': 'source-code-checked',
+                                'source': 'src/Data/Skills/*.lua; src/Modules/Build.lua'})
     # Translate() separates leading colour tags before dictionary lookup.
     # Retain source keys for provenance and add the corresponding display body.
     for en, meta in list(entries.items()):
@@ -191,9 +210,11 @@ def build():
         raise ValueError(f'Untranslated calculation labels: {sorted(missing_calc)}')
     OUT.mkdir(exist_ok=True)
     write_anoint_names(passive_contexts, OUT / 'AnointNames.lua')
-    (OUT / 'catalog.json').write_text(json.dumps(entries, ensure_ascii=False, indent=2) + '\n', 'utf-8')
+    write_dictionary(entries)
     def lua(s):
         return json.dumps(s, ensure_ascii=False)
+    (OUT / 'SkillPartNames.lua').write_text('return {\n' + ''.join(
+        '[' + lua(en) + ']=' + lua(zh) + ',\n' for en, zh in part_terms.items()) + '}\n', 'utf8')
     (OUT / 'ItemDisplayTerms.lua').write_text('return {\n' + ''.join(
         '[' + lua(en) + ']=' + lua(zh) + ',\n' for en, zh in item_ui.items()) + '}\n', 'utf8')
     formats = compile_formats(json.loads((HERE / 'display-formats.json').read_text('utf8')))
@@ -216,13 +237,10 @@ def build():
     (OUT / 'PassiveContexts.lua').write_text('return {\n' + ''.join(
         f'[{lua(node_id)}] = {{' + ''.join(f'[{lua(en)}]={lua(zh)},' for en, zh in texts.items()) + '},\n'
         for node_id, texts in sorted(passive_contexts.items())) + '}\n', 'utf8')
-    (OUT / 'Dictionary.lua').write_text('return {\n' + ''.join(
-        f'\t[{lua(en)}] = {lua(v["zh"])},\n' for en, v in sorted(entries.items())) + '}\n', 'utf-8')
     (OUT / 'PanelLabels.lua').write_text('return {\n' + ''.join(
         f'\t{lua(en)},\n' for en in sorted(labels, key=lambda s: (-len(s), s))) + '}\n', 'utf8')
     (OUT / 'CalcLabels.lua').write_text('return {\n' + ''.join(f'\t{lua(en)},\n' for en in sorted(calc_labels)) + '}\n', 'utf8')
     (OUT / 'ConfigLabels.lua').write_text('return {\n' + ''.join(f'\t{lua(en)},\n' for en in sorted(config_labels)) + '}\n', 'utf8')
-    write_term_csv(entries)
 
     # The font is copied from this PC for local use, not downloaded or installed.
     font_dir = HERE / 'fonts'
@@ -233,7 +251,7 @@ def build():
     font = ImageFont.truetype(str(font_path), 48, index=0)
     extra = '英文中文对照切换按住临时查看未翻译保留术语参考流亡编年史模式'
     extra += (ROOT / 'src/Modules/Localization.lua').read_text('utf8')
-    all_text = ''.join(v['zh'] for v in entries.values()) + ''.join(v['zh'] for v in gem_templates + item_templates) + ''.join(v['zh'] for v in formats) + ''.join(display_terms.values()) + ''.join(zh for texts in passive_contexts.values() for zh in texts.values()) + extra
+    all_text = ''.join(v['zh'] for v in entries.values()) + ''.join(part_terms.values()) + ''.join(v['zh'] for v in gem_templates + item_templates) + ''.join(v['zh'] for v in formats) + ''.join(display_terms.values()) + ''.join(zh for texts in passive_contexts.values() for zh in texts.values()) + extra
     chars = sorted({c for c in all_text if ord(c) > 127})
     cell, cols = 64, 64
     rows = (len(chars) + cols - 1) // cols
@@ -256,6 +274,7 @@ def build():
               'passives': passive_report, 'gem_details': gem_report, 'item_details': item_report,
               'database_details': {k:v if not isinstance(v,dict)else len(v)for k,v in database_report.items()},
               'sidebar_labels': len(labels), 'sidebar_labels_translated': len(labels),
+              'skill_part_labels': len(part_labels), 'skill_part_labels_translated': len(part_labels),
               'calculation_labels': len(calc_labels), 'calculation_labels_translated': len(calc_labels),
               'configuration_labels': len(config_labels), 'configuration_labels_translated': len(config_labels) - len(config_pending),
               'scope': 'Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.29 passives, paired item names/bases/modifiers, essence/currency/monster/pantheon/tattoo/enchantment/cluster/boss preset display fields and finite display clauses. Item/database audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged.'}

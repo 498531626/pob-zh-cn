@@ -275825,5 +275825,965 @@
     "zh": "GitHub 项目页：^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding",
     "kind": "ui-detail",
     "status": "source-code-checked"
+  },
+  "0 Blades": {
+    "zh": "0 层刀刃",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "1 charge": {
+    "zh": "1 层充能",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "1 Hit": {
+    "zh": "1 次击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "1 Improvement": {
+    "zh": "强化 1 次",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "1 Orb Tick": {
+    "zh": "法球触发 1 次",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "1 Projectile": {
+    "zh": "1 个投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "1 Wave": {
+    "zh": "1 道波",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "10 Blades": {
+    "zh": "10 层刀刃",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "2 Improvements": {
+    "zh": "强化 2 次",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "2 Overlapping Waves": {
+    "zh": "2 道重叠波",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "3 Improvements": {
+    "zh": "强化 3 次",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "5 Blades": {
+    "zh": "5 层刀刃",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Aftershock": {
+    "zh": "余震",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "All Bolts Hitting": {
+    "zh": "全部闪电击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "All Bolts in Range": {
+    "zh": "范围内全部闪电",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "All explosions hitting": {
+    "zh": "全部爆炸命中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "All Flasks": {
+    "zh": "全部药剂",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "All Primary Projectiles": {
+    "zh": "全部主要投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "All Projectiles": {
+    "zh": "全部投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "All Projectiles Hit": {
+    "zh": "全部投射物击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "All waves hitting": {
+    "zh": "全部波命中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "AoE Explosion": {
+    "zh": "范围爆炸",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Area Hit": {
+    "zh": "范围击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Arrow": {
+    "zh": "箭矢",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Autopulse (Frozen & Shocked)": {
+    "zh": "自动脉冲（冻结且感电）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Autopulse (Frozen)": {
+    "zh": "自动脉冲（冻结）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Autopulse (Shocked)": {
+    "zh": "自动脉冲（感电）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Average # traps (bad placement)": {
+    "zh": "平均陷阱数（放置不佳）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Average # traps (good placement)": {
+    "zh": "平均陷阱数（放置良好）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Average active traps, all waves": {
+    "zh": "平均生效陷阱数，全部波",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Average active traps, average waves": {
+    "zh": "平均生效陷阱数，平均波数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Average active traps, one wave": {
+    "zh": "平均生效陷阱数，单道波",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Average Balls (5th attack)": {
+    "zh": "平均熔岩球（第 5 次攻击）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Average Balls Hitting": {
+    "zh": "平均熔岩球命中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Average DPS": {
+    "zh": "平均每秒伤害",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Average explosions hitting": {
+    "zh": "平均爆炸命中数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Average Of All Sources": {
+    "zh": "全部来源平均值",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Average waves hitting configured size enemy": {
+    "zh": "按所设敌人体型计算平均命中波数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Beam": {
+    "zh": "光束",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Beam Implosion": {
+    "zh": "光束内爆",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Beams": {
+    "zh": "光束",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Blade Hits Per Cast": {
+    "zh": "每次施法刀刃击中数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Blade Hits Per Sec": {
+    "zh": "每秒刀刃击中数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Both slashes": {
+    "zh": "两次斩击",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Both Waves": {
+    "zh": "两道波",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Cast (Frozen & Shocked)": {
+    "zh": "施放（冻结且感电）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Cast (Frozen)": {
+    "zh": "施放（冻结）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Cast (No Ailment)": {
+    "zh": "施放（无异常状态）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Cast (Shocked)": {
+    "zh": "施放（感电）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Cast on Player": {
+    "zh": "对玩家施放",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Cast on Skeleton": {
+    "zh": "对魔侍施放",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Channel & Release": {
+    "zh": "引导与释放",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Channelling": {
+    "zh": "引导中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Channelling, Max Stages": {
+    "zh": "引导中，最大层数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Channelling, No Stages": {
+    "zh": "引导中，无层数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Cold AoE": {
+    "zh": "冰霜范围伤害",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Cold Attack": {
+    "zh": "冰霜攻击",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Cold hit": {
+    "zh": "冰霜击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Combined Average Projectiles": {
+    "zh": "合并平均投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Cone": {
+    "zh": "锥形",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Cone AoE": {
+    "zh": "锥形范围伤害",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Convert to cold": {
+    "zh": "转化为冰霜",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Convert to fire": {
+    "zh": "转化为火焰",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Convert to lightning": {
+    "zh": "转化为闪电",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Corpse Explosion": {
+    "zh": "灵柩爆炸",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Debuff Explosion - 1 Stack": {
+    "zh": "减益爆炸 - 1 层",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Debuff Explosion - 6 Stacks": {
+    "zh": "减益爆炸 - 6 层",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Energy Pulse": {
+    "zh": "能量脉冲",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Explosion (# of fuses)": {
+    "zh": "爆炸（指定引信数量）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Explosion (Maximum Sustainable Fuses)": {
+    "zh": "爆炸（可维持的最大引信数量）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Explosions": {
+    "zh": "爆炸",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Final Burst": {
+    "zh": "最终爆发",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Final Wave Area": {
+    "zh": "最后一道波的范围",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Fire AoE": {
+    "zh": "火焰范围伤害",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Fire Attack": {
+    "zh": "火焰攻击",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Fire explosion": {
+    "zh": "火焰爆炸",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Fire hit": {
+    "zh": "火焰击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "First Form, 1 Projectile": {
+    "zh": "第一形态，1 个投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "First Form, All Projectiles": {
+    "zh": "第一形态，全部投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "First Hammer": {
+    "zh": "首个锤击",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "First Hit": {
+    "zh": "第一次击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "First Impact": {
+    "zh": "首次冲击",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "First Wave Area": {
+    "zh": "第一道波的范围",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Ground DoT": {
+    "zh": "地面持续伤害",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Ground Fissure": {
+    "zh": "地面裂缝",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Half Bolts Hitting": {
+    "zh": "半数闪电击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Holy Hammer": {
+    "zh": "神圣之锤",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Icy wave": {
+    "zh": "寒冰波",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Idle": {
+    "zh": "闲置",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Initial Bursts": {
+    "zh": "初始爆发",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Initial hit": {
+    "zh": "初始击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Initial impact": {
+    "zh": "初始冲击",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Lightning AoE": {
+    "zh": "闪电范围伤害",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Lightning Attack": {
+    "zh": "闪电攻击",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Lightning bolt": {
+    "zh": "闪电",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Lightning hit": {
+    "zh": "闪电击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Magma Balls": {
+    "zh": "熔岩球",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Magma Balls (5th attack)": {
+    "zh": "熔岩球（第 5 次攻击）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Maim Shockwave": {
+    "zh": "瘫痪震波",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Manual Stacks": {
+    "zh": "手动设置层数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Manual Stages": {
+    "zh": "手动设置阶段数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Max Channelled Orbs": {
+    "zh": "最大引导法球数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Max Duration Explode": {
+    "zh": "持续时间结束时爆炸",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Max Pulse per Brand": {
+    "zh": "每个烙印最大脉冲数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Max Ruin": {
+    "zh": "最大摧灭层数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Maximum Hits": {
+    "zh": "最大击中次数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Maximum Stages": {
+    "zh": "最大阶段数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Maximum Sustainable Stacks": {
+    "zh": "可维持的最大层数",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Melee Hit": {
+    "zh": "近战击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Minion Explosion": {
+    "zh": "召唤生物爆炸",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Multi Target": {
+    "zh": "多目标",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "No Flask": {
+    "zh": "无药剂",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "No Flasks": {
+    "zh": "无药剂",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Normal pulse": {
+    "zh": "普通脉冲",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "One Bolt": {
+    "zh": "一道闪电",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "One explosion hitting": {
+    "zh": "一次爆炸命中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "One slash": {
+    "zh": "一次斩击",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "One trap (bad placement)": {
+    "zh": "一个陷阱（放置不佳）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "One trap (good placement)": {
+    "zh": "一个陷阱（放置良好）",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "One wave hitting": {
+    "zh": "一道波命中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Other Hammers": {
+    "zh": "其余锤击",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Outgoing Projectile": {
+    "zh": "去程投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Primary Debuff": {
+    "zh": "主要减益",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Projectiles": {
+    "zh": "投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Pulse": {
+    "zh": "脉冲",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Rage Storm": {
+    "zh": "盛怒风暴",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Release": {
+    "zh": "释放",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Returning Projectile": {
+    "zh": "返程投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Ring + Nova": {
+    "zh": "环形与新星",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Ruby": {
+    "zh": "红玉药剂",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Sapphire + Ruby": {
+    "zh": "蓝玉药剂 + 红玉药剂",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Sapphire + Topaz": {
+    "zh": "蓝玉药剂 + 黄玉药剂",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Second Form, 1 Projectile": {
+    "zh": "第二形态，1 个投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Second Form, All Projectiles": {
+    "zh": "第二形态，全部投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Second Hit": {
+    "zh": "第二次击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Secondary Debuff": {
+    "zh": "次要减益",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Self Cast": {
+    "zh": "自行施放",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Self Explosion": {
+    "zh": "自身爆炸",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Shards": {
+    "zh": "碎片",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Shockwave Repeat": {
+    "zh": "震波重复",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Shockwaves": {
+    "zh": "震波",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Single Projectile": {
+    "zh": "单个投射物",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Single Projectile Hit": {
+    "zh": "单个投射物击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Single Target": {
+    "zh": "单目标",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Slam": {
+    "zh": "猛击",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Spike": {
+    "zh": "尖刺",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Storm Explosion": {
+    "zh": "风暴爆炸",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Stronger pulse": {
+    "zh": "强化脉冲",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Subsequent Impacts": {
+    "zh": "后续冲击",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Target": {
+    "zh": "目标",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Third Hit": {
+    "zh": "第三次击中",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "This Source Only": {
+    "zh": "仅此来源",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "This Source Only, Ignoring Chance": {
+    "zh": "仅此来源，忽略触发几率",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Thorn Arrows": {
+    "zh": "荆棘箭矢",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Topaz": {
+    "zh": "黄玉药剂",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Topaz + Ruby": {
+    "zh": "黄玉药剂 + 红玉药剂",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Total Weighted Ball Average": {
+    "zh": "熔岩球总加权平均值",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Unimproved": {
+    "zh": "未强化",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Wait for max charges": {
+    "zh": "等待充能达到上限",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
+  },
+  "Wave": {
+    "zh": "波",
+    "kind": "skill-part",
+    "status": "source-code-checked",
+    "source": "src/Data/Skills/*.lua; src/Modules/Build.lua"
   }
 }

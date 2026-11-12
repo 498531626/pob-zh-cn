@@ -1588,6 +1588,7 @@ function buildMode:RefreshSkillSelectControls(controls, mainGroup, suffix)
 			if activeEffect then
 				if activeEffect.grantedEffect.parts and #activeEffect.grantedEffect.parts > 1 then
 					controls.mainSkillPart.shown = true
+					controls.mainSkillPart.skillPartNames = true
 					wipeTable(controls.mainSkillPart.list)
 					for i, part in ipairs(activeEffect.grantedEffect.parts) do
 						t_insert(controls.mainSkillPart.list, { val = i, label = part.name })

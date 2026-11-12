@@ -317,6 +317,7 @@ function DropDownClass:Draw(viewPort, noTooltip)
 			selLabel = selItem
 		end
 	end
+	if self.skillPartNames and Localization and not self:IsSearchActive() then selLabel = Localization:TranslateSkillPart(selLabel) end
 	SetViewport(x + 2, y + 2, width - height, lineHeight)
 	if Localization then
 		Localization:BoundedText(0, 0, "LEFT", lineHeight, "VAR", selLabel or "", width - height - (selDetail and DrawStringWidth(lineHeight, "VAR", selDetail) + 4 or 0))
@@ -394,6 +395,7 @@ function DropDownClass:Draw(viewPort, noTooltip)
 				else 
 					label = listVal
 				end
+				if self.skillPartNames and Localization then label = Localization:TranslateSkillPart(label) end
 				if Localization then
 					Localization:BoundedText(0, y, "LEFT", lineHeight, "VAR", label, (scrollBar.enabled and width - 22 or width - 4) - (detail and DrawStringWidth(lineHeight, "VAR", detail) + 4 or 0))
 				else
@@ -553,6 +555,7 @@ function DropDownClass:CheckDroppedWidth(enable)
 			if type(line) == "table" then
 				line = line.label or ""
 			end
+			if self.skillPartNames and Localization then line = Localization:TranslateSkillPart(line) end
 			  -- +10 to stop clipping
 			dWidth = m_max(dWidth, DrawStringWidth(lineHeight, "VAR", line) + 10)
 		end
@@ -563,6 +566,7 @@ function DropDownClass:CheckDroppedWidth(enable)
 			if type(line) == "table" then
 				line = line.label
 			end
+			if self.skillPartNames and Localization then line = Localization:TranslateSkillPart(line) end
 			-- add 20 to account for the 'down arrow' in the box
 			local boxWidth
 			boxWidth = DrawStringWidth(lineHeight, "VAR", line or "") + 20
