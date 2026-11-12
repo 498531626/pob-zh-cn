@@ -127,31 +127,31 @@
     "english":"(1 - 0.1000) ^8(portion of damage from non-crits)",
     "skill":"Blade Vortex"
   },{
-    "chinese":"* (4.00 / 0.28) ^8(点燃持续时间／攻击间隔)",
+    "chinese":"* (4.00 / 0.28) ^8(点燃持续时间 / 攻击间隔)",
     "english":"* (4.00 / 0.28) ^8(Ignite Duration / Attack Time)",
     "skill":"Cyclone"
   },{
-    "chinese":"* (4.00 / 0.50) ^8(点燃持续时间／攻击间隔)",
+    "chinese":"* (4.00 / 0.50) ^8(点燃持续时间 / 攻击间隔)",
     "english":"* (4.00 / 0.50) ^8(Ignite Duration / Attack Time)",
     "skill":"Storm Brand"
   },{
-    "chinese":"* (4.00 / 0.60) ^8(点燃持续时间／攻击间隔)",
+    "chinese":"* (4.00 / 0.60) ^8(点燃持续时间 / 攻击间隔)",
     "english":"* (4.00 / 0.60) ^8(Ignite Duration / Attack Time)",
     "skill":"Arc"
   },{
-    "chinese":"* (4.00 / 0.72) ^8(点燃持续时间／攻击间隔)",
+    "chinese":"* (4.00 / 0.72) ^8(点燃持续时间 / 攻击间隔)",
     "english":"* (4.00 / 0.72) ^8(Ignite Duration / Attack Time)",
     "skill":"Poisonous Concoction"
   },{
-    "chinese":"* (4.00 / 0.75) ^8(点燃持续时间／攻击间隔)",
+    "chinese":"* (4.00 / 0.75) ^8(点燃持续时间 / 攻击间隔)",
     "english":"* (4.00 / 0.75) ^8(Ignite Duration / Attack Time)",
     "skill":"Fireball"
   },{
-    "chinese":"* (4.00 / 1.00) ^8(点燃持续时间／攻击间隔)",
+    "chinese":"* (4.00 / 1.00) ^8(点燃持续时间 / 攻击间隔)",
     "english":"* (4.00 / 1.00) ^8(Ignite Duration / Attack Time)",
     "skill":"Summon Stone Golem"
   },{
-    "chinese":"* (4.00 / 1.17) ^8(点燃持续时间／攻击间隔)",
+    "chinese":"* (4.00 / 1.17) ^8(点燃持续时间 / 攻击间隔)",
     "english":"* (4.00 / 1.17) ^8(Ignite Duration / Attack Time)",
     "skill":"Raise Zombie"
   },{
