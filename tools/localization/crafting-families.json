@@ -1,0 +1,25 @@
+[
+  {
+    "terms": {"Physical": "物理", "Fire": "火焰", "Cold": "冰霜", "Lightning": "闪电", "Chaos": "混沌"},
+    "clauses": {
+      "{0}% of @term@ Damage Leeched by Enemy as Life": "敌人将@term@伤害的 {0}% 转化为生命偷取",
+      "{0}% of @term@ Attack Damage Leeched by Enemy as Life": "敌人将@term@攻击伤害的 {0}% 转化为生命偷取",
+      "{0}% of @term@ Attack Damage Leeched by Enemy as Mana": "敌人将@term@攻击伤害的 {0}% 转化为魔力偷取",
+      "Adds {0} to {1} @term@ Damage to Attacks against you": "对你的攻击附加 {0} 至 {1} @term@伤害",
+      "Adds {0} to {1} @term@ Damage to Hits against you per Frenzy Charge": "每个狂怒球使对你的击中附加 {0} 至 {1} @term@伤害"
+    }
+  },
+  {
+    "terms": {"Ghastly": "苍白", "Hypnotic": "安睡", "Murderous": "凶残", "Searching": "锐利"},
+    "clauses": {
+      "{0}% increased Effect of Socketed Magic @term@ Eye Jewels": "插槽内魔法@term@之凝珠宝的效果提高 {0}%",
+      "{0}% increased Effect of Socketed Rare @term@ Eye Jewels": "插槽内稀有@term@之凝珠宝的效果提高 {0}%"
+    }
+  },
+  {
+    "terms": {"Chaos": "混沌", "Cold": "冰霜", "Elemental": "元素", "Fire": "火焰", "Lightning": "闪电", "Physical": "物理"},
+    "clauses": {
+      "{0}% increased Attack and Cast Speed with @term@ Skills": "@term@技能的攻击与施法速度提高 {0}%"
+    }
+  }
+]

@@ -20,6 +20,7 @@ from item_locale import build_items
 from database_locale import build_database
 from anoint_locale import write_anoint_names
 from glyph_atlas import build_atlas
+from build_crafting_locale import build as build_crafting
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
@@ -46,6 +47,7 @@ def write_dictionary(entries):
 
 
 def build():
+    crafting_text = build_crafting()
     entries = json.loads((HERE / 'ui-terms.json').read_text('utf-8'))
     entries = {k: ({'zh': v, 'kind': 'ui', 'status': 'editorial-ui'} if isinstance(v, str) else v)
                for k, v in entries.items()}
@@ -240,7 +242,7 @@ def build():
     (OUT / 'CalcLabels.lua').write_text('return {\n' + ''.join(f'\t{lua(en)},\n' for en in sorted(calc_labels)) + '}\n', 'utf8')
     (OUT / 'ConfigLabels.lua').write_text('return {\n' + ''.join(f'\t{lua(en)},\n' for en in sorted(config_labels)) + '}\n', 'utf8')
 
-    extra = '英文中文对照切换按住临时查看未翻译保留术语参考流亡编年史模式'
+    extra = crafting_text + '英文中文对照切换按住临时查看未翻译保留术语参考流亡编年史模式'
     extra += (ROOT / 'src/Modules/Localization.lua').read_text('utf8')
     all_text = ''.join(v['zh'] for v in entries.values()) + ''.join(part_terms.values()) + ''.join(v['zh'] for v in gem_templates + item_templates) + ''.join(v['zh'] for v in formats) + ''.join(display_terms.values()) + ''.join(zh for texts in passive_contexts.values() for zh in texts.values()) + extra
     chars = sorted({c for c in all_text if ord(c) > 127})

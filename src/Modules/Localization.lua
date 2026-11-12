@@ -7,6 +7,7 @@ local anointNames = LoadModule("Localization/AnointNames")
 local panelLabels = LoadModule("Localization/PanelLabels")
 local skillTemplates = LoadModule("Localization/SkillTemplates")
 local itemTemplates = LoadModule("Localization/ItemTemplates")
+local craftingTemplates = LoadModule("Localization/CraftingTemplates")
 local itemDisplayTerms = LoadModule("Localization/ItemDisplayTerms")
 local itemTemplateIndex = {}
 for _, template in ipairs(itemTemplates) do
@@ -246,6 +247,20 @@ function L:TranslateCalcList(text)
 end
 
 local function dynamicChinese(body)
+	-- Crafting dropdowns append affix metadata to complete numeric stat lines.
+	-- Resolve the stat before the generic parenthesis handler can split its rolls.
+	local stat, affixType = body:match("^(.-) %((Prefix)%)$")
+	if not stat then stat, affixType = body:match("^(.-) %((Suffix)%)$") end
+	if stat then return L:Translate(stat, nil, "zh") .. " (" .. dictionary[affixType] .. ")" end
+	local affix, stats = body:match("^(.-)   %^8%[(.+)%]$")
+	if affix then return L:Translate(affix, nil, "zh") .. "   ^8[" .. L:Translate(stats, nil, "zh") .. "]" end
+	local bracketed = body:match("^%[(.+)%]$")
+	if bracketed then return "[" .. L:Translate(bracketed, nil, "zh") .. "]" end
+	local smallStat = body:match("^Added Small Passive Skills also grant: (.+)$")
+	if smallStat then
+		local translated = L:Translate(smallStat, nil, "zh")
+		if translated ~= smallStat then return "增加的小天赋还获得：" .. translated end
+	end
 	local interface = interfaceChinese(body)
 	if interface then return interface end
 	-- Full DPS rows prefix skill labels with their instance count. Translate
@@ -418,6 +433,17 @@ local function dynamicChinese(body)
 			local valid = true
 			for _, value in ipairs(values) do
 				if not value:match("^[%+%-]?%d+%.?%d*$") and not value:match("^[%+%-]?%(%-?%d+%.?%d*%-%-?%d+%.?%d*%)$") and not value:match("^[%+%-]?#$") then valid=false;break end
+			end
+			if valid then return (template.zh:gsub("{(%d+)}", function(i) return values[tonumber(i)+1] end)) end
+		end
+	end
+	for _, template in ipairs(craftingTemplates) do
+		local values = {body:match(template.pattern)}
+		if template.values == 0 and body == template.en then return template.zh end
+		if template.values > 0 and #values == template.values then
+			local valid = true
+			for _, value in ipairs(values) do
+				if not value:match("^[%+%-]?%d+%.?%d*$") and not value:match("^[%+%-]?%(%-?%d+%.?%d*%-%-?%d+%.?%d*%)$") then valid=false;break end
 			end
 			if valid then return (template.zh:gsub("{(%d+)}", function(i) return values[tonumber(i)+1] end)) end
 		end
