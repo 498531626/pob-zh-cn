@@ -1,4 +1,8 @@
 {
+  "Charge gain modifier: %+d%%": "充能获取量修正：%+d%%",
+  "Flask effect modifier: %+d%%": "药剂效果修正：%+d%%",
+  "Flask effect duration: %.1f0s": "药剂效果持续时间：%.1f0 秒",
+  "Charges used: %d of %d (%d uses)": "每次消耗 %d 充能，充能上限 %d（可使用 %d 次）",
   "%d Skill usages required": "需要使用技能 %d 次",
   "%d life is protected": "受保护的生命为 %d",
   "%d mana shadowed by energy shield": "能量护盾遮蔽的魔力为 %d",

@@ -84,6 +84,7 @@ function ItemSlotClass:Populate()
 	self.selIndex = 1
 	for _, item in pairs(self.itemsTab.items) do
 		if self.itemsTab:IsItemValidForSlot(item, self.slotName) then
+			if Localization then Localization:RegisterItemName(item) end
 			t_insert(self.items, item.id)
 			t_insert(self.list, colorCodes[item.rarity]..item.name)
 			if item.id == self.selItemId then

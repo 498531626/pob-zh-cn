@@ -55,5 +55,49 @@ for width=24,320 do
     assert(not clipped:find('[\128-\191]%.%.%.$') or clipped:match('[\224-\239][\128-\191][\128-\191]%.%.%.$'))
 end
 assert(item.name=='New Item, Rebuking Blade' and set.title=="Strength's 中文 33-45")
+-- Real equipped-slot population keeps raw English labels. Translation must
+-- therefore work at render/measurement time, not just in ItemListName.
+local slotClass={}
+function newClass() return slotClass end
+dofile('Classes/ItemSlotControl.lua')
+function wipeTable(t) for k in pairs(t) do t[k]=nil end end
+local fixtures={
+ {'Endless','Silver Flask','of the Pangolin'},
+ {'Alarmed','Divine Life Flask','of Alleviation'},
+ {'Horticultural','Prismatic Tincture','of Overpowering'},
+ {'Endless','Quicksilver Flask','of Persistence'},
+ {"Masochist's",'Diamond Flask','of Penetrating'},
+}
+local equipped={}
+for i,parts in ipairs(fixtures) do
+ equipped[i]={id=i,rarity='MAGIC',baseName=parts[2],namePrefix=parts[1]..' ',nameSuffix=' '..parts[3],
+  name=table.concat(parts,' ')}
+end
+local slot=setmetatable({itemsTab={items=equipped,IsItemValidForSlot=function()return true end},
+ items={},list={},selItemId=1,abyssalSocketList={}}, {__index=slotClass})
+L.mode='zh'
+local stale=L:Translate(equipped[1].name) -- previous untranslated cache entry
+slot:Populate()
+for i,parts in ipairs(fixtures) do
+ for _,part in ipairs(parts) do assert(dict[part], 'Missing reviewed term: '..part) end
+ local raw=equipped[i].name
+ local zh=dict[parts[1]]..' '..dict[parts[2]]..' '..dict[parts[3]]
+ assert(L:Translate('^3'..raw)=='^3'..zh,raw..' => '..L:Translate(raw))
+ assert(L:ItemListName(equipped[i])==zh)
+ L.mode='en';assert(L:Translate('^3'..raw)=='^3'..raw)
+ L.mode='zh';assert(L:Translate(raw)==zh)
+ assert(equipped[i].name==raw)
+end
+for _,text in ipairs({'^8Charge gain modifier: ^7+30%', '^8Flask effect modifier: ^7+25%',
+ '^8Flask effect duration: ^76.20s','^8Charges used: ^740 ^8of ^760 ^8(^71 ^8uses)'}) do
+ local zh=L:Translate(text)
+ assert(zh~=text and not zh:match('modifier') and not zh:match('Charges'),zh)
+ assert(zh:gsub('%^%d',''):gsub('[^%d+%.%-]','')==text:gsub('%^%d',''):gsub('[^%d+%.%-]',''),zh)
+ L.mode='en';assert(L:Translate(text)==text);L.mode='zh'
+end
+local f=assert(io.open('Classes/ItemsTab.lua','r'));local source=f:read('*a');f:close()
+local help=assert(source:match('%[%[(%^7Double%-click an item.-)%]%]'))
+assert(not L:Translate(help):find('Double-click',1,true),'Item operation help remains English')
+assert(L:Translate('Any slot')=='任意装备槽' and L:Translate('Any type')=='任意类型')
 print('Item rows: names, affixes, usage, custom titles, filters, English and Alt language independence and UTF-8 clipping passed.')
 ''')

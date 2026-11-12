@@ -23,6 +23,7 @@ local glyphs = LoadModule("Localization/Glyphs")
 local rawDraw, rawWidth, rawCursor, rawColor = DrawString, DrawStringWidth, DrawStringCursorIndex, SetDrawColor
 local currentColor = {1, 1, 1, 1}
 local cache = {}
+local itemNames = {}
 local atlas
 local passiveMultiline = {}
 for id, context in pairs(passiveContexts) do
@@ -330,6 +331,11 @@ local function dynamicChinese(body)
 	end
 	-- Calculation breakdowns retain their formula and values. Only complete,
 	-- reviewed annotations are replaced; an unknown annotation stays original.
+	-- Prefer a complete reviewed format over annotations such as "(1 uses)".
+	-- Let Translate strip inline colours before applying the complete format.
+	local plain = body:gsub("%^x%x%x%x%x%x%x", ""):gsub("%^%d", "")
+	local formatted = formattedChinese(plain)
+	if formatted then return plain == body and formatted or nil end
 	local formulaChanged = false
 	local renderedParts = {}
 	body:gsub("%b()", function(part)
@@ -359,8 +365,6 @@ local function dynamicChinese(body)
 		pieces[#pieces+1] = L:Translate(body:sub(cursor), nil, "zh")
 		return (table.concat(pieces):gsub("([%d%,%.]+) to ([%d%,%.]+)", "%1 至 %2"))
 	end
-	local formatted = formattedChinese(body)
-	if formatted then return formatted end
 	local math, suffix = body:match("^(.-%s)([%a][%a%s/]+)$")
 	if math and math:find("%d") and math:gsub("[%d%s%+%-%*/x=%,%.%%%(%):]", "") == "" and dictionary[suffix] then
 		return math .. dictionary[suffix]
@@ -425,7 +429,7 @@ function L:Translate(text, nodeId, displayMode)
 		or body:match(":$") or (body:sub(-3) == "：" and "：") or ""
 	local name = trailing ~= "" and body:sub(1, -#trailing - 1) or body
 	local context = nodeId and passiveContexts[tostring(nodeId)]
-	local direct = context and context[body] or dictionary[body]
+	local direct = context and context[body] or dictionary[body] or itemNames[body]
 	local zh = direct or (context and context[name]) or dictionary[name]
 	local dynamic = not zh and (interfaceChinese(body, nodeId) or (not body:find("[\128-\255]") and dynamicChinese(body)))
 	local result = text
@@ -481,6 +485,28 @@ function L:TranslateUI(text)
 end
 
 -- Translate parsed item name components, never the item or its saved raw text.
+-- Register the English display strings, so dropdowns and tooltip measurements
+-- resolve them at draw time and still switch back to English immediately.
+function L:RegisterItemName(item)
+	if item.rarity ~= "MAGIC" or not item.baseName then return end
+	local function part(text)
+		text = (text or ""):match("^%s*(.-)%s*$")
+		return dictionary[text] or text
+	end
+	local prefix, suffix = part(item.namePrefix), part(item.nameSuffix)
+	local function register(base)
+		local raw = (item.namePrefix or "") .. base .. (item.nameSuffix or "")
+		local zh = (prefix ~= "" and prefix .. " " or "") .. part(base)
+			.. (suffix ~= "" and " " .. suffix or "")
+		if itemNames[raw] ~= zh then
+			itemNames[raw] = zh
+			cache = {}
+		end
+	end
+	register(item.baseName)
+	register((item.baseName:gsub(" %(.+%)", "")))
+end
+
 function L:ItemListName(item)
 	if self:EffectiveMode() == "en" or self.suspended > 0 then return item.name end
 	if item.rarity == "MAGIC" and item.baseName then

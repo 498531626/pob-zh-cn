@@ -4366,6 +4366,7 @@ function ItemsTabClass:GetSocketDescriptionLine(item)
 	return line
 end
 function ItemsTabClass:AddItemTooltip(tooltip, item, slot, dbMode, maxWidth)
+	if Localization then Localization:RegisterItemName(item) end
 	local fontSizeSmall = main.showFlavourText and 16 or 14
 	local fontSizeBig = main.showFlavourText and 18 or 16
 	local fontSizeTitle = main.showFlavourText and 22 or 20

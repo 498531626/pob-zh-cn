@@ -1,4 +1,8 @@
 return {
+{pattern="^Charge gain modifier: ([%+%-]?[%d%,%.]+)%%$",zh="充能获取量修正：{0}%",kinds={"number"}},
+{pattern="^Flask effect modifier: ([%+%-]?[%d%,%.]+)%%$",zh="药剂效果修正：{0}%",kinds={"number"}},
+{pattern="^Flask effect duration: ([%+%-]?[%d%,%.]+)0s$",zh="药剂效果持续时间：{0}0 秒",kinds={"number"}},
+{pattern="^Charges used: ([%+%-]?[%d%,%.]+) of ([%+%-]?[%d%,%.]+) %(([%+%-]?[%d%,%.]+) uses%)$",zh="每次消耗 {0} 充能，充能上限 {1}（可使用 {2} 次）",kinds={"number","number","number"}},
 {pattern="^([%+%-]?[%d%,%.]+) Skill usages required$",zh="需要使用技能 {0} 次",kinds={"number"}},
 {pattern="^([%+%-]?[%d%,%.]+) life is protected$",zh="受保护的生命为 {0}",kinds={"number"}},
 {pattern="^([%+%-]?[%d%,%.]+) mana shadowed by energy shield$",zh="能量护盾遮蔽的魔力为 {0}",kinds={"number"}},
