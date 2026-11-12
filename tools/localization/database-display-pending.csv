@@ -1,0 +1,1011 @@
+﻿类别,英文原文,当前中文显示,源码位置
+兽园及熔炉工艺属性,+0.2 seconds to Flameblast and Incinerate Cooldown,+0.2 seconds to Flameblast and Incinerate Cooldown,Data/Crucible.lua
+兽园及熔炉工艺属性,+0.4 seconds to Flameblast and Incinerate Cooldown,+0.4 seconds to Flameblast and Incinerate Cooldown,Data/Crucible.lua
+兽园及熔炉工艺属性,"+1 to Minimum Endurance, Frenzy and Power Charges","+1 to Minimum Endurance, Frenzy and Power Charges",Data/Crucible.lua
+兽园及熔炉工艺属性,+10% to Wave of Conviction Damage over Time Multiplier per 0.1 seconds of Duration expired,+10% to Wave of Conviction Damage over Time Multiplier per 0.1 seconds of Duration expired,Data/Crucible.lua
+兽园及熔炉工艺属性,+15% to Vortex Critical Strike Chance when Cast on Frostbolt,+15% to Vortex Critical Strike Chance when Cast on Frostbolt,Data/Crucible.lua
+兽园及熔炉工艺属性,+15% to Wave of Conviction Damage over Time Multiplier per 0.1 seconds of Duration expired,+15% to Wave of Conviction Damage over Time Multiplier per 0.1 seconds of Duration expired,Data/Crucible.lua
+兽园及熔炉工艺属性,"+2 to Minimum Endurance, Frenzy and Power Charges","+2 to Minimum Endurance, Frenzy and Power Charges",Data/Crucible.lua
+兽园及熔炉工艺属性,+20% chance to be Frozen,+20% chance to be Frozen,Data/Crucible.lua
+兽园及熔炉工艺属性,+25% chance to Block Projectile Spell Damage,+25% chance to Block Projectile Spell Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,+25% to Vortex Critical Strike Chance when Cast on Frostbolt,+25% to Vortex Critical Strike Chance when Cast on Frostbolt,Data/Crucible.lua
+兽园及熔炉工艺属性,+3 Wishes per Ancient Fish caught,+3 Wishes per Ancient Fish caught,Data/Crucible.lua
+兽园及熔炉工艺属性,+30% chance to Block Projectile Spell Damage,+30% chance to Block Projectile Spell Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,"-1 to Maximum Endurance, Frenzy and Power Charges","-1 to Maximum Endurance, Frenzy and Power Charges",Data/Crucible.lua
+兽园及熔炉工艺属性,-15% chance to Suppress Spell Damage if you've Suppressed Spell Damage Recently,-15% chance to Suppress Spell Damage if you've Suppressed Spell Damage Recently,Data/Crucible.lua
+兽园及熔炉工艺属性,-18% chance to Suppress Spell Damage if you've Suppressed Spell Damage Recently,-18% chance to Suppress Spell Damage if you've Suppressed Spell Damage Recently,Data/Crucible.lua
+兽园及熔炉工艺属性,-20% chance to Block Projectile Spell Damage,-20% chance to Block Projectile Spell Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,-60% of Toxic Rain Physical Damage Converted to Chaos Damage,-60% of Toxic Rain Physical Damage Converted to Chaos Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,10% chance to deal Double Damage if Strength is below 100,10% chance to deal Double Damage if Strength is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,10% increased Damage taken from Damage Over Time,10% increased Damage taken from Damage Over Time,Data/Crucible.lua
+兽园及熔炉工艺属性,10% less Global Damage,10% less Global Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,10% of Hexblast and Doom Blast Overkill Damage is Leeched as Life,10% of Hexblast and Doom Blast Overkill Damage is Leeched as Life,Data/Crucible.lua
+兽园及熔炉工艺属性,10% reduced Area of Effect if you've Killed Recently,10% reduced Area of Effect if you've Killed Recently,Data/Crucible.lua
+兽园及熔炉工艺属性,10% reduced Minion Duration,10% reduced Minion Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,10% reduced effect of Offerings,10% reduced effect of Offerings,Data/Crucible.lua
+兽园及熔炉工艺属性,"100% chance for Kinetic Bolt, Kinetic Blast and Power Siphon to double Stun Duration","100% chance for Kinetic Bolt, Kinetic Blast and Power Siphon to double Stun Duration",Data/Crucible.lua
+兽园及熔炉工艺属性,100% chance to Avoid Elemental Ailments while on Consecrated Ground,100% chance to Avoid Elemental Ailments while on Consecrated Ground,Data/Crucible.lua
+兽园及熔炉工艺属性,100% increased Effect of Non-Damaging Ailments inflicted by Summoned Skeletons and Holy Relics,100% increased Effect of Non-Damaging Ailments inflicted by Summoned Skeletons and Holy Relics,Data/Crucible.lua
+兽园及熔炉工艺属性,100% increased Mana Cost of Mark Skills,100% increased Mana Cost of Mark Skills,Data/Crucible.lua
+兽园及熔炉工艺属性,100% increased Reeling Stability,100% increased Reeling Stability,Data/Crucible.lua
+兽园及熔炉工艺属性,100% increased Reflected Elemental Damage taken,100% increased Reflected Elemental Damage taken,Data/Crucible.lua
+兽园及熔炉工艺属性,100% increased Reflected Physical Damage taken,100% increased Reflected Physical Damage taken,Data/Crucible.lua
+兽园及熔炉工艺属性,100% increased Spark Duration when Cast by a Totem while you also have a Lightning Tendrils Spell Totem,100% increased Spark Duration when Cast by a Totem while you also have a Lightning Tendrils Spell Totem,Data/Crucible.lua
+兽园及熔炉工艺属性,100% more Frozen Legion and General's Cry Cooldown Recovery Rate,100% more Frozen Legion and General's Cry Cooldown Recovery Rate,Data/Crucible.lua
+兽园及熔炉工艺属性,100% of Consecrated Path and Purifying Flame Fire Damage Converted to Chaos Damage,100% of Consecrated Path and Purifying Flame Fire Damage Converted to Chaos Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,100% of Exsanguinate and Reap Physical Damage Converted to Fire Damage,100% of Exsanguinate and Reap Physical Damage Converted to Fire Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,100% of Manabond and Stormbind Lightning Damage Converted to Cold Damage,100% of Manabond and Stormbind Lightning Damage Converted to Cold Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,100% of Shield Crush and Spectral Shield Throw Physical Damage Converted to Lightning Damage,100% of Shield Crush and Spectral Shield Throw Physical Damage Converted to Lightning Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,100% reduced Effect of Buffs granted by your Golems,100% reduced Effect of Buffs granted by your Golems,Data/Crucible.lua
+兽园及熔炉工艺属性,100% reduced Reflected Elemental Damage taken,100% reduced Reflected Elemental Damage taken,Data/Crucible.lua
+兽园及熔炉工艺属性,100% reduced Reflected Physical Damage taken,100% reduced Reflected Physical Damage taken,Data/Crucible.lua
+兽园及熔炉工艺属性,12% chance to deal Double Damage if Strength is below 100,12% chance to deal Double Damage if Strength is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,12% chance to gain a Frenzy Charge when you Hit your Marked Enemy,12% chance to gain a Frenzy Charge when you Hit your Marked Enemy,Data/Crucible.lua
+兽园及熔炉工艺属性,12% increased Movement Speed if Dexterity is below 100,12% increased Movement Speed if Dexterity is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,14% increased Area of Effect if Intelligence is below 100,14% increased Area of Effect if Intelligence is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,14% increased Movement Speed if Dexterity is below 100,14% increased Movement Speed if Dexterity is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,15% chance for Firestorm and Bladefall to affect the same area again when they finish,15% chance for Firestorm and Bladefall to affect the same area again when they finish,Data/Crucible.lua
+兽园及熔炉工艺属性,15% chance for Ignites inflicted with Lightning Strike or Frost Blades to deal 100% more Damage,15% chance for Ignites inflicted with Lightning Strike or Frost Blades to deal 100% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,15% chance for Ignites inflicted with Shock Nova or Storm Call to deal 100% more Damage,15% chance for Ignites inflicted with Shock Nova or Storm Call to deal 100% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,15% chance for Poisons inflicted with Freezing Pulse and Eye of Winter to deal 100% more Damage,15% chance for Poisons inflicted with Freezing Pulse and Eye of Winter to deal 100% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,15% chance to Sap Enemies when you Block their Damage,15% chance to Sap Enemies when you Block their Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,15% chance to Scorch Enemies when you Block their Damage,15% chance to Scorch Enemies when you Block their Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,15% chance to inflict Brittle on Enemies when you Block their Damage,15% chance to inflict Brittle on Enemies when you Block their Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,15% increased Bleed Duration on you,15% increased Bleed Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,15% increased Cost of Arc and Crackling Lance,15% increased Cost of Arc and Crackling Lance,Data/Crucible.lua
+兽园及熔炉工艺属性,"15% increased Damage per Endurance, Frenzy or Power Charge","15% increased Damage per Endurance, Frenzy or Power Charge",Data/Crucible.lua
+兽园及熔炉工艺属性,15% increased Effect of Chill on you,15% increased Effect of Chill on you,Data/Crucible.lua
+兽园及熔炉工艺属性,15% increased Effect of Shock on you,15% increased Effect of Shock on you,Data/Crucible.lua
+兽园及熔炉工艺属性,15% increased Enemy Stun Threshold,15% increased Enemy Stun Threshold,Data/Crucible.lua
+兽园及熔炉工艺属性,15% increased Freeze Duration on you,15% increased Freeze Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,15% increased Ignite Duration on you,15% increased Ignite Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,15% increased Molten One confusion per Fish Gifted,15% increased Molten One confusion per Fish Gifted,Data/Crucible.lua
+兽园及熔炉工艺属性,15% increased Poison Duration on you,15% increased Poison Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,15% less Accuracy Rating against Marked Enemy,15% less Accuracy Rating against Marked Enemy,Data/Crucible.lua
+兽园及熔炉工艺属性,15% less Global Damage,15% less Global Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,15% reduced Duration of Ailments on You,15% reduced Duration of Ailments on You,Data/Crucible.lua
+兽园及熔炉工艺属性,15% reduced Effect of your Marks,15% reduced Effect of your Marks,Data/Crucible.lua
+兽园及熔炉工艺属性,15% reduced Mana Reservation Efficiency of Skills that throw Mines,15% reduced Mana Reservation Efficiency of Skills that throw Mines,Data/Crucible.lua
+兽园及熔炉工艺属性,15% reduced Totem Placement speed,15% reduced Totem Placement speed,Data/Crucible.lua
+兽园及熔炉工艺属性,15% reduced effect of Non-Curse Auras from your Skills on your Minions,15% reduced effect of Non-Curse Auras from your Skills on your Minions,Data/Crucible.lua
+兽园及熔炉工艺属性,16% chance to deal Double Damage if Strength is below 100,16% chance to deal Double Damage if Strength is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,20% chance to Sap Enemies when you Block their Damage,20% chance to Sap Enemies when you Block their Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,20% chance to Scorch Enemies when you Block their Damage,20% chance to Scorch Enemies when you Block their Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,20% chance to gain a Frenzy Charge when you Hit your Marked Enemy,20% chance to gain a Frenzy Charge when you Hit your Marked Enemy,Data/Crucible.lua
+兽园及熔炉工艺属性,20% chance to inflict Brittle on Enemies when you Block their Damage,20% chance to inflict Brittle on Enemies when you Block their Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Area of Effect if Intelligence is below 100,20% increased Area of Effect if Intelligence is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Bleed Duration on you,20% increased Bleed Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Chaining range,20% increased Chaining range,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Duration of Ailments on You,20% increased Duration of Ailments on You,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Effect of Chill on you,20% increased Effect of Chill on you,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Effect of Shock on you,20% increased Effect of Shock on you,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Freeze Duration on you,20% increased Freeze Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Ignite Duration on you,20% increased Ignite Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Mana Cost of Link Skills,20% increased Mana Cost of Link Skills,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Movement Speed if Dexterity is below 100,20% increased Movement Speed if Dexterity is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Poison Duration on you,20% increased Poison Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,20% increased Valako's Aid per Stormy Day,20% increased Valako's Aid per Stormy Day,Data/Crucible.lua
+兽园及熔炉工艺属性,20% less Global Damage,20% less Global Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,20% of Damage Dealt by Ancestor Totems Leeched to you as Energy Shield,20% of Damage Dealt by Ancestor Totems Leeched to you as Energy Shield,Data/Crucible.lua
+兽园及熔炉工艺属性,20% of Hexblast and Doom Blast Overkill Damage is Leeched as Life,20% of Hexblast and Doom Blast Overkill Damage is Leeched as Life,Data/Crucible.lua
+兽园及熔炉工艺属性,20% reduced Area of Effect if you've Killed Recently,20% reduced Area of Effect if you've Killed Recently,Data/Crucible.lua
+兽园及熔炉工艺属性,20% reduced Convocation Buff Effect,20% reduced Convocation Buff Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,20% reduced Damage per Curse on you,20% reduced Damage per Curse on you,Data/Crucible.lua
+兽园及熔炉工艺属性,20% reduced Effect of Arcane Surge on you,20% reduced Effect of Arcane Surge on you,Data/Crucible.lua
+兽园及熔炉工艺属性,20% reduced Effect of Onslaught on you,20% reduced Effect of Onslaught on you,Data/Crucible.lua
+兽园及熔炉工艺属性,20% reduced Effect of your Marks,20% reduced Effect of your Marks,Data/Crucible.lua
+兽园及熔炉工艺属性,20% reduced Minion Duration,20% reduced Minion Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,20% reduced Tasalio's Ire per Fish caught,20% reduced Tasalio's Ire per Fish caught,Data/Crucible.lua
+兽园及熔炉工艺属性,20% reduced effect of Offerings,20% reduced effect of Offerings,Data/Crucible.lua
+兽园及熔炉工艺属性,200% increased Effect of Non-Damaging Ailments inflicted by Summoned Skeletons and Holy Relics,200% increased Effect of Non-Damaging Ailments inflicted by Summoned Skeletons and Holy Relics,Data/Crucible.lua
+兽园及熔炉工艺属性,200% increased Mana Cost of Mark Skills,200% increased Mana Cost of Mark Skills,Data/Crucible.lua
+兽园及熔炉工艺属性,23% increased Krillson Affection per Fish Gifted,23% increased Krillson Affection per Fish Gifted,Data/Crucible.lua
+兽园及熔炉工艺属性,24% increased Area of Effect if Intelligence is below 100,24% increased Area of Effect if Intelligence is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance for Bleeding inflicted with Cobra Lash or Venom Gyre to deal 100% more Damage,25% chance for Bleeding inflicted with Cobra Lash or Venom Gyre to deal 100% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance for Cold Snap and Creeping Frost to Sap Enemies in Chilling Areas,25% chance for Cold Snap and Creeping Frost to Sap Enemies in Chilling Areas,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance for Firestorm and Bladefall to affect the same area again when they finish,25% chance for Firestorm and Bladefall to affect the same area again when they finish,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance for Ignites inflicted with Lightning Arrow or Ice Shot to deal 100% more Damage,25% chance for Ignites inflicted with Lightning Arrow or Ice Shot to deal 100% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance for Ignites inflicted with Lightning Strike or Frost Blades to deal 100% more Damage,25% chance for Ignites inflicted with Lightning Strike or Frost Blades to deal 100% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance for Ignites inflicted with Shock Nova or Storm Call to deal 100% more Damage,25% chance for Ignites inflicted with Shock Nova or Storm Call to deal 100% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance for Poisons inflicted with Blast Rain or Artillery Ballista to deal 100% more Damage,25% chance for Poisons inflicted with Blast Rain or Artillery Ballista to deal 100% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance for Poisons inflicted with Freezing Pulse and Eye of Winter to deal 100% more Damage,25% chance for Poisons inflicted with Freezing Pulse and Eye of Winter to deal 100% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance to be Withered for 2 seconds when you take Chaos Damage from a Hit,25% chance to be Withered for 2 seconds when you take Chaos Damage from a Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance to be inflicted with Cold Exposure when you take Cold Damage from a Hit,25% chance to be inflicted with Cold Exposure when you take Cold Damage from a Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance to be inflicted with Fire Exposure when you take Fire Damage from a Hit,25% chance to be inflicted with Fire Exposure when you take Fire Damage from a Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance to be inflicted with Lightning Exposure when you take Lightning Damage from a Hit,25% chance to be inflicted with Lightning Exposure when you take Lightning Damage from a Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,25% chance to be inflicted with a random Exposure when you take Elemental Damage from a Hit,25% chance to be inflicted with a random Exposure when you take Elemental Damage from a Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,25% increased Attack Damage with Off Hand,25% increased Attack Damage with Off Hand,Data/Crucible.lua
+兽园及熔炉工艺属性,25% increased Cost of Arc and Crackling Lance,25% increased Cost of Arc and Crackling Lance,Data/Crucible.lua
+兽园及熔炉工艺属性,25% increased Damage for each time you've Warcried Recently,25% increased Damage for each time you've Warcried Recently,Data/Crucible.lua
+兽园及熔炉工艺属性,"25% increased Damage per Endurance, Frenzy or Power Charge","25% increased Damage per Endurance, Frenzy or Power Charge",Data/Crucible.lua
+兽园及熔炉工艺属性,25% increased Reservation of Banner Skills,25% increased Reservation of Banner Skills,Data/Crucible.lua
+兽园及熔炉工艺属性,25% less Accuracy Rating against Marked Enemy,25% less Accuracy Rating against Marked Enemy,Data/Crucible.lua
+兽园及熔炉工艺属性,25% reduced Duration of Ailments on You,25% reduced Duration of Ailments on You,Data/Crucible.lua
+兽园及熔炉工艺属性,25% reduced Essence Drain and Soulrend Projectile Speed,25% reduced Essence Drain and Soulrend Projectile Speed,Data/Crucible.lua
+兽园及熔炉工艺属性,25% reduced Mana Reservation Efficiency of Skills that throw Mines,25% reduced Mana Reservation Efficiency of Skills that throw Mines,Data/Crucible.lua
+兽园及熔炉工艺属性,25% reduced Totem Placement speed,25% reduced Totem Placement speed,Data/Crucible.lua
+兽园及熔炉工艺属性,25% reduced Trap Spread,25% reduced Trap Spread,Data/Crucible.lua
+兽园及熔炉工艺属性,25% reduced chance to catch Boots,25% reduced chance to catch Boots,Data/Crucible.lua
+兽园及熔炉工艺属性,25% reduced effect of Non-Curse Auras from your Skills on your Minions,25% reduced effect of Non-Curse Auras from your Skills on your Minions,Data/Crucible.lua
+兽园及熔炉工艺属性,30% chance for Blade Vortex and Blade Blast to Impale Enemies on Hit,30% chance for Blade Vortex and Blade Blast to Impale Enemies on Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,30% increased Area of Effect if you've Killed at least 5 Enemies Recently,30% increased Area of Effect if you've Killed at least 5 Enemies Recently,Data/Crucible.lua
+兽园及熔炉工艺属性,30% increased Bleed Duration on you,30% increased Bleed Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,30% increased Effect of Chill on you,30% increased Effect of Chill on you,Data/Crucible.lua
+兽园及熔炉工艺属性,30% increased Effect of Shock on you,30% increased Effect of Shock on you,Data/Crucible.lua
+兽园及熔炉工艺属性,30% increased Enemy Stun Threshold,30% increased Enemy Stun Threshold,Data/Crucible.lua
+兽园及熔炉工艺属性,30% increased Freeze Duration on you,30% increased Freeze Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,30% increased Ignite Duration on you,30% increased Ignite Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,30% increased Poison Duration on you,30% increased Poison Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,32% increased Area of Effect if Intelligence is below 100,32% increased Area of Effect if Intelligence is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,40% chance to gain a Flask Charge when you deal a Critical Strike,40% chance to gain a Flask Charge when you deal a Critical Strike,Data/Crucible.lua
+兽园及熔炉工艺属性,40% increased Bleed Duration on you,40% increased Bleed Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,40% increased Chaining range,40% increased Chaining range,Data/Crucible.lua
+兽园及熔炉工艺属性,40% increased Damage for each time you've Warcried Recently,40% increased Damage for each time you've Warcried Recently,Data/Crucible.lua
+兽园及熔炉工艺属性,40% increased Effect of Chill on you,40% increased Effect of Chill on you,Data/Crucible.lua
+兽园及熔炉工艺属性,40% increased Effect of Shock on you,40% increased Effect of Shock on you,Data/Crucible.lua
+兽园及熔炉工艺属性,40% increased Freeze Duration on you,40% increased Freeze Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,40% increased Ignite Duration on you,40% increased Ignite Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,40% increased Life of Fish caught with this Fishing Rod,40% increased Life of Fish caught with this Fishing Rod,Data/Crucible.lua
+兽园及熔炉工艺属性,40% increased Mana Cost of Link Skills,40% increased Mana Cost of Link Skills,Data/Crucible.lua
+兽园及熔炉工艺属性,40% increased Poison Duration on you,40% increased Poison Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,40% of Damage Dealt by Ancestor Totems Leeched to you as Energy Shield,40% of Damage Dealt by Ancestor Totems Leeched to you as Energy Shield,Data/Crucible.lua
+兽园及熔炉工艺属性,40% reduced Convocation Buff Effect,40% reduced Convocation Buff Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,40% reduced Trap Trigger Area of Effect,40% reduced Trap Trigger Area of Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,45% reduced Shrapnel Ballista attack speed per Shrapnel Ballista Totem,45% reduced Shrapnel Ballista attack speed per Shrapnel Ballista Totem,Data/Crucible.lua
+兽园及熔炉工艺属性,45% reduced Siege Ballista attack speed per Siege Ballista Totem,45% reduced Siege Ballista attack speed per Siege Ballista Totem,Data/Crucible.lua
+兽园及熔炉工艺属性,5% increased chance to catch a Divine Orb,5% increased chance to catch a Divine Orb,Data/Crucible.lua
+兽园及熔炉工艺属性,50% chance for Cold Snap and Creeping Frost to Sap Enemies in Chilling Areas,50% chance for Cold Snap and Creeping Frost to Sap Enemies in Chilling Areas,Data/Crucible.lua
+兽园及熔炉工艺属性,50% chance to be Withered for 2 seconds when you take Chaos Damage from a Hit,50% chance to be Withered for 2 seconds when you take Chaos Damage from a Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,50% chance to gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies with Double Strike or Dual Strike,50% chance to gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies with Double Strike or Dual Strike,Data/Crucible.lua
+兽园及熔炉工艺属性,50% chance to gain a Flask Charge when you deal a Critical Strike,50% chance to gain a Flask Charge when you deal a Critical Strike,Data/Crucible.lua
+兽园及熔炉工艺属性,50% increased Area of Effect if you've Killed at least 5 Enemies Recently,50% increased Area of Effect if you've Killed at least 5 Enemies Recently,Data/Crucible.lua
+兽园及熔炉工艺属性,50% increased Bleed Duration on you,50% increased Bleed Duration on you,Data/Crucible.lua
+兽园及熔炉工艺属性,50% increased Effect of Exposure on you,50% increased Effect of Exposure on you,Data/Crucible.lua
+兽园及熔炉工艺属性,50% increased Effect of Link Buffs on Animated Guardian,50% increased Effect of Link Buffs on Animated Guardian,Data/Crucible.lua
+兽园及熔炉工艺属性,50% increased Reservation of Banner Skills,50% increased Reservation of Banner Skills,Data/Crucible.lua
+兽园及熔炉工艺属性,50% increased Siege and Shrapnel Ballista attack speed per maximum Summoned Totem,50% increased Siege and Shrapnel Ballista attack speed per maximum Summoned Totem,Data/Crucible.lua
+兽园及熔炉工艺属性,50% increased Spark Duration when Cast by a Totem while you also have a Lightning Tendrils Spell Totem,50% increased Spark Duration when Cast by a Totem while you also have a Lightning Tendrils Spell Totem,Data/Crucible.lua
+兽园及熔炉工艺属性,50% increased effect of Wishes granted by Ancient Fish,50% increased effect of Wishes granted by Ancient Fish,Data/Crucible.lua
+兽园及熔炉工艺属性,50% of Manabond and Stormbind Lightning Damage Converted to Cold Damage,50% of Manabond and Stormbind Lightning Damage Converted to Cold Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,50% reduced Chaining range,50% reduced Chaining range,Data/Crucible.lua
+兽园及熔炉工艺属性,50% reduced Consecrated Ground Area,50% reduced Consecrated Ground Area,Data/Crucible.lua
+兽园及熔炉工艺属性,50% reduced Effect of Buffs granted by your Golems,50% reduced Effect of Buffs granted by your Golems,Data/Crucible.lua
+兽园及熔炉工艺属性,50% reduced Effect of Consecrated Ground you create,50% reduced Effect of Consecrated Ground you create,Data/Crucible.lua
+兽园及熔炉工艺属性,50% reduced Essence Drain and Soulrend Projectile Speed,50% reduced Essence Drain and Soulrend Projectile Speed,Data/Crucible.lua
+兽园及熔炉工艺属性,6% chance to deal Double Damage if Strength is below 100,6% chance to deal Double Damage if Strength is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,6% chance to gain a Frenzy Charge when you Hit your Marked Enemy,6% chance to gain a Frenzy Charge when you Hit your Marked Enemy,Data/Crucible.lua
+兽园及熔炉工艺属性,60% chance for Blade Vortex and Blade Blast to Impale Enemies on Hit,60% chance for Blade Vortex and Blade Blast to Impale Enemies on Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,60% increased Area of Effect if you've Killed at least 5 Enemies Recently,60% increased Area of Effect if you've Killed at least 5 Enemies Recently,Data/Crucible.lua
+兽园及熔炉工艺属性,60% increased Chaining range,60% increased Chaining range,Data/Crucible.lua
+兽园及熔炉工艺属性,60% increased Damage for each time you've Warcried Recently,60% increased Damage for each time you've Warcried Recently,Data/Crucible.lua
+兽园及熔炉工艺属性,60% increased total Recovery per second from Energy Shield Leech,60% increased total Recovery per second from Energy Shield Leech,Data/Crucible.lua
+兽园及熔炉工艺属性,60% reduced Trap Trigger Area of Effect,60% reduced Trap Trigger Area of Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,8% increased Movement Speed if Dexterity is below 100,8% increased Movement Speed if Dexterity is below 100,Data/Crucible.lua
+兽园及熔炉工艺属性,80% chance to gain a Flask Charge when you deal a Critical Strike,80% chance to gain a Flask Charge when you deal a Critical Strike,Data/Crucible.lua
+兽园及熔炉工艺属性,Adds 2 to 4 Chaos Damage to Attacks with this Weapon per 10 of your lowest Attribute,Adds 2 to 4 Chaos Damage to Attacks with this Weapon per 10 of your lowest Attribute,Data/Crucible.lua
+兽园及熔炉工艺属性,Adds 3 to 5 Chaos Damage to Attacks with this Weapon per 10 of your lowest Attribute,Adds 3 to 5 Chaos Damage to Attacks with this Weapon per 10 of your lowest Attribute,Data/Crucible.lua
+兽园及熔炉工艺属性,All Damage from Blast Rain and Artillery Ballista Hits can Poison,All Damage from Blast Rain and Artillery Ballista Hits can Poison,Data/Crucible.lua
+兽园及熔炉工艺属性,All Damage from Cold Snap and Creeping Frost can Sap,All Damage from Cold Snap and Creeping Frost can Sap,Data/Crucible.lua
+兽园及熔炉工艺属性,All Damage from Hits with Freezing Pulse and Eye of Winter can Poison,All Damage from Hits with Freezing Pulse and Eye of Winter can Poison,Data/Crucible.lua
+兽园及熔炉工艺属性,All Damage from Lightning Arrow and Ice Shot Hits can Ignite,All Damage from Lightning Arrow and Ice Shot Hits can Ignite,Data/Crucible.lua
+兽园及熔炉工艺属性,All Damage from Lightning Strike and Frost Blades Hits can Ignite,All Damage from Lightning Strike and Frost Blades Hits can Ignite,Data/Crucible.lua
+兽园及熔炉工艺属性,All Damage from Shock Nova and Storm Call Hits can Ignite,All Damage from Shock Nova and Storm Call Hits can Ignite,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 12878,Allocates 12878,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 1405,Allocates 1405,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 15437,Allocates 15437,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 15614,Allocates 15614,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 1568,Allocates 1568,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 16243,Allocates 16243,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 16703,Allocates 16703,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 20832,Allocates 20832,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 22702,Allocates 22702,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 22972,Allocates 22972,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 23038,Allocates 23038,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 24721,Allocates 24721,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 25367,Allocates 25367,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 26096,Allocates 26096,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 28503,Allocates 28503,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 32227,Allocates 32227,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 33082,Allocates 33082,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 36490,Allocates 36490,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 36687,Allocates 36687,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 36859,Allocates 36859,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 39657,Allocates 39657,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 39761,Allocates 39761,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 40645,Allocates 40645,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 41476,Allocates 41476,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 42720,Allocates 42720,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 42917,Allocates 42917,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 44207,Allocates 44207,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 46904,Allocates 46904,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 47743,Allocates 47743,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 48823,Allocates 48823,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 4940,Allocates 4940,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 49459,Allocates 49459,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 49538,Allocates 49538,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 5126,Allocates 5126,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 51559,Allocates 51559,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 51881,Allocates 51881,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 52031,Allocates 52031,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 52090,Allocates 52090,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 529,Allocates 529,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 54791,Allocates 54791,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 55772,Allocates 55772,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 56094,Allocates 56094,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 56276,Allocates 56276,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 56648,Allocates 56648,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 57839,Allocates 57839,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 57900,Allocates 57900,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 59151,Allocates 59151,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 60619,Allocates 60619,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 63207,Allocates 63207,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 63944,Allocates 63944,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 64395,Allocates 64395,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 65093,Allocates 65093,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 65224,Allocates 65224,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 65273,Allocates 65273,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 6967,Allocates 6967,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 7440,Allocates 7440,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 7918,Allocates 7918,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 861,Allocates 861,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 8920,Allocates 8920,Data/Crucible.lua
+兽园及熔炉工艺属性,Allocates 9535,Allocates 9535,Data/Crucible.lua
+兽园及熔炉工艺属性,"Always inflict Scorch, Brittle and Sapped with Elemental Hit and Wild Strike Hits","Always inflict Scorch, Brittle and Sapped with Elemental Hit and Wild Strike Hits",Data/Crucible.lua
+兽园及熔炉工艺属性,Anger has 25% increased Reservation,Anger has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Anger has 50% increased Reservation,Anger has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Animated Lingering Blades have +1.5% to Critical Strike Chance,Animated Lingering Blades have +1.5% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Animated Lingering Blades have +2.5% to Critical Strike Chance,Animated Lingering Blades have +2.5% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,"Arc and Crackling Lance gains Added Cold Damage equal to 12% of Mana Cost, if Mana Cost is not higher than the maximum you could spend","Arc and Crackling Lance gains Added Cold Damage equal to 12% of Mana Cost, if Mana Cost is not higher than the maximum you could spend",Data/Crucible.lua
+兽园及熔炉工艺属性,"Arc and Crackling Lance gains Added Cold Damage equal to 20% of Mana Cost, if Mana Cost is not higher than the maximum you could spend","Arc and Crackling Lance gains Added Cold Damage equal to 20% of Mana Cost, if Mana Cost is not higher than the maximum you could spend",Data/Crucible.lua
+兽园及熔炉工艺属性,Attack Hits against you have 15% chance to Impale,Attack Hits against you have 15% chance to Impale,Data/Crucible.lua
+兽园及熔炉工艺属性,Attack Hits against you have 20% chance to Impale,Attack Hits against you have 20% chance to Impale,Data/Crucible.lua
+兽园及熔炉工艺属性,Attack Hits against you have 30% chance to Impale,Attack Hits against you have 30% chance to Impale,Data/Crucible.lua
+兽园及熔炉工艺属性,Attack Hits against you have 40% chance to Impale,Attack Hits against you have 40% chance to Impale,Data/Crucible.lua
+兽园及熔炉工艺属性,Attack Hits have 20% chance to Maim you for 4 seconds,Attack Hits have 20% chance to Maim you for 4 seconds,Data/Crucible.lua
+兽园及熔炉工艺属性,Attacks with this Weapon have 15% chance to deal Double Damage,Attacks with this Weapon have 15% chance to deal Double Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Attacks with this Weapon have 20% chance to deal Double Damage,Attacks with this Weapon have 20% chance to deal Double Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Attacks with this Weapon have 25% chance to deal Double Damage,Attacks with this Weapon have 25% chance to deal Double Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Attacks with this Weapon have 30% chance to deal Double Damage,Attacks with this Weapon have 30% chance to deal Double Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Barrage and Frenzy have 25% increased Critical Strike Chance per Endurance Charge,Barrage and Frenzy have 25% increased Critical Strike Chance per Endurance Charge,Data/Crucible.lua
+兽园及熔炉工艺属性,Barrage and Frenzy have 40% increased Critical Strike Chance per Endurance Charge,Barrage and Frenzy have 40% increased Critical Strike Chance per Endurance Charge,Data/Crucible.lua
+兽园及熔炉工艺属性,Bear Trap and Siphoning Trap Debuffs also apply 15% reduced Cooldown Recovery Rate to affected Enemies,Bear Trap and Siphoning Trap Debuffs also apply 15% reduced Cooldown Recovery Rate to affected Enemies,Data/Crucible.lua
+兽园及熔炉工艺属性,Bear Trap and Siphoning Trap Debuffs also apply 25% reduced Cooldown Recovery Rate to affected Enemies,Bear Trap and Siphoning Trap Debuffs also apply 25% reduced Cooldown Recovery Rate to affected Enemies,Data/Crucible.lua
+兽园及熔炉工艺属性,Blade Vortex and Blade Blast deal no Non-Physical Damage,Blade Vortex and Blade Blast deal no Non-Physical Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Blazing Salvo Projectiles Fork when they pass through a Flame Wall,Blazing Salvo Projectiles Fork when they pass through a Flame Wall,Data/Crucible.lua
+兽园及熔炉工艺属性,"Blight has 50% increased Area of Effect per second you have been Channelling, up to a maximum of 200%","Blight has 50% increased Area of Effect per second you have been Channelling, up to a maximum of 200%",Data/Crucible.lua
+兽园及熔炉工艺属性,"Blight has 80% increased Area of Effect per second you have been Channelling, up to a maximum of 200%","Blight has 80% increased Area of Effect per second you have been Channelling, up to a maximum of 200%",Data/Crucible.lua
+兽园及熔炉工艺属性,Brand Recall has 40% reduced Cooldown Recovery Rate,Brand Recall has 40% reduced Cooldown Recovery Rate,Data/Crucible.lua
+兽园及熔炉工艺属性,Brand Recall has 60% reduced Cooldown Recovery Rate,Brand Recall has 60% reduced Cooldown Recovery Rate,Data/Crucible.lua
+兽园及熔炉工艺属性,Brands have 40% increased Area of Effect if 50% of Attached Duration expired,Brands have 40% increased Area of Effect if 50% of Attached Duration expired,Data/Crucible.lua
+兽园及熔炉工艺属性,Brands have 45% increased Area of Effect if 50% of Attached Duration expired,Brands have 45% increased Area of Effect if 50% of Attached Duration expired,Data/Crucible.lua
+兽园及熔炉工艺属性,Brands have 60% increased Area of Effect if 50% of Attached Duration expired,Brands have 60% increased Area of Effect if 50% of Attached Duration expired,Data/Crucible.lua
+兽园及熔炉工艺属性,Buffs on you expire 10% faster,Buffs on you expire 10% faster,Data/Crucible.lua
+兽园及熔炉工艺属性,Buffs on you expire 20% faster,Buffs on you expire 20% faster,Data/Crucible.lua
+兽园及熔炉工艺属性,Can use Bestiary Lures at Fishing Holes,Can use Bestiary Lures at Fishing Holes,Data/Crucible.lua
+兽园及熔炉工艺属性,Caustic Arrow and Scourge Arrow fire 25% more projectiles,Caustic Arrow and Scourge Arrow fire 25% more projectiles,Data/Crucible.lua
+兽园及熔炉工艺属性,Cobra Lash and Venom Gyre have -60% of Physical Damage Converted to Chaos Damage,Cobra Lash and Venom Gyre have -60% of Physical Damage Converted to Chaos Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Consecrated Path and Purifying Flame create Profane Ground instead of Consecrated Ground,Consecrated Path and Purifying Flame create Profane Ground instead of Consecrated Ground,Data/Crucible.lua
+兽园及熔炉工艺属性,Corpses you Spawn have 10% reduced Maximum Life,Corpses you Spawn have 10% reduced Maximum Life,Data/Crucible.lua
+兽园及熔炉工艺属性,Corpses you Spawn have 5% reduced Maximum Life,Corpses you Spawn have 5% reduced Maximum Life,Data/Crucible.lua
+兽园及熔炉工艺属性,Corrupted Fish have 10% chance to be Cleansed,Corrupted Fish have 10% chance to be Cleansed,Data/Crucible.lua
+兽园及熔炉工艺属性,Crucible Passives that sell for items sell for twice as much,Crucible Passives that sell for items sell for twice as much,Data/Crucible.lua
+兽园及熔炉工艺属性,"Decoy, Devouring and Rejuvenation Totems Reflect 100% of their maximum Life as Fire Damage to nearby Enemies when Hit","Decoy, Devouring and Rejuvenation Totems Reflect 100% of their maximum Life as Fire Damage to nearby Enemies when Hit",Data/Crucible.lua
+兽园及熔炉工艺属性,"Decoy, Devouring and Rejuvenation Totems Reflect 200% of their maximum Life as Fire Damage to nearby Enemies when Hit","Decoy, Devouring and Rejuvenation Totems Reflect 200% of their maximum Life as Fire Damage to nearby Enemies when Hit",Data/Crucible.lua
+兽园及熔炉工艺属性,Desecrate and Unearth have +1 to Maximum number of corpses allowed,Desecrate and Unearth have +1 to Maximum number of corpses allowed,Data/Crucible.lua
+兽园及熔炉工艺属性,Desecrate and Unearth have +4 to Maximum number of corpses allowed,Desecrate and Unearth have +4 to Maximum number of corpses allowed,Data/Crucible.lua
+兽园及熔炉工艺属性,Desecrate and Unearth have -1 to Maximum number of corpses allowed,Desecrate and Unearth have -1 to Maximum number of corpses allowed,Data/Crucible.lua
+兽园及熔炉工艺属性,Desecrate and Unearth have -2 to Maximum number of corpses allowed,Desecrate and Unearth have -2 to Maximum number of corpses allowed,Data/Crucible.lua
+兽园及熔炉工艺属性,Determination has 25% increased Reservation,Determination has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Discharge and Voltaxic Burst are Cast at the targeted location instead of around you,Discharge and Voltaxic Burst are Cast at the targeted location instead of around you,Data/Crucible.lua
+兽园及熔炉工艺属性,Discipline has 25% increased Reservation,Discipline has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Each Projectile from Spectral Helix or Spectral Throw has,Each Projectile from Spectral Helix or Spectral Throw has,Data/Crucible.lua
+兽园及熔炉工艺属性,Enemies Branded by Wintertide Brand or Arcanist Brand Explode on Death dealing a quarter of their maximum Life as Chaos damage,Enemies Branded by Wintertide Brand or Arcanist Brand Explode on Death dealing a quarter of their maximum Life as Chaos damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Enemies Frozen by Ice Crash or Glacial Hammer become Covered in Frost for 4 seconds as they Unfreeze,Enemies Frozen by Ice Crash or Glacial Hammer become Covered in Frost for 4 seconds as they Unfreeze,Data/Crucible.lua
+兽园及熔炉工艺属性,Enemies in your Rage Vortex or Bladestorms are Hindered and Unnerved,Enemies in your Rage Vortex or Bladestorms are Hindered and Unnerved,Data/Crucible.lua
+兽园及熔炉工艺属性,Enemies inflicted with Bane or Contagion are Chilled,Enemies inflicted with Bane or Contagion are Chilled,Data/Crucible.lua
+兽园及熔炉工艺属性,"Enemies you Kill with Puncture or Ensnaring Arrow Hits Explode, dealing 10% of their Life as Physical Damage","Enemies you Kill with Puncture or Ensnaring Arrow Hits Explode, dealing 10% of their Life as Physical Damage",Data/Crucible.lua
+兽园及熔炉工艺属性,Essence Drain and Soulrend fire 2 additional Projectiles,Essence Drain and Soulrend fire 2 additional Projectiles,Data/Crucible.lua
+兽园及熔炉工艺属性,Essence Drain and Soulrend fire 4 additional Projectiles,Essence Drain and Soulrend fire 4 additional Projectiles,Data/Crucible.lua
+兽园及熔炉工艺属性,Ethereal Knives requires 1 fewer Projectile Fired to leave each Lingering Blade,Ethereal Knives requires 1 fewer Projectile Fired to leave each Lingering Blade,Data/Crucible.lua
+兽园及熔炉工艺属性,Ethereal Knives requires 2 fewer Projectiles Fired to leave each Lingering Blade,Ethereal Knives requires 2 fewer Projectiles Fired to leave each Lingering Blade,Data/Crucible.lua
+兽园及熔炉工艺属性,Exsanguinate debuffs deal Fire Damage per second instead of Physical Damage per second,Exsanguinate debuffs deal Fire Damage per second instead of Physical Damage per second,Data/Crucible.lua
+兽园及熔炉工艺属性,Fire Trap and Explosive Trap Throw an additional Trap when used by a Mine,Fire Trap and Explosive Trap Throw an additional Trap when used by a Mine,Data/Crucible.lua
+兽园及熔炉工艺属性,Fire Trap and Explosive Trap Throws 2 additional Traps when used by a Mine,Fire Trap and Explosive Trap Throws 2 additional Traps when used by a Mine,Data/Crucible.lua
+兽园及熔炉工艺属性,Fireball and Rolling Magma have 100% more Area of Effect,Fireball and Rolling Magma have 100% more Area of Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Fireball and Rolling Magma have 200% more Area of Effect,Fireball and Rolling Magma have 200% more Area of Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Fish caught from Magmatic Fishing Holes are already Cooked,Fish caught from Magmatic Fishing Holes are already Cooked,Data/Crucible.lua
+兽园及熔炉工艺属性,Fish caught with this Fishing Rod will always tell the truth,Fish caught with this Fishing Rod will always tell the truth,Data/Crucible.lua
+兽园及熔炉工艺属性,Flameblast and Incinerate cannot inflict Elemental Ailments,Flameblast and Incinerate cannot inflict Elemental Ailments,Data/Crucible.lua
+兽园及熔炉工艺属性,Flameblast starts with 2 additional Stages,Flameblast starts with 2 additional Stages,Data/Crucible.lua
+兽园及熔炉工艺属性,Flameblast starts with 4 additional Stages,Flameblast starts with 4 additional Stages,Data/Crucible.lua
+兽园及熔炉工艺属性,"Flamethrower, Seismic and Lightning Spire Trap have -1 Cooldown Use","Flamethrower, Seismic and Lightning Spire Trap have -1 Cooldown Use",Data/Crucible.lua
+兽园及熔炉工艺属性,"Flamethrower, Seismic and Lightning Spire Trap have -2 Cooldown Uses","Flamethrower, Seismic and Lightning Spire Trap have -2 Cooldown Uses",Data/Crucible.lua
+兽园及熔炉工艺属性,"Flamethrower, Seismic and Lightning Spire Trap have 30% increased Cooldown Recovery Rate","Flamethrower, Seismic and Lightning Spire Trap have 30% increased Cooldown Recovery Rate",Data/Crucible.lua
+兽园及熔炉工艺属性,"Flamethrower, Seismic and Lightning Spire Trap have 50% increased Cooldown Recovery Rate","Flamethrower, Seismic and Lightning Spire Trap have 50% increased Cooldown Recovery Rate",Data/Crucible.lua
+兽园及熔炉工艺属性,Flicker Strike and Vigilant Strike's Cooldown can be bypassed by Power Charges instead of Frenzy or Endurance Charges,Flicker Strike and Vigilant Strike's Cooldown can be bypassed by Power Charges instead of Frenzy or Endurance Charges,Data/Crucible.lua
+兽园及熔炉工艺属性,"Forbidden Rite and Dark Bargain gains Added Chaos Damage equal to 12% of Mana Cost, if Mana Cost is not higher than the maximum you could spend","Forbidden Rite and Dark Bargain gains Added Chaos Damage equal to 12% of Mana Cost, if Mana Cost is not higher than the maximum you could spend",Data/Crucible.lua
+兽园及熔炉工艺属性,"Forbidden Rite and Dark Bargain gains Added Chaos Damage equal to 20% of Mana Cost, if Mana Cost is not higher than the maximum you could spend","Forbidden Rite and Dark Bargain gains Added Chaos Damage equal to 20% of Mana Cost, if Mana Cost is not higher than the maximum you could spend",Data/Crucible.lua
+兽园及熔炉工艺属性,Frost Bombs gain 50% increased Area of Effect when you Cast Frostblink,Frost Bombs gain 50% increased Area of Effect when you Cast Frostblink,Data/Crucible.lua
+兽园及熔炉工艺属性,Frost Bombs gain 75% increased Area of Effect when you Cast Frostblink,Frost Bombs gain 75% increased Area of Effect when you Cast Frostblink,Data/Crucible.lua
+兽园及熔炉工艺属性,Frozen Sweep deals 30% less Damage,Frozen Sweep deals 30% less Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies with Double Strike or Dual Strike,Gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies with Double Strike or Dual Strike,Data/Crucible.lua
+兽园及熔炉工艺属性,Gain a Frenzy Charge on Kill,Gain a Frenzy Charge on Kill,Data/Crucible.lua
+兽园及熔炉工艺属性,Gain a Power Charge on Kill,Gain a Power Charge on Kill,Data/Crucible.lua
+兽园及熔炉工艺属性,"Gain a Power, Frenzy or Endurance Charge on Kill","Gain a Power, Frenzy or Endurance Charge on Kill",Data/Crucible.lua
+兽园及熔炉工艺属性,Gain an Endurance Charge on Kill,Gain an Endurance Charge on Kill,Data/Crucible.lua
+兽园及熔炉工艺属性,Gain no inherent bonuses from Dexterity,Gain no inherent bonuses from Dexterity,Data/Crucible.lua
+兽园及熔炉工艺属性,Gain no inherent bonuses from Intelligence,Gain no inherent bonuses from Intelligence,Data/Crucible.lua
+兽园及熔炉工艺属性,Gain no inherent bonuses from Strength,Gain no inherent bonuses from Strength,Data/Crucible.lua
+兽园及熔炉工艺属性,Galvanic Arrow and Storm Rain Repeat an additional time when used by a Mine,Galvanic Arrow and Storm Rain Repeat an additional time when used by a Mine,Data/Crucible.lua
+兽园及熔炉工艺属性,Grace has 25% increased Reservation,Grace has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Guard Skills have 50% reduced Duration,Guard Skills have 50% reduced Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,Haste has 25% increased Reservation,Haste has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Haste has 50% increased Reservation,Haste has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Hatred has 25% increased Reservation,Hatred has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Hatred has 50% increased Reservation,Hatred has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Herald of Agony has 25% increased Reservation,Herald of Agony has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Herald of Agony has 50% increased Reservation,Herald of Agony has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Herald of Ash has 25% increased Reservation,Herald of Ash has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Herald of Ash has 50% increased Reservation,Herald of Ash has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Herald of Ice has 25% increased Reservation,Herald of Ice has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Herald of Ice has 50% increased Reservation,Herald of Ice has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Herald of Purity has 25% increased Reservation,Herald of Purity has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Herald of Purity has 50% increased Reservation,Herald of Purity has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Herald of Thunder has 25% increased Reservation,Herald of Thunder has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Herald of Thunder has 50% increased Reservation,Herald of Thunder has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Hex Skills have 100% increased Skill Effect Duration,Hex Skills have 100% increased Skill Effect Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,Hex Skills have 40% increased Skill Effect Duration,Hex Skills have 40% increased Skill Effect Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,Hex Skills have 50% increased Skill Effect Duration,Hex Skills have 50% increased Skill Effect Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,Hex Skills have 80% increased Skill Effect Duration,Hex Skills have 80% increased Skill Effect Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,Hits against you Overwhelm 10% of Physical Damage Reduction,Hits against you Overwhelm 10% of Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,Hits against you Overwhelm 12% of Physical Damage Reduction,Hits against you Overwhelm 12% of Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,Hits against you Overwhelm 5% of Physical Damage Reduction,Hits against you Overwhelm 5% of Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,Hits against you Overwhelm 6% of Physical Damage Reduction,Hits against you Overwhelm 6% of Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,Hits have 50% reduced Critical Strike Chance against you,Hits have 50% reduced Critical Strike Chance against you,Data/Crucible.lua
+兽园及熔炉工艺属性,Hits have 70% reduced Critical Strike Chance against you,Hits have 70% reduced Critical Strike Chance against you,Data/Crucible.lua
+兽园及熔炉工艺属性,Holy Flame Totem and Shockwave Totem gain 35% of Physical Damage as Extra Fire Damage when Cast by a Totem linked to by Searing Bond,Holy Flame Totem and Shockwave Totem gain 35% of Physical Damage as Extra Fire Damage when Cast by a Totem linked to by Searing Bond,Data/Crucible.lua
+兽园及熔炉工艺属性,Holy Flame Totem and Shockwave Totem gain 60% of Physical Damage as Extra Fire Damage when Cast by a Totem linked to by Searing Bond,Holy Flame Totem and Shockwave Totem gain 60% of Physical Damage as Extra Fire Damage when Cast by a Totem linked to by Searing Bond,Data/Crucible.lua
+兽园及熔炉工艺属性,Ice Spear and Ball Lightning Projectiles Return to you,Ice Spear and Ball Lightning Projectiles Return to you,Data/Crucible.lua
+兽园及熔炉工艺属性,Ice Spear and Ball Lightning fire Projectiles in a circle,Ice Spear and Ball Lightning fire Projectiles in a circle,Data/Crucible.lua
+兽园及熔炉工艺属性,Ice Trap and Lightning Trap Damage Penetrates 15% of Enemy Elemental Resistances,Ice Trap and Lightning Trap Damage Penetrates 15% of Enemy Elemental Resistances,Data/Crucible.lua
+兽园及熔炉工艺属性,Ice Trap and Lightning Trap Damage Penetrates 25% of Enemy Elemental Resistances,Ice Trap and Lightning Trap Damage Penetrates 25% of Enemy Elemental Resistances,Data/Crucible.lua
+兽园及熔炉工艺属性,Ice Traps and Lightning Traps are triggered by your Warcries,Ice Traps and Lightning Traps are triggered by your Warcries,Data/Crucible.lua
+兽园及熔炉工艺属性,Ice Traps and Lightning Traps cannot be triggered by Enemies,Ice Traps and Lightning Traps cannot be triggered by Enemies,Data/Crucible.lua
+兽园及熔炉工艺属性,"If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have 25% chance to Explode, dealing 10% of their Life as Physical Damage","If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have 25% chance to Explode, dealing 10% of their Life as Physical Damage",Data/Crucible.lua
+兽园及熔炉工艺属性,"If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have 40% chance to Explode, dealing 10% of their Life as Physical Damage","If Poisonous Concoction or Explosive Concoction consume Charges from a Sulphur Flask, Enemies Killed by their Hits have 40% chance to Explode, dealing 10% of their Life as Physical Damage",Data/Crucible.lua
+兽园及熔炉工艺属性,Immune to Exposure,Immune to Exposure,Data/Crucible.lua
+兽园及熔炉工艺属性,Incinerate starts with 2 additional Stages,Incinerate starts with 2 additional Stages,Data/Crucible.lua
+兽园及熔炉工艺属性,Incinerate starts with 4 additional Stages,Incinerate starts with 4 additional Stages,Data/Crucible.lua
+兽园及熔炉工艺属性,Increases and Reductions to Minion Damage also affect Dominating Blow and Absolution at 150% of their value,Increases and Reductions to Minion Damage also affect Dominating Blow and Absolution at 150% of their value,Data/Crucible.lua
+兽园及熔炉工艺属性,Inflict Cold Exposure on Hit,Inflict Cold Exposure on Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,Inflict Fire Exposure on Hit,Inflict Fire Exposure on Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,"Inflict Fire, Cold, and Lightning Exposure on Hit","Inflict Fire, Cold, and Lightning Exposure on Hit",Data/Crucible.lua
+兽园及熔炉工艺属性,Inflict Lightning Exposure on Hit,Inflict Lightning Exposure on Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 10 additional Blessed Orbs,Item sells for 10 additional Blessed Orbs,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 10 additional Regal Orbs,Item sells for 10 additional Regal Orbs,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 15 additional Gemcutter's Prisms,Item sells for 15 additional Gemcutter's Prisms,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 15 additional Orbs of Regret,Item sells for 15 additional Orbs of Regret,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 15 additional Vaal Orbs,Item sells for 15 additional Vaal Orbs,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 2 additional Cartography Scarabs of every type,Item sells for 2 additional Cartography Scarabs of every type,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 20 additional Blessed Orbs,Item sells for 20 additional Blessed Orbs,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 20 additional Chaos Orbs,Item sells for 20 additional Chaos Orbs,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 20 additional Orbs of Scouring,Item sells for 20 additional Orbs of Scouring,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 20 additional Regal Orbs,Item sells for 20 additional Regal Orbs,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 3 additional Divine Orbs,Item sells for 3 additional Divine Orbs,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 3 additional Exalted Orbs,Item sells for 3 additional Exalted Orbs,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 3 additional Orbs of Annulment,Item sells for 3 additional Orbs of Annulment,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 3 additional Sacred Orbs,Item sells for 3 additional Sacred Orbs,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 30 additional Gemcutter's Prisms,Item sells for 30 additional Gemcutter's Prisms,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 30 additional Orbs of Regret,Item sells for 30 additional Orbs of Regret,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 30 additional Vaal Orbs,Item sells for 30 additional Vaal Orbs,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 40 additional Chaos Orbs,Item sells for 40 additional Chaos Orbs,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for 40 additional Orbs of Scouring,Item sells for 40 additional Orbs of Scouring,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for an additional Cartography Scarab of every type,Item sells for an additional Cartography Scarab of every type,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for an additional Crystalline Geode,Item sells for an additional Crystalline Geode,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for an additional Divine Orb,Item sells for an additional Divine Orb,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for an additional Exalted Orb,Item sells for an additional Exalted Orb,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for an additional Igneous Geode,Item sells for an additional Igneous Geode,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for an additional Magmatic Ore,Item sells for an additional Magmatic Ore,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for an additional Orb of Annulment,Item sells for an additional Orb of Annulment,Data/Crucible.lua
+兽园及熔炉工艺属性,Item sells for an additional Sacred Orb,Item sells for an additional Sacred Orb,Data/Crucible.lua
+兽园及熔炉工艺属性,Killing Blows from Smite and Static Strike Consume corpses to Recover 5% of Life,Killing Blows from Smite and Static Strike Consume corpses to Recover 5% of Life,Data/Crucible.lua
+兽园及熔炉工艺属性,Killing Blows with Burning Arrow or Explosive Arrow Shatter Enemies as though Frozen,Killing Blows with Burning Arrow or Explosive Arrow Shatter Enemies as though Frozen,Data/Crucible.lua
+兽园及熔炉工艺属性,Killing Blows with Earthquake and Earthshatter Shatter Enemies as though Frozen,Killing Blows with Earthquake and Earthshatter Shatter Enemies as though Frozen,Data/Crucible.lua
+兽园及熔炉工艺属性,Killing Blows with Lightning Conduit and Galvanic Field Shatter Enemies as though Frozen,Killing Blows with Lightning Conduit and Galvanic Field Shatter Enemies as though Frozen,Data/Crucible.lua
+兽园及熔炉工艺属性,"Kinetic Bolt, Kinetic Blast and Power Siphon have 20% reduced Enemy Stun Threshold","Kinetic Bolt, Kinetic Blast and Power Siphon have 20% reduced Enemy Stun Threshold",Data/Crucible.lua
+兽园及熔炉工艺属性,Knock Enemies Back on hit with Cyclone and Holy Sweep,Knock Enemies Back on hit with Cyclone and Holy Sweep,Data/Crucible.lua
+兽园及熔炉工艺属性,Knockback direction is reversed with Cyclone and Holy Sweep,Knockback direction is reversed with Cyclone and Holy Sweep,Data/Crucible.lua
+兽园及熔炉工艺属性,Lightning Tendrils releases 1 fewer Pulse between Stronger Pulses when Cast by a Totem while you also have a Spark Spell Totem,Lightning Tendrils releases 1 fewer Pulse between Stronger Pulses when Cast by a Totem while you also have a Spark Spell Totem,Data/Crucible.lua
+兽园及熔炉工艺属性,Lightning Tendrils releases 2 fewer Pulses between Stronger Pulses when Cast by a Totem while you also have a Spark Spell Totem,Lightning Tendrils releases 2 fewer Pulses between Stronger Pulses when Cast by a Totem while you also have a Spark Spell Totem,Data/Crucible.lua
+兽园及熔炉工艺属性,Link Skills Link to 2 additional random targets,Link Skills Link to 2 additional random targets,Data/Crucible.lua
+兽园及熔炉工艺属性,Link Skills can target Animated Guardian,Link Skills can target Animated Guardian,Data/Crucible.lua
+兽园及熔炉工艺属性,Link Skills have 12% increased Buff Effect,Link Skills have 12% increased Buff Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Link Skills have 16% increased Buff Effect,Link Skills have 16% increased Buff Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Link Skills have 20% reduced Buff Effect,Link Skills have 20% reduced Buff Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Link Skills have 24% increased Buff Effect,Link Skills have 24% increased Buff Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Link Skills have 30% reduced Buff Effect,Link Skills have 30% reduced Buff Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Link Skills have 8% increased Buff Effect,Link Skills have 8% increased Buff Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Malevolence has 25% increased Reservation,Malevolence has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Malevolence has 50% increased Reservation,Malevolence has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Manabond and Stormbind Freeze enemies as though dealing 200% more Damage,Manabond and Stormbind Freeze enemies as though dealing 200% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Manabond and Stormbind Freeze enemies as though dealing 300% more Damage,Manabond and Stormbind Freeze enemies as though dealing 300% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Maximum Life of Summoned Elemental Golems is Doubled,Maximum Life of Summoned Elemental Golems is Doubled,Data/Crucible.lua
+兽园及熔炉工艺属性,Maximum number of Summoned Phantasms is 3,Maximum number of Summoned Phantasms is 3,Data/Crucible.lua
+兽园及熔炉工艺属性,Maximum number of Summoned Raging Spirits is 3,Maximum number of Summoned Raging Spirits is 3,Data/Crucible.lua
+兽园及熔炉工艺属性,Minion Critical Strikes do not deal extra Damage,Minion Critical Strikes do not deal extra Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions Attacks Overwhelm 10% Physical Damage Reduction,Minions Attacks Overwhelm 10% Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions Attacks Overwhelm 5% Physical Damage Reduction,Minions Attacks Overwhelm 5% Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions convert 15% of Physical Damage to Chaos Damage,Minions convert 15% of Physical Damage to Chaos Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions convert 15% of Physical Damage to Fire Damage,Minions convert 15% of Physical Damage to Fire Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions convert 25% of Physical Damage to Chaos Damage,Minions convert 25% of Physical Damage to Chaos Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions convert 25% of Physical Damage to Fire Damage,Minions convert 25% of Physical Damage to Fire Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions gain 15% of Maximum Life as Extra Maximum Energy Shield,Minions gain 15% of Maximum Life as Extra Maximum Energy Shield,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions gain 30% of Maximum Life as Extra Maximum Energy Shield,Minions gain 30% of Maximum Life as Extra Maximum Energy Shield,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +0.2% to Critical Strike Chance,Minions have +0.2% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +0.3% to Critical Strike Chance,Minions have +0.3% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +0.4% to Critical Strike Chance,Minions have +0.4% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +0.5% to Critical Strike Chance,Minions have +0.5% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +0.6% to Critical Strike Chance,Minions have +0.6% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +0.7% to Critical Strike Chance,Minions have +0.7% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +0.8% to Critical Strike Chance,Minions have +0.8% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +1% to Critical Strike Chance,Minions have +1% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +1.2% to Critical Strike Chance,Minions have +1.2% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +1.3% to Critical Strike Chance,Minions have +1.3% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +1.4% to Critical Strike Chance,Minions have +1.4% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +1.7% to Critical Strike Chance,Minions have +1.7% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +100 to Accuracy Rating,Minions have +100 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +1000 to Accuracy Rating,Minions have +1000 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +1000 to Armour,Minions have +1000 to Armour,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +150 to Accuracy Rating,Minions have +150 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +160 to Accuracy Rating,Minions have +160 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +2% to Critical Strike Chance,Minions have +2% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +2.3% to Critical Strike Chance,Minions have +2.3% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +200 to Accuracy Rating,Minions have +200 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +240 to Accuracy Rating,Minions have +240 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +250 to Accuracy Rating,Minions have +250 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +300 to Accuracy Rating,Minions have +300 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +320 to Accuracy Rating,Minions have +320 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +350 to Armour,Minions have +350 to Armour,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +400 to Accuracy Rating,Minions have +400 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +500 to Accuracy Rating,Minions have +500 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +500 to Armour,Minions have +500 to Armour,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +600 to Accuracy Rating,Minions have +600 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +700 to Accuracy Rating,Minions have +700 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +700 to Armour,Minions have +700 to Armour,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have +850 to Accuracy Rating,Minions have +850 to Accuracy Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have -1.5% to Critical Strike Chance,Minions have -1.5% to Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 10% chance to gain Onslaught for 4 seconds on Kill,Minions have 10% chance to gain Onslaught for 4 seconds on Kill,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 10% reduced Attack and Cast Speed,Minions have 10% reduced Attack and Cast Speed,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 10% reduced Life Recovery rate,Minions have 10% reduced Life Recovery rate,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 12% chance to Freeze,Minions have 12% chance to Freeze,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 12% chance to Shock,Minions have 12% chance to Shock,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 15% chance to gain Onslaught for 4 seconds on Kill,Minions have 15% chance to gain Onslaught for 4 seconds on Kill,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 15% increased Life Recovery rate,Minions have 15% increased Life Recovery rate,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 15% increased Projectile Speed,Minions have 15% increased Projectile Speed,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 15% reduced Attack and Cast Speed,Minions have 15% reduced Attack and Cast Speed,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 15% reduced Cooldown Recovery Rate,Minions have 15% reduced Cooldown Recovery Rate,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 15% reduced Evasion Rating,Minions have 15% reduced Evasion Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 16% chance to Freeze,Minions have 16% chance to Freeze,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 16% chance to Shock,Minions have 16% chance to Shock,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 20% chance to gain Onslaught for 4 seconds on Kill,Minions have 20% chance to gain Onslaught for 4 seconds on Kill,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 20% increased Evasion Rating,Minions have 20% increased Evasion Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 20% increased Life Recovery rate,Minions have 20% increased Life Recovery rate,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 20% increased Projectile Speed,Minions have 20% increased Projectile Speed,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 20% reduced Life Recovery rate,Minions have 20% reduced Life Recovery rate,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 24% chance to Freeze,Minions have 24% chance to Freeze,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 24% chance to Shock,Minions have 24% chance to Shock,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 25% increased Evasion Rating,Minions have 25% increased Evasion Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 30% increased Evasion Rating,Minions have 30% increased Evasion Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 30% increased Life Recovery rate,Minions have 30% increased Life Recovery rate,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 30% increased Projectile Speed,Minions have 30% increased Projectile Speed,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 30% reduced Cooldown Recovery Rate,Minions have 30% reduced Cooldown Recovery Rate,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 30% reduced Evasion Rating,Minions have 30% reduced Evasion Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 40% increased Evasion Rating,Minions have 40% increased Evasion Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 40% increased Life Recovery rate,Minions have 40% increased Life Recovery rate,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 40% increased Projectile Speed,Minions have 40% increased Projectile Speed,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 40% reduced Critical Strike Chance,Minions have 40% reduced Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 6% reduced Attack and Cast Speed,Minions have 6% reduced Attack and Cast Speed,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 60% increased Evasion Rating,Minions have 60% increased Evasion Rating,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 8% chance to Freeze,Minions have 8% chance to Freeze,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 8% chance to Shock,Minions have 8% chance to Shock,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions have 80% reduced Critical Strike Chance,Minions have 80% reduced Critical Strike Chance,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions never deal Critical Strikes,Minions never deal Critical Strikes,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions take 10% reduced Damage,Minions take 10% reduced Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions take 15% increased Damage,Minions take 15% increased Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions take 15% reduced Damage,Minions take 15% reduced Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions take 25% increased Damage,Minions take 25% increased Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Minions' Hits can't be Evaded,Minions' Hits can't be Evaded,Data/Crucible.lua
+兽园及熔炉工艺属性,Modifiers to number of Projectiles do not apply to Fireball and Rolling Magma,Modifiers to number of Projectiles do not apply to Fireball and Rolling Magma,Data/Crucible.lua
+兽园及熔炉工艺属性,Offering Skills have 25% increased Duration,Offering Skills have 25% increased Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,Offering Skills have 40% increased Duration,Offering Skills have 40% increased Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,Offering Skills have 50% increased Duration,Offering Skills have 50% increased Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,Offering Skills have 80% increased Duration,Offering Skills have 80% increased Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,Overwhelm 10% Physical Damage Reduction,Overwhelm 10% Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,Overwhelm 15% Physical Damage Reduction,Overwhelm 15% Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,Overwhelm 20% Physical Damage Reduction,Overwhelm 20% Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,Overwhelm 24% Physical Damage Reduction,Overwhelm 24% Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,Overwhelm 32% Physical Damage Reduction,Overwhelm 32% Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,Overwhelm 5% Physical Damage Reduction,Overwhelm 5% Physical Damage Reduction,Data/Crucible.lua
+兽园及熔炉工艺属性,"Poisonous Concoction and Explosive Concoction also consume Charges from 1 Sulphur Flask, if possible","Poisonous Concoction and Explosive Concoction also consume Charges from 1 Sulphur Flask, if possible",Data/Crucible.lua
+兽园及熔炉工艺属性,Poisons inflicted by Sunder or Ground Slam on non-Poisoned Enemies deal 400% increased Damage,Poisons inflicted by Sunder or Ground Slam on non-Poisoned Enemies deal 400% increased Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Poisons inflicted by Sunder or Ground Slam on non-Poisoned Enemies deal 600% increased Damage,Poisons inflicted by Sunder or Ground Slam on non-Poisoned Enemies deal 600% increased Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Precision has 20% increased Aura Effect,Precision has 20% increased Aura Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Precision has 25% increased Aura Effect,Precision has 25% increased Aura Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Precision has 25% increased Reservation,Precision has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Precision has 30% increased Aura Effect,Precision has 30% increased Aura Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Precision has 40% increased Aura Effect,Precision has 40% increased Aura Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Precision has 50% increased Aura Effect,Precision has 50% increased Aura Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Precision has 50% increased Reservation,Precision has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Precision has 60% increased Aura Effect,Precision has 60% increased Aura Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Pride has 25% increased Reservation,Pride has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Pride has 50% increased Reservation,Pride has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Purity of Elements has 25% increased Reservation,Purity of Elements has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Purity of Fire has 25% increased Reservation,Purity of Fire has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Purity of Ice has 25% increased Reservation,Purity of Ice has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Purity of Lightning has 25% increased Reservation,Purity of Lightning has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Rain of Arrows and Toxic Rain deal 300% more Damage with Bleeding,Rain of Arrows and Toxic Rain deal 300% more Damage with Bleeding,Data/Crucible.lua
+兽园及熔炉工艺属性,Raised Zombies and Spectres gain Adrenaline for 14 seconds when Raised,Raised Zombies and Spectres gain Adrenaline for 14 seconds when Raised,Data/Crucible.lua
+兽园及熔炉工艺属性,Raised Zombies and Spectres gain Adrenaline for 8 seconds when Raised,Raised Zombies and Spectres gain Adrenaline for 8 seconds when Raised,Data/Crucible.lua
+兽园及熔炉工艺属性,Reap debuffs deal Fire Damage per second instead of Physical Damage per second,Reap debuffs deal Fire Damage per second instead of Physical Damage per second,Data/Crucible.lua
+兽园及熔炉工艺属性,Recover 1% of Energy Shield per Steel Shard Consumed,Recover 1% of Energy Shield per Steel Shard Consumed,Data/Crucible.lua
+兽园及熔炉工艺属性,Recover 2% of Energy Shield per Steel Shard Consumed,Recover 2% of Energy Shield per Steel Shard Consumed,Data/Crucible.lua
+兽园及熔炉工艺属性,Recover 2% of Life when you Suppress Spell Damage,Recover 2% of Life when you Suppress Spell Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Recover 3% of Life when you Suppress Spell Damage,Recover 3% of Life when you Suppress Spell Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Regenerate 15 Mana per second while any Enemy is in your Righteous Fire or Scorching Ray,Regenerate 15 Mana per second while any Enemy is in your Righteous Fire or Scorching Ray,Data/Crucible.lua
+兽园及熔炉工艺属性,Regenerate 25 Mana per second while any Enemy is in your Righteous Fire or Scorching Ray,Regenerate 25 Mana per second while any Enemy is in your Righteous Fire or Scorching Ray,Data/Crucible.lua
+兽园及熔炉工艺属性,Removes 2 of your Mana per Enemy Hit,Removes 2 of your Mana per Enemy Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,Removes 4 of your Life per Enemy Hit,Removes 4 of your Life per Enemy Hit,Data/Crucible.lua
+兽园及熔炉工艺属性,Retaliation Skills deal 45% more Damage,Retaliation Skills deal 45% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Retaliation Skills deal 60% more Damage,Retaliation Skills deal 60% more Damage,Data/Crucible.lua
+兽园及熔炉工艺属性,Retaliation Skills have 30% reduced Cooldown Recovery Rate,Retaliation Skills have 30% reduced Cooldown Recovery Rate,Data/Crucible.lua
+兽园及熔炉工艺属性,Shield Charge and Chain Hook have 2% increased Attack Speed per 10 Rampage Kills,Shield Charge and Chain Hook have 2% increased Attack Speed per 10 Rampage Kills,Data/Crucible.lua
+兽园及熔炉工艺属性,Shield Crush and Spectral Shield Throw do not gain Added Physical Damage based on Armour or Evasion on shield,Shield Crush and Spectral Shield Throw do not gain Added Physical Damage based on Armour or Evasion on shield,Data/Crucible.lua
+兽园及熔炉工艺属性,Shield Crush and Spectral Shield Throw gains 15 to 25 Added Lightning Damage per 15 Energy Shield on Shield,Shield Crush and Spectral Shield Throw gains 15 to 25 Added Lightning Damage per 15 Energy Shield on Shield,Data/Crucible.lua
+兽园及熔炉工艺属性,Shield Crush and Spectral Shield Throw gains 30 to 50 Added Lightning Damage per 15 Energy Shield on Shield,Shield Crush and Spectral Shield Throw gains 30 to 50 Added Lightning Damage per 15 Energy Shield on Shield,Data/Crucible.lua
+兽园及熔炉工艺属性,Skills used by Mines have 40% reduced Area of Effect,Skills used by Mines have 40% reduced Area of Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Skills used by Mines have 60% reduced Area of Effect,Skills used by Mines have 60% reduced Area of Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Behead,Socketed Gems are Supported by Level 10 Behead,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Combustion,Socketed Gems are Supported by Level 10 Combustion,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Culling Strike,Socketed Gems are Supported by Level 10 Culling Strike,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Elemental Army Support,Socketed Gems are Supported by Level 10 Elemental Army Support,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Energy Leech,Socketed Gems are Supported by Level 10 Energy Leech,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Feeding Frenzy,Socketed Gems are Supported by Level 10 Feeding Frenzy,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Iron Grip,Socketed Gems are Supported by Level 10 Iron Grip,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Minion Speed,Socketed Gems are Supported by Level 10 Minion Speed,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Overcharge,Socketed Gems are Supported by Level 10 Overcharge,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Physical To Lightning,Socketed Gems are Supported by Level 10 Physical To Lightning,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Pinpoint,Socketed Gems are Supported by Level 10 Pinpoint,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Point Blank,Socketed Gems are Supported by Level 10 Point Blank,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Predator,Socketed Gems are Supported by Level 10 Predator,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Shockwave,Socketed Gems are Supported by Level 10 Shockwave,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Swift Assembly,Socketed Gems are Supported by Level 10 Swift Assembly,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Swiftbrand,Socketed Gems are Supported by Level 10 Swiftbrand,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 10 Withering Touch,Socketed Gems are Supported by Level 10 Withering Touch,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 15 Decay,Socketed Gems are Supported by Level 15 Decay,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 15 Impending Doom,Socketed Gems are Supported by Level 15 Impending Doom,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 15 Summon Phantasm,Socketed Gems are Supported by Level 15 Summon Phantasm,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 25 Arrogance,Socketed Gems are Supported by Level 25 Arrogance,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 25 Cursed Ground,Socketed Gems are Supported by Level 25 Cursed Ground,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 25 Eternal Blessing,Socketed Gems are Supported by Level 25 Eternal Blessing,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 25 Hex Bloom,Socketed Gems are Supported by Level 25 Hex Bloom,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 25 Second Wind,Socketed Gems are Supported by Level 25 Second Wind,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 25 Urgent Orders,Socketed Gems are Supported by Level 25 Urgent Orders,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Archmage,Socketed Gems are Supported by Level 30 Archmage,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Combustion,Socketed Gems are Supported by Level 30 Combustion,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Deadly Ailments,Socketed Gems are Supported by Level 30 Deadly Ailments,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Decay,Socketed Gems are Supported by Level 30 Decay,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Energy Leech,Socketed Gems are Supported by Level 30 Energy Leech,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Infused Channelling,Socketed Gems are Supported by Level 30 Infused Channelling,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Overcharge,Socketed Gems are Supported by Level 30 Overcharge,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Physical To Lightning,Socketed Gems are Supported by Level 30 Physical To Lightning,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Pinpoint,Socketed Gems are Supported by Level 30 Pinpoint,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Summon Phantasm,Socketed Gems are Supported by Level 30 Summon Phantasm,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Swift Affliction,Socketed Gems are Supported by Level 30 Swift Affliction,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Swiftbrand,Socketed Gems are Supported by Level 30 Swiftbrand,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are Supported by Level 30 Trinity,Socketed Gems are Supported by Level 30 Trinity,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are supported by Level 10 Pierce,Socketed Gems are supported by Level 10 Pierce,Data/Crucible.lua
+兽园及熔炉工艺属性,Socketed Gems are supported by Level 10 Stun,Socketed Gems are supported by Level 10 Stun,Data/Crucible.lua
+兽园及熔炉工艺属性,Spells you Cast have Added Spell Damage equal to 12% of the Damage of this Weapon,Spells you Cast have Added Spell Damage equal to 12% of the Damage of this Weapon,Data/Crucible.lua
+兽园及熔炉工艺属性,Spells you Cast have Added Spell Damage equal to 16% of the Damage of this Weapon,Spells you Cast have Added Spell Damage equal to 16% of the Damage of this Weapon,Data/Crucible.lua
+兽园及熔炉工艺属性,Spells you Cast have Added Spell Damage equal to 20% of the Damage of this Weapon,Spells you Cast have Added Spell Damage equal to 20% of the Damage of this Weapon,Data/Crucible.lua
+兽园及熔炉工艺属性,Spells you Cast have Added Spell Damage equal to 25% of the Damage of this Weapon,Spells you Cast have Added Spell Damage equal to 25% of the Damage of this Weapon,Data/Crucible.lua
+兽园及熔炉工艺属性,Spells you Cast have Added Spell Damage equal to 30% of the Damage of this Weapon,Spells you Cast have Added Spell Damage equal to 30% of the Damage of this Weapon,Data/Crucible.lua
+兽园及熔炉工艺属性,Storm and Armageddon Brands can be attached to your Summoned Reaper,Storm and Armageddon Brands can be attached to your Summoned Reaper,Data/Crucible.lua
+兽园及熔炉工艺属性,"Stormblast, Icicle and Pyroclast Mine deal no Damage","Stormblast, Icicle and Pyroclast Mine deal no Damage",Data/Crucible.lua
+兽园及熔炉工艺属性,"Stormblast, Icicle and Pyroclast Mine have 150% increased Aura Effect","Stormblast, Icicle and Pyroclast Mine have 150% increased Aura Effect",Data/Crucible.lua
+兽园及熔炉工艺属性,"Stormblast, Icicle and Pyroclast Mine have 300% increased Aura Effect","Stormblast, Icicle and Pyroclast Mine have 300% increased Aura Effect",Data/Crucible.lua
+兽园及熔炉工艺属性,Strikes from Orb of Storms caused by Channelling near the Orb occur with 40% increased frequency,Strikes from Orb of Storms caused by Channelling near the Orb occur with 40% increased frequency,Data/Crucible.lua
+兽园及熔炉工艺属性,Strikes from Orb of Storms caused by Channelling near the Orb occur with 60% increased frequency,Strikes from Orb of Storms caused by Channelling near the Orb occur with 60% increased frequency,Data/Crucible.lua
+兽园及熔炉工艺属性,Summoned Carrion Golems Impale on Hit if you have the same number of them as Summoned Chaos Golems,Summoned Carrion Golems Impale on Hit if you have the same number of them as Summoned Chaos Golems,Data/Crucible.lua
+兽园及熔炉工艺属性,Summoned Chaos Golems Impale on Hit if you have the same number of them as Summoned Stone Golems,Summoned Chaos Golems Impale on Hit if you have the same number of them as Summoned Stone Golems,Data/Crucible.lua
+兽园及熔炉工艺属性,Summoned Phantasms have Diamond Shrine and Massive Shrine Buffs,Summoned Phantasms have Diamond Shrine and Massive Shrine Buffs,Data/Crucible.lua
+兽园及熔炉工艺属性,Summoned Raging Spirits have Diamond Shrine and Massive Shrine Buffs,Summoned Raging Spirits have Diamond Shrine and Massive Shrine Buffs,Data/Crucible.lua
+兽园及熔炉工艺属性,Summoned Skeletons and Holy Relics convert 100% of their Physical Damage to a random Element,Summoned Skeletons and Holy Relics convert 100% of their Physical Damage to a random Element,Data/Crucible.lua
+兽园及熔炉工艺属性,Summoned Stone Golems Impale on Hit if you have the same number of them as Summoned Carrion Golems,Summoned Stone Golems Impale on Hit if you have the same number of them as Summoned Carrion Golems,Data/Crucible.lua
+兽园及熔炉工艺属性,Tectonic Slam and Infernal Blow deal 1% increased Attack Damage per 450 Armour,Tectonic Slam and Infernal Blow deal 1% increased Attack Damage per 450 Armour,Data/Crucible.lua
+兽园及熔炉工艺属性,Tectonic Slam and Infernal Blow deal 1% increased Attack Damage per 700 Armour,Tectonic Slam and Infernal Blow deal 1% increased Attack Damage per 700 Armour,Data/Crucible.lua
+兽园及熔炉工艺属性,The Ghastly Fisherman always appears behind you,The Ghastly Fisherman always appears behind you,Data/Crucible.lua
+兽园及熔炉工艺属性,The Ghastly Fisherman cannot spawn,The Ghastly Fisherman cannot spawn,Data/Crucible.lua
+兽园及熔炉工艺属性,"Totems Explode on Death, dealing 10% of their Life as Physical Damage","Totems Explode on Death, dealing 10% of their Life as Physical Damage",Data/Crucible.lua
+兽园及熔炉工艺属性,"Totems Explode on Death, dealing 15% of their Life as Physical Damage","Totems Explode on Death, dealing 15% of their Life as Physical Damage",Data/Crucible.lua
+兽园及熔炉工艺属性,"Totems Explode on Death, dealing 20% of their Life as Physical Damage","Totems Explode on Death, dealing 20% of their Life as Physical Damage",Data/Crucible.lua
+兽园及熔炉工艺属性,"Totems Explode on Death, dealing 30% of their Life as Physical Damage","Totems Explode on Death, dealing 30% of their Life as Physical Damage",Data/Crucible.lua
+兽园及熔炉工艺属性,Trigger Level 20 Blink Arrow when you Attack with Mirror Arrow,Trigger Level 20 Blink Arrow when you Attack with Mirror Arrow,Data/Crucible.lua
+兽园及熔炉工艺属性,Trigger Level 20 Bodyswap when you Explode a Corpse with Detonate Dead,Trigger Level 20 Bodyswap when you Explode a Corpse with Detonate Dead,Data/Crucible.lua
+兽园及熔炉工艺属性,Trigger Level 20 Bone Corpses when you Stun an Enemy with Heavy Strike or Boneshatter,Trigger Level 20 Bone Corpses when you Stun an Enemy with Heavy Strike or Boneshatter,Data/Crucible.lua
+兽园及熔炉工艺属性,Trigger Level 20 Gravity Sphere when you Cast Storm Burst or Divine Ire,Trigger Level 20 Gravity Sphere when you Cast Storm Burst or Divine Ire,Data/Crucible.lua
+兽园及熔炉工艺属性,Trigger Level 20 Hydrosphere while you Channel Winter Orb,Trigger Level 20 Hydrosphere while you Channel Winter Orb,Data/Crucible.lua
+兽园及熔炉工艺属性,Trigger Level 20 Ice Nova from the Final Burst location of Glacial Cascades you Cast,Trigger Level 20 Ice Nova from the Final Burst location of Glacial Cascades you Cast,Data/Crucible.lua
+兽园及熔炉工艺属性,Trigger Level 20 Mirror Arrow when you Attack with Blink Arrow,Trigger Level 20 Mirror Arrow when you Attack with Blink Arrow,Data/Crucible.lua
+兽园及熔炉工艺属性,Trigger Level 20 Stance Swap when you Attack with Perforate or Lacerate,Trigger Level 20 Stance Swap when you Attack with Perforate or Lacerate,Data/Crucible.lua
+兽园及熔炉工艺属性,Trigger Level 20 Summon Spectral Wolf on Critical Strike with Cleave or Reave,Trigger Level 20 Summon Spectral Wolf on Critical Strike with Cleave or Reave,Data/Crucible.lua
+兽园及熔炉工艺属性,Trigger Level 20 Tornado when you Attack with Split Arrow or Tornado Shot,Trigger Level 20 Tornado when you Attack with Split Arrow or Tornado Shot,Data/Crucible.lua
+兽园及熔炉工艺属性,Trigger a Socketed Spell every second while Channelling Blade Flurry or Charged Dash,Trigger a Socketed Spell every second while Channelling Blade Flurry or Charged Dash,Data/Crucible.lua
+兽园及熔炉工艺属性,Vaal Volcanic Fissure and Vaal Molten Strike have 40% reduced Soul Gain Prevention Duration,Vaal Volcanic Fissure and Vaal Molten Strike have 40% reduced Soul Gain Prevention Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,Vaal Volcanic Fissure and Vaal Molten Strike have 80% reduced Soul Gain Prevention Duration,Vaal Volcanic Fissure and Vaal Molten Strike have 80% reduced Soul Gain Prevention Duration,Data/Crucible.lua
+兽园及熔炉工艺属性,Viper Strike and Pestilent Strike deal 25% increased Attack Damage per Frenzy Charge,Viper Strike and Pestilent Strike deal 25% increased Attack Damage per Frenzy Charge,Data/Crucible.lua
+兽园及熔炉工艺属性,Viper Strike and Pestilent Strike deal 40% increased Attack Damage per Frenzy Charge,Viper Strike and Pestilent Strike deal 40% increased Attack Damage per Frenzy Charge,Data/Crucible.lua
+兽园及熔炉工艺属性,Volatile Dead and Cremation Penetrate 2% Fire Resistance per 100 Dexterity,Volatile Dead and Cremation Penetrate 2% Fire Resistance per 100 Dexterity,Data/Crucible.lua
+兽园及熔炉工艺属性,Volatile Dead and Cremation Penetrate 4% Fire Resistance per 100 Dexterity,Volatile Dead and Cremation Penetrate 4% Fire Resistance per 100 Dexterity,Data/Crucible.lua
+兽园及熔炉工艺属性,Warcry Skills have 20% reduced Area of Effect,Warcry Skills have 20% reduced Area of Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,Warcry Skills have 30% reduced Area of Effect,Warcry Skills have 30% reduced Area of Effect,Data/Crucible.lua
+兽园及熔炉工艺属性,"Wither has 50% increased Area of Effect per second you have been Channelling, up to a maximum of 200%","Wither has 50% increased Area of Effect per second you have been Channelling, up to a maximum of 200%",Data/Crucible.lua
+兽园及熔炉工艺属性,"Wither has 80% increased Area of Effect per second you have been Channelling, up to a maximum of 200%","Wither has 80% increased Area of Effect per second you have been Channelling, up to a maximum of 200%",Data/Crucible.lua
+兽园及熔炉工艺属性,Wrath has 25% increased Reservation,Wrath has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Wrath has 50% increased Reservation,Wrath has 50% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,You can catch Divine Fish,You can catch Divine Fish,Data/Crucible.lua
+兽园及熔炉工艺属性,Your Cold Damage cannot Chill,Your Cold Damage cannot Chill,Data/Crucible.lua
+兽园及熔炉工艺属性,Your Travel Skills are Disabled,Your Travel Skills are Disabled,Data/Crucible.lua
+兽园及熔炉工艺属性,Zealotry has 25% increased Reservation,Zealotry has 25% increased Reservation,Data/Crucible.lua
+兽园及熔炉工艺属性,Zealotry has 50% increased Reservation,Zealotry has 50% increased Reservation,Data/Crucible.lua
+附魔属性,+300 to Evasion Rating while you have Phasing,+300 to Evasion Rating while you have Phasing,Data/EnchantmentBelt.lua
+附魔属性,+5% chance to Suppress Spell Damage if you've/taken Spell Damage Recently,+5% chance to Suppress Spell Damage if you've/taken Spell Damage Recently,Data/EnchantmentBoots.lua
+附魔属性,+6% chance to Suppress Spell Damage if you've/taken Spell Damage Recently,+6% chance to Suppress Spell Damage if you've/taken Spell Damage Recently,Data/EnchantmentBoots.lua
+附魔属性,+8% chance to Suppress Spell Damage if you've/taken Spell Damage Recently,+8% chance to Suppress Spell Damage if you've/taken Spell Damage Recently,Data/EnchantmentBoots.lua
+附魔属性,10% Chance to gain a Power Charge on Critical Strike with Ice Spear,10% Chance to gain a Power Charge on Critical Strike with Ice Spear,Data/EnchantmentHelmet.lua
+附魔属性,12% increased Explicit Attribute Modifier magnitudes/25% reduced Explicit Damage Modifier magnitudes,12% increased Explicit Attribute Modifier magnitudes/25% reduced Explicit Damage Modifier magnitudes,Data/EnchantmentWeapon.lua
+附魔属性,12% increased Explicit Critical Modifier magnitudes/25% reduced Explicit Damage Modifier magnitudes,12% increased Explicit Critical Modifier magnitudes/25% reduced Explicit Damage Modifier magnitudes,Data/EnchantmentWeapon.lua
+附魔属性,15% Chance to gain a Power Charge on Critical Strike with Ice Spear,15% Chance to gain a Power Charge on Critical Strike with Ice Spear,Data/EnchantmentHelmet.lua
+附魔属性,15% increased Area of Effect while you have Arcane Surge,15% increased Area of Effect while you have Arcane Surge,Data/EnchantmentBelt.lua
+附魔属性,15% increased Explicit Ailment Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Ailment Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentWeapon.lua
+附魔属性,15% increased Explicit Attribute Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Attribute Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentBody.lua
+附魔属性,15% increased Explicit Caster Damage Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Caster Damage Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentWeapon.lua
+附魔属性,15% increased Explicit Chaos Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Chaos Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentWeapon.lua
+附魔属性,15% increased Explicit Cold Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Cold Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentWeapon.lua
+附魔属性,15% increased Explicit Critical Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Critical Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentWeapon.lua
+附魔属性,15% increased Explicit Defence Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Defence Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentBody.lua
+附魔属性,15% increased Explicit Fire Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Fire Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentWeapon.lua
+附魔属性,15% increased Explicit Life Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Life Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentBody.lua
+附魔属性,15% increased Explicit Lightning Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Lightning Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentWeapon.lua
+附魔属性,15% increased Explicit Mana Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Mana Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentBody.lua
+附魔属性,15% increased Explicit Physical Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Physical Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentWeapon.lua
+附魔属性,15% increased Explicit Resistance Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Resistance Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentBody.lua
+附魔属性,15% increased Explicit Speed Modifier magnitudes/-3 to maximum Sockets,15% increased Explicit Speed Modifier magnitudes/-3 to maximum Sockets,Data/EnchantmentWeapon.lua
+附魔属性,16% chance to create an additional Animate Weapon copy,16% chance to create an additional Animate Weapon copy,Data/EnchantmentHelmet.lua
+附魔属性,20% Chance on Frenzy to gain an additional Frenzy Charge,20% Chance on Frenzy to gain an additional Frenzy Charge,Data/EnchantmentHelmet.lua
+附魔属性,24% chance to create an additional Animate Weapon copy,24% chance to create an additional Animate Weapon copy,Data/EnchantmentHelmet.lua
+附魔属性,25% reduced Explicit Damage Modifier magnitudes/12% increased Explicit Speed Modifier magnitudes,25% reduced Explicit Damage Modifier magnitudes/12% increased Explicit Speed Modifier magnitudes,Data/EnchantmentWeapon.lua
+附魔属性,30% Chance on Frenzy to gain an additional Frenzy Charge,30% Chance on Frenzy to gain an additional Frenzy Charge,Data/EnchantmentHelmet.lua
+附魔属性,30% Chance to gain an additional Power Charge on Kill with Power Siphon,30% Chance to gain an additional Power Charge on Kill with Power Siphon,Data/EnchantmentHelmet.lua
+附魔属性,30% increased Accuracy Rating while you have Onslaught,30% increased Accuracy Rating while you have Onslaught,Data/EnchantmentBelt.lua
+附魔属性,45% Chance to gain an additional Power Charge on Kill with Power Siphon,45% Chance to gain an additional Power Charge on Kill with Power Siphon,Data/EnchantmentHelmet.lua
+附魔属性,6% increased Explicit Ailment Modifier magnitudes/All Sockets Linked,6% increased Explicit Ailment Modifier magnitudes/All Sockets Linked,Data/EnchantmentWeapon.lua
+附魔属性,6% increased Explicit Attribute Modifier magnitudes/All Sockets Linked,6% increased Explicit Attribute Modifier magnitudes/All Sockets Linked,Data/EnchantmentBody.lua
+附魔属性,6% increased Explicit Caster Damage Modifier magnitudes/All Sockets Linked,6% increased Explicit Caster Damage Modifier magnitudes/All Sockets Linked,Data/EnchantmentWeapon.lua
+附魔属性,6% increased Explicit Chaos Modifier magnitudes/All Sockets Linked,6% increased Explicit Chaos Modifier magnitudes/All Sockets Linked,Data/EnchantmentWeapon.lua
+附魔属性,6% increased Explicit Cold Modifier magnitudes/All Sockets Linked,6% increased Explicit Cold Modifier magnitudes/All Sockets Linked,Data/EnchantmentWeapon.lua
+附魔属性,6% increased Explicit Critical Modifier magnitudes/All Sockets Linked,6% increased Explicit Critical Modifier magnitudes/All Sockets Linked,Data/EnchantmentWeapon.lua
+附魔属性,6% increased Explicit Defence Modifier magnitudes/All Sockets Linked,6% increased Explicit Defence Modifier magnitudes/All Sockets Linked,Data/EnchantmentBody.lua
+附魔属性,6% increased Explicit Fire Modifier magnitudes/All Sockets Linked,6% increased Explicit Fire Modifier magnitudes/All Sockets Linked,Data/EnchantmentWeapon.lua
+附魔属性,6% increased Explicit Life Modifier magnitudes/All Sockets Linked,6% increased Explicit Life Modifier magnitudes/All Sockets Linked,Data/EnchantmentBody.lua
+附魔属性,6% increased Explicit Lightning Modifier magnitudes/All Sockets Linked,6% increased Explicit Lightning Modifier magnitudes/All Sockets Linked,Data/EnchantmentWeapon.lua
+附魔属性,6% increased Explicit Mana Modifier magnitudes/All Sockets Linked,6% increased Explicit Mana Modifier magnitudes/All Sockets Linked,Data/EnchantmentBody.lua
+附魔属性,6% increased Explicit Physical Modifier magnitudes/All Sockets Linked,6% increased Explicit Physical Modifier magnitudes/All Sockets Linked,Data/EnchantmentWeapon.lua
+附魔属性,6% increased Explicit Resistance Modifier magnitudes/All Sockets Linked,6% increased Explicit Resistance Modifier magnitudes/All Sockets Linked,Data/EnchantmentBody.lua
+附魔属性,6% increased Explicit Speed Modifier magnitudes/All Sockets Linked,6% increased Explicit Speed Modifier magnitudes/All Sockets Linked,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Ailment Modifier magnitudes/Has 1 White Socket,8% increased Explicit Ailment Modifier magnitudes/Has 1 White Socket,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Ailment Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Ailment Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Ailment Modifier magnitudes/Has no Green Sockets,8% increased Explicit Ailment Modifier magnitudes/Has no Green Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Ailment Modifier magnitudes/Has no Red Sockets,8% increased Explicit Ailment Modifier magnitudes/Has no Red Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Attribute Modifier magnitudes/Has 1 White Socket,8% increased Explicit Attribute Modifier magnitudes/Has 1 White Socket,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Attribute Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Attribute Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Attribute Modifier magnitudes/Has no Green Sockets,8% increased Explicit Attribute Modifier magnitudes/Has no Green Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Attribute Modifier magnitudes/Has no Red Sockets,8% increased Explicit Attribute Modifier magnitudes/Has no Red Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Caster Damage Modifier magnitudes/Has 1 White Socket,8% increased Explicit Caster Damage Modifier magnitudes/Has 1 White Socket,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Caster Damage Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Caster Damage Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Caster Damage Modifier magnitudes/Has no Green Sockets,8% increased Explicit Caster Damage Modifier magnitudes/Has no Green Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Caster Damage Modifier magnitudes/Has no Red Sockets,8% increased Explicit Caster Damage Modifier magnitudes/Has no Red Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Chaos Modifier magnitudes/Has 1 White Socket,8% increased Explicit Chaos Modifier magnitudes/Has 1 White Socket,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Chaos Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Chaos Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Chaos Modifier magnitudes/Has no Green Sockets,8% increased Explicit Chaos Modifier magnitudes/Has no Green Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Chaos Modifier magnitudes/Has no Red Sockets,8% increased Explicit Chaos Modifier magnitudes/Has no Red Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Cold Modifier magnitudes/Has 1 White Socket,8% increased Explicit Cold Modifier magnitudes/Has 1 White Socket,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Cold Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Cold Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Cold Modifier magnitudes/Has no Green Sockets,8% increased Explicit Cold Modifier magnitudes/Has no Green Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Cold Modifier magnitudes/Has no Red Sockets,8% increased Explicit Cold Modifier magnitudes/Has no Red Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Critical Modifier magnitudes/Has 1 White Socket,8% increased Explicit Critical Modifier magnitudes/Has 1 White Socket,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Critical Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Critical Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Critical Modifier magnitudes/Has no Green Sockets,8% increased Explicit Critical Modifier magnitudes/Has no Green Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Critical Modifier magnitudes/Has no Red Sockets,8% increased Explicit Critical Modifier magnitudes/Has no Red Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Defence Modifier magnitudes/Has 1 White Socket,8% increased Explicit Defence Modifier magnitudes/Has 1 White Socket,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Defence Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Defence Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Defence Modifier magnitudes/Has no Green Sockets,8% increased Explicit Defence Modifier magnitudes/Has no Green Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Defence Modifier magnitudes/Has no Red Sockets,8% increased Explicit Defence Modifier magnitudes/Has no Red Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Fire Modifier magnitudes/Has 1 White Socket,8% increased Explicit Fire Modifier magnitudes/Has 1 White Socket,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Fire Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Fire Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Fire Modifier magnitudes/Has no Green Sockets,8% increased Explicit Fire Modifier magnitudes/Has no Green Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Fire Modifier magnitudes/Has no Red Sockets,8% increased Explicit Fire Modifier magnitudes/Has no Red Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Life Modifier magnitudes/Has 1 White Socket,8% increased Explicit Life Modifier magnitudes/Has 1 White Socket,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Life Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Life Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Life Modifier magnitudes/Has no Green Sockets,8% increased Explicit Life Modifier magnitudes/Has no Green Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Life Modifier magnitudes/Has no Red Sockets,8% increased Explicit Life Modifier magnitudes/Has no Red Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Lightning Modifier magnitudes/Has 1 White Socket,8% increased Explicit Lightning Modifier magnitudes/Has 1 White Socket,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Lightning Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Lightning Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Lightning Modifier magnitudes/Has no Green Sockets,8% increased Explicit Lightning Modifier magnitudes/Has no Green Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Lightning Modifier magnitudes/Has no Red Sockets,8% increased Explicit Lightning Modifier magnitudes/Has no Red Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Mana Modifier magnitudes/Has 1 White Socket,8% increased Explicit Mana Modifier magnitudes/Has 1 White Socket,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Mana Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Mana Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Mana Modifier magnitudes/Has no Green Sockets,8% increased Explicit Mana Modifier magnitudes/Has no Green Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Mana Modifier magnitudes/Has no Red Sockets,8% increased Explicit Mana Modifier magnitudes/Has no Red Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Physical Modifier magnitudes/Has 1 White Socket,8% increased Explicit Physical Modifier magnitudes/Has 1 White Socket,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Physical Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Physical Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Physical Modifier magnitudes/Has no Green Sockets,8% increased Explicit Physical Modifier magnitudes/Has no Green Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Physical Modifier magnitudes/Has no Red Sockets,8% increased Explicit Physical Modifier magnitudes/Has no Red Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Resistance Modifier magnitudes/Has 1 White Socket,8% increased Explicit Resistance Modifier magnitudes/Has 1 White Socket,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Resistance Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Resistance Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Resistance Modifier magnitudes/Has no Green Sockets,8% increased Explicit Resistance Modifier magnitudes/Has no Green Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Resistance Modifier magnitudes/Has no Red Sockets,8% increased Explicit Resistance Modifier magnitudes/Has no Red Sockets,Data/EnchantmentBody.lua
+附魔属性,8% increased Explicit Speed Modifier magnitudes/Has 1 White Socket,8% increased Explicit Speed Modifier magnitudes/Has 1 White Socket,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Speed Modifier magnitudes/Has no Blue Sockets,8% increased Explicit Speed Modifier magnitudes/Has no Blue Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Speed Modifier magnitudes/Has no Green Sockets,8% increased Explicit Speed Modifier magnitudes/Has no Green Sockets,Data/EnchantmentWeapon.lua
+附魔属性,8% increased Explicit Speed Modifier magnitudes/Has no Red Sockets,8% increased Explicit Speed Modifier magnitudes/Has no Red Sockets,Data/EnchantmentWeapon.lua
+附魔属性,All Sockets Linked,All Sockets Linked,Data/EnchantmentBody.lua
+附魔属性,Arc Chains an additional time,Arc Chains an additional time,Data/EnchantmentHelmet.lua
+附魔属性,Arc deals 12% increased Damage for each time it has Chained,Arc deals 12% increased Damage for each time it has Chained,Data/EnchantmentHelmet.lua
+附魔属性,Arc deals 8% increased Damage for each time it has Chained,Arc deals 8% increased Damage for each time it has Chained,Data/EnchantmentHelmet.lua
+附魔属性,Armageddon Brand Damage Penetrates 12% of Branded Enemy's Fire Resistance,Armageddon Brand Damage Penetrates 12% of Branded Enemy's Fire Resistance,Data/EnchantmentHelmet.lua
+附魔属性,Armageddon Brand Damage Penetrates 8% of Branded Enemy's Fire Resistance,Armageddon Brand Damage Penetrates 8% of Branded Enemy's Fire Resistance,Data/EnchantmentHelmet.lua
+附魔属性,Armageddon Brand has 12% increased Activation Frequency,Armageddon Brand has 12% increased Activation Frequency,Data/EnchantmentHelmet.lua
+附魔属性,Armageddon Brand has 8% increased Activation Frequency,Armageddon Brand has 8% increased Activation Frequency,Data/EnchantmentHelmet.lua
+附魔属性,Artillery Ballista fires an additional Arrow,Artillery Ballista fires an additional Arrow,Data/EnchantmentHelmet.lua
+附魔属性,Ball Lightning fires an additional Projectile,Ball Lightning fires an additional Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Barrage fires an additional Projectile,Barrage fires an additional Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Battlemage's Cry Exerts 1 additional Attack,Battlemage's Cry Exerts 1 additional Attack,Data/EnchantmentHelmet.lua
+附魔属性,Blazing Salvo fires an additional Projectile,Blazing Salvo fires an additional Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Can have 1 additional Crafted Modifier,Can have 1 additional Crafted Modifier,Data/EnchantmentBody.lua
+附魔属性,Cremation can have up to 1 additional Geyser at a time,Cremation can have up to 1 additional Geyser at a time,Data/EnchantmentHelmet.lua
+附魔属性,Dash has +1 Cooldown Use,Dash has +1 Cooldown Use,Data/EnchantmentHelmet.lua
+附魔属性,Detonate Dead has a 30% chance to detonate an additional corpse,Detonate Dead has a 30% chance to detonate an additional corpse,Data/EnchantmentHelmet.lua
+附魔属性,Detonate Dead has a 45% chance to detonate an additional corpse,Detonate Dead has a 45% chance to detonate an additional corpse,Data/EnchantmentHelmet.lua
+附魔属性,Divine Ire Damages an additional nearby Enemy when gaining Stages,Divine Ire Damages an additional nearby Enemy when gaining Stages,Data/EnchantmentHelmet.lua
+附魔属性,Dominating Blow can summon an additional Rare Sentinel of Dominance,Dominating Blow can summon an additional Rare Sentinel of Dominance,Data/EnchantmentHelmet.lua
+附魔属性,Elemental Ailments inflicted on Enemies Exposed by you have 20% increased Duration,Elemental Ailments inflicted on Enemies Exposed by you have 20% increased Duration,Data/EnchantmentBelt.lua
+附魔属性,Enduring Cry grants 1 additional Endurance Charge to you and Allied Players,Enduring Cry grants 1 additional Endurance Charge to you and Allied Players,Data/EnchantmentHelmet.lua
+附魔属性,Enemies Taunted by you deal 5% less Area Damage,Enemies Taunted by you deal 5% less Area Damage,Data/EnchantmentBelt.lua
+附魔属性,Explosive Trap causes an additional smaller explosion,Explosive Trap causes an additional smaller explosion,Data/EnchantmentHelmet.lua
+附魔属性,Flamethrower Trap has an additional Flame,Flamethrower Trap has an additional Flame,Data/EnchantmentHelmet.lua
+附魔属性,Forbidden Rite fires an additional Projectile,Forbidden Rite fires an additional Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Frost Shield has +1 Cooldown Use,Frost Shield has +1 Cooldown Use,Data/EnchantmentHelmet.lua
+附魔属性,Frozen Legion has +1 Cooldown Use,Frozen Legion has +1 Cooldown Use,Data/EnchantmentHelmet.lua
+附魔属性,Galvanic Field Chains an additional time,Galvanic Field Chains an additional time,Data/EnchantmentHelmet.lua
+附魔属性,Has 2 White Sockets,Has 2 White Sockets,Data/EnchantmentBody.lua
+附魔属性,Hits against Enemies Unnerved by you have 50% increased Spell Critical Strike Chance,Hits against Enemies Unnerved by you have 50% increased Spell Critical Strike Chance,Data/EnchantmentBelt.lua
+附魔属性,Holy Flame Totem fires an additional Projectile,Holy Flame Totem fires an additional Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Ice Spear fires an additional Projectile,Ice Spear fires an additional Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Kinetic Bolt changes direction 1 additional time,Kinetic Bolt changes direction 1 additional time,Data/EnchantmentHelmet.lua
+附魔属性,Lancing Steel fires an additional Projectile,Lancing Steel fires an additional Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Lightning Arrow hits 1 additional Enemy,Lightning Arrow hits 1 additional Enemy,Data/EnchantmentHelmet.lua
+附魔属性,Lightning Spire Trap strikes an additional area,Lightning Spire Trap strikes an additional area,Data/EnchantmentHelmet.lua
+附魔属性,Lightning Strike fires an additional Projectile,Lightning Strike fires an additional Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Molten Strike fires an additional Projectile,Molten Strike fires an additional Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Power Siphon fires at up to 1 additional target,Power Siphon fires at up to 1 additional target,Data/EnchantmentHelmet.lua
+附魔属性,Pyroclast Mine fires an additional Projectile,Pyroclast Mine fires an additional Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Rallying Cry Exerts 1 additional Attack,Rallying Cry Exerts 1 additional Attack,Data/EnchantmentHelmet.lua
+附魔属性,Recover 2% of Life when you Kill an Enemy while you have Rage,Recover 2% of Life when you Kill an Enemy while you have Rage,Data/EnchantmentBelt.lua
+附魔属性,Rolling Magma Chains an additional time,Rolling Magma Chains an additional time,Data/EnchantmentHelmet.lua
+附魔属性,Scourge Arrow creates +1 Spore Pod,Scourge Arrow creates +1 Spore Pod,Data/EnchantmentHelmet.lua
+附魔属性,Seismic Trap releases an additional Wave,Seismic Trap releases an additional Wave,Data/EnchantmentHelmet.lua
+附魔属性,Shrapnel Ballista fires an additional Arrow,Shrapnel Ballista fires an additional Arrow,Data/EnchantmentHelmet.lua
+附魔属性,Soulrend fires an additional Projectile,Soulrend fires an additional Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Static Strike has +1 maximum Beam Target,Static Strike has +1 maximum Beam Target,Data/EnchantmentHelmet.lua
+附魔属性,Storm Brand Damage Penetrates 12% of Branded Enemy's Lightning Resistance,Storm Brand Damage Penetrates 12% of Branded Enemy's Lightning Resistance,Data/EnchantmentHelmet.lua
+附魔属性,Storm Brand Damage Penetrates 8% of Branded Enemy's Lightning Resistance,Storm Brand Damage Penetrates 8% of Branded Enemy's Lightning Resistance,Data/EnchantmentHelmet.lua
+附魔属性,Storm Brand has a 12% chance to Chain an additional time,Storm Brand has a 12% chance to Chain an additional time,Data/EnchantmentHelmet.lua
+附魔属性,Storm Brand has a 18% chance to Chain an additional time,Storm Brand has a 18% chance to Chain an additional time,Data/EnchantmentHelmet.lua
+附魔属性,Storm Rain fires an additional Arrow,Storm Rain fires an additional Arrow,Data/EnchantmentHelmet.lua
+附魔属性,Tornado Shot fires an additional secondary Projectile,Tornado Shot fires an additional secondary Projectile,Data/EnchantmentHelmet.lua
+附魔属性,Toxic Rain fires 1 additional Arrow,Toxic Rain fires 1 additional Arrow,Data/EnchantmentHelmet.lua
+附魔属性,Trigger Commandment of Blades on Hit,Trigger Commandment of Blades on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of Flames on Hit,Trigger Commandment of Flames on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of Force on Hit,Trigger Commandment of Force on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of Frost on Kill,Trigger Commandment of Frost on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of Fury on Hit,Trigger Commandment of Fury on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of Inferno on Kill,Trigger Commandment of Inferno on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of Ire when Hit,Trigger Commandment of Ire when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of Light when you take a Critical Strike,Trigger Commandment of Light when you take a Critical Strike,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of Reflection when Hit,Trigger Commandment of Reflection when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of Spite when Hit,Trigger Commandment of Spite when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of Thunder on Kill,Trigger Commandment of Thunder on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of War on Kill,Trigger Commandment of War on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of Winter when Hit,Trigger Commandment of Winter when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of the Grave when your Skills or Minions Kill,Trigger Commandment of the Grave when your Skills or Minions Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Commandment of the Tempest on Hit,Trigger Commandment of the Tempest on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Blades on Hit,Trigger Decree of Blades on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Flames on Hit,Trigger Decree of Flames on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Force on Hit,Trigger Decree of Force on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Frost on Kill,Trigger Decree of Frost on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Fury on Hit,Trigger Decree of Fury on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Inferno on Kill,Trigger Decree of Inferno on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Ire when Hit,Trigger Decree of Ire when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Light when you take a Critical Strike,Trigger Decree of Light when you take a Critical Strike,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Reflection when Hit,Trigger Decree of Reflection when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Spite when Hit,Trigger Decree of Spite when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Thunder on Kill,Trigger Decree of Thunder on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of War on Kill,Trigger Decree of War on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of Winter when Hit,Trigger Decree of Winter when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of the Grave when your Skills or Minions Kill,Trigger Decree of the Grave when your Skills or Minions Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Decree of the Tempest on Hit,Trigger Decree of the Tempest on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Blades on Hit,Trigger Edict of Blades on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Flames on Hit,Trigger Edict of Flames on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Force on Hit,Trigger Edict of Force on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Frost on Kill,Trigger Edict of Frost on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Fury on Hit,Trigger Edict of Fury on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Inferno on Kill,Trigger Edict of Inferno on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Ire when Hit,Trigger Edict of Ire when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Light when you take a Critical Strike,Trigger Edict of Light when you take a Critical Strike,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Reflection when Hit,Trigger Edict of Reflection when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Spite when Hit,Trigger Edict of Spite when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Thunder on Kill,Trigger Edict of Thunder on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of War on Kill,Trigger Edict of War on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of Winter when Hit,Trigger Edict of Winter when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of the Grave when your Skills or Minions Kill,Trigger Edict of the Grave when your Skills or Minions Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Edict of the Tempest on Hit,Trigger Edict of the Tempest on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Blades on Hit,Trigger Word of Blades on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Flames on Hit,Trigger Word of Flames on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Force on Hit,Trigger Word of Force on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Frost on Kill,Trigger Word of Frost on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Fury on Hit,Trigger Word of Fury on Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Inferno on Kill,Trigger Word of Inferno on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Ire when Hit,Trigger Word of Ire when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Light when you take a Critical Strike,Trigger Word of Light when you take a Critical Strike,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Reflection when Hit,Trigger Word of Reflection when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Spite when Hit,Trigger Word of Spite when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Thunder on Kill,Trigger Word of Thunder on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of War on Kill,Trigger Word of War on Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of Winter when Hit,Trigger Word of Winter when Hit,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of the Grave when your Skills or Minions Kill,Trigger Word of the Grave when your Skills or Minions Kill,Data/EnchantmentGloves.lua
+附魔属性,Trigger Word of the Tempest on Hit,Trigger Word of the Tempest on Hit,Data/EnchantmentGloves.lua
+附魔属性,Volcanic Fissure fires an additional Projectile,Volcanic Fissure fires an additional Projectile,Data/EnchantmentHelmet.lua
+纹身及符文之结属性,+1 to Level of all Dexterity Skill Gems,+1 to Level of all Dexterity Skill Gems,Data/TattooPassives.lua
+纹身及符文之结属性,+1 to Level of all Intelligence Skill Gems,+1 to Level of all Intelligence Skill Gems,Data/TattooPassives.lua
+纹身及符文之结属性,+1 to Level of all Strength Skill Gems,+1 to Level of all Strength Skill Gems,Data/TattooPassives.lua
+纹身及符文之结属性,+1% Chance to Suppress Spell Damage per 15 Dexterity,+1% Chance to Suppress Spell Damage per 15 Dexterity,Data/TattooPassives.lua
+纹身及符文之结属性,+2% Chance to Block Spell Damage for each 1% Overcapped Chance to Block Attack Damage,+2% Chance to Block Spell Damage for each 1% Overcapped Chance to Block Attack Damage,Data/TattooPassives.lua
+纹身及符文之结属性,10% more chance to Evade Attacks if you have been Hit by an Attack Recently,10% more chance to Evade Attacks if you have been Hit by an Attack Recently,Data/TattooPassives.lua
+纹身及符文之结属性,100% more Duration of Ailments on you,100% more Duration of Ailments on you,Data/TattooPassives.lua
+纹身及符文之结属性,"2% increased Recovery Rate of Life, Mana and Energy Shield","2% increased Recovery Rate of Life, Mana and Energy Shield",Data/TattooPassives.lua
+纹身及符文之结属性,2% reduced Duration of Elemental Ailments on you per 15 Intelligence,2% reduced Duration of Elemental Ailments on you per 15 Intelligence,Data/TattooPassives.lua
+纹身及符文之结属性,20% less Attack Damage taken if you haven't been Hit by an Attack Recently,20% less Attack Damage taken if you haven't been Hit by an Attack Recently,Data/TattooPassives.lua
+纹身及符文之结属性,20% more Attack Damage taken if you have been Hit by an Attack Recently,20% more Attack Damage taken if you have been Hit by an Attack Recently,Data/TattooPassives.lua
+纹身及符文之结属性,25% less Damage with Ignite,25% less Damage with Ignite,Data/TattooPassives.lua
+纹身及符文之结属性,25% less Evasion Rating against Melee Attacks,25% less Evasion Rating against Melee Attacks,Data/TattooPassives.lua
+纹身及符文之结属性,25% more Maximum Lightning Damage,25% more Maximum Lightning Damage,Data/TattooPassives.lua
+纹身及符文之结属性,3% of Physical Damage prevented from Hits Recently is Regenerated as Energy Shield per second,3% of Physical Damage prevented from Hits Recently is Regenerated as Energy Shield per second,Data/TattooPassives.lua
+纹身及符文之结属性,40% chance for Elemental Ailments inflicted on you to,40% chance for Elemental Ailments inflicted on you to,Data/TattooPassives.lua
+纹身及符文之结属性,40% more Attack Damage if Accuracy Rating is higher than Maximum Life,40% more Attack Damage if Accuracy Rating is higher than Maximum Life,Data/TattooPassives.lua
+纹身及符文之结属性,40% more Mana Reservation of Aura Skills,40% more Mana Reservation of Aura Skills,Data/TattooPassives.lua
+纹身及符文之结属性,50% less Damage with Bleeding,50% less Damage with Bleeding,Data/TattooPassives.lua
+纹身及符文之结属性,50% less Life Regeneration Rate,50% less Life Regeneration Rate,Data/TattooPassives.lua
+纹身及符文之结属性,50% less Minimum Lightning Damage,50% less Minimum Lightning Damage,Data/TattooPassives.lua
+纹身及符文之结属性,50% less maximum Total Life Recovery per Second from Leech,50% less maximum Total Life Recovery per Second from Leech,Data/TattooPassives.lua
+纹身及符文之结属性,"50% of Physical, Cold and Lightning Damage Converted to Fire Damage","50% of Physical, Cold and Lightning Damage Converted to Fire Damage",Data/TattooPassives.lua
+纹身及符文之结属性,Ailments never count as being from Critical Strikes,Ailments never count as being from Critical Strikes,Data/TattooPassives.lua
+纹身及符文之结属性,Aura Skills have 1% more Aura Effect per 2% of maximum Mana they Reserve,Aura Skills have 1% more Aura Effect per 2% of maximum Mana they Reserve,Data/TattooPassives.lua
+纹身及符文之结属性,Auras from your Skills can only affect you,Auras from your Skills can only affect you,Data/TattooPassives.lua
+纹身及符文之结属性,Base Ignite Duration is 1 second,Base Ignite Duration is 1 second,Data/TattooPassives.lua
+纹身及符文之结属性,Cannot Evade enemy Attacks,Cannot Evade enemy Attacks,Data/TattooPassives.lua
+纹身及符文之结属性,Cannot Recharge Energy Shield,Cannot Recharge Energy Shield,Data/TattooPassives.lua
+纹身及符文之结属性,Cannot Recover Energy Shield to above Armour,Cannot Recover Energy Shield to above Armour,Data/TattooPassives.lua
+纹身及符文之结属性,Cannot Recover Energy Shield to above Evasion Rating,Cannot Recover Energy Shield to above Evasion Rating,Data/TattooPassives.lua
+纹身及符文之结属性,Cannot Recover Life other than from Leech,Cannot Recover Life other than from Leech,Data/TattooPassives.lua
+纹身及符文之结属性,Cannot deal non-Cold Damage,Cannot deal non-Cold Damage,Data/TattooPassives.lua
+纹身及符文之结属性,Cannot deal non-Fire Damage,Cannot deal non-Fire Damage,Data/TattooPassives.lua
+纹身及符文之结属性,Cannot deal non-Lightning Damage,Cannot deal non-Lightning Damage,Data/TattooPassives.lua
+纹身及符文之结属性,Chance to Block Attack Damage is doubled,Chance to Block Attack Damage is doubled,Data/TattooPassives.lua
+纹身及符文之结属性,Consecrated Ground you create grants 30% increased Mana Regeneration,Consecrated Ground you create grants 30% increased Mana Regeneration,Data/TattooPassives.lua
+纹身及符文之结属性,Damage over Time Multiplier for Ailments is equal to Critical Strike Multiplier,Damage over Time Multiplier for Ailments is equal to Critical Strike Multiplier,Data/TattooPassives.lua
+纹身及符文之结属性,Deal no Non-Fire Damage,Deal no Non-Fire Damage,Data/TattooPassives.lua
+纹身及符文之结属性,Effects that interact with Mana Burn interact with Weeping Wounds instead,Effects that interact with Mana Burn interact with Weeping Wounds instead,Data/TattooPassives.lua
+纹身及符文之结属性,Elemental Resistance values as inverted,Elemental Resistance values as inverted,Data/TattooPassives.lua
+纹身及符文之结属性,Enemies Chilled by your Hits have Cold Damage taken increased by Chill Effect,Enemies Chilled by your Hits have Cold Damage taken increased by Chill Effect,Data/TattooPassives.lua
+纹身及符文之结属性,Enemies in your Chilling Areas have Cold Damage taken increased by Chill Effect,Enemies in your Chilling Areas have Cold Damage taken increased by Chill Effect,Data/TattooPassives.lua
+纹身及符文之结属性,Energy Shield Recharge instead applies to Life,Energy Shield Recharge instead applies to Life,Data/TattooPassives.lua
+纹身及符文之结属性,Energy Shield Recharge is not interrupted by Damage if Recharge began Recently,Energy Shield Recharge is not interrupted by Damage if Recharge began Recently,Data/TattooPassives.lua
+纹身及符文之结属性,Energy Shield protects Mana instead of Life,Energy Shield protects Mana instead of Life,Data/TattooPassives.lua
+纹身及符文之结属性,Evasion Rating is Doubled against Projectile Attacks,Evasion Rating is Doubled against Projectile Attacks,Data/TattooPassives.lua
+纹身及符文之结属性,"Every 2 seconds, gain a Ghost Shroud, up to a maximum of 3","Every 2 seconds, gain a Ghost Shroud, up to a maximum of 3",Data/TattooPassives.lua
+纹身及符文之结属性,Exposure inflicted this way applies -25% to Resistances,Exposure inflicted this way applies -25% to Resistances,Data/TattooPassives.lua
+纹身及符文之结属性,"For 5 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them","For 5 seconds after you Impale Enemies, they cannot be Impaled again, and Impales cannot be Called from them",Data/TattooPassives.lua
+纹身及符文之结属性,Hit Damage with your Off Hand treats Enemy Monster,Hit Damage with your Off Hand treats Enemy Monster,Data/TattooPassives.lua
+纹身及符文之结属性,Hits that deal Elemental Damage remove Exposure to those Elements and inflict Exposure to other Elements,Hits that deal Elemental Damage remove Exposure to those Elements and inflict Exposure to other Elements,Data/TattooPassives.lua
+纹身及符文之结属性,Inflict 5 additional Impales on Enemies you Impale,Inflict 5 additional Impales on Enemies you Impale,Data/TattooPassives.lua
+纹身及符文之结属性,Intelligence provides no inherent bonus to Energy Shield,Intelligence provides no inherent bonus to Energy Shield,Data/TattooPassives.lua
+纹身及符文之结属性,Leech Energy Shield instead of Life,Leech Energy Shield instead of Life,Data/TattooPassives.lua
+纹身及符文之结属性,Life Leech from Melee Damage is Instant,Life Leech from Melee Damage is Instant,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Ancestral Tattoo,Limited to 1 Ancestral Tattoo,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Ascendancy Tattoo,Limited to 1 Ascendancy Tattoo,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Attribute Notable Tattoo,Limited to 1 Attribute Notable Tattoo,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Keystone Tattoo,Limited to 1 Keystone Tattoo,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Loyalty Tattoo,Limited to 1 Loyalty Tattoo,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Bellows,Limited to 1 Runegraft of Bellows,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Blasphemy,Limited to 1 Runegraft of Blasphemy,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Connection,Limited to 1 Runegraft of Connection,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Consecration,Limited to 1 Runegraft of Consecration,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Fury,Limited to 1 Runegraft of Fury,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Gemcraft,Limited to 1 Runegraft of Gemcraft,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Loyalty,Limited to 1 Runegraft of Loyalty,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Quaffing,Limited to 1 Runegraft of Quaffing,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Rallying,Limited to 1 Runegraft of Rallying,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Refraction,Limited to 1 Runegraft of Refraction,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Restitching,Limited to 1 Runegraft of Restitching,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Resurgence,Limited to 1 Runegraft of Resurgence,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Rotblood,Limited to 1 Runegraft of Rotblood,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Stability,Limited to 1 Runegraft of Stability,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Suffering,Limited to 1 Runegraft of Suffering,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Time,Limited to 1 Runegraft of Time,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of Treachery,Limited to 1 Runegraft of Treachery,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Agile,Limited to 1 Runegraft of the Agile,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Angler,Limited to 1 Runegraft of the Angler,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Bound,Limited to 1 Runegraft of the Bound,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Combatant,Limited to 1 Runegraft of the Combatant,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Fortress,Limited to 1 Runegraft of the Fortress,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Gauche,Limited to 1 Runegraft of the Gauche,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Imbued,Limited to 1 Runegraft of the Imbued,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Jeweller,Limited to 1 Runegraft of the Jeweller,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Novamark,Limited to 1 Runegraft of the Novamark,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the River,Limited to 1 Runegraft of the River,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Sinistral,Limited to 1 Runegraft of the Sinistral,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Soulwick,Limited to 1 Runegraft of the Soulwick,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Spellbound,Limited to 1 Runegraft of the Spellbound,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Warp,Limited to 1 Runegraft of the Warp,Data/TattooPassives.lua
+纹身及符文之结属性,Limited to 1 Runegraft of the Witchmark,Limited to 1 Runegraft of the Witchmark,Data/TattooPassives.lua
+纹身及符文之结属性,Maximum Chance to Dodge Spell Hits is 75%,Maximum Chance to Dodge Spell Hits is 75%,Data/TattooPassives.lua
+纹身及符文之结属性,Maximum Damage Reduction for any Damage Type is 50%,Maximum Damage Reduction for any Damage Type is 50%,Data/TattooPassives.lua
+纹身及符文之结属性,Maximum total Energy Shield Recovery per second from Leech is doubled,Maximum total Energy Shield Recovery per second from Leech is doubled,Data/TattooPassives.lua
+纹身及符文之结属性,Modifiers to Chance to Suppress Spell Damage instead apply to Chance to Dodge Spell Hits at 50% of their value,Modifiers to Chance to Suppress Spell Damage instead apply to Chance to Dodge Spell Hits at 50% of their value,Data/TattooPassives.lua
+纹身及符文之结属性,Non-Critical Strikes cannot inflict Ailments,Non-Critical Strikes cannot inflict Ailments,Data/TattooPassives.lua
+纹身及符文之结属性,Projectiles Chain an additional time,Projectiles Chain an additional time,Data/TattooPassives.lua
+纹身及符文之结属性,Rate to you and Allies,Rate to you and Allies,Data/TattooPassives.lua
+纹身及符文之结属性,Removes all mana,Removes all mana,Data/TattooPassives.lua
+纹身及符文之结属性,Skill while a Unique Enemy is in your Presence,Skill while a Unique Enemy is in your Presence,Data/TattooPassives.lua
+纹身及符文之结属性,Skills that have dealt a Critical Strike in the past 8 seconds deal 40% more Elemental Damage with Hits and Ailments,Skills that have dealt a Critical Strike in the past 8 seconds deal 40% more Elemental Damage with Hits and Ailments,Data/TattooPassives.lua
+纹身及符文之结属性,Spell Damage from a Unique Enemy,Spell Damage from a Unique Enemy,Data/TattooPassives.lua
+纹身及符文之结属性,Spells have Added Spell Damage equal to 30% of Physical Damage of,Spells have Added Spell Damage equal to 30% of Physical Damage of,Data/TattooPassives.lua
+纹身及符文之结属性,Spend Energy Shield before Mana for Skill Mana Costs,Spend Energy Shield before Mana for Skill Mana Costs,Data/TattooPassives.lua
+纹身及符文之结属性,Take 50% less Damage over Time if you've started taking Damage over Time in the past second,Take 50% less Damage over Time if you've started taking Damage over Time in the past second,Data/TattooPassives.lua
+纹身及符文之结属性,Tinctures inflict Weeping Wounds instead of Mana Burn,Tinctures inflict Weeping Wounds instead of Mana Burn,Data/TattooPassives.lua
+纹身及符文之结属性,Trigger level 1 Summon Spirit of Ahuana Skill when you Suppress,Trigger level 1 Summon Spirit of Ahuana Skill when you Suppress,Data/TattooPassives.lua
+纹身及符文之结属性,Trigger level 1 Summon Spirit of Akoya Skill when you reach Maximum Rage while,Trigger level 1 Summon Spirit of Akoya Skill when you reach Maximum Rage while,Data/TattooPassives.lua
+纹身及符文之结属性,Trigger level 1 Summon Spirit of Ikiaho Skill when you use a Travel,Trigger level 1 Summon Spirit of Ikiaho Skill when you use a Travel,Data/TattooPassives.lua
+纹身及符文之结属性,Trigger level 1 Summon Spirit of Kahuturoa Skill when you take,Trigger level 1 Summon Spirit of Kahuturoa Skill when you take,Data/TattooPassives.lua
+纹身及符文之结属性,Trigger level 1 Summon Spirit of Kaom Skill when a Totem dies while,Trigger level 1 Summon Spirit of Kaom Skill when a Totem dies while,Data/TattooPassives.lua
+纹身及符文之结属性,Trigger level 1 Summon Spirit of Kiloava Skill when you Block Damage from a Unique Enemy,Trigger level 1 Summon Spirit of Kiloava Skill when you Block Damage from a Unique Enemy,Data/TattooPassives.lua
+纹身及符文之结属性,Trigger level 1 Summon Spirit of Maata Skill when you reach Low Life while,Trigger level 1 Summon Spirit of Maata Skill when you reach Low Life while,Data/TattooPassives.lua
+纹身及符文之结属性,Trigger level 1 Summon Spirit of Rakiata Skill on Critical Strike against Marked Unique Enemy,Trigger level 1 Summon Spirit of Rakiata Skill on Critical Strike against Marked Unique Enemy,Data/TattooPassives.lua
+纹身及符文之结属性,Trigger level 1 Summon Spirit of Tawhanuku Skill when Energy Shield Recharge starts while a Unique Enemy is in your Presence,Trigger level 1 Summon Spirit of Tawhanuku Skill when Energy Shield Recharge starts while a Unique Enemy is in your Presence,Data/TattooPassives.lua
+纹身及符文之结属性,Trigger level 1 Summon Spirit of Utula Skill on taking a Savage Hit from a Unique Enemy,Trigger level 1 Summon Spirit of Utula Skill on taking a Savage Hit from a Unique Enemy,Data/TattooPassives.lua
+纹身及符文之结属性,"When Hit, lose a Ghost Shroud to Recover Energy Shield equal to 3% of your Evasion Rating","When Hit, lose a Ghost Shroud to Recover Energy Shield equal to 3% of your Evasion Rating",Data/TattooPassives.lua
+纹身及符文之结属性,"When your Hits Impale Enemies, also Impale other Enemies near them","When your Hits Impale Enemies, also Impale other Enemies near them",Data/TattooPassives.lua
+纹身及符文之结属性,"While not on Full Life, Sacrifice 20% of Mana per Second to Recover that much Life","While not on Full Life, Sacrifice 20% of Mana per Second to Recover that much Life",Data/TattooPassives.lua
+纹身及符文之结属性,You can have an additional Brand Attached to an Enemy,You can have an additional Brand Attached to an Enemy,Data/TattooPassives.lua
+纹身及符文之结属性,You can inflict Bleeding on an Enemy up to 8 times,You can inflict Bleeding on an Enemy up to 8 times,Data/TattooPassives.lua
+纹身及符文之结属性,You can inflict an additional Ignite on each Enemy,You can inflict an additional Ignite on each Enemy,Data/TattooPassives.lua
+纹身及符文之结属性,You can't deal Damage with Skills yourself,You can't deal Damage with Skills yourself,Data/TattooPassives.lua
+纹身及符文之结属性,Your Bleeding does not deal extra Damage while the Enemy is moving and cannot be Aggravated,Your Bleeding does not deal extra Damage while the Enemy is moving and cannot be Aggravated,Data/TattooPassives.lua
+纹身及符文之结属性,Your Hexes have infinite Duration,Your Hexes have infinite Duration,Data/TattooPassives.lua
+纹身及符文之结属性,Your Warcries do not grant Buffs or Charges to You,Your Warcries do not grant Buffs or Charges to You,Data/TattooPassives.lua
+纹身及符文之结属性,a Critical Strike from a Unique Enemy,a Critical Strike from a Unique Enemy,Data/TattooPassives.lua
+纹身及符文之结属性,a Unique Enemy is in your Presence,a Unique Enemy is in your Presence,Data/TattooPassives.lua
+纹身及符文之结属性,be inflicted on a nearby Minion instead,be inflicted on a nearby Minion instead,Data/TattooPassives.lua
+纹身及符文之结属性,per Tribe for which you have an allocated Tattoo,per Tribe for which you have an allocated Tattoo,Data/TattooPassives.lua
+纹身及符文之结属性,your Equipped Two handed Weapon,your Equipped Two handed Weapon,Data/TattooPassives.lua

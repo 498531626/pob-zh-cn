@@ -1,7 +1,7 @@
 {
-  "entries": 35570,
+  "entries": 39361,
   "gem_names": 1038,
-  "glyphs": 2416,
+  "glyphs": 2455,
   "font": "Microsoft YaHei (local PC copy)",
   "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
   "pob_version": "2.67.2",
@@ -39,13 +39,21 @@
   },
   "item_details": {
     "paired_mod_records": 103475,
-    "exact_entries": 23156,
-    "numeric_templates": 3904,
-    "composed_entries": 3465,
+    "exact_entries": 24856,
+    "numeric_templates": 4169,
+    "composed_entries": 5022,
     "ambiguous_exact_resolved": 63,
     "ambiguous_templates_resolved": 27,
     "ambiguous_exact": 63,
     "ambiguous_templates": 27
+  },
+  "database_details": {
+    "source_rows": 5711,
+    "matched_pairs": 12106,
+    "exact_entries": 2460,
+    "numeric_templates": 1002,
+    "ambiguous_exact": 14,
+    "ambiguous_templates": 5
   },
   "sidebar_labels": 167,
   "sidebar_labels_translated": 167,
@@ -53,5 +61,5 @@
   "calculation_labels_translated": 602,
   "configuration_labels": 738,
   "configuration_labels_translated": 738,
-  "scope": "Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.29 passives, paired item names/bases/modifiers and finite item UI clauses. Item audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged."
+  "scope": "Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.29 passives, paired item names/bases/modifiers, essence/currency/monster/pantheon/tattoo/enchantment/cluster/boss preset display fields and finite display clauses. Item/database audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged."
 }

@@ -4689,11 +4689,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["of","Life","Regeneration","also","applies","to","Energy","Shield","if","no","Equipped","Items","are","Corrupted"]
   },{
-    "chinese":"(15-25)% increased Accuracy Rating during Effect",
-    "english":"(15-25)% increased Accuracy Rating during Effect",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Accuracy","Rating","during","Effect"]
-  },{
     "chinese":"(15-25)% increased Quantity of Items Dropped by Slain Maimed Enemies",
     "english":"(15-25)% increased Quantity of Items Dropped by Slain Maimed Enemies",
     "kind":"craft-stat",
@@ -4909,11 +4904,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["increased","Duration","of","Ailments","you","inflict","while","Focused"]
   },{
-    "chinese":"(26-35)% increased Accuracy Rating during Effect",
-    "english":"(26-35)% increased Accuracy Rating during Effect",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Accuracy","Rating","during","Effect"]
-  },{
     "chinese":"(27-28)% reduced Mana Cost of Attacks",
     "english":"(27-28)% reduced Mana Cost of Attacks",
     "kind":"craft-stat",
@@ -4988,11 +4978,6 @@
     "english":"(31-35)% chance to gain a Flask Charge when you deal a Critical Strike",
     "kind":"craft-stat",
     "remaining_english_words":["chance","to","gain","Flask","Charge","when","you","deal","Critical","Strike"]
-  },{
-    "chinese":"(35-45)% increased Accuracy Rating during Effect",
-    "english":"(35-45)% increased Accuracy Rating during Effect",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Accuracy","Rating","during","Effect"]
   },{
     "chinese":"(35-45)% reduced Bleeding Duration on you during Effect",
     "english":"(35-45)% reduced Bleeding Duration on you during Effect",
@@ -5169,11 +5154,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["increased","Minion","Damage","per","Raised","Spectre"]
   },{
-    "chinese":"(80-100)% increased Effect of Herald Buffs on you",
-    "english":"(80-100)% increased Effect of Herald Buffs on you",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Effect","of","Herald","Buffs","on","you"]
-  },{
     "chinese":"(80-100)% increased Rarity of Items found with a Normal Item Equipped",
     "english":"(80-100)% increased Rarity of Items found with a Normal Item Equipped",
     "kind":"craft-stat",
@@ -5198,11 +5178,6 @@
     "english":"+(15-25)% to Damage over Time Multiplier for Ailments from Critical Strikes",
     "kind":"craft-stat",
     "remaining_english_words":["to","Damage","over","Time","Multiplier","for","Ailments","from","Critical","Strikes"]
-  },{
-    "chinese":"+(2-3) to maximum number of Sentinels of Purity",
-    "english":"+(2-3) to maximum number of Sentinels of Purity",
-    "kind":"craft-stat",
-    "remaining_english_words":["to","maximum","number","of","Sentinels","of","Purity"]
   },{
     "chinese":"+(2-3)% to Quality of Socketed Minion Gems",
     "english":"+(2-3)% to Quality of Socketed Minion Gems",
@@ -5308,11 +5283,6 @@
     "english":"+1 to Level of all Strength Skill Gems",
     "kind":"craft-stat",
     "remaining_english_words":["to","Level","of","all","Strength","Skill","Gems"]
-  },{
-    "chinese":"+1 to Level of all non-Exceptional Support Gems if 6 Shaper Items are Equipped",
-    "english":"+1 to Level of all non-Exceptional Support Gems if 6 Shaper Items are Equipped",
-    "kind":"craft-stat",
-    "remaining_english_words":["to","Level","of","all","non","Exceptional","Support","Gems","if","Shaper","Items","are","Equipped"]
   },{
     "chinese":"+1 to Maximum Siphoning Charges per Elder or Shaper Item Equipped",
     "english":"+1 to Maximum Siphoning Charges per Elder or Shaper Item Equipped",
@@ -7279,76 +7249,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["increased","Damage","taken","if","you","ve","taken","Savage","Hit","Recently"]
   },{
-    "chinese":"10% increased Explicit Ailment Modifier magnitudes",
-    "english":"10% increased Explicit Ailment Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Attribute Modifier magnitudes",
-    "english":"10% increased Explicit Attribute Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Caster Damage Modifier magnitudes",
-    "english":"10% increased Explicit Caster Damage Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Chaos Modifier magnitudes",
-    "english":"10% increased Explicit Chaos Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Cold Modifier magnitudes",
-    "english":"10% increased Explicit Cold Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Critical Modifier magnitudes",
-    "english":"10% increased Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Defence Modifier magnitudes",
-    "english":"10% increased Explicit Defence Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Fire Modifier magnitudes",
-    "english":"10% increased Explicit Fire Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Life Modifier magnitudes",
-    "english":"10% increased Explicit Life Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Lightning Modifier magnitudes",
-    "english":"10% increased Explicit Lightning Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Mana Modifier magnitudes",
-    "english":"10% increased Explicit Mana Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Physical Modifier magnitudes",
-    "english":"10% increased Explicit Physical Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Resistance Modifier magnitudes",
-    "english":"10% increased Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Speed Modifier magnitudes",
-    "english":"10% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes"]
-  },{
     "chinese":"10% increased Movement Speed for you and nearby Allies",
     "english":"10% increased Movement Speed for you and nearby Allies",
     "kind":"craft-stat",
@@ -7454,41 +7354,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["increased","Ignite","Duration","on","you"]
   },{
-    "chinese":"12% increased Explicit Attribute Modifier magnitudes",
-    "english":"12% increased Explicit Attribute Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes"]
-  },{
-    "chinese":"12% increased Explicit Critical Modifier magnitudes",
-    "english":"12% increased Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"12% increased Explicit Defence Modifier magnitudes",
-    "english":"12% increased Explicit Defence Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes"]
-  },{
-    "chinese":"12% increased Explicit Life Modifier magnitudes",
-    "english":"12% increased Explicit Life Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes"]
-  },{
-    "chinese":"12% increased Explicit Mana Modifier magnitudes",
-    "english":"12% increased Explicit Mana Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes"]
-  },{
-    "chinese":"12% increased Explicit Resistance Modifier magnitudes",
-    "english":"12% increased Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"12% increased Explicit Speed Modifier magnitudes",
-    "english":"12% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes"]
-  },{
     "chinese":"12% increased Movement speed while on Burning, Chilled or Shocked ground",
     "english":"12% increased Movement speed while on Burning, Chilled or Shocked ground",
     "kind":"craft-stat",
@@ -7518,76 +7383,6 @@
     "english":"15% increased Damage with Ailments per Elder Item Equipped",
     "kind":"craft-stat",
     "remaining_english_words":["increased","Damage","with","Ailments","per","Elder","Item","Equipped"]
-  },{
-    "chinese":"15% increased Explicit Ailment Modifier magnitudes",
-    "english":"15% increased Explicit Ailment Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Attribute Modifier magnitudes",
-    "english":"15% increased Explicit Attribute Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Caster Damage Modifier magnitudes",
-    "english":"15% increased Explicit Caster Damage Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Chaos Modifier magnitudes",
-    "english":"15% increased Explicit Chaos Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Cold Modifier magnitudes",
-    "english":"15% increased Explicit Cold Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Critical Modifier magnitudes",
-    "english":"15% increased Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Defence Modifier magnitudes",
-    "english":"15% increased Explicit Defence Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Fire Modifier magnitudes",
-    "english":"15% increased Explicit Fire Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Life Modifier magnitudes",
-    "english":"15% increased Explicit Life Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Lightning Modifier magnitudes",
-    "english":"15% increased Explicit Lightning Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Mana Modifier magnitudes",
-    "english":"15% increased Explicit Mana Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Physical Modifier magnitudes",
-    "english":"15% increased Explicit Physical Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Resistance Modifier magnitudes",
-    "english":"15% increased Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Speed Modifier magnitudes",
-    "english":"15% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes"]
   },{
     "chinese":"15% increased Quantity of Items Dropped by Slain Frozen Enemies",
     "english":"15% increased Quantity of Items Dropped by Slain Frozen Enemies",
@@ -7673,11 +7468,6 @@
     "english":"2% reduced Movement Speed per Chest opened Recently",
     "kind":"craft-stat",
     "remaining_english_words":["reduced","Movement","Speed","per","Chest","opened","Recently"]
-  },{
-    "chinese":"20% chance to Curse non-Cursed Enemies with a random Hex on Hit",
-    "english":"20% chance to Curse non-Cursed Enemies with a random Hex on Hit",
-    "kind":"craft-stat",
-    "remaining_english_words":["chance","to","Curse","non","Cursed","Enemies","with","random","Hex","on","Hit"]
   },{
     "chinese":"20% chance to Poison with Melee Weapons",
     "english":"20% chance to Poison with Melee Weapons",
@@ -7819,20 +7609,10 @@
     "kind":"craft-stat",
     "remaining_english_words":["reduced","Attack","Damage","with","Main","Hand"]
   },{
-    "chinese":"25% reduced Explicit Critical Modifier magnitudes",
-    "english":"25% reduced Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["reduced","Explicit","Critical","Modifier","magnitudes"]
-  },{
     "chinese":"25% reduced Explicit Damage Modifier magnitudes",
     "english":"25% reduced Explicit Damage Modifier magnitudes",
     "kind":"craft-stat",
     "remaining_english_words":["reduced","Explicit","Damage","Modifier","magnitudes"]
-  },{
-    "chinese":"25% reduced Explicit Speed Modifier magnitudes",
-    "english":"25% reduced Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["reduced","Explicit","Speed","Modifier","magnitudes"]
   },{
     "chinese":"2h_axe_adjudicator",
     "english":"2h_axe_adjudicator",
@@ -8164,11 +7944,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["increased","Elemental","and","Chaos","Resistances"]
   },{
-    "chinese":"50% increased Herald of Ice Damage",
-    "english":"50% increased Herald of Ice Damage",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Herald","of","Ice","Damage"]
-  },{
     "chinese":"50% increased Spell Damage while Shocked",
     "english":"50% increased Spell Damage while Shocked",
     "kind":"craft-stat",
@@ -8264,21 +8039,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["reduced","Enemy","Stun","Threshold","with","Bows"]
   },{
-    "chinese":"50% reduced Explicit Defence Modifier magnitudes",
-    "english":"50% reduced Explicit Defence Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["reduced","Explicit","Defence","Modifier","magnitudes"]
-  },{
-    "chinese":"50% reduced Explicit Life Modifier magnitudes",
-    "english":"50% reduced Explicit Life Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["reduced","Explicit","Life","Modifier","magnitudes"]
-  },{
-    "chinese":"50% reduced Explicit Resistance Modifier magnitudes",
-    "english":"50% reduced Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["reduced","Explicit","Resistance","Modifier","magnitudes"]
-  },{
     "chinese":"50% reduced Mana Cost of Skills for 2 seconds after Spending a total of 800 Mana",
     "english":"50% reduced Mana Cost of Skills for 2 seconds after Spending a total of 800 Mana",
     "kind":"craft-stat",
@@ -8304,76 +8064,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["chance","to","deal","Double","Damage","per","Strength"]
   },{
-    "chinese":"6% increased Explicit Ailment Modifier magnitudes",
-    "english":"6% increased Explicit Ailment Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes",
-    "english":"6% increased Explicit Attribute Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Caster Damage Modifier magnitudes",
-    "english":"6% increased Explicit Caster Damage Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Chaos Modifier magnitudes",
-    "english":"6% increased Explicit Chaos Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Cold Modifier magnitudes",
-    "english":"6% increased Explicit Cold Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Critical Modifier magnitudes",
-    "english":"6% increased Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Defence Modifier magnitudes",
-    "english":"6% increased Explicit Defence Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Fire Modifier magnitudes",
-    "english":"6% increased Explicit Fire Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Life Modifier magnitudes",
-    "english":"6% increased Explicit Life Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Lightning Modifier magnitudes",
-    "english":"6% increased Explicit Lightning Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Mana Modifier magnitudes",
-    "english":"6% increased Explicit Mana Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Physical Modifier magnitudes",
-    "english":"6% increased Explicit Physical Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Resistance Modifier magnitudes",
-    "english":"6% increased Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Speed Modifier magnitudes",
-    "english":"6% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes"]
-  },{
     "chinese":"60% increased Damage taken from Melee Attacks",
     "english":"60% increased Damage taken from Melee Attacks",
     "kind":"craft-stat",
@@ -8383,76 +8073,6 @@
     "english":"8% increased Effect of Arcane Surge on you per",
     "kind":"craft-stat",
     "remaining_english_words":["increased","Effect","of","Arcane","Surge","on","you","per"]
-  },{
-    "chinese":"8% increased Explicit Ailment Modifier magnitudes",
-    "english":"8% increased Explicit Ailment Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Attribute Modifier magnitudes",
-    "english":"8% increased Explicit Attribute Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Caster Damage Modifier magnitudes",
-    "english":"8% increased Explicit Caster Damage Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Chaos Modifier magnitudes",
-    "english":"8% increased Explicit Chaos Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Cold Modifier magnitudes",
-    "english":"8% increased Explicit Cold Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Critical Modifier magnitudes",
-    "english":"8% increased Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Defence Modifier magnitudes",
-    "english":"8% increased Explicit Defence Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Fire Modifier magnitudes",
-    "english":"8% increased Explicit Fire Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Life Modifier magnitudes",
-    "english":"8% increased Explicit Life Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Lightning Modifier magnitudes",
-    "english":"8% increased Explicit Lightning Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Mana Modifier magnitudes",
-    "english":"8% increased Explicit Mana Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Physical Modifier magnitudes",
-    "english":"8% increased Explicit Physical Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Resistance Modifier magnitudes",
-    "english":"8% increased Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"8% increased Explicit Speed Modifier magnitudes",
-    "english":"8% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes"]
   },{
     "chinese":"8% of Maximum Energy Shield taken as Physical Damage on Minion Death",
     "english":"8% of Maximum Energy Shield taken as Physical Damage on Minion Death",
@@ -9244,21 +8864,6 @@
     "kind":"craft-stat",
     "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"All Sockets are Blue",
-    "english":"All Sockets are Blue",
-    "kind":"craft-stat",
-    "remaining_english_words":["All","Sockets","are","Blue"]
-  },{
-    "chinese":"All Sockets are Green",
-    "english":"All Sockets are Green",
-    "kind":"craft-stat",
-    "remaining_english_words":["All","Sockets","are","Green"]
-  },{
-    "chinese":"All Sockets are Red",
-    "english":"All Sockets are Red",
-    "kind":"craft-stat",
-    "remaining_english_words":["All","Sockets","are","Red"]
-  },{
     "chinese":"Allocated Notable Passive Skills in Radius grant nothing",
     "english":"Allocated Notable Passive Skills in Radius grant nothing",
     "kind":"craft-stat",
@@ -9298,11 +8903,6 @@
     "english":"Anger has no Reservation",
     "kind":"craft-stat",
     "remaining_english_words":["Anger","has","no","Reservation"]
-  },{
-    "chinese":"Arctic Armour has 100% increased Mana Reservation Efficiency",
-    "english":"Arctic Armour has 100% increased Mana Reservation Efficiency",
-    "kind":"craft-stat",
-    "remaining_english_words":["Arctic","Armour","has","increased","Mana","Reservation","Efficiency"]
   },{
     "chinese":"Area is inhabited by an additional Invasion Boss",
     "english":"Area is inhabited by an additional Invasion Boss",
@@ -9403,11 +9003,6 @@
     "english":"Attacks you use yourself Repeat an additional time",
     "kind":"craft-stat",
     "remaining_english_words":["Attacks","you","use","yourself","Repeat","an","additional","time"]
-  },{
-    "chinese":"Avoid Projectiles that have Chained",
-    "english":"Avoid Projectiles that have Chained",
-    "kind":"craft-stat",
-    "remaining_english_words":["Avoid","Projectiles","that","have","Chained"]
   },{
     "chinese":"Bleeding Enemies you Kill Explode, dealing (2-3)% of",
     "english":"Bleeding Enemies you Kill Explode, dealing (2-3)% of",
@@ -10543,31 +10138,6 @@
     "english":"Heist Targets are always Thieves' Trinkets",
     "kind":"craft-stat",
     "remaining_english_words":["Heist","Targets","are","always","Thieves","Trinkets"]
-  },{
-    "chinese":"Herald of Agony has (30-40)% increased Mana Reservation Efficiency",
-    "english":"Herald of Agony has (30-40)% increased Mana Reservation Efficiency",
-    "kind":"craft-stat",
-    "remaining_english_words":["Herald","of","Agony","has","increased","Mana","Reservation","Efficiency"]
-  },{
-    "chinese":"Herald of Ash has (30-40)% increased Mana Reservation Efficiency",
-    "english":"Herald of Ash has (30-40)% increased Mana Reservation Efficiency",
-    "kind":"craft-stat",
-    "remaining_english_words":["Herald","of","Ash","has","increased","Mana","Reservation","Efficiency"]
-  },{
-    "chinese":"Herald of Ice has (30-40)% increased Mana Reservation Efficiency",
-    "english":"Herald of Ice has (30-40)% increased Mana Reservation Efficiency",
-    "kind":"craft-stat",
-    "remaining_english_words":["Herald","of","Ice","has","increased","Mana","Reservation","Efficiency"]
-  },{
-    "chinese":"Herald of Purity has (30-40)% increased Mana Reservation Efficiency",
-    "english":"Herald of Purity has (30-40)% increased Mana Reservation Efficiency",
-    "kind":"craft-stat",
-    "remaining_english_words":["Herald","of","Purity","has","increased","Mana","Reservation","Efficiency"]
-  },{
-    "chinese":"Herald of Thunder has (30-40)% increased Mana Reservation Efficiency",
-    "english":"Herald of Thunder has (30-40)% increased Mana Reservation Efficiency",
-    "kind":"craft-stat",
-    "remaining_english_words":["Herald","of","Thunder","has","increased","Mana","Reservation","Efficiency"]
   },{
     "chinese":"His Burning Message used by this Graft creates 2 additional geysers",
     "english":"His Burning Message used by this Graft creates 2 additional geysers",
@@ -14559,10 +14129,10 @@
     "kind":"craft-stat",
     "remaining_english_words":["With","at","least","Strength","in","Radius","Molten","Strike","Projectiles","Chain","time"]
   },{
-    "chinese":"With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles",
+    "chinese":"With at least 40 Strength in Radius, 熔岩之击可以额外发射 2 个投射物",
     "english":"With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles",
     "kind":"craft-stat",
-    "remaining_english_words":["With","at","least","Strength","in","Radius","Molten","Strike","fires","additional","Projectiles"]
+    "remaining_english_words":["With","at","least","Strength","in","Radius"]
   },{
     "chinese":"With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect",
     "english":"With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect",
@@ -16949,445 +16519,90 @@
     "kind":"craft-stat-group",
     "remaining_english_words":["chance","to","gain","an","Endurance","Frenzy","or","Power","Charge","when","any","of","your","Traps","are","Triggered","by","an","Enemy"]
   },{
-    "chinese":"10% increased Explicit Ailment Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Ailment Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Ailment Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Ailment Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Ailment Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Ailment Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Attribute Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Attribute Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Attribute Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Attribute Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Attribute Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Attribute Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Caster Damage Modifier magnitudes\n25% reduced Explicit Critical Modifier magnitudes",
-    "english":"10% increased Explicit Caster Damage Modifier magnitudes\n25% reduced Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","reduced","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Caster Damage Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "english":"10% increased Explicit Caster Damage Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","reduced","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Caster Damage Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Caster Damage Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Caster Damage Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Caster Damage Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Caster Damage Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Caster Damage Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Chaos Modifier magnitudes\n25% reduced Explicit Critical Modifier magnitudes",
-    "english":"10% increased Explicit Chaos Modifier magnitudes\n25% reduced Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","reduced","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Chaos Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "english":"10% increased Explicit Chaos Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","reduced","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Chaos Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Chaos Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Chaos Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Chaos Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Chaos Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Chaos Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Cold Modifier magnitudes\n25% reduced Explicit Critical Modifier magnitudes",
-    "english":"10% increased Explicit Cold Modifier magnitudes\n25% reduced Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","reduced","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Cold Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "english":"10% increased Explicit Cold Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","reduced","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Cold Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Cold Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Cold Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Cold Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Cold Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Cold Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Critical Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Critical Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Critical Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Critical Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Critical Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Critical Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Defence Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Defence Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Defence Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Defence Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Defence Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Defence Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Fire Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "english":"10% increased Explicit Fire Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes","reduced","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Fire Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Fire Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Fire Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Fire Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Fire Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Fire Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Life Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Life Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Life Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Life Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Life Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Life Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Lightning Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "english":"10% increased Explicit Lightning Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes","reduced","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Lightning Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Lightning Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Lightning Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Lightning Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Lightning Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Lightning Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Mana Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "english":"10% increased Explicit Mana Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","reduced","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Mana Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Mana Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Mana Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Mana Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Mana Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Mana Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Physical Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "english":"10% increased Explicit Physical Modifier magnitudes\n25% reduced Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes","reduced","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"10% increased Explicit Physical Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Physical Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Physical Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Physical Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Physical Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Physical Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Resistance Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Resistance Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Resistance Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Resistance Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Resistance Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Resistance Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
-    "chinese":"10% increased Explicit Speed Modifier magnitudes\nAll Sockets are Blue",
-    "english":"10% increased Explicit Speed Modifier magnitudes\nAll Sockets are Blue",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes","All","Sockets","are","Blue"]
-  },{
-    "chinese":"10% increased Explicit Speed Modifier magnitudes\nAll Sockets are Green",
-    "english":"10% increased Explicit Speed Modifier magnitudes\nAll Sockets are Green",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes","All","Sockets","are","Green"]
-  },{
-    "chinese":"10% increased Explicit Speed Modifier magnitudes\nAll Sockets are Red",
-    "english":"10% increased Explicit Speed Modifier magnitudes\nAll Sockets are Red",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes","All","Sockets","are","Red"]
-  },{
     "chinese":"移动速度减慢 10%\n(45-50)% increased Cooldown Recovery Rate of Movement Skills",
     "english":"10% reduced Movement Speed\n(45-50)% increased Cooldown Recovery Rate of Movement Skills",
     "kind":"craft-stat-group",
     "remaining_english_words":["increased","Cooldown","Recovery","Rate","of","Movement","Skills"]
   },{
-    "chinese":"12% increased Explicit Attribute Modifier magnitudes\n25% reduced Explicit Damage Modifier magnitudes",
+    "chinese":"外延属性词缀增幅提高 12%\n25% reduced Explicit Damage Modifier magnitudes",
     "english":"12% increased Explicit Attribute Modifier magnitudes\n25% reduced Explicit Damage Modifier magnitudes",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","reduced","Explicit","Damage","Modifier","magnitudes"]
+    "remaining_english_words":["reduced","Explicit","Damage","Modifier","magnitudes"]
   },{
-    "chinese":"12% increased Explicit Attribute Modifier magnitudes\n50% reduced Explicit Defence Modifier magnitudes",
-    "english":"12% increased Explicit Attribute Modifier magnitudes\n50% reduced Explicit Defence Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","reduced","Explicit","Defence","Modifier","magnitudes"]
-  },{
-    "chinese":"12% increased Explicit Attribute Modifier magnitudes\n50% reduced Explicit Life Modifier magnitudes",
-    "english":"12% increased Explicit Attribute Modifier magnitudes\n50% reduced Explicit Life Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","reduced","Explicit","Life","Modifier","magnitudes"]
-  },{
-    "chinese":"12% increased Explicit Critical Modifier magnitudes\n25% reduced Explicit Damage Modifier magnitudes",
+    "chinese":"外延暴击词缀增幅提高 12%\n25% reduced Explicit Damage Modifier magnitudes",
     "english":"12% increased Explicit Critical Modifier magnitudes\n25% reduced Explicit Damage Modifier magnitudes",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","reduced","Explicit","Damage","Modifier","magnitudes"]
+    "remaining_english_words":["reduced","Explicit","Damage","Modifier","magnitudes"]
   },{
-    "chinese":"12% increased Explicit Defence Modifier magnitudes\n50% reduced Explicit Resistance Modifier magnitudes",
-    "english":"12% increased Explicit Defence Modifier magnitudes\n50% reduced Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes","reduced","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"12% increased Explicit Life Modifier magnitudes\n50% reduced Explicit Resistance Modifier magnitudes",
-    "english":"12% increased Explicit Life Modifier magnitudes\n50% reduced Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes","reduced","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"12% increased Explicit Mana Modifier magnitudes\n50% reduced Explicit Resistance Modifier magnitudes",
-    "english":"12% increased Explicit Mana Modifier magnitudes\n50% reduced Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","reduced","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Ailment Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延异常状态词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Ailment Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Ailment Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Ailment Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Attribute Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延属性词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Attribute Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Attribute Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Attribute Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Caster Damage Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延施法伤害词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Caster Damage Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Caster Damage Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Caster Damage Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Chaos Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延混沌词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Chaos Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Chaos Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Chaos Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Cold Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延冰霜词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Cold Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Cold Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Cold Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Critical Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延暴击词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Critical Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Critical Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Critical Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Defence Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延防御词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Defence Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Defence Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Defence Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Fire Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延火焰词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Fire Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Fire Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Fire Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Life Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延生命词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Life Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Life Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Life Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Lightning Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延闪电词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Lightning Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Lightning Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Lightning Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Mana Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延魔力词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Mana Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Mana Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Mana Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Physical Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延物理词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Physical Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Physical Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Physical Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Resistance Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延抗性词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Resistance Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes","to","maximum","Sockets"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
-    "chinese":"15% increased Explicit Resistance Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Resistance Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"15% increased Explicit Speed Modifier magnitudes\n-3 to maximum Sockets",
+    "chinese":"外延速度词缀增幅提高 15%\n-3 to maximum Sockets",
     "english":"15% increased Explicit Speed Modifier magnitudes\n-3 to maximum Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes","to","maximum","Sockets"]
-  },{
-    "chinese":"15% increased Explicit Speed Modifier magnitudes\n属性需求提高 200%",
-    "english":"15% increased Explicit Speed Modifier magnitudes\n200% increased Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes"]
+    "remaining_english_words":["to","maximum","Sockets"]
   },{
     "chinese":"20% chance to Poison with Melee Weapons\n(60-90)% increased Damage with Poison from Melee Weapons",
     "english":"20% chance to Poison with Melee Weapons\n(60-90)% increased Damage with Poison from Melee Weapons",
@@ -17414,30 +16629,10 @@
     "kind":"craft-stat-group",
     "remaining_english_words":["reduced","Attack","Damage","with","Main","Hand","increased","Attack","Damage","with","Off","Hand"]
   },{
-    "chinese":"25% reduced Explicit Critical Modifier magnitudes\n10% increased Explicit Fire Modifier magnitudes",
-    "english":"25% reduced Explicit Critical Modifier magnitudes\n10% increased Explicit Fire Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["reduced","Explicit","Critical","Modifier","magnitudes","increased","Explicit","Fire","Modifier","magnitudes"]
-  },{
-    "chinese":"25% reduced Explicit Critical Modifier magnitudes\n10% increased Explicit Lightning Modifier magnitudes",
-    "english":"25% reduced Explicit Critical Modifier magnitudes\n10% increased Explicit Lightning Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["reduced","Explicit","Critical","Modifier","magnitudes","increased","Explicit","Lightning","Modifier","magnitudes"]
-  },{
-    "chinese":"25% reduced Explicit Critical Modifier magnitudes\n10% increased Explicit Mana Modifier magnitudes",
-    "english":"25% reduced Explicit Critical Modifier magnitudes\n10% increased Explicit Mana Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["reduced","Explicit","Critical","Modifier","magnitudes","increased","Explicit","Mana","Modifier","magnitudes"]
-  },{
-    "chinese":"25% reduced Explicit Critical Modifier magnitudes\n10% increased Explicit Physical Modifier magnitudes",
-    "english":"25% reduced Explicit Critical Modifier magnitudes\n10% increased Explicit Physical Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["reduced","Explicit","Critical","Modifier","magnitudes","increased","Explicit","Physical","Modifier","magnitudes"]
-  },{
-    "chinese":"25% reduced Explicit Damage Modifier magnitudes\n12% increased Explicit Speed Modifier magnitudes",
+    "chinese":"25% reduced Explicit Damage Modifier magnitudes\n外延速度词缀增幅提高 12%",
     "english":"25% reduced Explicit Damage Modifier magnitudes\n12% increased Explicit Speed Modifier magnitudes",
     "kind":"craft-stat-group",
-    "remaining_english_words":["reduced","Explicit","Damage","Modifier","magnitudes","increased","Explicit","Speed","Modifier","magnitudes"]
+    "remaining_english_words":["reduced","Explicit","Damage","Modifier","magnitudes"]
   },{
     "chinese":"2h_axe_adjudicator\ndefault",
     "english":"2h_axe_adjudicator\ndefault",
@@ -17709,600 +16904,360 @@
     "kind":"craft-stat-group",
     "remaining_english_words":["more","Damage"]
   },{
-    "chinese":"50% reduced Explicit Defence Modifier magnitudes\n12% increased Explicit Resistance Modifier magnitudes",
-    "english":"50% reduced Explicit Defence Modifier magnitudes\n12% increased Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["reduced","Explicit","Defence","Modifier","magnitudes","increased","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"50% reduced Explicit Life Modifier magnitudes\n12% increased Explicit Resistance Modifier magnitudes",
-    "english":"50% reduced Explicit Life Modifier magnitudes\n12% increased Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["reduced","Explicit","Life","Modifier","magnitudes","increased","Explicit","Resistance","Modifier","magnitudes"]
-  },{
     "chinese":"50% reduced time before Lockdown\nRogue Perks are doubled",
     "english":"50% reduced time before Lockdown\nRogue Perks are doubled",
     "kind":"craft-stat-group",
     "remaining_english_words":["reduced","time","before","Lockdown","Rogue","Perks","are","doubled"]
   },{
-    "chinese":"6% increased Explicit Ailment Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Ailment Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Caster Damage Modifier magnitudes",
-    "english":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Caster Damage Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","increased","Explicit","Caster","Damage","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Chaos Modifier magnitudes",
-    "english":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Chaos Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","increased","Explicit","Chaos","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Cold Modifier magnitudes",
-    "english":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Cold Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","increased","Explicit","Cold","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Fire Modifier magnitudes",
-    "english":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Fire Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","increased","Explicit","Fire","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Lightning Modifier magnitudes",
-    "english":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Lightning Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","increased","Explicit","Lightning","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Mana Modifier magnitudes",
-    "english":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Mana Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","increased","Explicit","Mana","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Physical Modifier magnitudes",
-    "english":"6% increased Explicit Ailment Modifier magnitudes\n6% increased Explicit Physical Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","increased","Explicit","Physical","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Ailment Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延异常状态词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Ailment Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Attribute Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Caster Damage Modifier magnitudes",
-    "english":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Caster Damage Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","increased","Explicit","Caster","Damage","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Chaos Modifier magnitudes",
-    "english":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Chaos Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","increased","Explicit","Chaos","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Cold Modifier magnitudes",
-    "english":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Cold Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","increased","Explicit","Cold","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Defence Modifier magnitudes",
-    "english":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Defence Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","increased","Explicit","Defence","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Fire Modifier magnitudes",
-    "english":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Fire Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","increased","Explicit","Fire","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Life Modifier magnitudes",
-    "english":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Life Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","increased","Explicit","Life","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Lightning Modifier magnitudes",
-    "english":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Lightning Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","increased","Explicit","Lightning","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Mana Modifier magnitudes",
-    "english":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Mana Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","increased","Explicit","Mana","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Physical Modifier magnitudes",
-    "english":"6% increased Explicit Attribute Modifier magnitudes\n6% increased Explicit Physical Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","increased","Explicit","Physical","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Attribute Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延属性词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Attribute Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Caster Damage Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Caster Damage Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Caster Damage Modifier magnitudes\n6% increased Explicit Critical Modifier magnitudes",
-    "english":"6% increased Explicit Caster Damage Modifier magnitudes\n6% increased Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","increased","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Caster Damage Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "english":"6% increased Explicit Caster Damage Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","increased","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Caster Damage Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延施法伤害词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Caster Damage Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Chaos Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Chaos Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Chaos Modifier magnitudes\n6% increased Explicit Critical Modifier magnitudes",
-    "english":"6% increased Explicit Chaos Modifier magnitudes\n6% increased Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","increased","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Chaos Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "english":"6% increased Explicit Chaos Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","increased","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Chaos Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延混沌词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Chaos Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Cold Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Cold Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Cold Modifier magnitudes\n6% increased Explicit Critical Modifier magnitudes",
-    "english":"6% increased Explicit Cold Modifier magnitudes\n6% increased Explicit Critical Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","increased","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Cold Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "english":"6% increased Explicit Cold Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","increased","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Cold Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延冰霜词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Cold Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Critical Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Critical Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Critical Modifier magnitudes\n6% increased Explicit Fire Modifier magnitudes",
-    "english":"6% increased Explicit Critical Modifier magnitudes\n6% increased Explicit Fire Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","increased","Explicit","Fire","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Critical Modifier magnitudes\n6% increased Explicit Lightning Modifier magnitudes",
-    "english":"6% increased Explicit Critical Modifier magnitudes\n6% increased Explicit Lightning Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","increased","Explicit","Lightning","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Critical Modifier magnitudes\n6% increased Explicit Mana Modifier magnitudes",
-    "english":"6% increased Explicit Critical Modifier magnitudes\n6% increased Explicit Mana Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","increased","Explicit","Mana","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Critical Modifier magnitudes\n6% increased Explicit Physical Modifier magnitudes",
-    "english":"6% increased Explicit Critical Modifier magnitudes\n6% increased Explicit Physical Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","increased","Explicit","Physical","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Critical Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延暴击词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Critical Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Defence Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Defence Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Defence Modifier magnitudes\n6% increased Explicit Resistance Modifier magnitudes",
-    "english":"6% increased Explicit Defence Modifier magnitudes\n6% increased Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes","increased","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Defence Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延防御词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Defence Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Fire Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Fire Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Fire Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "english":"6% increased Explicit Fire Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes","increased","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Fire Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延火焰词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Fire Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Life Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Life Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Life Modifier magnitudes\n6% increased Explicit Resistance Modifier magnitudes",
-    "english":"6% increased Explicit Life Modifier magnitudes\n6% increased Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes","increased","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Life Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延生命词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Life Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Lightning Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Lightning Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Lightning Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "english":"6% increased Explicit Lightning Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes","increased","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Lightning Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延闪电词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Lightning Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Mana Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Mana Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Mana Modifier magnitudes\n6% increased Explicit Resistance Modifier magnitudes",
-    "english":"6% increased Explicit Mana Modifier magnitudes\n6% increased Explicit Resistance Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","increased","Explicit","Resistance","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Mana Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "english":"6% increased Explicit Mana Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","increased","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Mana Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延魔力词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Mana Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Physical Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Physical Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Physical Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "english":"6% increased Explicit Physical Modifier magnitudes\n6% increased Explicit Speed Modifier magnitudes",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes","increased","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Physical Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延物理词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Physical Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Resistance Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延抗性词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Resistance Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"6% increased Explicit Speed Modifier magnitudes\n属性需求降低 25%",
-    "english":"6% increased Explicit Speed Modifier magnitudes\n25% reduced Attribute Requirements",
-    "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes"]
-  },{
-    "chinese":"6% increased Explicit Speed Modifier magnitudes\nAll Sockets Linked",
+    "chinese":"外延速度词缀增幅提高 6%\nAll Sockets Linked",
     "english":"6% increased Explicit Speed Modifier magnitudes\nAll Sockets Linked",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes","All","Sockets","Linked"]
+    "remaining_english_words":["All","Sockets","Linked"]
   },{
-    "chinese":"8% increased Explicit Ailment Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延异常状态词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Ailment Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Ailment Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延异常状态词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Ailment Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Ailment Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延异常状态词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Ailment Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Ailment Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延异常状态词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Ailment Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Ailment","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Attribute Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延属性词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Attribute Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Attribute Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延属性词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Attribute Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Attribute Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延属性词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Attribute Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Attribute Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延属性词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Attribute Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Attribute","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Caster Damage Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延施法伤害词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Caster Damage Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Caster Damage Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延施法伤害词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Caster Damage Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Caster Damage Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延施法伤害词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Caster Damage Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Caster Damage Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延施法伤害词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Caster Damage Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Caster","Damage","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Chaos Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延混沌词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Chaos Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Chaos Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延混沌词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Chaos Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Chaos Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延混沌词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Chaos Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Chaos Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延混沌词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Chaos Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Chaos","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Cold Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延冰霜词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Cold Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Cold Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延冰霜词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Cold Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Cold Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延冰霜词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Cold Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Cold Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延冰霜词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Cold Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Cold","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Critical Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延暴击词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Critical Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Critical Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延暴击词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Critical Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Critical Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延暴击词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Critical Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Critical Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延暴击词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Critical Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Critical","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Defence Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延防御词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Defence Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Defence Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延防御词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Defence Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Defence Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延防御词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Defence Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Defence Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延防御词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Defence Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Defence","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Fire Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延火焰词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Fire Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Fire Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延火焰词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Fire Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Fire Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延火焰词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Fire Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Fire Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延火焰词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Fire Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Fire","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Life Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延生命词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Life Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Life Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延生命词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Life Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Life Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延生命词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Life Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Life Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延生命词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Life Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Life","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Lightning Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延闪电词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Lightning Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Lightning Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延闪电词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Lightning Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Lightning Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延闪电词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Lightning Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Lightning Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延闪电词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Lightning Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Lightning","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Mana Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延魔力词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Mana Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Mana Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延魔力词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Mana Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Mana Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延魔力词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Mana Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Mana Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延魔力词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Mana Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Mana","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Physical Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延物理词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Physical Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Physical Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延物理词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Physical Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Physical Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延物理词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Physical Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Physical Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延物理词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Physical Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Physical","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Resistance Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延抗性词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Resistance Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Resistance Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延抗性词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Resistance Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Resistance Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延抗性词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Resistance Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Resistance Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延抗性词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Resistance Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Resistance","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
-    "chinese":"8% increased Explicit Speed Modifier magnitudes\nHas 1 White Socket",
+    "chinese":"外延速度词缀增幅提高 8%\nHas 1 White Socket",
     "english":"8% increased Explicit Speed Modifier magnitudes\nHas 1 White Socket",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes","Has","White","Socket"]
+    "remaining_english_words":["Has","White","Socket"]
   },{
-    "chinese":"8% increased Explicit Speed Modifier magnitudes\nHas no Blue Sockets",
+    "chinese":"外延速度词缀增幅提高 8%\nHas no Blue Sockets",
     "english":"8% increased Explicit Speed Modifier magnitudes\nHas no Blue Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes","Has","no","Blue","Sockets"]
+    "remaining_english_words":["Has","no","Blue","Sockets"]
   },{
-    "chinese":"8% increased Explicit Speed Modifier magnitudes\nHas no Green Sockets",
+    "chinese":"外延速度词缀增幅提高 8%\nHas no Green Sockets",
     "english":"8% increased Explicit Speed Modifier magnitudes\nHas no Green Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes","Has","no","Green","Sockets"]
+    "remaining_english_words":["Has","no","Green","Sockets"]
   },{
-    "chinese":"8% increased Explicit Speed Modifier magnitudes\nHas no Red Sockets",
+    "chinese":"外延速度词缀增幅提高 8%\nHas no Red Sockets",
     "english":"8% increased Explicit Speed Modifier magnitudes\nHas no Red Sockets",
     "kind":"craft-stat-group",
-    "remaining_english_words":["increased","Explicit","Speed","Modifier","magnitudes","Has","no","Red","Sockets"]
+    "remaining_english_words":["Has","no","Red","Sockets"]
   },{
     "chinese":"Adds (14-16) to (20-22) Cold Damage to Hits against you\nAdds (14-16) to (20-22) Lightning Damage to Hits against you",
     "english":"Adds (14-16) to (20-22) Cold Damage to Hits against you\nAdds (14-16) to (20-22) Lightning Damage to Hits against you",
@@ -20139,10 +19094,10 @@
     "kind":"craft-stat-group",
     "remaining_english_words":["With","at","least","Strength","in","Radius","Molten","Strike","Projectiles","Chain","time"]
   },{
-    "chinese":"With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles\nWith at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect",
+    "chinese":"With at least 40 Strength in Radius, 熔岩之击可以额外发射 2 个投射物\nWith at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect",
     "english":"With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles\nWith at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect",
     "kind":"craft-stat-group",
-    "remaining_english_words":["With","at","least","Strength","in","Radius","Molten","Strike","fires","additional","Projectiles","With","at","least","Strength","in","Radius","Molten","Strike","has","increased","Area","of","Effect"]
+    "remaining_english_words":["With","at","least","Strength","in","Radius","With","at","least","Strength","in","Radius","Molten","Strike","has","increased","Area","of","Effect"]
   },{
     "chinese":"You and Allies near your Banner have +1% to Damage over Time Multiplier per\n2 Valour consumed for that Banner",
     "english":"You and Allies near your Banner have +1% to Damage over Time Multiplier per\n2 Valour consumed for that Banner",
@@ -31039,11 +29994,6 @@
     "kind":"unique-stat",
     "remaining_english_words":["chance","that","if","you","would","gain","Crab","Barrier","you","instead","gain","up","to"]
   },{
-    "chinese":"10% chance to Curse non-Cursed Enemies with a random Hex on Hit",
-    "english":"10% chance to Curse non-Cursed Enemies with a random Hex on Hit",
-    "kind":"unique-stat",
-    "remaining_english_words":["chance","to","Curse","non","Cursed","Enemies","with","random","Hex","on","Hit"]
-  },{
     "chinese":"10% chance to gain Adrenaline for 2 Seconds when Leech is",
     "english":"10% chance to gain Adrenaline for 2 Seconds when Leech is",
     "kind":"unique-stat",
@@ -31148,11 +30098,6 @@
     "english":"2% of Attack Damage Leeched as Life against Taunted Enemies",
     "kind":"unique-stat",
     "remaining_english_words":["of","Attack","Damage","Leeched","as","Life","against","Taunted","Enemies"]
-  },{
-    "chinese":"20% chance to Curse non-Cursed Enemies with a random Hex on Hit",
-    "english":"20% chance to Curse non-Cursed Enemies with a random Hex on Hit",
-    "kind":"unique-stat",
-    "remaining_english_words":["chance","to","Curse","non","Cursed","Enemies","with","random","Hex","on","Hit"]
   },{
     "chinese":"20% increased Attack and Cast Speed if you've Consumed a Corpse Recently",
     "english":"20% increased Attack and Cast Speed if you've Consumed a Corpse Recently",
@@ -31368,11 +30313,6 @@
     "english":"50% chance to gain an additional Vaal Soul per Enemy Shattered",
     "kind":"unique-stat",
     "remaining_english_words":["chance","to","gain","an","additional","Vaal","Soul","per","Enemy","Shattered"]
-  },{
-    "chinese":"50% increased Herald of Ice Damage",
-    "english":"50% increased Herald of Ice Damage",
-    "kind":"unique-stat",
-    "remaining_english_words":["increased","Herald","of","Ice","Damage"]
   },{
     "chinese":"50% of Cold Damage from Hits taken as Fire Damage",
     "english":"50% of Cold Damage from Hits taken as Fire Damage",
@@ -32259,50 +31199,25 @@
     "kind":"unique-stat",
     "remaining_english_words":["Hatred","has","no","Reservation"]
   },{
-    "chinese":"Herald of Agony has (30-40)% increased Mana Reservation Efficiency",
-    "english":"Herald of Agony has (30-40)% increased Mana Reservation Efficiency",
-    "kind":"unique-stat",
-    "remaining_english_words":["Herald","of","Agony","has","increased","Mana","Reservation","Efficiency"]
-  },{
     "chinese":"Herald of Agony has (60-80)% reduced Mana Reservation Efficiency",
     "english":"Herald of Agony has (60-80)% reduced Mana Reservation Efficiency",
     "kind":"unique-stat",
     "remaining_english_words":["Herald","of","Agony","has","reduced","Mana","Reservation","Efficiency"]
-  },{
-    "chinese":"Herald of Ash has (30-40)% increased Mana Reservation Efficiency",
-    "english":"Herald of Ash has (30-40)% increased Mana Reservation Efficiency",
-    "kind":"unique-stat",
-    "remaining_english_words":["Herald","of","Ash","has","increased","Mana","Reservation","Efficiency"]
   },{
     "chinese":"Herald of Ash has (60-80)% reduced Mana Reservation Efficiency",
     "english":"Herald of Ash has (60-80)% reduced Mana Reservation Efficiency",
     "kind":"unique-stat",
     "remaining_english_words":["Herald","of","Ash","has","reduced","Mana","Reservation","Efficiency"]
   },{
-    "chinese":"Herald of Ice has (30-40)% increased Mana Reservation Efficiency",
-    "english":"Herald of Ice has (30-40)% increased Mana Reservation Efficiency",
-    "kind":"unique-stat",
-    "remaining_english_words":["Herald","of","Ice","has","increased","Mana","Reservation","Efficiency"]
-  },{
     "chinese":"Herald of Ice has (60-80)% reduced Mana Reservation Efficiency",
     "english":"Herald of Ice has (60-80)% reduced Mana Reservation Efficiency",
     "kind":"unique-stat",
     "remaining_english_words":["Herald","of","Ice","has","reduced","Mana","Reservation","Efficiency"]
   },{
-    "chinese":"Herald of Purity has (30-40)% increased Mana Reservation Efficiency",
-    "english":"Herald of Purity has (30-40)% increased Mana Reservation Efficiency",
-    "kind":"unique-stat",
-    "remaining_english_words":["Herald","of","Purity","has","increased","Mana","Reservation","Efficiency"]
-  },{
     "chinese":"Herald of Purity has (60-80)% reduced Mana Reservation Efficiency",
     "english":"Herald of Purity has (60-80)% reduced Mana Reservation Efficiency",
     "kind":"unique-stat",
     "remaining_english_words":["Herald","of","Purity","has","reduced","Mana","Reservation","Efficiency"]
-  },{
-    "chinese":"Herald of Thunder has (30-40)% increased Mana Reservation Efficiency",
-    "english":"Herald of Thunder has (30-40)% increased Mana Reservation Efficiency",
-    "kind":"unique-stat",
-    "remaining_english_words":["Herald","of","Thunder","has","increased","Mana","Reservation","Efficiency"]
   },{
     "chinese":"Herald of Thunder has (60-80)% reduced Mana Reservation Efficiency",
     "english":"Herald of Thunder has (60-80)% reduced Mana Reservation Efficiency",
@@ -33419,10 +32334,10 @@
     "kind":"unique-stat",
     "remaining_english_words":["With","at","least","Strength","in","Radius","Molten","Strike","Projectiles","Chain","time"]
   },{
-    "chinese":"With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles",
+    "chinese":"With at least 40 Strength in Radius, 熔岩之击可以额外发射 2 个投射物",
     "english":"With at least 40 Strength in Radius, Molten Strike fires 2 additional Projectiles",
     "kind":"unique-stat",
-    "remaining_english_words":["With","at","least","Strength","in","Radius","Molten","Strike","fires","additional","Projectiles"]
+    "remaining_english_words":["With","at","least","Strength","in","Radius"]
   },{
     "chinese":"With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect",
     "english":"With at least 40 Strength in Radius, Molten Strike has 25% increased Area of Effect",

@@ -20,10 +20,22 @@ from fetch_gem_reference import gem_sources
 from config_tooltips import compose_tooltip
 from display_formats import compile_formats
 from item_locale import build_items
+from database_locale import build_database
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 OUT = ROOT / 'src' / 'Localization'
+
+
+def write_term_csv(entries):
+    with (OUT / '术语对照.csv').open('w', encoding='utf-8-sig', newline='') as f:
+        w = csv.writer(f)
+        w.writerow(['English', '简体中文', '类别', '核对状态', '中文来源', '英文来源'])
+        for en, v in sorted(entries.items()):
+            # The editable dictionary retains exact source whitespace. Strip
+            # line-end padding only in this human-readable spreadsheet export.
+            display_en = '\n'.join(line.rstrip() for line in en.split('\n'))
+            w.writerow([display_en, v['zh'], v['kind'], v['status'], v.get('source', ''), v.get('english_source', '')])
 
 
 def build():
@@ -151,7 +163,14 @@ def build():
         entries.setdefault(k, {'zh': v, 'kind': 'item-ui', 'status': 'source-code-checked',
                         'source': 'src/Classes/ItemsTab.lua; https://poedb.tw/cn/League'}
         )
-    item_entries, item_templates, item_report = build_items(entries, gem_templates)
+    database_entries, database_templates, database_report = build_database()
+    for en, meta in database_entries.items():
+        entries.setdefault(en, meta)
+    item_entries, item_templates, item_report = build_items(entries, gem_templates + database_templates)
+    item_template_map = {v['en']:v for v in item_templates}
+    for template in database_templates:
+        item_template_map.setdefault(template['en'], template)
+    item_templates = sorted(item_template_map.values(), key=lambda t:(-len(t['en']),t['en']))
     # Existing reviewed UI/gem terminology remains the canonical shared word.
     for en, meta in item_entries.items():
         entries.setdefault(en, meta)
@@ -196,11 +215,7 @@ def build():
         f'\t{lua(en)},\n' for en in sorted(labels, key=lambda s: (-len(s), s))) + '}\n', 'utf8')
     (OUT / 'CalcLabels.lua').write_text('return {\n' + ''.join(f'\t{lua(en)},\n' for en in sorted(calc_labels)) + '}\n', 'utf8')
     (OUT / 'ConfigLabels.lua').write_text('return {\n' + ''.join(f'\t{lua(en)},\n' for en in sorted(config_labels)) + '}\n', 'utf8')
-    with (OUT / '术语对照.csv').open('w', encoding='utf-8-sig', newline='') as f:
-        w = csv.writer(f)
-        w.writerow(['English', '简体中文', '类别', '核对状态', '中文来源', '英文来源'])
-        for en, v in sorted(entries.items()):
-            w.writerow([en, v['zh'], v['kind'], v['status'], v.get('source', ''), v.get('english_source', '')])
+    write_term_csv(entries)
 
     # The font is copied from this PC for local use, not downloaded or installed.
     font_dir = HERE / 'fonts'
@@ -231,10 +246,12 @@ def build():
               'glyphs': len(chars), 'font': 'Microsoft YaHei (local PC copy)',
               'font_sha256': hashlib.sha256(font_path.read_bytes()).hexdigest(),
               'pob_version': '2.67.2', 'name_reference_retrieved': '2026-11-11', 'item_reference_retrieved': '2026-11-12',
-              'passives': passive_report, 'gem_details': gem_report, 'item_details': item_report, 'sidebar_labels': len(labels), 'sidebar_labels_translated': len(labels),
+              'passives': passive_report, 'gem_details': gem_report, 'item_details': item_report,
+              'database_details': {k:v if not isinstance(v,dict)else len(v)for k,v in database_report.items()},
+              'sidebar_labels': len(labels), 'sidebar_labels_translated': len(labels),
               'calculation_labels': len(calc_labels), 'calculation_labels_translated': len(calc_labels),
               'configuration_labels': len(config_labels), 'configuration_labels_translated': len(config_labels) - len(config_pending),
-              'scope': 'Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.29 passives, paired item names/bases/modifiers and finite item UI clauses. Item audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged.'}
+              'scope': 'Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.29 passives, paired item names/bases/modifiers, essence/currency/monster/pantheon/tattoo/enchantment/cluster/boss preset display fields and finite display clauses. Item/database audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged.'}
     (OUT / 'build-info.json').write_text(json.dumps(report, indent=2) + '\n', 'utf-8')
     print(json.dumps(report), flush=True)
 

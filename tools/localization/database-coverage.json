@@ -1,0 +1,87 @@
+{
+  "source_rows": 5711,
+  "matched_pairs": 12106,
+  "exact_entries": 2460,
+  "numeric_templates": 1002,
+  "ambiguous_exact": {
+    "Ancient Orb": [
+      "远古石",
+      "古变石"
+    ],
+    "Tempering Orb": [
+      "回火石",
+      "淬炼石"
+    ],
+    "Tailoring Orb": [
+      "裁剪石",
+      "裁缝石"
+    ],
+    "Goatman Shaman": [
+      "羊人术师",
+      "羊人萨满"
+    ],
+    "Bone Husk": [
+      "白骨之牙",
+      "骨壳"
+    ],
+    "Necromancer": [
+      "死灵法师",
+      "召唤师",
+      "死灵师"
+    ],
+    "Tentacle Miscreation": [
+      "古灵实验者:扫荡者",
+      "古灵实验者：扫荡者"
+    ],
+    "Instilling Orb": [
+      "灌顶石",
+      "滴注石"
+    ],
+    "Orb of Annulment": [
+      "剥离石",
+      "无效石"
+    ],
+    "Gut Flayer": [
+      "裂脏剥皮者",
+      "裂脏剥皮刃"
+    ],
+    "Necromantic Aegis": [
+      "灵能护盾",
+      "灵能神盾"
+    ],
+    "Whipping Miscreation": [
+      "古灵实验者:长鞭",
+      "古灵实验者：长鞭"
+    ],
+    "Evasion": [
+      "闪避值",
+      "闪避"
+    ],
+    "Blood Magic": [
+      "血魔法",
+      "祭血术"
+    ]
+  },
+  "ambiguous_templates": {
+    "{0}% increased maximum Life": [
+      "生命上限提高 {0}%",
+      "增加 {0}% 最大生命"
+    ],
+    "{0}% increased maximum Energy Shield": [
+      "能量护盾上限提高 {0}%",
+      "增加 {0}% 最大能量护盾"
+    ],
+    "Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past {0} seconds": [
+      "若你在过去 {0} 秒内尚未引爆符纹，则爆裂符纹将你传送至被引爆的符纹处",
+      "你若在过去 {0} 秒内没有引爆符纹，则爆裂符纹将你传送至被引爆的符纹处"
+    ],
+    "{0}% Chance to Block Attack Damage": [
+      "{0}% 攻击伤害格挡几率",
+      "{0}% 攻击伤害格挡率"
+    ],
+    "{0}% Chance to Block Spell Damage": [
+      "{0}% 法术伤害格挡几率",
+      "{0}% 格挡法术伤害几率"
+    ]
+  }
+}

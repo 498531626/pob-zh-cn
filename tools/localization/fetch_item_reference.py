@@ -4,6 +4,7 @@ from pathlib import Path
 import json
 import urllib.request
 import gzip
+import argparse
 
 HERE = Path(__file__).resolve().parent / 'item-reference'
 
@@ -22,6 +23,9 @@ def fetch(slug, language):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--directory', type=Path, default=HERE)
+    HERE = parser.parse_args().directory.resolve()
     manifest = json.loads((HERE / 'sources.json').read_text('utf8'))
     failures = []
     with ThreadPoolExecutor(max_workers=6) as pool:

@@ -32,10 +32,26 @@ STATS = {'maximum Life':'生命上限', 'maximum Energy Shield':'能量护盾上
          'Chill and Freeze Duration on Enemies':'敌人的冰缓和冻结持续时间',
          'Prefix Modifier magnitudes':'前缀词缀数值', 'Suffix Modifier magnitudes':'后缀词缀数值',
          'Enchantment Modifier magnitudes':'附魔词缀数值', 'Stun Threshold':'晕眩门槛'}
+for name, zh in {'Life':'生命', 'Mana':'魔力', 'Defence':'防御', 'Resistance':'抗性',
+                 'Attribute':'属性', 'Physical':'物理', 'Physical and Chaos Damage':'物理和混沌伤害',
+                 'Fire':'火焰', 'Cold':'冰霜', 'Lightning':'闪电', 'Chaos':'混沌',
+                 'Elemental Damage':'元素伤害', 'Caster Damage':'施法伤害', 'Speed':'速度',
+                 'Critical':'暴击', 'Ailment':'异常状态', 'Minion':'召唤生物'}.items():
+    # PoEDB Tailoring Orb / Tempering Orb enchantments use this wording.
+    STATS['Explicit '+name+' Modifier magnitudes'] = '外延'+zh+'词缀增幅'
 AMOUNT = r'([+\-]?(?:\(\-?\d+(?:\.\d+)?-\-?\d+(?:\.\d+)?\)|\d+(?:\.\d+)?|#))'
 
 
 def compose_item(text, resolve, terms):
+    sockets = re.fullmatch(r'All Sockets are (Blue|Green|Red|White)', text)
+    if sockets: return '所有插槽均为'+{'Blue':'蓝色','Green':'绿色','Red':'红色','White':'白色'}[sockets[1]]
+    if '/' in text:
+        parts = [resolve(part.strip()) for part in text.split('/')]
+        if all(parts): return '\n'.join(parts)
+    prefix = 'Added Small Passive Skills grant: '
+    if text.startswith(prefix):
+        base = resolve(text[len(prefix):])
+        if base: return '增加的小天赋获得：'+base
     for suffix, zh in CONDITIONS.items():
         if text.endswith(' '+suffix):
             base = resolve(text[:-len(suffix)-1])

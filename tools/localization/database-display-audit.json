@@ -1,0 +1,30 @@
+{
+  "by_kind":{
+    "boss-skill-name":11,
+    "boss-skill-tooltip":9,
+    "cluster-name":55,
+    "cluster-stat":120,
+    "craft-affix":8,
+    "craft-extra-stat":2365,
+    "currency-name":471,
+    "enchantment-stat":1723,
+    "essence-name":105,
+    "minion-name":59,
+    "pantheon-name":32,
+    "pantheon-stat":41,
+    "spectre-name":260,
+    "tattoo-name":172,
+    "tattoo-stat":280
+  },
+  "number_issues":[],
+  "number_notes":[{
+      "english":"6% chance to gain a Frenzy Charge on Kill",
+      "reason":"PoEDB makes the singular article a explicit as 1; chance and charge count are unchanged."
+    }],
+  "pending_by_kind":{
+    "craft-extra-stat":659,
+    "enchantment-stat":218,
+    "tattoo-stat":133
+  },
+  "total":5711
+}
