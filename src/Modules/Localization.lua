@@ -1,5 +1,5 @@
 -- Display-only localisation: game IDs, parser input and saved builds stay English.
-local L = { mode = "bilingual", suspended = 0 }
+local L = { mode = "zh", suspended = 0 }
 local dictionary = LoadModule("Localization/Dictionary")
 local passiveContexts = LoadModule("Localization/PassiveContexts")
 local panelLabels = LoadModule("Localization/PanelLabels")
@@ -42,15 +42,15 @@ local file = io.open(settingPath, "r")
 if file then
 	local mode = file:read("*l")
 	file:close()
-	if mode == "en" or mode == "zh" or mode == "bilingual" then L.mode = mode end
+	if mode == "en" or mode == "zh" then L.mode = mode end
 end
 
 function L:EffectiveMode()
-	return IsKeyDown("ALT") and "en" or self.mode
+	return self.mode
 end
 
 function L:Cycle()
-	self.mode = ({ en = "zh", zh = "bilingual", bilingual = "en" })[self.mode]
+	self.mode = ({ en = "zh", zh = "en" })[self.mode]
 	local output = io.open(settingPath, "w")
 	if output then output:write(self.mode, "\n"); output:close() end
 end
@@ -409,11 +409,11 @@ function L:Translate(text, nodeId, displayMode)
 	local dynamic = not zh and (interfaceChinese(body, nodeId) or (not body:find("[\128-\255]") and dynamicChinese(body)))
 	local result = text
 	if direct then
-		result = prefix .. zh .. (mode == "bilingual" and " / " .. body or "")
+		result = prefix .. zh
 	elseif zh then
-		result = prefix .. zh .. (mode == "bilingual" and " / " .. name or "") .. trailing
+		result = prefix .. zh .. trailing
 	elseif dynamic then
-		result = prefix .. dynamic .. (mode == "bilingual" and " / " .. body or "")
+		result = prefix .. dynamic
 	elseif body:find("^", 1, true) then
 		local plain = body:gsub("%^x%x%x%x%x%x%x", ""):gsub("%^%d", "")
 		if plain ~= body then
@@ -437,7 +437,7 @@ function L:Translate(text, nodeId, displayMode)
 						start = nextCode
 					else start = first + 1 end
 				end
-				result = prefix .. translated .. (mode == "bilingual" and " / " .. body or "")
+				result = prefix .. translated
 			end
 		end
 	elseif body:find("\n", 1, true) then
@@ -454,11 +454,9 @@ function L:Translate(text, nodeId, displayMode)
 	return result
 end
 
--- Fixed-size UI cells cannot fit two full labels. In comparison mode keep the
--- interface compact and show both languages in the wrapped detail tooltips.
--- English mode and holding Alt still expose the complete original interface.
+-- UI labels and detail tooltips follow the same selected language.
 function L:TranslateUI(text)
-	return self:Translate(text, nil, self:EffectiveMode() == "bilingual" and "zh" or nil)
+	return self:Translate(text)
 end
 
 -- Translate parsed item name components, never the item or its saved raw text.

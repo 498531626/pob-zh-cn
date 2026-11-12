@@ -211,9 +211,9 @@ function main:Init()
 		self:OpenAboutPopup()
 	end)
 	self.controls.language = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -24, 140, 20}, function()
-		return ({ en = "English", zh = "中文", bilingual = "中文 / English" })[Localization.mode] .. " [F8]"
+		return ({ en = "English", zh = "中文" })[Localization.mode] .. " [F8]"
 	end, function() Localization:Cycle() end)
-	self.controls.language.tooltipText = "F8: English / 中文 / 中文 + English\nHold Alt: original English\nPoEDB name reference; untranslated text stays English."
+	self.controls.language.tooltipText = "F8: English / 中文\nPoEDB name reference; untranslated text stays English."
 	self.controls.applyUpdate = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -24, 140, 20}, "^x50E050Update Ready", function()
 		self:OpenUpdatePopup()
 	end)

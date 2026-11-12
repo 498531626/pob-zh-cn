@@ -17,7 +17,7 @@
 2. 只获取目标 tag，例如 `git fetch --no-tags upstream tag vX.Y.Z`。不要直接 `git pull upstream dev`。
 3. 运行 `python tools/upstream/check_update.py vX.Y.Z`。报告官方改动、本地改动、重叠文件和重点复核项；即使没有文件重叠也要检查调用合同与数据版本。
 4. 从 `localization` 创建独立 `update/vX.Y.Z` 分支，必要时使用 worktree。执行 `git merge --no-ff --no-commit vX.Y.Z`，逐项解决冲突。保留官方新行为，再重新接入汉化，不整体选择 ours/theirs。
-5. 检查启动流程、绘制函数、UTF-8 字宽/换行、F8 与 Alt、输入框隔离、天赋节点上下文和提示缓存。根据新版界面补齐词条。计算、解析和构筑格式继续遵循官方。
+5. 检查启动流程、绘制函数、UTF-8 字宽/换行、F8 中英文切换与 Alt 不改变语言、输入框隔离、天赋节点上下文和提示缓存。根据新版界面补齐词条。计算、解析和构筑格式继续遵循官方。
 6. 若游戏数据或树版本变化，重新导出本地树快照，并获取同版本中英文参考；调整 `fetch_reference.ps1`、`passive_locale.py` 和生成器中的版本/来源信息。版本不匹配时保留英文并记录缺口。
 7. 检查官方 runtime 文件或压缩包的变化。当前源码运行使用已展开的 `runtime/`，如新版只更新运行时压缩包，也需按官方开发安装方式同步展开文件；保留设置、构筑和本地数据。
 8. 运行 `python tools/localization/build_locale.py`，审查生成差异，然后运行 `python tools/localization/test_locale.py`。按变更范围运行相关 `spec` 测试。真实窗口检查语言切换、中文绘制、主要页面、构筑导入/保存/重开与计算；使用测试构筑或副本，避免覆盖用户构筑。

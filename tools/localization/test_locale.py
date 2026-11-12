@@ -44,6 +44,32 @@ function NewImageHandle() return {Load=function() end} end
 function wipeTable(t) t=t or {}; for k in pairs(t) do t[k]=nil end; return t end
 Localization = LoadModule('Modules/Localization')
 local L = Localization
+assert(L.mode=='zh','Default language must be Chinese')
+-- Load isolated module environments to check existing settings and persistence
+-- without opening the user's language.cfg or nesting global drawing hooks.
+for _,saved in ipairs({'missing','zh','en','bilingual','invalid'}) do
+    local stored = saved ~= 'missing' and saved or nil
+    local env = setmetatable({}, {__index=_G})
+    env.io = setmetatable({open=function(path, mode)
+        assert(path=='__localization_test_no_save__/Localization/language.cfg')
+        if mode=='r' then
+            if not stored then return nil end
+            return {read=function() return stored end,close=function() end}
+        end
+        return {write=function(_,value) stored=value end,close=function() end}
+    end}, {__index=io})
+    local function reload()
+        return setfenv(assert(loadfile('Modules/Localization.lua')),env)()
+    end
+    local selected=reload()
+    assert(selected.mode==(saved=='en' and 'en' or 'zh'),'Legacy/default setting: '..saved)
+    local first=selected.mode
+    alt=true;assert(selected:EffectiveMode()==first);alt=false
+    selected:Cycle()
+    assert(selected.mode==(first=='zh' and 'en' or 'zh') and stored==selected.mode)
+    assert(reload().mode==selected.mode,'Language did not persist')
+    selected:Cycle();assert(selected.mode==first and stored==first)
+end
 local dict = LoadModule('Localization/Dictionary')
 local panelLabels = LoadModule('Localization/PanelLabels')
 local calcLabels = LoadModule('Localization/CalcLabels')
@@ -65,13 +91,13 @@ for _,label in ipairs(configLabels) do
         L.mode='en';assert(L:Translate(label)==label,label)
     end
 end
-L.mode='bilingual'
+L.mode='zh'
 assert(L:TranslateUI('Strength')==dict.Strength)
-assert(L:Translate('Strength')==dict.Strength..' / Strength')
+assert(L:Translate('Strength')==dict.Strength)
 L.mode='zh'
 -- Native text APIs accept numeric calculation cells. Both localisation hooks
--- must preserve this contract, including English/Alt and untranslated scopes.
-for _,mode in ipairs({'zh','en','bilingual'}) do
+-- must preserve this contract, including English and held Alt and untranslated scopes.
+for _,mode in ipairs({'zh','en'}) do
     L.mode=mode
     for _,value in ipairs({0, -42, 1234.5}) do
         assert(DrawStringWidth(12,'VAR',value)==#tostring(value)*6)
@@ -90,8 +116,6 @@ assert(L:Translate('Life (10 remaining)')=='生命 (剩余 10)')
 assert(L:Translate('base life of a level 83 monster')=='83 级怪物的基础生命')
 assert(L:Translate('Recovers 120 Life over 3.50 Seconds')=='回复 120 生命，历时 3.50 秒')
 assert(L:Translate('Recovers secret Life over 3.50 Seconds')=='Recovers secret Life over 3.50 Seconds')
-L.mode='bilingual'
-assert(L:Translate('base life of a level 83 monster')=='83 级怪物的基础生命 / base life of a level 83 monster')
 L.mode='en';assert(L:Translate('Recovers 120 Life over 3.50 Seconds')=='Recovers 120 Life over 3.50 Seconds')
 L.mode='zh'
 assert(L:Translate('Skill Hit Damage: 1,608.6 DPS')==dict['Skill Hit Damage']..': 1,608.6 每秒伤害')
@@ -113,7 +137,6 @@ for _,template in ipairs(itemTemplates)do
     for n,count in pairs(before)do assert(after[n]==count,'Item numeric value lost: '..template.en..' => '..zh)end
     assert(not zh:match('{%d+}'),'Unbound item number: '..template.en)
     L.mode='en';assert(L:Translate(en)==en,'Item English changed')
-    L.mode='bilingual';assert(L:Translate(en):find(en,1,true),'Item comparison lost source')
 end
 L.mode='zh'
 assert(L:Translate('Affix: Tier 2 (of the Eagle)'):find('2',1,true))
@@ -123,8 +146,7 @@ assert(L:Translate('Variant: Current (3 variants)')=='变体：当前（3 个变
 assert(L:Translate("Watcher's Eye")=='守望之眼')
 assert(L:Translate("^xAF6025Watcher's Eye, Prismatic Jewel")=='^xAF6025守望之眼, 三相珠宝')
 L.mode='en';assert(L:Translate("Watcher's Eye, Prismatic Jewel")=="Watcher's Eye, Prismatic Jewel")
-L.mode='bilingual';assert(L:Translate("Watcher's Eye, Prismatic Jewel")=="守望之眼, 三相珠宝 / Watcher's Eye, Prismatic Jewel")
-L.mode='zh';alt=true;assert(L:Translate("Watcher's Eye")=="Watcher's Eye");alt=false
+L.mode='zh';alt=true;assert(L:Translate("Watcher's Eye")=="守望之眼");alt=false
 assert(L:Translate('Physical Damage: 12-34 (50.5 DPS)')=='物理伤害: 12-34 (50.5 每秒伤害)')
 assert(L:Translate('Exclusive to: Blight')=='仅限于: 菌潮')
 assert(dict.Blight~='菌潮','League name overwrote the skill name')
@@ -141,7 +163,6 @@ for _,template in ipairs(templates) do
     zh=dict[en] or zh
     L.mode='zh';assert(L:Translate(en)==zh,template.en..' => '..L:Translate(en))
     L.mode='en';assert(L:Translate(en)==en)
-    L.mode='bilingual';assert(L:Translate(en)==zh..' / '..en,template.en)
 end
 L.mode='zh'
 assert(L:Translate('^xFF0000Strength ^8(Not supported in PoB yet)')=='^xFF0000力量 ^8（PoB 尚未支持此效果）')
@@ -157,7 +178,6 @@ for _, label in ipairs(panelLabels) do
     local zh='^x33FF77+1,234.5 '..dict[label]..' (+5.0%) ^8[+0.25 (+1.0%) 每点]'
     assert(L:Translate(raw)==zh,label)
     L.mode='en';assert(L:Translate(raw)==raw)
-    L.mode='bilingual';assert(L:Translate(raw)==zh..' / '..raw:sub(9))
 end
 L.mode='zh'
 assert(L:Translate('^1-3.25% Movement Speed Modifier (-1.5%)')=='^1-3.25% 移动速度修正 (-1.5%)')
@@ -173,7 +193,6 @@ for nodeId, texts in pairs(contexts) do
         local suffix=' ^8(Not supported in PoB yet)'
         assert(L:Translate('^xF05050'..en..suffix,nodeId)=='^xF05050'..zh..' ^8（PoB 尚未支持此效果）')
         L.mode = 'en'; assert(L:Translate(en,nodeId) == en)
-        L.mode = 'bilingual'; assert(L:Translate(en,nodeId) == zh .. ' / ' .. en)
         checked = checked + 1
     end
 end
@@ -191,8 +210,8 @@ for nodeId,context in pairs(LoadModule('Localization/PassiveContexts'))do
 end
 assert(grouped>100,'Multiline passive fixtures missing')
 L.mode = 'zh'; assert(L:Translate('UNVERIFIED NODE TEXT') == 'UNVERIFIED NODE TEXT')
-alt=true; assert(L:Translate('Strength') == 'Strength'); alt=false
-L:Cycle(); assert(L.mode=='bilingual'); L:Cycle(); assert(L.mode=='en'); L:Cycle(); assert(L.mode=='zh')
+alt=true; assert(L:Translate('Strength') == dict.Strength); alt=false
+L:Cycle(); assert(L.mode=='en'); alt=true; assert(L:EffectiveMode()=='en'); alt=false; L:Cycle(); assert(L.mode=='zh')
 assert(L:WithoutTranslation(function() return L:Translate('Strength') end) == 'Strength')
 local ok=pcall(function() L:WithoutTranslation(function() error('expected') end) end)
 assert(not ok and L.suspended==0)
@@ -218,7 +237,7 @@ local calcs={input={},calcsEnv={player={breakdown={Numeric={
     colList={{key='value',label='Strength'}},rowList=rows,
 }}}},CheckFlag=function() return true end}
 local breakdown=setmetatable({calcsTab=calcs},{__index=B})
-for _,mode in ipairs({'zh','en','bilingual'}) do
+for _,mode in ipairs({'zh','en'}) do
     L.mode=mode
     for _,separators in ipairs({false,true}) do
         main.showThousandsSeparators=separators
@@ -236,9 +255,10 @@ tip.lines={};tip.blocks={};tip:Clear()
 tip.maxWidth=180
 tip:AddLine(16,'^x8888FF'..'Strength')
 assert(tip.lines[1].text=='^x8888FF力量')
-L.mode='bilingual';tip:Clear();tip.maxWidth=180
+L.mode='en';tip:Clear();tip.maxWidth=180
 tip:AddLine(16,'^x8888FFStrength')
-assert(tip.lines[1].text=='^x8888FF力量 / Strength')
+assert(tip.lines[1].text=='^x8888FFStrength')
+L.mode='zh'
 tip:Clear();tip.maxWidth=180
 tip:AddLine(16,'^x8888FF'..string.rep('能量护盾',15))
 assert(#tip.lines>1)
@@ -263,12 +283,13 @@ L.mode='en';tip:Clear()
 buildMode:CompareStatList(tip,stats,actor,baseline,changed,'^7Allocating this node will give you:',2)
 assert(tip.lines[2].text=='^x33FF77+10 Total Life (+10.0%) ^8[+5 (+5.0%) per point]')
 assert(baseline.Life==100 and changed.Life==110)
-L.mode='bilingual'
+L.mode='zh'
 assert(tip:CheckForUpdate('same-node'))
 assert(not tip:CheckForUpdate('same-node'))
 L.mode='en';assert(tip:CheckForUpdate('same-node'))
-alt=true;L.mode='zh';assert(not tip:CheckForUpdate('same-node'))
-alt=false;assert(tip:CheckForUpdate('same-node'))
+L.mode='zh';assert(tip:CheckForUpdate('same-node'))
+alt=true;assert(not tip:CheckForUpdate('same-node'))
+alt=false;assert(not tip:CheckForUpdate('same-node'))
 -- Exercise the actual edit control: only editable bytes are protected. Its
 -- prompt width and tooltip must still follow the selected interface language.
 LoadModule('Classes/EditControl')
@@ -292,11 +313,12 @@ for _,s in ipairs(rawDrawn)do if s=='Strength'then inputDrawn=true end end
 assert(inputDrawn,'Editable buffer was translated')
 assert(viewportX==2+L:WithoutTranslation(DrawStringWidth,16,'VAR',dict.Level)+8)
 assert(contentWidth==#'Strength'*8+2,'Editable width was translated')
-L.mode='bilingual';edit:Draw({})
-assert(tip.lines[1].text=='力量 / Strength')
+alt=true;edit:Draw({})
+assert(tip.lines[1].text=='力量')
+alt=false
 assert(viewportX==2+L:WithoutTranslation(DrawStringWidth,16,'VAR',dict.Level)+8)
 L.mode='en';edit:Draw({})
 assert(tip.lines[1].text=='Strength' and viewportX==2+#'Level'*8+8)
 for _,p in ipairs({'Modules/Main.lua','Classes/PassiveTreeView.lua','Classes/EditControl.lua','Classes/ButtonControl.lua','Classes/SkillListControl.lua','Classes/GemTooltip.lua'}) do assert(loadfile(p)) end
-print('Verified '..checked..' context translations and '..#panelLabels..' panel labels in three modes; actual comparison formatter, numeric preservation, colour, fallback, Alt, wrapping, tooltip invalidation, edit isolation and Lua syntax passed.')
+print('Verified '..checked..' context translations and '..#panelLabels..' panel labels in two modes; actual comparison formatter, numeric preservation, colour, fallback, Alt language independence, wrapping, tooltip invalidation, edit isolation and Lua syntax passed.')
 ''')

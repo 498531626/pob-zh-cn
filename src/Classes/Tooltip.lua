@@ -9,7 +9,7 @@ local m_max = math.max
 local m_floor = math.floor
 local s_gmatch = string.gmatch
 -- Text is translated once at AddLine, before wrapping. Width and drawing must
--- use that resolved text verbatim, including English in bilingual tooltips.
+-- use that resolved text verbatim, in the selected interface language.
 local globalDrawString, globalDrawStringWidth = DrawString, DrawStringWidth
 local function DrawString(...)
 	if Localization then return Localization:WithoutTranslation(globalDrawString, ...) end
