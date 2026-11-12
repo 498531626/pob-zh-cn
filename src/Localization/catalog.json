@@ -279733,5 +279733,15 @@
     "zh": "GitHub 项目页：^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding",
     "kind": "ui-detail",
     "status": "source-code-checked"
+  },
+  "Find a Timeless Jewel": {
+    "zh": "寻找永恒珠宝",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
+  },
+  "Templar/Witch": {
+    "zh": "圣堂武僧/女巫",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
   }
 }

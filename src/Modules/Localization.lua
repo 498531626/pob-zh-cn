@@ -178,6 +178,13 @@ local function interfaceChinese(body, nodeId)
 	if replaced then return "（替换 " .. L:Translate(replaced, nil, "zh") .. "）" end
 	local socket = body:match("^Socket #(%d+)$")
 	if socket then return "插槽 #" .. socket end
+	-- Timeless socket labels retain their English key and numeric socket ID.
+	-- Translate only reviewed names, preserving the allocated-node marker.
+	local marker = body:sub(1, 2) == "# " and "# " or ""
+	local socketName, socketId = body:sub(#marker + 1):match("^(.+): (%d+)$")
+	if socketName and dictionary[socketName] then
+		return marker .. dictionary[socketName] .. ": " .. socketId
+	end
 end
 local function dynamicChinese(body)
 	local interface = interfaceChinese(body)
