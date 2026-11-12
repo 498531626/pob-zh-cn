@@ -3,20 +3,17 @@
     "affix-name":2152,
     "base-name":1094,
     "base-stat":400,
-    "craft-stat":19997,
-    "craft-stat-group":4202,
+    "craft-stat":19625,
+    "craft-stat-group":2051,
     "item-type":46,
     "unique-name":1328,
     "unique-stat":9231,
-    "unique-tooltip":8884
+    "unique-tooltip":8867
   },
   "pending_by_kind":{
-    "affix-name":867,
-    "base-name":4,
-    "base-stat":25,
-    "craft-stat":1221,
-    "craft-stat-group":2467,
-    "unique-tooltip":279
+    "craft-stat":2,
+    "craft-stat-group":1,
+    "unique-tooltip":277
   },
-  "total":47334
+  "total":44794
 }

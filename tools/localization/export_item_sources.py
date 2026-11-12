@@ -46,11 +46,15 @@ for _,p in ipairs(paths.Uniques)do
 end
 local function scan(t)
  if type(t)~='table'then return end
- if type(t[1])=='string'and type(t[2])=='string'then add(table.concat(t,'\n'),'craft-stat-group')end
+ if type(t.type)=='string'or type(t.affix)=='string'then
+  local lines={}
+  for _,line in ipairs(t)do if type(line)=='string'then lines[#lines+1]=line;add(line,'craft-stat')end end
+  if #lines>1 then add(table.concat(lines,'\n'),'craft-stat-group')end
+  add(t.affix,'affix-name')
+  return
+ end
  for k,v in pairs(t)do
-  if type(k)=='number'and type(v)=='string'then add(v,'craft-stat')
-  elseif type(v)=='table'and k~='tradeHashes'then scan(v)
-  elseif k=='affix'then add(v,'affix-name')end
+  if type(v)=='table'and k~='tradeHashes'then scan(v)end
  end
 end
 for _,p in ipairs(paths.Mods)do scan(assert(loadfile(p..'.lua'))())end

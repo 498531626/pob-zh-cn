@@ -29,7 +29,7 @@ def complete_item(text, resolve, terms):
     schemas = [
         (N+r' to Level of all (.+) Gems', lambda m: '所有'+term(m[2])+'宝石等级 '+m[1] if term(m[2]) else None),
         (N+r' Added Passive Skill is (.+)', lambda m: m[1]+' 个增加的天赋为'+term(m[2]) if term(m[2]) else None),
-        (r'Socketed (Gems|Slam Gems|Spells) are Supported by [Ll]evel '+N+r' (.+)',
+        (r'Socketed (Gems|Slam Gems|Spells) are [Ss]upported by [Ll]evel '+N+r' (.+)',
          lambda m: '插槽内的'+{'Gems':'宝石','Slam Gems':'猛击宝石','Spells':'法术'}[m[1]]+'受到 '+m[2]+' 级'+support(m[3]) if support(m[3]) else None),
         (r'Grants Level '+N+r' (.+) Skill', lambda m: '获得 '+m[1]+' 级'+term(m[2])+'技能' if term(m[2]) else None),
         (r'Grants (.+) Skill', lambda m: '获得'+term(m[1])+'技能' if term(m[1]) else None),

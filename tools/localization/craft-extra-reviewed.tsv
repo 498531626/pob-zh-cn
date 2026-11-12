@@ -1,0 +1,482 @@
+// English numeric shape	Reviewed Chinese; placeholders follow English numeric order
+# Added Passive Skill is a Jewel Socket	{0} 个增加的天赋为珠宝插槽
+# Added Passive Skills are Jewel Sockets	{0} 个增加的天赋为珠宝插槽
+# Life per #% increased Rarity of Items found	每 {1}% 物品掉落稀有度提高提供 {0} 生命
+# Valour consumed for that Banner	该战旗消耗的 {0} 点胆魄
+# to # Added Attack Lightning Damage per # Accuracy Rating	每 {2} 命中值附加 {0} - {1} 攻击闪电伤害
+# to Evasion Rating per # Player Maximum Life	玩家每 {1} 生命上限提供 {0} 闪避值
+# to Global Evasion Rating while moving	移动时全域闪避值 {0}
+# to Level of Socketed Trap Gems	插槽内陷阱宝石等级 {0}
+# to Level of all Dexterity Skill Gems	所有敏捷技能宝石等级 {0}
+# to Level of all Herald Skill Gems	所有捷技能宝石等级 {0}
+# to Level of all Intelligence Skill Gems	所有智慧技能宝石等级 {0}
+# to Level of all Strength Skill Gems	所有力量技能宝石等级 {0}
+# to Maximum Charges. # to this value when used	充能上限 {0}，使用时该数值 {1}
+# to level of Skills used by this Graft	此嫁接施放的技能等级 {0}
+# to maximum Energy Shield if there are no Defence Modifiers on other Equipped Items	其他已装备物品没有防御词缀时，能量护盾上限 {0}
+# to maximum Sockets	插槽数量上限 {0}
+# to maximum number of Summoned Searing Bond Totems	灼热连接图腾数量上限 {0}
+#% Chance to Block Attack Damage from Taunted Enemies	对被嘲讽敌人的攻击伤害格挡几率 {0}%
+#% Chance to Block Attack and Spell Damage	攻击和法术伤害格挡几率 {0}%
+#% additional Physical Damage Reduction if you weren't Damaged by a Hit Recently	近期内未受到击中伤害时，额外获得 {0}% 物理伤害减免
+#% chance on Hitting an Enemy for all Impales on that Enemy to last for an additional Hit	击中敌人时有 {0}% 的几率使其身上所有穿刺额外持续一次击中
+#% chance to Blind Enemies on Hit with Spells	法术击中时有 {0}% 的几率使敌人致盲
+#% chance to Cover Enemies in Frost on Hit	击中时有 {0}% 的几率使敌人受到寒霜覆盖
+#% chance to Curse Enemies with Elemental Weakness on Hit	击中时有 {0}% 的几率用元素要害诅咒敌人
+#% chance to Curse Enemies with Vulnerability on Hit	击中时有 {0}% 的几率用脆弱诅咒敌人
+#% chance to Curse you with Punishment on Kill	击败敌人时有 {0}% 的几率对自身施加惩戒诅咒
+#% chance to Poison with Melee Weapons	使用近战武器时有 {0}% 的几率造成中毒
+#% chance to Restore your Ward on Hit	击中时有 {0}% 的几率恢复结界
+#% chance to Suppress Spell Damage if you've Suppressed Spell Damage Recently	近期内压制过法术伤害时，法术伤害压制率为 {0}%
+#% chance to Trigger Level # Create Lesser Shrine when you Kill an Enemy	击败敌人时有 {0}% 的几率触发 {1} 级创造次级神殿
+#% chance to Trigger Level # Shade Form when Hit	被击中时有 {0}% 的几率触发 {1} 级暗影姿态
+#% chance to Trigger Socketed Spells on Killing a Shocked Enemy	击败被感电的敌人时有 {0}% 的几率触发插槽内法术
+#% chance to Trigger Socketed Spells when you Spend at least # Life on an	支付至少 {1} 生命用于以下预付消耗时，有 {0}% 的几率触发插槽内法术：
+#% chance to create Consecrated Ground when you Shatter an Enemy	粉碎敌人时有 {0}% 的几率产生奉献地面
+#% chance to gain Unholy Might for # seconds on Critical Strike	暴击时有 {0}% 的几率获得 {1} 秒不洁之力
+#% chance to gain a Frenzy Charge when Hit	被击中时有 {0}% 的几率获得一个狂怒球
+#% chance to gain a Frenzy Charge when you Block	格挡时有 {0}% 的几率获得一个狂怒球
+#% chance to gain a Frenzy Charge when you Hit a Rare or Unique Enemy	击中稀有或传奇敌人时有 {0}% 的几率获得一个狂怒球
+#% chance to gain a Frenzy Charge when you Hit a Unique Enemy	击中传奇敌人时有 {0}% 的几率获得一个狂怒球
+#% chance to gain a Power Charge when you Stun with Melee Damage	近战伤害晕眩敌人时有 {0}% 的几率获得一个暴击球
+#% chance to gain an Endurance Charge when you Hit a Bleeding Enemy	击中流血的敌人时有 {0}% 的几率获得一个耐力球
+#% chance to gain an Endurance Charge when you Taunt an Enemy	嘲讽敌人时有 {0}% 的几率获得一个耐力球
+#% chance to inflict Bleeding on Hit with Attacks against Taunted Enemies	攻击击中被嘲讽的敌人时有 {0}% 的几率造成流血
+#% chance to inflict Corrosion on Hit with Spells	法术击中时有 {0}% 的几率施加腐蚀
+#% chance to lose #% of Mana when you use a Skill	使用技能时有 {0}% 的几率失去 {1}% 魔力
+#% chance to lose a Frenzy Charge on Kill	击败敌人时有 {0}% 的几率失去一个狂怒球
+#% chance to lose a Power Charge on Kill	击败敌人时有 {0}% 的几率失去一个暴击球
+#% chance to lose an Endurance Charge on Kill	击败敌人时有 {0}% 的几率失去一个耐力球
+#% chance to spread Tar when Hit	被击中时有 {0}% 的几率散布焦油
+#% chance to take #% less Area Damage from Hits per #% Overcapped Cold Resistance	每 {2}% 超额冰霜抗性使你有 {0}% 的几率受到的击中范围伤害总降 {1}%
+#% chance when you pay a Skill's Cost to gain that much Mana	支付技能消耗时有 {0}% 的几率获得等量魔力
+#% increased Armour and Evasion Rating if you've killed a Taunted Enemy Recently	近期内击败过被嘲讽的敌人时，护甲和闪避值提高 {0}%
+#% increased Aspect of the Cat Buff Effect	猫之势的增益效果提高 {0}%
+#% increased Aspect of the Crab Buff Effect	蟹之势的增益效果提高 {0}%
+#% increased Aspect of the Spider Debuff Effect	蛛之势的减益效果提高 {0}%
+#% increased Attack Damage with Off Hand	副手攻击伤害提高 {0}%
+#% increased Attack and Cast Speed for each nearby Enemy, up to a maximum of #%	附近每个敌人使攻击和施法速度提高 {0}%，最多 {1}%
+#% increased Attack, Cast and Movement Speed during Effect	药剂持续期间，攻击、施法和移动速度提高 {0}%
+#% increased Chill Duration on you	你受到的冰缓持续时间延长 {0}%
+#% increased Cold Damage per #% Chance to Block Attack Damage	每 {1}% 攻击伤害格挡几率使冰霜伤害提高 {0}%
+#% increased Cooldown Recovery Rate for each Green Skill Gem you have socketed	每个插入的绿色技能宝石使冷却回复速度提高 {0}%
+#% increased Cooldown Recovery Rate of Movement Skills	位移技能的冷却回复速度提高 {0}%
+#% increased Damage per Moon Rite completed	每完成一次月之仪式，伤害提高 {0}%
+#% increased Damage per Power Charge with Hits against Enemies on Full Life	每个暴击球使对满血敌人的击中伤害提高 {0}%
+#% increased Damage per Power Charge with Hits against Enemies on Low Life	每个暴击球使对低血敌人的击中伤害提高 {0}%
+#% increased Damage taken from Melee Attacks	受到的近战攻击伤害提高 {0}%
+#% increased Damage taken if you've taken a Savage Hit Recently	近期内受到过残暴打击时，受到的伤害提高 {0}%
+#% increased Damage while Dead	死亡时伤害提高 {0}%
+#% increased Damage with Ailments per Elder Item Equipped	每装备一件裂界者物品，异常状态伤害提高 {0}%
+#% increased Damage with Bleeding inflicted on Poisoned Enemies	对中毒敌人施加的流血伤害提高 {0}%
+#% increased Damage with Hits and Ailments against Taunted Enemies	对被嘲讽敌人的击中和异常状态伤害提高 {0}%
+#% increased Damage with Poison inflicted on Bleeding Enemies	对流血敌人施加的中毒伤害提高 {0}%
+#% increased Damage with Unarmed Attacks against Bleeding Enemies	空手攻击对流血敌人的伤害提高 {0}%
+#% increased Duration. #% to this value when used	持续时间延长 {0}%，使用时该数值 {1}%
+#% increased Effect of Non-Damaging Ailments for each Blue Skill Gem you have socketed	每个插入的蓝色技能宝石使非伤害型异常状态效果提高 {0}%
+#% increased Effect of Non-Damaging Ailments you inflict with Critical Strikes per # Player Maximum Life	玩家每 {1} 生命上限使暴击施加的非伤害型异常状态效果提高 {0}%
+#% increased Elemental Damage while in an area affected by a Sextant	处于受六分仪影响的区域时，元素伤害提高 {0}%
+#% increased Elemental and Chaos Resistances	元素和混沌抗性提高 {0}%
+#% increased Fire Damage per #% Fire Resistance above #%	火焰抗性超过 {2}% 的部分，每 {1}% 使火焰伤害提高 {0}%
+#% increased Freeze Duration on you	你受到的冻结持续时间延长 {0}%
+#% increased Mana Cost Efficiency for # seconds after Spending a total of # Mana	累计消耗 {2} 魔力后，魔力消耗效能提高 {0}%，持续 {1} 秒
+#% increased Maximum Mana per #% Chance to Block Spell Damage	每 {1}% 法术伤害格挡几率使魔力上限提高 {0}%
+#% increased Melee Damage against Shocked Enemies	对感电敌人的近战伤害提高 {0}%
+#% increased Melee Fire Damage	近战火焰伤害提高 {0}%
+#% increased Melee Physical Damage with Unarmed Attacks	空手近战物理伤害提高 {0}%
+#% increased Movement Skill Mana Cost	位移技能的魔力消耗提高 {0}%
+#% increased Movement Speed for each nearby Enemy, up to a maximum of #%	附近每个敌人使移动速度提高 {0}%，最多 {1}%
+#% increased Movement speed while on Burning, Chilled or Shocked ground	处于燃烧、冰缓或感电地面上时，移动速度提高 {0}%
+#% increased Projectile Damage per # Dexterity from Allocated Passives in Radius	范围内已分配天赋上的每 {1} 点敏捷使投射物伤害提高 {0}%
+#% increased Projectile Speed per # Evasion Rating, up to #%	每 {1} 闪避值使投射物速度提高 {0}%，最多 {2}%
+#% increased Quantity of Items Dropped by Slain Maimed Enemies	击败被瘫痪的敌人时，物品掉落数量提高 {0}%
+#% increased Rarity of Items Dropped by Slain Maimed Enemies	击败被瘫痪的敌人时，物品掉落稀有度提高 {0}%
+#% increased Skill Effect Duration for each Red Skill Gem you have socketed	每个插入的红色技能宝石使技能效果持续时间延长 {0}%
+#% increased Unarmed Attack Speed with Melee Skills	空手使用近战技能时，攻击速度提高 {0}%
+#% increased effect of Wishes granted by Ancient Fish	远古鱼给予的愿望效果提高 {0}%
+#% increased effect. #% to this value when used	效果提高 {0}%，使用时该数值 {1}%
+#% increased total Power counted by Warcries	战吼计入的总威力值提高 {0}%
+#% less Accuracy Rating	命中值总降 {0}%
+#% maximum Critical Strike Chance	暴击几率上限为 {0}%
+#% more Damage with Arrow Hits not at Close Range	非近距离的箭矢击中伤害总增 {0}%
+#% more Global Accuracy Rating	全域命中值总增 {0}%
+#% more Melee Damage while Burning	燃烧时近战伤害总增 {0}%
+#% more Rogue's Marker value of primary Heist Target	主要夺宝目标的赏金猎人印记价值总增 {0}%
+#% of Armour also applies to Chaos Damage taken from Hits	{0}% 护甲也作用于受到的击中混沌伤害
+#% of Armour also applies to Lightning Damage taken from Hits	{0}% 护甲也作用于受到的击中闪电伤害
+#% of Attack Physical Damage Converted to Cold Damage	攻击物理伤害的 {0}% 转化为冰霜伤害
+#% of Attack Physical Damage Converted to Fire Damage	攻击物理伤害的 {0}% 转化为火焰伤害
+#% of Attack Physical Damage Converted to Lightning Damage	攻击物理伤害的 {0}% 转化为闪电伤害
+#% of Chaos Damage is taken from Mana before Life	受到的混沌伤害的 {0}% 优先从魔力扣除
+#% of Chaos Damage taken Recouped as Life	将受到的混沌伤害的 {0}% 补偿为生命
+#% of Chaos Damage taken as Lightning Damage	受到的混沌伤害的 {0}% 转化为闪电伤害
+#% of Cold Damage Converted to Chaos Damage	冰霜伤害的 {0}% 转化为混沌伤害
+#% of Cold and Lightning Damage from Hits taken as Fire Damage	受到的击中冰霜和闪电伤害的 {0}% 转化为火焰伤害
+#% of Damage Leeched by Enemy as Life while Focused	专注时，敌人将造成伤害的 {0}% 转化为生命偷取
+#% of Damage against Shocked Enemies Leeched as Mana	对感电敌人造成伤害的 {0}% 转化为魔力偷取
+#% of Damage taken Recouped as Life per Socketed Red Gem	每个插入的红色宝石使受到伤害的 {0}% 补偿为生命
+#% of Damage taken from Stunning Hits is Recovered as Energy Shield	将受到的晕眩击中伤害的 {0}% 恢复为能量护盾
+#% of Fire Damage taken causes extra Physical Damage	受到的火焰伤害会额外造成等于其 {0}% 的物理伤害
+#% of Life Regenerated per second	每秒再生 {0}% 生命
+#% of Life Regeneration also applies to Energy Shield if no Equipped Items are Corrupted	未装备任何已腐化物品时，{0}% 生命再生也作用于能量护盾
+#% of Lightning Damage Leeched as Mana	闪电伤害的 {0}% 转化为魔力偷取
+#% of Mana Regenerated per second	每秒再生 {0}% 魔力
+#% of Maximum Energy Shield taken as Physical Damage on Minion Death	召唤生物死亡时，受到等于能量护盾上限 {0}% 的物理伤害
+#% of Physical Attack Damage Leeched as Life and Mana	物理攻击伤害的 {0}% 转化为生命和魔力偷取
+#% of Physical Damage from Hits taken as Damage of a Random Element	受到的击中物理伤害的 {0}% 转化为一种随机元素伤害
+#% of Spell Damage Leeched as Life	法术伤害的 {0}% 转化为生命偷取
+#% of Spell Damage Leeched as Mana	法术伤害的 {0}% 转化为魔力偷取
+#% reduced Area Damage taken from Hits	受到的击中范围伤害降低 {0}%
+#% reduced Attack Damage with Main Hand	主手攻击伤害降低 {0}%
+#% reduced Bleeding Duration on you during Effect	药剂持续期间，你受到的流血持续时间缩短 {0}%
+#% reduced Charges per use. #% to this value when used	每次使用消耗的充能降低 {0}%，使用时该数值 {1}%
+#% reduced Cooldown Recovery Rate for throwing Traps	陷阱投掷的冷却回复速度降低 {0}%
+#% reduced Damage taken from Projectile Hits	受到的投射物击中伤害降低 {0}%
+#% reduced Effect of Non-Damaging Ailments on you	你受到的非伤害型异常状态效果降低 {0}%
+#% reduced Enemy Stun Threshold while you have at least # Strength	至少有 {1} 点力量时，敌人晕眩门槛降低 {0}%
+#% reduced Enemy Stun Threshold with Bows	使用弓时，敌人晕眩门槛降低 {0}%
+#% reduced Explicit Damage Modifier magnitudes	外延伤害词缀数值降低 {0}%
+#% reduced Flask Life Recovery rate	药剂生命回复速度降低 {0}%
+#% reduced Mana Cost of Attacks	攻击的魔力消耗降低 {0}%
+#% reduced Mana Cost of Skills for # seconds after Spending a total of # Mana	累计消耗 {2} 魔力后，技能魔力消耗降低 {0}%，持续 {1} 秒
+#% reduced Reflected Elemental Damage taken	受到的反射元素伤害降低 {0}%
+#% reduced Reflected Physical Damage taken	受到的反射物理伤害降低 {0}%
+#% reduced Shock Duration on you	你受到的感电持续时间缩短 {0}%
+#% reduced time before Lockdown	封锁前的时间缩短 {0}%
+#% to Damage over Time Multiplier for Ailments from Critical Strikes	暴击施加的异常状态持续伤害加成 {0}%
+#% to Damage over Time Multiplier for Bleeding	流血持续伤害加成 {0}%
+#% to Maximum Quality	品质上限 {0}%
+#% to Quality of Socketed Minion Gems	插槽内召唤生物宝石品质 {0}%
+#% to Quality of all Minion Skill Gems	所有召唤生物技能宝石品质 {0}%
+#% to Vaal Skill Critical Strike Multiplier	瓦尔技能的暴击伤害加成 {0}%
+Action Speed cannot be modified to below Base Value while Ignited	被点燃时，行动速度无法降至基础值以下
+Added Small Passive Skills also grant: #% increased Attack and Cast Speed with Cold Skills	增加的小天赋还提供：冰霜技能攻击和施法速度提高 {0}%
+Added Small Passive Skills also grant: #% increased Attack and Cast Speed with Elemental Skills	增加的小天赋还提供：元素技能攻击和施法速度提高 {0}%
+Added Small Passive Skills also grant: #% increased Attack and Cast Speed with Fire Skills	增加的小天赋还提供：火焰技能攻击和施法速度提高 {0}%
+Added Small Passive Skills also grant: #% increased Attack and Cast Speed with Lightning Skills	增加的小天赋还提供：闪电技能攻击和施法速度提高 {0}%
+Added Small Passive Skills also grant: #% increased Attack and Cast Speed with Physical Skills	增加的小天赋还提供：物理技能攻击和施法速度提高 {0}%
+Added Small Passive Skills also grant: Channelling Skills have #% increased Attack and Cast Speed	增加的小天赋还提供：吟唱技能攻击和施法速度提高 {0}%
+Adds # to # Cold Damage to Hits against you	对你的击中附加 {0} - {1} 冰霜伤害
+Adds # to # Cold Damage to Hits against you per Frenzy Charge	每个狂怒球使对你的击中附加 {0} - {1} 冰霜伤害
+Adds # to # Fire Damage to Hits against you	对你的击中附加 {0} - {1} 火焰伤害
+Adds # to # Lightning Damage to Hits against you	对你的击中附加 {0} - {1} 闪电伤害
+Adds # to # Physical Damage to Spells per # Player Levels	玩家每 {2} 级使法术附加 {0} - {1} 物理伤害
+Adds #% of your Maximum Energy Shield as Cold Damage to Attacks with this Weapon	使用此武器攻击附加等于你能量护盾上限 {0}% 的冰霜伤害
+Adds #% of your Maximum Mana as Fire Damage to Attacks with this Weapon	使用此武器攻击附加等于你魔力上限 {0}% 的火焰伤害
+Ailments inflicted by Skills used by this Graft have #% increased duration	此嫁接技能施加的异常状态持续时间延长 {0}%
+All Sockets Linked	所有插槽相连
+Allocated Notable Passive Skills in Radius grant nothing	范围内已分配的核心天赋不提供任何效果
+Allocates # if you have the matching modifier on Forbidden Flame	若禁断之火上有匹配的词缀，则分配天赋 {0}
+Allocates # if you have the matching modifier on Forbidden Flesh	若禁断之肉上有匹配的词缀，则分配天赋 {0}
+Always Critically Strike Shocked Enemies	对感电敌人总是暴击
+Always Hits Burning Enemies	总是击中燃烧的敌人
+An additional #% of Damage from Hits is taken from Heart of Flame Buff used by this Graft before Life or Energy Shield	受到的击中伤害额外有 {0}% 优先从此嫁接的火焰之心增益扣除，而非生命或能量护盾
+Area is inhabited by an additional Invasion Boss	区域内额外栖息一名侵略首领
+Area is inhabited by the Vaal	区域内栖息着瓦尔生物
+Areas contain Beasts to hunt	区域中有可供狩猎的野兽
+Armour is increased by #% of Overcapped Fire Resistance	护甲提高，数值等于超额火焰抗性的 {0}%
+Arrows Pierce # additional Target	箭矢额外穿透 {0} 个目标
+Attacks deal no Physical Damage	攻击无法造成物理伤害
+Attacks with this Weapon have #% chance to inflict Bleeding while you do not have Avatar of Fire	未拥有火之化身时，此武器的攻击有 {0}% 的几率造成流血
+Bow Attacks fire an additional Arrow while Main Hand Accuracy Rating is at least #	主手命中值至少为 {0} 时，弓类攻击额外发射一支箭矢
+Buff granted by Tender Embrace used by this Graft grants # Endurance Charge when gained	此嫁接的温柔之拥增益在获得时提供 {0} 个耐力球
+Buff granted by Tender Embrace used by this Graft grants #% chance to Block Attack Damage	此嫁接的温柔之拥增益提供 {0}% 攻击伤害格挡几率
+Buff granted by Tender Embrace used by this Graft grants #% less Life Recovery Rate	此嫁接的温柔之拥增益使生命回复速度总降 {0}%
+Buff granted by Tender Embrace used by this Graft grants #% more Life Recovery Rate	此嫁接的温柔之拥增益使生命回复速度总增 {0}%
+Buff granted by Tender Embrace used by this Graft grants #% of Damage Leeched as Life	此嫁接的温柔之拥增益使伤害的 {0}% 转化为生命偷取
+Burning Enemies you kill have a #% chance to Explode, dealing a tenth of their maximum Life as Fire Damage	你击败的燃烧敌人有 {0}% 的几率爆炸，造成其生命上限十分之一的火焰伤害
+Call the Pyre used by this Graft creates # Ashen Pillar	此嫁接的苍焰火柱产生 {0} 根灰烬之柱
+Call the Pyre used by this Graft creates # Ashen Pillars	此嫁接的苍焰火柱产生 {0} 根灰烬之柱
+Can have # additional Crafted Modifier	可以额外拥有 {0} 个制作词缀
+Can roll Minion Modifiers	可以生成召唤生物词缀
+Cannot Cast Spells	无法施放法术
+Cannot gain Endurance Charges	无法获得耐力球
+Causes Bleeding on Hit	击中造成流血
+Causes Bleeding when you Stun	晕眩敌人时造成流血
+Chance to Block Attack Damage is Unlucky	攻击伤害格挡几率特别不幸
+Channelling Skills Cost # Mana	吟唱技能消耗 {0} 魔力
+Chaos Damage taken does not bypass Energy Shield while not on Low Mana	非低魔状态时，受到的混沌伤害无法穿透能量护盾
+Chaos Damage with Hits is Lucky	击中的混沌伤害特别幸运
+Cold Damage is increased by #% per # Intelligence from Allocated Passives in Radius	范围内已分配天赋上的每 {1} 点智慧使冰霜伤害提高 {0}%
+Cold Damage with Hits is Lucky if you've Suppressed Spell Damage Recently	近期内压制过法术伤害时，击中的冰霜伤害特别幸运
+Completing a Heist generates # additional Reveals	完成夺宝额外获得 {0} 次揭露机会
+Critical Strikes with Spells have #% chance to inflict Impale	法术暴击有 {0}% 的几率造成穿刺
+Critical Strikes with this Weapon have Culling Strike	此武器的暴击拥有终结
+Curse Skills have #% reduced Skill Effect Duration	诅咒技能的技能效果持续时间缩短 {0}%
+Damaging Ailments inflicted by Skills used by this Graft deal damage #% faster	此嫁接技能施加的伤害型异常状态生效速度加快 {0}%
+Dance in the White used by this Graft creates an additional Tornado	此嫁接的白霜漫舞额外产生一个龙卷风
+Dance in the White used by this Graft has # to maximum Tornados	此嫁接的白霜漫舞的龙卷风数量上限 {0}
+Deal # to # Lightning Damage to nearby Enemies when you lose a Power, Frenzy, or Endurance Charge	失去暴击球、狂怒球或耐力球时，对附近敌人造成 {0} - {1} 闪电伤害
+Deal #% increased Damage Over Time per # Player Maximum Life	玩家每 {1} 生命上限使造成的持续伤害提高 {0}%
+Debuffs on you expire #% slower	你身上的减益效果消逝速度减慢 {0}%
+Elemental Ailments inflicted on you spread to Enemies within # metres	对你施加的元素异常状态会扩散至 {0} 米内的敌人
+Emits a golden glow	散发金色光芒
+Enemies Shocked by you are Debilitated	被你感电的敌人受到疲惫影响
+Enemies do not block your movement for # seconds on Rampage	暴走时，敌人不会阻挡你的移动，持续 {0} 秒
+Enemies slain by Socketed Gems drop #% increased item quantity	被插槽内宝石击败的敌人物品掉落数量提高 {0}%
+Enemies you Attack have #% chance to Reflect # to # Chaos Damage to you	你攻击的敌人有 {0}% 的几率对你反射 {1} - {2} 混沌伤害
+Enemies you Kill Explode, dealing #% of their Life as Physical Damage	你击败的敌人会爆炸，造成其生命 {0}% 的物理伤害
+Enemy hits on you roll low Damage	敌人对你的击中取较低伤害值
+Energy Shield Recharge starts when you are Stunned	被晕眩时开始能量护盾充能
+Enervating Grasp used by this Graft creates # additional Hands	此嫁接的虚弱之握额外产生 {0} 只巨手
+Every # seconds, Consume a nearby Corpse to Recover #% of Life	每 {0} 秒消耗附近一具灵柩，恢复 {1}% 生命
+Falling Crystals used by this Graft fires up to # additional mortar	此嫁接的天坠冰晶额外发射最多 {0} 枚炮弹
+Fire Damage is increased by #% per # Intelligence from Allocated Passives in Radius	范围内已分配天赋上的每 {1} 点智慧使火焰伤害提高 {0}%
+Fire Damage with Hits is Lucky if you've Blocked an Attack Recently	近期内格挡过攻击时，击中的火焰伤害特别幸运
+Focus has #% reduced Cooldown Recovery Rate	专注的冷却回复速度降低 {0}%
+Gain # Charge when you are Hit by an Enemy	被敌人击中时获得 {0} 次充能
+Gain # Life per Enemy Hit with this Weapon while you are Leeching	偷取时，用此武器每击中一名敌人获得 {0} 生命
+Gain # Rage on Hit with Attacks	攻击击中时获得 {0} 怒火
+Gain # Vaal Souls Per Second during effect	药剂持续期间，每秒获得 {0} 个瓦尔之灵
+Gain # Vaal Souls on use	使用时获得 {0} 个瓦尔之灵
+Gain #% of Maximum Life as Extra Armour	获得等于生命上限 {0}% 的额外护甲
+Gain #% of Missing Unreserved Mana before being Hit by an Enemy	被敌人击中前，获得缺失的未保留魔力的 {0}%
+Gain Adrenaline for # second on Kill	击败敌人时获得 {0} 秒肾上腺素
+Gain Arcane Surge after Spending a total of # Life	累计消耗 {0} 生命后获得秘术增强
+Gain Chaotic Might for # seconds on Critical Strike	暴击时获得 {0} 秒混沌之力
+Gain Flaming, Icy or Crackling Runesurge at random for # seconds every # seconds	每 {1} 秒随机获得烈焰、寒冰或闪电符文涌动，持续 {0} 秒
+Gain Onslaught after Spending a total of # Mana	累计消耗 {0} 魔力后获得猛攻
+Gain Onslaught for # seconds when Hit	被击中时获得 {0} 秒猛攻
+Gain Phasing on Hit with this weapon	使用此武器击中时获得迷踪
+Gain Unholy Might for # seconds on Melee Critical Strike	近战暴击时获得 {0} 秒不洁之力
+Gain a Frenzy Charge after Spending a total of # Mana	累计消耗 {0} 魔力后获得一个狂怒球
+Gain a Power Charge on Hit while Bleeding	流血时，击中获得一个暴击球
+Gain an Endurance Charge each second while Stationary	静止时，每秒获得一个耐力球
+Gain an Endurance Charge every # seconds while Stationary	静止时，每 {0} 秒获得一个耐力球
+Gain an Endurance Charge when you stop being Fortified	失去护体时获得一个耐力球
+Gain an Endurance, Frenzy or Power Charge every # seconds	每 {0} 秒获得一个耐力球、狂怒球或暴击球
+Gain an Endurance, Frenzy or Power charge when you Block	格挡时获得一个耐力球、狂怒球或暴击球
+Gain no inherent bonuses from Strength	无法获得力量的固有加成
+Geysers created by this Graft fire # additional Projectiles when you Warcry	你战吼时，此嫁接产生的泉涌额外发射 {0} 个投射物
+Glacial Cascade gains an additional Burst with # Intelligence from Passives in Radius	范围内天赋提供 {0} 点智慧时，冰川之刺额外爆发一次
+Golden Radiance	金色光辉
+Grants # Life and Mana per Enemy Hit	每击中一名敌人获得 {0} 生命和魔力
+Grants all bonuses of Unallocated Notable Passive Skills in Radius	获得范围内所有未分配核心天赋的加成
+Grants level # Suspend in Time	获得 {0} 级时空凝滞
+Has # White Socket	拥有 {0} 个白色插槽
+Has # White Sockets	拥有 {0} 个白色插槽
+Has #% increased Elemental Damage	元素伤害提高 {0}%
+Has Consumed # Gem	已吞噬 {0} 颗宝石
+Has no Blue Sockets	没有蓝色插槽
+Has no Green Sockets	没有绿色插槽
+Has no Red Sockets	没有红色插槽
+Has one socket of each colour	每种颜色的插槽各一个
+Haunted by Tormented Spirits	受到罪魂缠身
+Heart of Flame Buff used by this Graft can take #% less Damage	此嫁接的火焰之心增益可承受的伤害总降 {0}%
+Heart of Flame Buff used by this Graft can take an additional # Damage	此嫁接的火焰之心增益可额外承受 {0} 伤害
+Heart of Flame Buff used by this Graft grants #% increased Armour	此嫁接的火焰之心增益使护甲提高 {0}%
+Heist Chests have #% chance to contain nothing	夺宝宝箱有 {0}% 的几率为空
+Heist Chests have a #% chance to Duplicate their contents	夺宝宝箱有 {0}% 的几率复制其中的物品
+Heist Targets are always Currency or Scarabs	夺宝目标总是通货或圣甲虫
+Heist Targets are always Enchanted Armaments	夺宝目标总是附魔军备
+Heist Targets are always Experimented Items	夺宝目标总是实验物品
+Heist Targets are always Replica Unique Items	夺宝目标总是仿品传奇物品
+Heist Targets are always Thieves' Trinkets	夺宝目标总是盗贼饰品
+His Burning Message used by this Graft creates # additional geysers	此嫁接的焚世箴言额外产生 {0} 座泉涌
+His Burning Message used by this Graft creates an additional geyser	此嫁接的焚世箴言额外产生一座泉涌
+Hits against you gain #% of Physical Damage as Extra Fire Damage	对你的击中获得等于物理伤害 {0}% 的额外火焰伤害
+Hits always Shock Enemies that are on Low Life	击中总是使低血敌人感电
+Hits have #% chance to treat Enemy Monster Elemental Resistance values as inverted	击中有 {0}% 的几率将敌方怪物的元素抗性视为相反数
+Hits with this Weapon can't be Evaded if you have Blocked Recently	近期内格挡过时，此武器的击中无法被闪避
+Hits with this Weapon have Culling Strike if you have dealt a Critical Strike Recently	近期内造成过暴击时，此武器的击中拥有终结
+If no Notables Allocated in Radius, When you Kill a Rare monster, you gain # of its Modifiers for # seconds	范围内未分配核心天赋时，击败稀有怪物会获得其 {0} 个词缀，持续 {1} 秒
+Ignited Enemies you Kill Explode, dealing #% of their Life as Fire Damage which cannot Ignite	你击败的被点燃敌人会爆炸，造成其生命 {0}% 的火焰伤害，该伤害无法点燃
+Ignites you inflict deal no Damage	你施加的点燃不造成伤害
+Ignore Attribute Requirements of Gems Socketed in Blue Sockets	无视蓝色插槽内宝石的属性需求
+Ignore Attribute Requirements of Socketed Gems	无视插槽内宝石的属性需求
+Immune to Elemental Ailments while Bleeding	流血时免疫元素异常状态
+Immunity to Damage during Effect	药剂持续期间免疫伤害
+Increases and Reductions to Evasion Rating in Radius are Transformed to apply to Armour	范围内闪避值的提高与降低转而作用于护甲
+Increases and Reductions to your Evasion Rating also apply to your Spell Damage at #% of their value	你的闪避值提高与降低也以其数值的 {0}% 作用于法术伤害
+Insufficient Life doesn't prevent your Melee Attacks	生命不足不会阻止你的近战攻击
+Insufficient Mana doesn't prevent your Bow Attacks	魔力不足不会阻止你的弓类攻击
+Item drops on death	死亡时掉落此物品
+Item sells for much more to vendors	此物品可向商人卖出更高价格
+Jolt granted by this Graft grants #% increased Critical Strike Chance	此嫁接提供的震荡使暴击几率提高 {0}%
+Jolt granted by this Graft grants #% increased Damage taken	此嫁接提供的震荡使受到的伤害提高 {0}%
+Jolt granted by this Graft grants #% increased Movement Speed	此嫁接提供的震荡使移动速度提高 {0}%
+Jolt granted by this Graft grants #% more Maximum Attack Damage	此嫁接提供的震荡使攻击伤害上限总增 {0}%
+Jolt granted by this Graft grants #% to Critical Strike Multiplier	此嫁接提供的震荡使暴击伤害加成 {0}%
+Keystone Passive Skills in Radius can be Allocated without being connected to your tree	范围内的至高天赋无需与天赋树相连即可分配
+Killing a Burning Enemy has a #% chance to create an Allflame Soul	击败燃烧的敌人时有 {0}% 的几率产生一个不灭之火灵魂
+Left ring slot: #% reduced Duration of Ailments on You	左戒指栏位：你受到的异常状态持续时间缩短 {0}%
+Left ring slot: Minions take #% reduced Damage	左戒指栏位：召唤生物受到的伤害降低 {0}%
+Life Flasks gain # Charge every # seconds	生命药剂每 {1} 秒获得 {0} 次充能
+Life Leech is instant during Effect	药剂持续期间，生命偷取立即生效
+Lightning Damage with Hits is Lucky if you've Blocked Spell Damage Recently	近期内格挡过法术伤害时，击中的闪电伤害特别幸运
+Lose #% Life and Energy Shield per Second per Minion	每个召唤生物使你每秒失去 {0}% 生命和能量护盾
+Lose #% of Life per second	每秒失去 {0}% 生命
+Lose #% of Life when you Block	格挡时失去 {0}% 生命
+Lose #% of your Energy Shield when you Block	格挡时失去 {0}% 能量护盾
+Lose a Power Charge when Hit	被击中时失去一个暴击球
+Mana Flasks gain # Charge every # seconds	魔力药剂每 {1} 秒获得 {0} 次充能
+Mana Leech from Hits with this Weapon is Instant	此武器击中造成的魔力偷取立即生效
+Mana is increased by #% per #% Overcapped Lightning Resistance	每 {1}% 超额闪电抗性使魔力提高 {0}%
+Maximum Energy Shield is increased by Chaos Resistance	能量护盾上限根据混沌抗性提高
+Melee Critical Strikes Poison the Enemy	近战暴击使敌人中毒
+Melee Skills have #% increased Area of Effect	近战技能的效果区域扩大 {0}%
+Melee Strikes Curse Enemies with Flammability on Hit, ignoring Curse Limit	近战打击击中时用易燃诅咒敌人，无视诅咒上限
+Minions Convert #% of their Maximum Life to Maximum Energy	召唤生物每有下列混沌抗性，便将生命上限的 {0}% 转化为能量护盾上限：
+Minions Leech #% of Elemental Damage as Energy Shield	召唤生物将元素伤害的 {0}% 转化为能量护盾偷取
+Minions Recover #% of their Life when you Focus	进入专注时，召唤生物恢复 {0}% 生命
+Minions deal #% increased Damage with Hits and Ailments against Abyssal Monsters	召唤生物对深渊怪物的击中和异常状态伤害提高 {0}%
+Minions have # to Accuracy Rating	召唤生物的命中值 {0}
+Minions have #% increased Attack and Cast Speed if you or your Minions have Killed Recently	你或召唤生物近期内击败过敌人时，召唤生物攻击和施法速度提高 {0}%
+Minions have #% to Critical Strike Chance	召唤生物的暴击几率 {0}%
+Minions have #% to Damage over Time Multiplier	召唤生物的持续伤害加成 {0}%
+Minions summoned by this Graft have #% chance to Blind on Hit	此嫁接召唤的生物击中时有 {0}% 的几率致盲敌人
+Modifiers to Chance to Suppress Spell Damage also apply to Chance to Defend with #% of Armour at #% of their Value	法术伤害压制率的修正也以其数值的 {1}% 作用于以 {0}% 护甲进行防御的几率
+Monsters have #% more Life	怪物生命总增 {0}%
+Movement Attack Skills have #% reduced Attack Speed	位移攻击技能的攻击速度降低 {0}%
+Movement Skills Cost no Mana	位移技能不消耗魔力
+Movement Skills deal no Physical Damage	位移技能不造成物理伤害
+Nearby Enemies are Debilitated	附近敌人受到疲惫影响
+Nearby Enemies are Unnerved	附近敌人受到胆怯影响
+Nearby Enemies take # Lightning Damage per second	附近敌人每秒受到 {0} 闪电伤害
+Non-Aura Skills Cost no Mana or Life while Focused	专注时，非光环技能不消耗魔力或生命
+Non-Channelling Skills Cost # Mana	非吟唱技能消耗 {0} 魔力
+Non-Curse Aura Skills have #% increased Duration	非诅咒光环技能的持续时间延长 {0}%
+Otherworldly Lure	异界鱼饵
+Overcharged Sinews used by this Graft can apply # maximum Jolt Buffs	此嫁接的血肉过载可施加的震荡增益层数上限为 {0}
+Penetrate #% Elemental Resistances per Frenzy Charge	每个狂怒球提供 {0}% 元素抗性穿透
+Physical Damage is increased by #% per # Intelligence from Allocated Passives in Radius	范围内已分配天赋上的每 {1} 点智慧使物理伤害提高 {0}%
+Physical Skills have #% increased Duration per # Intelligence	每 {1} 点智慧使物理技能持续时间延长 {0}%
+Poison Cursed Enemies on hit	击中时使被诅咒的敌人中毒
+Preserving Stillness used by this Graft also grants #% to all Elemental Resistances	此嫁接的静谧守恒额外提供 {0}% 所有元素抗性
+Preserving Stillness used by this Graft also grants #% to all maximum Elemental Resistances	此嫁接的静谧守恒额外提供 {0}% 所有元素抗性上限
+Preserving Stillness used by this Graft can take # additional Damage	此嫁接的静谧守恒可额外承受 {0} 伤害
+Prevent #% of Suppressed Spell Damage if you have not Suppressed Spell Damage Recently	近期内未压制过法术伤害时，防止 {0}% 被压制的法术伤害
+Projectiles Pierce all nearby Targets	投射物穿透附近所有目标
+Projectiles created by this Graft that have Pierced deal #% more Damage	此嫁接产生的投射物在穿透后伤害总增 {0}%
+Projectiles from Attacks Poison on Hit while you have a Bestial Minion	拥有兽化召唤生物时，攻击投射物击中造成中毒
+Projectiles from Attacks inflict Bleeding on Hit while you have a Bestial Minion	拥有兽化召唤生物时，攻击投射物击中造成流血
+Projectiles have #% chance to Freeze	投射物有 {0}% 的几率造成冻结
+Projectiles have #% chance to Ignite	投射物有 {0}% 的几率造成点燃
+Projectiles have #% chance to Shock	投射物有 {0}% 的几率造成感电
+Radiant Ground created by Skills from this Graft grants Allies on it an additional # to # added Lightning Damage	此嫁接技能产生的辉光地面使其上的友军额外附加 {0} - {1} 闪电伤害
+Rage grants Spell Damage instead of Attack Damage at #% of the value	怒火改为以其数值的 {0}% 提供法术伤害，而非攻击伤害
+Recharges # Charge when you deal a Critical Strike	造成暴击时恢复 {0} 次充能
+Recharges # Charges when you take a Critical Strike	受到暴击时恢复 {0} 次充能
+Recoup Energy Shield instead of Life	补偿改为恢复能量护盾，而非生命
+Recover #% of Life when you Chill a non-Chilled Enemy	冰缓未被冰缓的敌人时恢复 {0}% 生命
+Recover Energy Shield equal to #% of Evasion Rating when you Block	格挡时恢复等于闪避值 {0}% 的能量护盾
+Reduce Attack, Cast and Movement Speed #% every second during Effect	药剂持续期间，每秒使攻击、施法和移动速度降低 {0}%
+Regenerate # Life per second per Buff on you	你身上每个增益使每秒再生 {0} 生命
+Regenerate #% of Life per second if you've taken a Savage Hit in the past # second	过去 {1} 秒内受到过残暴打击时，每秒再生 {0}% 生命
+Regenerate #% of your Armour as Life over # second when you Block	格挡时在 {1} 秒内再生等于护甲 {0}% 的生命
+Removes Burning when you use a Flask	使用药剂时移除燃烧
+Retaliation Skills have #% Arcane Might	复仇技能拥有 {0}% 奥术之力
+Retaliation Skills have #% chance to Knockback	复仇技能有 {0}% 的几率击退
+Retaliation Skills have #% increased Cooldown Recovery Rate	复仇技能冷却回复速度提高 {0}%
+Right ring slot: #% increased Duration of Ailments on You	右戒指栏位：你受到的异常状态持续时间延长 {0}%
+Right ring slot: Minions take #% increased Damage	右戒指栏位：召唤生物受到的伤害提高 {0}%
+Rightmost # Magic Utility Flasks constantly apply their Flask Effects to you	最右侧 {0} 瓶魔法功能药剂持续对你施加药剂效果
+Rogue Equipment cannot be found	无法找到赏金猎人装备
+Rogue Perks are doubled	赏金猎人的专长效果翻倍
+Seize the Flesh used by this Graft creates # Spire	此嫁接的攫取血肉产生 {0} 座骨塔
+Seize the Flesh used by this Graft creates # Spires	此嫁接的攫取血肉产生 {0} 座骨塔
+Shield per #% Chaos Resistance they have	{0}% 混沌抗性
+Shock yourself for # Seconds when you Focus	进入专注时使自身感电 {0} 秒
+Skills gain Added Chaos Damage equal to #% of Mana Cost, if Mana Cost is not higher than the maximum you could spend	技能魔力消耗不高于你能支付的最大值时，附加等于魔力消耗 {0}% 的混沌伤害
+Skills used by this Graft Cover Enemies in Ash on Hit	此嫁接施放的技能击中时使敌人受到灰烬缠身
+Skills used by this Graft Crush on Hit	此嫁接施放的技能击中时造成碾压
+Skills used by this Graft Intimidate on Hit	此嫁接施放的技能击中时威吓敌人
+Skills used by this Graft Shock Enemies as though dealing #% more Damage	此嫁接施放的技能感电敌人时，视为造成的伤害总增 {0}%
+Skills used by this Graft Unnerve on Hit	此嫁接施放的技能击中时使敌人胆怯
+Skills used by this Graft cause # additional lightning bolt strikes	此嫁接施放的技能额外产生 {0} 次雷击
+Skills used by this Graft deal #% more Damage to Frozen Enemies	此嫁接施放的技能对冻结敌人的伤害总增 {0}%
+Skills used by this Graft fire # additional Projectiles	此嫁接施放的技能额外发射 {0} 个投射物
+Skills used by this Graft have #% chance to not consume a Cooldown on use	此嫁接施放的技能有 {0}% 的几率在使用时不消耗冷却次数
+Skills used by this Graft have #% increased Chaining range	此嫁接施放的技能连锁范围扩大 {0}%
+Skills used by this Graft ignore Enemy Physical Damage Reduction	此嫁接施放的技能无视敌人物理伤害减免
+Skills used by this Graft inflict Conductivity on Hit	此嫁接施放的技能击中时施加导电
+Skills used by this Graft inflict Frostbite on Hit	此嫁接施放的技能击中时施加冻伤
+Skills used by this Graft inflict Punishment on Hit	此嫁接施放的技能击中时施加惩戒
+Skills used by this Graft inflict Vulnerability on Hit	此嫁接施放的技能击中时施加脆弱
+Skills used by this Graft penetrate #% Enemy Cold Resistance	此嫁接施放的技能穿透敌人 {0}% 冰霜抗性
+Skills used by this Graft penetrate #% Enemy Fire Resistance	此嫁接施放的技能穿透敌人 {0}% 火焰抗性
+Skills used by this Graft penetrate #% Enemy Lightning Resistance	此嫁接施放的技能穿透敌人 {0}% 闪电抗性
+Skills which Throw Traps throw up to # additional Trap	投掷陷阱的技能额外投掷最多 {0} 个陷阱
+Skills which create Brands create an additional Brand	创造烙印的技能额外创造一个烙印
+Socketed Gems are Supported by Level # Blessed Calling	插槽内宝石受到 {0} 级神佑呼唤辅助
+Socketed Gems are Supported by Level # Edify	插槽内宝石受到 {0} 级启发辅助
+Socketed Gems are Supported by Level # Harrowing Throng	插槽内宝石受到 {0} 级亡灵大军辅助
+Socketed Gems are Supported by Level # Magnetism	插槽内宝石受到 {0} 级磁力辅助
+Socketed Gems have #% chance to Ignite	插槽内宝石有 {0}% 的几率造成点燃
+Socketed Gems have #% reduced Skill Effect Duration	插槽内宝石的技能效果持续时间缩短 {0}%
+Socketed Gems have Iron Will	插槽内宝石拥有钢铁意志
+Socketed Non-Curse Aura Gems have #% increased Aura Effect	插槽内非诅咒光环宝石的光环效果提高 {0}%
+Socketed Skills Summon your maximum number of Totems in formation	插槽内技能按阵型召唤数量达到上限的图腾
+Socketed Skills apply Fire, Cold and Lightning Exposure on Hit	插槽内技能击中时施加火焰、冰霜和闪电曝露
+Socketed Vaal Skills do not apply Soul Gain Prevention	插槽内瓦尔技能不会触发阻灵术
+Spell Skills have #% increased Critical Strike Chance on Final Repeat	法术技能最后一次重复时的暴击几率提高 {0}%
+Spell Skills have #% to Critical Strike Multiplier on final Repeat	法术技能最后一次重复时的暴击伤害加成 {0}%
+Spells used by this Graft Hinder Enemies on Hit	此嫁接施放的法术击中时使敌人缓速
+Spells you Cast have Added Spell Damage equal to #% of the Damage of your Main Hand Weapon	你施放的法术附加等于主手武器伤害 {0}% 的法术伤害
+Split Arrow fires an additional arrow with # Dexterity from Passives in Radius	范围内天赋提供 {0} 点敏捷时，分裂箭矢额外发射一支箭矢
+Stun Threshold is increased by Overcapped Fire Resistance	晕眩门槛根据超额火焰抗性提高
+Summoned Phantasms have no Duration	召唤的幻灵没有持续时间限制
+The Grey Wind Howls used by this Graft also grants #% chance to Avoid Elemental Ailments	此嫁接的灰风呼号额外提供 {0}% 避免元素异常状态的几率
+The Grey Wind Howls used by this Graft also grants #% of Elemental Damage gained as Extra Chaos Damage	此嫁接的灰风呼号额外获得等于元素伤害 {0}% 的额外混沌伤害
+The Grey Wind Howls used by this Graft also grants #% to all Elemental Resistances	此嫁接的灰风呼号额外提供 {0}% 所有元素抗性
+The Grey Wind Howls used by this Graft grants #% additional Physical Damage gained as Extra Elemental Damage	此嫁接的灰风呼号额外获得等于物理伤害 {0}% 的额外元素伤害
+Throw an additional Mine	额外投掷一个地雷
+Totem Life is increased by their Overcapped Fire Resistance	图腾生命根据其超额火焰抗性提高
+Totems gain #% to all Elemental Resistances per Summoned Totem	每个召唤的图腾使图腾的所有元素抗性 {0}%
+Totems have #% increased Attack Speed per Summoned Totem	每个召唤的图腾使图腾的攻击速度提高 {0}%
+Totems have #% increased Cast Speed per Summoned Totem	每个召唤的图腾使图腾的施法速度提高 {0}%
+Trap Skills have #% increased Skill Effect Duration	陷阱技能的技能效果持续时间延长 {0}%
+Trigger Level # Darktongue's Kiss when you Cast a Curse Spell	施放诅咒法术时触发 {0} 级暗舌之吻
+Trigger Level # Fire Burst on Kill	击败敌人时触发 {0} 级烈焰爆破
+Trigger Level # Ignition Blast when an enemy dies while Ignited by you	被你点燃的敌人死亡时触发 {0} 级引燃爆破
+Trigger Level # Lightning Bolt on Melee Hit with this Weapon, with a # second cooldown	使用此武器近战击中时触发 {0} 级闪电之击，冷却时间为 {1} 秒
+Trigger Level # Warlord's Mark when you Hit a Rare or Unique Enemy and have no Mark	未施加印记时，击中稀有或传奇敌人触发 {0} 级督军印记
+Trigger Level # Warlords's Mark when you Hit a Rare or Unique Enemy and have no Mark	未施加印记时，击中稀有或传奇敌人触发 {0} 级督军印记
+Trigger a Socketed Fire Spell on Hit, with a # second Cooldown	击中时触发插槽内的一个火焰法术，冷却时间为 {0} 秒
+Trigger level # Ghostly Artillery when you Attack with this Weapon	使用此武器攻击时触发 {0} 级幽魂火炮
+Violent Desire used by this Graft also grants #% increased Area of Effect with Attacks	此嫁接的暴烈欲望额外使攻击效果区域扩大 {0}%
+Violent Desire used by this Graft also grants #% increased Attack Speed	此嫁接的暴烈欲望额外使攻击速度提高 {0}%
+Violent Desire used by this Graft also grants Hits have #% chance to ignore Enemy Physical Damage Reduction	此嫁接的暴烈欲望额外使击中有 {0}% 的几率无视敌人物理伤害减免
+Violent Desire used by this Graft grants #% increased effect of Impale	此嫁接的暴烈欲望使穿刺效果提高 {0}%
+Warcry Skills have # seconds to Cooldown	战吼技能的冷却时间 {0} 秒
+When you kill a Poisoned Enemy, Enemies within # metres are Poisoned	击败中毒敌人时，使 {0} 米内的敌人中毒
+While your Passive Skill Tree connects to the Duelist's starting location, you gain:	天赋树连接决斗者起点时，你获得：
+While your Passive Skill Tree connects to the Marauder's starting location, you gain:	天赋树连接野蛮人起点时，你获得：
+While your Passive Skill Tree connects to the Ranger's starting location, you gain:	天赋树连接游侠起点时，你获得：
+While your Passive Skill Tree connects to the Scion's starting location, you gain:	天赋树连接贵族起点时，你获得：
+While your Passive Skill Tree connects to the Shadow's starting location, you gain:	天赋树连接暗影刺客起点时，你获得：
+While your Passive Skill Tree connects to the Templar's starting location, you gain:	天赋树连接圣堂武僧起点时，你获得：
+While your Passive Skill Tree connects to the Witch's starting location, you gain:	天赋树连接女巫起点时，你获得：
+With # Small Passives Allocated in Radius, When you Kill a Rare monster, you gain # of its Modifiers for # seconds	范围内分配 {0} 个小天赋时，击败稀有怪物会获得其 {1} 个词缀，持续 {2} 秒
+With at least # Dexterity in Radius, Fire Trap throws up to # additional Trap	范围内至少有 {0} 点敏捷时，火焰陷阱额外投掷最多 {1} 个陷阱
+With at least # Intelligence in Radius, Blight has #% increased Area of Effect after # second of Channelling	范围内至少有 {0} 点智慧时，萎灭在吟唱 {2} 秒后效果区域扩大 {1}%
+With at least # Intelligence, #% of Damage dealt by your Raised Zombies is Leeched to you as Energy Shield	至少有 {0} 点智慧时，将你的魔卫造成伤害的 {1}% 作为能量护盾偷取给你
+Wombgift Bait	孕育之礼鱼饵
+You and Allies near your Banner have #% to Damage over Time Multiplier per	你和战旗附近的友军持续伤害加成 {0}%，对应每
+You and Nearby Allies have #% increased Item Rarity	你和附近友军的物品掉落稀有度提高 {0}%
+You and your Minions take #% increased Reflected Damage	你和召唤生物受到的反射伤害提高 {0}%
+You are Immune to Ailments while Focused	专注时免疫异常状态
+You are Immune to Curses	免疫诅咒
+You can catch Foulborn Fish	你可以捕获秽生鱼类
+You cannot be killed by reflected Elemental Damage	你无法被反射元素伤害击败
+You cannot deal Critical Strikes against non-Shocked Enemies	你无法对未感电的敌人造成暴击
+You cannot increase the Quantity of Items found	你无法提高物品掉落数量
+You cannot increase the Rarity of Items found	你无法提高物品掉落稀有度
+You count as on Low Life while not on Full Life	非满血时视为低血
+You gain Adrenaline for # seconds on using a Vaal Skill	使用瓦尔技能时获得 {0} 秒肾上腺素
+You have Immortal Ambition while all Socketed Gems are Red	插槽内宝石均为红色时获得不朽野望
+You have Vaal Pact while Focused	专注时获得瓦尔冥约
+Your Attacks deal # Physical Damage	你的攻击造成 {0} 物理伤害
+Your Attacks do not cost Mana	你的攻击不消耗魔力
+Your Increases and Reductions to Quantity of Items found also apply to Damage	你的物品掉落数量提高与降低也作用于伤害
+Your Maximum Energy Shield is Equal to #% of Your Maximum Life	你的能量护盾上限等于生命上限的 {0}%
+Your Melee Hits can't be Evaded while wielding a Sword	持剑时，你的近战击中无法被闪避
+Your Warcries are disabled	你的战吼被禁用
+also grant Cold Damage Converted to Chaos Damage at #% of its value	也以其数值的 {0}% 提供冰霜伤害转化为混沌伤害
+also grant Fire Damage Converted to Chaos Damage at #% of its value	也以其数值的 {0}% 提供火焰伤害转化为混沌伤害
+also grant Lightning Damage Converted to Chaos Damage at #% of its value	也以其数值的 {0}% 提供闪电伤害转化为混沌伤害
+also grant increased Maximum Energy Shield at #% of its value	也以其数值的 {0}% 提供能量护盾上限提高
+also grant increased Maximum Life at #% of its value	也以其数值的 {0}% 提供生命上限提高
+also grant increased Maximum Mana at #% of its value	也以其数值的 {0}% 提供魔力上限提高
+at #% of the value	以其数值的 {0}%
+Upfront Cost to Use or Trigger a Skill, with a 0.1 second Cooldown	使用或触发技能的预付消耗；冷却时间为 0.1 秒

@@ -12,6 +12,7 @@ import re
 import gzip
 from item_rules import compose_item, AMOUNT
 from bs4 import BeautifulSoup
+from craft_affix_names import build_names
 
 HERE = Path(__file__).resolve().parent
 NUMBER = re.compile(r'[+\-]?(?:\(\-?\d+(?:\.\d+)?-\-?\d+(?:\.\d+)?\)|\d+(?:\.\d+)?|#)')
@@ -184,6 +185,20 @@ def build_items(known_entries=None, known_templates=()):
             raise ValueError('Duplicate reviewed unique clause: '+en)
         reviewed[en] = {'zh': zh, 'kind': 'unique-reviewed', 'status': 'source-clause-reviewed',
                         'source': 'Data/Uniques; tools/localization/unique-extra-reviewed.tsv'}
+    for en,zh in json.loads((HERE/'craft-names-reviewed.json').read_text('utf8')).items():
+        reviewed[en]={'zh':zh,'kind':'craft-reviewed-name','status':'source-name-reviewed',
+                      'source':'Data/Mod*.lua; Data/Bases; tools/localization/craft-names-reviewed.json'}
+    for en,zh in build_names(source).items():
+        if en in (known_entries or {}):continue
+        reviewed[en]={'zh':zh,'kind':'craft-reviewed-name','status':'source-name-reviewed',
+                      'source':'Data/Mod*.lua; tools/localization/craft-affix-words.tsv'}
+    for line in (HERE/'craft-extra-reviewed.tsv').read_text('utf8').splitlines():
+        if not line or line.startswith('//'):continue
+        en,zh=line.split('\t');ids=iter(range(en.count('#')))
+        en=re.sub('#',lambda m:'{'+str(next(ids))+'}',en)
+        if en in reviewed:raise ValueError('Duplicate reviewed crafting clause: '+en)
+        reviewed[en]={'zh':zh,'kind':'craft-reviewed','status':'source-clause-reviewed',
+                      'source':'Data/Mod*.lua; Data/Bases; tools/localization/craft-extra-reviewed.tsv'}
     entries = {en: next(iter(v.values())) for en, v in exact.items() if len(v) == 1}
     templates = {en: next(iter(v.values())) for en, v in patterns.items() if len(v) == 1}
     for en, meta in reviewed.items():
@@ -198,6 +213,16 @@ def build_items(known_entries=None, known_templates=()):
             if en not in local_text:
                 raise ValueError('Reviewed item name/text not found: ' + en)
             entries[en] = meta
+    # Correct a known split clause in the older shared reference. This is an
+    # explicit, exact text correction, never a replacement of shared names.
+    # Update the caller's shared entry before its canonical setdefault merge.
+    for en,zh in json.loads((HERE/'craft-corrections.json').read_text('utf8')).items():
+        if en not in local_text or not numeric_pair(en,zh):
+            raise ValueError('Invalid crafting clause correction: '+en)
+        meta={'zh':zh,'kind':'craft-correction','status':'source-clause-reviewed',
+              'source':'Data/ModFoulborn.lua; tools/localization/craft-corrections.json'}
+        entries[en]=meta
+        if known_entries is not None:known_entries[en]=meta
     # Compose complete, finite source clauses from already verified terms.
     # The resulting exact text and numeric template are still display-only.
     shared = dict(known_entries or {}, **entries)
