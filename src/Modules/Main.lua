@@ -289,8 +289,10 @@ the "Releases" section of the GitHub page.]])
 end
 
 function main:DetectUnicodeSupport()
-	-- PoeCharm has utf8 global that normal PoB doesn't have
-	self.unicode = type(_G.utf8) == "table" or unicodeInput:Install()
+	-- lua-utf8 also creates this global when Common loads it. It proves that
+	-- UTF-8 strings are supported, not that native character events are UTF-8.
+	-- Always install the native bridge before considering alternate runtimes.
+	self.unicode = unicodeInput:Install() or type(_G.utf8) == "table"
 	if self.unicode then
 		ConPrintf("Unicode support detected")
 	end
