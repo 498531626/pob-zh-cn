@@ -13,62 +13,50 @@
     "number-correspondence": 192
   },
   "ambiguous": {
-    "{0} to Strength and Dexterity": [
-      "{0} 力量和敏捷",
-      "{0} 力量与敏捷"
-    ],
-    "{0}% increased maximum Energy Shield": [
-      "能量护盾上限提高 {0}%",
-      "增加 {0}% 最大能量护盾"
-    ],
-    "{0}% Chance to Block Attack Damage": [
-      "{0}% 攻击伤害格挡几率",
-      "{0}% 攻击伤害格挡率"
+    "{0}% increased Critical Strike Chance": [
+      "该装备的攻击暴击率提高 {0}%",
+      "暴击率提高 {0}%"
     ],
     "{0}% Chance to Block Spell Damage": [
       "{0}% 格挡法术伤害几率",
       "{0}% 法术伤害格挡几率",
       "{0}% 法术格挡几率"
     ],
-    "{0} to Strength and Intelligence": [
-      "{0} 力量和智慧",
-      "{0} 力量与智慧"
-    ],
     "{0}% increased maximum Life": [
       "生命上限提高 {0}%",
       "增加 {0}% 最大生命"
     ],
-    "{0}% increased Critical Strike Chance": [
-      "该装备的攻击暴击率提高 {0}%",
-      "暴击率提高 {0}%"
+    "{0}% increased maximum Energy Shield": [
+      "能量护盾上限提高 {0}%",
+      "增加 {0}% 最大能量护盾"
     ],
-    "{0}% increased Spell Damage per {1} Intelligence": [
-      "每 {1} 点智慧会使法术伤害提高 {0}%",
-      "每 {1} 点智慧可使法术伤害提高 {0}%"
+    "{0} to Strength and Intelligence": [
+      "{0} 力量和智慧",
+      "{0} 力量与智慧"
     ],
-    "{0}% increased Attack Speed per {1} Dexterity": [
-      "每 {1} 点敏捷可使攻击速度加快 {0}%",
-      "每 {1} 点敏捷会使攻击速度加快 {0}%"
+    "{0} to Strength and Dexterity": [
+      "{0} 力量和敏捷",
+      "{0} 力量与敏捷"
+    ],
+    "{0}% Chance to Block Attack Damage": [
+      "{0}% 攻击伤害格挡率",
+      "{0}% 攻击伤害格挡几率"
     ],
     "{0}% increased Experience gain": [
       "经验值加成提高 {0}%",
       "经验值获取提高 {0}%"
     ],
-    "{0}% increased Damage per {1} Dexterity": [
-      "每 {1} 点敏捷可使伤害提高 {0}%",
-      "伤害按照每 {1} 点敏捷提高 {0}%"
+    "{0}% chance to gain Onslaught for {1} seconds on Kill": [
+      "击败敌人时有 {0}% 的几率获得猛攻状态，持续 {1} 秒",
+      "击败敌人时有 {0}% 的几率获得 {1} 秒猛攻状态"
     ],
-    "{0}% Chance to Block Attack Damage while you have at least {1} Crab Barriers": [
-      "你拥有至少 {1} 个深海屏障时，攻击伤害格挡几率 {0}%",
-      "你拥有至少 {1} 个深海屏障时，攻击伤害格挡几率{0}%"
+    "{0}% increased Attack Speed per {1} Dexterity": [
+      "每 {1} 点敏捷会使攻击速度加快 {0}%",
+      "每 {1} 点敏捷可使攻击速度加快 {0}%"
     ],
     "{0}% chance for Poisons inflicted with this Weapon to deal {1}% more Damage": [
       "该武器施加的中毒效果有 {0}% 的几率使中毒伤害总增 {1}%",
       "使用此武器攻击所造成的中毒效果有 {0}% 的几率使中毒伤害总增 {1}%"
-    ],
-    "{0}% chance to gain Onslaught for {1} seconds on Kill": [
-      "击败敌人时有 {0}% 的几率获得猛攻状态，持续 {1} 秒",
-      "击败敌人时有 {0}% 的几率获得 {1} 秒猛攻状态"
     ],
     "Grants Immunity to Ignite for {0} seconds if used while Ignited": [
       "被点燃时使用可以在 {0} 秒内免疫点燃",
@@ -82,21 +70,33 @@
       "魔力在击败敌人时恢复 {0}%",
       "击败敌人会回复 {0}% 魔力"
     ],
+    "{0}% increased Spell Damage per {1} Intelligence": [
+      "每 {1} 点智慧会使法术伤害提高 {0}%",
+      "每 {1} 点智慧可使法术伤害提高 {0}%"
+    ],
+    "{0}% increased Damage per {1} Dexterity": [
+      "每 {1} 点敏捷可使伤害提高 {0}%",
+      "伤害按照每 {1} 点敏捷提高 {0}%"
+    ],
+    "{0}% Chance to Block Attack Damage while you have at least {1} Crab Barriers": [
+      "你拥有至少 {1} 个深海屏障时，攻击伤害格挡几率 {0}%",
+      "你拥有至少 {1} 个深海屏障时，攻击伤害格挡几率{0}%"
+    ],
     "{0}% increased Damage per {1} Strength": [
       "每 {1} 点力量可使伤害提高 {0}%",
       "伤害按照每 {1} 点力量提高 {0}%"
     ],
-    "Grants Level {0} Wrath Skill": [
-      "获得 {0} 级的主动技能雷霆，且可被此道具上的技能石辅助",
-      "提供 {0} 级雷霆"
+    "{0}% increased Damage per {1} Intelligence": [
+      "每 {1} 点智慧可使伤害提高 {0}%",
+      "伤害按照每 {1} 点智慧提高 {0}%"
     ],
     "Grants Level {0} Discipline Skill": [
       "获得 {0} 级的主动技能纪律，且可被此道具上的技能石辅助",
       "提供 {0} 级纪律"
     ],
-    "{0}% increased Damage per {1} Intelligence": [
-      "每 {1} 点智慧可使伤害提高 {0}%",
-      "伤害按照每 {1} 点智慧提高 {0}%"
+    "Grants Level {0} Wrath Skill": [
+      "获得 {0} 级的主动技能雷霆，且可被此道具上的技能石辅助",
+      "提供 {0} 级雷霆"
     ],
     "{0}% chance to Intimidate Enemies for {1} seconds on Hit": [
       "击中有 {0}% 的几率威吓敌人 {1} 秒",
@@ -110,13 +110,13 @@
       "有一个异界图鉴最终首领出现在你面前：药剂每 {1} 秒获得 {0} 次充能",
       "有一个异界图鉴最终首领出现在你面前：药剂每 {0} 秒获得 {1} 次充能"
     ],
-    "Lose {0}% of Energy Shield on Kill": [
-      "能量护盾在击败敌人时失去 {0}%",
-      "击败敌人失去 {0}% 能量护盾"
-    ],
     "Lose {0}% of Life on Kill": [
       "生命在击败敌人时失去 {0}%",
       "击败敌人失去 {0}% 生命"
+    ],
+    "Lose {0}% of Energy Shield on Kill": [
+      "能量护盾在击败敌人时失去 {0}%",
+      "击败敌人失去 {0}% 能量护盾"
     ],
     "Grants Level {0} Purity of Lightning Skill": [
       "获得 {0} 级的主动技能闪电净化，且可被此道具上的技能石辅助",
@@ -128,6 +128,15 @@
     ]
   },
   "ambiguous_exact": {
+    "Curse Enemies with Flammability on Hit": [
+      "击中时对敌人附加易燃诅咒。",
+      "击中时用易燃诅咒敌人"
+    ],
+    "Two-Toned Boots": [
+      "异色鞋(冰闪)",
+      "异色鞋 (火冰)",
+      "异色鞋 (火闪)"
+    ],
     "5% increased maximum Energy Shield": [
       "能量护盾上限提高 5%",
       "增加 5% 最大能量护盾"
@@ -136,135 +145,126 @@
       "生命上限提高 5%",
       "增加 5% 最大生命"
     ],
-    "Ashbark Tincture": [
-      "烬皮酊剂",
-      "灰树皮萃取物"
-    ],
-    "Notable Passive Skills in Radius are Transformed to": [
-      "范围内的核心天赋技能转化",
-      "范围内的核心天赋替换为："
-    ],
-    "Oakbranch Tincture": [
-      "橡枝酊剂",
-      "橡木枝萃取物"
+    "Diamond Ring": [
+      "宝钻戒指",
+      "晶钻戒指"
     ],
     "Curse Enemies with Temporal Chains on Hit": [
       "击中时对敌人附加时空锁链诅咒。",
       "击中时用时空锁链诅咒敌人"
     ],
-    "Cannot be Stunned": [
-      "无法被晕眩",
-      "免疫晕眩"
+    "Notable Passive Skills in Radius are Transformed to": [
+      "范围内的核心天赋技能转化",
+      "范围内的核心天赋替换为："
     ],
-    "Diamond Ring": [
-      "宝钻戒指",
-      "晶钻戒指"
+    "Cannot be Stunned": [
+      "免疫晕眩",
+      "无法被晕眩"
+    ],
+    "Ashbark Tincture": [
+      "烬皮酊剂",
+      "灰树皮萃取物"
     ],
     "Passives granting Lightning Resistance or all Elemental Resistances in Radius": [
       "给范围内提供闪电抗性或所有元素抗性的天赋",
       "范围内提高闪电抗性或所有元素抗性的天赋"
     ],
-    "Two-Toned Boots": [
-      "异色鞋(冰闪)",
-      "异色鞋 (火冰)",
-      "异色鞋 (火闪)"
+    "Oakbranch Tincture": [
+      "橡枝酊剂",
+      "橡木枝萃取物"
     ],
     "Ironwood Tincture": [
       "铁木酊剂",
       "铁木林萃取物"
     ],
-    "Curse Enemies with Flammability on Hit": [
-      "击中时对敌人附加易燃诅咒。",
-      "击中时用易燃诅咒敌人"
-    ],
-    "Upgraded": [
-      "升级的",
-      "升级之"
-    ],
-    "of Precision": [
-      "精准之",
-      "精密之"
-    ],
     "Subterranean": [
       "地心的",
       "地下的"
-    ],
-    "Burnished": [
-      "磨光的",
-      "光亮的"
-    ],
-    "of Redemption": [
-      "救赎之",
-      "救赎的"
-    ],
-    "Honed": [
-      "砥砺的",
-      "硬索的"
-    ],
-    "Glinting": [
-      "反光的",
-      "微烁的"
-    ],
-    "Mage's": [
-      "法师的",
-      "魔导师的"
-    ],
-    "Zaffre": [
-      "钴蓝的",
-      "蓝釉的"
-    ],
-    "Humming": [
-      "低鸣的",
-      "雷电的"
     ],
     "of Rage": [
       "震怒之",
       "狂怒之"
     ],
-    "of the Marksman": [
-      "神箭手之",
-      "神射手之"
-    ],
-    "Frozen": [
-      "冻结的",
-      "冰冻的"
-    ],
-    "Blue": [
-      "纯蓝的",
-      "蓝色的"
-    ],
-    "Overpowering": [
-      "威压的",
-      "狂暴的"
-    ],
-    "Freezing": [
-      "急冻的",
-      "冷冻的"
-    ],
-    "Empowering": [
-      "赋能的",
-      "驾驭的"
+    "Upgraded": [
+      "升级的",
+      "升级之"
     ],
     "Shocking": [
       "电震的",
       "导电的"
+    ],
+    "of Redemption": [
+      "救赎之",
+      "救赎的"
+    ],
+    "of Steadiness": [
+      "稳固之",
+      "稳健之"
+    ],
+    "Mage's": [
+      "法师的",
+      "魔导师的"
+    ],
+    "Humming": [
+      "低鸣的",
+      "雷电的"
+    ],
+    "Glinting": [
+      "反光的",
+      "微烁的"
+    ],
+    "of Precision": [
+      "精准之",
+      "精密之"
+    ],
+    "Freezing": [
+      "急冻的",
+      "冷冻的"
     ],
     "Chilled": [
       "冷冻的",
       "冰缓的",
       "冰缓"
     ],
+    "Frozen": [
+      "冻结的",
+      "冰冻的"
+    ],
     "Flaming": [
       "火焰的",
       "烈火的"
+    ],
+    "of the Marksman": [
+      "神箭手之",
+      "神射手之"
+    ],
+    "Burnished": [
+      "磨光的",
+      "光亮的"
+    ],
+    "Overpowering": [
+      "威压的",
+      "狂暴的"
     ],
     "Frigid": [
       "寒风的",
       "寒风之"
     ],
-    "of Steadiness": [
-      "稳固之",
-      "稳健之"
+    "Zaffre": [
+      "钴蓝的",
+      "蓝釉的"
+    ],
+    "Blue": [
+      "纯蓝的",
+      "蓝色的"
+    ],
+    "Honed": [
+      "砥砺的",
+      "硬索的"
+    ],
+    "Empowering": [
+      "赋能的",
+      "驾驭的"
     ],
     "Micro-Distillery Belt": [
       "低酿腰带",
@@ -282,49 +282,49 @@
       "尊崇圣战者之",
       "高阶圣战者之"
     ],
-    "Elevated Hunter's": [
-      "尊崇狩猎者的",
-      "高阶狩猎者的"
+    "Elevated Crusader's": [
+      "高阶圣战者的",
+      "尊崇圣战者的"
     ],
     "of Elevated Redemption": [
       "尊崇救赎之",
       "高阶救赎之"
     ],
-    "Elevated Crusader's": [
-      "尊崇圣战者的",
-      "高阶圣战者的"
-    ],
     "of the Elevated Elder": [
       "尊崇裂界者之",
       "高阶裂界者之"
+    ],
+    "Elevated Hunter's": [
+      "尊崇狩猎者的",
+      "高阶狩猎者的"
     ],
     "Gladiator's": [
       "角斗士的",
       "卫士的"
     ],
-    "Curse Enemies with Conductivity on Hit": [
-      "击中时对敌人附加导电诅咒。",
-      "击中时用导电诅咒敌人"
+    "Curse Enemies with Elemental Weakness on Hit": [
+      "击中时对敌人附加元素要害诅咒。",
+      "击中时用元素要害诅咒敌人"
     ],
     "Curse Enemies with Frostbite on Hit": [
       "击中时对敌人附加冻伤诅咒。",
       "击中时用冻伤诅咒敌人"
     ],
-    "Grants Level 10 Wrath Skill": [
-      "获得 10 级的主动技能雷霆，且可被此道具上的技能石辅助",
-      "提供 10 级雷霆"
+    "Curse Enemies with Conductivity on Hit": [
+      "击中时对敌人附加导电诅咒。",
+      "击中时用导电诅咒敌人"
     ],
     "Curse Enemies with Despair on Hit": [
       "击中时对敌人附加绝望诅咒。",
       "击中时用绝望诅咒敌人"
     ],
-    "Curse Enemies with Elemental Weakness on Hit": [
-      "击中时对敌人附加元素要害诅咒。",
-      "击中时用元素要害诅咒敌人"
-    ],
     "Grants Level 15 Wrath Skill": [
       "获得 15 级的主动技能雷霆，且可被此道具上的技能石辅助",
       "提供 15 级雷霆"
+    ],
+    "Grants Level 10 Wrath Skill": [
+      "获得 10 级的主动技能雷霆，且可被此道具上的技能石辅助",
+      "提供 10 级雷霆"
     ],
     "Occultist's": [
       "神秘学者的",
@@ -342,13 +342,13 @@
       "召唤师之",
       "死灵师之"
     ],
-    "of the Guardian": [
-      "守护者之",
-      "卫士之"
-    ],
     "of the Assassin": [
       "刺客大师之",
       "刺客之"
+    ],
+    "of the Guardian": [
+      "守护者之",
+      "卫士之"
     ],
     "Recover 1% of Mana on Kill": [
       "魔力在击败敌人时恢复 1%",
@@ -356,6 +356,14 @@
     ],
     "Malignant": [
       "恶性的",
+      "恶毒的"
+    ],
+    "Darkened": [
+      "黑暗的",
+      "黑化的"
+    ],
+    "Vile": [
+      "恶劣的",
       "恶毒的"
     ],
     "Tainted": [
@@ -366,17 +374,9 @@
       "多云的",
       "雾化的"
     ],
-    "Darkened": [
-      "黑暗的",
-      "黑化的"
-    ],
-    "Vile": [
-      "恶劣的",
-      "恶毒的"
-    ],
     "Curse Enemies with Enfeeble on Hit": [
-      "击中时用衰弱诅咒敌人",
-      "击中时对敌人附加衰弱诅咒。"
+      "击中时对敌人附加衰弱诅咒。",
+      "击中时用衰弱诅咒敌人"
     ],
     "of the Deadeye": [
       "锐眼之",

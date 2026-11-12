@@ -284,4 +284,8 @@ return {
 {pattern="^Elemental DPS: ([%+%-]?[%d%,%.]+)$",zh="元素每秒伤害：{0}",kinds={"number"}},
 {pattern="^%(([%+%-]?[%d%,%.]+) DPS%)$",zh="（{0} 每秒伤害）",kinds={"number"}},
 {pattern="^([%+%-]?[%d%,%.]+)%-([%+%-]?[%d%,%.]+) %(([%+%-]?[%d%,%.]+) DPS%)$",zh="{0}-{1}（{2} 每秒伤害）",kinds={"number","number","number"}},
+{pattern="^([%+%-]?[%d%,%.]+)%% more$",zh="{0}% 总增",kinds={"number"}},
+{pattern="^([%+%-]?[%d%,%.]+)%% less$",zh="{0}% 总降",kinds={"number"}},
+{pattern="^([%+%-]?[%d%,%.]+)%% increased$",zh="{0}% 提高",kinds={"number"}},
+{pattern="^([%+%-]?[%d%,%.]+)%% reduced$",zh="{0}% 降低",kinds={"number"}},
 }

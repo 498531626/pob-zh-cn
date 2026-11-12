@@ -283,5 +283,9 @@
   "%g Tiers": "%g 个阶级",
   "Elemental DPS: %g": "元素每秒伤害：%g",
   "(%g DPS)": "（%g 每秒伤害）",
-  "%g-%g (%g DPS)": "%g-%g（%g 每秒伤害）"
+  "%g-%g (%g DPS)": "%g-%g（%g 每秒伤害）",
+  "%g%% more": "%g%% 总增",
+  "%g%% less": "%g%% 总降",
+  "%g%% increased": "%g%% 提高",
+  "%g%% reduced": "%g%% 降低"
 }

@@ -231,6 +231,27 @@ local function dynamicChinese(body)
 		local translated = L:Translate(joined, nil, "zh")
 		if translated ~= joined and not translated:find("%a") then return translated:gsub("\n", "/") end
 	end
+	-- Calcs emits comma-separated buff names and counted charge labels. Only
+	-- translate complete known entries; never split numeric thousands commas.
+	local function buffChinese(value)
+		if dictionary[value] then return dictionary[value] end
+		local count, charge = value:match("^(%d+) (.+ Charges)$")
+		if count and dictionary[charge] then return count .. " " .. dictionary[charge] end
+	end
+	local buff = buffChinese(body)
+	if buff then return buff end
+	if body:find(", ", 1, true) then
+		local parts, cursor = {}, 1
+		while true do
+			local first, last = body:find(", ", cursor, true)
+			local part = body:sub(cursor, first and first-1 or #body)
+			local translated = buffChinese(part)
+			if not translated then break end
+			parts[#parts+1] = translated
+			if not first then return table.concat(parts, ", ") end
+			cursor = last+1
+		end
+	end
 	local number = body:match("^([%d%,%.]+) DPS$")
 	if number then return number .. " 每秒伤害" end
 	local mathPrefix, low, high = body:match("^([=%+%*/x%s%-]*)([%+%-]?[%d%,%.]+) to ([%+%-]?[%d%,%.]+)$")
