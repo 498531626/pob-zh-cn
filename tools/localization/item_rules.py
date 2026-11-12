@@ -25,6 +25,7 @@ PER = {'Power Charge':'暴击球', 'Endurance Charge':'耐力球', 'Frenzy Charg
        'Grand Spectrum':'聚光之石', 'Level':'等级', 'White Socket':'白色插槽',
        'Red Socket':'红色插槽', 'Raised Zombie':'魔卫', 'Siphoning Charge':'轮回球', 'Chain':'连锁'}
 STATS = {'maximum Life':'生命上限', 'maximum Energy Shield':'能量护盾上限',
+         'Evasion Rating':'闪避值', 'Damage taken':'受到的伤害',
          'Critical Strike Chance':'暴击几率', 'Critical Strike Chance for Spells':'法术暴击几率',
          'Global Critical Strike Chance':'全域暴击几率', 'Damage Over Time':'持续伤害',
          'Damage over Time':'持续伤害', 'Mine Laying Speed':'地雷投掷速度',
@@ -43,6 +44,31 @@ AMOUNT = r'([+\-]?(?:\(\-?\d+(?:\.\d+)?-\-?\d+(?:\.\d+)?\)|\d+(?:\.\d+)?|#))'
 
 
 def compose_item(text, resolve, terms):
+    match = re.fullmatch(r'Your (Fire|Cold|Lightning) Damage can Poison', text)
+    if match: return '你的'+{'Fire':'火焰','Cold':'冰霜','Lightning':'闪电'}[match[1]]+'伤害可以造成中毒'
+    match = re.fullmatch(r'(Fire|Cold|Lightning) Skills have '+AMOUNT+r'% chance to Poison on Hit', text)
+    if match: return {'Fire':'火焰','Cold':'冰霜','Lightning':'闪电'}[match[1]]+'技能击中时有 '+match[2]+'% 的几率造成中毒'
+    match = re.fullmatch(r'With a (Murderous|Searching|Hypnotic|Ghastly) Eye Jewel Socketed, (.+)', text)
+    if match:
+        base = resolve(match[2])
+        if base: return '插入'+{'Murderous':'凶残','Searching':'锐利','Hypnotic':'催眠','Ghastly':'苍白'}[match[1]]+'之凝珠宝时，'+base
+    match = re.fullmatch(r'(.+) has no Reservation if Cast as an Aura', text)
+    if match and match[1].casefold() in terms:
+        return terms[match[1].casefold()]+'以光环形式施放时没有保留效果'
+    classes = {'Marauder':'野蛮人', 'Duelist':'决斗者', 'Ranger':'游侠',
+               'Shadow':'暗影刺客', 'Witch':'女巫', 'Templar':'圣堂武僧', 'Scion':'贵族'}
+    match = re.fullmatch(r'(Marauder|Duelist|Ranger|Shadow|Witch|Templar|Scion): (.+)', text)
+    if match:
+        base = resolve(match[2])
+        if base: return classes[match[1]]+'：'+base
+    match = re.fullmatch(r'Passive Skills in radius of (.+) can be allocated without being connected to your tree', text)
+    if match and match[1].casefold() in terms:
+        return '可分配'+terms[match[1].casefold()]+'范围内的天赋，无需与天赋树相连'
+    match = re.fullmatch(r'Allocates (.+) if you have the matching modifier on (Forbidden Flame|Forbidden Flesh)', text)
+    if match and all(v.casefold() in terms for v in match.groups()):
+        return '若'+terms[match[2].casefold()]+'上有匹配的词缀，则分配'+terms[match[1].casefold()]
+    match = re.fullmatch(r'Gain '+AMOUNT+r' (Endurance|Frenzy|Power) Charges? on use', text)
+    if match: return '使用时获得 '+match[1]+' 个'+{'Endurance':'耐力球','Frenzy':'狂怒球','Power':'暴击球'}[match[2]]
     affected = re.fullmatch(r'(.+) while affected by (.+)', text)
     if affected:
         aura = terms.get(affected[2].casefold())

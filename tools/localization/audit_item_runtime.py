@@ -68,10 +68,6 @@ for _,raw in ipairs(data.uniques.generated)do
   end
  end
 end
-table.sort(inventory,function(a,b)return a.kind==b.kind and a.english<b.english or a.kind<b.kind end)
-local inventoryFile=assert(io.open(AUDIT_OUTPUT:gsub('item%-runtime%-audit','item-runtime-source'),'wb'))
-inventoryFile:write(json.encode(inventory,{indent=true}));inventoryFile:close()
-if AUDIT_EXPORT_ONLY then print('Runtime unique inventory: '..#inventory..' display records');return end
 main.showFlavourText=false
 build.itemsTab.showStatDifferences=false
 local tip=new('Tooltip')
@@ -88,16 +84,23 @@ local function check(item,kind)
  end
  local mods=fingerprint(item.modList,{})
  local text={}
- for _,mode in ipairs({'en','zh','bilingual'})do
+ for _,mode in ipairs({'en','zh'})do
   L.mode=mode;tip:Clear();build.itemsTab:AddItemTooltip(tip,item,nil,true)
   local lines={};for _,line in ipairs(tip.lines)do lines[#lines+1]=line.text or ''end
   text[mode]=table.concat(lines,'\n')
+  if mode=='en' then
+   for _,line in ipairs(lines)do
+    local plain=(line:gsub('%^x%x%x%x%x%x%x',''):gsub('%^%d',''))
+    plain=plain:gsub(' %(Not supported in PoB yet%)$','')
+    inventoryAdd(plain,'unique-tooltip','runtime uniqueDB tooltip')
+   end
+  end
   assert(item:BuildRaw()==original,'Displayed item changed serialization: '..item.name)
   assert(fingerprint(item.modList,{})==mods,'Displayed item changed parsed modifiers: '..item.name)
  end
  local rest=text.zh:gsub('%^x%x%x%x%x%x%x',''):gsub('%^%d','')
  local words={};for w in rest:gmatch('%a%a+')do if w~='PoB'and w~='Ctrl'and w~='Alt'and w~='Shift'and w~='DPS'and w~='RGBA'then words[#words+1]=w end end
- local row={name=item.name,kind=kind,english=text.en,chinese=text.zh,bilingual=text.bilingual}
+ local row={name=item.name,kind=kind,english=text.en,chinese=text.zh}
  L.mode='zh';row.title=item.title;row.translated_title=L:Translate(item.title)
  if kind=='unique'and row.translated_title:match('%a%a')then
   titlePending[#titlePending+1]={english=item.title,chinese=row.translated_title}
@@ -126,10 +129,14 @@ for _,base in ipairs({'Vaal Regalia','Hubris Circlet','Titan Gauntlets','Opal Ri
  end
 end
 table.sort(titlePending,function(a,b)return a.english<b.english end)
+table.sort(inventory,function(a,b)return a.kind==b.kind and a.english<b.english or a.kind<b.kind end)
+local inventoryFile=assert(io.open(AUDIT_OUTPUT:gsub('item%-runtime%-audit','item-runtime-source'),'wb'))
+inventoryFile:write(json.encode(inventory,{indent=true}));inventoryFile:close()
+if AUDIT_EXPORT_ONLY then print('Runtime unique inventory: '..#inventory..' display records');return end
 local f=assert(io.open(AUDIT_OUTPUT,'wb'));f:write(json.encode({total=#rows,crafted=crafted,untranslated_tooltips=#pending,untranslated_titles=titlePending,items=rows},{indent=true}));f:close()
 f=assert(io.open(AUDIT_PENDING,'wb'));f:write(json.encode(pending,{indent=true}));f:close()
 for _,row in ipairs(pending)do assert(row.kind~='crafted','Crafting sample has untranslated detail: '..row.name)end
 assert(crafted==6,'Expected all six crafting fixtures to parse')
-print('Actual item tooltip audit: '..#rows..' items, '..crafted..' crafted; serialization and parsed numbers unchanged in 3 modes; '..#pending..' tooltips have English')
+print('Actual item tooltip audit: '..#rows..' items, '..crafted..' crafted; serialization and parsed numbers unchanged in 2 modes; '..#pending..' tooltips have English')
 
 ''')

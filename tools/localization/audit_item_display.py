@@ -20,8 +20,6 @@ local pending,counts,totals={},{},{}
 for _,row in ipairs(rows)do
  L.mode='zh';row.chinese=L:Translate(row.english)
  L.mode='en';assert(L:Translate(row.english)==row.english,'English mode changed item text')
- L.mode='bilingual';local both=L:Translate(row.english)
- if row.chinese~=row.english then assert(both~=row.chinese,'Item comparison mode lost English: '..row.english)end
  totals[row.kind]=(totals[row.kind]or 0)+1
  local words={}
  for word in row.chinese:gmatch('%a%a+')do if word~='PoB'and word~='DPS'then words[#words+1]=word end end

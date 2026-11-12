@@ -80,7 +80,12 @@ def read_mods(soup):
 def build_items(known_entries=None, known_templates=()):
     source = json.loads((HERE / 'item-source.json').read_text('utf8'))
     source += json.loads((HERE / 'database-source.json').read_text('utf8'))
+    source += json.loads((HERE / 'item-runtime-source.json').read_text('utf8'))
     local_text = {r['english'].strip() for r in source}
+    local_names = defaultdict(set)
+    for row in source:
+        if row['kind'] in ('unique-name', 'base-name'):
+            local_names[row['english'].strip().casefold()].add(row['english'].strip())
     local_shapes = {shape(t) for t in local_text}
     exact, patterns = defaultdict(dict), defaultdict(dict)
     seen_pairs = set()
@@ -96,15 +101,21 @@ def build_items(known_entries=None, known_templates=()):
         meta = {'zh': zh, 'kind': kind, 'status': 'paired-record-local-english-numbers-checked',
                 'source': 'https://poedb.tw/cn/' + slug,
                 'english_source': 'https://poedb.tw/us/' + slug}
+        # A combined reference stat may differ in one historic clause. Still
+        # validate each aligned line independently before rejecting the group.
+        if '\n' in en and len(en.splitlines()) == len(zh.splitlines()):
+            for e, z in zip(en.splitlines(), zh.splitlines()):
+                add(e, z, slug, kind)
+        if kind.endswith('name') and en not in local_text:
+            aliases = local_names.get(en.casefold(), set())
+            if len(aliases) == 1:
+                en = next(iter(aliases))
         paired = None if kind.endswith('name') else numeric_pair(en, zh)
         if not kind.endswith('name') and not paired:
             rejected['number-correspondence'] += 1
             return
         if en in local_text:
             exact[en][zh] = meta
-        if '\n' in en and len(en.splitlines()) == len(zh.splitlines()):
-            for e, z in zip(en.splitlines(), zh.splitlines()):
-                add(e, z, slug, kind)
         if kind.endswith('name') or shape(en) not in local_shapes:
             return
         e, z, values = paired
@@ -160,6 +171,9 @@ def build_items(known_entries=None, known_templates=()):
             add(e.get('Name', ''), z.get('Name', ''), slug, 'affix-name')
     reviewed_path = HERE / 'item-reviewed.json'
     reviewed = json.loads(reviewed_path.read_text('utf8')) if reviewed_path.exists() else {}
+    for en, zh in json.loads((HERE / 'unique-reviewed.json').read_text('utf8')).items():
+        reviewed[en] = {'zh': zh, 'kind': 'unique-reviewed', 'status': 'source-clause-reviewed',
+                        'source': 'Data/Uniques; https://poedb.tw/cn/Unique_item'}
     entries = {en: next(iter(v.values())) for en, v in exact.items() if len(v) == 1}
     templates = {en: next(iter(v.values())) for en, v in patterns.items() if len(v) == 1}
     for en, meta in reviewed.items():
