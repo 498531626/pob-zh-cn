@@ -235,7 +235,7 @@ function main:Init()
 	end
 	self.controls.forkLabel = new("LabelControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {148, -26, 0, 16}, "")
 	self.controls.forkLabel.label = function()
-		return "^8PoB Community Fork"
+		return "^8PoB Community Fork  |  " .. Localization.credit
 	end
 	self.controls.versionLabel = new("LabelControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {148, -2, 0, 16}, "")
 	self.controls.versionLabel.label = function()
@@ -1438,15 +1438,16 @@ function main:OpenAboutPopup(helpSectionIndex)
 	controls.github = new("ButtonControl", nil, {0, 62, 438, 18}, "^7GitHub page: ^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding", function(control)
 		OpenURL("https://github.com/PathOfBuildingCommunity/PathOfBuilding")
 	end)
-	controls.verLabel = new("ButtonControl", {"TOPLEFT", nil, "TOPLEFT"}, {10, 85, 100, 18}, "^7Version history:", function()
+	controls.localizationCredit = new("LabelControl", nil, {0, 84, 0, 18}, "^7" .. Localization.credit)
+	controls.verLabel = new("ButtonControl", {"TOPLEFT", nil, "TOPLEFT"}, {10, 109, 100, 18}, "^7Version history:", function()
 		controls.changelog.list = changeList
 		controls.changelog.sectionHeights = changeVersionHeights
 	end)
-	controls.helpLabel = new("ButtonControl", {"TOPRIGHT", nil, "TOPRIGHT"}, {-10, 85, 40, 18}, "^7Help:", function()
+	controls.helpLabel = new("ButtonControl", {"TOPRIGHT", nil, "TOPRIGHT"}, {-10, 109, 40, 18}, "^7Help:", function()
 		controls.changelog.list = helpList
 		controls.changelog.sectionHeights = helpSectionHeights
 	end)
-	controls.changelog = new("TextListControl", nil, {0, 103, popupWidth - 20, 515}, {{ x = 1, align = "LEFT" }, { x = 135, align = "LEFT" }}, helpSectionIndex and helpList or changeList, helpSectionIndex and helpSectionHeights or changeVersionHeights)
+	controls.changelog = new("TextListControl", nil, {0, 127, popupWidth - 20, 491}, {{ x = 1, align = "LEFT" }, { x = 135, align = "LEFT" }}, helpSectionIndex and helpList or changeList, helpSectionIndex and helpSectionHeights or changeVersionHeights)
 	if helpSectionIndex then
 		controls.changelog.controls.scrollBar.offset = helpSections[helpSectionIndex].height * textSize
 	end

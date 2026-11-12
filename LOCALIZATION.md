@@ -1,5 +1,9 @@
 # 中文汉化版
 
+简体中文汉化：拽弑。署名显示于主界面底部和“关于”窗口。
+
+2026-11-12 署名验证：`test_locale.py` 与独立副本的 `test_layout.py` 通过；真实窗口确认主界面底部及“关于”弹窗的署名完整显示。署名使用现有中文字形，原项目作者及 GitHub 信息保留；此项窗口抽查不代表完整构筑流程回归。
+
 本仓库仅维护官方 PoB 的中文显示层。当前官方基线见 `upstream-base.json`；后续稳定版通过 `upstream` 合入，再适配、生成并验证汉化，具体见 [上游同步流程](docs/upstream-sync.md)。项目执行约束见 `AGENTS.md`。
 
 从 `E:\POB\启动POB开发版.cmd` 启动。`PathOfBuilding-Portable` 仍是下载时的官方英文版。

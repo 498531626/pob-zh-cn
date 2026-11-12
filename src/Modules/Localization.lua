@@ -1,5 +1,6 @@
 -- Display-only localisation: game IDs, parser input and saved builds stay English.
 local L = { mode = "zh", suspended = 0 }
+L.credit = "简体中文汉化：拽弑"
 local dictionary = LoadModule("Localization/Dictionary")
 local passiveContexts = LoadModule("Localization/PassiveContexts")
 local anointNames = LoadModule("Localization/AnointNames")
