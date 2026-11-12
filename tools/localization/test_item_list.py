@@ -99,5 +99,15 @@ local f=assert(io.open('Classes/ItemsTab.lua','r'));local source=f:read('*a');f:
 local help=assert(source:match('%[%[(%^7Double%-click an item.-)%]%]'))
 assert(not L:Translate(help):find('Double-click',1,true),'Item operation help remains English')
 assert(L:Translate('Any slot')=='任意装备槽' and L:Translate('Any type')=='任意类型')
+f=assert(io.open('Classes/SharedItemListControl.lua','r'));source=f:read('*a');f:close()
+local shared=assert(source:match('self.defaultText = "(.-)"')):gsub('\\n','\n')
+assert(not L:Translate(shared):find('This is a list',1,true))
+f=assert(io.open('Modules/Main.lua','r'));source=f:read('*a');f:close()
+local toast=assert(source:match('ToastNotification:Add%(%[%[(.-)%]%]%)')):gsub('^\n','')
+local body=toast:gsub('^[^\n]*\n?','')
+assert(not L:Translate(body):find('The program',1,true),'Split developer notification body remains English')
+L.mode='en'
+assert(L:Translate(shared)==shared and L:Translate(body)==body)
+L.mode='zh'
 print('Item rows: names, affixes, usage, custom titles, filters, English and Alt language independence and UTF-8 clipping passed.')
 ''')

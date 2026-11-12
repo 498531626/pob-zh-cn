@@ -2,6 +2,7 @@
 local L = { mode = "zh", suspended = 0 }
 local dictionary = LoadModule("Localization/Dictionary")
 local passiveContexts = LoadModule("Localization/PassiveContexts")
+local anointNames = LoadModule("Localization/AnointNames")
 local panelLabels = LoadModule("Localization/PanelLabels")
 local skillTemplates = LoadModule("Localization/SkillTemplates")
 local itemTemplates = LoadModule("Localization/ItemTemplates")
@@ -105,7 +106,7 @@ local function interfaceChinese(body, nodeId)
 	local context = nodeId and passiveContexts[tostring(nodeId)]
 	local function nameChinese(value)
 		local base, seed = value:match("^(.-)( %d+)$")
-		return (context and context[value]) or dictionary[value]
+		return (context and context[value]) or anointNames[value] or dictionary[value]
 			or (base and dictionary[base] and dictionary[base] .. seed) or value
 	end
 	local prefixes = {
@@ -156,8 +157,12 @@ local function interfaceChinese(body, nodeId)
 		if reasons[result] then return actions[action] .. "“" .. nameChinese(target) .. "”" .. reasons[result] end
 	end
 	local verb, target = body:match("^(%a+) (.+)$")
-	local verbs = {Anoint="涂油分配 ", Remove="移除 "}
-	if verbs[verb] and (dictionary[target] or (context and context[target])) then return verbs[verb] .. nameChinese(target) end
+	local verbs = {Anoint="涂油分配 ", Remove="移除 ", Allocates="分配 "}
+	if verbs[verb] and (anointNames[target] or dictionary[target] or (context and context[target])) then return verbs[verb] .. nameChinese(target) end
+	local replaced = body:match("^%(replacing (.-)%)$")
+	if replaced then return "（替换 " .. L:Translate(replaced, nil, "zh") .. "）" end
+	local socket = body:match("^Socket #(%d+)$")
+	if socket then return "插槽 #" .. socket end
 end
 local function dynamicChinese(body)
 	local interface = interfaceChinese(body)

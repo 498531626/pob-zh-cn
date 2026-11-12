@@ -21,6 +21,7 @@ from config_tooltips import compose_tooltip
 from display_formats import compile_formats
 from item_locale import build_items
 from database_locale import build_database
+from anoint_locale import write_anoint_names
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
@@ -184,6 +185,7 @@ def build():
     if missing_calc:
         raise ValueError(f'Untranslated calculation labels: {sorted(missing_calc)}')
     OUT.mkdir(exist_ok=True)
+    write_anoint_names(passive_contexts, OUT / 'AnointNames.lua')
     (OUT / 'catalog.json').write_text(json.dumps(entries, ensure_ascii=False, indent=2) + '\n', 'utf-8')
     def lua(s):
         return json.dumps(s, ensure_ascii=False)

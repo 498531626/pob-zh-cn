@@ -79,4 +79,10 @@ return {
 ["Invasion"]="侵略",
 ["Anarchy"]="混乱",
 ["Onslaught"]="猛袭",
+["Loadouts"]="配装方案",
+["No Loadouts"]="无配装方案",
+["Melee hit"]="近战击中",
+["This is a list of items that will be shared between all of\nyour builds.\nYou can add items to this list by dragging them from\none of the other lists."]="此列表中的物品可由所有构筑共享。\n将其他列表中的物品拖到这里，\n即可加入共享列表。",
+["The program is currently running in developer\nmode, which is not intended for normal use.\nIf you are not expecting this, then you may have\nset up the program from the source .zip instead\nof using one of the installers. If that is the case,\nplease reinstall using one of the installers from\nthe \"Releases\" section of the GitHub page."]="当前以开发者模式运行程序，\n此模式不适用于普通使用。\n若你并非有意启用此模式，\n可能是使用了源码 ZIP 包，\n而非安装程序。请前往 GitHub 的\nReleases 页面下载安装程序并重新安装。",
+["Any league"]="任意赛季",
 }

@@ -213,18 +213,19 @@ end
 ---@param node table
 ---@return string
 function NotableDBClass:GetRowValue(column, index, node)
+	local name = Localization and Localization:Translate(node.dn, node.id) or node.dn
 	if column == 1 then
 		if self.sortDetail and self.sortDetail.stat then
 			if self.sortMaxPower and self.sortMaxPower > 0 and node.measuredPower and node.measuredPower > 0 then
 				local scaledPower = node.measuredPower / self.sortMaxPower
 				local powerRed = scaledPower * (0xFF - 0x80) + 0x80
 				local powerColor = s_format("^x%X8080", powerRed)
-				return powerColor..node.dn
+				return powerColor..name
 			else
-				return "^x808080"..node.dn
+				return "^x808080"..name
 			end
 		else
-			return colorCodes.CRAFTED..node.dn
+			return colorCodes.CRAFTED..name
 		end
 	end
 end

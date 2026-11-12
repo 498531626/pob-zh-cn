@@ -18843,6 +18843,7 @@ Antique Rapier,古代细剑,base-name,paired-record-local-english-numbers-checke
 Antivenom,防护毒素,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Any,任意,ui,editorial-ui,,
 Any Loadout,所有配装,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
+Any league,任意赛季,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
 "Any manual changes made to your fallback nodes are lost when you click the generate button, as it completely replaces them.",点击生成按钮会完整替换备用节点权重，之前的手动修改将丢失。,ui-detail,source-code-checked,,
 Any requirements,任意需求,ui-detail,source-code-checked,,
 Any slot,任意装备槽,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
@@ -28369,6 +28370,7 @@ Living Lightning,活体闪电（辅）,gem,paired-name,https://poedb.tw/cn/Livin
 Living Lightning Support,活体闪电（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Living_Lightning_Support,https://poedb.tw/us/Living_Lightning_Support
 Load,加载,ui,editorial-ui,,
 Loading...,正在加载…,ui-detail,source-code-checked,,
+Loadouts,配装方案,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
 "Lob a fiery orb that deals area damage as it hits the ground. The skill chains, bouncing forward to deal damage multiple times.",抛投出岩浆球，击中地面会造成范围伤害。技能可以连锁，向前弹射多次造成伤害。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Rolling_Magma,https://poedb.tw/us/Rolling_Magma
 "Lobs an exploding projectile near the targeted location, and extra projectiles toward enemies around you. The projectiles deal chaos damage based on your energy shield. Casting this spell damages you.",朝目标地点扔出一枚爆炸投射物，并朝你周围的敌人发射额外投射物。这些投射物根据你的能量护盾造成混沌伤害。施放该法术会对你自己造成伤害。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Forbidden_Rite_of_Soul_Sacrifice,https://poedb.tw/us/Forbidden_Rite_of_Soul_Sacrifice
 "Lobs an exploding projectile near the targeted location, and extra projectiles toward enemies around you. The projectiles deal chaos damage based on your life and energy shield. Casting this spell damages you.",朝目标地点扔出一枚爆炸投射物，并朝你周围的敌人发射额外投射物。这些投射物根据你的生命和能量护盾造成混沌伤害。施放该法术会对你自己造成伤害。,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Forbidden_Rite,https://poedb.tw/us/Forbidden_Rite
@@ -30480,6 +30482,7 @@ No,否,ui,editorial-ui,,
 No Chance to Block,没有格档率,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Kongmings_Stratagem,https://poedb.tw/us/Kongmings_Stratagem
 No Chaos Resistance,无混沌抗性,game-term,paired-link-target,https://poedb.tw/cn/No_Chaos_Resistance,https://poedb.tw/us/No_Chaos_Resistance
 No Forgiveness,罪无可恕,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+No Loadouts,无配装方案,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
 No Physical Damage,没有物理伤害,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Cospris_Malice,https://poedb.tw/us/Cospris_Malice
 No Witnesses,遁入虚无,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 No available variants,无可用版本,ui-detail,source-code-checked,,
@@ -37055,6 +37058,18 @@ The percentage of the roll range the enemy hits for,敌人击中伤害在取值�
 "The percentage of the roll range the enemy hits for
  eg at 100% the enemy deals its maximum damage","敌人击中伤害在取值范围中所处的百分比位置
  例如，设为 100% 时敌人造成其最大伤害",config-tooltip,source-clauses-reviewed,src/Modules/ConfigOptions.lua,
+"The program is currently running in developer
+mode, which is not intended for normal use.
+If you are not expecting this, then you may have
+set up the program from the source .zip instead
+of using one of the installers. If that is the case,
+please reinstall using one of the installers from
+the ""Releases"" section of the GitHub page.","当前以开发者模式运行程序，
+此模式不适用于普通使用。
+若你并非有意启用此模式，
+可能是使用了源码 ZIP 包，
+而非安装程序。请前往 GitHub 的
+Releases 页面下载安装程序并重新安装。",item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
 "The program is currently running in developer mode, which is not intended for normal use.
 If you are not expecting this, you may have used the program from the source zip instead of using one of the installers.
 Please reinstall using one of the installers from the 'Releases' section of the GitHub page.","程序当前以开发模式运行，该模式并非供日常使用。
@@ -37175,6 +37190,12 @@ This effect will only be applied while you can inflict Brittle.,仅在你可以�
 This effect will only be applied while you can inflict Scorched.,仅在你可以施加烧灼时应用此效果。,config-tooltip,source-clauses-reviewed,src/Modules/ConfigOptions.lua,
 This enables the conditional culling strike from the mace mastery.,启用锤类专精中有条件的终结效果。,config-tooltip,source-clauses-reviewed,src/Modules/ConfigOptions.lua,
 This file contains the trade site data from https://www.pathofexile.com/api/trade/data/stats,此文件保存交易网站属性数据，来源：https://www.pathofexile.com/api/trade/data/stats,ui-detail,source-code-checked,,
+"This is a list of items that will be shared between all of
+your builds.
+You can add items to this list by dragging them from
+one of the other lists.","此列表中的物品可由所有构筑共享。
+将其他列表中的物品拖到这里，
+即可加入共享列表。",item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
 "This is an older tree version, which may not be fully compatible with the current game version.",这是旧版天赋树，可能无法完全兼容当前游戏版本。,ui-detail,source-code-checked,,
 "This is automatically enabled if you have a flask active,",拥有生效中的药剂时自动启用，,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 "This is automatically enabled if you have a flask active,
