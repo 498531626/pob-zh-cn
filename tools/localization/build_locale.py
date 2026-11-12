@@ -1,16 +1,13 @@
-"""Build display-only translations and a local Microsoft YaHei glyph atlas.
+"""Build display-only translations and a local Noto Sans SC glyph atlas.
 
 PoEDB inputs are matched by their identical page slug in /cn/ and /us/.
 Only names present in this PoB release are enabled. No numeric game data is copied.
 """
 from pathlib import Path
 import csv
-import hashlib
 import html
 import json
 import re
-import shutil
-from PIL import Image, ImageDraw, ImageFont
 from passive_locale import build_passives
 from calc_rules import compose
 from gem_locale import build_gems, hybrid_gem_names
@@ -22,6 +19,7 @@ from display_formats import compile_formats
 from item_locale import build_items
 from database_locale import build_database
 from anoint_locale import write_anoint_names
+from glyph_atlas import build_atlas
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
@@ -242,34 +240,13 @@ def build():
     (OUT / 'CalcLabels.lua').write_text('return {\n' + ''.join(f'\t{lua(en)},\n' for en in sorted(calc_labels)) + '}\n', 'utf8')
     (OUT / 'ConfigLabels.lua').write_text('return {\n' + ''.join(f'\t{lua(en)},\n' for en in sorted(config_labels)) + '}\n', 'utf8')
 
-    # The font is copied from this PC for local use, not downloaded or installed.
-    font_dir = HERE / 'fonts'
-    font_dir.mkdir(exist_ok=True)
-    font_path = font_dir / 'msyh.ttc'
-    if not font_path.exists():
-        shutil.copy2(Path('C:/Windows/Fonts/msyh.ttc'), font_path)
-    font = ImageFont.truetype(str(font_path), 48, index=0)
     extra = '英文中文对照切换按住临时查看未翻译保留术语参考流亡编年史模式'
     extra += (ROOT / 'src/Modules/Localization.lua').read_text('utf8')
     all_text = ''.join(v['zh'] for v in entries.values()) + ''.join(part_terms.values()) + ''.join(v['zh'] for v in gem_templates + item_templates) + ''.join(v['zh'] for v in formats) + ''.join(display_terms.values()) + ''.join(zh for texts in passive_contexts.values() for zh in texts.values()) + extra
     chars = sorted({c for c in all_text if ord(c) > 127})
-    cell, cols = 64, 64
-    rows = (len(chars) + cols - 1) // cols
-    image = Image.new('RGBA', (cols * cell, rows * cell))
-    draw = ImageDraw.Draw(image)
-    glyphs = []
-    baseline = max(-font.getbbox(ch, anchor='ls')[1] for ch in chars)
-    for i, ch in enumerate(chars):
-        x, y = (i % cols) * cell, (i // cols) * cell
-        # Share one baseline: anchoring each visible bounding box at the top
-        # incorrectly raises punctuation such as 。 and … above the text.
-        draw.text((x, y + baseline), ch, font=font, fill='white', anchor='ls', stroke_width=0)
-        glyphs.append(f'\t[{lua(ch)}] = {{{x}, {y}, {font.getlength(ch):.4f}}},\n')
-    image.save(OUT / 'ChineseGlyphs.png')
-    (OUT / 'Glyphs.lua').write_text(f'return {{size = 48, cell = {cell}, width = {image.width}, height = {image.height}, chars = {{\n' + ''.join(glyphs) + '}}\n', 'utf-8')
+    font_info = build_atlas(chars, OUT)
     report = {'entries': len(entries), 'gem_names': sum(v['kind'] == 'gem' and 'alias_of' not in v for v in entries.values()),
-              'glyphs': len(chars), 'font': 'Microsoft YaHei (local PC copy)',
-              'font_sha256': hashlib.sha256(font_path.read_bytes()).hexdigest(),
+              'glyphs': len(chars), **font_info,
               'pob_version': '2.67.2', 'name_reference_retrieved': '2026-11-11', 'item_reference_retrieved': '2026-11-12',
               'passives': passive_report, 'gem_details': gem_report, 'item_details': item_report,
               'database_details': {k:v if not isinstance(v,dict)else len(v)for k,v in database_report.items()},

@@ -747,6 +747,9 @@ function DrawString(left, top, align, height, font, text)
 		if text ~= original then L:RecordOverflow(anchor, top, align, height, font, text, original) end
 	end
 	if not atlas then atlas = NewImageHandle(); atlas:Load("Localization/ChineseGlyphs.png") end
+	-- Prefer glyphs filtered at the actual UI size instead of shrinking a 48px image.
+	local pixelSize = math.floor(height + 0.5)
+	local strike = glyphs.strikes and glyphs.strikes[pixelSize]
 	local originalColor = currentColor
 	local screenW = GetVirtualScreenSize()
 	local y = top
@@ -760,10 +763,11 @@ function DrawString(left, top, align, height, font, text)
 		for _, t in ipairs(tokens(line)) do
 			if t.color then rawColor(t.color)
 			elseif t.glyph then
-				local g, scale = t.glyph, height / glyphs.size
-				DrawImage(atlas, x, y, glyphs.cell * scale, glyphs.cell * scale,
+				local g = strike and strike.chars[t.ch] or t.glyph
+				local cell, scale = strike and strike.cell or glyphs.cell, height / (strike and pixelSize or glyphs.size)
+				DrawImage(atlas, x, y, cell * scale, cell * scale,
 					g[1] / glyphs.width, g[2] / glyphs.height,
-					(g[1] + glyphs.cell) / glyphs.width, (g[2] + glyphs.cell) / glyphs.height)
+					(g[1] + cell) / glyphs.width, (g[2] + cell) / glyphs.height)
 				x = x + tokenWidth(t, height, font)
 			else
 				rawDraw(x, y, "LEFT", height, font, t.ch)

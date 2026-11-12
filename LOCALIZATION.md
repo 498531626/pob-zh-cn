@@ -36,7 +36,9 @@
 
 数据库资料快照位于 `tools/localization/database-reference/`。名称按同一链接配对，附魔按英文记录编号配对，万神殿和纹身属性按同一物品或神魂卡片配对，再核对本地原文与数值。怪物名称存在多个版本时，按本地怪物编号核对对应卡片；人工核对记录在 `database-reviewed.json`。提取缓存可删除并重建，不纳入 Git。数据库检查不会加载或改写用户构筑。
 
-`src/Localization/术语对照.csv` 和 `catalog.json` 列出词表与来源；按节点的译文见 `PassiveContexts.lua`，数值技能词条见 `SkillTemplates.lua`。覆盖统计见 `src/Localization/build-info.json`、`tools/localization/passive-coverage.json` 和 `gem-coverage.json`。字形来自本机微软雅黑副本，中文标点与汉字共用基线。
+`src/Localization/术语对照.csv` 和 `catalog.json` 列出词表与来源；按节点的译文见 `PassiveContexts.lua`，数值技能词条见 `SkillTemplates.lua`。覆盖统计见 `src/Localization/build-info.json`、`tools/localization/passive-coverage.json` 和 `gem-coverage.json`。中文字形使用本机已安装的思源黑体 Noto Sans SC，字重 500。10–24、32、48 像素分别生成字形并预先抗锯齿，减少小字号直接缩放大图时的细笔画丢失；中文标点与汉字共用基线。仅刷新字体可运行 `tools/localization/glyph_atlas.py`，完整词典生成也使用同一字体生成器。重启 PoB 后加载新图集。
+
+2026-11-13 字体检查：汉化 Lua 专项检查通过；独立副本的布局检查通过，覆盖 4,214 组标签宽度、两种分辨率下的 8 个页面及中英文切换。独立真实窗口抽查配置页和计算页的标签、下拉框、中文标点与数值显示；未替代所有页面和构筑的回归验证。
 
 完整 DPS 列表的汇总标签及 PoEDB 术语来源记录在 `tools/localization/full-dps-terms.json`。“完整”“最高”“每秒伤害”是 PoB 界面标签的组合表述，基础游戏术语按对应 PoEDB 中文页核对。生成器同时检查 `Calcs.lua` 中的汇总条目，带 `6x` 等数量前缀的技能名仅在显示时翻译，保留原始技能名称、数量和计算值。
 
