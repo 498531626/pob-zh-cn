@@ -3,6 +3,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 import json
 import urllib.request
+from urllib.parse import quote
 import gzip
 import argparse
 
@@ -13,7 +14,7 @@ def fetch(slug, language):
     path = HERE / f'{slug}-{language}.html.gz'
     if path.exists() and path.stat().st_size > 2000:
         return
-    request = urllib.request.Request(f'https://poedb.tw/{language}/{slug}',
+    request = urllib.request.Request(f'https://poedb.tw/{language}/{quote(slug)}',
                                      headers={'User-Agent': 'Mozilla/5.0'})
     with urllib.request.urlopen(request, timeout=40) as response:
         body = response.read()

@@ -1,7 +1,7 @@
 {
   "source_rows": 5711,
-  "matched_pairs": 12106,
-  "exact_entries": 2460,
+  "matched_pairs": 12161,
+  "exact_entries": 2474,
   "numeric_templates": 1002,
   "ambiguous_exact": {
     "Ancient Orb": [
@@ -57,9 +57,21 @@
       "闪避值",
       "闪避"
     ],
+    "Bitter Frost": [
+      "苦寒之霜",
+      "苦寒"
+    ],
     "Blood Magic": [
-      "血魔法",
-      "祭血术"
+      "祭血术",
+      "血魔法"
+    ],
+    "Eternal Youth": [
+      "青春永驻",
+      "靑春永驻"
+    ],
+    "Voracious Flame": [
+      "贪婪火焰",
+      "噬焰"
     ]
   },
   "ambiguous_templates": {

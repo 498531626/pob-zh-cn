@@ -20,10 +20,10 @@ def export():
 package.path='../runtime/lua/?.lua;'..package.path
 local json=require('dkjson')
 local rows,seen={},{}
-local function add(text,kind)
+local function add(text,kind,source)
  if type(text)~='string' or not text:match('%a')then return end
  local key=kind..'\0'..text
- if not seen[key]then seen[key]=true;rows[#rows+1]={english=text,kind=kind}end
+ if not seen[key]then seen[key]=true;rows[#rows+1]={english=text,kind=kind,source=source}end
 end
 local bases={}
 for _,p in ipairs(paths.Bases)do assert(loadfile(p..'.lua'))(bases)end
@@ -51,6 +51,12 @@ local function scan(t)
  end
 end
 for _,p in ipairs(paths.Mods)do scan(assert(loadfile(p..'.lua'))())end
+-- Refresh the runtime snapshot with audit_item_runtime.py in a disposable copy.
+local runtime=io.open('../tools/localization/item-runtime-source.json','rb')
+if runtime then
+ local extra=json.decode(runtime:read('*a'));runtime:close()
+ for _,row in ipairs(extra)do add(row.english,row.kind,row.source)end
+end
 table.sort(rows,function(a,b)return a.kind==b.kind and a.english<b.english or a.kind<b.kind end)
 local f=assert(io.open('../tools/localization/item-source.json','wb'));f:write(json.encode(rows,{indent=true}));f:close()
 print('Local item display source rows: '..#rows)

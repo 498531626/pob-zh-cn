@@ -766,5 +766,19 @@
     "kind": "item-reviewed",
     "status": "reviewed-paired-variants",
     "source": "https://poedb.tw/cn/Utility_Flasks"
+  },
+  "Mjolner": {
+    "zh": "沉默之雷",
+    "kind": "unique-name",
+    "status": "reviewed-pob-ascii-name-alias",
+    "source": "https://poedb.tw/cn/Mjölner",
+    "english_source": "https://poedb.tw/us/Mjölner"
+  },
+  "Doppelganger Guise": {
+    "zh": "变形者外衣",
+    "kind": "unique-name",
+    "status": "reviewed-pob-ascii-name-alias",
+    "source": "https://poedb.tw/cn/Doppelgänger_Guise",
+    "english_source": "https://poedb.tw/us/Doppelgänger_Guise"
   }
 }

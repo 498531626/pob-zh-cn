@@ -43,6 +43,11 @@ AMOUNT = r'([+\-]?(?:\(\-?\d+(?:\.\d+)?-\-?\d+(?:\.\d+)?\)|\d+(?:\.\d+)?|#))'
 
 
 def compose_item(text, resolve, terms):
+    affected = re.fullmatch(r'(.+) while affected by (.+)', text)
+    if affected:
+        aura = terms.get(affected[2].casefold())
+        base = resolve(affected[1]) if aura else None
+        if base: return '受到'+aura+'影响时，'+base
     sockets = re.fullmatch(r'All Sockets are (Blue|Green|Red|White)', text)
     if sockets: return '所有插槽均为'+{'Blue':'蓝色','Green':'绿色','Red':'红色','White':'白色'}[sockets[1]]
     if '/' in text:
