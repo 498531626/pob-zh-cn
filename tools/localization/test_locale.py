@@ -352,6 +352,20 @@ alt=false
 assert(viewportX==2+L:WithoutTranslation(DrawStringWidth,16,'VAR',dict.Level)+8)
 L.mode='en';edit:Draw({})
 assert(tip.lines[1].text=='Strength' and viewportX==2+#'Level'*8+8)
+edit.buf='';edit.prompt=nil;edit.placeholder='Code'
+local translateUI=L.TranslateUI
+local placeholderDrawn=false
+L.TranslateUI=function(self,text)
+ if text=='Code' and self.suspended==0 then placeholderDrawn=true end
+ return translateUI(self,text)
+end
+L.mode='zh';rawDrawn={};edit:Draw({})
+L.TranslateUI=translateUI
+assert(placeholderDrawn and edit.placeholder=='Code' and edit.buf=='','Placeholder display changed input state')
+edit.buf='Code';rawDrawn={};edit:Draw({})
+local codeDrawn=false
+for _,s in ipairs(rawDrawn)do if s=='Code' then codeDrawn=true end end
+assert(codeDrawn and edit.buf=='Code','Editable code text was translated')
 for _,p in ipairs({'Modules/Main.lua','Classes/PassiveTreeView.lua','Classes/EditControl.lua','Classes/ButtonControl.lua','Classes/SkillListControl.lua','Classes/GemTooltip.lua'}) do assert(loadfile(p)) end
 print('Verified '..checked..' context translations and '..#panelLabels..' panel labels in two modes; actual comparison formatter, numeric preservation, colour, fallback, Alt language independence, wrapping, tooltip invalidation, edit isolation and Lua syntax passed.')
 ''')

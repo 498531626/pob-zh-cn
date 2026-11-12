@@ -139,7 +139,8 @@ local function formattedChinese(body)
 			local valid = true
 			for i, value in ipairs(values) do
 				local translated = displayTerms[value] or dictionary[value]
-				if template.kinds[i] == "term" and translated ~= nil then values[i] = translated
+				if template.kinds[i] == "text" then -- UI names and error payloads stay verbatim.
+				elseif template.kinds[i] == "term" and translated ~= nil then values[i] = translated
 				elseif value ~= "" and value:gsub("[%d%s%+%-%.,%%]", "") ~= "" then valid = false; break end
 			end
 			if valid then return (template.zh:gsub("{(%d+)}", function(i) return values[tonumber(i)+1] end)) end
@@ -161,6 +162,42 @@ local function interfaceChinese(body, nodeId)
 		return (context and context[value]) or anointNames[value] or dictionary[value]
 			or (base and dictionary[base] and dictionary[base] .. seed) or value
 	end
+	local class, startingClass = body:match("^Changing class to (.-) will reset your passive tree%.\nThis can be avoided by connecting one of the (.-) starting nodes to your tree%.$")
+	if class then return "切换为" .. nameChinese(class) .. "将重置天赋树。\n将一个" .. nameChinese(startingClass) .. "起始天赋连接到当前天赋树，可避免重置。" end
+	local required, act, quests, extra, lab = body:match("^Required Level: (%d+)\nEstimated Progress:\nAct: ([^\n]+)\nQuestpoints: (%d+)\nExtra Skillpoints: (%d+)(.*)$")
+	if required then return "需求等级：" .. required .. "\n预计进度：\n章节：" .. nameChinese(act) .. "\n任务天赋点：" .. quests .. "\n额外天赋点：" .. extra .. L:Translate(lab, nil, "zh") end
+	local attribute, requiredItem = body:match("^You do not meet the (%a+) requirement of (.+)$")
+	if attribute and dictionary[attribute] then return "未满足“" .. nameChinese(requiredItem) .. "”的" .. dictionary[attribute] .. "需求" end
+	local node = body:match("^This option is specific to '(.-)'%.$")
+	if node then return "此选项仅适用于“" .. nameChinese(node) .. "”。" end
+	local off, def = body:match("^When enabled, an estimate of the offensive and defensive strength of\neach unallocated passive is calculated and displayed visually%.\nOffensive power shows as (%a+), defensive power as (%a+)%.$")
+	local colors = {red="红色", green="绿色", blue="蓝色", yellow="黄色", purple="紫色", orange="橙色", cyan="青色"}
+	if colors[off] and colors[def] then return "启用后，将估算每个未分配天赋的进攻与防御强度，\n并以颜色显示。\n进攻强度显示为" .. colors[off] .. "，防御强度显示为" .. colors[def] .. "。" end
+	local characterClass, level, league = body:match("^(.-) lvl (%d+) in (.+)$")
+	if characterClass then return nameChinese(characterClass) .. " 等级 " .. level .. "（" .. nameChinese(league) .. "）" end
+	characterClass, level = body:match("^(.-) lvl (%d+)$")
+	if characterClass then return nameChinese(characterClass) .. " 等级 " .. level end
+	local slot, socket = body:match("^(.+) Abyssal Socket (%d+)$")
+	if slot then return nameChinese(slot) .. " 深渊插槽 " .. socket end
+	local source = body:match("^%+%d+%% Quality from (.+)$")
+	if source then return body:match("^(%+%d+%%)") .. " 品质，来自 " .. nameChinese(source) end
+	local override = body:match("^Override: (.+)$")
+	if override then return "覆盖：" .. nameChinese(override) end
+	local enabled = body:match("^Enable (.+)$")
+	if enabled and dictionary[enabled] then return "启用 " .. dictionary[enabled] end
+	local unsupported = body:match('^"(.-)" not supported%.  Select a specific stat from the dropdown%.$')
+	if unsupported then return "不支持“" .. unsupported .. "”。请从下拉框中选择具体属性。" end
+	local importError = body:match("^Error importing character data, try again %((.*)%)$")
+	if importError then return "导入角色数据失败，请重试（" .. importError .. "）" end
+	local listError = body:match("^Error retrieving character list, try again %((.*)%)$")
+	if listError then return "获取角色列表失败，请重试（" .. listError .. "）" end
+	local mod, tier = body:match("^(.-) %- Tier: (%d+)$")
+	if mod then return L:Translate(mod, nil, "zh") .. " — 阶级：" .. tier end
+	local groupSkill, provider, removal = body:match("^This is a special group created for the '(.-)' skill,\nwhich is being provided by (.-)%.\nYou cannot delete this group, but it will disappear if you (.-)%.$")
+	local removals = {["un-allocate the node"]="取消分配此天赋", ["un-equip the item"]="卸下此物品"}
+	if groupSkill and removals[removal] then return "此特殊技能组用于技能“" .. nameChinese(groupSkill) .. "”，\n由 " .. provider .. " 提供。\n无法手动删除此技能组；" .. removals[removal] .. "后，此组会自动消失。" end
+	local supportProvider = body:match("^You cannot add support gems to this group, but support gems in\nany other group socketed into (.-)\nwill automatically apply to the skill%.$")
+	if supportProvider then return "无法直接向此组添加辅助宝石，但插入 " .. supportProvider .. " 中的\n其他技能组的辅助宝石会自动作用于此技能。" end
 	local prefixes = {
 		["Convert to "]="转换为 ", ["Character import status: "]="角色导入状态：",
 		["Current Path: "]="当前路径：", ["User settings path cannot be loaded: "]="无法加载用户设置路径：",
@@ -181,6 +218,8 @@ local function interfaceChinese(body, nodeId)
 	for prefix, chinese in pairs(prefixes) do
 		if body:sub(1, #prefix) == prefix then
 			local value = body:sub(#prefix+1)
+			if prefix == "Character import status: " then return chinese .. L:Translate(value, nil, "zh") end
+			if prefix == "Current build: " and value:match("^%s*(.-)%s*$") == "Unnamed build" then value = dictionary["Unnamed build"] end
 			return chinese .. (rawPayload[prefix] and value or nameChinese(value))
 		end
 	end
@@ -223,6 +262,9 @@ local function interfaceChinese(body, nodeId)
 	if socketTranslation then
 		return marker .. socketTranslation .. ": " .. socketId
 	end
+	-- UI messages may include Chinese user names; numeric/game grammar remains
+	-- constrained by the reviewed template kinds.
+	if body:find("[\128-\255]") then return formattedChinese(body) end
 end
 local function buffChinese(value)
 	if dictionary[value] then return dictionary[value] end
@@ -550,7 +592,10 @@ function L:Translate(text, nodeId, displayMode)
 	local context = nodeId and passiveContexts[tostring(nodeId)]
 	local direct = context and context[body] or dictionary[body] or itemNames[body]
 	local zh = direct or (context and context[name]) or dictionary[name]
-	local dynamic = not zh and (interfaceChinese(body, nodeId) or (not body:find("[\128-\255]") and dynamicChinese(body)))
+	-- Strip inline colours before matching a complete message. Otherwise a
+	-- partial dynamic clause can prevent the remaining lines from translating.
+	local dynamic = not zh and not (body:find("^", 1, true) and body:find("\n", 1, true))
+		and (interfaceChinese(body, nodeId) or (not body:find("[\128-\255]") and dynamicChinese(body)))
 	local result = text
 	if direct then
 		result = prefix .. zh
@@ -584,7 +629,8 @@ function L:Translate(text, nodeId, displayMode)
 				result = prefix .. translated
 			end
 		end
-	elseif body:find("\n", 1, true) then
+	end
+	if result == text and body:find("\n", 1, true) then
 		local lines = {}
 		for line in (body .. "\n"):gmatch("(.-)\n") do
 			lines[#lines + 1] = self:Translate(prefix .. line, nodeId, displayMode)

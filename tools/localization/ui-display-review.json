@@ -17,7 +17,81 @@
     "http": "Network protocol identifier.",
     "socks5": "Network protocol identifier.",
     "socks5h": "Network protocol identifier.",
-    "Scholar's Platinum Kris of Joy": "Copyable English item-parser input example; must retain the original parser language."
+    "Scholar's Platinum Kris of Joy": "Copyable English item-parser input example; must retain the original parser language.",
+    "ConfigSetListControl": "Internal control, parser, asset or API key; never translate the stored value.",
+    "PassiveSpecListControl": "Internal control, parser, asset or API key; never translate the stored value.",
+    "SkillSetListControl": "Internal control, parser, asset or API key; never translate the stored value.",
+    "ItemList": "Internal control, parser, asset or API key; never translate the stored value.",
+    "SharedItemList": "Internal control, parser, asset or API key; never translate the stored value.",
+    "MinionId": "Internal control, parser, asset or API key; never translate the stored value.",
+    "DISABLED": "Internal control, parser, asset or API key; never translate the stored value.",
+    "TREE": "Internal control, parser, asset or API key; never translate the stored value.",
+    "CURRENCY": "Internal control, parser, asset or API key; never translate the stored value.",
+    "CharmSocketActiveDex": "Internal control, parser, asset or API key; never translate the stored value.",
+    "CharmSocketActiveInt": "Internal control, parser, asset or API key; never translate the stored value.",
+    "CharmSocketActiveStr": "Internal control, parser, asset or API key; never translate the stored value.",
+    "JewelSocketActiveAltBlue": "Internal control, parser, asset or API key; never translate the stored value.",
+    "JewelSocketActiveAltPurple": "Internal control, parser, asset or API key; never translate the stored value.",
+    "JewelSocketActiveAltRed": "Internal control, parser, asset or API key; never translate the stored value.",
+    "Socketed%sGemsIn{SlotName}": "Internal control, parser, asset or API key; never translate the stored value.",
+    "%s.stat_%s": "Internal control, parser, asset or API key; never translate the stored value.",
+    "%s_and_%s_damage_resistance_%%": "Internal control, parser, asset or API key; never translate the stored value.",
+    "additional_%s_and_%s": "Internal control, parser, asset or API key; never translate the stored value.",
+    "base_%s_and_%s": "Internal control, parser, asset or API key; never translate the stored value.",
+    "cancel": "Internal control, parser, asset or API key; never translate the stored value.",
+    "close": "Internal control, parser, asset or API key; never translate the stored value.",
+    "confirm": "Internal control, parser, asset or API key; never translate the stored value.",
+    "convert": "Internal control, parser, asset or API key; never translate the stored value.",
+    "custom": "Internal control, parser, asset or API key; never translate the stored value.",
+    "go": "Internal control, parser, asset or API key; never translate the stored value.",
+    "input": "Internal control, parser, asset or API key; never translate the stored value.",
+    "open": "Internal control, parser, asset or API key; never translate the stored value.",
+    "save": "Internal control, parser, asset or API key; never translate the stored value.",
+    "search": "Internal control, parser, asset or API key; never translate the stored value.",
+    "searchText": "Internal control, parser, asset or API key; never translate the stored value.",
+    "common": "Internal control, parser, asset or API key; never translate the stored value.",
+    "additional": "Internal control, parser, asset or API key; never translate the stored value.",
+    "missing": "Internal control, parser, asset or API key; never translate the stored value.",
+    "accessory.amulet": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "accessory.belt": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "accessory.ring": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "armour.boots": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "armour.chest": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "armour.gloves": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "armour.helmet": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "armour.quiver": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "armour.shield": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "explicit.pseudo_timeless_jewel_": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "flask": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "https://www.pathofexile.com/oauth/authorize?client_id=pob&response_type=code&scope=%s&state=%s&code_challenge=%s&code_challenge_method=S256": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "jewel.abyss": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.bow": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.claw": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.dagger": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.one": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.oneaxe": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.onemace": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.onesword": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.rod": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.staff": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.twoaxe": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.twomace": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.twomelee": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.twosword": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "weapon.wand": "Trade API category, stat key or OAuth URL; preserve its exact protocol value.",
+    "Condition": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "EditControl": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "FLAG": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "Label: (%C+)": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "True": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "[Ff]oulborn ": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "displayItemStackedRangeLine": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "extraAuras:\n": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "nil": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "otherEffects:\n": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "title": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "tooltipText": "Parser pattern, serialized field, condition type or control property; preserve the internal value."
   },
   "examples": [
     {
@@ -159,6 +233,330 @@
     {
       "english": "Anointing Heart of Oak changes nothing because this node is already allocated on the tree.",
       "chinese": "涂油分配“橡木之心”不会产生变化，因为天赋树上已分配此天赋。"
+    },
+    {
+      "english": "Convert all trees to Player 中文 \"name\"",
+      "chinese": "将全部天赋树转换为 Player 中文 \"name\""
+    },
+    {
+      "english": "Required Level: 23\nEstimated Progress:\nAct: Player 中文 \"name\"\nQuestpoints: 23\nExtra Skillpoints: 23Player 中文 \"name\"",
+      "chinese": "需求等级：23\n预计进度：\n章节：Player 中文 \"name\"\n任务天赋点：23\n额外天赋点：23Player 中文 \"name\""
+    },
+    {
+      "english": "Couldn't rename 'Player 中文 \"name\"' to 'Player 中文 \"name\"': Player 中文 \"name\"",
+      "chinese": "无法将“Player 中文 \"name\"”重命名为“Player 中文 \"name\"”：Player 中文 \"name\""
+    },
+    {
+      "english": "Couldn't copy 'Player 中文 \"name\"' to 'Player 中文 \"name\"': Player 中文 \"name\"",
+      "chinese": "无法将“Player 中文 \"name\"”复制到“Player 中文 \"name\"”：Player 中文 \"name\""
+    },
+    {
+      "english": "Couldn't move 'Player 中文 \"name\"' to 'Player 中文 \"name\"': Player 中文 \"name\"",
+      "chinese": "无法将“Player 中文 \"name\"”移动到“Player 中文 \"name\"”：Player 中文 \"name\""
+    },
+    {
+      "english": "Couldn't delete 'Player 中文 \"name\"': Player 中文 \"name\"",
+      "chinese": "无法删除“Player 中文 \"name\"”：Player 中文 \"name\""
+    },
+    {
+      "english": "Couldn't open 'Player 中文 \"name\"': Player 中文 \"name\"",
+      "chinese": "无法打开“Player 中文 \"name\"”：Player 中文 \"name\""
+    },
+    {
+      "english": "Couldn't create 'Player 中文 \"name\"' : Player 中文 \"name\"",
+      "chinese": "无法创建“Player 中文 \"name\"”：Player 中文 \"name\""
+    },
+    {
+      "english": "You are exceeding jewel limit with the jewel Player 中文 \"name\"",
+      "chinese": "珠宝 Player 中文 \"name\" 的装备数量超过上限"
+    },
+    {
+      "english": "You have eligible items missing an anoint: Player 中文 \"name\"",
+      "chinese": "以下可涂油物品尚未涂油：Player 中文 \"name\""
+    },
+    {
+      "english": "Error while fetching league list: Player 中文 \"name\"",
+      "chinese": "获取赛季列表时出错：Player 中文 \"name\""
+    },
+    {
+      "english": "Using Fallback Error while fetching league list: Player 中文 \"name\"",
+      "chinese": "获取赛季列表时出错，正在使用备用列表：Player 中文 \"name\""
+    },
+    {
+      "english": "CX error: Player 中文 \"name\"",
+      "chinese": "CX 错误：Player 中文 \"name\""
+    },
+    {
+      "english": "Logging in... (23) - URL copied to clipboard",
+      "chinese": "正在登录…（23）— 链接已复制到剪贴板"
+    },
+    {
+      "english": "You're doing that too fast. Please wait (23)",
+      "chinese": "操作过于频繁，请稍候（23）"
+    },
+    {
+      "english": "Building Power Report... (23%)",
+      "chinese": "正在生成强度报告…（23%）"
+    },
+    {
+      "english": "Sorting... (23%)",
+      "chinese": "正在排序…（23%）"
+    },
+    {
+      "english": "Calculating... 23%",
+      "chinese": "正在计算… 23%"
+    },
+    {
+      "english": "Convert all to Version Player 中文 \"name\"",
+      "chinese": "全部转换为版本 Player 中文 \"name\""
+    },
+    {
+      "english": "Are you sure you want to delete 'Player 中文 \"name\"'?",
+      "chinese": "确定删除“Player 中文 \"name\"”吗？"
+    },
+    {
+      "english": "Are you sure you want to remove 'Player 中文 \"name\"' from the shared item list?",
+      "chinese": "确定从共享物品列表中移除“Player 中文 \"name\"”吗？"
+    },
+    {
+      "english": "Are you sure you want to remove 'Player 中文 \"name\"' from the shared item set list?",
+      "chinese": "确定从共享装备方案列表中移除“Player 中文 \"name\"”吗？"
+    },
+    {
+      "english": "Are you sure you want to delete 'Player 中文 \"name\"'?\nThis will not delete any items used by the set.",
+      "chinese": "确定删除“Player 中文 \"name\"”吗？\n方案中使用的物品将保留。"
+    },
+    {
+      "english": "Are you sure you want to delete build:\nPlayer 中文 \"name\"",
+      "chinese": "确定删除构筑：\nPlayer 中文 \"name\""
+    },
+    {
+      "english": "The folder is not empty.\nAre you sure you want to delete folder:\nPlayer 中文 \"name\"\nThis cannot be undone.",
+      "chinese": "文件夹不为空。\n确定删除文件夹：\nPlayer 中文 \"name\"\n此操作无法撤销。"
+    },
+    {
+      "english": "Couldn't copy 'Player 中文 \"name\"' to 'Player 中文 \"name\"'",
+      "chinese": "无法将“Player 中文 \"name\"”复制到“Player 中文 \"name\"”"
+    },
+    {
+      "english": "Couldn't move 'Player 中文 \"name\"' to 'Player 中文 \"name\"'",
+      "chinese": "无法将“Player 中文 \"name\"”移动到“Player 中文 \"name\"”"
+    },
+    {
+      "english": "Couldn't rename 'Player 中文 \"name\"' to 'Player 中文 \"name\"'",
+      "chinese": "无法将“Player 中文 \"name\"”重命名为“Player 中文 \"name\"”"
+    },
+    {
+      "english": "Couldn't delete 'Player 中文 \"name\"'",
+      "chinese": "无法删除“Player 中文 \"name\"”"
+    },
+    {
+      "english": "Couldn't open 'Player 中文 \"name\"'",
+      "chinese": "无法打开“Player 中文 \"name\"”"
+    },
+    {
+      "english": "Couldn't create 'Player 中文 \"name\"'",
+      "chinese": "无法创建“Player 中文 \"name\"”"
+    },
+    {
+      "english": "Couldn't copy build: Player 中文 \"name\"",
+      "chinese": "无法复制构筑：Player 中文 \"name\""
+    },
+    {
+      "english": "Couldn't save the build file:\nPlayer 中文 \"name\"\nMake sure the save folder exists and is writable.",
+      "chinese": "无法保存构筑文件：\nPlayer 中文 \"name\"\n请确认保存文件夹存在且具有写入权限。"
+    },
+    {
+      "english": "Error creating link:\nPlayer 中文 \"name\"",
+      "chinese": "创建链接失败：\nPlayer 中文 \"name\""
+    },
+    {
+      "english": "Token refresh failed: Player 中文 \"name\"",
+      "chinese": "刷新授权令牌失败：Player 中文 \"name\""
+    },
+    {
+      "english": "Update check failed!\nPlayer 中文 \"name\"",
+      "chinese": "检查更新失败！\nPlayer 中文 \"name\""
+    },
+    {
+      "english": "Could not open Player 中文 \"name\" for writing table: Player 中文 \"name\"",
+      "chinese": "无法打开 Player 中文 \"name\" 以写入数据表：Player 中文 \"name\""
+    },
+    {
+      "english": "Failed to write to Player 中文 \"name\": Player 中文 \"name\"",
+      "chinese": "无法写入 Player 中文 \"name\"：Player 中文 \"name\""
+    },
+    {
+      "english": "Invalid tree link (bad class ID 'Player 中文 \"name\"')",
+      "chinese": "无效的天赋树链接（职业 ID“Player 中文 \"name\"”错误）"
+    },
+    {
+      "english": "Invalid tree link (unknown version number 'Player 中文 \"name\"')",
+      "chinese": "无效的天赋树链接（未知版本号“Player 中文 \"name\"”）"
+    },
+    {
+      "english": "Unrecognised gem name 'Player 中文 \"name\"'",
+      "chinese": "无法识别宝石名称“Player 中文 \"name\"”"
+    },
+    {
+      "english": "Ambiguous gem name 'Player 中文 \"name\"'",
+      "chinese": "宝石名称“Player 中文 \"name\"”存在歧义"
+    },
+    {
+      "english": "Version '23_23' is out of bounds",
+      "chinese": "版本“23_23”超出范围"
+    },
+    {
+      "english": "Player 中文 \"name\" is currently equipped in Player 中文 \"name\".\nAre you sure you want to delete it?",
+      "chinese": "Player 中文 \"name\" 当前装备于 Player 中文 \"name\"。\n确定删除吗？"
+    },
+    {
+      "english": "Player 中文 \"name\" is currently equipped in Player 中文 \"name\" in set 'Player 中文 \"name\"'.\nAre you sure you want to delete it?",
+      "chinese": "Player 中文 \"name\" 当前装备于 Player 中文 \"name\"，所属方案为“Player 中文 \"name\"”。\n确定删除吗？"
+    },
+    {
+      "english": "Player 中文 \"name\" is currently equipped in an Abyssal Socket.\nAre you sure you want to delete it?",
+      "chinese": "Player 中文 \"name\" 当前装备于深渊插槽。\n确定删除吗？"
+    },
+    {
+      "english": "Player 中文 \"name\" is currently equipped in an Abyssal Socket in set 'Player 中文 \"name\"'.\nAre you sure you want to delete it?",
+      "chinese": "Player 中文 \"name\" 当前装备于深渊插槽，所属方案为“Player 中文 \"name\"”。\n确定删除吗？"
+    },
+    {
+      "english": "Player 中文 \"name\" is currently equipped in passive tree 'Player 中文 \"name\"'.\nAre you sure you want to delete it?",
+      "chinese": "Player 中文 \"name\" 当前装备于天赋树“Player 中文 \"name\"”。\n确定删除吗？"
+    },
+    {
+      "english": "The tree has been converted to Player 中文 \"name\".\nNote that some or all of the passives may have been de-allocated due to changes in the tree.\n\nYou can switch back to the old tree using the tree selector at the bottom left.",
+      "chinese": "天赋树已转换为 Player 中文 \"name\"。\n由于天赋树发生变化，部分或全部天赋可能已被取消分配。\n\n可使用左下角的天赋树选择器切回旧版天赋树。"
+    },
+    {
+      "english": "Tier 23",
+      "chinese": "阶级 23"
+    },
+    {
+      "english": "Player 中文 \"name\" (Pseudo)",
+      "chinese": "Player 中文 \"name\"（伪属性）"
+    },
+    {
+      "english": "You have too many gems in your Player 中文 \"name\" slot",
+      "chinese": "Player 中文 \"name\" 栏位中的宝石数量过多"
+    },
+    {
+      "english": "This build has unsaved changes.\nDo you want to save them now?",
+      "chinese": "此构筑有尚未保存的更改。\n是否立即保存？"
+    },
+    {
+      "english": "This build has unsaved changes.\nDo you want to save them before exiting?",
+      "chinese": "此构筑有尚未保存的更改。\n是否在退出前保存？"
+    },
+    {
+      "english": "This build has unsaved changes.\nDo you want to save them before updating?",
+      "chinese": "此构筑有尚未保存的更改。\n是否在更新前保存？"
+    },
+    {
+      "english": "This is a special group created for the 'Cyclone' skill,\nwhich is being provided by Player node.\nYou cannot delete this group, but it will disappear if you un-allocate the node.",
+      "chinese": "此特殊技能组用于技能“旋风斩”，\n由 Player node 提供。\n无法手动删除此技能组；取消分配此天赋后，此组会自动消失。"
+    },
+    {
+      "english": "You cannot add support gems to this group, but support gems in\nany other group socketed into Player item\nwill automatically apply to the skill.",
+      "chinese": "无法直接向此组添加辅助宝石，但插入 Player item 中的\n其他技能组的辅助宝石会自动作用于此技能。"
+    },
+    {
+      "english": "Error importing character data, try again (HTTP 404)",
+      "chinese": "导入角色数据失败，请重试（HTTP 404）"
+    },
+    {
+      "english": "Error retrieving character list, try again (HTTP 503)",
+      "chinese": "获取角色列表失败，请重试（HTTP 503）"
+    },
+    {
+      "english": "PoB Community Fork  |  ",
+      "chinese": "PoB 社区版  |  "
+    },
+    {
+      "english": "Life Regeneration:",
+      "chinese": "生命回复:"
+    },
+    {
+      "english": "Shock Effect",
+      "chinese": "感电效果"
+    },
+    {
+      "english": "Allocates Heart of Oak",
+      "chinese": "分配 橡木之心"
+    },
+    {
+      "english": "Player modifier - Tier: 2",
+      "chinese": "Player modifier — 阶级：2"
+    },
+    {
+      "english": "\"Combined DPS\" not supported.  Select a specific stat from the dropdown.",
+      "chinese": "不支持“Combined DPS”。请从下拉框中选择具体属性。"
+    },
+    {
+      "english": "This is a special group created for the 'Cyclone' skill,\nwhich is being provided by Player item.\nYou cannot delete this group, but it will disappear if you un-equip the item.",
+      "chinese": "此特殊技能组用于技能“旋风斩”，\n由 Player item 提供。\n无法手动删除此技能组；卸下此物品后，此组会自动消失。"
+    },
+    {
+      "english": "Current build:  Unnamed build",
+      "chinese": "当前构筑：未命名构筑"
+    },
+    {
+      "english": "Changing class to Witch will reset your passive tree.\nThis can be avoided by connecting one of the Witch starting nodes to your tree.",
+      "chinese": "切换为女巫将重置天赋树。\n将一个女巫起始天赋连接到当前天赋树，可避免重置。"
+    },
+    {
+      "english": "Witch lvl 23 in Player League",
+      "chinese": "女巫 等级 23（Player League）"
+    },
+    {
+      "english": "Witch lvl 23",
+      "chinese": "女巫 等级 23"
+    },
+    {
+      "english": "Weapon 1 Abyssal Socket 23",
+      "chinese": "武器一 深渊插槽 23"
+    },
+    {
+      "english": "+23% Quality from Player item",
+      "chinese": "+23% 品质，来自 Player item"
+    },
+    {
+      "english": "Override: Player item",
+      "chinese": "覆盖：Player item"
+    },
+    {
+      "english": "Enable Onslaught",
+      "chinese": "启用 猛攻"
+    },
+    {
+      "english": "This option is specific to 'Heart of Oak'.",
+      "chinese": "此选项仅适用于“橡木之心”。"
+    },
+    {
+      "english": "When enabled, an estimate of the offensive and defensive strength of\neach unallocated passive is calculated and displayed visually.\nOffensive power shows as red, defensive power as blue.",
+      "chinese": "启用后，将估算每个未分配天赋的进攻与防御强度，\n并以颜色显示。\n进攻强度显示为红色，防御强度显示为蓝色。"
+    },
+    {
+      "english": "(replacing Player item)",
+      "chinese": "（替换 Player item）"
+    },
+    {
+      "english": "You do not meet the Strength requirement of Player item",
+      "chinese": "未满足“Player item”的力量需求"
+    },
+    {
+      "english": "You do not meet the Dexterity requirement of Player item",
+      "chinese": "未满足“Player item”的敏捷需求"
+    },
+    {
+      "english": "You do not meet the Intelligence requirement of Player item",
+      "chinese": "未满足“Player item”的智慧需求"
+    },
+    {
+      "english": "You do not meet the Omniscience requirement of Player item",
+      "chinese": "未满足“Player item”的全知需求"
     }
   ]
 }

@@ -12,7 +12,7 @@ from display_formats import SPEC
 
 HERE = Path(__file__).resolve().parent
 TOKEN = re.compile(r'--\[(=*)\[.*?\]\1\]|--[^\n]*|\[(=*)\[.*?\]\2\]|"(?:\\.|[^"\\])*"|\'(?:\\.|[^\'\\])*\'|[A-Za-z_][\w]*|[^\s]', re.S)
-CONSTRUCTORS = {'ButtonControl', 'CheckBoxControl', 'DropDownControl', 'LabelControl'}
+CONSTRUCTORS = {'ButtonControl', 'CheckBoxControl', 'DropDownControl', 'LabelControl', 'SectionControl', 'EditControl'}
 TECHNICAL = {'LEFT', 'RIGHT', 'TOP', 'BOTTOM', 'CENTER', 'CENTER_X', 'RIGHT_X',
              'TOPLEFT', 'TOPRIGHT', 'BOTTOMLEFT', 'BOTTOMRIGHT', 'VAR', 'FIXED',
              'DOWN', 'FONTIN', 'FONTIN ITALIC', 'FONTIN SC', 'FONTIN SC ITALIC',
@@ -37,12 +37,28 @@ def inventory():
             tokens = [(m[0], m.start()) for m in TOKEN.finditer(source) if not m[0].startswith('--')]
             selected = set()
             for i, (token, _) in enumerate(tokens):
-                if token in ('label', 'title', 'tooltip', 'tooltipText', 'description', 'placeholder') and i+2 < len(tokens) and tokens[i+1][0] == '=':
+                if token in ('label', 'title', 'tooltip', 'tooltipText', 'description', 'placeholder', 'defaultText', 'charImportStatus', 'loginStatus', 'status', 'statusText') and i+2 < len(tokens) and tokens[i+1][0] == '=':
                     selected.add(i+2)
-                call = token in ('AddLine', 'DrawString', 'SetTooltip', 'SetPlaceholder')
+                if token == 'return' and i+1 < len(tokens) and tokens[i+1][0].startswith(('"', "'")):
+                    selected.add(i+1)
+                if (token == 'return' and i+1 < len(tokens) and tokens[i+1][0] == 'colorCodes') or (token in ('label', 'title', 'tooltipText', 'description', 'placeholder', 'defaultText', 'charImportStatus', 'loginStatus', 'status', 'statusText', 'detail') and i+1 < len(tokens) and tokens[i+1][0] == '='):
+                    for j in range(i+1, len(tokens)):
+                        if j>i+1 and '\n' in source[tokens[j-1][1]+len(tokens[j-1][0]):tokens[j][1]] and tokens[j-1][0] not in ('..', '=', '('):
+                            break
+                        if tokens[j][0] in (',', '}', ';', 'function', 'end'):
+                            break
+                        if tokens[j][0].startswith(('"', "'", '[[')):
+                            selected.add(j)
+                call = token in ('AddLine', 'DrawString', 'SetTooltip', 'SetPlaceholder',
+                                 'OpenMessagePopup', 'OpenConfirmPopup', 'OpenPopup', 'format', 'SetNotice')
+                if token == 'InsertIfNew' and 'warnings.lines' in source[tokens[i][1]:tokens[i][1]+100]:
+                    call = True
                 constructor = False
+                label_argument = 4
                 if token == 'new' and i+2 < len(tokens) and tokens[i+1][0] == '(':
                     call = decode(tokens[i+2][0]) in CONSTRUCTORS if tokens[i+2][0].startswith(('"', "'")) else False
+                    if call and decode(tokens[i+2][0]) == 'EditControl':
+                        label_argument = 5  # Prompt; argument 4 is editable user data.
                     constructor = call
                 if not call or i+1 >= len(tokens) or tokens[i+1][0] != '(':
                     continue
@@ -63,10 +79,10 @@ def inventory():
                         braces -= 1
                     elif value == ',' and depth == 1 and braces == 0:
                         argument += 1
-                        if constructor and argument > 4:
+                        if constructor and argument > label_argument:
                             break
                     if value.startswith(('"', "'", '[')) and len(value)>1:
-                        if not constructor or argument == 4:
+                        if not constructor or argument == label_argument:
                             selected.add(j)
             for i in selected:
                 literal, offset = tokens[i]
@@ -96,6 +112,14 @@ if __name__ == '__main__':
                 row['format_arguments'] = ['allocating', '']
             if 'Price: %s %s' in row['english']:
                 row['format_arguments'] = ['3.5', 'chaos']
+            if row['english'] == '%s Abyssal Socket %d':
+                row['format_arguments'] = ['Helmet', 23]
+            if row['english'] == '%s%s ^x808080lvl %d in %s':
+                row['format_arguments'] = ['^7', 'Witch', 23, 'Player League']
+            if row['english'] == '+%d%% Quality from %s':
+                row['format_arguments'] = [23, 'Player item']
+            if row['english'] == '(%s to %s)':
+                row['format_arguments'] = ['1', '2']
     (HERE/'display-inventory.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n','utf8')
     os.chdir(ROOT/'src')
     run(r'''
@@ -120,9 +144,16 @@ for _,example in ipairs(review.examples)do
 end
 L.mode='zh'
 local seen,pending={},{}
+local function untranslatedLine(source, translated)
+ if not source:find('\n',1,true) or source:find('%%') then return false end
+ for line in plain(translated):gmatch('[^\n]+')do
+  if not line:find('[\128-\255]') and line:find('%a+%s+%a+%s+%a+') then return true end
+ end
+ return false
+end
 for _,row in ipairs(rows)do
  local s=row.english
- if not row.reason and L:Translate(s)==s then
+ if not row.reason and (plain(L:Translate(s))==plain(s) or untranslatedLine(s,L:Translate(s))) then
   if row.format_arguments then
    local ok,rendered=pcall(string.format,s,unpack(row.format_arguments))
    if ok then

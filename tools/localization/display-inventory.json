@@ -1,4 +1,23 @@
 [{
+    "english":"Error",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":41
+  },{
+    "english":"Couldn't move '",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":41,
+    "reason":"Assembled source fragment; complete-message example 40 verified in three language modes"
+  },{
+    "english":"' to '",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":41,
+    "reason":"Assembled source fragment; complete-message example 38 verified in three language modes"
+  },{
+    "english":"LabelControl",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":90,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
     "english":"^7Enter the new name for this ",
     "file":"src/Classes/BuildListControl.lua",
     "line":90,
@@ -18,9 +37,143 @@
     "file":"src/Classes/BuildListControl.lua",
     "line":113
   },{
+    "english":"Error",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":121
+  },{
+    "english":"Couldn't rename '",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":121,
+    "reason":"Assembled source fragment; complete-message example 38 verified in three language modes"
+  },{
+    "english":"' to '",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":121,
+    "reason":"Assembled source fragment; complete-message example 38 verified in three language modes"
+  },{
+    "english":"Error",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":131
+  },{
+    "english":"Couldn't copy build: ",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":131
+  },{
+    "english":"Error",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":137
+  },{
+    "english":"Couldn't rename '",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":137,
+    "reason":"Assembled source fragment; complete-message example 38 verified in three language modes"
+  },{
+    "english":"' to '",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":137,
+    "reason":"Assembled source fragment; complete-message example 38 verified in three language modes"
+  },{
     "english":"Cancel",
     "file":"src/Classes/BuildListControl.lua",
     "line":148
+  },{
+    "english":"Copy ",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":152
+  },{
+    "english":"Rename ",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":152
+  },{
+    "english":"Folder",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":152
+  },{
+    "english":"Build",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":152
+  },{
+    "english":"save",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":152,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"edit",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":152,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
+    "english":"Confirm Folder Delete",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":158
+  },{
+    "english":"The folder is not empty.\nAre you sure you want to delete folder:\n",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":158,
+    "reason":"Assembled source fragment; complete-message example 60 verified in three language modes"
+  },{
+    "english":"\nThis cannot be undone.",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":158,
+    "reason":"Assembled source fragment; complete-message example 60 verified in three language modes"
+  },{
+    "english":"Delete",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":158
+  },{
+    "english":"Error",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":167
+  },{
+    "english":"Couldn't delete '",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":167,
+    "reason":"Assembled source fragment; complete-message example 41 verified in three language modes"
+  },{
+    "english":"Confirm Delete",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":175
+  },{
+    "english":"Are you sure you want to delete build:\n",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":175
+  },{
+    "english":"\nThis cannot be undone.",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":175,
+    "reason":"Assembled source fragment; complete-message example 60 verified in three language modes"
+  },{
+    "english":"Delete",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":175
+  },{
+    "english":"^xC0B0B0",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":202,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"Build",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":220
+  },{
+    "english":"Error",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":238
+  },{
+    "english":"Couldn't move '",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":238,
+    "reason":"Assembled source fragment; complete-message example 40 verified in three language modes"
+  },{
+    "english":"' to '",
+    "file":"src/Classes/BuildListControl.lua",
+    "line":238,
+    "reason":"Assembled source fragment; complete-message example 38 verified in three language modes"
+  },{
+    "english":"label",
+    "file":"src/Classes/ButtonControl.lua",
+    "line":78,
+    "reason":"Control property key, not rendered prose."
   },{
     "english":"VAR",
     "file":"src/Classes/ButtonControl.lua",
@@ -160,6 +313,23 @@
     "file":"src/Classes/CalcBreakdownControl.lua",
     "line":389
   },{
+    "english":"%+g base",
+    "file":"src/Classes/CalcBreakdownControl.lua",
+    "format_arguments":[83.25],
+    "line":514,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"+83.25 基础值",
+    "sample_english":"+83.25 base"
+  },{
+    "english":"Override: ",
+    "file":"src/Classes/CalcBreakdownControl.lua",
+    "line":528,
+    "reason":"Assembled source fragment; complete-message example 108 verified in three language modes"
+  },{
+    "english":"Modifier: ",
+    "file":"src/Classes/CalcBreakdownControl.lua",
+    "line":533
+  },{
     "english":"LEFT",
     "file":"src/Classes/CalcBreakdownControl.lua",
     "line":546,
@@ -230,74 +400,34 @@
     "line":712,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
-    "english":"VAR BOLD",
-    "file":"src/Classes/CalcSectionControl.lua",
-    "line":440,
-    "reason":"Font identifier passed through a rendering helper."
-  },{
     "english":"LEFT",
     "file":"src/Classes/CalcSectionControl.lua",
-    "line":440,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"LEFT",
-    "file":"src/Classes/CalcSectionControl.lua",
-    "line":447,
+    "line":467,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR BOLD",
     "file":"src/Classes/CalcSectionControl.lua",
-    "line":447,
+    "line":467,
     "reason":"Font identifier passed through a rendering helper."
   },{
     "english":"LEFT",
     "file":"src/Classes/CalcSectionControl.lua",
-    "line":450,
+    "line":471,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/CalcSectionControl.lua",
-    "line":450,
+    "line":471,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/CalcSectionControl.lua",
-    "line":461,
+    "line":482,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/CalcSectionControl.lua",
-    "line":461,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"RIGHT_X",
-    "file":"src/Classes/CalcSectionControl.lua",
-    "line":490,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"VAR",
-    "file":"src/Classes/CalcSectionControl.lua",
-    "line":490,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"RIGHT_X",
-    "file":"src/Classes/CalcSectionControl.lua",
-    "line":493,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"VAR",
-    "file":"src/Classes/CalcSectionControl.lua",
-    "line":493,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"LEFT",
-    "file":"src/Classes/CalcSectionControl.lua",
-    "line":527,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"VAR",
-    "file":"src/Classes/CalcSectionControl.lua",
-    "line":527,
+    "line":482,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Unbuffed",
@@ -315,6 +445,10 @@
     "english":"Effective DPS",
     "file":"src/Classes/CalcsTab.lua",
     "line":16
+  },{
+    "english":"Search",
+    "file":"src/Classes/CalcsTab.lua",
+    "line":35
   },{
     "english":"View Skill Details",
     "file":"src/Classes/CalcsTab.lua",
@@ -376,14 +510,24 @@
     "file":"src/Classes/CalcsTab.lua",
     "line":137
   },{
-    "english":"RIGHT_X",
+    "english":"label",
+    "file":"src/Classes/CheckBoxControl.lua",
+    "line":25,
+    "reason":"Control property key, not rendered prose."
+  },{
+    "english":"label",
     "file":"src/Classes/CheckBoxControl.lua",
     "line":76,
+    "reason":"Control property key, not rendered prose."
+  },{
+    "english":"RIGHT_X",
+    "file":"src/Classes/CheckBoxControl.lua",
+    "line":81,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/CheckBoxControl.lua",
-    "line":76,
+    "line":81,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Instant Buyout",
@@ -401,6 +545,12 @@
     "english":"Any",
     "file":"src/Classes/CompareBuySimilar.lua",
     "line":34
+  },{
+    "english":"%s.stat_%s",
+    "file":"src/Classes/CompareBuySimilar.lua",
+    "format_arguments":["",""],
+    "line":262,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":"Armour",
     "file":"src/Classes/CompareBuySimilar.lua",
@@ -486,6 +636,21 @@
     "file":"src/Classes/CompareBuySimilar.lua",
     "line":530
   },{
+    "english":"search",
+    "file":"src/Classes/CompareBuySimilar.lua",
+    "line":531,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"close",
+    "file":"src/Classes/CompareBuySimilar.lua",
+    "line":531,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"Override: ",
+    "file":"src/Classes/CompareCalcsHelpers.lua",
+    "line":29,
+    "reason":"Assembled source fragment; complete-message example 108 verified in three language modes"
+  },{
     "english":"^x808080  Common:",
     "file":"src/Classes/CompareCalcsHelpers.lua",
     "line":261
@@ -534,9 +699,17 @@
     "line":458,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
+    "english":"Comparison Build",
+    "file":"src/Classes/CompareEntry.lua",
+    "line":15
+  },{
     "english":"<No skills added yet>",
     "file":"src/Classes/CompareEntry.lua",
     "line":300
+  },{
+    "english":"Default Item Set",
+    "file":"src/Classes/CompareEntry.lua",
+    "line":375
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/CompareEntry.lua",
@@ -562,6 +735,23 @@
     "english":"Per Point",
     "file":"src/Classes/ComparePowerReportListControl.lua",
     "line":20
+  },{
+    "english":"Select a metric above to generate the power report.",
+    "file":"src/Classes/ComparePowerReportListControl.lua",
+    "line":24
+  },{
+    "english":"No differences found.",
+    "file":"src/Classes/ComparePowerReportListControl.lua",
+    "line":35
+  },{
+    "english":"Select a metric above to generate the power report.",
+    "file":"src/Classes/ComparePowerReportListControl.lua",
+    "line":38
+  },{
+    "english":"Calculating... ",
+    "file":"src/Classes/ComparePowerReportListControl.lua",
+    "line":47,
+    "reason":"Assembled source fragment; complete-message example 53 verified in three language modes"
   },{
     "english":"LEFT",
     "file":"src/Classes/ComparePowerReportListControl.lua",
@@ -661,6 +851,10 @@
     "file":"src/Classes/CompareTab.lua",
     "line":747
   },{
+    "english":"Search",
+    "file":"src/Classes/CompareTab.lua",
+    "line":757
+  },{
     "english":"Expanded mode",
     "file":"src/Classes/CompareTab.lua",
     "line":767
@@ -681,6 +875,10 @@
     "file":"src/Classes/CompareTab.lua",
     "line":817
   },{
+    "english":"Search",
+    "file":"src/Classes/CompareTab.lua",
+    "line":858
+  },{
     "english":"Copy tree",
     "file":"src/Classes/CompareTab.lua",
     "line":891
@@ -688,6 +886,10 @@
     "english":"Copy and use",
     "file":"src/Classes/CompareTab.lua",
     "line":900
+  },{
+    "english":"Search",
+    "file":"src/Classes/CompareTab.lua",
+    "line":907
   },{
     "english":"Copy Config from Compare Build",
     "file":"src/Classes/CompareTab.lua",
@@ -700,6 +902,10 @@
     "english":"Show All Configurations",
     "file":"src/Classes/CompareTab.lua",
     "line":926
+  },{
+    "english":"Search",
+    "file":"src/Classes/CompareTab.lua",
+    "line":936
   },{
     "english":"^7Config set:",
     "file":"src/Classes/CompareTab.lua",
@@ -733,9 +939,34 @@
     "file":"src/Classes/CompareTab.lua",
     "line":1024
   },{
+    "english":"Your Build",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1070
+  },{
+    "english":"^8(not set)",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1101
+  },{
+    "english":"Default",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1343
+  },{
+    "english":" (Compared)",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1343
+  },{
+    "english":"LabelControl",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1467,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
     "english":"^7Paste a build code or URL to import as comparison:",
     "file":"src/Classes/CompareTab.lua",
     "line":1467
+  },{
+    "english":"Name (optional)",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1475
   },{
     "english":"Import",
     "file":"src/Classes/CompareTab.lua",
@@ -749,6 +980,54 @@
     "file":"src/Classes/CompareTab.lua",
     "line":1521
   },{
+    "english":"Import Comparison Build",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1524
+  },{
+    "english":"go",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1524,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"input",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1524,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"cancel",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1524,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"Import Error",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1566
+  },{
+    "english":"Couldn't open '",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1566,
+    "reason":"Assembled source fragment; complete-message example 42 verified in three language modes"
+  },{
+    "english":"Import Error",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1572
+  },{
+    "english":"Build file is empty or unreadable.",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1572
+  },{
+    "english":"Import Error",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1578
+  },{
+    "english":"Failed to import build for comparison.",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1578
+  },{
+    "english":"Search",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1583
+  },{
     "english":"(e.g. class:assassin myfilename)",
     "file":"src/Classes/CompareTab.lua",
     "line":1587
@@ -760,6 +1039,25 @@
     "english":"Close",
     "file":"src/Classes/CompareTab.lua",
     "line":1635
+  },{
+    "english":"Import from Folder",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1639
+  },{
+    "english":"open",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1639,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"searchText",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1639,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"close",
+    "file":"src/Classes/CompareTab.lua",
+    "line":1639,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":"LEFT",
     "file":"src/Classes/CompareTab.lua",
@@ -846,6 +1144,18 @@
     "english":"Compare Build",
     "file":"src/Classes/CompareTab.lua",
     "line":1815
+  },{
+    "english":"(empty group)",
+    "file":"src/Classes/CompareTab.lua",
+    "line":2481
+  },{
+    "english":"%s Abyssal Socket %d",
+    "file":"src/Classes/CompareTab.lua",
+    "format_arguments":["Helmet",23],
+    "line":2713,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"头盔 深渊插槽 23",
+    "sample_english":"Helmet Abyssal Socket 23"
   },{
     "english":"LEFT",
     "file":"src/Classes/CompareTab.lua",
@@ -993,6 +1303,14 @@
     "line":3363,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
+    "english":"%s Abyssal Socket %d",
+    "file":"src/Classes/CompareTab.lua",
+    "format_arguments":["Helmet",23],
+    "line":3655,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"头盔 深渊插槽 23",
+    "sample_english":"Helmet Abyssal Socket 23"
+  },{
     "english":"LEFT",
     "file":"src/Classes/CompareTab.lua",
     "line":3822,
@@ -1027,9 +1345,62 @@
     "file":"src/Classes/CompareTab.lua",
     "line":3930
   },{
+    "english":"^7Equipping this item in %s will give you:\n(replacing %s%s^7)",
+    "file":"src/Classes/CompareTab.lua",
+    "format_arguments":["","",""],
+    "line":3995
+  },{
+    "english":"^7Equipping this item in %s will give you:",
+    "file":"src/Classes/CompareTab.lua",
+    "format_arguments":[""],
+    "line":3997,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"^7在装备此物品将产生以下变化：",
+    "sample_english":"^7Equipping this item in  will give you:"
+  },{
     "english":"^7No changes.",
     "file":"src/Classes/CompareTab.lua",
     "line":4002
+  },{
+    "english":"missing",
+    "file":"src/Classes/CompareTab.lua",
+    "line":4164,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"additional",
+    "file":"src/Classes/CompareTab.lua",
+    "line":4172,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"common",
+    "file":"src/Classes/CompareTab.lua",
+    "line":4222,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"common",
+    "file":"src/Classes/CompareTab.lua",
+    "line":4223,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"additional",
+    "file":"src/Classes/CompareTab.lua",
+    "line":4231,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"additional",
+    "file":"src/Classes/CompareTab.lua",
+    "line":4237,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"missing",
+    "file":"src/Classes/CompareTab.lua",
+    "line":4254,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"missing",
+    "file":"src/Classes/CompareTab.lua",
+    "line":4257,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":"LEFT",
     "file":"src/Classes/CompareTab.lua",
@@ -1265,6 +1636,11 @@
     "file":"src/Classes/ConfigSetListControl.lua",
     "line":38
   },{
+    "english":"LabelControl",
+    "file":"src/Classes/ConfigSetListControl.lua",
+    "line":45,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
     "english":"^7Enter name for this config set:",
     "file":"src/Classes/ConfigSetListControl.lua",
     "line":45
@@ -1276,6 +1652,46 @@
     "english":"Cancel",
     "file":"src/Classes/ConfigSetListControl.lua",
     "line":62
+  },{
+    "english":"Rename",
+    "file":"src/Classes/ConfigSetListControl.lua",
+    "line":68
+  },{
+    "english":"Set Name",
+    "file":"src/Classes/ConfigSetListControl.lua",
+    "line":68
+  },{
+    "english":"save",
+    "file":"src/Classes/ConfigSetListControl.lua",
+    "line":68,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"edit",
+    "file":"src/Classes/ConfigSetListControl.lua",
+    "line":68,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
+    "english":"cancel",
+    "file":"src/Classes/ConfigSetListControl.lua",
+    "line":68,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"Delete Config Set",
+    "file":"src/Classes/ConfigSetListControl.lua",
+    "line":92
+  },{
+    "english":"Are you sure you want to delete '",
+    "file":"src/Classes/ConfigSetListControl.lua",
+    "line":92,
+    "reason":"Assembled source fragment; complete-message example 55 verified in three language modes"
+  },{
+    "english":"Default",
+    "file":"src/Classes/ConfigSetListControl.lua",
+    "line":92
+  },{
+    "english":"Delete",
+    "file":"src/Classes/ConfigSetListControl.lua",
+    "line":92
   },{
     "english":"Default",
     "file":"src/Classes/ConfigTab.lua",
@@ -1293,6 +1709,10 @@
     "file":"src/Classes/ConfigTab.lua",
     "line":161
   },{
+    "english":"Search",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":165
+  },{
     "english":"Hide Ineligible Configurations",
     "file":"src/Classes/ConfigTab.lua",
     "line":170
@@ -1301,57 +1721,117 @@
     "file":"src/Classes/ConfigTab.lua",
     "line":170
   },{
+    "english":"This option is specific to '",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":361,
+    "reason":"Assembled source fragment; complete-message example 110 verified in three language modes"
+  },{
+    "english":"tooltipText",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":709,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
     "english":"This config option is conditional with missing source and is invalid.",
     "file":"src/Classes/ConfigTab.lua",
-    "line":719
+    "line":720
   },{
     "english":"^7Add Mod Group",
     "file":"src/Classes/ConfigTab.lua",
-    "line":775
+    "line":776
   },{
     "english":"Group ",
     "file":"src/Classes/ConfigTab.lua",
-    "line":777
+    "line":778
   },{
     "english":"Default",
     "file":"src/Classes/ConfigTab.lua",
-    "line":877
+    "line":845
   },{
     "english":"Default",
     "file":"src/Classes/ConfigTab.lua",
-    "line":879
+    "line":861
+  },{
+    "english":"Default",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":878
+  },{
+    "english":"Default",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":880
+  },{
+    "english":"Default",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":947
+  },{
+    "english":"Manage Config Sets",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":1216
+  },{
+    "english":"ConfigSetListControl",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":1217,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"ButtonControl",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":1218,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Done",
     "file":"src/Classes/ConfigTab.lua",
-    "line":1217
+    "line":1218
   },{
     "english":"Default",
     "file":"src/Classes/ConfigTab.lua",
-    "line":1225
+    "line":1226
   },{
     "english":"Default",
     "file":"src/Classes/ConfigTab.lua",
-    "line":1258
+    "line":1259
   },{
     "english":"^7Supported: ^2Yes",
     "file":"src/Classes/ConfigTab.lua",
-    "line":1501
+    "line":1502
   },{
     "english":"^7Supported: ^1No",
     "file":"src/Classes/ConfigTab.lua",
-    "line":1503
+    "line":1504
   },{
     "english":"^7Search:",
     "file":"src/Classes/ConfigTab.lua",
-    "line":1514
+    "line":1515
   },{
     "english":"Add",
     "file":"src/Classes/ConfigTab.lua",
-    "line":1524
+    "line":1525
   },{
     "english":"Cancel",
     "file":"src/Classes/ConfigTab.lua",
-    "line":1545
+    "line":1546
+  },{
+    "english":"Mod Browser",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":1550
+  },{
+    "english":"save",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":1550,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"search",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":1550,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"close",
+    "file":"src/Classes/ConfigTab.lua",
+    "line":1550,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"label",
+    "file":"src/Classes/DraggerControl.lua",
+    "line":79,
+    "reason":"Control property key, not rendered prose."
   },{
     "english":"CENTER_X",
     "file":"src/Classes/DraggerControl.lua",
@@ -1365,57 +1845,57 @@
   },{
     "english":"LEFT",
     "file":"src/Classes/DropDownControl.lua",
-    "line":321,
+    "line":325,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/DropDownControl.lua",
-    "line":321,
+    "line":325,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"VAR",
+    "file":"src/Classes/DropDownControl.lua",
+    "line":342,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/DropDownControl.lua",
-    "line":337,
+    "line":342,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/DropDownControl.lua",
-    "line":337,
+    "line":402,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/DropDownControl.lua",
-    "line":393,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"VAR",
-    "file":"src/Classes/DropDownControl.lua",
-    "line":393,
+    "line":402,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/DropDownControl.lua",
-    "line":409,
+    "line":419,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/DropDownControl.lua",
-    "line":409,
+    "line":419,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"LEFT",
+    "file":"src/Classes/DropDownControl.lua",
+    "line":426,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/DropDownControl.lua",
-    "line":416,
+    "line":426,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"<No matches>",
     "file":"src/Classes/DropDownControl.lua",
-    "line":416
-  },{
-    "english":"LEFT",
-    "file":"src/Classes/DropDownControl.lua",
-    "line":416,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+    "line":426
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
@@ -1444,82 +1924,82 @@
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":321,
+    "line":329,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":347,
+    "line":355,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":352,
+    "line":360,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":367,
+    "line":375,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":377,
+    "line":385,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":396,
+    "line":404,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":398,
+    "line":406,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":405,
+    "line":413,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":407,
+    "line":415,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":410,
+    "line":418,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":412,
+    "line":420,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
-    "line":422,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"LEFT",
-    "file":"src/Classes/EditControl.lua",
-    "line":427,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"LEFT",
-    "file":"src/Classes/EditControl.lua",
-    "line":429,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"LEFT",
-    "file":"src/Classes/EditControl.lua",
-    "line":433,
+    "line":430,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/EditControl.lua",
     "line":435,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"LEFT",
+    "file":"src/Classes/EditControl.lua",
+    "line":437,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"LEFT",
+    "file":"src/Classes/EditControl.lua",
+    "line":441,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"LEFT",
+    "file":"src/Classes/EditControl.lua",
+    "line":443,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"See All",
@@ -1530,6 +2010,14 @@
     "file":"src/Classes/ExtBuildListControl.lua",
     "line":275,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"Import",
+    "file":"src/Classes/ExtBuildListControl.lua",
+    "line":283
+  },{
+    "english":"Preview",
+    "file":"src/Classes/ExtBuildListControl.lua",
+    "line":283
   },{
     "english":"LEFT",
     "file":"src/Classes/ExtBuildListControl.lua",
@@ -1584,66 +2072,83 @@
     "file":"src/Classes/ExtBuildListControl.lua",
     "line":417
   },{
+    "english":"Delete Folder",
+    "file":"src/Classes/FolderListControl.lua",
+    "line":84
+  },{
+    "english":"The folder is not empty.",
+    "file":"src/Classes/FolderListControl.lua",
+    "line":84
+  },{
+    "english":"Error",
+    "file":"src/Classes/FolderListControl.lua",
+    "line":88
+  },{
+    "english":"Couldn't delete '",
+    "file":"src/Classes/FolderListControl.lua",
+    "line":88,
+    "reason":"Assembled source fragment; complete-message example 41 verified in three language modes"
+  },{
     "english":"RIGHT_X",
     "file":"src/Classes/GemSelectControl.lua",
-    "line":531,
+    "line":533,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/GemSelectControl.lua",
-    "line":531,
+    "line":533,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Sorting ",
     "file":"src/Classes/GemSelectControl.lua",
-    "line":531
+    "line":533
   },{
     "english":"LEFT",
     "file":"src/Classes/GemSelectControl.lua",
-    "line":560,
+    "line":562,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/GemSelectControl.lua",
-    "line":560,
+    "line":562,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"VAR",
+    "file":"src/Classes/GemSelectControl.lua",
+    "line":569,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"CENTER_X",
     "file":"src/Classes/GemSelectControl.lua",
-    "line":567,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"VAR",
-    "file":"src/Classes/GemSelectControl.lua",
-    "line":567,
+    "line":569,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Only show Support gems",
     "file":"src/Classes/GemSelectControl.lua",
-    "line":657
+    "line":659
   },{
     "english":"Only show Active gems",
     "file":"src/Classes/GemSelectControl.lua",
-    "line":661
+    "line":663
   },{
     "english":"VAR",
     "file":"src/Classes/GemSelectControl.lua",
-    "line":671,
+    "line":673,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"CENTER_X",
     "file":"src/Classes/GemSelectControl.lua",
-    "line":671,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"VAR",
-    "file":"src/Classes/GemSelectControl.lua",
-    "line":680,
+    "line":673,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"CENTER_X",
     "file":"src/Classes/GemSelectControl.lua",
-    "line":680,
+    "line":682,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"VAR",
+    "file":"src/Classes/GemSelectControl.lua",
+    "line":682,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FLevel: ^7%d%s%s",
@@ -1679,6 +2184,19 @@
     "line":58,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
+    "english":"^x7F7F7FCooldown Time: ^7%.2f sec",
+    "file":"src/Classes/GemTooltip.lua",
+    "format_arguments":[83.25],
+    "line":61
+  },{
+    "english":" (%d uses)",
+    "file":"src/Classes/GemTooltip.lua",
+    "format_arguments":[83.25],
+    "line":63,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":" (83 次使用次数)",
+    "sample_english":" (83 uses)"
+  },{
     "english":"FONTIN SC",
     "file":"src/Classes/GemTooltip.lua",
     "line":65,
@@ -1701,6 +2219,24 @@
     "file":"src/Classes/GemTooltip.lua",
     "line":88,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"^x7F7F7FCooldown Time: ^7%.2f sec",
+    "file":"src/Classes/GemTooltip.lua",
+    "format_arguments":[83.25],
+    "line":91
+  },{
+    "english":"FONTIN SC",
+    "file":"src/Classes/GemTooltip.lua",
+    "line":91,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":" (%d uses)",
+    "file":"src/Classes/GemTooltip.lua",
+    "format_arguments":[83.25],
+    "line":93,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":" (83 次使用次数)",
+    "sample_english":" (83 uses)"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/GemTooltip.lua",
@@ -1808,6 +2344,14 @@
     "file":"src/Classes/GemTooltip.lua",
     "line":142,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"+%d%% Quality from %s",
+    "file":"src/Classes/GemTooltip.lua",
+    "format_arguments":[23,"Player item"],
+    "line":145,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"+23% 品质，来自 Player item",
+    "sample_english":"+23% Quality from Player item"
   },{
     "english":"Item",
     "file":"src/Classes/GemTooltip.lua",
@@ -1923,6 +2467,38 @@
     "line":21,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
+    "english":"Not authenticated",
+    "file":"src/Classes/ImportTab.lua",
+    "line":49
+  },{
+    "english":"Not authenticated",
+    "file":"src/Classes/ImportTab.lua",
+    "line":54
+  },{
+    "english":"Logging in... (%d) - URL copied to clipboard",
+    "file":"src/Classes/ImportTab.lua",
+    "format_arguments":[83.25],
+    "line":56,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"正在登录…（83）— 链接已复制到剪贴板",
+    "sample_english":"Logging in... (83) - URL copied to clipboard"
+  },{
+    "english":"Authenticated",
+    "file":"src/Classes/ImportTab.lua",
+    "line":62
+  },{
+    "english":"You're doing that too fast. Please wait (%d)",
+    "file":"src/Classes/ImportTab.lua",
+    "format_arguments":[83.25],
+    "line":64,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"操作过于频繁，请稍候（83）",
+    "sample_english":"You're doing that too fast. Please wait (83)"
+  },{
+    "english":"Authenticated",
+    "file":"src/Classes/ImportTab.lua",
+    "line":68
+  },{
     "english":"^7Character import status: ",
     "file":"src/Classes/ImportTab.lua",
     "line":81
@@ -1939,6 +2515,22 @@
     "file":"src/Classes/ImportTab.lua",
     "line":186
   },{
+    "english":"%sError: %s",
+    "file":"src/Classes/ImportTab.lua",
+    "format_arguments":["",""],
+    "line":194,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"错误: ",
+    "sample_english":"Error: "
+  },{
+    "english":"Fetched",
+    "file":"src/Classes/ImportTab.lua",
+    "line":207
+  },{
+    "english":"Fetch Characters",
+    "file":"src/Classes/ImportTab.lua",
+    "line":209
+  },{
     "english":"^7League:",
     "file":"src/Classes/ImportTab.lua",
     "line":227
@@ -1950,6 +2542,18 @@
     "english":"Passive Tree and Jewels",
     "file":"src/Classes/ImportTab.lua",
     "line":249
+  },{
+    "english":"Character Import",
+    "file":"src/Classes/ImportTab.lua",
+    "line":270
+  },{
+    "english":"Importing the passive tree will overwrite your current tree.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":270
+  },{
+    "english":"Import",
+    "file":"src/Classes/ImportTab.lua",
+    "line":271
   },{
     "english":"Delete jewels:",
     "file":"src/Classes/ImportTab.lua",
@@ -1970,6 +2574,10 @@
     "english":"Ignore weapon swap:",
     "file":"src/Classes/ImportTab.lua",
     "line":319
+  },{
+    "english":"Idle",
+    "file":"src/Classes/ImportTab.lua",
+    "line":323
   },{
     "english":"^7Character import status: ",
     "file":"src/Classes/ImportTab.lua",
@@ -2015,6 +2623,18 @@
     "file":"src/Classes/ImportTab.lua",
     "line":431
   },{
+    "english":"Character Import",
+    "file":"src/Classes/ImportTab.lua",
+    "line":434
+  },{
+    "english":"Importing the passive tree will overwrite your current tree.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":434
+  },{
+    "english":"Import",
+    "file":"src/Classes/ImportTab.lua",
+    "line":435
+  },{
     "english":"Delete jewels:",
     "file":"src/Classes/ImportTab.lua",
     "line":447
@@ -2043,6 +2663,22 @@
     "file":"src/Classes/ImportTab.lua",
     "line":468
   },{
+    "english":"Idle",
+    "file":"src/Classes/ImportTab.lua",
+    "line":470
+  },{
+    "english":"Import From Your Account",
+    "file":"src/Classes/ImportTab.lua",
+    "line":486
+  },{
+    "english":"Import By Account Name",
+    "file":"src/Classes/ImportTab.lua",
+    "line":493
+  },{
+    "english":"Build Sharing",
+    "file":"src/Classes/ImportTab.lua",
+    "line":500
+  },{
     "english":"^7Generate a code to share this build with other Path of Building users:",
     "file":"src/Classes/ImportTab.lua",
     "line":502
@@ -2054,6 +2690,10 @@
     "english":"Export Support",
     "file":"src/Classes/ImportTab.lua",
     "line":506
+  },{
+    "english":"Code",
+    "file":"src/Classes/ImportTab.lua",
+    "line":510
   },{
     "english":"Copy",
     "file":"src/Classes/ImportTab.lua",
@@ -2071,6 +2711,10 @@
     "file":"src/Classes/ImportTab.lua",
     "line":546
   },{
+    "english":"Error creating link:\n",
+    "file":"src/Classes/ImportTab.lua",
+    "line":548
+  },{
     "english":"^7Note: this code can be very long; you can use 'Share' to shrink it.",
     "file":"src/Classes/ImportTab.lua",
     "line":571
@@ -2078,6 +2722,31 @@
     "english":"^7To import a build, enter URL or code here:",
     "file":"src/Classes/ImportTab.lua",
     "line":572
+  },{
+    "english":"Build Import",
+    "file":"src/Classes/ImportTab.lua",
+    "line":649
+  },{
+    "english":"Warning:^7 Importing to the current build will erase ALL existing data for this build.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":649
+  },{
+    "english":"Import",
+    "file":"src/Classes/ImportTab.lua",
+    "line":649
+  },{
+    "english":"TREE",
+    "file":"src/Classes/ImportTab.lua",
+    "line":652,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"Import Error",
+    "file":"src/Classes/ImportTab.lua",
+    "line":660
+  },{
+    "english":"Failed to import build for comparison.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":660
   },{
     "english":"Import to this build",
     "file":"src/Classes/ImportTab.lua",
@@ -2095,73 +2764,220 @@
     "file":"src/Classes/ImportTab.lua",
     "line":684
   },{
+    "english":"Token refresh failed: %s",
+    "file":"src/Classes/ImportTab.lua",
+    "format_arguments":[""],
+    "line":725
+  },{
+    "english":"Retrieving character passive tree...",
+    "file":"src/Classes/ImportTab.lua",
+    "line":815
+  },{
+    "english":"Failed to retrieve character data, try again.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":830
+  },{
+    "english":"Retrieving character items...",
+    "file":"src/Classes/ImportTab.lua",
+    "line":853
+  },{
+    "english":"Failed to retrieve character data, try again.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":868
+  },{
+    "english":"Hardcore",
+    "file":"src/Classes/ImportTab.lua",
+    "line":891
+  },{
+    "english":"SSF Hardcore",
+    "file":"src/Classes/ImportTab.lua",
+    "line":894
+  },{
+    "english":"SSF Standard",
+    "file":"src/Classes/ImportTab.lua",
+    "line":897
+  },{
+    "english":"Standard",
+    "file":"src/Classes/ImportTab.lua",
+    "line":900
+  },{
+    "english":"Retrieving character list...",
+    "file":"src/Classes/ImportTab.lua",
+    "line":905
+  },{
+    "english":"Account profile is private or does not exist.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":919
+  },{
+    "english":"Account name is incorrect.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":923
+  },{
+    "english":"Error processing character list, try again later",
+    "file":"src/Classes/ImportTab.lua",
+    "line":934
+  },{
+    "english":"The account has no characters to import.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":940
+  },{
+    "english":"Failed to retrieve character list.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":958
+  },{
+    "english":"Character list successfully retrieved.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":965
+  },{
     "english":"All",
     "file":"src/Classes/ImportTab.lua",
     "line":989
+  },{
+    "english":"%s%s ^x808080lvl %d in %s",
+    "file":"src/Classes/ImportTab.lua",
+    "format_arguments":["^7","Witch",23,"Player League"],
+    "line":1070,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"^7女巫 等级 23（Player League）",
+    "sample_english":"^7Witch ^x808080lvl 23 in Player League"
+  },{
+    "english":"%s%s ^x808080lvl %d",
+    "file":"src/Classes/ImportTab.lua",
+    "format_arguments":["","",83.25],
+    "line":1072,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":" 等级 83",
+    "sample_english":" ^x808080lvl 83"
+  },{
+    "english":"Passive tree and jewels successfully imported.",
+    "file":"src/Classes/ImportTab.lua",
+    "line":1251
   },{
     "english":"Foulborn ",
     "file":"src/Classes/Item.lua",
     "line":1567
   },{
+    "english":"[Ff]oulborn ",
+    "file":"src/Classes/Item.lua",
+    "line":1569,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
+    "english":"Intangibility: %d%%",
+    "file":"src/Classes/Item.lua",
+    "format_arguments":[83.25],
+    "line":1753,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"虚化程度：83%",
+    "sample_english":"Intangibility: 83%"
+  },{
+    "english":"Weapon 1",
+    "file":"src/Classes/Item.lua",
+    "line":2129
+  },{
+    "english":"Weapon 2",
+    "file":"src/Classes/Item.lua",
+    "line":2131
+  },{
+    "english":"Ring 1",
+    "file":"src/Classes/Item.lua",
+    "line":2133
+  },{
+    "english":"Flask 1",
+    "file":"src/Classes/Item.lua",
+    "line":2135
+  },{
+    "english":"Flask 1",
+    "file":"src/Classes/Item.lua",
+    "line":2137
+  },{
+    "english":"Graft 1",
+    "file":"src/Classes/Item.lua",
+    "line":2139
+  },{
     "english":"Any requirements",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":44
+    "line":56
   },{
     "english":"Current level",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":44
+    "line":56
   },{
     "english":"Current attributes",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":44
+    "line":56
   },{
     "english":"Current useable",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":44
+    "line":56
   },{
     "english":"Obtainable",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":47
+    "line":59
   },{
     "english":"Any source",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":47
+    "line":59
   },{
     "english":"Unobtainable",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":47
+    "line":59
   },{
     "english":"Vendor Recipe",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":47
+    "line":59
   },{
     "english":"Upgraded",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":47
+    "line":59
   },{
     "english":"Boss Item",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":47
+    "line":59
   },{
     "english":"Corruption",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":47
+    "line":59
+  },{
+    "english":"Search",
+    "file":"src/Classes/ItemDBControl.lua",
+    "line":63
   },{
     "english":"Anywhere",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":54
+    "line":66
   },{
     "english":"Names",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":54
+    "line":66
   },{
     "english":"Modifiers",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":54
+    "line":66
   },{
     "english":"Sort by ",
     "file":"src/Classes/ItemDBControl.lua",
-    "line":210
+    "line":223
+  },{
+    "english":"^7Sorting... (",
+    "file":"src/Classes/ItemDBControl.lua",
+    "line":267,
+    "reason":"Assembled source fragment; complete-message example 52 verified in three language modes"
+  },{
+    "english":"^7No items found that match those filters.",
+    "file":"src/Classes/ItemDBControl.lua",
+    "line":297
+  },{
+    "english":"^7Loading...",
+    "file":"src/Classes/ItemDBControl.lua",
+    "line":320
+  },{
+    "english":"Item",
+    "file":"src/Classes/ItemDBControl.lua",
+    "line":344
+  },{
+    "english":"^x7F7F7FThis is the list of items that have been added to this build.\nYou can add items to this list by dragging them from\none of the other lists, or by clicking 'Add to build' when\nviewing an item.",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":13
   },{
     "english":"Sort",
     "file":"src/Classes/ItemListControl.lua",
@@ -2175,9 +2991,83 @@
     "file":"src/Classes/ItemListControl.lua",
     "line":46
   },{
+    "english":"Delete All",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":47
+  },{
+    "english":"Are you sure you want to delete all items in this build?",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":47
+  },{
+    "english":"Delete",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":47
+  },{
     "english":"Delete",
     "file":"src/Classes/ItemListControl.lua",
     "line":69
+  },{
+    "english":"Default",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":94
+  },{
+    "english":"Item",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":282
+  },{
+    "english":"Delete Item",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":346
+  },{
+    "english":" is currently equipped in ",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":346,
+    "reason":"Assembled source fragment; complete-message example 79 verified in three language modes"
+  },{
+    "english":".\nAre you sure you want to delete it?",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":346,
+    "reason":"Assembled source fragment; complete-message example 79 verified in three language modes"
+  },{
+    "english":"Delete",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":346
+  },{
+    "english":"Delete Item",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":356
+  },{
+    "english":" is currently equipped in an Abyssal Socket",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":356,
+    "reason":"Assembled source fragment; complete-message example 81 verified in three language modes"
+  },{
+    "english":".\nAre you sure you want to delete it?",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":356,
+    "reason":"Assembled source fragment; complete-message example 79 verified in three language modes"
+  },{
+    "english":"Delete",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":356
+  },{
+    "english":"Delete Item",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":365
+  },{
+    "english":" is currently equipped in passive tree '",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":365,
+    "reason":"Assembled source fragment; complete-message example 83 verified in three language modes"
+  },{
+    "english":"'.\nAre you sure you want to delete it?",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":365,
+    "reason":"Assembled source fragment; complete-message example 80 verified in three language modes"
+  },{
+    "english":"Delete",
+    "file":"src/Classes/ItemListControl.lua",
+    "line":365
   },{
     "english":"Copy",
     "file":"src/Classes/ItemSetListControl.lua",
@@ -2195,6 +3085,11 @@
     "file":"src/Classes/ItemSetListControl.lua",
     "line":38
   },{
+    "english":"LabelControl",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":46,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
     "english":"^7Enter name for this item set:",
     "file":"src/Classes/ItemSetListControl.lua",
     "line":46
@@ -2207,19 +3102,89 @@
     "file":"src/Classes/ItemSetListControl.lua",
     "line":63
   },{
+    "english":"Rename",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":69
+  },{
+    "english":"Set Name",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":69
+  },{
+    "english":"save",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":69,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"edit",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":69,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
+    "english":"cancel",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":69,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"ItemList",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":86,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"Delete Item Set",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":122
+  },{
+    "english":"Are you sure you want to delete '",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":122,
+    "reason":"Assembled source fragment; complete-message example 55 verified in three language modes"
+  },{
+    "english":"Default",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":122
+  },{
+    "english":"'?\nThis will not delete any items used by the set.",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":122,
+    "reason":"Assembled source fragment; complete-message example 58 verified in three language modes"
+  },{
+    "english":"Delete",
+    "file":"src/Classes/ItemSetListControl.lua",
+    "line":122
+  },{
     "english":"Activate this flask.",
     "file":"src/Classes/ItemSlotControl.lua",
     "line":42
   },{
     "english":"RIGHT_X",
     "file":"src/Classes/ItemSlotControl.lua",
-    "line":135,
+    "line":136,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/ItemSlotControl.lua",
-    "line":135,
+    "line":136,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"Normal",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":21
+  },{
+    "english":"Magic",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":22
+  },{
+    "english":"Rare",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":23
+  },{
+    "english":"Unique",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":24
+  },{
+    "english":"Relic",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":25
   },{
     "english":"Default",
     "file":"src/Classes/ItemsTab.lua",
@@ -2484,6 +3449,11 @@
     "file":"src/Classes/ItemsTab.lua",
     "line":999
   },{
+    "english":"displayItemStackedRangeLine",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":1015,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
     "english":"Socket #",
     "file":"src/Classes/ItemsTab.lua",
     "line":1668
@@ -2500,13 +3470,47 @@
     "file":"src/Classes/ItemsTab.lua",
     "line":2350
   },{
+    "english":" ^7Crafted:",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2360
+  },{
+    "english":"^7Crucible:",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2360
+  },{
+    "english":" ^7Custom:",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2360
+  },{
+    "english":"Allocates ",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2402,
+    "reason":"Assembled source fragment; complete-message example 98 verified in three language modes"
+  },{
     "english":"Done",
     "file":"src/Classes/ItemsTab.lua",
     "line":2512
   },{
+    "english":"Manage Item Sets",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2515
+  },{
+    "english":"New Item",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2552
+  },{
     "english":"Rarity:",
     "file":"src/Classes/ItemsTab.lua",
     "line":2566
+  },{
+    "english":"EditControl",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2569,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
+    "english":"Name",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2569
   },{
     "english":"Type:",
     "file":"src/Classes/ItemsTab.lua",
@@ -2523,6 +3527,14 @@
     "english":"Cancel",
     "file":"src/Classes/ItemsTab.lua",
     "line":2599
+  },{
+    "english":"Craft Item",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2602
+  },{
+    "english":"Rarity: ",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2613
   },{
     "english":"Save",
     "file":"src/Classes/ItemsTab.lua",
@@ -2565,6 +3577,19 @@
     "file":"src/Classes/ItemsTab.lua",
     "line":2654
   },{
+    "english":"Edit Item Text",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2657
+  },{
+    "english":"Create Custom Item from Text",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2657
+  },{
+    "english":"edit",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2657,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
     "english":"^7Skill:",
     "file":"src/Classes/ItemsTab.lua",
     "line":2816
@@ -2601,6 +3626,10 @@
     "file":"src/Classes/ItemsTab.lua",
     "line":2866
   },{
+    "english":"Enchant Item",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2869
+  },{
     "english":" changes nothing because this node is already allocated on the tree.",
     "file":"src/Classes/ItemsTab.lua",
     "line":2937,
@@ -2625,9 +3654,26 @@
     "line":2973,
     "reason":"Assembled source fragment; complete-message example 6 verified in three language modes"
   },{
+    "english":"Anoint ",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2987,
+    "reason":"Assembled source fragment; complete-message example 6 verified in three language modes"
+  },{
+    "english":"Remove ",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2991
+  },{
+    "english":"No Anoint",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":2993
+  },{
     "english":"Cancel",
     "file":"src/Classes/ItemsTab.lua",
     "line":3011
+  },{
+    "english":"Anoint Item",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":3014
   },{
     "english":"None",
     "file":"src/Classes/ItemsTab.lua",
@@ -2664,6 +3710,10 @@
     "english":"Cancel",
     "file":"src/Classes/ItemsTab.lua",
     "line":3337
+  },{
+    "english":" Item",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":3340
   },{
     "english":"Crafting Bench",
     "file":"src/Classes/ItemsTab.lua",
@@ -2721,6 +3771,29 @@
     "file":"src/Classes/ItemsTab.lua",
     "line":3655
   },{
+    "english":"Add Modifier to Item",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":3658
+  },{
+    "english":"save",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":3658,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"CUSTOM",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":3658
+  },{
+    "english":"custom",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":3658,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":" - Tier: ",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":3689,
+    "reason":"Assembled source fragment; complete-message example 99 verified in three language modes"
+  },{
     "english":"^7Node ",
     "file":"src/Classes/ItemsTab.lua",
     "line":3738
@@ -2732,6 +3805,15 @@
     "english":"Cancel",
     "file":"src/Classes/ItemsTab.lua",
     "line":3767
+  },{
+    "english":"Add Crucible Modifier to Item",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":3770
+  },{
+    "english":"save",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":3770,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":"Searing Exarch",
     "file":"src/Classes/ItemsTab.lua",
@@ -2777,27 +3859,40 @@
     "file":"src/Classes/ItemsTab.lua",
     "line":4132
   },{
+    "english":"Add Implicit to Item",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":4135
+  },{
+    "english":"save",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":4135,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"CUSTOM",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":4135
+  },{
+    "english":"custom",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":4135,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
     "english":"Unknown Item",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4380
+    "line":4381
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4380,
+    "line":4381,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Item base is not supported by the current version.",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4382
+    "line":4383
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4382,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
-    "english":"FONTIN SC",
-    "file":"src/Classes/ItemsTab.lua",
-    "line":4388,
+    "line":4383,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
@@ -2807,612 +3902,635 @@
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4391,
+    "line":4390,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"FONTIN SC",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":4392,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":" Item",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4395
+    "line":4396
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4395,
+    "line":4396,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Fractured Item",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4399
+    "line":4400
   },{
     "english":"Synthesised Item",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4402
+    "line":4403
   },{
     "english":"^xFFFF30Version: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4410
+    "line":4411
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4410,
+    "line":4411,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^xFFFF30Variants: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4420
+    "line":4421
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4420,
+    "line":4421,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^xFFFF30Variant: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4424
+    "line":4425
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4424,
+    "line":4425,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^xFFFF30Variant: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4426
+    "line":4427
   },{
     "english":" variants)",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4426,
+    "line":4427,
     "reason":"Assembled source fragment; complete-message example 17 verified in three language modes"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4426,
+    "line":4427,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^xFF5555Exclusive to: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4430
+    "line":4431
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4430,
+    "line":4431,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Not yet available",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4433
+    "line":4434
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4433,
+    "line":4434,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Source: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4436
+    "line":4437
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4436,
+    "line":4437,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4440,
+    "line":4441,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4452,
+    "line":4453,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FQuality: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4454
+    "line":4455
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4454,
+    "line":4455,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FPhysical Damage: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4458
+    "line":4459
   },{
     "english":"%d-%d (%.1f DPS)",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":[83.25,83.25,83.25],
-    "line":4458,
+    "line":4459,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
-    "sample_chinese":"83-83 (83.2 每秒伤害)",
+    "sample_chinese":"83-83（83.2 每秒伤害）",
     "sample_english":"83-83 (83.2 DPS)"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4458,
+    "line":4459,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4469,
+    "line":4470,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FElemental DPS: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4470,
+    "line":4471,
     "reason":"Assembled source fragment; complete-message example 31 verified in three language modes"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4470,
+    "line":4471,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FChaos Damage: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4474
+    "line":4475
   },{
     "english":"(%.1f DPS)",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":[83.25],
-    "line":4474,
+    "line":4475,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
-    "sample_chinese":"(83.2 每秒伤害)",
+    "sample_chinese":"（83.2 每秒伤害）",
     "sample_english":"(83.2 DPS)"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4474,
+    "line":4475,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FTotal DPS: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4478
+    "line":4479
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4478,
+    "line":4479,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FCritical Strike Chance: %s%.2f%%",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4480
+    "line":4481
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4480,
+    "line":4481,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FAttacks per Second: %s%.2f",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4481,
+    "line":4482,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"^x7F7F7F每秒攻击次数：83.25",
     "sample_english":"^x7F7F7FAttacks per Second: 83.25"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4481,
+    "line":4482,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FWeapon Range: %s%.1f ^x7F7F7Fmetres",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4483
+    "line":4484
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4483,
+    "line":4484,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FQuality: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4489
+    "line":4490
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4489,
+    "line":4490,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FChance to Block: %s%d%%",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4492,
+    "line":4493,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"^x7F7F7F格挡几率：83%",
     "sample_english":"^x7F7F7FChance to Block: 83%"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4492,
+    "line":4493,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FArmour: %s%d",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4495
+    "line":4496
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4495,
+    "line":4496,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FEvasion Rating: %s%d",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4498,
+    "line":4499,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"^x7F7F7F闪避值：83",
     "sample_english":"^x7F7F7FEvasion Rating: 83"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4498,
+    "line":4499,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FEnergy Shield: %s%d",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4501
+    "line":4502
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4501,
+    "line":4502,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FWard: %s%d",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4504
+    "line":4505
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4504,
+    "line":4505,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FQuality: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4510
+    "line":4511
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4510,
+    "line":4511,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FRecovers %s%d ^x7F7F7FLife over %s%.1f0 ^x7F7F7FSeconds",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25,"",83.25],
-    "line":4514,
+    "line":4515,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"^x7F7F7F回复 83 生命，历时 83.20 秒",
     "sample_english":"^x7F7F7FRecovers 83 ^x7F7F7FLife over 83.20 ^x7F7F7FSeconds"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4517,
+    "line":4518,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FRecovers %s%d ^x7F7F7FLife instantly",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4520,
+    "line":4521,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"^x7F7F7F立即回复 83 生命",
     "sample_english":"^x7F7F7FRecovers 83 ^x7F7F7FLife instantly"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4520,
+    "line":4521,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FRecovers %s%d ^x7F7F7FMana over %s%.1f0 ^x7F7F7FSeconds",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25,"",83.25],
-    "line":4525,
+    "line":4526,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"^x7F7F7F回复 83 魔力，历时 83.20 秒",
     "sample_english":"^x7F7F7FRecovers 83 ^x7F7F7FMana over 83.20 ^x7F7F7FSeconds"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4528,
+    "line":4529,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FRecovers %s%d ^x7F7F7FMana instantly",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4531,
+    "line":4532,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"^x7F7F7F立即回复 83 魔力",
     "sample_english":"^x7F7F7FRecovers 83 ^x7F7F7FMana instantly"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4531,
+    "line":4532,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FLasts %s%.2f ^x7F7F7FSeconds",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4535,
+    "line":4536,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"^x7F7F7F持续 83.25 秒",
     "sample_english":"^x7F7F7FLasts 83.25 ^x7F7F7FSeconds"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4535,
+    "line":4536,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FConsumes %s%d ^x7F7F7Fof %s%d ^x7F7F7FCharges on use",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25,"",83.25],
-    "line":4537,
+    "line":4538,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"^x7F7F7F使用消耗 83 充能，上限为 83",
     "sample_english":"^x7F7F7FConsumes 83 ^x7F7F7Fof 83 ^x7F7F7FCharges on use"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4540,
+    "line":4541,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4545,
+    "line":4546,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4547,
+    "line":4548,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FQuality: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4555
+    "line":4556
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4555,
+    "line":4556,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FInflicts Mana Burn every %s%.2f ^x7F7F7FSeconds",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4558,
+    "line":4559,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"^x7F7F7F每 83.25 秒施加一次魔力燃烧",
     "sample_english":"^x7F7F7FInflicts Mana Burn every 83.25 ^x7F7F7FSeconds"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4558,
+    "line":4559,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7F%s%.2f ^x7F7F7FSecond Cooldown When Deactivated",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":["",83.25],
-    "line":4559,
+    "line":4560,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"^x7F7F7F关闭后冷却 83.25 秒",
     "sample_english":"^x7F7F7F83.25 ^x7F7F7FSecond Cooldown When Deactivated"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4559,
+    "line":4560,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4564,
+    "line":4565,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4566,
+    "line":4567,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FLimited to: ^7",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4572
+    "line":4573
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4572,
+    "line":4573,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FRequires Class ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4575
+    "line":4576
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4575,
+    "line":4576,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FRadius: ^7",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4578
+    "line":4579
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4578,
+    "line":4579,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FAttributes in Radius: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4590
+    "line":4591
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4590,
+    "line":4591,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4595,
+    "line":4596,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FSockets: ",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4601
+    "line":4602
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4601,
+    "line":4602,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^x7F7F7FTalisman Tier ^xFFFFFF",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4605
+    "line":4606
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4605,
+    "line":4606,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Memory Strands: ^7%d",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":[83.25],
-    "line":4610,
+    "line":4611,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"记忆丝线：83",
     "sample_english":"Memory Strands: ^783"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4610,
+    "line":4611,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Assets/memorybg.png",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4610,
+    "line":4611,
     "reason":"Image asset path."
   },{
     "english":"Intangibility: ^7%d%%",
     "file":"src/Classes/ItemsTab.lua",
     "format_arguments":[83.25],
-    "line":4615,
+    "line":4616,
     "reason":"Printf source format; representative formatted output translated with numbers preserved",
     "sample_chinese":"虚化程度：83%",
     "sample_english":"Intangibility: ^783%"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4615,
+    "line":4616,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Assets/intangibilitybg.png",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4615,
+    "line":4616,
     "reason":"Image asset path."
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4633,
+    "line":4634,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4649,
+    "line":4650,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4651,
+    "line":4652,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4658,
+    "line":4659,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4660,
+    "line":4661,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Split",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4673
+    "line":4674
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4673,
+    "line":4674,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Mirrored",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4676
+    "line":4677
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4676,
+    "line":4677,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Corrupted",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4679
+    "line":4680
   },{
     "english":"FONTIN SC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4679,
+    "line":4680,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"FONTIN SC ITALIC",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4742,
+    "line":4743,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Tip: Hold Shift to display a tooltip for the granted skill",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4767
+    "line":4768
   },{
     "english":"Tip: Press Ctrl+D",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4799
+    "line":4800
   },{
     "english":" to enable the display of stat differences.",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4799,
+    "line":4800,
     "reason":"Assembled source fragment; complete-message example 14 verified in three language modes"
   },{
     "english":"^7Effective flask stats:",
     "file":"src/Classes/ItemsTab.lua",
-    "line":4998
+    "line":4999
   },{
     "english":"^7Effective tincture stats:",
     "file":"src/Classes/ItemsTab.lua",
-    "line":5034
+    "line":5035
   },{
     "english":"Tip: Press Ctrl+D",
     "file":"src/Classes/ItemsTab.lua",
-    "line":5057
+    "line":5058
   },{
     "english":" to disable the display of stat differences.",
     "file":"src/Classes/ItemsTab.lua",
-    "line":5057,
+    "line":5058,
     "reason":"Assembled source fragment; complete-message example 13 verified in three language modes"
   },{
-    "english":"label",
-    "file":"src/Classes/LabelControl.lua",
-    "line":16,
-    "reason":"Control property key, not rendered prose."
+    "english":"^7Equipping this item in %s will give you:%s",
+    "file":"src/Classes/ItemsTab.lua",
+    "format_arguments":["",""],
+    "line":5077,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"^7在装备此物品将产生以下变化：",
+    "sample_english":"^7Equipping this item in  will give you:"
+  },{
+    "english":"\n(replacing ",
+    "file":"src/Classes/ItemsTab.lua",
+    "line":5077,
+    "reason":"Assembled source fragment; complete-message example 112 verified in three language modes"
   },{
     "english":"LEFT",
     "file":"src/Classes/LabelControl.lua",
-    "line":16,
+    "line":26,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"height",
     "file":"src/Classes/LabelControl.lua",
-    "line":16,
+    "line":26,
     "reason":"Control property key, not rendered prose."
   },{
     "english":"VAR",
     "file":"src/Classes/LabelControl.lua",
-    "line":16,
+    "line":26,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"label",
+    "file":"src/Classes/LabelControl.lua",
+    "line":26,
+    "reason":"Control property key, not rendered prose."
+  },{
+    "english":"label",
+    "file":"src/Classes/ListControl.lua",
+    "line":178,
+    "reason":"Control property key, not rendered prose."
   },{
     "english":"LEFT",
     "file":"src/Classes/ListControl.lua",
@@ -3421,27 +4539,27 @@
   },{
     "english":"LEFT",
     "file":"src/Classes/ListControl.lua",
-    "line":274,
+    "line":279,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/ListControl.lua",
-    "line":277,
+    "line":282,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"CENTER_X",
     "file":"src/Classes/ListControl.lua",
-    "line":296,
+    "line":304,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/ListControl.lua",
-    "line":296,
+    "line":304,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/ListControl.lua",
-    "line":302,
+    "line":311,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^7Available Spectres:",
@@ -3517,6 +4635,15 @@
     "file":"src/Classes/MinionListControl.lua",
     "line":73
   },{
+    "english":"MinionId",
+    "file":"src/Classes/MinionListControl.lua",
+    "line":80,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"Search",
+    "file":"src/Classes/MinionSearchListControl.lua",
+    "line":16
+  },{
     "english":"Skills",
     "file":"src/Classes/MinionSearchListControl.lua",
     "line":20
@@ -3528,6 +4655,10 @@
     "english":"Names",
     "file":"src/Classes/MinionSearchListControl.lua",
     "line":20
+  },{
+    "english":"Search",
+    "file":"src/Classes/NotableDBControl.lua",
+    "line":38
   },{
     "english":"Anywhere",
     "file":"src/Classes/NotableDBControl.lua",
@@ -3545,10 +4676,23 @@
     "file":"src/Classes/NotableDBControl.lua",
     "line":93
   },{
+    "english":"^7Sorting... (",
+    "file":"src/Classes/NotableDBControl.lua",
+    "line":148,
+    "reason":"Assembled source fragment; complete-message example 52 verified in three language modes"
+  },{
+    "english":"^7No notables found that match those filters.",
+    "file":"src/Classes/NotableDBControl.lua",
+    "line":185
+  },{
     "english":"^xA0A080",
     "file":"src/Classes/NotableDBControl.lua",
-    "line":263,
+    "line":264,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"Node",
+    "file":"src/Classes/NotableDBControl.lua",
+    "line":277
   },{
     "english":"NORMAL",
     "file":"src/Classes/NotesTab.lua",
@@ -3682,6 +4826,58 @@
     "file":"src/Classes/PartyTab.lua",
     "line":490
   },{
+    "english":"True",
+    "file":"src/Classes/PartyTab.lua",
+    "line":747,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
+    "english":"FLAG",
+    "file":"src/Classes/PartyTab.lua",
+    "line":747,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
+    "english":"extraAuras:\n",
+    "file":"src/Classes/PartyTab.lua",
+    "line":926,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
+    "english":"FLAG",
+    "file":"src/Classes/PartyTab.lua",
+    "line":928,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
+    "english":"otherEffects:\n",
+    "file":"src/Classes/PartyTab.lua",
+    "line":933,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
+    "english":"FLAG",
+    "file":"src/Classes/PartyTab.lua",
+    "line":936,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
+    "english":"Invalid tree link (unrecognised format).",
+    "file":"src/Classes/PassiveSpec.lua",
+    "line":377
+  },{
+    "english":"Invalid tree version found in link.",
+    "file":"src/Classes/PassiveSpec.lua",
+    "line":418
+  },{
+    "english":"Invalid tree link (unrecognised format)",
+    "file":"src/Classes/PassiveSpec.lua",
+    "line":472
+  },{
+    "english":"Invalid tree link (unknown version number '",
+    "file":"src/Classes/PassiveSpec.lua",
+    "line":476,
+    "reason":"Assembled source fragment; complete-message example 75 verified in three language modes"
+  },{
+    "english":"Invalid tree link (bad class ID '",
+    "file":"src/Classes/PassiveSpec.lua",
+    "line":483,
+    "reason":"Assembled source fragment; complete-message example 74 verified in three language modes"
+  },{
     "english":"Copy",
     "file":"src/Classes/PassiveSpecListControl.lua",
     "line":13
@@ -3698,6 +4894,11 @@
     "file":"src/Classes/PassiveSpecListControl.lua",
     "line":36
   },{
+    "english":"LabelControl",
+    "file":"src/Classes/PassiveSpecListControl.lua",
+    "line":48,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
     "english":"^7Enter name for this passive tree:",
     "file":"src/Classes/PassiveSpecListControl.lua",
     "line":48
@@ -3710,12 +4911,96 @@
     "file":"src/Classes/PassiveSpecListControl.lua",
     "line":65
   },{
-    "english":"FONTIN ITALIC",
+    "english":"save",
+    "file":"src/Classes/PassiveSpecListControl.lua",
+    "line":69,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"edit",
+    "file":"src/Classes/PassiveSpecListControl.lua",
+    "line":69,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
+    "english":"Delete Tree",
+    "file":"src/Classes/PassiveSpecListControl.lua",
+    "line":97
+  },{
+    "english":"Are you sure you want to delete '",
+    "file":"src/Classes/PassiveSpecListControl.lua",
+    "line":97,
+    "reason":"Assembled source fragment; complete-message example 55 verified in three language modes"
+  },{
+    "english":"Default",
+    "file":"src/Classes/PassiveSpecListControl.lua",
+    "line":97
+  },{
+    "english":"Delete",
+    "file":"src/Classes/PassiveSpecListControl.lua",
+    "line":97
+  },{
+    "english":"CharmSocketActiveStr",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":140,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"CharmSocketActiveInt",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":142,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"CharmSocketActiveDex",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":144,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"JewelSocketActiveAltPurple",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":149,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"JewelSocketActiveAltBlue",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":151,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"JewelSocketActiveAltRed",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":153,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"Class Change",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":474
+  },{
+    "english":"Changing class to ",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":474,
+    "reason":"Assembled source fragment; complete-message example 103 verified in three language modes"
+  },{
+    "english":" will reset your passive tree.\nThis can be avoided by connecting one of the ",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":474,
+    "reason":"Assembled source fragment; complete-message example 103 verified in three language modes"
+  },{
+    "english":" starting nodes to your tree.",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":474,
+    "reason":"Assembled source fragment; complete-message example 103 verified in three language modes"
+  },{
+    "english":"Continue",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":474
+  },{
+    "english":"Connect Path",
+    "file":"src/Classes/PassiveTreeView.lua",
+    "line":481
+  },{
+    "english":"LEFT",
     "file":"src/Classes/PassiveTreeView.lua",
     "line":622,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
-    "english":"LEFT",
+    "english":"FONTIN ITALIC",
     "file":"src/Classes/PassiveTreeView.lua",
     "line":622,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
@@ -3992,14 +5277,25 @@
     "line":1859,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
+    "english":"https://www.pathofexile.com/oauth/authorize?client_id=pob&response_type=code&scope=%s&state=%s&code_challenge=%s&code_challenge_method=S256",
+    "file":"src/Classes/PoEAPI.lua",
+    "format_arguments":["","",""],
+    "line":101,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"title",
+    "file":"src/Classes/PopupDialog.lua",
+    "line":49,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
     "english":"VAR",
     "file":"src/Classes/PopupDialog.lua",
-    "line":57,
+    "line":60,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/PopupDialog.lua",
-    "line":57,
+    "line":60,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Type",
@@ -4038,23 +5334,71 @@
     "file":"src/Classes/PowerReportListControl.lua",
     "line":38
   },{
+    "english":"Click to focus node on tree",
+    "file":"src/Classes/PowerReportListControl.lua",
+    "line":50
+  },{
+    "english":"Building Tree...",
+    "file":"src/Classes/PowerReportListControl.lua",
+    "line":50
+  },{
+    "english":"\" not supported.  Select a specific stat from the dropdown.",
+    "file":"src/Classes/PowerReportListControl.lua",
+    "line":52,
+    "reason":"Assembled source fragment; complete-message example 100 verified in three language modes"
+  },{
+    "english":"label",
+    "file":"src/Classes/SectionControl.lua",
+    "line":21,
+    "reason":"Control property key, not rendered prose."
+  },{
     "english":"LEFT",
     "file":"src/Classes/SectionControl.lua",
-    "line":28,
+    "line":31,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Classes/SectionControl.lua",
-    "line":28,
+    "line":31,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^7Shared items:",
     "file":"src/Classes/SharedItemListControl.lua",
     "line":13
   },{
+    "english":"^x7F7F7FThis is a list of items that will be shared between all of\nyour builds.\nYou can add items to this list by dragging them from\none of the other lists.",
+    "file":"src/Classes/SharedItemListControl.lua",
+    "line":14
+  },{
     "english":"Delete",
     "file":"src/Classes/SharedItemListControl.lua",
     "line":16
+  },{
+    "english":"Item",
+    "file":"src/Classes/SharedItemListControl.lua",
+    "line":41
+  },{
+    "english":"Delete Item",
+    "file":"src/Classes/SharedItemListControl.lua",
+    "line":67
+  },{
+    "english":"Are you sure you want to remove '",
+    "file":"src/Classes/SharedItemListControl.lua",
+    "line":67,
+    "reason":"Assembled source fragment; complete-message example 56 verified in three language modes"
+  },{
+    "english":"' from the shared item list?",
+    "file":"src/Classes/SharedItemListControl.lua",
+    "line":67,
+    "reason":"Assembled source fragment; complete-message example 56 verified in three language modes"
+  },{
+    "english":"Delete",
+    "file":"src/Classes/SharedItemListControl.lua",
+    "line":67
+  },{
+    "english":"^x7F7F7FThis is a list of item sets that will be shared\nbetween all of your builds.\nYou can add sets to this list by dragging them\nfrom the build's set list.",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":14
   },{
     "english":"Delete",
     "file":"src/Classes/SharedItemSetListControl.lua",
@@ -4063,6 +5407,11 @@
     "english":"Rename",
     "file":"src/Classes/SharedItemSetListControl.lua",
     "line":21
+  },{
+    "english":"LabelControl",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":31,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^7Enter name for this item set:",
     "file":"src/Classes/SharedItemSetListControl.lua",
@@ -4076,6 +5425,51 @@
     "file":"src/Classes/SharedItemSetListControl.lua",
     "line":41
   },{
+    "english":"Rename",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":44
+  },{
+    "english":"Set Name",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":44
+  },{
+    "english":"save",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":44,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"edit",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":44,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
+    "english":"SharedItemList",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":67,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"Delete Item Set",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":98
+  },{
+    "english":"Are you sure you want to delete '",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":98,
+    "reason":"Assembled source fragment; complete-message example 55 verified in three language modes"
+  },{
+    "english":"Default",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":98
+  },{
+    "english":"' from the shared item set list?",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":98,
+    "reason":"Assembled source fragment; complete-message example 57 verified in three language modes"
+  },{
+    "english":"Delete",
+    "file":"src/Classes/SharedItemSetListControl.lua",
+    "line":98
+  },{
     "english":"^7Socket Groups:",
     "file":"src/Classes/SkillListControl.lua",
     "line":32
@@ -4088,9 +5482,50 @@
     "file":"src/Classes/SkillListControl.lua",
     "line":39
   },{
+    "english":"Delete All",
+    "file":"src/Classes/SkillListControl.lua",
+    "line":40
+  },{
+    "english":"Are you sure you want to delete all socket groups in this build?",
+    "file":"src/Classes/SkillListControl.lua",
+    "line":40
+  },{
+    "english":"Delete",
+    "file":"src/Classes/SkillListControl.lua",
+    "line":40
+  },{
     "english":"New",
     "file":"src/Classes/SkillListControl.lua",
     "line":53
+  },{
+    "english":"(Disabled)",
+    "file":"src/Classes/SkillListControl.lua",
+    "line":84
+  },{
+    "english":"(FullDPS)",
+    "file":"src/Classes/SkillListControl.lua",
+    "line":92
+  },{
+    "english":"Delete Socket Group",
+    "file":"src/Classes/SkillListControl.lua",
+    "line":172
+  },{
+    "english":"This socket group cannot be deleted as it is created by an equipped item.",
+    "file":"src/Classes/SkillListControl.lua",
+    "line":172
+  },{
+    "english":"Delete Socket Group",
+    "file":"src/Classes/SkillListControl.lua",
+    "line":184
+  },{
+    "english":"Are you sure you want to delete '",
+    "file":"src/Classes/SkillListControl.lua",
+    "line":184,
+    "reason":"Assembled source fragment; complete-message example 55 verified in three language modes"
+  },{
+    "english":"Delete",
+    "file":"src/Classes/SkillListControl.lua",
+    "line":184
   },{
     "english":"Copy",
     "file":"src/Classes/SkillSetListControl.lua",
@@ -4108,6 +5543,11 @@
     "file":"src/Classes/SkillSetListControl.lua",
     "line":48
   },{
+    "english":"LabelControl",
+    "file":"src/Classes/SkillSetListControl.lua",
+    "line":55,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
     "english":"^7Enter name for this skill set:",
     "file":"src/Classes/SkillSetListControl.lua",
     "line":55
@@ -4119,6 +5559,46 @@
     "english":"Cancel",
     "file":"src/Classes/SkillSetListControl.lua",
     "line":72
+  },{
+    "english":"Rename",
+    "file":"src/Classes/SkillSetListControl.lua",
+    "line":78
+  },{
+    "english":"Set Name",
+    "file":"src/Classes/SkillSetListControl.lua",
+    "line":78
+  },{
+    "english":"save",
+    "file":"src/Classes/SkillSetListControl.lua",
+    "line":78,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"edit",
+    "file":"src/Classes/SkillSetListControl.lua",
+    "line":78,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
+    "english":"cancel",
+    "file":"src/Classes/SkillSetListControl.lua",
+    "line":78,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"Delete Item Set",
+    "file":"src/Classes/SkillSetListControl.lua",
+    "line":102
+  },{
+    "english":"Are you sure you want to delete '",
+    "file":"src/Classes/SkillSetListControl.lua",
+    "line":102,
+    "reason":"Assembled source fragment; complete-message example 55 verified in three language modes"
+  },{
+    "english":"Default",
+    "file":"src/Classes/SkillSetListControl.lua",
+    "line":102
+  },{
+    "english":"Delete",
+    "file":"src/Classes/SkillSetListControl.lua",
+    "line":102
   },{
     "english":"None",
     "file":"src/Classes/SkillsTab.lua",
@@ -4276,6 +5756,10 @@
     "file":"src/Classes/SkillsTab.lua",
     "line":111
   },{
+    "english":"Gem Options",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":123
+  },{
     "english":"Sort gems by DPS:",
     "file":"src/Classes/SkillsTab.lua",
     "line":124
@@ -4295,6 +5779,10 @@
     "english":"^7Show legacy gems:",
     "file":"src/Classes/SkillsTab.lua",
     "line":148
+  },{
+    "english":"Label",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":161
   },{
     "english":"^7Socketed in:",
     "file":"src/Classes/SkillsTab.lua",
@@ -4352,10 +5840,47 @@
     "file":"src/Classes/SkillsTab.lua",
     "line":364
   },{
+    "english":"NORMAL",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":367
+  },{
+    "english":"^7\nYou cannot delete this group, but it will disappear if you lose the above sources.",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":369
+  },{
     "english":"^7This is a special group created for the '",
     "file":"src/Classes/SkillsTab.lua",
     "line":381,
     "reason":"Assembled source fragment; complete-message example 30 verified in three language modes"
+  },{
+    "english":"^7' skill,\nwhich is being provided by ",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":381,
+    "reason":"Assembled source fragment; complete-message example 91 verified in three language modes"
+  },{
+    "english":".\nYou cannot delete this group, but it will disappear if you ",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":382,
+    "reason":"Assembled source fragment; complete-message example 91 verified in three language modes"
+  },{
+    "english":"un-allocate the node.",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":383,
+    "reason":"Assembled source fragment; complete-message example 91 verified in three language modes"
+  },{
+    "english":"un-equip the item.",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":383,
+    "reason":"Assembled source fragment; complete-message example 101 verified in three language modes"
+  },{
+    "english":"You cannot add support gems to this group, but support gems in\nany other group socketed into ",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":385,
+    "reason":"Assembled source fragment; complete-message example 92 verified in three language modes"
+  },{
+    "english":"will automatically apply to the skill.",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":386
   },{
     "english":"^7Gem name:",
     "file":"src/Classes/SkillsTab.lua",
@@ -4377,6 +5902,16 @@
     "file":"src/Classes/SkillsTab.lua",
     "line":410
   },{
+    "english":"DISABLED",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":676,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"Label: (%C+)",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":685,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
     "english":"Remove this gem.",
     "file":"src/Classes/SkillsTab.lua",
     "line":755
@@ -4396,6 +5931,26 @@
     "english":"^8multi-hit projectiles (e.g. ball-lightning), traps, mines.",
     "file":"src/Classes/SkillsTab.lua",
     "line":999
+  },{
+    "english":"Enable ",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":1029,
+    "reason":"Assembled source fragment; complete-message example 109 verified in three language modes"
+  },{
+    "english":"Enable ",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":1048,
+    "reason":"Assembled source fragment; complete-message example 109 verified in three language modes"
+  },{
+    "english":"Ambiguous gem name '",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":1090,
+    "reason":"Assembled source fragment; complete-message example 77 verified in three language modes"
+  },{
+    "english":"Unrecognised gem name '",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":1099,
+    "reason":"Assembled source fragment; complete-message example 76 verified in three language modes"
   },{
     "english":"^7Source: ",
     "file":"src/Classes/SkillsTab.lua",
@@ -4434,13 +5989,27 @@
     "file":"src/Classes/SkillsTab.lua",
     "line":1340
   },{
+    "english":"Manage Skill Sets",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":1416
+  },{
+    "english":"SkillSetListControl",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":1417,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"ButtonControl",
+    "file":"src/Classes/SkillsTab.lua",
+    "line":1418,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
     "english":"Done",
     "file":"src/Classes/SkillsTab.lua",
     "line":1418
   },{
     "english":"VAR",
     "file":"src/Classes/TextListControl.lua",
-    "line":45,
+    "line":53,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^7Double click to add this jewel to your build.",
@@ -4464,12 +6033,194 @@
     "line":310,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
-    "english":"VAR",
+    "english":"tooltipText",
+    "file":"src/Classes/TooltipHost.lua",
+    "line":16,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
+    "english":"(%s to %s)",
+    "file":"src/Classes/TradeHelpers.lua",
+    "format_arguments":["1","2"],
+    "line":26,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"(1 至 2)",
+    "sample_english":"(1 to 2)"
+  },{
+    "english":"explicit.pseudo_timeless_jewel_",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":171,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.one",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":294,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"armour.shield",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":295,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"armour.quiver",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":296,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.bow",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":297,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.staff",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":298,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.twosword",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":299,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.twoaxe",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":300,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.twomace",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":301,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.rod",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":302,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.onesword",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":303,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.oneaxe",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":304,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.onemace",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":305,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.wand",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":306,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.dagger",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":307,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.claw",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":308,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.twomelee",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":309,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon.one",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":310,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"weapon",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":311,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"armour.chest",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":313,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"armour.helmet",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":314,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"armour.gloves",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":315,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"armour.boots",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":316,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"accessory.amulet",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":317,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"accessory.ring",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":318,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"accessory.belt",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":319,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"jewel.abyss",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":320,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"jewel",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":321,
+    "reason":"Assembled source fragment; complete-message example 21 verified in three language modes"
+  },{
+    "english":"flask",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":322,
+    "reason":"Trade API category, stat key or OAuth URL; preserve its exact protocol value."
+  },{
+    "english":"Item",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":331
+  },{
+    "english":"^8(both empty)",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":361
+  },{
+    "english":"(match)",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":364
+  },{
+    "english":"(missing)",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":366
+  },{
+    "english":"(extra)",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":368
+  },{
+    "english":"(different)",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":370
+  },{
+    "english":"CENTER_X",
     "file":"src/Classes/TradeHelpers.lua",
     "line":407,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
-    "english":"CENTER_X",
+    "english":"VAR",
     "file":"src/Classes/TradeHelpers.lua",
     "line":407,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
@@ -4508,11 +6259,6 @@
     "line":508,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
-    "english":"VAR",
-    "file":"src/Classes/TradeHelpers.lua",
-    "line":511,
-    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
-  },{
     "english":"LEFT",
     "file":"src/Classes/TradeHelpers.lua",
     "line":511,
@@ -4520,13 +6266,54 @@
   },{
     "english":"VAR",
     "file":"src/Classes/TradeHelpers.lua",
-    "line":520,
+    "line":511,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"LEFT",
     "file":"src/Classes/TradeHelpers.lua",
     "line":520,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"VAR",
+    "file":"src/Classes/TradeHelpers.lua",
+    "line":520,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"Error: ",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":77
+  },{
+    "english":"POE ERROR",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":78
+  },{
+    "english":"Failed to Get PoE League List response",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":82
+  },{
+    "english":"Error: ",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":133
+  },{
+    "english":"Could not decode static trade data",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":139
+  },{
+    "english":"Error: ",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":150
+  },{
+    "english":"Malformed CX API response",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":155
+  },{
+    "english":"CX error: ",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":160
+  },{
+    "english":"Failed to process CX response",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":242
   },{
     "english":"Full DPS",
     "file":"src/Classes/TradeQuery.lua",
@@ -4536,9 +6323,38 @@
     "file":"src/Classes/TradeQuery.lua",
     "line":259
   },{
+    "english":"Authenticated",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":303
+  },{
+    "english":"Not authenticated",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":308
+  },{
+    "english":"Logging in... (",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":310,
+    "reason":"Assembled source fragment; complete-message example 49 verified in three language modes"
+  },{
+    "english":"Not authenticated",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":313
+  },{
+    "english":"Authenticated",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":331
+  },{
+    "english":"Not authenticated",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":340
+  },{
     "english":"The Trader feature supports two modes of operation depending on the authorization availability.\nYou can click this button to authorize PoB by logging in.\n\n^2Session Mode^7\n- Requires authorization on pathofexile.com.\n- You can search, compare, and quickly import items without leaving Path of Building.\n- You can select an item and search it directly.\n- You can generate and perform searches for the private leagues you are participating.\n\n^xFF9922No Session Mode^7\n- Doesn't require authorization.\n- You cannot search and compare items in Path of Building.\n- You can generate weighted search URLs but have to visit the trade site and manually import items.\n- You can only generate weighted searches for public leagues. (Generated searches can be modified\non trade site to work on other leagues and realms)",
     "file":"src/Classes/TradeQuery.lua",
     "line":355
+  },{
+    "english":"Fetch Pages",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":390
   },{
     "english":"Specify maximum number of item pages to retrieve per search from PoE Trade.",
     "file":"src/Classes/TradeQuery.lua",
@@ -4576,6 +6392,10 @@
     "file":"src/Classes/TradeQuery.lua",
     "line":457
   },{
+    "english":"Error while fetching league list: ",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":476
+  },{
     "english":"^7League:",
     "file":"src/Classes/TradeQuery.lua",
     "line":500
@@ -4587,6 +6407,15 @@
     "english":"Done",
     "file":"src/Classes/TradeQuery.lua",
     "line":622
+  },{
+    "english":"Trader",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":661
+  },{
+    "english":"close",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":661,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":"^7Disabled",
     "file":"src/Classes/TradeQuery.lua",
@@ -4608,9 +6437,30 @@
     "file":"src/Classes/TradeQuery.lua",
     "line":755
   },{
+    "english":"Stat Weight Multipliers",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":767
+  },{
+    "english":"CURRENCY",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":857,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
     "english":"^7Total Price: ",
     "file":"src/Classes/TradeQuery.lua",
     "line":870
+  },{
+    "english":"^4Currency rates unavailable. Falling back to Stat Value sort.",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":876
+  },{
+    "english":"Error: ",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":879
+  },{
+    "english":"^4No compatible items found for this slot.",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":888
   },{
     "english":"Sorted by ",
     "file":"src/Classes/TradeQuery.lua",
@@ -4660,9 +6510,17 @@
     "file":"src/Classes/TradeQuery.lua",
     "line":1127
   },{
+    "english":"Error: ",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":1134
+  },{
     "english":"Price Item",
     "file":"src/Classes/TradeQuery.lua",
     "line":1143
+  },{
+    "english":"Searching...",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":1149
   },{
     "english":"You must log in to use the search feature",
     "file":"src/Classes/TradeQuery.lua",
@@ -4705,6 +6563,14 @@
     "file":"src/Classes/TradeQuery.lua",
     "line":1252
   },{
+    "english":"Using Fallback Error while fetching league list: ",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":1354
+  },{
+    "english":"Error: ",
+    "file":"src/Classes/TradeQuery.lua",
+    "line":1373
+  },{
     "english":"This file contains the trade site data from https://www.pathofexile.com/api/trade/data/stats",
     "file":"src/Classes/TradeQueryGenerator.lua",
     "line":415
@@ -4712,6 +6578,28 @@
     "english":"Calculating Mod Weights...",
     "file":"src/Classes/TradeQueryGenerator.lua",
     "line":764
+  },{
+    "english":"Please Wait",
+    "file":"src/Classes/TradeQueryGenerator.lua",
+    "line":765
+  },{
+    "english":"%s_and_%s_damage_resistance_%%",
+    "file":"src/Classes/TradeQueryGenerator.lua",
+    "format_arguments":["",""],
+    "line":976,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"base_%s_and_%s",
+    "file":"src/Classes/TradeQueryGenerator.lua",
+    "format_arguments":["",""],
+    "line":984,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"additional_%s_and_%s",
+    "file":"src/Classes/TradeQueryGenerator.lua",
+    "format_arguments":["",""],
+    "line":986,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":"Corrupted Mods:",
     "file":"src/Classes/TradeQueryGenerator.lua",
@@ -4826,13 +6714,30 @@
     "file":"src/Classes/TradeQueryGenerator.lua",
     "line":1338
   },{
+    "english":"Requires an active Jewel Socket.",
+    "file":"src/Classes/TradeQueryGenerator.lua",
+    "line":1409
+  },{
     "english":"Cancel",
     "file":"src/Classes/TradeQueryGenerator.lua",
     "line":1410
   },{
+    "english":"Query Options",
+    "file":"src/Classes/TradeQueryGenerator.lua",
+    "line":1414
+  },{
     "english":"^7+ Add Required Stat",
     "file":"src/Classes/TradeQueryGenerator.lua",
     "line":1442
+  },{
+    "english":"^7%s (Pseudo)",
+    "file":"src/Classes/TradeQueryGenerator.lua",
+    "format_arguments":[""],
+    "line":1476
+  },{
+    "english":"Query Options",
+    "file":"src/Classes/TradeQueryGenerator.lua",
+    "line":1551
   },{
     "english":"^7Click to modify this stats weight multiplier.",
     "file":"src/Classes/TradeStatWeightMultiplierListControl.lua",
@@ -4892,9 +6797,27 @@
     "file":"src/Classes/TreeTab.lua",
     "line":150
   },{
+    "english":"Reset Tree/Tattoos",
+    "file":"src/Classes/TreeTab.lua",
+    "line":153
+  },{
+    "english":"edit",
+    "file":"src/Classes/TreeTab.lua",
+    "line":153,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
+    "english":"cancel",
+    "file":"src/Classes/TreeTab.lua",
+    "line":153,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
     "english":"^7Version:",
     "file":"src/Classes/TreeTab.lua",
     "line":165
+  },{
+    "english":"Search",
+    "file":"src/Classes/TreeTab.lua",
+    "line":178
   },{
     "english":"Uses Lua pattern matching for complex searches.\nPrefix your search with \"oil:\" to search by anoint recipe.\nTo search for multiple terms: (increased.fire.damage|increased.area.of.effect|etc)",
     "file":"src/Classes/TreeTab.lua",
@@ -4920,6 +6843,11 @@
     "file":"src/Classes/TreeTab.lua",
     "line":238
   },{
+    "english":"When enabled, an estimate of the offensive and defensive strength of\neach unallocated passive is calculated and displayed visually.\nOffensive power shows as ",
+    "file":"src/Classes/TreeTab.lua",
+    "line":257,
+    "reason":"Assembled source fragment; complete-message example 111 verified in three language modes"
+  },{
     "english":"Hide Power Report",
     "file":"src/Classes/TreeTab.lua",
     "line":269
@@ -4928,9 +6856,47 @@
     "file":"src/Classes/TreeTab.lua",
     "line":269
   },{
+    "english":"Building Power Report... (%d%%)",
+    "file":"src/Classes/TreeTab.lua",
+    "format_arguments":[83.25],
+    "line":294,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"正在生成强度报告…（83%）",
+    "sample_english":"Building Power Report... (83%)"
+  },{
     "english":"^7This is an older tree version, which may not be fully compatible with the current game version.",
     "file":"src/Classes/TreeTab.lua",
     "line":322
+  },{
+    "english":"Convert to ",
+    "file":"src/Classes/TreeTab.lua",
+    "line":330
+  },{
+    "english":"Convert all trees to ",
+    "file":"src/Classes/TreeTab.lua",
+    "line":333
+  },{
+    "english":"Unknown Passive Tree Version",
+    "file":"src/Classes/TreeTab.lua",
+    "line":508
+  },{
+    "english":"The build you are trying to load uses an unrecognised version of the passive skill tree.\nYou may need to update the program before loading this build.",
+    "file":"src/Classes/TreeTab.lua",
+    "line":508
+  },{
+    "english":"Tree Converted",
+    "file":"src/Classes/TreeTab.lua",
+    "line":610
+  },{
+    "english":"The tree has been converted to ",
+    "file":"src/Classes/TreeTab.lua",
+    "line":610,
+    "reason":"Assembled source fragment; complete-message example 84 verified in three language modes"
+  },{
+    "english":".\nNote that some or all of the passives may have been de-allocated due to changes in the tree.\n\nYou can switch back to the old tree using the tree selector at the bottom left.",
+    "file":"src/Classes/TreeTab.lua",
+    "line":610,
+    "reason":"Assembled source fragment; complete-message example 84 verified in three language modes"
   },{
     "english":"Import Tree",
     "file":"src/Classes/TreeTab.lua",
@@ -4939,6 +6905,30 @@
     "english":"Export Tree",
     "file":"src/Classes/TreeTab.lua",
     "line":635
+  },{
+    "english":"Manage Passive Trees",
+    "file":"src/Classes/TreeTab.lua",
+    "line":639
+  },{
+    "english":"PassiveSpecListControl",
+    "file":"src/Classes/TreeTab.lua",
+    "line":640,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"ButtonControl",
+    "file":"src/Classes/TreeTab.lua",
+    "line":643,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"LEFT",
+    "file":"src/Classes/TreeTab.lua",
+    "line":643,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"RIGHT",
+    "file":"src/Classes/TreeTab.lua",
+    "line":643,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Done",
     "file":"src/Classes/TreeTab.lua",
@@ -4964,6 +6954,20 @@
     "file":"src/Classes/TreeTab.lua",
     "line":661
   },{
+    "english":"Convert to Version ",
+    "file":"src/Classes/TreeTab.lua",
+    "line":665
+  },{
+    "english":"convert",
+    "file":"src/Classes/TreeTab.lua",
+    "line":665,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"edit",
+    "file":"src/Classes/TreeTab.lua",
+    "line":665,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
     "english":"^7Warning: some or all of the passives may be de-allocated due to changes in the tree.\n\n",
     "file":"src/Classes/TreeTab.lua",
     "line":670
@@ -4986,6 +6990,28 @@
     "file":"src/Classes/TreeTab.lua",
     "line":676
   },{
+    "english":"Convert all to Version ",
+    "file":"src/Classes/TreeTab.lua",
+    "line":679
+  },{
+    "english":"convert",
+    "file":"src/Classes/TreeTab.lua",
+    "line":679,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"edit",
+    "file":"src/Classes/TreeTab.lua",
+    "line":679,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
+    "english":"Version '%d_%02d' is out of bounds",
+    "file":"src/Classes/TreeTab.lua",
+    "format_arguments":[83.25,83.25],
+    "line":737,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"版本“83_83”超出范围",
+    "sample_english":"Version '83_83' is out of bounds"
+  },{
     "english":"Enter name for this passive tree:",
     "file":"src/Classes/TreeTab.lua",
     "line":743
@@ -5006,6 +7032,25 @@
     "file":"src/Classes/TreeTab.lua",
     "line":806
   },{
+    "english":"Import Tree",
+    "file":"src/Classes/TreeTab.lua",
+    "line":809
+  },{
+    "english":"import",
+    "file":"src/Classes/TreeTab.lua",
+    "line":809,
+    "reason":"Assembled source fragment; complete-message example 26 verified in three language modes"
+  },{
+    "english":"name",
+    "file":"src/Classes/TreeTab.lua",
+    "line":809,
+    "reason":"Assembled source fragment; complete-message example 27 verified in three language modes"
+  },{
+    "english":"LabelControl",
+    "file":"src/Classes/TreeTab.lua",
+    "line":816,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
     "english":"Passive tree link:",
     "file":"src/Classes/TreeTab.lua",
     "line":816
@@ -5022,6 +7067,14 @@
     "file":"src/Classes/TreeTab.lua",
     "line":822
   },{
+    "english":"PoEURL Shortener",
+    "file":"src/Classes/TreeTab.lua",
+    "line":824
+  },{
+    "english":"Failed to get PoEURL link. Try again later.",
+    "file":"src/Classes/TreeTab.lua",
+    "line":824
+  },{
     "english":"Copy",
     "file":"src/Classes/TreeTab.lua",
     "line":832
@@ -5029,6 +7082,20 @@
     "english":"Done",
     "file":"src/Classes/TreeTab.lua",
     "line":835
+  },{
+    "english":"Export Tree",
+    "file":"src/Classes/TreeTab.lua",
+    "line":838
+  },{
+    "english":"done",
+    "file":"src/Classes/TreeTab.lua",
+    "line":838,
+    "reason":"Assembled source fragment; complete-message example 20 verified in three language modes"
+  },{
+    "english":"edit",
+    "file":"src/Classes/TreeTab.lua",
+    "line":838,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
   },{
     "english":"^7Modifier:",
     "file":"src/Classes/TreeTab.lua",
@@ -5051,6 +7118,15 @@
     "line":979,
     "reason":"Assembled source fragment; complete-message example 29 verified in three language modes"
   },{
+    "english":"Replace Modifier of Node",
+    "file":"src/Classes/TreeTab.lua",
+    "line":981
+  },{
+    "english":"save",
+    "file":"src/Classes/TreeTab.lua",
+    "line":981,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
     "english":"Show Legacy Tattoos:",
     "file":"src/Classes/TreeTab.lua",
     "line":985
@@ -5059,481 +7135,490 @@
     "file":"src/Classes/TreeTab.lua",
     "line":1027
   },{
-    "english":"Glorious Vanity",
+    "english":"close",
     "file":"src/Classes/TreeTab.lua",
-    "line":1188
+    "line":1034,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
-    "english":"Lethal Pride",
+    "english":"Glorious Vanity",
     "file":"src/Classes/TreeTab.lua",
     "line":1189
   },{
-    "english":"Brutal Restraint",
+    "english":"Lethal Pride",
     "file":"src/Classes/TreeTab.lua",
     "line":1190
   },{
-    "english":"Militant Faith",
+    "english":"Brutal Restraint",
     "file":"src/Classes/TreeTab.lua",
     "line":1191
   },{
-    "english":"Elegant Hubris",
+    "english":"Militant Faith",
     "file":"src/Classes/TreeTab.lua",
     "line":1192
   },{
-    "english":"Heroic Tragedy",
+    "english":"Elegant Hubris",
     "file":"src/Classes/TreeTab.lua",
     "line":1193
   },{
-    "english":"Festering Vengeance",
+    "english":"Heroic Tragedy",
     "file":"src/Classes/TreeTab.lua",
     "line":1194
   },{
-    "english":"Extinguishing Grasp",
+    "english":"Festering Vengeance",
     "file":"src/Classes/TreeTab.lua",
     "line":1195
   },{
-    "english":"Baleful Dominion",
+    "english":"Extinguishing Grasp",
     "file":"src/Classes/TreeTab.lua",
     "line":1196
   },{
-    "english":"Destructive Aspiration",
+    "english":"Baleful Dominion",
     "file":"src/Classes/TreeTab.lua",
     "line":1197
   },{
-    "english":"Reclaimed Malevolence",
+    "english":"Destructive Aspiration",
     "file":"src/Classes/TreeTab.lua",
     "line":1198
   },{
-    "english":"Any",
+    "english":"Reclaimed Malevolence",
     "file":"src/Classes/TreeTab.lua",
-    "line":1213
+    "line":1199
   },{
-    "english":"Doryani (Corrupted Soul)",
+    "english":"Any",
     "file":"src/Classes/TreeTab.lua",
     "line":1214
   },{
-    "english":"Xibaqua (Divine Flesh)",
+    "english":"Doryani (Corrupted Soul)",
     "file":"src/Classes/TreeTab.lua",
     "line":1215
   },{
-    "english":"Ahuana (Immortal Ambition)",
+    "english":"Xibaqua (Divine Flesh)",
     "file":"src/Classes/TreeTab.lua",
     "line":1216
   },{
-    "english":"Any",
+    "english":"Ahuana (Immortal Ambition)",
     "file":"src/Classes/TreeTab.lua",
-    "line":1219
+    "line":1217
   },{
-    "english":"Kaom (Strength of Blood)",
+    "english":"Any",
     "file":"src/Classes/TreeTab.lua",
     "line":1220
   },{
-    "english":"Rakiata (Tempered by War)",
+    "english":"Kaom (Strength of Blood)",
     "file":"src/Classes/TreeTab.lua",
     "line":1221
   },{
-    "english":"Akoya (Chainbreaker)",
+    "english":"Rakiata (Tempered by War)",
     "file":"src/Classes/TreeTab.lua",
     "line":1222
   },{
-    "english":"Any",
+    "english":"Akoya (Chainbreaker)",
     "file":"src/Classes/TreeTab.lua",
-    "line":1225
+    "line":1223
   },{
-    "english":"Asenath (Dance with Death)",
+    "english":"Any",
     "file":"src/Classes/TreeTab.lua",
     "line":1226
   },{
-    "english":"Nasima (Second Sight)",
+    "english":"Asenath (Dance with Death)",
     "file":"src/Classes/TreeTab.lua",
     "line":1227
   },{
-    "english":"Balbala (The Traitor)",
+    "english":"Nasima (Second Sight)",
     "file":"src/Classes/TreeTab.lua",
     "line":1228
   },{
-    "english":"Any",
+    "english":"Balbala (The Traitor)",
     "file":"src/Classes/TreeTab.lua",
-    "line":1231
+    "line":1229
   },{
-    "english":"Avarius (Power of Purpose)",
+    "english":"Any",
     "file":"src/Classes/TreeTab.lua",
     "line":1232
   },{
-    "english":"Dominus (Inner Conviction)",
+    "english":"Avarius (Power of Purpose)",
     "file":"src/Classes/TreeTab.lua",
     "line":1233
   },{
-    "english":"Maxarius (Transcendence)",
+    "english":"Dominus (Inner Conviction)",
     "file":"src/Classes/TreeTab.lua",
     "line":1234
   },{
-    "english":"Any",
+    "english":"Maxarius (Transcendence)",
     "file":"src/Classes/TreeTab.lua",
-    "line":1237
+    "line":1235
   },{
-    "english":"Cadiro (Supreme Decadence)",
+    "english":"Any",
     "file":"src/Classes/TreeTab.lua",
     "line":1238
   },{
-    "english":"Victario (Supreme Grandstanding)",
+    "english":"Cadiro (Supreme Decadence)",
     "file":"src/Classes/TreeTab.lua",
     "line":1239
   },{
-    "english":"Caspiro (Supreme Ostentation)",
+    "english":"Victario (Supreme Grandstanding)",
     "file":"src/Classes/TreeTab.lua",
     "line":1240
   },{
-    "english":"Any",
+    "english":"Caspiro (Supreme Ostentation)",
     "file":"src/Classes/TreeTab.lua",
-    "line":1243
+    "line":1241
   },{
-    "english":"Vorana (Black Scythe Training)",
+    "english":"Any",
     "file":"src/Classes/TreeTab.lua",
     "line":1244
   },{
-    "english":"Uhtred (Celestial Mathematics)",
+    "english":"Vorana (Black Scythe Training)",
     "file":"src/Classes/TreeTab.lua",
     "line":1245
   },{
-    "english":"Medved (The Unbreaking Circle)",
+    "english":"Uhtred (Celestial Mathematics)",
     "file":"src/Classes/TreeTab.lua",
     "line":1246
   },{
-    "english":"Tecrod (Overwhelming Hate)",
+    "english":"Medved (The Unbreaking Circle)",
     "file":"src/Classes/TreeTab.lua",
-    "line":1248
+    "line":1247
   },{
-    "english":"Ulaman (Weighted Exchange)",
+    "english":"Tecrod (Overwhelming Hate)",
     "file":"src/Classes/TreeTab.lua",
     "line":1249
   },{
-    "english":"Kurgal (Reconstructed Essence)",
+    "english":"Ulaman (Weighted Exchange)",
     "file":"src/Classes/TreeTab.lua",
     "line":1250
   },{
-    "english":"Amanamu (The Loyal Few)",
+    "english":"Kurgal (Reconstructed Essence)",
     "file":"src/Classes/TreeTab.lua",
     "line":1251
   },{
-    "english":"Zorath",
+    "english":"Amanamu (The Loyal Few)",
     "file":"src/Classes/TreeTab.lua",
     "line":1252
   },{
-    "english":"Any",
+    "english":"Zorath",
     "file":"src/Classes/TreeTab.lua",
-    "line":1266
+    "line":1253
   },{
-    "english":"Totem Damage",
+    "english":"Any",
     "file":"src/Classes/TreeTab.lua",
     "line":1267
   },{
-    "english":"Brand Damage",
+    "english":"Totem Damage",
     "file":"src/Classes/TreeTab.lua",
     "line":1268
   },{
-    "english":"Channelling Damage",
+    "english":"Brand Damage",
     "file":"src/Classes/TreeTab.lua",
     "line":1269
   },{
-    "english":"Area Damage",
+    "english":"Channelling Damage",
     "file":"src/Classes/TreeTab.lua",
     "line":1270
   },{
-    "english":"Elemental Damage",
+    "english":"Area Damage",
     "file":"src/Classes/TreeTab.lua",
     "line":1271
   },{
-    "english":"Elemental Resistances",
+    "english":"Elemental Damage",
     "file":"src/Classes/TreeTab.lua",
     "line":1272
   },{
-    "english":"Effect of non-Damaging Ailments",
+    "english":"Elemental Resistances",
     "file":"src/Classes/TreeTab.lua",
     "line":1273
   },{
-    "english":"Elemental Ailment Duration",
+    "english":"Effect of non-Damaging Ailments",
     "file":"src/Classes/TreeTab.lua",
     "line":1274
   },{
-    "english":"Duration of Curses",
+    "english":"Elemental Ailment Duration",
     "file":"src/Classes/TreeTab.lua",
     "line":1275
   },{
-    "english":"Minion Attack and Cast Speed",
+    "english":"Duration of Curses",
     "file":"src/Classes/TreeTab.lua",
     "line":1276
   },{
-    "english":"Minions Accuracy Rating",
+    "english":"Minion Attack and Cast Speed",
     "file":"src/Classes/TreeTab.lua",
     "line":1277
   },{
-    "english":"Mana Regen",
+    "english":"Minions Accuracy Rating",
     "file":"src/Classes/TreeTab.lua",
     "line":1278
   },{
-    "english":"Skill Cost",
+    "english":"Mana Regen",
     "file":"src/Classes/TreeTab.lua",
     "line":1279
   },{
-    "english":"Non-Curse Aura Effect",
+    "english":"Skill Cost",
     "file":"src/Classes/TreeTab.lua",
     "line":1280
   },{
-    "english":"Defences from Shield",
+    "english":"Non-Curse Aura Effect",
     "file":"src/Classes/TreeTab.lua",
     "line":1281
   },{
+    "english":"Defences from Shield",
+    "file":"src/Classes/TreeTab.lua",
+    "line":1282
+  },{
     "english":"Any",
     "file":"src/Classes/TreeTab.lua",
-    "line":1294
+    "line":1295
   },{
     "english":"All Sockets",
     "file":"src/Classes/TreeTab.lua",
-    "line":1297
+    "line":1298
   },{
     "english":"Total ",
     "file":"src/Classes/TreeTab.lua",
-    "line":1391
+    "line":1392
   },{
     "english":"^7Devotion modifiers:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1507
+    "line":1508
   },{
     "english":"^7Jewel Type:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1548
+    "line":1549
   },{
     "english":"^7Conqueror:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1556
+    "line":1557
   },{
     "english":"^7Jewel Socket:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1603
+    "line":1604
   },{
     "english":"^7Filter Nodes:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1629
+    "line":1630
   },{
     "english":"^7Enable this option to exclude nodes that you do not have allocated on your active passive skill tree.",
     "file":"src/Classes/TreeTab.lua",
-    "line":1632
+    "line":1633
   },{
     "english":"^7This can be useful if you're never going to path towards those excluded nodes and don't care what happens to them.",
     "file":"src/Classes/TreeTab.lua",
-    "line":1633
+    "line":1634
   },{
     "english":"^7Protect allocated nodes from changing:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1645
+    "line":1646
   },{
     "english":"Add",
     "file":"src/Classes/TreeTab.lua",
-    "line":1647
+    "line":1648
   },{
     "english":"Clear",
     "file":"src/Classes/TreeTab.lua",
-    "line":1656
+    "line":1657
   },{
     "english":"^7Required ascendancy outcome:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1667
+    "line":1668
   },{
     "english":"^7Protect allocated nodes during search.",
     "file":"src/Classes/TreeTab.lua",
-    "line":1709
+    "line":1710
   },{
     "english":"^7This can be useful if transforming certain notables would break your build.",
     "file":"src/Classes/TreeTab.lua",
-    "line":1710
+    "line":1711
   },{
     "english":"^7Node Distance:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1714
+    "line":1715
   },{
     "english":"^7This controls the maximum amount of points that need to be spent to grab a node before its filtered out",
     "file":"src/Classes/TreeTab.lua",
-    "line":1722
+    "line":1723
   },{
     "english":"^7Primary Node Weight:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1748
+    "line":1749
   },{
     "english":"^7For nodes with multiple stats this slider controls the weight of the first stat listed.",
     "file":"src/Classes/TreeTab.lua",
-    "line":1753
+    "line":1754
   },{
     "english":"^7This slider controls the weight of the following stat:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1755
+    "line":1756
   },{
     "english":"^7Secondary Node Weight:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1777
+    "line":1778
   },{
     "english":"^7For nodes with multiple stats this slider controls the weight of the second stat listed.",
     "file":"src/Classes/TreeTab.lua",
-    "line":1782
+    "line":1783
   },{
     "english":"^7This slider controls the weight of the following stat:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1784
+    "line":1785
   },{
     "english":"^7Required",
     "file":"src/Classes/TreeTab.lua",
-    "line":1803
+    "line":1804
   },{
     "english":"^7Minimum Node Weight:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1809
+    "line":1810
   },{
     "english":"^7Seeds that do not meet the minimum weight threshold for a desired node are excluded from the search results.",
     "file":"src/Classes/TreeTab.lua",
-    "line":1813
+    "line":1814
   },{
     "english":"^7Required",
     "file":"src/Classes/TreeTab.lua",
-    "line":1847
+    "line":1848
   },{
     "english":"^9Secondary Node Weight:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1884
+    "line":1885
   },{
     "english":"^7Secondary Node Weight:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1888
+    "line":1889
   },{
     "english":"^7Search for Node:",
     "file":"src/Classes/TreeTab.lua",
-    "line":1919
+    "line":1920
   },{
     "english":"Sort by ",
     "file":"src/Classes/TreeTab.lua",
-    "line":2101
+    "line":2107
   },{
     "english":"^7Fallback Weight Mode:",
     "file":"src/Classes/TreeTab.lua",
-    "line":2110
+    "line":2116
   },{
     "english":"Generate",
     "file":"src/Classes/TreeTab.lua",
-    "line":2112
+    "line":2118
   },{
     "english":"^4Fallback Nodes",
     "file":"src/Classes/TreeTab.lua",
-    "line":2114
+    "line":2120
   },{
     "english":"^7Click this button to generate new fallback node weights, replacing your old ones.",
     "file":"src/Classes/TreeTab.lua",
-    "line":2118
+    "line":2124
   },{
     "english":"^7Total Minimum Weight:",
     "file":"src/Classes/TreeTab.lua",
-    "line":2125
+    "line":2131
   },{
     "english":"^7Optional: Only show results where total weight meets or exceeds this value.",
     "file":"src/Classes/TreeTab.lua",
-    "line":2128
+    "line":2134
   },{
     "english":"^7Desired Nodes",
     "file":"src/Classes/TreeTab.lua",
-    "line":2160
+    "line":2166
   },{
     "english":"^7This contains a list of your desired nodes along with their primary, secondary, and minimum weights.",
     "file":"src/Classes/TreeTab.lua",
-    "line":2171
-  },{
-    "english":"^7This list can be updated manually or by selecting the node you want to update via the search dropdown list and then moving the node weight sliders.",
-    "file":"src/Classes/TreeTab.lua",
-    "line":2173
-  },{
-    "english":"^7Fallback Nodes",
-    "file":"src/Classes/TreeTab.lua",
     "line":2177
   },{
-    "english":"^7Fallback Nodes",
-    "file":"src/Classes/TreeTab.lua",
-    "line":2182
-  },{
-    "english":"^7This contains a list of your fallback nodes along with their primary, secondary, and minimum weights.",
-    "file":"src/Classes/TreeTab.lua",
-    "line":2186
-  },{
     "english":"^7This list can be updated manually or by selecting the node you want to update via the search dropdown list and then moving the node weight sliders.",
     "file":"src/Classes/TreeTab.lua",
-    "line":2187
+    "line":2179
   },{
-    "english":"^7Fallback node weights are only used when no matching entry exists in the desired nodes list, allowing you to override or disable specific automatic weights.",
+    "english":"^7Fallback Nodes",
+    "file":"src/Classes/TreeTab.lua",
+    "line":2183
+  },{
+    "english":"^7Fallback Nodes",
     "file":"src/Classes/TreeTab.lua",
     "line":2188
   },{
+    "english":"^7This contains a list of your fallback nodes along with their primary, secondary, and minimum weights.",
+    "file":"src/Classes/TreeTab.lua",
+    "line":2192
+  },{
+    "english":"^7This list can be updated manually or by selecting the node you want to update via the search dropdown list and then moving the node weight sliders.",
+    "file":"src/Classes/TreeTab.lua",
+    "line":2193
+  },{
+    "english":"^7Fallback node weights are only used when no matching entry exists in the desired nodes list, allowing you to override or disable specific automatic weights.",
+    "file":"src/Classes/TreeTab.lua",
+    "line":2194
+  },{
     "english":"^7Fallback node weights typically contain automatically generated stat weights based on your current build.",
     "file":"src/Classes/TreeTab.lua",
-    "line":2189
+    "line":2195
   },{
     "english":"^7Any manual changes made to your fallback nodes are lost when you click the generate button, as it completely replaces them.",
     "file":"src/Classes/TreeTab.lua",
-    "line":2190
+    "line":2196
   },{
     "english":"Open Trade URL",
     "file":"src/Classes/TreeTab.lua",
-    "line":2198
+    "line":2204
   },{
     "english":"Open Next Trade URL",
     "file":"src/Classes/TreeTab.lua",
-    "line":2309
+    "line":2315
   },{
     "english":"^7Click to generate and open a trade URL for searching for jewels in this list.",
     "file":"src/Classes/TreeTab.lua",
-    "line":2314
+    "line":2320
   },{
     "english":"^7Paste the URL in a web browser to search.",
     "file":"src/Classes/TreeTab.lua",
-    "line":2315
+    "line":2321
   },{
     "english":"^7You can click to select a row so that search begins from there.",
     "file":"src/Classes/TreeTab.lua",
-    "line":2317
+    "line":2323
   },{
     "english":"^7After selecting a row You can also shift+click on another row to select a range of rows to search.",
     "file":"src/Classes/TreeTab.lua",
-    "line":2318
+    "line":2324
   },{
     "english":"^7League:",
     "file":"src/Classes/TreeTab.lua",
-    "line":2326
+    "line":2332
   },{
     "english":"^1Error fetching league list, default league will be used\n",
     "file":"src/Classes/TreeTab.lua",
-    "line":2349
+    "line":2355
   },{
     "english":"^7Realm:",
     "file":"src/Classes/TreeTab.lua",
-    "line":2386
+    "line":2392
   },{
     "english":"^7Search Maximum Amount:",
     "file":"src/Classes/TreeTab.lua",
-    "line":2416
+    "line":2422
   },{
     "english":"Reset",
     "file":"src/Classes/TreeTab.lua",
-    "line":2783
+    "line":2789
   },{
     "english":"Cancel",
     "file":"src/Classes/TreeTab.lua",
-    "line":2791
+    "line":2797
   },{
     "english":"Search",
     "file":"src/Classes/TreeTab.lua",
-    "line":2794
+    "line":2800
   },{
     "english":"Open Trade URL",
     "file":"src/Classes/TreeTab.lua",
-    "line":2829
+    "line":2835
   },{
     "english":"Open Trade URL",
     "file":"src/Classes/TreeTab.lua",
-    "line":2854
+    "line":2860
+  },{
+    "english":"Find a Timeless Jewel",
+    "file":"src/Classes/TreeTab.lua",
+    "line":2868
   },{
     "english":"<< Back",
     "file":"src/Modules/Build.lua",
@@ -5579,6 +7664,18 @@
     "file":"src/Modules/Build.lua",
     "line":211
   },{
+    "english":"Auto",
+    "file":"src/Modules/Build.lua",
+    "line":213
+  },{
+    "english":"Manual",
+    "file":"src/Modules/Build.lua",
+    "line":213
+  },{
+    "english":"Level",
+    "file":"src/Modules/Build.lua",
+    "line":218
+  },{
     "english":"Manual",
     "file":"src/Modules/Build.lua",
     "line":224
@@ -5587,9 +7684,49 @@
     "file":"src/Modules/Build.lua",
     "line":229
   },{
+    "english":" (Tier %d)",
+    "file":"src/Modules/Build.lua",
+    "format_arguments":[83.25],
+    "line":247,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":" (阶级 83)",
+    "sample_english":" (Tier 83)"
+  },{
+    "english":"Class Change",
+    "file":"src/Modules/Build.lua",
+    "line":263
+  },{
+    "english":"Changing class to ",
+    "file":"src/Modules/Build.lua",
+    "line":263,
+    "reason":"Assembled source fragment; complete-message example 103 verified in three language modes"
+  },{
+    "english":" will reset your passive tree.\nThis can be avoided by connecting one of the ",
+    "file":"src/Modules/Build.lua",
+    "line":263,
+    "reason":"Assembled source fragment; complete-message example 103 verified in three language modes"
+  },{
+    "english":" starting nodes to your tree.",
+    "file":"src/Modules/Build.lua",
+    "line":263,
+    "reason":"Assembled source fragment; complete-message example 103 verified in three language modes"
+  },{
+    "english":"Continue",
+    "file":"src/Modules/Build.lua",
+    "line":263
+  },{
+    "english":"Connect Path",
+    "file":"src/Modules/Build.lua",
+    "line":268
+  },{
     "english":"None",
     "file":"src/Modules/Build.lua",
     "line":286
+  },{
+    "english":"LabelControl",
+    "file":"src/Modules/Build.lua",
+    "line":318,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^7Enter name for this loadout:",
     "file":"src/Modules/Build.lua",
@@ -5602,6 +7739,25 @@
     "english":"Cancel",
     "file":"src/Modules/Build.lua",
     "line":346
+  },{
+    "english":"Set Name",
+    "file":"src/Modules/Build.lua",
+    "line":349
+  },{
+    "english":"save",
+    "file":"src/Modules/Build.lua",
+    "line":349,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"edit",
+    "file":"src/Modules/Build.lua",
+    "line":349,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
+    "english":"cancel",
+    "file":"src/Modules/Build.lua",
+    "line":349,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":"Import/Export Build",
     "file":"src/Modules/Build.lua",
@@ -5659,6 +7815,14 @@
     "file":"src/Modules/Build.lua",
     "line":552
   },{
+    "english":"%d Warnings",
+    "file":"src/Modules/Build.lua",
+    "format_arguments":[83.25],
+    "line":578,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"83 条警告",
+    "sample_english":"83 Warnings"
+  },{
     "english":"LEFT",
     "file":"src/Modules/Build.lua",
     "line":581,
@@ -5669,6 +7833,26 @@
     "line":581,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
+    "english":"You have too many passive points allocated",
+    "file":"src/Modules/Build.lua",
+    "line":907
+  },{
+    "english":"You have too many ascendancy points allocated",
+    "file":"src/Modules/Build.lua",
+    "line":908
+  },{
+    "english":"You have too many secondary ascendancy points allocated",
+    "file":"src/Modules/Build.lua",
+    "line":909
+  },{
+    "english":"Required Level: %d\nEstimated Progress:\nAct: %s\nQuestpoints: %d\nExtra Skillpoints: %d%s",
+    "file":"src/Modules/Build.lua",
+    "format_arguments":[83.25,"",83.25,83.25,""],
+    "line":919,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":"需求等级：83\n预计进度：\n章节：\n任务天赋点：83\n额外天赋点：83",
+    "sample_english":"Required Level: 83\nEstimated Progress:\nAct: \nQuestpoints: 83\nExtra Skillpoints: 83"
+  },{
     "english":"None",
     "file":"src/Modules/Build.lua",
     "line":1112
@@ -5676,6 +7860,11 @@
     "english":"Info:^7 You are trying to load a build created for a version of Path of Exile that is\nnot supported by us. You will have to convert it to the current game version to load it.\nTo use a build newer than the current supported game version, you may have to update.\nTo use a build older than the current supported game version, we recommend loading it\nin an older version of Path of Building Community instead.\n",
     "file":"src/Modules/Build.lua",
     "line":1328
+  },{
+    "english":"LabelControl",
+    "file":"src/Modules/Build.lua",
+    "line":1335,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"Warning:^7 Converting a build to a different game version may have side effects.\nFor example, if the passive tree has changed, then some passives may be deallocated.\nYou should create a backup copy of the build before proceeding.\n",
     "file":"src/Modules/Build.lua",
@@ -5689,9 +7878,29 @@
     "file":"src/Modules/Build.lua",
     "line":1345
   },{
+    "english":"Game Version",
+    "file":"src/Modules/Build.lua",
+    "line":1349
+  },{
+    "english":"convert",
+    "file":"src/Modules/Build.lua",
+    "line":1349,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"cancel",
+    "file":"src/Modules/Build.lua",
+    "line":1349,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"LabelControl",
+    "file":"src/Modules/Build.lua",
+    "line":1359,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
     "english":"^7This build has unsaved changes.\nDo you want to save them ",
     "file":"src/Modules/Build.lua",
-    "line":1359
+    "line":1359,
+    "reason":"Assembled source fragment; complete-message example 88 verified in three language modes"
   },{
     "english":"Save",
     "file":"src/Modules/Build.lua",
@@ -5704,6 +7913,15 @@
     "english":"Cancel",
     "file":"src/Modules/Build.lua",
     "line":1375
+  },{
+    "english":"Save Changes",
+    "file":"src/Modules/Build.lua",
+    "line":1378
+  },{
+    "english":"LabelControl",
+    "file":"src/Modules/Build.lua",
+    "line":1398,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^7Enter new build name:",
     "file":"src/Modules/Build.lua",
@@ -5745,6 +7963,29 @@
     "file":"src/Modules/Build.lua",
     "line":1446
   },{
+    "english":"Save As",
+    "file":"src/Modules/Build.lua",
+    "line":1449
+  },{
+    "english":"Save",
+    "file":"src/Modules/Build.lua",
+    "line":1449
+  },{
+    "english":"save",
+    "file":"src/Modules/Build.lua",
+    "line":1449,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"edit",
+    "file":"src/Modules/Build.lua",
+    "line":1449,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
+    "english":"close",
+    "file":"src/Modules/Build.lua",
+    "line":1449,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
     "english":"Save",
     "file":"src/Modules/Build.lua",
     "line":1469
@@ -5761,22 +8002,82 @@
     "file":"src/Modules/Build.lua",
     "line":1479
   },{
+    "english":"Spectre Library",
+    "file":"src/Modules/Build.lua",
+    "line":1480
+  },{
     "english":"Close",
     "file":"src/Modules/Build.lua",
     "line":1534
+  },{
+    "english":"Similar Builds",
+    "file":"src/Modules/Build.lua",
+    "line":1545
   },{
     "english":"<No skills added yet>",
     "file":"src/Modules/Build.lua",
     "line":1558
   },{
+    "english":"Default Item Set",
+    "file":"src/Modules/Build.lua",
+    "line":1616
+  },{
+    "english":"Unreserved Life",
+    "file":"src/Modules/Build.lua",
+    "line":1654
+  },{
+    "english":"You may have too much cast speed or too little cooldown reduction to effectively use Vixen's Curse replacement",
+    "file":"src/Modules/Build.lua",
+    "line":1800
+  },{
+    "english":"Vixen's calculation mode for Doom Blast is selected but you do not have Vixen's Entrapment Embroidered Gloves equipped",
+    "file":"src/Modules/Build.lua",
+    "line":1803
+  },{
+    "english":"You have more than one Aspect skill active",
+    "file":"src/Modules/Build.lua",
+    "line":1813
+  },{
+    "english":"You are exceeding jewel limit with the jewel ",
+    "file":"src/Modules/Build.lua",
+    "line":1821
+  },{
+    "english":"You have too many gems in your ",
+    "file":"src/Modules/Build.lua",
+    "line":1826,
+    "reason":"Assembled source fragment; complete-message example 87 verified in three language modes"
+  },{
+    "english":" slot",
+    "file":"src/Modules/Build.lua",
+    "line":1826,
+    "reason":"Assembled source fragment; complete-message example 87 verified in three language modes"
+  },{
+    "english":"You have eligible items missing an anoint: ",
+    "file":"src/Modules/Build.lua",
+    "line":1830
+  },{
     "english":"^x7F7F7FRequires ",
     "file":"src/Modules/Build.lua",
-    "line":1971
+    "line":1972
   },{
     "english":"FONTIN SC",
     "file":"src/Modules/Build.lua",
-    "line":1971,
+    "line":1972,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"Error",
+    "file":"src/Modules/Build.lua",
+    "line":2072
+  },{
+    "english":"Couldn't save the build file:\n",
+    "file":"src/Modules/Build.lua",
+    "line":2072,
+    "reason":"Assembled source fragment; complete-message example 68 verified in three language modes"
+  },{
+    "english":"\nMake sure the save folder exists and is writable.",
+    "file":"src/Modules/Build.lua",
+    "line":2072,
+    "reason":"Assembled source fragment; complete-message example 68 verified in three language modes"
   },{
     "english":"Active Minion Limit",
     "file":"src/Modules/BuildDisplayStats.lua",
@@ -6106,6 +8407,11 @@
     "file":"src/Modules/BuildDisplayStats.lua",
     "line":96
   },{
+    "english":"You do not meet the Strength requirement of ",
+    "file":"src/Modules/BuildDisplayStats.lua",
+    "line":96,
+    "reason":"Assembled source fragment; complete-message example 113 verified in three language modes"
+  },{
     "english":"Dexterity",
     "file":"src/Modules/BuildDisplayStats.lua",
     "line":97
@@ -6113,6 +8419,11 @@
     "english":"Dexterity Required",
     "file":"src/Modules/BuildDisplayStats.lua",
     "line":98
+  },{
+    "english":"You do not meet the Dexterity requirement of ",
+    "file":"src/Modules/BuildDisplayStats.lua",
+    "line":98,
+    "reason":"Assembled source fragment; complete-message example 114 verified in three language modes"
   },{
     "english":"Intelligence",
     "file":"src/Modules/BuildDisplayStats.lua",
@@ -6122,9 +8433,19 @@
     "file":"src/Modules/BuildDisplayStats.lua",
     "line":100
   },{
+    "english":"You do not meet the Intelligence requirement of ",
+    "file":"src/Modules/BuildDisplayStats.lua",
+    "line":100,
+    "reason":"Assembled source fragment; complete-message example 115 verified in three language modes"
+  },{
     "english":"Omniscience",
     "file":"src/Modules/BuildDisplayStats.lua",
     "line":101
+  },{
+    "english":"You do not meet the Omniscience requirement of ",
+    "file":"src/Modules/BuildDisplayStats.lua",
+    "line":102,
+    "reason":"Assembled source fragment; complete-message example 116 verified in three language modes"
   },{
     "english":"Omniscience Required",
     "file":"src/Modules/BuildDisplayStats.lua",
@@ -6402,6 +8723,10 @@
     "file":"src/Modules/BuildDisplayStats.lua",
     "line":205
   },{
+    "english":"Full Dot DPS exceeds in game limit",
+    "file":"src/Modules/BuildDisplayStats.lua",
+    "line":205
+  },{
     "english":"Skill DPS",
     "file":"src/Modules/BuildDisplayStats.lua",
     "line":207
@@ -6542,9 +8867,29 @@
     "file":"src/Modules/BuildList.lua",
     "line":57
   },{
+    "english":"Search",
+    "file":"src/Modules/BuildList.lua",
+    "line":96
+  },{
     "english":"(e.g. class:assassin myfilename)",
     "file":"src/Modules/BuildList.lua",
     "line":100
+  },{
+    "english":"Error",
+    "file":"src/Modules/BuildList.lua",
+    "line":143
+  },{
+    "english":"A folder cannot be copied into itself.",
+    "file":"src/Modules/BuildList.lua",
+    "line":143
+  },{
+    "english":"Error",
+    "file":"src/Modules/BuildList.lua",
+    "line":158
+  },{
+    "english":"A folder cannot be moved into itself.",
+    "file":"src/Modules/BuildList.lua",
+    "line":158
   },{
     "english":"Sort by Name",
     "file":"src/Modules/BuildListHelpers.lua",
@@ -6641,6 +8986,11 @@
     "english":"Frost Shield Life",
     "file":"src/Modules/CalcDefence.lua",
     "line":41
+  },{
+    "english":" Regeneration:",
+    "file":"src/Modules/CalcDefence.lua",
+    "line":1303,
+    "reason":"Assembled source fragment; complete-message example 96 verified in three language modes"
   },{
     "english":"Recharge rate:",
     "file":"src/Modules/CalcDefence.lua",
@@ -7054,6 +9404,14 @@
     "file":"src/Modules/CalcOffence.lua",
     "line":2142
   },{
+    "english":"Main Hand",
+    "file":"src/Modules/CalcOffence.lua",
+    "line":2150
+  },{
+    "english":"Off Hand",
+    "file":"src/Modules/CalcOffence.lua",
+    "line":2153
+  },{
     "english":"Trauma",
     "file":"src/Modules/CalcOffence.lua",
     "line":2275
@@ -7066,13 +9424,48 @@
     "file":"src/Modules/CalcOffence.lua",
     "line":2295
   },{
+    "english":"Off Hand",
+    "file":"src/Modules/CalcOffence.lua",
+    "line":4050
+  },{
+    "english":"Condition",
+    "file":"src/Modules/CalcOffence.lua",
+    "line":4050,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
+  },{
+    "english":"Main Hand",
+    "file":"src/Modules/CalcOffence.lua",
+    "line":4050
+  },{
+    "english":"Effect of Chill: ^8(capped at %d%%)",
+    "file":"src/Modules/CalcOffence.lua",
+    "format_arguments":[83.25],
+    "line":5266
+  },{
     "english":"Resulting ailment effect",
     "file":"src/Modules/CalcOffence.lua",
     "line":5334
   },{
+    "english":" ^8(with a ^7%s%% ^8%s on the enemy)^7",
+    "file":"src/Modules/CalcOffence.lua",
+    "format_arguments":["",""],
+    "line":5334,
+    "reason":"Printf source format; representative formatted output translated with numbers preserved",
+    "sample_chinese":" ^8(敌人身上有 % 的效果)^7",
+    "sample_english":" ^8(with a ^7% ^8 on the enemy)^7"
+  },{
     "english":"Ailment Threshold",
     "file":"src/Modules/CalcOffence.lua",
     "line":5338
+  },{
+    "english":" Effect",
+    "file":"src/Modules/CalcOffence.lua",
+    "line":5339,
+    "reason":"Assembled source fragment; complete-message example 97 verified in three language modes"
+  },{
+    "english":"One Handed Sword",
+    "file":"src/Modules/CalcPerform.lua",
+    "line":227
   },{
     "english":"Source",
     "file":"src/Modules/CalcPerform.lua",
@@ -15927,401 +18320,612 @@
   },{
     "english":"Options",
     "file":"src/Modules/Main.lua",
-    "line":207
+    "line":208
   },{
     "english":"About",
     "file":"src/Modules/Main.lua",
-    "line":210
+    "line":211
   },{
     "english":"English",
     "file":"src/Modules/Main.lua",
-    "line":214,
+    "line":215,
     "reason":"Language selector must retain the language endonym."
   },{
-    "english":"中文 / English",
-    "file":"src/Modules/Main.lua",
-    "line":214,
-    "reason":"Bilingual language selector endonyms."
-  },{
-    "english":"F8: English / 中文 / 中文 + English\nHold Alt: original English\nPoEDB name reference; untranslated text stays English.",
-    "file":"src/Modules/Main.lua",
-    "line":216
-  },{
-    "english":"^x50E050Update Ready",
+    "english":"F8: English / 中文\nPoEDB name reference; untranslated text stays English.",
     "file":"src/Modules/Main.lua",
     "line":217
   },{
+    "english":"^x50E050Update Ready",
+    "file":"src/Modules/Main.lua",
+    "line":218
+  },{
+    "english":"^8PoB Community Fork",
+    "file":"src/Modules/Main.lua",
+    "line":238
+  },{
     "english":"Dev Mode",
     "file":"src/Modules/Main.lua",
-    "line":243
+    "line":245
+  },{
+    "english":"Update check failed!\n%s",
+    "file":"src/Modules/Main.lua",
+    "format_arguments":[""],
+    "line":384
   },{
     "english":"LEFT",
     "file":"src/Modules/Main.lua",
-    "line":420,
+    "line":424,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"VAR",
     "file":"src/Modules/Main.lua",
-    "line":420,
+    "line":424,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"LabelControl",
+    "file":"src/Modules/Main.lua",
+    "line":796,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^7User settings path cannot be loaded: ",
     "file":"src/Modules/Main.lua",
-    "line":793
+    "line":797
   },{
     "english":"\nCurrent Path: ",
     "file":"src/Modules/Main.lua",
-    "line":794
+    "line":798
   },{
     "english":"/Path of Building/",
     "file":"src/Modules/Main.lua",
-    "line":794,
+    "line":798,
     "reason":"Literal directory name used in a settings-path example."
   },{
     "english":"\nIf this location is managed by OneDrive, navigate to that folder and manually try",
     "file":"src/Modules/Main.lua",
-    "line":795
+    "line":799
   },{
     "english":"\nto open Settings.xml in a text editor before re-opening Path of Building",
     "file":"src/Modules/Main.lua",
-    "line":796
+    "line":800
   },{
     "english":"\nOtherwise, specify a new location for your Settings.xml:",
     "file":"src/Modules/Main.lua",
-    "line":797
+    "line":801
   },{
     "english":"Save",
     "file":"src/Modules/Main.lua",
-    "line":807
+    "line":811
+  },{
+    "english":"Error",
+    "file":"src/Modules/Main.lua",
+    "line":814
+  },{
+    "english":"Couldn't create '",
+    "file":"src/Modules/Main.lua",
+    "line":814,
+    "reason":"Assembled source fragment; complete-message example 43 verified in three language modes"
   },{
     "english":"Cancel",
     "file":"src/Modules/Main.lua",
-    "line":817
+    "line":821
+  },{
+    "english":"Change Settings Path",
+    "file":"src/Modules/Main.lua",
+    "line":824
+  },{
+    "english":"save",
+    "file":"src/Modules/Main.lua",
+    "line":824,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"cancel",
+    "file":"src/Modules/Main.lua",
+    "line":824,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":"Auto",
     "file":"src/Modules/Main.lua",
-    "line":908
+    "line":912
   },{
     "english":"IPv4",
     "file":"src/Modules/Main.lua",
-    "line":909,
+    "line":913,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"IPv6",
     "file":"src/Modules/Main.lua",
-    "line":910,
+    "line":914,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^7Connection Protocol:",
     "file":"src/Modules/Main.lua",
-    "line":914
+    "line":918
   },{
     "english":"Changes which protocol is used when downloading updates and importing builds.",
     "file":"src/Modules/Main.lua",
-    "line":915
+    "line":919
   },{
     "english":"HTTP",
     "file":"src/Modules/Main.lua",
-    "line":920,
+    "line":924,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"http",
     "file":"src/Modules/Main.lua",
-    "line":920,
+    "line":924,
     "reason":"Network protocol identifier."
   },{
     "english":"SOCKS",
     "file":"src/Modules/Main.lua",
-    "line":921,
+    "line":925,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"socks5",
     "file":"src/Modules/Main.lua",
-    "line":921,
+    "line":925,
     "reason":"Network protocol identifier."
   },{
     "english":"SOCKS5H",
     "file":"src/Modules/Main.lua",
-    "line":922,
+    "line":926,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"socks5h",
     "file":"src/Modules/Main.lua",
-    "line":922,
+    "line":926,
     "reason":"Network protocol identifier."
   },{
     "english":"^7Proxy server:",
     "file":"src/Modules/Main.lua",
-    "line":924
+    "line":928
   },{
     "english":"Use system default",
     "file":"src/Modules/Main.lua",
-    "line":935
+    "line":939
   },{
     "english":"^7UI scaling override:",
     "file":"src/Modules/Main.lua",
-    "line":950
+    "line":954
   },{
     "english":"Overrides Windows DPI scaling inside Path of Building.\nChoose a percentage between 100% and 250% or revert to the system default.",
     "file":"src/Modules/Main.lua",
     "format_arguments":[83.25],
-    "line":951
+    "line":955
   },{
     "english":"^7Build save path:",
     "file":"src/Modules/Main.lua",
-    "line":956
+    "line":960
   },{
     "english":"Overrides the default save location for builds.\nThe default location is: '",
     "file":"src/Modules/Main.lua",
-    "line":960
+    "line":964
   },{
     "english":"Red & Blue",
     "file":"src/Modules/Main.lua",
-    "line":964
+    "line":968
   },{
     "english":"RED/BLUE",
     "file":"src/Modules/Main.lua",
-    "line":964
+    "line":968
   },{
     "english":"Red & Green",
     "file":"src/Modules/Main.lua",
-    "line":965
+    "line":969
   },{
     "english":"RED/GREEN",
     "file":"src/Modules/Main.lua",
-    "line":965
+    "line":969
   },{
     "english":"Green & Blue",
     "file":"src/Modules/Main.lua",
-    "line":966
+    "line":970
   },{
     "english":"GREEN/BLUE",
     "file":"src/Modules/Main.lua",
-    "line":966
+    "line":970
   },{
     "english":"^7Node Power colours:",
     "file":"src/Modules/Main.lua",
-    "line":970
+    "line":974
   },{
     "english":"Changes the colour scheme used for the node power display on the passive tree.",
     "file":"src/Modules/Main.lua",
-    "line":971
+    "line":975
   },{
     "english":"^7Hex colour for positive values:",
     "file":"src/Modules/Main.lua",
-    "line":982
+    "line":986
   },{
     "english":"Overrides the default hex colour for positive values in breakdowns. \nExpected format is 0x000000. ",
     "file":"src/Modules/Main.lua",
-    "line":983
+    "line":987
   },{
     "english":"^7Hex colour for negative values:",
     "file":"src/Modules/Main.lua",
-    "line":994
+    "line":998
   },{
     "english":"Overrides the default hex colour for negative values in breakdowns. \nExpected format is 0x000000. ",
     "file":"src/Modules/Main.lua",
-    "line":995
+    "line":999
   },{
     "english":"^7Hex colour for highlight nodes:",
     "file":"src/Modules/Main.lua",
-    "line":1007
+    "line":1011
   },{
     "english":"Overrides the default hex colour for highlighting nodes in passive tree search. \nExpected format is 0x000000. ",
     "file":"src/Modules/Main.lua",
-    "line":1008
+    "line":1012
   },{
     "english":"^7Opt-in to weekly beta test builds:",
     "file":"src/Modules/Main.lua",
-    "line":1012
+    "line":1016
   },{
     "english":"^7Show search circles at viewport edge",
     "file":"src/Modules/Main.lua",
-    "line":1017
+    "line":1021
   },{
     "english":"^7Show Latest/Trending builds:",
     "file":"src/Modules/Main.lua",
-    "line":1022
+    "line":1026
   },{
     "english":"^7Styled Tooltips with Flavour Text:",
     "file":"src/Modules/Main.lua",
-    "line":1027
+    "line":1031
   },{
     "english":"If updating while inside a build, please re-load the build after saving.",
     "file":"src/Modules/Main.lua",
-    "line":1030
+    "line":1034
   },{
     "english":"^7Show Animations:",
     "file":"src/Modules/Main.lua",
-    "line":1033
+    "line":1037
   },{
     "english":"^7Show all item affixes sliders:",
     "file":"src/Modules/Main.lua",
-    "line":1038
+    "line":1042
   },{
     "english":"Display all item affix slots as a stacked list instead of hiding them in dropdowns.",
     "file":"src/Modules/Main.lua",
-    "line":1041
+    "line":1045
   },{
     "english":"^7Disable control scroll interaction:",
     "file":"src/Modules/Main.lua",
-    "line":1044
+    "line":1048
   },{
     "english":"Disable changing the values in controls such as dropdowns or numeric inputs when using the scroll wheel.",
     "file":"src/Modules/Main.lua",
-    "line":1047
+    "line":1051
   },{
     "english":"^7Show thousands separators:",
     "file":"src/Modules/Main.lua",
-    "line":1062
+    "line":1066
   },{
     "english":"^7Compact large numbers (e.g. 12.3K):",
     "file":"src/Modules/Main.lua",
-    "line":1068
+    "line":1072
   },{
     "english":"^7Thousands separator:",
     "file":"src/Modules/Main.lua",
-    "line":1077
+    "line":1081
   },{
     "english":"^7Decimal separator:",
     "file":"src/Modules/Main.lua",
-    "line":1083
+    "line":1087
   },{
     "english":"^7Show build name in window title:",
     "file":"src/Modules/Main.lua",
-    "line":1086
+    "line":1090
   },{
     "english":"Set the default quality that can be overwritten by build-related quality settings in the skill panel.",
     "file":"src/Modules/Main.lua",
-    "line":1094
+    "line":1098
   },{
     "english":"^7Default gem quality:",
     "file":"src/Modules/Main.lua",
-    "line":1095
+    "line":1099
   },{
     "english":"Set the default level of your builds. If this is higher than 1, manual level mode will be enabled by default in new builds.",
     "file":"src/Modules/Main.lua",
-    "line":1101
+    "line":1105
   },{
     "english":"^7Default character level:",
     "file":"src/Modules/Main.lua",
-    "line":1102
+    "line":1106
   },{
     "english":"^7Default item affix quality:",
     "file":"src/Modules/Main.lua",
-    "line":1109
+    "line":1113
   },{
     "english":"^7Show build warnings:",
     "file":"src/Modules/Main.lua",
-    "line":1115
+    "line":1119
   },{
     "english":"^7Show tooltips only for affected slots:",
     "file":"src/Modules/Main.lua",
-    "line":1121
+    "line":1125
   },{
     "english":"^7Copy Eldritch Implicits onto Display Item:",
     "file":"src/Modules/Main.lua",
-    "line":1127
+    "line":1131
   },{
     "english":"Apply Eldritch Implicits from current gear when comparing new gear, given the new item doesn't have any influence",
     "file":"src/Modules/Main.lua",
-    "line":1130
+    "line":1134
   },{
     "english":"^7Show tooltip for unsupported mods :",
     "file":"src/Modules/Main.lua",
-    "line":1134
+    "line":1138
   },{
     "english":"Show ^8(Not supported in PoB yet) ^7next to unsupported mods",
     "file":"src/Modules/Main.lua",
-    "line":1137
+    "line":1141
   },{
     "english":"^7Invert slider scroll direction:",
     "file":"src/Modules/Main.lua",
-    "line":1141
+    "line":1145
   },{
     "english":"Default scroll direction is:\nScroll Up = Move right\nScroll Down = Move left",
     "file":"src/Modules/Main.lua",
-    "line":1144
+    "line":1148
   },{
     "english":"^7Disable Dev AutoSave:",
     "file":"src/Modules/Main.lua",
-    "line":1149
+    "line":1153
   },{
     "english":"Do not Autosave builds while on Dev branch",
     "file":"src/Modules/Main.lua",
-    "line":1152
+    "line":1156
   },{
     "english":"Save",
     "file":"src/Modules/Main.lua",
-    "line":1172
+    "line":1176
   },{
     "english":"Cancel",
     "file":"src/Modules/Main.lua",
-    "line":1197
+    "line":1201
+  },{
+    "english":"Options",
+    "file":"src/Modules/Main.lua",
+    "line":1248
+  },{
+    "english":"save",
+    "file":"src/Modules/Main.lua",
+    "line":1248,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"cancel",
+    "file":"src/Modules/Main.lua",
+    "line":1248,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":"Update",
     "file":"src/Modules/Main.lua",
-    "line":1329
+    "line":1333
   },{
     "english":"Cancel",
     "file":"src/Modules/Main.lua",
-    "line":1336
+    "line":1340
+  },{
+    "english":"Update Available",
+    "file":"src/Modules/Main.lua",
+    "line":1343
+  },{
+    "english":"Contents",
+    "file":"src/Modules/Main.lua",
+    "line":1410
+  },{
+    "english":"Contents",
+    "file":"src/Modules/Main.lua",
+    "line":1418
   },{
     "english":"Close",
     "file":"src/Modules/Main.lua",
-    "line":1432
+    "line":1436
   },{
     "english":"^7Path of Building Community Fork v",
     "file":"src/Modules/Main.lua",
-    "line":1435
+    "line":1439
   },{
     "english":"^7Based on Openarl's Path of Building",
     "file":"src/Modules/Main.lua",
-    "line":1436
+    "line":1440
   },{
     "english":"^7GitHub page: ^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding",
     "file":"src/Modules/Main.lua",
-    "line":1437
+    "line":1441
   },{
     "english":"^7Version history:",
     "file":"src/Modules/Main.lua",
-    "line":1440
+    "line":1445
   },{
     "english":"^7Help:",
     "file":"src/Modules/Main.lua",
-    "line":1444
+    "line":1449
+  },{
+    "english":"About",
+    "file":"src/Modules/Main.lua",
+    "line":1457
+  },{
+    "english":"Error",
+    "file":"src/Modules/Main.lua",
+    "line":1562
+  },{
+    "english":"Couldn't move '",
+    "file":"src/Modules/Main.lua",
+    "line":1562,
+    "reason":"Assembled source fragment; complete-message example 40 verified in three language modes"
+  },{
+    "english":"' to '",
+    "file":"src/Modules/Main.lua",
+    "line":1562,
+    "reason":"Assembled source fragment; complete-message example 38 verified in three language modes"
+  },{
+    "english":"Error",
+    "file":"src/Modules/Main.lua",
+    "line":1583
+  },{
+    "english":"Couldn't move '",
+    "file":"src/Modules/Main.lua",
+    "line":1583,
+    "reason":"Assembled source fragment; complete-message example 40 verified in three language modes"
+  },{
+    "english":"' to '",
+    "file":"src/Modules/Main.lua",
+    "line":1583,
+    "reason":"Assembled source fragment; complete-message example 38 verified in three language modes"
+  },{
+    "english":"Error",
+    "file":"src/Modules/Main.lua",
+    "line":1594
+  },{
+    "english":"Couldn't delete '",
+    "file":"src/Modules/Main.lua",
+    "line":1594,
+    "reason":"Assembled source fragment; complete-message example 41 verified in three language modes"
+  },{
+    "english":"Error",
+    "file":"src/Modules/Main.lua",
+    "line":1603
+  },{
+    "english":"Couldn't copy '",
+    "file":"src/Modules/Main.lua",
+    "line":1603,
+    "reason":"Assembled source fragment; complete-message example 39 verified in three language modes"
+  },{
+    "english":"' to '",
+    "file":"src/Modules/Main.lua",
+    "line":1603,
+    "reason":"Assembled source fragment; complete-message example 38 verified in three language modes"
+  },{
+    "english":"Error",
+    "file":"src/Modules/Main.lua",
+    "line":1625
+  },{
+    "english":"Couldn't copy '",
+    "file":"src/Modules/Main.lua",
+    "line":1625,
+    "reason":"Assembled source fragment; complete-message example 39 verified in three language modes"
+  },{
+    "english":"' to '",
+    "file":"src/Modules/Main.lua",
+    "line":1625,
+    "reason":"Assembled source fragment; complete-message example 38 verified in three language modes"
   },{
     "english":"Ok",
     "file":"src/Modules/Main.lua",
-    "line":1646
+    "line":1651
+  },{
+    "english":"VAR",
+    "file":"src/Modules/Main.lua",
+    "line":1654,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"close",
+    "file":"src/Modules/Main.lua",
+    "line":1654,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"VAR",
+    "file":"src/Modules/Main.lua",
+    "line":1690,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"confirm",
+    "file":"src/Modules/Main.lua",
+    "line":1690,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":"Cancel",
     "file":"src/Modules/Main.lua",
-    "line":1692
+    "line":1697
+  },{
+    "english":"VAR",
+    "file":"src/Modules/Main.lua",
+    "line":1700,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"confirm",
+    "file":"src/Modules/Main.lua",
+    "line":1700,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"LabelControl",
+    "file":"src/Modules/Main.lua",
+    "line":1706,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
   },{
     "english":"^7Enter folder name:",
     "file":"src/Modules/Main.lua",
-    "line":1701
+    "line":1706
   },{
     "english":"Create",
     "file":"src/Modules/Main.lua",
-    "line":1705
+    "line":1710
+  },{
+    "english":"Error",
+    "file":"src/Modules/Main.lua",
+    "line":1714
+  },{
+    "english":"Couldn't create '",
+    "file":"src/Modules/Main.lua",
+    "line":1714,
+    "reason":"Assembled source fragment; complete-message example 43 verified in three language modes"
   },{
     "english":"Cancel",
     "file":"src/Modules/Main.lua",
-    "line":1718
+    "line":1723
+  },{
+    "english":"New Folder",
+    "file":"src/Modules/Main.lua",
+    "line":1729
+  },{
+    "english":"create",
+    "file":"src/Modules/Main.lua",
+    "line":1729,
+    "reason":"Assembled source fragment; complete-message example 30 verified in three language modes"
+  },{
+    "english":"edit",
+    "file":"src/Modules/Main.lua",
+    "line":1729,
+    "reason":"Assembled source fragment; complete-message example 24 verified in three language modes"
+  },{
+    "english":"cancel",
+    "file":"src/Modules/Main.lua",
+    "line":1729,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":" ^1Error ",
     "file":"src/Modules/Main.lua",
-    "line":1734
+    "line":1739
+  },{
+    "english":"nil",
+    "file":"src/Modules/Main.lua",
+    "line":1741,
+    "reason":"Parser pattern, serialized field, condition type or control property; preserve the internal value."
   },{
     "english":"Help (web)",
     "file":"src/Modules/Main.lua",
-    "line":1746
+    "line":1751
   },{
     "english":"Ok",
     "file":"src/Modules/Main.lua",
-    "line":1750
+    "line":1755
+  },{
+    "english":"VAR",
+    "file":"src/Modules/Main.lua",
+    "line":1758,
+    "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"close",
+    "file":"src/Modules/Main.lua",
+    "line":1758,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
+  },{
+    "english":"Socketed%sGemsIn{SlotName}",
+    "file":"src/Modules/ModParser.lua",
+    "format_arguments":[""],
+    "line":4453,
+    "reason":"Internal control, parser, asset or API key; never translate the stored value."
   },{
     "english":"Dismiss",
     "file":"src/Modules/ToastNotification.lua",
@@ -16346,4 +18950,14 @@
     "file":"src/Modules/ToastNotification.lua",
     "line":228,
     "reason":"Technical identifier, service name, or constructor geometry; preserve original"
+  },{
+    "english":"Could not open %s for writing table: %s",
+    "file":"src/Modules/Utils.lua",
+    "format_arguments":["",""],
+    "line":93
+  },{
+    "english":"Failed to write to %s: %s",
+    "file":"src/Modules/Utils.lua",
+    "format_arguments":["",""],
+    "line":119
   }]

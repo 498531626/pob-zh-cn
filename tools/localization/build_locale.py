@@ -59,6 +59,8 @@ def build():
                     for k, v in json.loads((HERE / 'tree-detail-ui.json').read_text('utf8')).items()})
     entries.update({k: {'zh': v, 'kind': 'ui-detail', 'status': 'source-code-checked'}
                     for k, v in json.loads((HERE / 'remaining-ui.json').read_text('utf8')).items()})
+    entries.update({k: {'zh': v, 'kind': 'ui-detail', 'status': 'source-code-checked'}
+                    for k, v in json.loads((HERE / 'interface-ui.json').read_text('utf8')).items()})
     for en, zh in json.loads((HERE / 'calc-notes.json').read_text('utf8')).items():
         meta = {'zh': zh, 'kind': 'calculation-explanation', 'status': 'source-code-checked',
                 'source': 'src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua'}
@@ -218,6 +220,11 @@ def build():
     (OUT / 'ItemDisplayTerms.lua').write_text('return {\n' + ''.join(
         '[' + lua(en) + ']=' + lua(zh) + ',\n' for en, zh in item_ui.items()) + '}\n', 'utf8')
     formats = compile_formats(json.loads((HERE / 'display-formats.json').read_text('utf8')))
+    ui_formats = compile_formats(json.loads((HERE / 'interface-formats.json').read_text('utf8')))
+    ui_formats.sort(key=lambda row: -len(row['english']))
+    for row in ui_formats:
+        row['kinds'] = ['text' if kind == 'term' else kind for kind in row['kinds']]
+    formats = ui_formats + formats
     display_terms = json.loads((HERE / 'display-format-terms.json').read_text('utf8'))
     for prefix in ('Ancestral', 'Infernal', 'Intimidating', 'Rallying', 'Seismic', 'Battlemage'):
         name = entries.get(prefix + ' Cry', {}).get('zh')

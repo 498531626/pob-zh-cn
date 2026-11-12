@@ -309,7 +309,7 @@ function EditClass:Draw(viewPort, noTooltip)
 	if not self.hasFocus then
 		if self.buf == '' and self.placeholder then
 			SetDrawColor(self.disableCol)
-			DrawString(-self.controls.scrollBarH.offset, -self.controls.scrollBarV.offset, "LEFT", textHeight, self.font, self.placeholder)
+			DrawString(-self.controls.scrollBarH.offset, -self.controls.scrollBarV.offset, "LEFT", textHeight, self.font, displayPrompt(self.placeholder))
 		else
 			SetDrawColor(self.inactiveCol)
 			if self.inactiveText then
@@ -427,7 +427,7 @@ function EditClass:Draw(viewPort, noTooltip)
 	else
 		if self.buf == '' and self.placeholder then
 			SetDrawColor(self.disableCol)
-			DrawString(textX, textY, "LEFT", textHeight, self.font, self.placeholder)
+			DrawString(textX, textY, "LEFT", textHeight, self.font, displayPrompt(self.placeholder))
 		end
 		local pre = self.textCol .. self.buf:sub(1, self.caret - 1)
 		local post = self.buf:sub(self.caret)
