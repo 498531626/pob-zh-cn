@@ -233,11 +233,12 @@ function main:Init()
 	self.controls.checkUpdate.enabled = function()
 		return not launch.updateCheckRunning
 	end
-	self.controls.forkLabel = new("LabelControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {148, -26, 0, 16}, "")
+	self.controls.forkLabel = new("LabelControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {148, -34, 152, 14}, "")
 	self.controls.forkLabel.label = function()
-		return "^8PoB Community Fork  |  " .. Localization.credit
+		return "^8PoB Community Fork"
 	end
-	self.controls.versionLabel = new("LabelControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {148, -2, 0, 16}, "")
+	self.controls.localizationCredit = new("LabelControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {148, -18, 152, 14}, "^8" .. Localization.credit)
+	self.controls.versionLabel = new("LabelControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {148, -2, 152, 14}, "")
 	self.controls.versionLabel.label = function()
 		return "^8" .. (launch.versionBranch == "beta" and "Beta: " or "Version: ") .. launch.versionNumber .. (launch.versionBranch == "dev" and " (Dev)" or "")
 	end
@@ -399,11 +400,10 @@ function main:OnFrame()
 	self.mainBarHeight = 58 + totalToastHeight
 
 	-- Draw main controls
-	local mainBarWidth = m_max(312, 160 + self.controls.forkLabel:GetSize(), 160 + self.controls.versionLabel:GetSize())
 	SetDrawColor(0.85, 0.85, 0.85)
-	DrawImage(nil, 0, self.screenH - 58, mainBarWidth, 58)
+	DrawImage(nil, 0, self.screenH - 58, 312, 58)
 	SetDrawColor(0.1, 0.1, 0.1)
-	DrawImage(nil, 0, self.screenH - 54, mainBarWidth - 4, 54)
+	DrawImage(nil, 0, self.screenH - 54, 308, 54)
 	self:DrawControls(self.viewPort)
 
 	if self.popups[1] then
