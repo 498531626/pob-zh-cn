@@ -175,6 +175,15 @@ def build_items(known_entries=None, known_templates=()):
     for en, zh in json.loads((HERE / 'unique-reviewed.json').read_text('utf8')).items():
         reviewed[en] = {'zh': zh, 'kind': 'unique-reviewed', 'status': 'source-clause-reviewed',
                         'source': 'Data/Uniques; https://poedb.tw/cn/Unique_item'}
+    for line in (HERE / 'unique-extra-reviewed.tsv').read_text('utf8').splitlines():
+        if not line or line.startswith('//'): continue
+        en, zh = line.split('\t')
+        ids = iter(range(en.count('#')))
+        en = re.sub('#', lambda m: '{'+str(next(ids))+'}', en)
+        if en in reviewed:
+            raise ValueError('Duplicate reviewed unique clause: '+en)
+        reviewed[en] = {'zh': zh, 'kind': 'unique-reviewed', 'status': 'source-clause-reviewed',
+                        'source': 'Data/Uniques; tools/localization/unique-extra-reviewed.tsv'}
     entries = {en: next(iter(v.values())) for en, v in exact.items() if len(v) == 1}
     templates = {en: next(iter(v.values())) for en, v in patterns.items() if len(v) == 1}
     for en, meta in reviewed.items():
@@ -192,6 +201,8 @@ def build_items(known_entries=None, known_templates=()):
     # Compose complete, finite source clauses from already verified terms.
     # The resulting exact text and numeric template are still display-only.
     shared = dict(known_entries or {}, **entries)
+    folded = defaultdict(dict)
+    for en, meta in shared.items(): folded[en.casefold()][meta['zh']] = meta
     terms = {k.casefold(): v['zh'] for k, v in shared.items()
              if not re.search(r'[A-Za-z]', v['zh']) and not NUMBER.search(k)}
     expressions = defaultdict(list)
@@ -199,13 +210,15 @@ def build_items(known_entries=None, known_templates=()):
         parts = re.split(r'(\{\d+\})', t['en'])
         expression = ''.join(AMOUNT if re.fullmatch(r'\{\d+\}', part) else re.escape(part) for part in parts)
         word = re.search(r'[A-Za-z]+', t['en'])
-        expressions[word[0] if word else ''].append((re.compile('^'+expression+'$'), t['zh']))
+        expressions[word[0].casefold() if word else ''].append((re.compile('^'+expression+'$', re.I), t['zh']))
     resolving = set()
     @lru_cache(maxsize=50000)
     def resolve(text):
         if text in shared: return shared[text]['zh']
+        matches = folded.get(text.casefold(), {})
+        if len(matches)==1: return next(iter(matches))
         word = re.search(r'[A-Za-z]+', text)
-        for pattern, zh in expressions[word[0] if word else '']:
+        for pattern, zh in expressions[word[0].casefold() if word else '']:
             match = pattern.fullmatch(text)
             if match:
                 return re.sub(r'\{(\d+)\}', lambda m: match[int(m[1])+1], zh)

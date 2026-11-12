@@ -87689,25 +87689,6 @@
     "english":"Zerphi's Last Breath",
     "kind":"unique-name"
   },{
-    "english":"\tHas Alt Variant: true",
-    "kind":"unique-stat",
-    "source":"Data/Uniques/Special/Generated.lua"
-  },{
-    "english":"\tLevelReq: 56",
-    "kind":"unique-stat",
-    "source":"Data/Uniques/Special/Generated.lua"
-  },{
-    "english":"\tSelected Alt Variant: 3",
-    "kind":"unique-stat",
-    "source":"Data/Uniques/Special/Generated.lua"
-  },{
-    "english":"\tSelected Variant: 2",
-    "kind":"unique-stat",
-    "source":"Data/Uniques/Special/Generated.lua"
-  },{
-    "english":" Wolf Alpha Talisman",
-    "kind":"unique-stat"
-  },{
     "english":"(-10-10)% reduced Charges per use",
     "kind":"unique-stat"
   },{
@@ -106258,6 +106239,12 @@
     "english":"Drops Shocked Ground while moving, lasting 2 seconds",
     "kind":"unique-stat"
   },{
+    "english":"Duelist: +2 to Melee Strike Range",
+    "kind":"unique-stat"
+  },{
+    "english":"Duelist: 1% of Attack Damage Leeched as Life",
+    "kind":"unique-stat"
+  },{
     "english":"During Effect, 10% reduced Damage taken of each Element for which your Uncapped Elemental Resistance is lowest",
     "kind":"unique-stat"
   },{
@@ -108825,6 +108812,45 @@
     "english":"Leech Energy Shield instead of Life",
     "kind":"unique-stat"
   },{
+    "english":"Left Ring Slot: Your Chilling Skitterbot's Aura applies Socketed Hex Curse instead",
+    "kind":"unique-stat"
+  },{
+    "english":"Left Ring slot: Cover Enemies in Ash for 5 seconds when you Ignite them",
+    "kind":"unique-stat"
+  },{
+    "english":"Left ring slot: +100 to maximum Energy Shield",
+    "kind":"unique-stat"
+  },{
+    "english":"Left ring slot: +250 to maximum Energy Shield",
+    "kind":"unique-stat"
+  },{
+    "english":"Left ring slot: 100% increased Mana Regeneration Rate",
+    "kind":"unique-stat"
+  },{
+    "english":"Left ring slot: Projectiles from Spells Fork",
+    "kind":"unique-stat"
+  },{
+    "english":"Left ring slot: Projectiles from Spells cannot Chain",
+    "kind":"unique-stat"
+  },{
+    "english":"Left ring slot: Regenerate 40 Mana per Second",
+    "kind":"unique-stat"
+  },{
+    "english":"Left ring slot: You cannot Recharge or Regenerate Energy Shield",
+    "kind":"unique-stat"
+  },{
+    "english":"Left ring slot: you and your Minions prevent +100% of Reflected Elemental Damage",
+    "kind":"unique-stat"
+  },{
+    "english":"Left ring slot: you and your Minions prevent +30% of Reflected Elemental Damage",
+    "kind":"unique-stat"
+  },{
+    "english":"Left ring slot: you and your Minions prevent +40% of Reflected Elemental Damage",
+    "kind":"unique-stat"
+  },{
+    "english":"Left ring slot: you and your Minions prevent +80% of Reflected Elemental Damage",
+    "kind":"unique-stat"
+  },{
     "english":"Leftmost (2-4) Magic Utility Flasks constantly apply their Flask Effects to you",
     "kind":"unique-stat"
   },{
@@ -109087,6 +109113,15 @@
     "kind":"unique-stat"
   },{
     "english":"Maraketh Bow",
+    "kind":"unique-stat"
+  },{
+    "english":"Marauder: 1% of Life Regenerated per second",
+    "kind":"unique-stat"
+  },{
+    "english":"Marauder: Melee Skills have 15% increased Area of Effect",
+    "kind":"unique-stat"
+  },{
+    "english":"Marauder: Melee Skills have 25% increased Area of Effect",
     "kind":"unique-stat"
   },{
     "english":"Marble Amulet",
@@ -110025,7 +110060,7 @@
     "english":"Omen Wand",
     "kind":"unique-stat"
   },{
-    "english":"On Killing a Poisoned Enemy, Enemies within 3 metres are Poisoned ",
+    "english":"On Killing a Poisoned Enemy, Enemies within 3 metres are Poisoned",
     "kind":"unique-stat"
   },{
     "english":"On Killing a Rare monster, a random Linked Minion gains its Modifiers for 60 seconds",
@@ -110146,6 +110181,12 @@
     "kind":"unique-stat"
   },{
     "english":"Passive Skills in Radius also grant 7% increased Evasion Rating",
+    "kind":"unique-stat"
+  },{
+    "english":"Passive Skills in Radius also grant: 1% increased Unarmed Attack Speed with Melee Skills",
+    "kind":"unique-stat"
+  },{
+    "english":"Passive Skills in Radius also grant: Traps and Mines deal (2-3) to (4-6) added Physical Damage",
     "kind":"unique-stat"
   },{
     "english":"Passive Skills in Radius can be Allocated without being connected to your tree",
@@ -110713,6 +110754,12 @@
     "kind":"unique-stat"
   },{
     "english":"Ranger Bow",
+    "kind":"unique-stat"
+  },{
+    "english":"Ranger: 20% increased Flask Charges gained",
+    "kind":"unique-stat"
+  },{
+    "english":"Ranger: 7% increased Movement Speed",
     "kind":"unique-stat"
   },{
     "english":"Rarity of Items dropped by Enemies Shattered by Glacial Hammer",
@@ -112328,6 +112375,48 @@
     "english":"Rhex Talisman",
     "kind":"unique-stat"
   },{
+    "english":"Right Ring Slot: Your Shocking Skitterbot's Aura applies Socketed Hex Curse instead",
+    "kind":"unique-stat"
+  },{
+    "english":"Right Ring slot: Cover Enemies in Frost for 5 seconds when you Freeze them",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: +100 to maximum Mana",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: +250 to maximum Mana",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: Projectiles from Spells Chain +1 times",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: Projectiles from Spells cannot Fork",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: Regenerate 3% of Energy Shield per second",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: Regenerate 4% of Energy Shield per second",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: Regenerate 6% of Energy Shield per second",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: You cannot Regenerate Mana",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: you and your Minions prevent +100% of Reflected Physical Damage",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: you and your Minions prevent +30% of Reflected Physical Damage",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: you and your Minions prevent +40% of Reflected Physical Damage",
+    "kind":"unique-stat"
+  },{
+    "english":"Right ring slot: you and your Minions prevent +80% of Reflected Physical Damage",
+    "kind":"unique-stat"
+  },{
     "english":"Ring",
     "kind":"unique-stat"
   },{
@@ -112471,6 +112560,12 @@
     "english":"Scholar's Robe",
     "kind":"unique-stat"
   },{
+    "english":"Scion: +25 to All Attributes",
+    "kind":"unique-stat"
+  },{
+    "english":"Scion: 30% increased Damage",
+    "kind":"unique-stat"
+  },{
     "english":"Scorch Enemies in Close Range when you Block",
     "kind":"unique-stat"
   },{
@@ -112514,6 +112609,12 @@
     "kind":"unique-stat"
   },{
     "english":"Shadow Sceptre",
+    "kind":"unique-stat"
+  },{
+    "english":"Shadow: +0.5% to Critical Strike Chance",
+    "kind":"unique-stat"
+  },{
+    "english":"Shadow: 12% increased Attack and Cast Speed",
     "kind":"unique-stat"
   },{
     "english":"Shagreen Boots",
@@ -115294,6 +115395,12 @@
     "english":"Teak Round Shield",
     "kind":"unique-stat"
   },{
+    "english":"Templar: +4% Chance to Block Attack and Spell Damage",
+    "kind":"unique-stat"
+  },{
+    "english":"Templar: Damage Penetrates 5% Elemental Resistances",
+    "kind":"unique-stat"
+  },{
     "english":"Temporal Chains has 30% reduced Effect on you",
     "kind":"unique-stat"
   },{
@@ -116088,6 +116195,12 @@
     "english":"Wintertide Brand has (20-30)% increased Chill Effect",
     "kind":"unique-stat"
   },{
+    "english":"Witch: 0.5% of Mana Regenerated per second",
+    "kind":"unique-stat"
+  },{
+    "english":"Witch: 20% increased Skill Effect Duration",
+    "kind":"unique-stat"
+  },{
     "english":"With 4 Notables Allocated in Radius, When you Kill a Rare monster, you gain 1 of its Modifiers for 20 seconds",
     "kind":"unique-stat"
   },{
@@ -116343,7 +116456,7 @@
     "english":"With at least 40 Strength in Radius, Ground Slam has a 35% chance",
     "kind":"unique-stat"
   },{
-    "english":"With at least 40 Strength in Radius, Heavy Strike has a ",
+    "english":"With at least 40 Strength in Radius, Heavy Strike has a",
     "kind":"unique-stat"
   },{
     "english":"With at least 40 Strength in Radius, Hits with Cleave Fortify",
@@ -116377,6 +116490,9 @@
     "kind":"unique-stat"
   },{
     "english":"Withered does not expire on Enemies Ignited by you",
+    "kind":"unique-stat"
+  },{
+    "english":"Wolf Alpha Talisman",
     "kind":"unique-stat"
   },{
     "english":"Wolf Pelt",
@@ -117142,6 +117258,15 @@
     "kind":"unique-stat"
   },{
     "english":"have fewer than 5 Poisons on you",
+    "kind":"unique-stat"
+  },{
+    "english":"instead grant: 10% increased Mana Cost of Skills and 20% increased Spell Damage",
+    "kind":"unique-stat"
+  },{
+    "english":"instead grant: Minions have 25% reduced Movement Speed",
+    "kind":"unique-stat"
+  },{
+    "english":"instead grant: Minions take 20% increased Damage",
     "kind":"unique-stat"
   },{
     "english":"it and your Class' starting location",
@@ -123775,6 +123900,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+10 Effective Hit Pool (+27.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+10 to Dexterity",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -123919,11 +124048,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+134 Fire Max Hit (+362.2%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+138 Effective Hit Pool (+361.1%)",
+    "english":"+149 Effective Hit Pool (+389.4%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -123971,6 +124096,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+17 Fire Max Hit (+45.9%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+18 to maximum Energy Shield",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -123988,6 +124117,10 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+190 to Accuracy Rating",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+191 Fire Max Hit (+516.2%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -124311,14 +124444,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+3 Effective Hit Pool (+6.6%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+3 Effective Hit Pool (+7.2%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+3 Phys Max Hit (+5.0%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -124507,10 +124632,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+4 Fire Max Hit (+10.8%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+4 to Level of Socketed Herald Gems",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -124595,7 +124716,23 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+47% Fire Resistance",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+47% to Fire Resistance",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+475 to Accuracy Rating",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+5 Effective Hit Pool (+12.7%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+5 Effective Hit Pool (+13.2%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -124787,18 +124924,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+65 Fire Max Hit (+175.7%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+66 Effective Hit Pool (+172.7%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+7 Effective Hit Pool (+19.5%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+7% Crit Chance",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -124812,6 +124937,10 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+70 to maximum Mana",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+72 Effective Hit Pool (+189.1%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -124831,14 +124960,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+9% Fire Resistance",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+9% to Fire Resistance",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+94 Energy Shield",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -124848,6 +124969,10 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+97 Phys Max Hit (+161.7%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+98 Fire Max Hit (+264.9%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -125108,6 +125233,10 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"0.4% of Chaos Damage Leeched as Life",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"0.4% of Fire Damage Leeched as Life",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{

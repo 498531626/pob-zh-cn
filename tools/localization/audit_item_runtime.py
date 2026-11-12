@@ -44,6 +44,8 @@ local L=Localization
 local json=require('dkjson')
 newBuild()
 local inventory,inventorySeen={},{}
+local propertyFields={marauder=true,duelist=true,ranger=true,shadow=true,witch=true,templar=true,scion=true,
+ ['left ring slot']=true,['right ring slot']=true,['instead grant']=true,['passive skills in radius also grant']=true}
 local function inventoryAdd(text,kind,source)
  if type(text)~='string'or not text:match('%a')then return end
  local key=kind..'\0'..text
@@ -62,8 +64,9 @@ for _,raw in ipairs(data.uniques.generated)do
  while lines[title]and (lines[title]:match('^Item Class:')or lines[title]:match('^Rarity:'))do title=title+1 end
  inventoryAdd(lines[title],'unique-name','Data/Uniques/Special/Generated.lua')
  for i=title+2,#lines do
-  local line=lines[i]:gsub('{[^}]+}','')
-  if not line:match('^%a[%a ]*:')and not line:match('^%-%-')then
+  local line=lines[i]:gsub('{[^}]+}',''):match('^%s*(.-)%s*$')
+  local field=line:match('^(%a[%a ]*):')
+  if (not field or propertyFields[field:lower()])and not line:match('^%-%-')then
    inventoryAdd(line,'unique-stat','Data/Uniques/Special/Generated.lua')
   end
  end

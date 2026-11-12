@@ -20,6 +20,8 @@ def export():
 package.path='../runtime/lua/?.lua;'..package.path
 local json=require('dkjson')
 local rows,seen={},{}
+local propertyFields={marauder=true,duelist=true,ranger=true,shadow=true,witch=true,templar=true,scion=true,
+ ['left ring slot']=true,['right ring slot']=true,['instead grant']=true,['passive skills in radius also grant']=true}
 local function add(text,kind,source)
  if type(text)~='string' or not text:match('%a')then return end
  local key=kind..'\0'..text
@@ -36,8 +38,9 @@ for _,p in ipairs(paths.Uniques)do
   local lines={};for line in raw:gmatch('[^\n\r]+')do lines[#lines+1]=line end
   add(lines[1],'unique-name')
   for i=2,#lines do
-   local line=lines[i]:gsub('{[^}]+}','')
-   if not line:match('^%a[%a ]*:')and not line:match('^%-%-')then add(line,'unique-stat')end
+   local line=lines[i]:gsub('{[^}]+}',''):match('^%s*(.-)%s*$')
+   local field=line:match('^(%a[%a ]*):')
+   if (not field or propertyFields[field:lower()])and not line:match('^%-%-')then add(line,'unique-stat')end
   end
  end
 end

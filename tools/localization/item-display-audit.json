@@ -7,17 +7,16 @@
     "craft-stat-group":4202,
     "item-type":46,
     "unique-name":1328,
-    "unique-stat":9188,
-    "unique-tooltip":8883
+    "unique-stat":9231,
+    "unique-tooltip":8884
   },
   "pending_by_kind":{
     "affix-name":867,
-    "base-name":5,
-    "base-stat":33,
-    "craft-stat":2312,
-    "craft-stat-group":2645,
-    "unique-stat":1573,
-    "unique-tooltip":493
+    "base-name":4,
+    "base-stat":25,
+    "craft-stat":1221,
+    "craft-stat-group":2467,
+    "unique-tooltip":279
   },
-  "total":47290
+  "total":47334
 }

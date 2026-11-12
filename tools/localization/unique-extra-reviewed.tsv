@@ -1,0 +1,525 @@
+// English numeric shape	Reviewed Chinese; placeholders retain English numeric order
+# Cinderflame, applying #% to Fire Resistance	{0} 层灰烬余火，使火焰抗性 {1}%
+# Lightning Damage taken per second per Power Charge if	每个暴击球使每秒受到 {0} 闪电伤害，条件为
+# Mana gained on Killing a Frozen Enemy	击败被冻结的敌人时获得 {0} 魔力
+# Shaper Items are Equipped	装备了 {0} 件塑界者物品
+# Warlord Items are Equipped	装备了 {0} 件督军物品
+# to # Cold Damage per Frenzy Charge	每个狂怒球附加 {0} - {1} 冰霜伤害
+# to Accuracy Rating per # Intelligence on Unallocated Passives in Radius	范围内未分配天赋上的每 {1} 点智慧提供 {0} 命中值
+# to Maximum Mana per # Dexterity on Unallocated Passives in Radius	范围内未分配天赋上的每 {1} 点敏捷提供 {0} 魔力上限
+# to Maximum Siphoning Charges per Elder or Shaper Item Equipped	每装备一件裂界者或塑界者物品，轮回球数量上限 {0}
+# to Minimum Endurance, Frenzy and Power Charges	耐力球、狂怒球和暴击球数量下限 {0}
+# to Spectre maximum Life	灵体生命上限 {0}
+# to Strength and Intelligence	力量和智慧 {0}
+#% Chance to Block Attack Damage while Dual Wielding Claws	双持爪类武器时，攻击伤害格挡几率 {0}%
+#% additional Physical Damage Reduction from Hits per Siphoning Charge	每个轮回球额外提供 {0}% 击中物理伤害减免
+#% additional Physical Damage Reduction per # Strength on Allocated Passives in Radius	范围内已分配天赋上的每 {1} 点力量额外提供 {0}% 物理伤害减免
+#% chance that if you would gain Endurance Charges, you instead gain up to your maximum number of Endurance Charges	获得耐力球时，有 {0}% 的几率改为获得数量上限的耐力球
+#% chance that if you would gain Power Charges, you instead gain up to	获得暴击球时，有 {0}% 的几率改为获得最多
+#% chance that if you would gain a Crab Barrier, you instead gain up to	获得深海屏障时，有 {0}% 的几率改为获得最多
+#% chance to Avoid Elemental Damage from Hits during Soul Gain Prevention	阻灵术期间，有 {0}% 的几率避免击中的元素伤害
+#% chance to Blind Enemies which Hit you while affected by Grace	受到优雅影响时，有 {0}% 的几率致盲击中你的敌人
+#% chance to Poison on Hit against Cursed Enemies	击中被诅咒的敌人时有 {0}% 的几率造成中毒
+#% chance to Poison per Power Charge	每个暴击球使中毒几率提高 {0}%
+#% chance to Trigger a Socketed Lightning Spell on Hit, with a # second Cooldown	击中时有 {0}% 的几率触发插槽内的一个闪电法术，冷却时间为 {1} 秒
+#% chance to Trigger a Socketed Spell when you Attack with a Bow, with a # second Cooldown	使用弓攻击时有 {0}% 的几率触发插槽内的一个法术，冷却时间为 {1} 秒
+#% chance to create Profane Ground on Critical	暴击时有 {0}% 的几率制造渎神地面
+#% chance to create Shocked Ground when Hit	被击中时有 {0}% 的几率制造感电地面
+#% chance to gain Adrenaline for # Seconds when Leech is	偷取被移除时，有 {0}% 的几率获得 {1} 秒肾上腺素，移除方式为
+#% chance to gain Onslaught for # Seconds when Leech is	偷取被移除时，有 {0}% 的几率获得 {1} 秒猛攻，移除方式为
+#% chance to gain Unholy Might on Block for # seconds	格挡时有 {0}% 的几率获得 {1} 秒不洁之力
+#% chance to gain a Endurance Charge on Kill	击败敌人时有 {0}% 的几率获得一个耐力球
+#% chance to gain a Frenzy Charge on Killing an Enemy affected by at least # Poisons	击败至少有 {1} 层中毒的敌人时，有 {0}% 的几率获得一个狂怒球
+#% chance to gain a Frenzy Charge when you Stun an Enemy	晕眩敌人时有 {0}% 的几率获得一个狂怒球
+#% chance to gain a Power Charge if you Knock an Enemy Back with Melee Damage	用近战伤害击退敌人时有 {0}% 的几率获得一个暴击球
+#% chance to gain a Power Charge on Killing a Frozen Enemy	击败被冻结的敌人时有 {0}% 的几率获得一个暴击球
+#% chance to gain a Power Charge on Killing an Enemy affected by fewer than # Poisons	击败中毒层数少于 {1} 的敌人时，有 {0}% 的几率获得一个暴击球
+#% chance to gain a Power Charge on hitting an Enemy affected by a Spider's Web	击中被蛛网影响的敌人时，有 {0}% 的几率获得一个暴击球
+#% chance to gain a Siphoning Charge when you use a Skill	使用技能时有 {0}% 的几率获得一个轮回球
+#% chance to gain a Spirit Charge on Kill	击败敌人时有 {0}% 的几率获得一个精神能量球
+#% chance to gain an Endurance Charge when you Stun an Enemy	晕眩敌人时有 {0}% 的几率获得一个耐力球
+#% chance to gain an Endurance, Frenzy or Power Charge when any	有 {0}% 的几率获得一个耐力球、狂怒球或暴击球，当任意
+#% chance to gain an Frenzy Charge on Kill	击败敌人时有 {0}% 的几率获得一个狂怒球
+#% chance to gain an Power Charge on Kill	击败敌人时有 {0}% 的几率获得一个暴击球
+#% chance to grant a Frenzy Charge to nearby Allies on Hit	击中时有 {0}% 的几率为附近友军提供一个狂怒球
+#% chance to grant a Power Charge to nearby Allies on Kill	击败敌人时有 {0}% 的几率为附近友军提供一个暴击球
+#% chance when you Kill a Scorched Enemy to Burn Each surrounding	击败被灼烧的敌人时，有 {0}% 的几率燃烧周围每个
+#% increased Attack, Cast and Movement Speed while you do not have Iron Reflexes	未拥有霸体时，攻击、施法和移动速度提高 {0}%
+#% increased Cold Damage per #% Cold Resistance above #%	冰霜抗性超过 {2}% 的部分，每 {1}% 使冰霜伤害提高 {0}%
+#% increased Cold Damage per #% Missing Cold Resistance, up to a maximum of #%	每缺少 {1}% 冰霜抗性，冰霜伤害提高 {0}%，最多提高 {2}%
+#% increased Cooldown Recovery Rate of Movement Skills used while affected by Haste	受到迅捷影响时使用的位移技能冷却回复速度提高 {0}%
+#% increased Critical Strike Chance against Enemies on Consecrated Ground while affected by Zealotry	受到奋锐光环影响时，对奉献地面上的敌人暴击几率提高 {0}%
+#% increased Damage for each type of Abyss Jewel affecting you	每种影响你的深渊珠宝使伤害提高 {0}%
+#% increased Damage with Hits against Rare monsters	对稀有怪物的击中伤害提高 {0}%
+#% increased Duration of Ailments you inflict while Focused	专注时，你施加的异常状态持续时间延长 {0}%
+#% increased Duration of Poisons you inflict during Effect	药剂持续期间，你施加的中毒持续时间延长 {0}%
+#% increased Effect of Arcane Surge on you per	你身上的秘术增强效果提高 {0}%，每个
+#% increased Effect of Chill on you	你受到的冰缓效果提高 {0}%
+#% increased Effect of non-Damaging Ailments on Enemies	对敌人的非伤害型异常状态效果提高 {0}%
+#% increased Effect of non-Damaging Ailments on Enemies per # Devotion	每 {1} 点奉献使对敌人的非伤害型异常状态效果提高 {0}%
+#% increased Elemental Damage per Sextant affecting the area	每个影响此区域的六分仪使元素伤害提高 {0}%
+#% increased Elemental Damage with Hits and Ailments for	击中和异常状态的元素伤害提高 {0}%，对应
+#% increased Fire Damage per #% Missing Fire Resistance, up to a maximum of #%	每缺少 {1}% 火焰抗性，火焰伤害提高 {0}%，最多提高 {2}%
+#% increased Ignite Duration on you	你受到的点燃持续时间延长 {0}%
+#% increased Lightning Damage per #% Lightning Resistance above #%	闪电抗性超过 {2}% 的部分，每 {1}% 使闪电伤害提高 {0}%
+#% increased Main Hand Critical Strike Chance per	主手暴击几率提高 {0}%，每个
+#% increased Movement Speed for you and nearby Allies	你和附近友军的移动速度提高 {0}%
+#% increased Poison Duration for each Poison you have inflicted Recently, up	近期内你每施加一层中毒，中毒持续时间延长 {0}%，最多
+#% increased Quantity of Items Dropped by Slain Frozen Enemies	击败被冻结的敌人时，物品掉落数量提高 {0}%
+#% increased Quantity of Items found with a Magic Item Equipped	装备魔法物品时，物品掉落数量提高 {0}%
+#% increased Rage Cost Efficiency	怒火消耗效能提高 {0}%
+#% increased Rarity of Items found with a Normal Item Equipped	装备普通物品时，物品掉落稀有度提高 {0}%
+#% increased Recovery rate of Life and Energy Shield per Power Charge	每个暴击球使生命和能量护盾回复速度提高 {0}%
+#% increased Recovery rate of Life and Energy Shield while affected by Malevolence	受到怨毒光环影响时，生命和能量护盾回复速度提高 {0}%
+#% increased effect of Non-Curse Auras per # Devotion	每 {1} 点奉献使非诅咒光环效果提高 {0}%
+#% increased total Recovery per second from Life, Mana, or Energy Shield Leech	生命、魔力或能量护盾偷取的每秒总回复量提高 {0}%
+#% less Effect of Curses from Socketed Hex Skills	插槽内魔蛊技能的诅咒效果总降 {0}%
+#% more Damage with Arrow Hits at Close Range while you have Iron Reflexes	拥有霸体时，近距离箭矢击中伤害总增 {0}%
+#% more Physical and Chaos Damage Taken while Sane	理智状态下，受到的物理和混沌伤害总增 {0}%
+#% of Attack Damage Leeched as Life against Taunted Enemies	对被嘲讽敌人造成的攻击伤害的 {0}% 转化为生命偷取
+#% of Cold Damage from Hits taken as Fire Damage	受到的击中冰霜伤害的 {0}% 转化为火焰伤害
+#% of Cold Damage from Hits taken as Lightning Damage	受到的击中冰霜伤害的 {0}% 转化为闪电伤害
+#% of Damage Leeched as Life for Skills used by Totems	图腾使用的技能将伤害的 {0}% 转化为生命偷取
+#% of Damage Leeched as Life while you have at least # total Endurance, Frenzy and Power Charges	耐力球、狂怒球和暴击球合计至少 {1} 个时，伤害的 {0}% 转化为生命偷取
+#% of Damage Leeched as Mana against Frozen Enemies	对被冻结敌人造成的伤害的 {0}% 转化为魔力偷取
+#% of Damage against Frozen Enemies Leeched as Life	对被冻结敌人造成的伤害的 {0}% 转化为生命偷取
+#% of Damage taken from Mana before Life while affected by Clarity	受到清晰影响时，受到伤害的 {0}% 优先从魔力扣除
+#% of Damage taken while affected by Clarity Recouped as Mana	受到清晰影响时，将受到伤害的 {0}% 补偿为魔力
+#% of Elemental Damage Leeched as Energy Shield if # Shaper Items are Equipped	装备 {1} 件塑界者物品时，元素伤害的 {0}% 转化为能量护盾偷取
+#% of Evasion Rating is Regenerated as Life per second while Focused	专注时，每秒再生等于闪避值 {0}% 的生命
+#% of Fire Damage from Hits taken as Lightning Damage	受到的击中火焰伤害的 {0}% 转化为闪电伤害
+#% of Fire and Cold Damage taken as Lightning Damage while	受到的火焰和冰霜伤害的 {0}% 转化为闪电伤害，当
+#% of Fire and Lightning Damage taken as Cold Damage while affected by Purity of Ice	受到冰霜净化影响时，受到的火焰和闪电伤害的 {0}% 转化为冰霜伤害
+#% of Lightning Damage Leeched as Mana during Effect	药剂持续期间，闪电伤害的 {0}% 转化为魔力偷取
+#% of Lightning Damage from Hits taken as Cold Damage	受到的击中闪电伤害的 {0}% 转化为冰霜伤害
+#% of Lightning Damage from Hits taken as Fire Damage	受到的击中闪电伤害的 {0}% 转化为火焰伤害
+#% of Lightning Damage is Leeched as Energy Shield while affected by Wrath	受到雷霆影响时，闪电伤害的 {0}% 转化为能量护盾偷取
+#% of Lightning Damage is Leeched as Mana while affected by Wrath	受到雷霆影响时，闪电伤害的 {0}% 转化为魔力偷取
+#% of Physical Damage Converted to Lightning during Effect	药剂持续期间，物理伤害的 {0}% 转化为闪电伤害
+#% of Physical Damage Leeched as Energy Shield if # Elder Items are Equipped	装备 {1} 件裂界者物品时，物理伤害的 {0}% 转化为能量护盾偷取
+#% of Physical Damage Prevented Recently is Regenerated as Energy Shield Per Second if # Crusader Items are Equipped	装备 {1} 件圣战者物品时，每秒再生等于近期内防止的物理伤害 {0}% 的能量护盾
+#% of Physical Damage taken as Cold Damage if # Redeemer Items are Equipped	装备 {1} 件救赎者物品时，受到的物理伤害的 {0}% 转化为冰霜伤害
+#% of Physical Damage taken as Lightning Damage if # Crusader Items are Equipped	装备 {1} 件圣战者物品时，受到的物理伤害的 {0}% 转化为闪电伤害
+#% reduced Chance to Block Attack and Spell Damage	攻击和法术伤害格挡几率降低 {0}%
+#% reduced Chill Duration on you	你受到的冰缓持续时间缩短 {0}%
+#% reduced Mana Cost of Minion Skills	召唤生物技能的魔力消耗降低 {0}%
+#% reduced Maximum Recovery per Energy Shield Leech	每次能量护盾偷取的最大回复量降低 {0}%
+#% reduced Quantity of Fish Caught	钓到的鱼数量降低 {0}%
+#% reduced Reflected Damage taken during Effect	药剂持续期间，受到的反射伤害降低 {0}%
+#% reduced Spark Duration	电球持续时间缩短 {0}%
+#% to Chaos Resistance per #% Fire Resistance	每 {1}% 火焰抗性提供 {0}% 混沌抗性
+#% to Chaos Resistance per #% Lightning Resistance	每 {1}% 闪电抗性提供 {0}% 混沌抗性
+#% to Critical Strike Chance against Enemies on Consecrated Ground during Effect	药剂持续期间，对奉献地面上的敌人暴击几率 {0}%
+#% to Off Hand Critical Strike Multiplier per	副手暴击伤害加成 {0}%，每个
+Accuracy Rating while wielding a Sword	持剑时的命中值
+Action Speed cannot be Slowed below Base Value if you've cast Temporal Chains in the past # seconds	过去 {0} 秒内施放过时空锁链时，行动速度无法降至基础值以下
+Adds # Small Passive Skill which grants nothing	增加 {0} 个不提供任何效果的小天赋
+Adds # to # Chaos Damage for each Curse on the Enemy	敌人身上每个诅咒附加 {0} - {1} 混沌伤害
+Adds # to # Chaos Damage for each Spider's Web on the Enemy	敌人身上每层蛛网附加 {0} - {1} 混沌伤害
+Adds # to # Chaos Damage to Spells and Attacks during any Flask Effect	任意药剂持续期间，法术和攻击附加 {0} - {1} 混沌伤害
+Adds # to # Cold Damage to Retaliation Skills	复仇技能附加 {0} - {1} 冰霜伤害
+Adds # to # Lightning Damage for each Shocked Enemy you've Killed Recently	近期内每击败一个被感电的敌人，附加 {0} - {1} 闪电伤害
+Adds # to # Lightning Damage to Attacks with this Weapon per # Dexterity	使用此武器攻击时，每 {2} 点敏捷附加 {0} - {1} 闪电伤害
+Agony Crawler deals #% increased Damage	苦痛爬行者的伤害提高 {0}%
+Always Sap while affected by Wrath	受到雷霆影响时，总是造成精疲力尽
+Always Scorch while affected by Anger	受到愤怒影响时，总是造成灼烧
+Always inflict Brittle while affected by Hatred	受到憎恨影响时，总是造成脆弱
+Arrows Pierce all Targets after Chaining	箭矢连锁后穿透所有目标
+Arrows deal # to # Added Fire Damage for each time they've Pierced	箭矢每穿透一次，附加 {0} - {1} 火焰伤害
+Arrows that Pierce have #% chance to inflict Bleeding	穿透的箭矢有 {0}% 的几率造成流血
+Aspect of the Spider can inflict Spider's Web on Enemies an additional time	蛛之势可以对敌人额外施加一层蛛网
+Attack skills can have # additional Totem Summoned at a time	攻击技能可同时额外召唤 {0} 个图腾
+Attacks Chain an additional time when in Main Hand	装备在主手时，攻击额外连锁一次
+Attacks fire # additional Projectile when in Off Hand	装备在副手时，攻击额外发射 {0} 个投射物
+Attacks have #% chance to inflict Bleeding when Hitting Cursed Enemies	攻击击中被诅咒的敌人时，有 {0}% 的几率造成流血
+Attacks that Fire Projectiles Consume up to # additional Steel Shard	发射投射物的攻击额外消耗最多 {0} 枚钢刃碎片
+Attacks with this Weapon deal # to # added Chaos Damage against	使用此武器攻击附加 {0} - {1} 混沌伤害，对
+Attacks with this Weapon deal # to # added Fire Damage to Bleeding Enemies	使用此武器攻击流血的敌人时，附加 {0} - {1} 火焰伤害
+Attacks with this Weapon deal # to # added Physical Damage to Ignited Enemies	使用此武器攻击被点燃的敌人时，附加 {0} - {1} 物理伤害
+Attacks with this Weapon have #% chance to inflict Bleeding against Ignited Enemies	使用此武器攻击被点燃的敌人时，有 {0}% 的几率造成流血
+Attacks you use yourself Repeat an additional time	你亲自使用的攻击额外重复一次
+Bleeding Enemies you Kill Explode, dealing #% of	你击败的流血敌人会爆炸，造成等于其 {0}% 的
+Call of Steel causes #% increased Reflected Damage	钢铁呼唤造成的反射伤害提高 {0}%
+Can have a second Enchantment Modifier	可以拥有第二个附魔词缀
+Cannot Leech	无法偷取
+Cannot gain Life during effect	药剂持续期间无法获得生命
+Cannot gain Power Charges	无法获得暴击球
+Cold Exposure on Hit if you've cast Frostbite in the past # seconds	过去 {0} 秒内施放过冻伤时，击中施加冰霜曝露
+Consecrated Ground around you while stationary if # Crusader Items are Equipped	装备 {0} 件圣战者物品时，静止时周围产生奉献地面
+Consecrated Ground you create while affected by Zealotry causes enemies to take #% increased Damage	受到奋锐光环影响时，你产生的奉献地面使敌人受到的伤害提高 {0}%
+Cost every third time you Pay it	每第三次支付该消耗时
+Count as having maximum number of Endurance Charges	视为拥有数量上限的耐力球
+Count as having maximum number of Frenzy Charges	视为拥有数量上限的狂怒球
+Creates Consecrated Ground on Critical Strike	暴击时产生奉献地面
+Critical Strikes Penetrate #% of Enemy Elemental Resistances while affected by Zealotry	受到奋锐光环影响时，暴击穿透敌人 {0}% 元素抗性
+Culling Strike against Enemies Cursed with Poacher's Mark	对被盗猎者印记诅咒的敌人拥有终结
+Cured Quiver	熟皮箭袋
+Damage with Hits from Socketed Vaal Skills is Lucky	插槽内瓦尔技能的击中伤害特别幸运
+Damaging Ailments you inflict deal Damage #% faster while affected by Malevolence	受到怨毒光环影响时，你施加的伤害型异常状态生效速度加快 {0}%
+Eater of Worlds Item	灭界者物品
+Effects of Consecrated Ground you create while affected by Zealotry Linger for # seconds	受到奋锐光环影响时，你产生的奉献地面效果延续 {0} 秒
+Elemental Resistances cannot be Penetrated	元素抗性无法被穿透
+Enemies Ignited by you during Effect have Malediction	药剂持续期间，被你点燃的敌人受到恶语术影响
+Enemies affected by at least # Poisons	受到至少 {0} 层中毒影响的敌人
+Enemies affected by your Spider's Webs have #% to All Resistances	被你的蛛网影响的敌人所有抗性 {0}%
+Enemies killed explode dealing #% of their Life as Fire Damage	被击败的敌人会爆炸，造成等于其生命 {0}% 的火焰伤害
+Enemies take #% increased Elemental Damage from your Hits for	敌人受到你击中的元素伤害提高 {0}%，对应
+Enemies you Kill while using Pride have #% chance to Explode, dealing a tenth of their maximum Life as Physical Damage	使用骄傲时，你击败的敌人有 {0}% 的几率爆炸，造成其生命上限十分之一的物理伤害
+Enemy for # seconds, dealing #% of the Killed Enemy's Life as Fire Damage per second	敌人，持续 {0} 秒，每秒造成等于被击败敌人生命 {1}% 的火焰伤害
+Every # seconds you gain Iron Reflexes for # seconds	每 {0} 秒获得 {1} 秒霸体
+Allocates Sanctuary if you have the matching modifier on Forbidden Flame	若禁断之火上有匹配的词缀，则分配至圣所
+Allocates Sanctuary if you have the matching modifier on Forbidden Flesh	若禁断之肉上有匹配的词缀，则分配至圣所
+Bathed in the blood of # sacrificed in the name of Ahuana	以阿华纳的名义用 {0} 名祭品之血浸染
+Bathed in the blood of # sacrificed in the name of Doryani	以多里亚尼的名义用 {0} 名祭品之血浸染
+Bathed in the blood of # sacrificed in the name of Zerphi	以泽佛伊的名义用 {0} 名祭品之血浸染
+Carved to glorify # new faithful converted by High Templar Avarius	刻下 {0} 名高阶圣堂武僧阿瓦留斯的新信徒以颂扬其功绩
+Carved to glorify # new faithful converted by High Templar Dominus	刻下 {0} 名高阶圣堂武僧多米纳斯的新信徒以颂扬其功绩
+Carved to glorify # new faithful converted by High Templar Venarius	刻下 {0} 名高阶圣堂武僧维纳留斯的新信徒以颂扬其功绩
+Commanded leadership over # warriors under Akoya	获得阿亚麾下 {0} 名武士的领导权
+Commanded leadership over # warriors under Kiloava	获得基洛瓦麾下 {0} 名武士的领导权
+Commanded leadership over # warriors under Rakiata	获得拉其塔麾下 {0} 名武士的领导权
+Commissioned # coins to commemorate Caspiro	用 {0} 枚金币纪念卡斯皮罗
+Commissioned # coins to commemorate Chitus	用 {0} 枚金币纪念切特斯
+Commissioned # coins to commemorate Victario	用 {0} 枚金币纪念维多里奥
+Denoted service of # dekhara in the akhara of Asenath	在安赛娜丝的阿卡拉中指派 {0} 名德卡拉的服务
+Denoted service of # dekhara in the akhara of Deshret	在迪虚瑞特的阿卡拉中指派 {0} 名德卡拉的服务
+Denoted service of # dekhara in the akhara of Nasima	在纳西玛的阿卡拉中指派 {0} 名德卡拉的服务
+Flasks gain # Charge per second if you've Hit a Unique Enemy Recently	近期内击中过传奇敌人时，药剂每秒获得 {0} 次充能
+Flasks gain a Charge every # seconds	药剂每 {0} 秒获得一次充能
+For each nearby corpse, Regenerate #% Life per second, up to #%	附近每具灵柩使每秒再生 {0}% 生命，最多 {1}%
+Gain # Armour per Grand Spectrum	每颗聚光之石提供 {0} 护甲
+Gain # Endurance Charge every second if you've been Hit Recently and	近期内被击中过时，每秒获得 {0} 个耐力球，并且
+Gain # Energy Shield for each Enemy you Hit which is affected by a Spider's Web	每击中一个被蛛网影响的敌人，获得 {0} 能量护盾
+Gain # Energy Shield on Kill per Level	每级使击败敌人时获得 {0} 能量护盾
+Gain # Energy Shield per Enemy Hit while affected by Discipline	受到纪律影响时，每击中一个敌人获得 {0} 能量护盾
+Gain # Life on Kill per Level	每级使击败敌人时获得 {0} 生命
+Gain # Life per Enemy Hit while affected by Vitality	受到活力影响时，每击中一个敌人获得 {0} 生命
+Gain # Life when you Taunt an Enemy	嘲讽敌人时获得 {0} 生命
+Gain # Mana on Kill per Level	每级使击败敌人时获得 {0} 魔力
+Gain # Mana per Grand Spectrum	每颗聚光之石提供 {0} 魔力
+Gain # Mana per Taunted Enemy Hit	每击中一个被嘲讽的敌人，获得 {0} 魔力
+Gain # Power Charges when you Warcry	战吼时获得 {0} 个暴击球
+Gain # Rage on Critical Strike with Attacks	攻击暴击时获得 {0} 怒火
+Gain # Remembrance when you spend a total of # Energy	累计消耗 {1} 能量护盾时获得 {0} 铭记
+Gain #% of Physical Damage as Extra Chaos Damage if you've	获得等于物理伤害 {0}% 的额外混沌伤害，条件为
+Gain #% of Physical Damage as Extra Cold Damage if you've	获得等于物理伤害 {0}% 的额外冰霜伤害，条件为
+Gain #% of Physical Damage as Extra Damage of a random Element	获得等于物理伤害 {0}% 的一种随机元素额外伤害
+Gain #% of Physical Damage as Extra Damage of each Element if	获得等于物理伤害 {0}% 的每种元素额外伤害，条件为
+Gain #% of Physical Damage as Extra Fire Damage if you've	获得等于物理伤害 {0}% 的额外火焰伤害，条件为
+Gain #% of Physical Damage as Extra Lightning Damage if you've	获得等于物理伤害 {0}% 的额外闪电伤害，条件为
+Gain #% of Physical Damage as a Random Element if you've cast Elemental Weakness in the past # seconds	过去 {1} 秒内施放过元素要害时，获得等于物理伤害 {0}% 的随机元素伤害
+Gain Arcane Surge for # seconds when you create Consecrated Ground while affected by Zealotry	受到奋锐光环影响时，产生奉献地面会获得 {0} 秒秘术增强
+Gain Arcane Surge on Hit with Spells while at maximum Power Charges	暴击球达到上限时，法术击中获得秘术增强
+Gain Onslaught for # second per Frenzy Charge consumed on use	使用时每消耗一个狂怒球，获得 {0} 秒猛攻
+Gain Onslaught for # seconds on Hit while at maximum Frenzy Charges	狂怒球达到上限时，击中获得 {0} 秒猛攻
+Gain Shaper's Presence for # seconds when you kill a Rare or Unique Enemy	击败稀有或传奇敌人时，获得 {0} 秒塑界者姿态
+Gain Unholy Might on Block for # seconds	格挡时获得 {0} 秒不洁之力
+Gain a Frenzy Charge if an Attack Ignites an Enemy	攻击点燃敌人时获得一个狂怒球
+Gain a Frenzy Charge on Hit while Bleeding	流血时，击中获得一个狂怒球
+Gain a Frenzy Charge on every #th Rampage Kill	每第 {0} 次暴走击败敌人时获得一个狂怒球
+Gain a Frenzy Charge on reaching Maximum Power Charges	暴击球达到上限时，获得一个狂怒球
+Gain a Frenzy, Endurance, or Power Charge once per second while you are Stationary	静止时，每秒获得一个狂怒球、耐力球或暴击球
+Gain a Power Charge for each Enemy you hit with a Critical Strike	每暴击击中一个敌人，获得一个暴击球
+Gain a Power Charge when you use a Vaal Skill	使用瓦尔技能时获得一个暴击球
+Gain a Spirit Charge on Kill	击败敌人时获得一个精神能量球
+Gain a Void Charge every # seconds	每 {0} 秒获得一个虚空球
+Gain a Void Charge every second	每秒获得一个虚空球
+Gain an Endurance Charge every second if you've been Hit Recently	近期内被击中过时，每秒获得一个耐力球
+Gain an Endurance Charge when you take a Critical Strike	受到暴击时获得一个耐力球
+Gains no Charges during Effect of any Soul Ripper Flask	任意夺魂者药剂持续期间，无法获得充能
+Ghastly Eye Jewel affecting you, up to a maximum of #%	影响你的苍白之凝珠宝，最多 {0}%
+Golems have # to # Added Attack Physical Damage	魔像附加 {0} - {1} 攻击物理伤害
+Grants Level # Shaper's Despair, which will be used by Shaper Memory	获得 {0} 级塑界者的绝望，由塑界者的记忆使用
+Grants Level # Shaper's Ire, which will be used by Shaper Memory	获得 {0} 级塑界者的怒火，由塑界者的记忆使用
+Grants Level # Summon Petrification Statue Skill	获得 {0} 级召唤石化雕像技能
+Grants Perfect Agony during effect	药剂持续期间获得完美苦痛
+Hammer Physical Damage Converted to Cold Damage	物理伤害转化为冰霜伤害
+Has an additional Implicit Mod	拥有一个额外基底词缀
+Herald of Agony has #% reduced Mana Reservation Efficiency	苦痛之捷的魔力保留效能降低 {0}%
+Herald of Ash has #% reduced Mana Reservation Efficiency	灰烬之捷的魔力保留效能降低 {0}%
+Herald of Ice has #% reduced Mana Reservation Efficiency	寒冰之捷的魔力保留效能降低 {0}%
+Herald of Purity has #% reduced Mana Reservation Efficiency	纯净之捷的魔力保留效能降低 {0}%
+Herald of Thunder has #% reduced Mana Reservation Efficiency	闪电之捷的魔力保留效能降低 {0}%
+Hits from Socketed Vaal Skills ignore Enemy Monster Resistances	插槽内瓦尔技能的击中无视敌方怪物抗性
+Hits from Socketed Vaal Skills ignore Enemy Physical Damage Reduction	插槽内瓦尔技能的击中无视敌人物理伤害减免
+Hits with Prismatic Skills always inflict Brittle	三相技能击中总是造成脆弱
+Hypnotic Eye Jewel affecting you, up to a maximum of #%	影响你的催眠之凝珠宝，最多 {0}%
+Ignited Enemies Burn #% slower	被点燃的敌人燃烧速度减慢 {0}%
+Ignites you inflict during Effect spread to other Enemies within # metres	药剂持续期间，你施加的点燃会扩散至 {0} 米内的其他敌人
+Immune to Elemental Ailments while affected by Glorious Madness	受到疯狂荣光影响时，免疫元素异常状态
+Immune to Exposure if you've cast Elemental Weakness in the past # seconds	过去 {0} 秒内施放过元素要害时，免疫曝露
+Immune to Freeze while affected by Purity of Ice	受到冰霜净化影响时，免疫冻结
+Immune to Reflected Damage if you've cast Punishment in the past # seconds	过去 {0} 秒内施放过惩戒时，免疫反射伤害
+Immune to Shock while affected by Purity of Lightning	受到闪电净化影响时，免疫感电
+Impale Damage dealt to Enemies Impaled by you Overwhelms #% Physical Damage Reduction	对被你穿刺的敌人造成的穿刺伤害压制 {0}% 物理伤害减免
+Impales you inflict last # additional Hits while using Pride	使用骄傲时，你施加的穿刺额外持续 {0} 次击中
+Increases and Reductions to Minion Cast Speed also affect you	召唤生物施法速度的提高与降低也作用于你
+Inflict # additional Poisons on the same Target	对同一目标额外施加 {0} 层中毒
+Inflict Fire Exposure on Hit against Enemies with	击中时对符合以下条件的敌人施加火焰曝露：
+Inflict Fire Exposure on Hit if you've cast Flammability in the past # seconds	过去 {0} 秒内施放过易燃时，击中施加火焰曝露
+Inflict Lightning Exposure on Hit if you've cast Conductivity in the past # seconds	过去 {0} 秒内施放过导电时，击中施加闪电曝露
+Inflict Withered for # seconds on Hit if you've cast Despair in the past # seconds	过去 {1} 秒内施放过绝望时，击中施加 {0} 秒凋零
+Inflicts Mana Burn on you when you Hit an Enemy with a Melee Weapon	用近战武器击中敌人时，对自身施加魔力燃烧
+Intimidate Enemies for # seconds on Hit with Attacks while at maximum Endurance Charges	耐力球达到上限时，攻击击中使敌人受到 {0} 秒威吓
+Intimidate Enemies on Hit if you've cast Punishment in the past # seconds	过去 {0} 秒内施放过惩戒时，击中威吓敌人
+Kills grant an additional Vaal Soul if you have Rampaged Recently	近期内触发过暴走时，击败敌人额外获得一个瓦尔之灵
+Leech #% of Expected Ignite Damage as Life when you Ignite an Enemy during Effect	药剂持续期间点燃敌人时，将预期点燃伤害的 {0}% 转化为生命偷取
+Leech Energy Shield instead of Life	偷取能量护盾，取代生命偷取
+Life and Mana Leech are instant during effect	药剂持续期间，生命和魔力偷取立即生效
+Life and Mana Leech from Critical Strikes are instant	暴击造成的生命和魔力偷取立即生效
+Lose a Power Charge each second if you have not Detonated Mines Recently	近期内未引爆地雷时，每秒失去一个暴击球
+Lose all Frenzy, Endurance, and Power Charges when you Move	移动时失去所有狂怒球、耐力球和暴击球
+Melee Attacks Poison on Hit	近战攻击击中造成中毒
+Melee Attacks cause Bleeding	近战攻击造成流血
+Melee Critical Strikes have #% chance to Poison the Enemy	近战暴击有 {0}% 的几率使敌人中毒
+Melee Critical Strikes have #% chance to cause Bleeding	近战暴击有 {0}% 的几率造成流血
+Melee Weapon Attacks have Culling Strike	近战武器攻击拥有终结
+Mines can be Detonated an additional time	地雷可以额外引爆一次
+Minions Leech #% of Damage as Life against Poisoned Enemies	召唤生物对中毒敌人造成的伤害的 {0}% 转化为生命偷取
+Minions Poison Enemies on Hit	召唤生物击中使敌人中毒
+Minions convert #% of Physical Damage to Chaos Damage per White Socket	每个白色插槽使召唤生物将 {0}% 物理伤害转化为混沌伤害
+Minions convert #% of Physical Damage to Cold Damage per Green Socket	每个绿色插槽使召唤生物将 {0}% 物理伤害转化为冰霜伤害
+Minions convert #% of Physical Damage to Fire Damage per Red Socket	每个红色插槽使召唤生物将 {0}% 物理伤害转化为火焰伤害
+Minions convert #% of Physical Damage to Lightning Damage per Blue Socket	每个蓝色插槽使召唤生物将 {0}% 物理伤害转化为闪电伤害
+Minions deal # to # additional Attack Physical Damage	召唤生物额外造成 {0} - {1} 攻击物理伤害
+Minions gain Unholy Might for # seconds on Kill	召唤生物击败敌人时获得 {0} 秒不洁之力
+Minions have # to Accuracy Rating per # Devotion	每 {1} 点奉献为召唤生物提供 {0} 命中值
+Minions have # to Armour	召唤生物的护甲 {0}
+Minions have #% to Damage over Time Multiplier per	召唤生物的持续伤害加成 {0}%，每个
+Monsters cannot Suppress your Spells	怪物无法压制你的法术
+Monsters cannot steal or remove your Power, Frenzy or Endurance charges on Hit	怪物击中时无法偷取或移除你的暴击球、狂怒球或耐力球
+Multiplier while wielding a Dagger	持匕首时生效
+Murderous Eye Jewel affecting you, up to a maximum of #%	影响你的凶残之凝珠宝，最多 {0}%
+Nearby Allies have #% increased Defences per # Strength you have	你每有 {1} 点力量，附近友军的防御提高 {0}%
+Nearby Enemies are Crushed	附近敌人被碾压
+Nearby Enemies are Unnerved if # Elder Items are Equipped	装备 {0} 件裂界者物品时，附近敌人受到胆怯
+Nearby Enemies grant #% increased Flask Charges	附近敌人提供的药剂充能提高 {0}%
+Nearby Enemies have #% reduced Stun and Block Recovery	附近敌人的晕眩和格挡回复降低 {0}%
+Nearby Enemies have Malediction	附近敌人受到恶语术影响
+Non-Aura Hexes expire upon reaching #% of base Effect	非光环魔蛊在达到基础效果的 {0}% 时结束
+Non-Spectre Minions' Base Attack time is equal to	非灵体召唤生物的基础攻击间隔等于
+On Killing a Poisoned Enemy, Enemies within # metres are Poisoned	击败中毒的敌人时，使 {0} 米内的敌人中毒
+Only affects Passives in Large Ring	仅影响大圈内的天赋
+Only affects Passives in Medium Ring	仅影响中圈内的天赋
+Only affects Passives in Very Large Ring	仅影响超大圈内的天赋
+Poison you inflict with Travel Skills is Reflected to you if you	位移技能施加的中毒会反射给你，条件为
+Poisonous Hit	造成中毒的击中
+Prevent #% of Reflected Elemental Damage you would take while	防止你将受到的 {0}% 反射元素伤害，当
+Prevent #% of Reflected Physical Damage you would take while affected by Determination	受到坚定影响时，防止你将受到的 {0}% 反射物理伤害
+Projectiles Pierce all Targets while you have Phasing	拥有迷踪时，投射物穿透所有目标
+Projectiles from Attacks can Fork # additional time	攻击投射物可以额外分裂 {0} 次
+Projectiles from Attacks have #% chance to Maim on Hit while you have a Bestial Minion	拥有兽化召唤生物时，攻击投射物击中有 {0}% 的几率造成瘫痪
+Projectiles from Attacks have #% chance to Poison on Hit while you have a Bestial Minion	拥有兽化召唤生物时，攻击投射物击中有 {0}% 的几率造成中毒
+Projectiles from Attacks have #% chance to inflict Bleeding on Hit while you have a Bestial Minion	拥有兽化召唤生物时，攻击投射物击中有 {0}% 的几率造成流血
+Projectiles gain #% of Non-Chaos Damage as extra Chaos Damage per Chain	投射物每次连锁，获得等于非混沌伤害 {0}% 的额外混沌伤害
+Raised Spectres fire # additional Projectiles	灵体额外发射 {0} 个投射物
+Raised Spectres have #% increased Area of Effect	灵体的效果区域扩大 {0}%
+Raised Spectres have #% to Critical Strike Chance	灵体的暴击几率 {0}%
+Raised Spectres have #% to all maximum Resistances	灵体的所有抗性上限 {0}%
+Rarity of Items dropped by Enemies Shattered by Glacial Hammer	被冰霜之锤粉碎的敌人物品掉落稀有度
+Recharges # Charge when you Consume an Ignited corpse	消耗被点燃的灵柩时恢复 {0} 次充能
+Recover # Life when you Ignite an Enemy	点燃敌人时恢复 {0} 生命
+Recover #% of Energy Shield when you Kill an Enemy during Effect	药剂持续期间，击败敌人时恢复 {0}% 能量护盾
+Recover #% of Mana and Energy Shield when you Focus	进入专注时恢复 {0}% 魔力和能量护盾
+Recover #% of Mana when you Kill an Enemy during Effect	药剂持续期间，击败敌人时恢复 {0}% 魔力
+Recover #% of Mana when you Shock an Enemy	感电敌人时恢复 {0}% 魔力
+Regenerate # Life over # second for each Spell you Cast	每施放一个法术，在 {1} 秒内再生 {0} 生命
+Regenerate #% Life over one second when hit while affected by Vitality	受到活力影响时，被击中后在一秒内再生 {0}% 生命
+Regenerate #% of Energy Shield per Second for	每秒再生 {0}% 能量护盾，持续
+Regenerate #% of Life per second if you have been Hit Recently	近期内被击中过时，每秒再生 {0}% 生命
+Regenerate #% of Life per second with at least # Strength	至少有 {1} 点力量时，每秒再生 {0}% 生命
+Regenerate #% of Mana per second if you've Consumed a corpse Recently	近期内消耗过灵柩时，每秒再生 {0}% 魔力
+Remembrancing # songworthy deeds by the line of Medved	纪念 {0} 件梅德维德世系值得传唱的事迹
+Remembrancing # songworthy deeds by the line of Uhtred	纪念 {0} 件乌崔德世系值得传唱的事迹
+Remove an Ailment when you use a Flask if all Equipped Items are Elder Items	所有已装备物品均为裂界者物品时，使用药剂移除一个异常状态
+Searing Exarch Item	焚界者物品
+Sentinels of Purity deal #% increased Damage	纯净哨兵的伤害提高 {0}%
+Shield with no Shaper Memory Summoned	仅在未召唤塑界者的记忆时生效
+Shock Reflection	反射感电
+Shock nearby Enemies for # Seconds when you Focus	进入专注时，使附近敌人感电 {0} 秒
+Shocked Enemies you Kill Explode, dealing #% of	你击败的感电敌人会爆炸，造成等于其 {0}% 的
+Siren Worm Bait	海妖虫鱼饵
+Skills Chain an additional time while at maximum Frenzy Charges	狂怒球达到上限时，技能额外连锁一次
+Skills Fire # additional Projectiles for # seconds after	技能额外发射 {0} 个投射物，持续 {1} 秒，触发条件为
+Skills which throw Mines throw up to # additional Mine if you have at least # Dexterity	至少有 {1} 点敏捷时，投掷地雷的技能额外投掷最多 {0} 个地雷
+Skills which throw Mines throw up to # additional Mine if you have at least # Intelligence	至少有 {1} 点智慧时，投掷地雷的技能额外投掷最多 {0} 个地雷
+Socketed Gems fire an additional Projectile	插槽内宝石额外发射一个投射物
+Socketed Gems have #% chance to cause Enemies to Flee on Hit	插槽内宝石击中时有 {0}% 的几率使敌人逃跑
+Socketed Gems have #% reduced Mana Reservation Efficiency	插槽内宝石的魔力保留效能降低 {0}%
+Socketed Lightning Spells deal #% increased Spell Damage if Triggered	插槽内闪电法术被触发时，法术伤害提高 {0}%
+Socketed Red Gems get #% Physical Damage as Extra Fire Damage	插槽内红色宝石获得等于物理伤害 {0}% 的额外火焰伤害
+Socketed Vaal Skills deal #% more Damage	插槽内瓦尔技能的伤害总增 {0}%
+Socketed Vaal Skills grant Elusive when Used	使用插槽内瓦尔技能时获得灵巧
+Socketed Vaal Skills have #% chance to regain consumed Souls when used	使用插槽内瓦尔技能时，有 {0}% 的几率返还消耗的灵魂
+Socketed Vaal Skills have #% increased Area of Effect	插槽内瓦尔技能的效果区域扩大 {0}%
+Socketed Vaal Skills have #% increased Aura Effect	插槽内瓦尔技能的光环效果提高 {0}%
+Socketed Vaal Skills have #% increased Projectile Speed	插槽内瓦尔技能的投射物速度提高 {0}%
+Socketed Vaal Skills have #% increased Skill Effect Duration	插槽内瓦尔技能的技能效果持续时间延长 {0}%
+Socketed Vaal Skills have #% reduced Soul Gain Prevention Duration	插槽内瓦尔技能的阻灵术持续时间缩短 {0}%
+Socketed Vaal Skills require #% less Souls per Use	插槽内瓦尔技能每次使用所需的灵魂总降 {0}%
+Socketed Warcry Skills have # Cooldown Use	插槽内战吼技能拥有 {0} 次冷却使用次数
+Speed while wielding a Claw	持爪时的攻击速度
+Spells cause you to gain Energy Shield equal to their Upfront	法术使你获得等于其预付消耗的能量护盾，触发时机为
+Spells fire an additional Projectile	法术额外发射一个投射物
+Spreads Tar when you take a Critical Strike	受到暴击时散布焦油
+Strength's Damage Bonus instead grants #% increased Melee	力量的伤害加成改为提高 {0}% 近战
+Strike if Intelligence is your highest Attribute	一击，智慧为最高属性时生效
+Summoned Arbalists Convert #% of Physical Damage to Cold Damage	召唤的劲弩将 {0}% 物理伤害转化为冰霜伤害
+Summoned Arbalists Convert #% of Physical Damage to Fire Damage	召唤的劲弩将 {0}% 物理伤害转化为火焰伤害
+Summoned Arbalists Convert #% of Physical Damage to Lightning Damage	召唤的劲弩将 {0}% 物理伤害转化为闪电伤害
+Summoned Arbalists fire # additional Projectiles	召唤的劲弩额外发射 {0} 个投射物
+Summoned Arbalists gain #% of Physical Damage as Extra Cold Damage	召唤的劲弩获得等于物理伤害 {0}% 的额外冰霜伤害
+Summoned Arbalists gain #% of Physical Damage as Extra Fire Damage	召唤的劲弩获得等于物理伤害 {0}% 的额外火焰伤害
+Summoned Arbalists gain #% of Physical Damage as Extra Lightning Damage	召唤的劲弩获得等于物理伤害 {0}% 的额外闪电伤害
+Summoned Arbalists have #% chance to Crush on Hit	召唤的劲弩击中时有 {0}% 的几率造成碾压
+Summoned Arbalists have #% chance to Freeze	召唤的劲弩有 {0}% 的几率造成冻结
+Summoned Arbalists have #% chance to Freeze, Shock, and Ignite	召唤的劲弩有 {0}% 的几率造成冻结、感电和点燃
+Summoned Arbalists have #% chance to Ignite	召唤的劲弩有 {0}% 的几率造成点燃
+Summoned Arbalists have #% chance to Intimidate for # seconds on Hit	召唤的劲弩击中时有 {0}% 的几率造成 {1} 秒威吓
+Summoned Arbalists have #% chance to Maim for # seconds on Hit	召唤的劲弩击中时有 {0}% 的几率造成 {1} 秒瘫痪
+Summoned Arbalists have #% chance to Poison	召唤的劲弩有 {0}% 的几率造成中毒
+Summoned Arbalists have #% chance to Shock	召唤的劲弩有 {0}% 的几率造成感电
+Summoned Arbalists have #% chance to Unnerve for # seconds on Hit	召唤的劲弩击中时有 {0}% 的几率造成 {1} 秒胆怯
+Summoned Arbalists have #% chance to deal Double Damage	召唤的劲弩有 {0}% 的几率造成双倍伤害
+Summoned Arbalists have #% chance to inflict Cold Exposure on Hit	召唤的劲弩击中时有 {0}% 的几率施加冰霜曝露
+Summoned Arbalists have #% chance to inflict Fire Exposure on Hit	召唤的劲弩击中时有 {0}% 的几率施加火焰曝露
+Summoned Arbalists have #% chance to inflict Lightning Exposure on Hit	召唤的劲弩击中时有 {0}% 的几率施加闪电曝露
+Summoned Arbalists have #% increased Attack Speed	召唤的劲弩攻击速度提高 {0}%
+Summoned Arbalists' Attacks have #% chance to inflict Bleeding	召唤的劲弩的攻击有 {0}% 的几率造成流血
+Summoned Arbalists' Projectiles Chain # times	召唤的劲弩的投射物连锁 {0} 次
+Summoned Arbalists' Projectiles Fork	召唤的劲弩的投射物会分裂
+Summoned Arbalists' Projectiles Pierce # additional Targets	召唤的劲弩的投射物额外穿透 {0} 个目标
+Summoned Arbalists' Projectiles Split into #	召唤的劲弩的投射物分散为 {0} 个
+Summoned Raging Spirits refresh their Duration when they Kill an Ignited Enemy	愤怒狂灵击败被点燃的敌人时刷新持续时间
+Summoned Raging Spirits' Melee Strikes deal Fire-only Splash	愤怒狂灵的近战打击造成仅有火焰伤害的溅射
+Take # Physical Damage per Second per Siphoning Charge if you've used a Skill Recently	近期内使用过技能时，每个轮回球使你每秒受到 {0} 物理伤害
+Take no Extra Damage from Critical Strikes if Energy Shield Recharge started Recently	近期内开始过能量护盾充能时，不承受暴击的额外伤害
+Temporal Chains has #% reduced Effect on you	时空锁链对你的效果降低 {0}%
+Thaumaturgical Lure	奇术鱼饵
+This Jewel's Socket has #% increased effect per Allocated Passive Skill between	此珠宝插槽的效果提高 {0}%，每个已分配天赋位于
+Totems have #% increased Movement Speed	图腾的移动速度提高 {0}%
+Traps and Mines deal # to # additional Physical Damage	陷阱和地雷额外造成 {0} - {1} 物理伤害
+Traps from Socketed Skills create a Smoke Cloud when triggered	插槽内技能的陷阱被触发时产生烟雾
+Trigger Level # Bone Offering, Flesh Offering or Spirit Offering every # seconds	每 {1} 秒触发 {0} 级骸骨奉献、血肉奉献或灵魂奉献
+Trigger Level # Intimidating Cry on Hit	击中时触发 {0} 级威吓战吼
+Trigger Level # Poacher's Mark when you Hit a Rare or Unique Enemy and have no Mark	没有印记时，击中稀有或传奇敌人会触发 {0} 级盗猎者印记
+Trigger Level # Tawhoa's Chosen when you Attack with	使用以下攻击时触发 {0} 级塔赫亚神选：
+Trigger Socketed Spells when you Focus	进入专注时触发插槽内的法术
+Trigger Socketed Spells when you Focus, with a # second Cooldown	进入专注时触发插槽内的法术，冷却时间为 {0} 秒
+Trigger a Socketed Bow Skill when you Cast a Spell while	施放法术时触发插槽内的一个弓技能，当
+Vaal Skills deal #% more Damage during Effect	药剂持续期间，瓦尔技能伤害总增 {0}%
+Vaal Skills used during effect do not apply Soul Gain Prevention	药剂持续期间使用瓦尔技能不触发阻灵术
+Weapons you Animate create an additional copy	你幻化的武器额外产生一个复制品
+When you Attack, take #% of Life as Physical Damage for	攻击时，承受等于生命 {0}% 的物理伤害，对应
+When you Cast a Spell, Sacrifice all Mana to gain Added Maximum Lightning Damage	施放法术时，献祭全部魔力以获得附加的闪电伤害上限
+When you Kill a Rare monster, you gain its Modifiers for # seconds	击败稀有怪物时，获得其词缀，持续 {0} 秒
+While at maximum Frenzy Charges, Attacks Poison Enemies	狂怒球达到上限时，攻击使敌人中毒
+While there are at least five nearby Allies, you and nearby Allies have Onslaught	附近至少有五名友军时，你和附近友军获得猛攻
+With # Intelligence in Radius, Glacial Cascade has an additional Burst	范围内有 {0} 点智慧时，冰川之刺额外爆发一次
+With a Ghastly Eye Jewel Socketed, Minions have # to Accuracy Rating	插入苍白之凝珠宝时，召唤生物的命中值 {0}
+With a Murderous Eye Jewel Socketed, Melee Attacks grant # Rage on Hit	插入凶残之凝珠宝时，近战攻击击中获得 {0} 怒火
+With a Searching Eye Jewel Socketed, Attacks have #% chance to grant Onslaught On Kill	插入锐利之凝珠宝时，攻击击败敌人有 {0}% 的几率获得猛攻
+With a Searching Eye Jewel Socketed, Blind Enemies for # seconds on Hit with Attacks	插入锐利之凝珠宝时，攻击击中使敌人致盲 {0} 秒
+With a Searching Eye Jewel Socketed, Maim Enemies for # seconds on Hit with Attacks	插入锐利之凝珠宝时，攻击击中使敌人瘫痪 {0} 秒
+With at least # Dexterity in Radius, Dual Strike deals Off Hand Splash Damage	范围内至少有 {0} 点敏捷时，双持打击的副手造成溅射伤害
+With at least # Dexterity in Radius, Dual Strike deals Splash Damage	范围内至少有 {0} 点敏捷时，双持打击造成溅射伤害
+With at least # Dexterity in Radius, Dual Strike has #% increased	范围内至少有 {0} 点敏捷时，双持打击的以下属性提高 {1}%：
+With at least # Dexterity in Radius, Dual Strike has #% increased Attack	范围内至少有 {0} 点敏捷时，双持打击的以下属性提高 {1}%：
+With at least # Dexterity in Radius, Dual Strike has #% to Critical Strike	范围内至少有 {0} 点敏捷时，双持打击的暴击伤害加成 {1}%
+With at least # Dexterity in Radius, Dual Strike has a #% chance	范围内至少有 {0} 点敏捷时，双持打击有 {1}% 的几率
+With at least # Dexterity in Radius, Ethereal Knives fires # additional Projectiles	范围内至少有 {0} 点敏捷时，虚空匕首额外发射 {1} 个投射物
+With at least # Intelligence in Radius, # additional Spark Projectiles	范围内至少有 {0} 点智慧时，电球额外发射 {1} 个投射物
+With at least # Intelligence in Radius, #% increased Freezing Pulse Damage if	范围内至少有 {0} 点智慧时，冰霜脉冲伤害提高 {1}%，条件为
+With at least # Intelligence in Radius, Blight has #% increased Hinder Duration	范围内至少有 {0} 点智慧时，萎灭的缓速持续时间延长 {1}%
+With at least # Intelligence in Radius, Fireball Projectiles gain Area as they travel farther, up to #% increased Area of Effect	范围内至少有 {0} 点智慧时，火球投射物的效果区域随飞行距离扩大，最多扩大 {1}%
+With at least # Intelligence in Radius, Projectiles gain radius as they travel farther, up to a maximum of # metres to radius	范围内至少有 {0} 点智慧时，投射物的半径随飞行距离增大，最多增加 {1} 米半径
+With at least # Intelligence in Radius, Rolling Magma	范围内至少有 {0} 点智慧时，熔岩奔涌
+With at least # Intelligence in Radius, Rolling Magma fires an additional Projectile	范围内至少有 {0} 点智慧时，熔岩奔涌额外发射一个投射物
+With at least # Intelligence in Radius, Summon Skeletons can Summon up to # Skeleton Mages	范围内至少有 {0} 点智慧时，召唤魔侍可以召唤最多 {1} 个魔侍法师
+With at least # Strength in Radius, #% increased	范围内至少有 {0} 点力量时，提高 {1}%
+With at least # Strength in Radius, #% of Glacial	范围内至少有 {0} 点力量时，冰霜之锤将 {1}%
+With at least # Strength in Radius, Ground Slam	范围内至少有 {0} 点力量时，裂地之击
+With at least # Strength in Radius, Ground Slam has a #% chance	范围内至少有 {0} 点力量时，裂地之击有 {1}% 的几率
+With at least # Strength in Radius, Heavy Strike has a	范围内至少有 {0} 点力量时，重击有
+With at least # Strength in Radius, Molten Strike Projectiles Chain # time	范围内至少有 {0} 点力量时，熔岩之击投射物连锁 {1} 次
+With at least # Strength in Radius, Molten Strike fires # additional Projectiles	范围内至少有 {0} 点力量时，熔岩之击额外发射 {1} 个投射物
+With at least # Strength in Radius, Molten Strike has #% increased Area of Effect	范围内至少有 {0} 点力量时，熔岩之击的效果区域扩大 {1}%
+You are Unaffected by Freeze if you've cast Frostbite in the past # seconds	过去 {0} 秒内施放过冻伤时，不受冻结影响
+You are Unaffected by Ignite if you've cast Flammability in the past # seconds	过去 {0} 秒内施放过易燃时，不受点燃影响
+You are Unaffected by Shock if you've cast Conductivity in the past # seconds	过去 {0} 秒内施放过导电时，不受感电影响
+You can Cast an additional Brand	你可以额外施放一个烙印
+You can apply an additional Curse while at maximum Power Charges	暴击球达到上限时，你可以额外施加一个诅咒
+You can have two Offerings of different types	你可以同时拥有两种不同的奉献
+You cannot be Shocked for # second after being Shocked	被感电后的 {0} 秒内无法再次被感电
+You cannot be Shocked while Frozen	被冻结时无法被感电
+You cannot be Stunned while at maximum Endurance Charges	耐力球达到上限时无法被晕眩
+You gain # Grasping Vines when you take a Critical Strike	受到暴击时获得 {0} 层藤蔓缠身
+You gain Onslaught for # second per Endurance Charge when Hit	被击中时，每个耐力球使你获得 {0} 秒猛攻
+You gain an Endurance Charge on Kill	击败敌人时获得一个耐力球
+You have Acceleration Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得加速神殿增益
+You have Brutal Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得残暴神殿增益
+You have Consecrated Ground around you while	你周围产生奉献地面，当
+You have Diamond Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得钻石神殿增益
+You have Echoing Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得回响神殿增益
+You have Far Shot while you do not have Iron Reflexes	未拥有霸体时，获得远射
+You have Gloom Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得幽暗神殿增益
+You have Greater Freezing Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得高等冰冻神殿增益
+You have Greater Shocking Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得高等感电神殿增益
+You have Greater Skeletal Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得高等骷髅神殿增益
+You have Igniting, Chilling and Shocking Conflux while affected by Glorious Madness	受到疯狂荣光影响时，获得点燃、冰缓和感电汇流
+You have Iron Reflexes while at maximum Frenzy Charges	狂怒球达到上限时获得霸体
+You have Massive Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得巨大神殿增益
+You have Mind over Matter while at maximum Power Charges	暴击球达到上限时获得心灵升华
+You have Phasing while affected by Haste	受到迅捷影响时获得迷踪
+You have Replenishing Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得回复神殿增益
+You have Resistance Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得抗性神殿增益
+You have Resonating Shrine Buff while affected by no Flasks	未受任何药剂影响时，获得共鸣神殿增益
+You have Tailwind if you've used a Socketed Vaal Skill Recently	近期内使用过插槽内瓦尔技能时，获得顺风
+You have Vaal Pact while at maximum Endurance Charges	耐力球达到上限时获得瓦尔冥约
+You take #% reduced Extra Damage from Critical Strikes by Poisoned Enemies	受到中毒敌人的暴击额外伤害降低 {0}%
+Your Chaos Damage Poisons Enemies	你的混沌伤害使敌人中毒
+Your Energy Shield starts at zero	你的能量护盾初始值为零
+Your Hits Intimidate Enemies for # seconds while you are using Pride	使用骄傲时，你的击中使敌人受到 {0} 秒威吓
+Your Physical Damage can Ignite during Effect	药剂持续期间，你的物理伤害可以点燃
+a Non-Vaal Slam or Strike Skill near an Enemy	在敌人附近使用非瓦尔猛击或打击技能
+affected by Purity of Elements	受到元素净化影响时
+affected by Purity of Lightning	受到闪电净化影响时
+also grant an equal chance to gain a Frenzy Charge on Kill	也提供相同的击败敌人时获得狂怒球的几率
+also grant an equal chance to gain an Endurance Charge on Kill	也提供相同的击败敌人时获得耐力球的几率
+and nearby Allies Regenerate # Life per second	以及附近友军每秒再生 {0} 生命
+each Warcry Exerting the Attack	每个增助该攻击的战吼
+each Withered you have inflicted on them	你对其施加的每层凋零
+each type of Elemental Ailment on Enemy	敌人身上每种元素异常状态
+equal to #% of Sacrificed Mana for # seconds	数值等于献祭魔力的 {0}%，持续 {1} 秒
+every # Intelligence on Allocated Passives in Radius	范围内已分配天赋上的每 {0} 点智慧
+has #% increased Area of Effect per Chain	每次连锁使效果区域扩大 {0}%
+has a #% increased angle	角度扩大 {0}%
+have fewer than # Poisons on you	你身上的中毒层数少于 {0}
+it and your Class' starting location	该插槽与你职业的起点之间
+of your Traps are Triggered by an Enemy	你的陷阱被敌人触发时
+removed by Filling Unreserved Life	未保留生命全满而移除
+stationary if Strength is your highest Attribute	力量为最高属性且静止时
+the Attack time of your Main Hand Weapon	你的主手武器攻击间隔
+their Life as Lightning Damage which cannot Shock	生命的闪电伤害，该伤害无法造成感电
+their Maximum Life as Physical Damage	生命上限的物理伤害
+to a maximum of #%	最多 {0}%
+to deal Double Damage with the Main-Hand Weapon	使用主手武器造成双倍伤害
+to grant an Endurance Charge when you Stun an Enemy	晕眩敌人时获得一个耐力球
+to surrounding targets	对周围目标造成
+to surrounding targets while wielding a Mace	持锤时对周围目标造成
+used a Ruby Flask Recently	近期内使用过红玉药剂
+used a Sapphire Flask Recently	近期内使用过蓝玉药剂
+used a Topaz Flask Recently	近期内使用过黄玉药剂
+used an Amethyst Flask Recently	近期内使用过紫晶药剂
+when you inflict Poison with this weapon	使用此武器施加中毒时
+wielding a Bow, with a # second Cooldown	持弓时生效，冷却时间为 {0} 秒
+you consume a total of # Steel Shards	你累计消耗 {0} 枚钢刃碎片时
+you've Shattered an Enemy Recently	近期内粉碎过敌人
+your Skills have dealt a Critical Strike Recently	你的技能近期内造成过暴击
+your maximum number of Crab Barriers	数量上限的深海屏障
+your maximum number of Power Charges	数量上限的暴击球
+Physical Damage per # Strength	物理伤害，每 {0} 点力量
+# to Weapon Range	武器范围 {0}
+Duelist: # to Melee Strike Range	决斗者：近战打击范围 {0}
+Socketed Gems have #% reduced Mana Cost	插槽内宝石的魔力消耗降低 {0}%
+Right ring slot: Projectiles from Spells Chain # times	右戒指栏位：法术投射物连锁 {0} 次
