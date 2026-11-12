@@ -1,8 +1,8 @@
 {
-  "source_rows": 5711,
-  "matched_pairs": 12161,
-  "exact_entries": 2474,
-  "numeric_templates": 1002,
+  "source_rows": 6275,
+  "matched_pairs": 12469,
+  "exact_entries": 2745,
+  "numeric_templates": 1065,
   "ambiguous_exact": {
     "Ancient Orb": [
       "远古石",

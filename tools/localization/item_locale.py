@@ -80,6 +80,7 @@ def read_mods(soup):
 def build_items(known_entries=None, known_templates=()):
     source = json.loads((HERE / 'item-source.json').read_text('utf8'))
     source += json.loads((HERE / 'database-source.json').read_text('utf8'))
+    source += json.loads((HERE / 'legion-source.json').read_text('utf8'))
     local_text = {r['english'].strip() for r in source}
     local_shapes = {shape(t) for t in local_text}
     exact, patterns = defaultdict(dict), defaultdict(dict)
