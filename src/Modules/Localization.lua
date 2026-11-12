@@ -461,6 +461,20 @@ function L:TranslateUI(text)
 	return self:Translate(text, nil, self:EffectiveMode() == "bilingual" and "zh" or nil)
 end
 
+-- Translate parsed item name components, never the item or its saved raw text.
+function L:ItemListName(item)
+	if self:EffectiveMode() == "en" or self.suspended > 0 then return item.name end
+	if item.rarity == "MAGIC" and item.baseName then
+		local function part(text)
+			return self:TranslateUI((text or ""):match("^%s*(.-)%s*$"))
+		end
+		local prefix, suffix = part(item.namePrefix), part(item.nameSuffix)
+		return (prefix ~= "" and prefix .. " " or "") .. self:TranslateUI(item.baseName)
+			.. (suffix ~= "" and " " .. suffix or "")
+	end
+	return self:TranslateUI(item.name)
+end
+
 local function tokens(text)
 	local result = {}
 	local i = 1
@@ -493,6 +507,19 @@ local function measure(height, font, text)
 		else width = width + tokenWidth(t, height, font) end
 	end
 	return math.max(longest, width)
+end
+
+-- List clipping uses the same glyph advances as drawing, on UTF-8 boundaries.
+function L:ClipText(text, height, font, width)
+	if measure(height, font, text) <= width then return text end
+	local result, used = "", 0
+	local limit = width - rawWidth(height, font, "...")
+	for _, t in ipairs(tokens(text)) do
+		local advance = tokenWidth(t, height, font)
+		if used + advance > limit then break end
+		result, used = result .. (t.color or t.ch), used + advance
+	end
+	return result .. "..."
 end
 
 -- Wrap display text on UTF-8 boundaries, preferring spaces for English words.

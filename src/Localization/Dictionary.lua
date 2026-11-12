@@ -39653,4 +39653,9 @@ return {
 	["· Ctrl + Right click to include/exclude in FullDPS calculations."] = "· 按住 Ctrl 右击可切换是否计入完整 DPS。",
 	["· Right click to set as the 'Main' skill group."] = "· 右击可将其设为主技能组。",
 	["· You can copy/paste socket groups using Ctrl+C and Ctrl+V."] = "· 使用 Ctrl+C／Ctrl+V 复制和粘贴技能组。",
+	["Any Loadout"] = "所有配装",
+	["Current Loadout"] = "当前配装",
+	["Unused Items"] = "未使用物品",
+	["(Unused)"] = "(未使用)",
+	["Used in"] = "用于",
 }

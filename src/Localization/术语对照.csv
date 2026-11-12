@@ -43325,3 +43325,8 @@ worst from three rolls instead of two,取其中最好或最坏的结果,item-sta
 · Ctrl + Right click to include/exclude in FullDPS calculations.,· 按住 Ctrl 右击可切换是否计入完整 DPS。,ui,editorial-ui,,
 · Right click to set as the 'Main' skill group.,· 右击可将其设为主技能组。,ui,editorial-ui,,
 · You can copy/paste socket groups using Ctrl+C and Ctrl+V.,· 使用 Ctrl+C／Ctrl+V 复制和粘贴技能组。,ui,editorial-ui,,
+(Unused),(未使用),item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
+Any Loadout,所有配装,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
+Current Loadout,当前配装,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
+Unused Items,未使用物品,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
+Used in,用于,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,

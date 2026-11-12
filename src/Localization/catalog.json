@@ -273120,5 +273120,35 @@
     "zh": "GitHub 项目页：^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding",
     "kind": "ui-detail",
     "status": "source-code-checked"
+  },
+  "Any Loadout": {
+    "zh": "所有配装",
+    "kind": "item-ui",
+    "status": "source-code-checked",
+    "source": "src/Classes/ItemsTab.lua; https://poedb.tw/cn/League"
+  },
+  "Current Loadout": {
+    "zh": "当前配装",
+    "kind": "item-ui",
+    "status": "source-code-checked",
+    "source": "src/Classes/ItemsTab.lua; https://poedb.tw/cn/League"
+  },
+  "Unused Items": {
+    "zh": "未使用物品",
+    "kind": "item-ui",
+    "status": "source-code-checked",
+    "source": "src/Classes/ItemsTab.lua; https://poedb.tw/cn/League"
+  },
+  "(Unused)": {
+    "zh": "(未使用)",
+    "kind": "item-ui",
+    "status": "source-code-checked",
+    "source": "src/Classes/ItemsTab.lua; https://poedb.tw/cn/League"
+  },
+  "Used in": {
+    "zh": "用于",
+    "kind": "item-ui",
+    "status": "source-code-checked",
+    "source": "src/Classes/ItemsTab.lua; https://poedb.tw/cn/League"
   }
 }

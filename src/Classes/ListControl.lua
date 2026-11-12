@@ -212,14 +212,19 @@ function ListClass:Draw(viewPort, noTooltip)
 			local lineY = rowHeight * (index - 1) - scrollOffsetV + (self.colLabels and 18 or 0)
 			local value = list[index]
 			local text = self:GetRowValue(colIndex, index, value)
+			if Localization then text = Localization:TranslateUI(text) end
 			local icon = nil
 			if self.GetRowIcon then 
 				icon = self:GetRowIcon(colIndex, index, value)
 			end
 			local textWidth = DrawStringWidth(textHeight, colFont, text)
 			if textWidth > colWidth - 2 then
-				local clipIndex = DrawStringCursorIndex(textHeight, colFont, text, colWidth - clipWidth - 2, 0)
-				text = text:sub(1, clipIndex - 1) .. "..."
+				if Localization then
+					text = Localization:ClipText(text, textHeight, colFont, colWidth - 2)
+				else
+					local clipIndex = DrawStringCursorIndex(textHeight, colFont, text, colWidth - clipWidth - 2, 0)
+					text = text:sub(1, clipIndex - 1) .. "..."
+				end
 				textWidth = DrawStringWidth(textHeight, colFont, text)
 			end
 			if not scrollBarV.dragging and (not self.selDragActive or (self.CanDragToValue and self:CanDragToValue(index, value, self.otherDragSource))) then

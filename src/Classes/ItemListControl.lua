@@ -253,7 +253,17 @@ function ItemListClass:GetRowValue(column, index, itemId)
 		else
 			used = "  ^9(Used in '" .. used .. "')"
 		end
-		return colorCodes[item.rarity] .. item.name .. used
+		local name = item.name
+		if Localization then
+			name = Localization:ItemListName(item)
+			local set = used:match("^  %^9%(Used in '(.*)'%)$")
+			if set then
+				used = "  ^9(" .. Localization:TranslateUI("Used in") .. " '" .. set .. "')"
+			else
+				used = Localization:TranslateUI(used)
+			end
+		end
+		return colorCodes[item.rarity] .. name .. used
 	end
 end
 
