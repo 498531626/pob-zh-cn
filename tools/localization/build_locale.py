@@ -76,7 +76,12 @@ def build():
     entries.update({k: {'zh': v, 'kind': 'pob-panel', 'status': 'source-code-checked',
                         'source': 'src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua'}
                     for k, v in panels.items()})
+    full_dps_terms = json.loads((HERE / 'full-dps-terms.json').read_text('utf8'))
+    entries.update({en: dict(meta, kind='pob-panel', status='poedb-terms-composed')
+                    for en, meta in full_dps_terms.items()})
     labels = set(re.findall(r'label\s*=\s*"([^"\n]+)"', (ROOT / 'src/Modules/BuildDisplayStats.lua').read_text('utf8')))
+    labels.update(re.findall(r't_insert\(fullDPS\.skills, \{ name = "([^"]+)"',
+                            (ROOT / 'src/Modules/Calcs.lua').read_text('utf8')))
     missing_labels = labels - entries.keys()
     if missing_labels:
         raise ValueError(f'Untranslated sidebar labels: {sorted(missing_labels)}')

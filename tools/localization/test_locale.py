@@ -263,6 +263,39 @@ tip:Clear();tip.maxWidth=180
 tip:AddLine(16,'^x8888FF'..string.rep('能量护盾',15))
 assert(#tip.lines>1)
 for _,line in ipairs(tip.lines) do assert(L:WithoutTranslation(DrawStringWidth,16,'VAR',line.text)<=180) end
+-- Recipe labels bypass AddLine: check the actual header draw instructions,
+-- their measured bounds, duplicate oils, image IDs and language switching.
+local oils={'Amber','Azure','Black','Clear','Crimson','Golden','Indigo',
+ 'Opalescent','Prismatic','Sepia','Silver','Teal','Verdant','Violet'}
+assert(L:RecipeName('AmberOil')=='琥珀圣油')
+assert(L:RecipeName('TealOil')=='水蓝圣油')
+for _,mode in ipairs({'zh','en','zh'}) do
+ L.mode=mode
+ for _,flavour in ipairs({false,true}) do
+  main.showFlavourText=flavour
+  for _,oil in ipairs(oils) do
+   tip:Clear();tip:AddLine(20,'Strength')
+   local recipe={oil..'Oil',oil..'Oil','TealOil'}
+   tip:SetRecipe(recipe)
+   local width,height=tip:GetSize()
+   local _,_,stack=tip:CalculateColumns(0,0,height,width,{x=0,y=0,width=1920,height=1080})
+   for index,id in ipairs(recipe) do
+    local text,image=stack[index*2],stack[index*2+1]
+    local short=id:match('^(.+)Oil$')
+    local expected=mode=='en' and short or assert(dict[short..' Oil'])
+    assert(text[6]==(flavour and '^xF8E6CA' or '')..expected,text[6])
+    assert(text[1]>=0 and image[2]+image[4]<=width,'Recipe header overflow')
+    assert(image[1].handle,'Recipe image lost')
+    assert(image[2]==text[1]+L:WithoutTranslation(DrawStringWidth,text[4],text[5],expected))
+    assert(recipe[index]==id and tip.recipe==recipe,'Recipe data changed')
+   end
+  end
+ end
+ assert(L:RecipeName('UnknownOil')=='Unknown')
+ assert(L:RecipeName('UnknownMaterial')=='UnknownMaterial')
+end
+main.showFlavourText=false
+L.mode='zh'
 -- Exercise the real comparison formatter, including node-path averages, rather
 -- than only matching hand-constructed strings. No game state or saves are loaded.
 local f=assert(io.open('Modules/Build.lua','r'));local source=f:read('*a');f:close()

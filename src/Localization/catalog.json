@@ -14334,9 +14334,9 @@
   },
   "Corrupting Blood DPS": {
     "zh": "腐化之血每秒伤害",
+    "source": "https://poedb.tw/cn/Corrupted_Blood; https://poedb.tw/cn/Corrupting_Fever",
     "kind": "pob-panel",
-    "status": "source-code-checked",
-    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+    "status": "poedb-terms-composed"
   },
   "Culling DPS": {
     "zh": "终结贡献伤害",
@@ -14357,7 +14357,7 @@
     "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
   },
   "Decay DPS": {
-    "zh": "腐化每秒伤害",
+    "zh": "腐蚀每秒伤害",
     "kind": "pob-panel",
     "status": "source-code-checked",
     "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
@@ -16381,7 +16381,7 @@
     "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
   },
   "Decay Duration": {
-    "zh": "腐化持续时间",
+    "zh": "腐蚀持续时间",
     "kind": "pob-panel",
     "status": "source-code-checked",
     "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
@@ -273586,5 +273586,143 @@
     "kind": "item-ui",
     "status": "source-code-checked",
     "source": "src/Classes/ItemsTab.lua; https://poedb.tw/cn/League"
+  },
+  "Virulence Stack Limit": {
+    "zh": "毒力层数上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Multiplier: Virulence Stacks Max": {
+    "zh": "最大毒力层数",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Guard Absorb Rate": {
+    "zh": "护卫伤害吸收比例",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Guard Absorb Limit": {
+    "zh": "护卫伤害吸收上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Avoid Bleed": {
+    "zh": "避免流血几率",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Arcane Surge Mana Regen": {
+    "zh": "秘术增强魔力再生",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Arcane Surge Cast Speed": {
+    "zh": "秘术增强施法速度",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Damage": {
+    "zh": "伤害",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Buff": {
+    "zh": "增益",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Debuff": {
+    "zh": "减益",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Global": {
+    "zh": "全局效果",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Aura Debuff": {
+    "zh": "光环减益",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Dot": {
+    "zh": "持续伤害",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Best Bleed DPS": {
+    "zh": "最高流血每秒伤害",
+    "source": "https://poedb.tw/cn/Bleeding",
+    "kind": "pob-panel",
+    "status": "poedb-terms-composed"
+  },
+  "Best Ignite DPS": {
+    "zh": "最高点燃每秒伤害",
+    "source": "https://poedb.tw/cn/Ignite",
+    "kind": "pob-panel",
+    "status": "poedb-terms-composed"
+  },
+  "Best Burning Ground DPS": {
+    "zh": "最高燃烧地面每秒伤害",
+    "source": "https://poedb.tw/cn/Burning_ground",
+    "kind": "pob-panel",
+    "status": "poedb-terms-composed"
+  },
+  "Best Caustic Ground DPS": {
+    "zh": "最高腐蚀地面每秒伤害",
+    "source": "https://poedb.tw/cn/Caustic_ground",
+    "kind": "pob-panel",
+    "status": "poedb-terms-composed"
+  },
+  "Full Poison DPS": {
+    "zh": "完整中毒每秒伤害",
+    "source": "https://poedb.tw/cn/Poison",
+    "kind": "pob-panel",
+    "status": "poedb-terms-composed"
+  },
+  "Full Impale DPS": {
+    "zh": "完整穿刺每秒伤害",
+    "source": "https://poedb.tw/cn/Impale",
+    "kind": "pob-panel",
+    "status": "poedb-terms-composed"
+  },
+  "Full Decay DPS": {
+    "zh": "完整腐蚀每秒伤害",
+    "source": "https://poedb.tw/cn/Decay_Support",
+    "kind": "pob-panel",
+    "status": "poedb-terms-composed"
+  },
+  "Full DoT DPS": {
+    "zh": "完整持续每秒伤害",
+    "source": "https://poedb.tw/cn/Damage_over_time",
+    "kind": "pob-panel",
+    "status": "poedb-terms-composed"
+  },
+  "Full Culling DPS": {
+    "zh": "完整终结贡献伤害",
+    "source": "https://poedb.tw/cn/Culling_Strike_Support",
+    "kind": "pob-panel",
+    "status": "poedb-terms-composed"
+  },
+  "50% more Damage": {
+    "zh": "伤害总增 50%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
   }
 }

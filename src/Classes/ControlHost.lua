@@ -93,7 +93,13 @@ end
 function ControlHostClass:DrawControls(viewPort, selControl)
 	for _, control in pairs(self.controls) do
 		if control:IsShown() and control.Draw then
-			control:Draw(viewPort, (self.selControl and self.selControl.hasFocus and self.selControl ~= control) or (selControl and selControl.hasFocus and selControl ~= control))
+			local noTooltip = (self.selControl and self.selControl.hasFocus and self.selControl ~= control) or (selControl and selControl.hasFocus and selControl ~= control)
+			if Localization then
+				Localization:DrawControl(self, control, viewPort, noTooltip)
+			else
+				control:Draw(viewPort, noTooltip)
+			end
 		end
 	end
+	if Localization then Localization:DrawOverflowHint(viewPort) end
 end

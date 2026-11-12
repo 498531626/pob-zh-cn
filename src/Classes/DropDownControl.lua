@@ -318,7 +318,11 @@ function DropDownClass:Draw(viewPort, noTooltip)
 		end
 	end
 	SetViewport(x + 2, y + 2, width - height, lineHeight)
-	DrawString(0, 0, "LEFT", lineHeight, "VAR", selLabel or "")
+	if Localization then
+		Localization:BoundedText(0, 0, "LEFT", lineHeight, "VAR", selLabel or "", width - height - (selDetail and DrawStringWidth(lineHeight, "VAR", selDetail) + 4 or 0))
+	else
+		DrawString(0, 0, "LEFT", lineHeight, "VAR", selLabel or "")
+	end
 	if selDetail ~= nil then
 		local dx = DrawStringWidth(lineHeight, "VAR", selDetail)
 		if not enabled or self.dropped then
@@ -390,7 +394,11 @@ function DropDownClass:Draw(viewPort, noTooltip)
 				else 
 					label = listVal
 				end
-				DrawString(0, y, "LEFT", lineHeight, "VAR", label)
+				if Localization then
+					Localization:BoundedText(0, y, "LEFT", lineHeight, "VAR", label, (scrollBar.enabled and width - 22 or width - 4) - (detail and DrawStringWidth(lineHeight, "VAR", detail) + 4 or 0))
+				else
+					DrawString(0, y, "LEFT", lineHeight, "VAR", label)
+				end
 				if detail ~= nil then
 					local detail = listVal.detail
 					local dx = DrawStringWidth(lineHeight, "VAR", detail)

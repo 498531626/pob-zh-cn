@@ -22,6 +22,8 @@ for _, labels in ipairs({calcLabels, panelLabels}) do
 end
 local glyphs = LoadModule("Localization/Glyphs")
 local rawDraw, rawWidth, rawCursor, rawColor = DrawString, DrawStringWidth, DrawStringCursorIndex, SetDrawColor
+local rawViewport = SetViewport
+local textViewport
 local currentColor = {1, 1, 1, 1}
 local cache = {}
 local itemNames = {}
@@ -49,6 +51,18 @@ end
 
 function L:EffectiveMode()
 	return self.mode
+end
+
+-- Tree recipes use image IDs (AmberOil), while the dictionary uses item names.
+-- Resolve only the displayed label; recipe IDs must remain unchanged.
+function L:RecipeName(recipeName)
+	local short = recipeName:match("^(.+)Oil$")
+	if not short then return recipeName end
+	local name = short .. " Oil"
+	if self:EffectiveMode() ~= "en" and dictionary[name] then
+		return self:Translate(name)
+	end
+	return short
 end
 
 function L:Cycle()
@@ -167,6 +181,13 @@ end
 local function dynamicChinese(body)
 	local interface = interfaceChinese(body)
 	if interface then return interface end
+	-- Full DPS rows prefix skill labels with their instance count. Translate
+	-- the remaining label independently, preserving the count and colour codes.
+	local skillCount, skillLabel = body:match("^(%d+x )(.+)$")
+	if skillCount then
+		local translated = L:Translate(skillLabel, nil, "zh")
+		if translated ~= skillLabel then return skillCount .. translated end
+	end
 	local title, base = body:match("^(.-), (.-)$")
 	if dictionary[base] and not title:find(":", 1, true) then return (dictionary[title] or title) .. ", " .. dictionary[base] end
 	local equipSlot = body:match("^Equipping this item in (.-) will give you:$")
@@ -512,6 +533,16 @@ function L:RegisterItemName(item)
 	register((item.baseName:gsub(" %(.+%)", "")))
 end
 
+-- Search the reviewed Chinese text even when the interface is in English.
+function L:TranslateForSearch(text)
+	local mode, suspended = self.mode, self.suspended
+	self.mode, self.suspended = "zh", 0
+	local ok, result = pcall(self.TranslateUI, self, text)
+	self.mode, self.suspended = mode, suspended
+	if not ok then error(result) end
+	return result
+end
+
 function L:ItemListName(item)
 	if self:EffectiveMode() == "en" or self.suspended > 0 then return item.name end
 	if item.rarity == "MAGIC" and item.baseName then
@@ -562,6 +593,7 @@ end
 -- List clipping uses the same glyph advances as drawing, on UTF-8 boundaries.
 function L:ClipText(text, height, font, width)
 	if measure(height, font, text) <= width then return text end
+	if width < rawWidth(height, font, "...") then return "" end
 	local result, used = "", 0
 	local limit = width - rawWidth(height, font, "...")
 	for _, t in ipairs(tokens(text)) do
@@ -604,8 +636,37 @@ function SetDrawColor(...)
 	return rawColor(...)
 end
 
+-- Native viewports use local text coordinates. Keep their origin as well as
+-- their width so fallback fitting and hover hints work in scrolled controls.
+function SetViewport(x, y, width, height)
+	textViewport = x and { x = x, y = y, width = width, height = height } or nil
+	if rawViewport then
+		if x then return rawViewport(x, y, width, height) end
+		return rawViewport()
+	end
+end
+
 function DrawStringWidth(height, font, text)
 	return measure(height, font, L:TranslateUI(text))
+end
+
+-- Hit testing must use the same atlas advances and byte offsets as the editor.
+function DrawStringCursorIndex(height, font, text, cursorX, cursorY)
+	if not text:find("[\128-\255]") then return rawCursor(height, font, text, cursorX, cursorY) end
+	local targetLine = math.max(0, math.ceil(cursorY / height) - 1)
+	local line, x, index = 0, 0, 1
+	for _, token in ipairs(tokens(text)) do
+		if token.ch == "\n" then
+			if line == targetLine then return index end
+			line, x = line + 1, 0
+		elseif token.ch then
+			local width = tokenWidth(token, height, font)
+			if line == targetLine and cursorX < x + width / 2 then return index end
+			x = x + width
+		end
+		index = index + #(token.ch or token.color)
+	end
+	return #text + 1
 end
 
 -- All alignments mirror the native renderer. Atlas glyphs share the same colour
@@ -613,6 +674,25 @@ end
 function DrawString(left, top, align, height, font, text)
 	text = L:TranslateUI(text)
 	if type(text) ~= "string" or not text:find("[\128-\255]") then return rawDraw(left, top, align, height, font, text) end
+	if L.suspended == 0 then
+		local screenW = GetVirtualScreenSize()
+		local low, high = 2, screenW - 2
+		if textViewport then low, high = 0, textViewport.width
+		elseif L.textBounds then low, high = L.textBounds[1], L.textBounds[2] end
+		local anchor = left
+		if align == "CENTER" then anchor = screenW / 2 + left
+		elseif align == "RIGHT" then anchor = screenW - left end
+		anchor = math.max(low, math.min(high, anchor))
+		local available = high - anchor
+		if align == "RIGHT" or align == "RIGHT_X" then available = anchor - low
+		elseif align == "CENTER" or align == "CENTER_X" then available = 2 * math.min(anchor - low, high - anchor) end
+		local original, originalHeight = text, height
+		text, height = L:FitText(text, height, font, available)
+		top = top + (originalHeight - height) / 2
+		if align == "CENTER" then left = anchor - screenW / 2
+		elseif align == "RIGHT" then left = screenW - anchor else left = anchor end
+		if text ~= original then L:RecordOverflow(anchor, top, align, height, font, text, original) end
+	end
 	if not atlas then atlas = NewImageHandle(); atlas:Load("Localization/ChineseGlyphs.png") end
 	local originalColor = currentColor
 	local screenW = GetVirtualScreenSize()
@@ -652,11 +732,106 @@ function L:WithoutTranslation(func, ...)
 end
 
 function L:ButtonText(x, y, width, height, font, text)
-	local translated = self:TranslateUI(text)
-	local fit = math.min(height, height * (width - 6) / math.max(1, measure(height, font, translated)))
-	fit = math.max(8, fit)
-	-- Already translated; prevent a second lookup (e.g. English mode labels).
-	self:WithoutTranslation(DrawString, x, y + (height - fit) / 2, "CENTER_X", fit, font, translated)
+	self:BoundedText(x, y, "CENTER_X", height, font, text, width - 6)
+end
+
+-- Fixed-width calculation cells need bounds after translation, including the
+-- atlas glyph advances. Keep a readable minimum, then elide on UTF-8 boundaries.
+function L:FitText(text, height, font, width)
+	text = self:TranslateUI(text)
+	width = math.max(0, width)
+	local measured = measure(height, font, text)
+	local fit = math.min(height, math.max(math.min(10, height), height * width / math.max(1, measured)))
+	if measure(fit, font, text) > width then
+		if width < rawWidth(fit, font, "...") then return "", fit end
+		text = self:ClipText(text, fit, font, width)
+	end
+	return text, fit
+end
+
+function L:BoundedText(x, y, align, height, font, text, width)
+	if self:EffectiveMode() == "en" or self.suspended > 0 then
+		return DrawString(x, y, align, height, font, text)
+	end
+	local low, high = 2, GetVirtualScreenSize() - 2
+	if textViewport then low, high = 0, textViewport.width
+	elseif self.textBounds then low, high = self.textBounds[1], self.textBounds[2] end
+	x = math.max(low, math.min(high, x))
+	-- Restrict explicit cell widths to their visible host as well.
+	local visible = high - x
+	if align == "RIGHT_X" then visible = x - low
+	elseif align == "CENTER_X" then visible = 2 * math.min(x - low, high - x) end
+	width = math.min(width, math.max(0, visible))
+	local fitted, size = self:FitText(text, height, font, width)
+	if fitted ~= self:TranslateUI(text) then self:RecordOverflow(x, y, align, size, font, fitted, self:TranslateUI(text)) end
+	return self:WithoutTranslation(DrawString, x, y + (height - size) / 2, align, size, font, fitted)
+end
+
+function L:LeftLabelWidth(control, right)
+	local left = self.textBounds and self.textBounds[1] or 2
+	local ancestor = control.anchor and control.anchor.other
+	local seen = {}
+	while ancestor and not seen[ancestor] do
+		seen[ancestor] = true
+		if ancestor._className == "SectionControl" or ancestor._className == "PopupDialog" then
+			left = math.max(left, ancestor:GetPos() + 8)
+			break
+		end
+		ancestor = ancestor.anchor and ancestor.anchor.other
+	end
+	return math.max(0, right - left)
+end
+
+L.CalcText = L.BoundedText
+
+function L:RecordOverflow(x, y, align, height, font, fitted, full)
+	if not GetCursorPos or self.suppressOverflow then return end
+	local width = measure(height, font, fitted)
+	if align == "RIGHT_X" or align == "RIGHT" then x = x - width
+	elseif align == "CENTER_X" or align == "CENTER" then x = x - width / 2 end
+	if textViewport then x, y = x + textViewport.x, y + textViewport.y end
+	local cx, cy = GetCursorPos()
+	if cx >= x and cx <= x + width and cy >= y and cy <= y + height then
+		self.overflowHint = { x = x, y = y, width = width, height = height, text = full }
+	end
+end
+
+function L:DrawControl(host, control, viewPort, noTooltip)
+	local previous = self.textBounds
+	local previousSuppression = self.suppressOverflow
+	self.suppressOverflow = noTooltip
+	local left, right = viewPort.x, viewPort.x + viewPort.width
+	if host.GetPos and host.GetSize then
+		local hx = host:GetPos()
+		local hw = host:GetSize()
+		if hw and hw > 0 then left, right = math.max(left, hx + 2), math.min(right, hx + hw - 2) end
+	end
+	local x = control:GetPos()
+	local width = control:GetSize()
+	-- Labels and checkboxes can place text outside their own rectangle.
+	if control._className ~= "LabelControl" and control._className ~= "CheckBoxControl" and width and width > 0 then
+		left, right = math.max(left, x), math.min(right, x + width)
+	end
+	self.textBounds = {left, math.max(left, right)}
+	local ok, err = pcall(control.Draw, control, viewPort, noTooltip)
+	self.textBounds = previous
+	self.suppressOverflow = previousSuppression
+	if not ok then error(err) end
+end
+
+function L:DrawOverflowHint(viewPort)
+	local hint = self.overflowHint
+	self.overflowHint = nil
+	if not hint or not main or not new then return end
+	self.overflowTooltip = self.overflowTooltip or new("Tooltip")
+	local tooltip = self.overflowTooltip
+	if tooltip:CheckForUpdate(hint.text, viewPort.width) then
+		tooltip.maxWidth = math.min(600, viewPort.width - 16)
+		self:WithoutTranslation(tooltip.AddLine, tooltip, 14, hint.text)
+	end
+	SetDrawLayer(nil, 110)
+	tooltip:Draw(hint.x, hint.y, hint.width, hint.height, viewPort)
+	SetDrawLayer(nil, 0)
 end
 
 return L

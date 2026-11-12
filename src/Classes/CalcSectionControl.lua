@@ -7,6 +7,13 @@ local t_insert = table.insert
 local m_max = math.max
 local m_min = math.min
 
+local function drawCellText(x, y, align, height, font, text, width)
+	if Localization then
+		return Localization:CalcText(x, y, align, height, font, text, width)
+	end
+	return DrawString(x, y, align, height, font, text)
+end
+
 local CalcSectionClass = newClass("CalcSectionControl", "Control", "ControlHost", function(self, calcsTab, width, id, group, colour, subSection, updateFunc)
 	self.Control(calcsTab, {0, 0, width, 0})
 	self.ControlHost()
@@ -437,17 +444,31 @@ function CalcSectionClass:DrawContent(drawX, startLineY, drawWidth, actor, viewP
 		-- Label
 		if not enabled then
 			local lx = isOverlay and drawX + 4 or drawX + 3
-			DrawString(lx, lineY + 3, "LEFT", 16, "VAR BOLD", "^8"..(subSec.label or ""))
+			drawCellText(lx, lineY + 3, "LEFT", 16, "VAR BOLD", "^8"..(subSec.label or ""), drawWidth - 44)
 		else
 			local lx = isOverlay and drawX + 4 or drawX + 3
 			local textColor = "^7"
 			if not isOverlay and self.calcsTab:SearchMatch(subSec.label) then
 				textColor = colorCodes.HIGHLIGHT
 			end
-			DrawString(lx, lineY + 3, "LEFT", 16, "VAR BOLD", textColor..(subSec.label or "")..":")
-			if subSec.data.extra then
-				local ex = lx + DrawStringWidth(16, "VAR BOLD", subSec.label) + (isOverlay and 12 or 10)
-				DrawString(ex, lineY + 3, "LEFT", 16, "VAR", "^7"..formatCalcStr(subSec.data.extra, actor))
+			local label = textColor..(subSec.label or "")..":"
+			local extra = subSec.data.extra and ("^7"..formatCalcStr(subSec.data.extra, actor))
+			local size = 16
+			if Localization and Localization:EffectiveMode() ~= "en" then
+				-- Fit the title and summary together, reserving both header buttons.
+				local fitted
+				fitted, size = Localization:FitText(label..(extra and " "..extra or ""), 16, "VAR BOLD", drawWidth - 44)
+				if fitted == "" or fitted:sub(-3) == "..." then
+					drawCellText(lx, lineY + 3, "LEFT", 16, "VAR BOLD", label..(extra and " "..extra or ""), drawWidth - 44)
+					label, extra = nil, nil
+				end
+			end
+			local textY = lineY + 3 + (16 - size) / 2
+			if label then DrawString(lx, textY, "LEFT", size, "VAR BOLD", label) end
+			if extra then
+				local gap = Localization and Localization:EffectiveMode() ~= "en" and DrawStringWidth(size, "VAR BOLD", " ") or (isOverlay and 12 or 10) - DrawStringWidth(size, "VAR BOLD", ":")
+				local ex = lx + DrawStringWidth(size, "VAR BOLD", label) + gap
+				DrawString(ex, textY, "LEFT", size, "VAR", extra)
 			end
 		end
 
@@ -487,10 +508,10 @@ function CalcSectionClass:DrawContent(drawX, startLineY, drawWidth, actor, viewP
 							if self.calcsTab:SearchMatch(rowData.label) then
 								textColor = colorCodes.HIGHLIGHT
 							end
-							DrawString(drawX + 132, lineY + 2, "RIGHT_X", 16, "VAR", textColor..rowData.label.."^7:")
+							drawCellText(drawX + 132, lineY + 2, "RIGHT_X", 16, "VAR", textColor..rowData.label.."^7:", 128)
 						end
 					elseif rowData.label then
-						DrawString(drawX + 132, lineY + 2, "RIGHT_X", 16, "VAR", "^7"..rowData.label.."^7:")
+						drawCellText(drawX + 132, lineY + 2, "RIGHT_X", 16, "VAR", "^7"..rowData.label.."^7:", 128)
 					end
 					for colour, colData in ipairs(rowData) do
 						local cellX = isOverlay and (drawX + (colData.xOffset or 134)) or colData.x
@@ -524,7 +545,7 @@ function CalcSectionClass:DrawContent(drawX, startLineY, drawWidth, actor, viewP
 
 								local textSize = rowData.textSize or 14
 								SetViewport(cellX + 3, isOverlay and lineY + 2 or cellY, cellW - 4, 18)
-								DrawString(1, 9 - textSize / 2, "LEFT", textSize, "VAR", "^7"..formatCalcStr(colData.format, actor, colData))
+								drawCellText(1, 9 - textSize / 2, "LEFT", textSize, "VAR", "^7"..formatCalcStr(colData.format, actor, colData), cellW - 6)
 								SetViewport()
 							end
 						end

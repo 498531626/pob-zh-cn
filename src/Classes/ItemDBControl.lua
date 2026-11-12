@@ -9,6 +9,18 @@ local t_insert = table.insert
 local m_max = math.max
 local m_floor = math.floor
 
+local function matchesSearch(text, pattern)
+	local err, match = PCall(string.matchOrPattern, text:lower(), pattern)
+	if not err and match then return true end
+	if Localization then
+		local translated = Localization:TranslateForSearch(text)
+		if translated ~= text then
+			err, match = PCall(string.matchOrPattern, translated:lower(), pattern)
+			return not err and match
+		end
+	end
+	return false
+end
 
 local ItemDBClass = newClass("ItemDBControl", "ListControl", function(self, anchor, rect, itemsTab, db, dbType)
 	self.ListControl(anchor, rect, 16, "VERTICAL", false)
@@ -138,29 +150,27 @@ function ItemDBClass:DoesItemMatchFilters(item)
 		local mode = self.controls.searchMode.selIndex
 		if mode == 1 or mode == 2 then
 			-- check if any explicit mods have a mutated line
-			local searchName = item.name:lower()
+			local searchName = item.name
 			for _, modLine in ipairs(item.explicitModLines) do
 				if modLine.newModId then
 					searchName = "foulborn " .. searchName
 					break
 				end
 			end
-			local err, match = PCall(string.matchOrPattern, searchName, searchStr)
-			if not err and match then
+			if matchesSearch(searchName, searchStr) or matchesSearch(item.name, searchStr)
+				or (item.baseName and matchesSearch(item.baseName, searchStr)) then
 				found = true
 			end
 		end
 		if mode == 1 or mode == 3 then
 			for _, line in pairs(item.enchantModLines) do
-				local err, match = PCall(string.matchOrPattern, line.line:lower(), searchStr)
-				if not err and match then
+				if matchesSearch(line.line, searchStr) then
 					found = true
 					break
 				end
 			end
 			for _, line in pairs(item.implicitModLines) do
-				local err, match = PCall(string.matchOrPattern, line.line:lower(), searchStr)
-				if not err and match then
+				if matchesSearch(line.line, searchStr) then
 					found = true
 					break
 				end
@@ -168,12 +178,15 @@ function ItemDBClass:DoesItemMatchFilters(item)
 			for _, line in pairs(item.explicitModLines) do
 				-- Include the other side of Foulborn transformations in modifier searches.
 				local newMod = line.newModId and (data.itemMods.ItemExclusive[line.newModId] or data.itemMods.Foulborn[line.newModId])
-				local searchLine = line.line:lower()
+				local searchLine = line.line
+				local matched = matchesSearch(searchLine, searchStr)
 				if newMod then
-					searchLine = searchLine .. table.concat(newMod, " "):lower()
+					for _, text in ipairs(newMod) do
+						matched = matched or matchesSearch(text, searchStr)
+					end
+					searchLine = searchLine .. table.concat(newMod, " ")
 				end
-				local err, match = PCall(string.matchOrPattern, searchLine, searchStr)
-				if not err and match then
+				if matched or matchesSearch(searchLine, searchStr) then
 					found = true
 					break
 				end

@@ -298,7 +298,11 @@ function ListClass:Draw(viewPort, noTooltip)
 			local label = self:GetColumnProperty(column, "label")
 			if label and #label > 0 then
 				SetDrawColor(1, 1, 1)
-				DrawString(colOffset + colWidth/2, 4, "CENTER_X", 12, "VAR", label)
+				if Localization then
+					Localization:BoundedText(colOffset + colWidth/2, 4, "CENTER_X", 12, "VAR", label, colWidth - 4)
+				else
+					DrawString(colOffset + colWidth/2, 4, "CENTER_X", 12, "VAR", label)
+				end
 			end
 		end
 	end

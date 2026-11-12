@@ -65,5 +65,18 @@
  "Chaos Damage Gain As Chaos":"混沌伤害额外获得为混沌伤害",
  "Chaos Damage Convert To Chaos":"混沌伤害转化为混沌伤害",
  "Melee hit":"近战击中",
- "Icy blades":"寒冰刀刃"
+ "Icy blades":"寒冰刀刃",
+ "Virulence Stack Limit":"毒力层数上限",
+ "Multiplier: Virulence Stacks Max":"最大毒力层数",
+ "Guard Absorb Rate":"护卫伤害吸收比例",
+ "Guard Absorb Limit":"护卫伤害吸收上限",
+ "Avoid Bleed":"避免流血几率",
+ "Arcane Surge Mana Regen":"秘术增强魔力再生",
+ "Arcane Surge Cast Speed":"秘术增强施法速度",
+ "Damage":"伤害",
+ "Buff":"增益",
+ "Debuff":"减益",
+ "Global":"全局效果",
+ "Aura Debuff":"光环减益",
+ "Dot":"持续伤害"
 }

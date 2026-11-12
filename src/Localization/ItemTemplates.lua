@@ -4872,6 +4872,7 @@ return {
 {en="{0}% less Duration",zh="持续时间总降 {0}%",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%%%s+less%s+Duration$",values=1},
 {en="{0} to Dexterity",zh="{0} 敏捷",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%s+to%s+Dexterity$",values=1},
 {en="{0}% less Damage",zh="伤害总降 {0}%",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%%%s+less%s+Damage$",values=1},
+{en="{0}% more Damage",zh="伤害总增 {0}%",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%%%s+more%s+Damage$",values=1},
 {en="Has {0} Sockets",zh="有 {0} 个插槽",pattern="^Has%s+([%+%-]?[%d%.%(%)%-%#]+)%s+Sockets$",values=1},
 {en="{0} to Strength",zh="{0} 力量",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%s+to%s+Strength$",values=1},
 {en="{0}% to Quality",zh="{0}% 品质",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%%%s+to%s+Quality$",values=1},

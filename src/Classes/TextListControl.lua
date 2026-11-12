@@ -42,7 +42,16 @@ function TextListClass:Draw(viewPort)
 		local lineY = -scrollBar.offset
 		for _, lineInfo in ipairs(self.list) do
 			if lineInfo[colIndex] then
-				DrawString(lineInfo.x or colInfo.x, lineY, lineInfo.align or colInfo.align, lineInfo.height, lineInfo.font or "VAR", lineInfo[colIndex])
+				local textX, align = lineInfo.x or colInfo.x, lineInfo.align or colInfo.align
+				if Localization then
+					local available = align == "RIGHT_X" and textX or width - 20 - textX
+					if align == "CENTER_X" then available = 2 * math.min(textX, width - 20 - textX) end
+					local nextCol = self.columns[colIndex + 1]
+					if align == "LEFT" and nextCol then available = math.min(available, nextCol.x - textX - 4) end
+					Localization:BoundedText(textX, lineY, align, lineInfo.height, lineInfo.font or "VAR", lineInfo[colIndex], available)
+				else
+					DrawString(textX, lineY, align, lineInfo.height, lineInfo.font or "VAR", lineInfo[colIndex])
+				end
 			end
 			lineY = lineY + lineInfo.height
 		end

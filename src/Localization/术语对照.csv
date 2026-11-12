@@ -15619,6 +15619,7 @@ Energy Shield Recharge instead applies to Life","生命再生速度总降 50%
 50% less Poison Duration,中毒持续时间总降 50%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Volkuurs_Guidance,https://poedb.tw/us/Volkuurs_Guidance
 50% more Accuracy Rating against Marked Enemy,对被标记敌人的命中值总增 50%,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 50% more Accuracy Rating at Close Range,近程命中值总增 50%,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+50% more Damage,伤害总增 50%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 50% more Damage with Arrow Hits at Close Range,近距离用弓击中后的伤害总增 50%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Chin_Sol,https://poedb.tw/us/Chin_Sol
 50% more Life,生命总增 50%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 50% of Chaos Damage taken does not bypass Energy Shield,受到的混沌伤害无法穿透能量护盾的 50%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -18923,6 +18924,8 @@ Arcane Pyrotechnics,奥术烟花,passive-name,paired-id-english-and-numbers-chec
 Arcane Retaliation,秘术反击,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Arcane Sanctuary,奥术圣所,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Arcane Surge,秘术增强(辅),gem,paired-name,https://poedb.tw/cn/Arcane_Surge_Support,https://poedb.tw/us/Arcane_Surge_Support
+Arcane Surge Cast Speed,秘术增强施法速度,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Arcane Surge Mana Regen,秘术增强魔力再生,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Arcane Surge Support,秘术增强(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Arcane_Surge_Support,https://poedb.tw/us/Arcane_Surge_Support
 Arcane Surge also grants 10% more Spell Damage to you,秘术增强也会使你的法术伤害总增 10%,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Arcane Surge also grants 15% increased Life Regeneration Rate to you,秘术增强也会使你的生命回复速度提高 15%,database-stat,paired-local-source,https://poedb.tw/cn/Runegraft,https://poedb.tw/us/Runegraft
@@ -19580,6 +19583,7 @@ Aul Bloodline,奥尔血脉,ascendancy-name,paired-id-local-english-checked,https
 Aul's Uprising,奥尔之兴,game-term,paired-link-target,https://poedb.tw/cn/Auls_Uprising,https://poedb.tw/us/Auls_Uprising
 Aura,光环,ui-detail,source-code-checked,,
 Aura Area of Effect,光环效果范围,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Aura Debuff,光环减益,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Aura Duration,光环持续时间,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Aura Effect,光环效果,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Aura Effect (Legacy),光环效果（旧版）,database-reviewed,reviewed-pob-display-source,src/Data/BossSkills.lua; src/Data/Minions.lua; src/Data/ClusterJewels.lua,
@@ -19672,6 +19676,7 @@ Avian's Flight,鸟之斗魄,game-term,paired-link-target,https://poedb.tw/cn/Avi
 Avian's Might,鸟之力量,game-term,paired-link-target,https://poedb.tw/cn/Avians_Might,https://poedb.tw/us/Avians_Might
 Avidity,熟稔,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Avoid All Dmg Ch.,避免所有伤害几率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Avoid Bleed,避免流血几率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Avoid Chaos Chance,避免混沌伤害几率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Avoid Cold Chance,避免冰霜伤害几率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Avoid Fire Chance,避免火焰伤害几率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
@@ -19951,6 +19956,10 @@ Berserker,暴徒,ascendancy-name,paired-id-local-english-checked,https://poedb.t
 Berserker's,暴徒的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Ursine_Charm,https://poedb.tw/us/Ursine_Charm
 Berserking,狂战之魂,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Beryl,绿宝石的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
+Best Bleed DPS,最高流血每秒伤害,pob-panel,poedb-terms-composed,https://poedb.tw/cn/Bleeding,
+Best Burning Ground DPS,最高燃烧地面每秒伤害,pob-panel,poedb-terms-composed,https://poedb.tw/cn/Burning_ground,
+Best Caustic Ground DPS,最高腐蚀地面每秒伤害,pob-panel,poedb-terms-composed,https://poedb.tw/cn/Caustic_ground,
+Best Ignite DPS,最高点燃每秒伤害,pob-panel,poedb-terms-composed,https://poedb.tw/cn/Ignite,
 Bestial Roar,凶性怒吼,game-term,paired-link-target,https://poedb.tw/cn/Bestial_Roar,https://poedb.tw/us/Bestial_Roar
 Bestiary,猎魔,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
 Bestowed Knighthood,授勋骑士,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -20455,6 +20464,7 @@ Bubbling,起泡的,affix-name,paired-record-local-english-numbers-checked,https:
 Bubonic Trail,鼠疫之源,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bubonic_Trail,https://poedb.tw/us/Bubonic_Trail
 Buckskin Tower Shield,鹿皮塔盾,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Buckskin_Tower_Shield,https://poedb.tw/us/Buckskin_Tower_Shield
 Buckskin Tunic,鹿皮外套,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Ashrend,https://poedb.tw/us/Ashrend
+Buff,增益,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Buff affects the player and allies,增益影响玩家及友军,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 "Buff affects the player, allies and enemies in a small radius",增益影响小范围内的玩家、友军和敌人,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Buff can take Damage equal to Mana Spent by this Skill's effect,增益效果能承受的伤害等于该技能效果消耗的魔力,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Arcane_Cloak,https://poedb.tw/us/Arcane_Cloak
@@ -21725,7 +21735,7 @@ Corrupted Energy,腐化能量,unique-name,paired-record-local-english-numbers-ch
 Corrupted Maximum,腐化最高等级,ui,editorial-ui,,
 Corrupted Mods:,腐化词缀：,ui-detail,source-code-checked,,
 Corrupted Soul,腐化的灵魂,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Soul_Tether,https://poedb.tw/us/Replica_Soul_Tether
-Corrupting Blood DPS,腐化之血每秒伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Corrupting Blood DPS,腐化之血每秒伤害,pob-panel,poedb-terms-composed,https://poedb.tw/cn/Corrupted_Blood; https://poedb.tw/cn/Corrupting_Fever,
 Corrupting Cry,腐化战吼（辅）,gem,paired-name,https://poedb.tw/cn/Corrupting_Cry_Support,https://poedb.tw/us/Corrupting_Cry_Support
 Corrupting Cry Support,腐化战吼（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Corrupting_Cry_Support,https://poedb.tw/us/Corrupting_Cry_Support
 Corrupting Fever,腐灼热瘟,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Corrupting_Fever,https://poedb.tw/us/Corrupting_Fever
@@ -22208,6 +22218,7 @@ Dagger Damage and Movement Speed,匕首伤害和移动速度,passive-name,paired
 Dagger Mastery,匕首专精,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Dagger and Claw Damage,匕爪伤害,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Dagger and Claw Damage Mastery,匕爪伤害专精,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Damage,伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Damage % (if not maximum),伤害比例（未达到上限时）,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Damage Aura,伤害光环,game-term,paired-link-target,https://poedb.tw/cn/Damage_Aura,https://poedb.tw/us/Damage_Aura
 Damage Avoidance,伤害避免,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
@@ -22544,6 +22555,7 @@ Debilitate,疲惫,game-term,paired-link-target,https://poedb.tw/cn/Debilitate,ht
 Debilitate Enemies for 4 Seconds when you Suppress their Spell Damage,压制敌人的法术伤害时使其疲惫 4 秒,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Orbalas_Stand,https://poedb.tw/us/Orbalas_Stand
 Debilitate nearby Enemies for 2 Seconds when Effect ends,效果结束时，对周围的敌人造成 2 秒疲惫,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Voranas_Preparation,https://poedb.tw/us/Voranas_Preparation
 Debilitated enemies deal 10% less damage.,虚弱敌人造成的伤害总降 10%。,config-tooltip,source-clauses-reviewed,src/Modules/ConfigOptions.lua,
+Debuff,减益,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Debuff Dur. Mult.,减益持续时间倍率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Debuff Expiry Rate,减益效果衰退速度,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Debuffs on you expire (15-20)% faster,你身上的减益效果消失速度加快 (15-20)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Torrents_Reclamation,https://poedb.tw/us/The_Torrents_Reclamation
@@ -22557,8 +22569,8 @@ Debuffs on you expire 25% faster,你身上的减益效果消失速度加快 25%,
 Debuffs on you expire 30% faster,你身上的减益效果消失速度加快 30%,database-stat,paired-local-source,https://poedb.tw/cn/Runegraft,https://poedb.tw/us/Runegraft
 Debuffs on you expire 50% faster,你身上的减益效果消失速度加快 50%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 Decay,腐蚀(辅),gem,paired-name,https://poedb.tw/cn/Decay_Support,https://poedb.tw/us/Decay_Support
-Decay DPS,腐化每秒伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
-Decay Duration,腐化持续时间,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Decay DPS,腐蚀每秒伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Decay Duration,腐蚀持续时间,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Decay Support,腐蚀(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Decay_Support,https://poedb.tw/us/Decay_Support
 Decay Ward,腐蚀之卫,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Decaying Memory,朽坏回忆,game-term,paired-link-target,https://poedb.tw/cn/Decaying_Memory,https://poedb.tw/us/Decaying_Memory
@@ -22990,6 +23002,7 @@ Doryani's Invitation,多里亚尼之约,unique-name,paired-record-local-english-
 Doryani's Lesson,多里亚尼之训,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Doryani's Prototype,多里亚尼的试作甲,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Doryanis_Prototype,https://poedb.tw/us/Doryanis_Prototype
 Doryani's Touch,多里亚尼之触,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Doryanis_Touch,https://poedb.tw/us/Doryanis_Touch
+Dot,持续伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Dots and Build Degens,持续伤害与自身持续损耗,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Double Axe,双刃巨斧,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Double_Axe,https://poedb.tw/us/Double_Axe
 Double Claw,双刃爪,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Double_Claw,https://poedb.tw/us/Double_Claw
@@ -24889,11 +24902,16 @@ Fugitive Boots,逃亡之靴,base-name,paired-record-local-english-numbers-checke
 Fugitive Ring,逃亡戒指,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Sundered_Will,https://poedb.tw/us/The_Sundered_Will
 Fulgurite Tincture,雷岩酊剂,game-term,paired-link-target,https://poedb.tw/cn/Fulgurite_Tincture,https://poedb.tw/us/Fulgurite_Tincture
 Full Chainmail,连身锁甲,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Full_Chainmail,https://poedb.tw/us/Full_Chainmail
+Full Culling DPS,完整终结贡献伤害,pob-panel,poedb-terms-composed,https://poedb.tw/cn/Culling_Strike_Support,
 Full DPS,完整 DPS,ui,editorial-ui,,
+Full Decay DPS,完整腐蚀每秒伤害,pob-panel,poedb-terms-composed,https://poedb.tw/cn/Decay_Support,
+Full DoT DPS,完整持续每秒伤害,pob-panel,poedb-terms-composed,https://poedb.tw/cn/Damage_over_time,
 Full Dot DPS,完整持续每秒伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Full Dragonscale,连身龙鳞铠,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Daressos_Defiance,https://poedb.tw/us/Daressos_Defiance
+Full Impale DPS,完整穿刺每秒伤害,pob-panel,poedb-terms-composed,https://poedb.tw/cn/Impale,
 Full Leather,连身皮甲,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Full_Leather,https://poedb.tw/us/Full_Leather
 Full Plate,连身铠甲,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Full_Plate,https://poedb.tw/us/Full_Plate
+Full Poison DPS,完整中毒每秒伤害,pob-panel,poedb-terms-composed,https://poedb.tw/cn/Poison,
 Full Ringmail,连身环甲,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Full_Ringmail,https://poedb.tw/us/Full_Ringmail
 Full Scale Armour,连身鳞甲,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Full_Scale_Armour,https://poedb.tw/us/Full_Scale_Armour
 Full Wyrmscale,连身龙鳞战甲,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Belly_of_the_Beast,https://poedb.tw/us/Belly_of_the_Beast
@@ -25622,6 +25640,7 @@ Glinting,反光的,item-reviewed,reviewed-paired-variants,https://poedb.tw/cn/Mo
 Glitterdisc,七彩碟,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Glitterdisc,https://poedb.tw/us/Glitterdisc
 Glittering,闪闪发亮的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 Gloam Ring,戒指：薄暮,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Gloam_Ring,https://poedb.tw/us/Gloam_Ring
+Global,全局效果,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Global Base,全局基础值,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Global Modifiers,全局属性,ui-detail,source-code-checked,,
 Gloom Shrine,隐忍神龛,game-term,paired-link-target,https://poedb.tw/cn/Gloom_Shrine,https://poedb.tw/us/Gloom_Shrine
@@ -26223,6 +26242,8 @@ Guaranteed Saps,保底力竭,pob-panel,source-code-checked,src/Modules/BuildDisp
 Guaranteed Scorches,保底烧灼,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Guaranteed Shocks,保底感电,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Guard,护卫技能生效,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Guard Absorb Limit,护卫伤害吸收上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Guard Absorb Rate,护卫伤害吸收比例,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Guard Skills have (14-16)% increased Cooldown Recovery Rate,防卫技能的冷却回复速度加快 (14-16)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Belts,https://poedb.tw/us/Belts
 Guard Skills have (17-19)% increased Cooldown Recovery Rate,防卫技能的冷却回复速度加快 (17-19)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Belts,https://poedb.tw/us/Belts
 Guard Skills have 20% increased Cooldown Recovery Rate,防卫技能的冷却回复速度加快 20%,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -30266,6 +30287,7 @@ Multiple Totems Support,多重图腾（辅）,gem,paired-slug-name-local-english
 Multiple Traps,多重陷阱(辅),gem,paired-name,https://poedb.tw/cn/Multiple_Traps_Support,https://poedb.tw/us/Multiple_Traps_Support
 Multiple Traps Support,多重陷阱(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Multiple_Traps_Support,https://poedb.tw/us/Multiple_Traps_Support
 Multiplier,倍率,ui-detail,source-code-checked,,
+Multiplier: Virulence Stacks Max,最大毒力层数,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Multishot,多重射击,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Multistrike,多重打击(辅),gem,paired-name,https://poedb.tw/cn/Multistrike_Support,https://poedb.tw/us/Multistrike_Support
 Multistrike Support,多重打击(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Multistrike_Support,https://poedb.tw/us/Multistrike_Support
@@ -38655,6 +38677,7 @@ Viridi's Veil,维里迪的面纱,unique-name,paired-record-local-english-numbers
 Viridian Jewel,翠绿珠宝,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Chill_of_Corruption,https://poedb.tw/us/Chill_of_Corruption
 Virile,阳刚的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 Virulence,毒力,game-term,paired-link-target,https://poedb.tw/cn/Virulence,https://poedb.tw/us/Virulence
+Virulence Stack Limit,毒力层数上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Vis Mortis,兀鸣,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Vis_Mortis,https://poedb.tw/us/Vis_Mortis
 Viscount's,子爵的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Convoking_Wand,https://poedb.tw/us/Convoking_Wand
 Viscountess's,女子爵的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bone_Ring,https://poedb.tw/us/Bone_Ring

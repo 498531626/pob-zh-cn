@@ -24,6 +24,8 @@ function CheckBoxClass:IsMouseOver()
 	-- move x left by label width, increase width by label width
 	local label = self:GetProperty("label")
 	if label then
+		self.labelWidth = DrawStringWidth(self.width - 4, "VAR", label) + 5
+		if Localization and Localization:EffectiveMode() ~= "en" then self.labelWidth = math.min(self.labelWidth, Localization:LeftLabelWidth(self, x - 5) + 5) end
 		x = x - self.labelWidth
 		width = width + self.labelWidth
 	end
@@ -73,7 +75,11 @@ function CheckBoxClass:Draw(viewPort, noTooltip)
 	end
 	local label = self:GetProperty("label")
 	if label then
-		DrawString(x - 5, y + 2, "RIGHT_X", size - 4, "VAR", label)
+		if Localization then
+			Localization:BoundedText(x - 5, y + 2, "RIGHT_X", size - 4, "VAR", label, Localization:LeftLabelWidth(self, x - 5))
+		else
+			DrawString(x - 5, y + 2, "RIGHT_X", size - 4, "VAR", label)
+		end
 	end
 	if mOver and not noTooltip then
 		SetDrawLayer(nil, 100)

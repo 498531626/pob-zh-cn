@@ -17,6 +17,7 @@ local m_pi = math.pi
 LoadModule("GameVersions")
 LoadModule("Modules/Common")
 Localization = LoadModule("Modules/Localization")
+local unicodeInput = LoadModule("Modules/UnicodeInput")
 LoadModule("Modules/CalcFormat")
 LoadModule("Modules/Data")
 LoadModule("Modules/ModTools")
@@ -289,7 +290,7 @@ end
 
 function main:DetectUnicodeSupport()
 	-- PoeCharm has utf8 global that normal PoB doesn't have
-	self.unicode = type(_G.utf8) == "table"
+	self.unicode = type(_G.utf8) == "table" or unicodeInput:Install()
 	if self.unicode then
 		ConPrintf("Unicode support detected")
 	end
@@ -1764,6 +1765,9 @@ end
 do
 	local wrapTable = { }
 	function main:WrapString(str, height, width)
+		if Localization and Localization:EffectiveMode() ~= "en" and Localization.suspended == 0 then
+			return Localization:WrapText(Localization:TranslateUI(str), height, width, "VAR")
+		end
 		wipeTable(wrapTable)
 		local lineStart = 1
 		local lastSpace, lastBreak

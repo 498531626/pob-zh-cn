@@ -635,6 +635,7 @@ local ConfigTabClass = newClass("ConfigTab", "UndoHandler", "ControlHost", "Cont
 			local labelControl = control
 			if varData.label and varData.type ~= "check" then
 				labelControl = new("LabelControl", {"RIGHT",control,"LEFT"}, {-4, 0, 0, DrawStringWidth(14, "VAR", varData.label) > 228 and 12 or 14}, "^7"..varData.label)
+				labelControl.maxLabelWidth = 224
 				t_insert(self.controls, labelControl)
 			end
 			if varData.var then

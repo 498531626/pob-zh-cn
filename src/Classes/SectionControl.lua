@@ -19,11 +19,13 @@ function SectionClass:Draw()
 	DrawImage(nil, x + 2, y + 2, width - 4, height - 4)
 	SetDrawLayer(nil, 0)
 	local label = self:GetProperty("label")
-	local labelWidth = DrawStringWidth(14, "VAR", label)
+	local textSize = 14
+	if Localization and Localization:EffectiveMode() ~= "en" then label, textSize = Localization:FitText(label, 14, "VAR", width - 22) end
+	local labelWidth = DrawStringWidth(textSize, "VAR", label)
 	SetDrawColor(0.66, 0.66, 0.66)
 	DrawImage(nil, x + 6, y - 8, labelWidth + 6, 18)
 	SetDrawColor(0, 0, 0)
 	DrawImage(nil, x + 7, y - 7, labelWidth + 4, 16)
 	SetDrawColor(1, 1, 1)
-	DrawString(x + 9, y - 6, "LEFT", 14, "VAR", label)
+	DrawString(x + 9, y - 6 + (14 - textSize) / 2, "LEFT", textSize, "VAR", label)
 end

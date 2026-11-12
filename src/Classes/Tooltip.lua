@@ -116,9 +116,15 @@ function TooltipClass:AddLine(size, text, font, modLine, background)
 			else
 				self.blocks[#self.blocks].height = self.blocks[#self.blocks].height + size + 2
 			end
-			if self.maxWidth then
-				local wrapped = Localization and Localization:WrapText(line, size, self.maxWidth - H_PAD, fontToUse)
-					or main:WrapString(line, size, self.maxWidth - H_PAD)
+			local maxWidth = self.maxWidth
+			if Localization and Localization:EffectiveMode() ~= "en" then
+				local screenWidth = GetVirtualScreenSize()
+				maxWidth = math.min(maxWidth or 700, screenWidth - 20)
+			end
+			if maxWidth then
+				local wrapped = Localization and Localization:WrapText(line, size, maxWidth - H_PAD, fontToUse)
+					or main:WrapString(line, size, maxWidth - H_PAD)
+				self.blocks[#self.blocks].height = self.blocks[#self.blocks].height + (#wrapped - 1) * (size + 2)
 				for _, wrappedLine in ipairs(wrapped) do
 					t_insert(self.lines, { size = size, text = wrappedLine, block = #self.blocks, font = fontToUse, center = self.center, modLine = modLine, background = background })
 				end
@@ -194,11 +200,9 @@ function TooltipClass:GetSize()
 		local imageX = DrawStringWidth(title.size, font, title.text) + title.size
 		local recipeTextSize = (title.size * 3) / 4
 		for _, recipeName in ipairs(self.recipe) do
-			-- Trim "Oil" from the recipe name, which normally looks like "GoldenOil"
-			local recipeNameShort = recipeName
-			if #recipeNameShort > 3 and recipeNameShort:sub(-3) == "Oil" then
-				recipeNameShort = recipeNameShort:sub(1, #recipeNameShort - 3)
-			end
+			-- Use the same localized label for measurement and drawing.
+			local recipeNameShort = Localization and Localization:RecipeName(recipeName)
+				or recipeName:gsub("(.)Oil$", "%1")
 			imageX = imageX + DrawStringWidth(recipeTextSize, font, recipeNameShort) + title.size * 1.25
 		end
 		ttW = m_max(ttW, imageX)
@@ -259,10 +263,7 @@ function TooltipClass:CalculateColumns(ttY, ttX, ttH, ttW, viewPort)
 			local totalWidth = DrawStringWidth(titleSize, font, title.text)
 			local oilWidths = {}
 			for _, r in ipairs(self.recipe) do
-				local rn = r
-				if #rn > 3 and rn:sub(-3) == "Oil" then
-					rn = rn:sub(1, #rn - 3)
-				end
+				local rn = Localization and Localization:RecipeName(r) or r:gsub("(.)Oil$", "%1")
 				local textW = DrawStringWidth(recipeTextSize, font, rn)
 				local iconW = titleSize
 				table.insert(oilWidths, {rn, r, textW, iconW})

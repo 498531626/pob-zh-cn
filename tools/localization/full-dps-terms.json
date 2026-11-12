@@ -1,0 +1,42 @@
+{
+  "Best Bleed DPS": {
+    "zh": "最高流血每秒伤害",
+    "source": "https://poedb.tw/cn/Bleeding"
+  },
+  "Best Ignite DPS": {
+    "zh": "最高点燃每秒伤害",
+    "source": "https://poedb.tw/cn/Ignite"
+  },
+  "Best Burning Ground DPS": {
+    "zh": "最高燃烧地面每秒伤害",
+    "source": "https://poedb.tw/cn/Burning_ground"
+  },
+  "Best Caustic Ground DPS": {
+    "zh": "最高腐蚀地面每秒伤害",
+    "source": "https://poedb.tw/cn/Caustic_ground"
+  },
+  "Corrupting Blood DPS": {
+    "zh": "腐化之血每秒伤害",
+    "source": "https://poedb.tw/cn/Corrupted_Blood; https://poedb.tw/cn/Corrupting_Fever"
+  },
+  "Full Poison DPS": {
+    "zh": "完整中毒每秒伤害",
+    "source": "https://poedb.tw/cn/Poison"
+  },
+  "Full Impale DPS": {
+    "zh": "完整穿刺每秒伤害",
+    "source": "https://poedb.tw/cn/Impale"
+  },
+  "Full Decay DPS": {
+    "zh": "完整腐蚀每秒伤害",
+    "source": "https://poedb.tw/cn/Decay_Support"
+  },
+  "Full DoT DPS": {
+    "zh": "完整持续每秒伤害",
+    "source": "https://poedb.tw/cn/Damage_over_time"
+  },
+  "Full Culling DPS": {
+    "zh": "完整终结贡献伤害",
+    "source": "https://poedb.tw/cn/Culling_Strike_Support"
+  }
+}
