@@ -78,5 +78,19 @@
  "Debuff":"减益",
  "Global":"全局效果",
  "Aura Debuff":"光环减益",
- "Dot":"持续伤害"
+ "Dot":"持续伤害",
+ "Spectre":"灵体",
+ "Inspiration Charges":"启迪球",
+ "Blitz Charges":"疾电球",
+ "Ghost Shrouds":"幽魂缠身",
+ "Crab Barriers":"深海屏障",
+ "Spirit Infusions":"精魂灌注",
+ "Energy Shield Recharge":"能量护盾充能",
+ "Greater Shocking Shrine":"高阶感电神殿",
+ "Lesser Acceleration Shrine":"低阶加速神殿",
+ "Lesser Brutal Shrine":"低阶残暴神殿",
+ "Lesser Impenetrable Shrine":"低阶坚不可摧神殿",
+ "Lesser Massive Shrine":"低阶巨大神殿",
+ "Lesser Replenishing Shrine":"低阶补充神殿",
+ "Lesser Resistance Shrine":"低阶抗性神殿"
 }

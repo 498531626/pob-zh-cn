@@ -17,11 +17,17 @@ function formatCalcStr(str, actor, colData)
 	if not actor then return "" end
 	str = str:gsub("{output:([%a%.:]+)}", function(c)
 		local ns, var = c:match("^(%a+)%.(%a+)$")
+		local value
 		if ns then
-			return actor.output[ns] and actor.output[ns][var] or ""
+			value = actor.output[ns] and actor.output[ns][var] or ""
 		else
-			return actor.output[c] or ""
+			value = actor.output[c] or ""
 		end
+		local key = var or c
+		if Localization and (key == "BuffList" or key == "CombatList") then
+			return Localization:TranslateCalcList(value)
+		end
+		return value
 	end)
 	str = str:gsub("{(%d+):output:([%a%.:]+)}", function(p, c)
 		local ns, var = c:match("^(%a+)%.(%a+)$")

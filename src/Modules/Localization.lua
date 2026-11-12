@@ -223,6 +223,28 @@ local function interfaceChinese(body, nodeId)
 		return marker .. socketTranslation .. ": " .. socketId
 	end
 end
+local function buffChinese(value)
+	if dictionary[value] then return dictionary[value] end
+	local count, name = value:match("^(%d+) (.+)$")
+	if count and dictionary[name] and (name:match(" Charges$") or name == "Ghost Shrouds" or name == "Crab Barriers" or name == "Spirit Infusions") then
+		return count .. " " .. dictionary[name]
+	end
+end
+
+-- These outputs are display lists, not arbitrary comma-containing item names.
+-- Keep unknown entries individually so one new buff cannot hide known names.
+function L:TranslateCalcList(text)
+	if self.suspended > 0 or self:EffectiveMode() == "en" then return text end
+	local parts, cursor = {}, 1
+	while true do
+		local first, last = text:find(", ", cursor, true)
+		local part = text:sub(cursor, first and first - 1 or #text)
+		parts[#parts + 1] = buffChinese(part) or self:Translate(part)
+		if not first then return table.concat(parts, ", ") end
+		cursor = last + 1
+	end
+end
+
 local function dynamicChinese(body)
 	local interface = interfaceChinese(body)
 	if interface then return interface end
@@ -305,13 +327,13 @@ local function dynamicChinese(body)
 	end
 	-- Calcs emits comma-separated buff names and counted charge labels. Only
 	-- translate complete known entries; never split numeric thousands commas.
-	local function buffChinese(value)
-		if dictionary[value] then return dictionary[value] end
-		local count, charge = value:match("^(%d+) (.+ Charges)$")
-		if count and dictionary[charge] then return count .. " " .. dictionary[charge] end
-	end
 	local buff = buffChinese(body)
 	if buff then return buff end
+	-- Spectre sources combine a skill with a monster name in breakdown tables.
+	local sourceSkill, sourceMinion = body:match("^(.+) %- (.+)$")
+	if dictionary[sourceSkill] and dictionary[sourceMinion] then
+		return dictionary[sourceSkill] .. " - " .. dictionary[sourceMinion]
+	end
 	if body:find(", ", 1, true) then
 		local parts, cursor = {}, 1
 		while true do

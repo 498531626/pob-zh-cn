@@ -20782,6 +20782,7 @@ Blink Arrow of Bombarding Clones,轰炸复制体之闪现射击,gem,paired-slug-
 Blink Arrow of Prismatic Clones,棱光复制体之闪现射击,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Blink_Arrow_of_Prismatic_Clones,https://poedb.tw/us/Blink_Arrow_of_Prismatic_Clones
 Blistering,酷暑的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bone_Spirit_Shield,https://poedb.tw/us/Bone_Spirit_Shield
 Blitz Charge,疾电球,game-term,paired-link-target,https://poedb.tw/cn/Blitz_Charge,https://poedb.tw/us/Blitz_Charge
+Blitz Charges,疾电球,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Blizzard Caller,呼风唤雪,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Blizzard Crown,暴雪之冠,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Blizzard_Crown,https://poedb.tw/us/Blizzard_Crown
 Block,格挡,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -22480,6 +22481,7 @@ Cowl of the Ceraunophile,嗜雷之冠,unique-name,paired-record-local-english-nu
 Cowl of the Cryophile,嗜寒之冠,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Cowl_of_the_Cryophile,https://poedb.tw/us/Cowl_of_the_Cryophile
 Cowl of the Thermophile,嗜火之冠,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Cowl_of_the_Thermophile,https://poedb.tw/us/Cowl_of_the_Thermophile
 Crab Aspect,蟹之势,game-term,paired-link-target,https://poedb.tw/cn/Crab_Aspect,https://poedb.tw/us/Crab_Aspect
+Crab Barriers,深海屏障,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Crab Totem,蟹图腾,gem,editorial-helper-label-verified-game-terms,src/Data/Skills/other.lua,src/Data/Skills/other.lua
 Crab's,螃蟹的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_str,https://poedb.tw/us/Body_Armours_str
 Crack Mace,开裂锤,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Crack_Mace,https://poedb.tw/us/Crack_Mace
@@ -24427,6 +24429,7 @@ Energy Shield Leech,能量护盾偷取,passive-name,paired-id-english-and-number
 Energy Shield Leech Effects from Attacks are not removed at Full Energy Shield,攻击带来的能量护盾偷取效果不会在能量护盾全满时移除,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Essentia_Sanguis,https://poedb.tw/us/Essentia_Sanguis
 Energy Shield Leech effects are not removed when Energy Shield is Filled,能量护盾充满时，能量护盾偷取效果不会被移除,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Energy Shield Mastery,能量护盾专精,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
+Energy Shield Recharge,能量护盾充能,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Energy Shield Recharge Rate,能量护盾充能率,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Energy Shield Recharge instead applies to Life,能量护盾充能改为作用于生命,timeless-display,source-clause-reviewed,Data/TimelessJewelData/LegionPassives.lua; Classes/PassiveSpec.lua,
 Energy Shield Recharge is not delayed by Damage during Effect,效果期间能量护盾充能不能被伤害延迟,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Wellwater_Phylactery,https://poedb.tw/us/Wellwater_Phylactery
@@ -26332,6 +26335,7 @@ Ghorr's Magnificence,咕尔的伟岸之力,game-term,paired-link-target,https://
 Ghost Dance,幽灵舞步,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Ghost Reaver,灵能护体,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Ghost Shroud,幽魂缠身,game-term,paired-link-target,https://poedb.tw/cn/Ghost_Shroud,https://poedb.tw/us/Ghost_Shroud
+Ghost Shrouds,幽魂缠身,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Ghost's,鬼魂的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 Ghostflame Blade,鬼火长剑,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Dread_Captains_Cutlass,https://poedb.tw/us/Dread_Captains_Cutlass
 Ghostflame Graveyard,青焰墓场,game-term,paired-link-target,https://poedb.tw/cn/Ghostflame_Graveyard,https://poedb.tw/us/Ghostflame_Graveyard
@@ -26945,6 +26949,7 @@ Greater Multiple Projectiles,高阶多重投射(辅),gem,paired-name,https://poe
 Greater Multiple Projectiles Support,高阶多重投射(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Greater_Multiple_Projectiles_Support,https://poedb.tw/us/Greater_Multiple_Projectiles_Support
 Greater Multistrike,高阶多重打击（辅）,gem,paired-name,https://poedb.tw/cn/Greater_Multistrike_Support,https://poedb.tw/us/Greater_Multistrike_Support
 Greater Multistrike Support,高阶多重打击（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Greater_Multistrike_Support,https://poedb.tw/us/Greater_Multistrike_Support
+Greater Shocking Shrine,高阶感电神殿,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Greater Skeletal Shrine,高级魔侍神龛,game-term,paired-link-target,https://poedb.tw/cn/Greater_Skeletal_Shrine,https://poedb.tw/us/Greater_Skeletal_Shrine
 Greater Spell Cascade,高阶多重施法范围（辅）,gem,paired-name,https://poedb.tw/cn/Greater_Spell_Cascade_Support,https://poedb.tw/us/Greater_Spell_Cascade_Support
 Greater Spell Cascade Support,高阶多重施法范围（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Greater_Spell_Cascade_Support,https://poedb.tw/us/Greater_Spell_Cascade_Support
@@ -28345,6 +28350,7 @@ Insightful,洞悉的,affix-name,paired-record-local-english-numbers-checked,http
 Insightfulness,洞察万物,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Inspiration,启迪（辅）,gem,paired-name,https://poedb.tw/cn/Inspiration_Support,https://poedb.tw/us/Inspiration_Support
 Inspiration Charge,启迪（辅）,game-term,paired-link-target,https://poedb.tw/cn/Inspiration_Charge,https://poedb.tw/us/Inspiration_Charge
+Inspiration Charges,启迪球,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Inspiration Support,启迪（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Inspiration_Support,https://poedb.tw/us/Inspiration_Support
 Inspirational,启发,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Inspired,鼓舞的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_str_int,https://poedb.tw/us/Body_Armours_str_int
@@ -28849,8 +28855,14 @@ Leporine Procession,野兔加护,game-term,paired-link-target,https://poedb.tw/c
 Less Dmg. Taken,承伤总降,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Less Duration,持续时间总降(辅),gem,paired-name,https://poedb.tw/cn/Less_Duration_Support,https://poedb.tw/us/Less_Duration_Support
 Less Duration Support,持续时间总降(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Less_Duration_Support,https://poedb.tw/us/Less_Duration_Support
+Lesser Acceleration Shrine,低阶加速神殿,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Lesser Brutal Shrine,低阶残暴神殿,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Lesser Eldritch Ember,次级古灵余烬,database-name,paired-local-source,https://poedb.tw/cn/Modifiers,https://poedb.tw/us/Modifiers
 Lesser Eldritch Ichor,次级古灵溶液,database-name,paired-local-source,https://poedb.tw/cn/Modifiers,https://poedb.tw/us/Modifiers
+Lesser Impenetrable Shrine,低阶坚不可摧神殿,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Lesser Massive Shrine,低阶巨大神殿,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Lesser Replenishing Shrine,低阶补充神殿,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Lesser Resistance Shrine,低阶抗性神殿,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Lesson of the Seasons,四季之训,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Let none tell you otherwise.,除此之外，你一无所知。,passive-flavour,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Let the whistling of arrows and stones be your music.,拥有俊足与鹰眼，受伤与你再无缘。,passive-flavour,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -36262,6 +36274,7 @@ Spectral Tiger,幽虎,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; http
 Spectral Tiger Companion,幽虎同伴,database-name,paired-local-source,https://poedb.tw/cn/Spectral_Tiger_Companion,https://poedb.tw/us/Spectral_Tiger_Companion
 Spectral Wolf,幽狼,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Spectral Wolf Companion,幽狼同伴,database-name,paired-local-source,https://poedb.tw/cn/Spectral_Wolf_Companion,https://poedb.tw/us/Spectral_Wolf_Companion
+Spectre,灵体,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Spectre Ally,友方灵体,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Spectre Library,灵体库,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Spectre's,幽魂的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
@@ -36523,6 +36536,7 @@ Spirit Charges,精神能量球,game-term,paired-link-target,https://poedb.tw/cn/
 Spirit Containment,灵魂禁锢,game-term,paired-link-target,https://poedb.tw/cn/Spirit_Containment,https://poedb.tw/us/Spirit_Containment
 Spirit Guards,精神守护,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Spirit_Guards,https://poedb.tw/us/Spirit_Guards
 Spirit Infusion,精魂灌注,game-term,paired-link-target,https://poedb.tw/cn/Spirit_Infusion,https://poedb.tw/us/Spirit_Infusion
+Spirit Infusions,精魂灌注,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Spirit Offering,灵魂奉献,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Spirit_Offering,https://poedb.tw/us/Spirit_Offering
 Spirit Offering grants +12% to Critical Strike Multiplier,灵魂奉献能使暴击伤害加成提高+12%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int
 Spirit Offering grants +8% to Critical Strike Multiplier,灵魂奉献能使暴击伤害加成提高+8%,database-stat,paired-local-source,https://poedb.tw/cn/Helmets_str_int,https://poedb.tw/us/Helmets_str_int

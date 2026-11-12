@@ -279783,5 +279783,89 @@
     "zh": "奉献总计",
     "kind": "ui-detail",
     "status": "source-code-checked"
+  },
+  "Spectre": {
+    "zh": "灵体",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Inspiration Charges": {
+    "zh": "启迪球",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Blitz Charges": {
+    "zh": "疾电球",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Ghost Shrouds": {
+    "zh": "幽魂缠身",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Crab Barriers": {
+    "zh": "深海屏障",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Spirit Infusions": {
+    "zh": "精魂灌注",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Energy Shield Recharge": {
+    "zh": "能量护盾充能",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Greater Shocking Shrine": {
+    "zh": "高阶感电神殿",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Lesser Acceleration Shrine": {
+    "zh": "低阶加速神殿",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Lesser Brutal Shrine": {
+    "zh": "低阶残暴神殿",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Lesser Impenetrable Shrine": {
+    "zh": "低阶坚不可摧神殿",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Lesser Massive Shrine": {
+    "zh": "低阶巨大神殿",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Lesser Replenishing Shrine": {
+    "zh": "低阶补充神殿",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Lesser Resistance Shrine": {
+    "zh": "低阶抗性神殿",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
   }
 }
