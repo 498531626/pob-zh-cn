@@ -1,6 +1,7 @@
 """Finite, whole-clause item descriptions; never translate internal item data."""
 import re
 from item_completion import complete_item
+from craft_completion import complete_craft
 
 CONDITIONS = {
     'during Effect': '药剂持续期间', 'during effect': '药剂持续期间',
@@ -45,6 +46,8 @@ AMOUNT = r'([+\-]?(?:\(\-?\d+(?:\.\d+)?-\-?\d+(?:\.\d+)?\)|\d+(?:\.\d+)?|#))'
 
 
 def compose_item(text, resolve, terms):
+    completed = complete_craft(text, resolve, terms)
+    if completed: return completed
     completed = complete_item(text, resolve, terms)
     if completed: return completed
     match = re.fullmatch(r'Your (Fire|Cold|Lightning) Damage can Poison', text)
