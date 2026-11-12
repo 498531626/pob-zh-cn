@@ -19426,6 +19426,7 @@ Antique Greaves,古钢胫甲,base-name,paired-record-local-english-numbers-check
 Antique Rapier,古代细剑,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Ewars_Mirage,https://poedb.tw/us/Ewars_Mirage
 Antivenom,防护毒素,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Any,任意,ui,editorial-ui,,
+Any (includes offline),任意（包括离线）,ui-detail,source-code-checked,,
 Any Loadout,所有配装,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
 Any league,任意赛季,item-ui,source-code-checked,src/Classes/ItemsTab.lua; https://poedb.tw/cn/League,
 "Any manual changes made to your fallback nodes are lost when you click the generate button, as it completely replaces them.",点击生成按钮会完整替换备用节点权重，之前的手动修改将丢失。,ui-detail,source-code-checked,,
@@ -28087,6 +28088,8 @@ In game source skill usage duration in seconds,游戏内来源技能的使用持
 "In mid tier maps, 'of Enfeeblement' applies level 10.",中阶地图的衰弱词缀施加 10 级诅咒。,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 "In mid tier maps, 'of Temporal Chains' applies level 10.",中阶地图的时空锁链词缀施加 10 级诅咒。,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 "In mid tier maps, 'of Vulnerability' applies level 10.",中阶地图的脆弱词缀施加 10 级诅咒。,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
+In person (online in league),当面交易（赛季内在线）,ui-detail,source-code-checked,,
+In person (online),当面交易（在线）,ui-detail,source-code-checked,,
 Inactive Gems:,未启用的宝石：,gem-ui,source-code-checked,src/Classes/GemTooltip.lua; src/Modules/Build.lua,
 Inc. Att. Speed,攻击速度提高,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Inc. Cast Speed,施法速度提高,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
@@ -28355,6 +28358,8 @@ Instant Buyout,即时购买,ui-detail,source-code-checked,,
 Instant Buyout & In Person,即时购买与当面交易,ui-detail,source-code-checked,,
 Instant Recovery,立即回复,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Writhing_Jar,https://poedb.tw/us/The_Writhing_Jar
 Instant Recovery when on Low Life,低血时立即回复,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Life_Flasks,https://poedb.tw/us/Life_Flasks
+Instant buyout,即时购买,ui-detail,source-code-checked,,
+Instant buyout and in person,即时购买与当面交易,ui-detail,source-code-checked,,
 Instilled,灌输的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_str_int,https://poedb.tw/us/Body_Armours_str_int
 Instilling Orb,灌顶石,game-term,paired-page-name-checked,https://poedb.tw/cn/Instilling_Orb,https://poedb.tw/us/Instilling_Orb
 Instinct,本能,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -38667,6 +38672,8 @@ Total Damage per Bleed,每次流血总伤害,pob-panel,source-code-checked,src/M
 Total Damage per Ignite,每次点燃总伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Total Damage per Poison,每层中毒总伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Total Degen,总持续损耗,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Total Devotion,奉献总计,ui-detail,source-code-checked,,
+Total Dexterity,敏捷总计,ui-detail,source-code-checked,,
 Total DoT DPS,总持续每秒伤害,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Total Energy Shield Degen,能量护盾持续损失总量,ui-detail,source-code-checked,,
 Total Explode Chance,总爆炸几率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
@@ -38691,6 +38698,7 @@ Total Shock,合计感电,pob-panel,source-code-checked,src/Modules/BuildDisplayS
 Total Spectre Life,幽魂总生命,ui-detail,source-code-checked,,
 Total Spectre Life override,幽魂总生命覆盖值,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Total Stone Golem Life,巨石魔像总生命,ui-detail,source-code-checked,,
+Total Strength,力量总计,ui-detail,source-code-checked,,
 Total Vaal Rejuvenation Totem Life,瓦尔回春图腾总生命,ui-detail,source-code-checked,,
 Total Void Spawn Life,虚空后裔总生命,ui-detail,source-code-checked,,
 Total Void Spawn Life override,虚空后裔总生命覆盖值,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,

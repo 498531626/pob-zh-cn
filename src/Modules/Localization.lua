@@ -28,6 +28,36 @@ local textViewport
 local currentColor = {1, 1, 1, 1}
 local cache = {}
 local itemNames = {}
+local timelessLabels = {}
+local passiveNames = {}
+local function passiveNameChinese(name)
+	if passiveNames[name] ~= nil then return passiveNames[name] or nil end
+	local translated
+	for _, context in pairs(passiveContexts) do
+		if context[name] then
+			if translated and translated ~= context[name] then
+				passiveNames[name] = false
+				return nil
+			end
+			translated = context[name]
+		end
+	end
+	passiveNames[name] = translated or false
+	return translated
+end
+
+-- The node dropdown combines a name and up to two independent stat lines.
+-- Register exact source labels so numbers, IDs and saved search rows stay intact.
+function L:RegisterTimelessNodes(nodes)
+	for _, node in pairs(nodes) do
+		if node["not"] and node.sd and node.sd[1] then
+			local label = node.dn .. string.rep(" ", 48) .. node.sd[1]
+			if node.sd[2] then label = label .. " " .. node.sd[2] end
+			timelessLabels[label] = {node.dn, node.sd[1], node.sd[2]}
+		end
+	end
+	cache = {}
+end
 local atlas
 local passiveMultiline = {}
 for id, context in pairs(passiveContexts) do
@@ -118,6 +148,12 @@ end
 -- These UI messages append user-controlled names, paths or status text. Keep
 -- that payload intact unless it has a reviewed exact translation of its own.
 local function interfaceChinese(body, nodeId)
+	local parts = timelessLabels[body]
+	if parts then
+		return L:Translate(parts[1], nil, "zh") .. string.rep(" ", 48)
+			.. L:Translate(parts[2], nil, "zh")
+			.. (parts[3] and " " .. L:Translate(parts[3], nil, "zh") or "")
+	end
 	local context = nodeId and passiveContexts[tostring(nodeId)]
 	local function nameChinese(value)
 		local base, seed = value:match("^(.-)( %d+)$")
@@ -182,8 +218,9 @@ local function interfaceChinese(body, nodeId)
 	-- Translate only reviewed names, preserving the allocated-node marker.
 	local marker = body:sub(1, 2) == "# " and "# " or ""
 	local socketName, socketId = body:sub(#marker + 1):match("^(.+): (%d+)$")
-	if socketName and dictionary[socketName] then
-		return marker .. dictionary[socketName] .. ": " .. socketId
+	local socketTranslation = socketName and (passiveNameChinese(socketName) or dictionary[socketName])
+	if socketTranslation then
+		return marker .. socketTranslation .. ": " .. socketId
 	end
 end
 local function dynamicChinese(body)

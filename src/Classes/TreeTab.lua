@@ -1162,6 +1162,7 @@ function TreeTabClass:FindTimelessJewel()
 	local socketViewer = new("PassiveTreeView")
 	local treeData = self.build.spec.tree
 	local legionNodes = treeData.legion.nodes
+	if Localization then Localization:RegisterTimelessNodes(legionNodes) end
 	local legionAdditions = treeData.legion.additions
 	local timelessData = self.build.timelessData
 	local controls = { }
@@ -1917,6 +1918,11 @@ function TreeTabClass:FindTimelessJewel()
 		end
 	end)
 	controls.nodeSelectLabel = new("LabelControl", {"RIGHT", controls.nodeSelect, "LEFT"}, {-labelSpacing, 0, 0, labelHeight}, "^7Search for Node:")
+	if Localization then
+		controls.nodeSelect.valueAccessor = function(entry)
+			return StripEscapes(Localization:TranslateUI(entry.label))
+		end
+	end
 	controls.nodeSelect.tooltipFunc = function(tooltip, mode, index, value)
 		tooltip:Clear()
 		if mode ~= "OUT" and value.descriptions then

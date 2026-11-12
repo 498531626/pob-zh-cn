@@ -279743,5 +279743,45 @@
     "zh": "圣堂武僧/女巫",
     "kind": "ui-detail",
     "status": "source-code-checked"
+  },
+  "Instant buyout": {
+    "zh": "即时购买",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
+  },
+  "Instant buyout and in person": {
+    "zh": "即时购买与当面交易",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
+  },
+  "In person (online in league)": {
+    "zh": "当面交易（赛季内在线）",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
+  },
+  "In person (online)": {
+    "zh": "当面交易（在线）",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
+  },
+  "Any (includes offline)": {
+    "zh": "任意（包括离线）",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
+  },
+  "Total Strength": {
+    "zh": "力量总计",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
+  },
+  "Total Dexterity": {
+    "zh": "敏捷总计",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
+  },
+  "Total Devotion": {
+    "zh": "奉献总计",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
   }
 }
