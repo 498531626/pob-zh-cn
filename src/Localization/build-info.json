@@ -1,5 +1,5 @@
 {
-  "entries": 39722,
+  "entries": 39724,
   "gem_names": 1038,
   "glyphs": 2457,
   "font": "Microsoft YaHei (local PC copy)",
@@ -39,7 +39,7 @@
   },
   "item_details": {
     "paired_mod_records": 103475,
-    "exact_entries": 25156,
+    "exact_entries": 25158,
     "numeric_templates": 4223,
     "composed_entries": 5259,
     "ambiguous_exact_resolved": 63,

@@ -71,6 +71,29 @@ for _,mode in ipairs({'zh','en','zh'})do
  end
  assert(build:SaveDB('fixture')==saved,'Display changed saved build XML')
 end
+-- Unsupported calculation effects must still receive their reviewed display
+-- translation, including the red colour and the unsupported-effect suffix.
+local ignite='When you Kill an Ignited Enemy, inflict an equivalent Ignite on each nearby Enemy'
+local shock='When you Kill a Shocked Enemy, inflict an equivalent Shock on each nearby Enemy'
+for _,name in ipairs({"Abberath's Hooves", "Berek's Respite"})do
+ local item
+ for _,candidate in pairs(main.uniqueDB.list)do if candidate.title==name then item=candidate;break end end
+ assert(item,'Missing unique fixture: '..name)
+ local raw=item:BuildRaw()
+ for _,mode in ipairs({'zh','en'})do
+  L.mode=mode;tip:Clear();build.itemsTab:AddItemTooltip(tip,item,nil,true)
+  local text='';for _,line in ipairs(tip.lines)do text=text..(line.text or '')..'\n'end
+  for _,stat in ipairs(name=="Berek's Respite" and {ignite,shock} or {ignite})do
+   local expected=mode=='en' and stat or dict[stat]
+   assert(expected,'Reviewed translation missing: '..stat)
+   assert(text:find('^xF05050'..expected,1,true),text)
+   if mode=='zh'then assert(not text:find(stat,1,true),text)end
+  end
+  assert(text:find(mode=='en' and '(Not supported in PoB yet)' or dict['(Not supported in PoB yet)'],1,true),text)
+  assert(item:BuildRaw()==raw,'Unique display changed raw data')
+ end
+end
 local f=assert(io.open(AUDIT_SOURCE..'/Imported-Item-QA.xml','wb'));f:write(saved);f:close()
 print('Five imported magic names: real parsing, equipped slots, tooltips, language switching and identical saved build XML passed')
+print('Unsupported ignite/shock propagation on both unique items: translated actual tooltips, red colour, warning and raw data preservation passed')
 ''')

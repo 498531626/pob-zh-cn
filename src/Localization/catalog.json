@@ -273528,5 +273528,21 @@
     "kind": "item-ui",
     "status": "source-code-checked",
     "source": "src/Classes/ItemsTab.lua; https://poedb.tw/cn/League"
+  },
+  "When you Kill a Shocked Enemy, inflict an equivalent Shock on each nearby Enemy": {
+    "zh": "当你击败 1 名感电敌人，对周围敌人造成相同的感电效果",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-indefinite-article",
+    "source": "https://poedb.tw/cn/Bereks_Respite",
+    "english_source": "https://poedb.tw/us/Bereks_Respite",
+    "review_note": "English a/an and Chinese 1 denote the same single killed enemy; no gameplay numeric value is added."
+  },
+  "When you Kill an Ignited Enemy, inflict an equivalent Ignite on each nearby Enemy": {
+    "zh": "当你击败 1 名点燃敌人，对周围敌人造成相同的点燃效果",
+    "kind": "item-reviewed",
+    "status": "reviewed-paired-indefinite-article",
+    "source": "https://poedb.tw/cn/Bereks_Respite",
+    "english_source": "https://poedb.tw/us/Bereks_Respite",
+    "review_note": "English a/an and Chinese 1 denote the same single killed enemy; no gameplay numeric value is added."
   }
 }
