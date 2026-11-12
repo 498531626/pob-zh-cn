@@ -35,13 +35,13 @@ function IsKeyDown() return alt end
 function GetScriptPath() return '__localization_test_no_save__' end
 local rawDrawn={}
 function DrawString(x,y,align,h,font,text) rawDrawn[#rawDrawn+1]=text end
-function DrawStringWidth(h, font, text) return #text * h * 0.5 end
+function DrawStringWidth(h, font, text) return #tostring(text) * h * 0.5 end
 function DrawStringCursorIndex() return 0 end
 function SetDrawColor() end
 function GetVirtualScreenSize() return 1920,1080 end
 function DrawImage() end
 function NewImageHandle() return {Load=function() end} end
-function wipeTable(t) for k in pairs(t) do t[k]=nil end end
+function wipeTable(t) t=t or {}; for k in pairs(t) do t[k]=nil end; return t end
 Localization = LoadModule('Modules/Localization')
 local L = Localization
 local dict = LoadModule('Localization/Dictionary')
@@ -69,6 +69,21 @@ L.mode='bilingual'
 assert(L:TranslateUI('Strength')==dict.Strength)
 assert(L:Translate('Strength')==dict.Strength..' / Strength')
 L.mode='zh'
+-- Native text APIs accept numeric calculation cells. Both localisation hooks
+-- must preserve this contract, including English/Alt and untranslated scopes.
+for _,mode in ipairs({'zh','en','bilingual'}) do
+    L.mode=mode
+    for _,value in ipairs({0, -42, 1234.5}) do
+        assert(DrawStringWidth(12,'VAR',value)==#tostring(value)*6)
+        DrawString(0,0,'LEFT',12,'VAR',value)
+        assert(rawDrawn[#rawDrawn]==value,'Numeric drawing argument changed')
+        assert(L:WithoutTranslation(DrawStringWidth,12,'VAR',value)==#tostring(value)*6)
+    end
+end
+alt=true
+assert(DrawStringWidth(12,'VAR',123)==18)
+DrawString(0,0,'LEFT',12,'VAR',123)
+alt=false;L.mode='zh'
 assert(L:Translate('1,177.0 x (1 - 0.0500) ^8(damage from non-crits)')=='1,177.0 x (1 - 0.0500) ^8(非暴击伤害)')
 assert(L:Translate('+ 1,765.5 x 0.0500 ^8(damage from crits)')=='+ 1,765.5 x 0.0500 ^8(暴击伤害)')
 assert(L:Translate('Life (10 remaining)')=='生命 (剩余 10)')
@@ -184,6 +199,31 @@ for _,line in ipairs(wrapped) do
 end
 main={showFlavourText=false,notSupportedModTooltips=false}
 function newClass() CreatedClass = {}; return CreatedClass end
+-- Reproduce the screenshot's real SetBreakdownData path with numeric table
+-- cells, including the separate thousands-separator width calculation branch.
+function copyTable(t)
+    local result={}
+    for k,v in pairs(t) do result[k]=type(v)=='table' and copyTable(v) or v end
+    return result
+end
+LoadModule('Classes/CalcBreakdownControl')
+local B=CreatedClass
+local rows={{value=1234.5},{value=0},{value=-42}}
+local calcs={input={},calcsEnv={player={breakdown={Numeric={
+    colList={{key='value',label='Strength'}},rowList=rows,
+}}}},CheckFlag=function() return true end}
+local breakdown=setmetatable({calcsTab=calcs},{__index=B})
+for _,mode in ipairs({'zh','en','bilingual'}) do
+    L.mode=mode
+    for _,separators in ipairs({false,true}) do
+        main.showThousandsSeparators=separators
+        breakdown:SetBreakdownData({{breakdown='Numeric'}})
+        assert(breakdown.shown and breakdown.contentWidth>0)
+        assert(breakdown.sectionList[1].rowList[1].value==1234.5)
+    end
+end
+assert(rows[1].value==1234.5 and rows[2].value==0 and rows[3].value==-42)
+L.mode='zh'
 LoadModule('Classes/Tooltip')
 local T = CreatedClass
 local tip=setmetatable({}, {__index=T})

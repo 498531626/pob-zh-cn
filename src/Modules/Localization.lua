@@ -485,7 +485,8 @@ local function tokenWidth(t, height, font)
 end
 
 local function measure(height, font, text)
-	if not text:find("[\128-\255]") then return rawWidth(height, font, text) end
+	-- Calculation breakdown cells may be numbers; preserve native coercion.
+	if type(text) ~= "string" or not text:find("[\128-\255]") then return rawWidth(height, font, text) end
 	local width, longest = 0, 0
 	for _, t in ipairs(tokens(text)) do
 		if t.ch == "\n" then longest = math.max(longest, width); width = 0
@@ -534,7 +535,7 @@ end
 -- and draw layer as the original text; western text keeps its original font.
 function DrawString(left, top, align, height, font, text)
 	text = L:TranslateUI(text)
-	if not text:find("[\128-\255]") then return rawDraw(left, top, align, height, font, text) end
+	if type(text) ~= "string" or not text:find("[\128-\255]") then return rawDraw(left, top, align, height, font, text) end
 	if not atlas then atlas = NewImageHandle(); atlas:Load("Localization/ChineseGlyphs.png") end
 	local originalColor = currentColor
 	local screenW = GetVirtualScreenSize()
