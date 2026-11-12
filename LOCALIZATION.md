@@ -59,6 +59,7 @@ python tools/localization/audit_database_display.py
 python tools/localization/audit_calc_display.py --workspace E:/POB/Localization-QA --passives
 python tools/localization/audit_item_runtime.py --workspace E:/POB/Localization-QA
 python tools/localization/audit_selected_gems.py --workspace E:/POB/Localization-QA
+python tools/localization/test_layout.py --workspace E:/POB/Localization-QA
 ```
 
 参考数据快照保存在 `tools/localization/`，可用 `fetch_reference.ps1` 刷新。同版本生成使用 `pob-tree-en.json` 本地树快照；升级 PoB 或更换天赋树版本时必须同时重新导出本地树并调整参考版本，不能沿用旧的覆盖统计。
@@ -87,3 +88,7 @@ python tools/localization/audit_selected_gems.py --workspace E:/POB/Localization
 2026-11-12 光环与增益明细补漏：新增 13 个显示词条，覆盖毒力层数上限、最大毒力层数、护卫伤害吸收比例／上限、避免流血、秘术增强魔力再生／施法速度，以及伤害、增益、减益、全局效果、光环减益和持续伤害。补齐列表中的缺失名称，避免截图中的整串光环名称回退为英文。已重新生成词典；test_calc_panel_locale.py 与 test_locale.py 通过，覆盖截图列表、真实属性名格式化、中英文、颜色和未知文本回退。本轮原生测试窗口未取得有效画面，未完成真实界面验收。
 
 2026-11-12 天赋涂油材料补漏：修复 Tooltip 的独立材料绘制路径绕过翻译的问题，将配方图片 ID 对应到已有的圣油完整中文名称，并在标题宽度计算和绘制中共用该名称。14 种圣油的中文／英文切换、重复材料、图标位置和标题边界通过 test_locale.py 的 Lua 检查；test_calc_panel_locale.py 通过。另用原生运行库调用实际 Tooltip:Draw，截图确认全部 14 种材料中文及英文回切正常；此项为独立绘制窗口检查，未覆盖天赋树鼠标悬停流程。
+
+中文布局统一按翻译后的实际字形宽度适配：通用控件与视口限制绘制宽度，按钮、标签、下拉框、列表表头、侧栏及计算单元格优先缩小字号，仍放不下时按 UTF-8 字符边界省略，鼠标悬停可查看完整内容。配置复选框的点击范围跟随显示宽度和语言刷新；提示说明及通用段落按中文字符换行。输入框继续使用原版光标、选择和滚动逻辑。
+
+布局专项检查覆盖 4,214 组计算标签和栏宽组合、中文换行、极窄栏、标签和复选框边界、省略内容提示、输入隔离，以及 8 个页面在 1280×720、1920×1080 下切换语言时的绘制、技能保存和数值一致性。后台宽度采用确定性西文字宽及真实中文图集字宽；另在独立副本的真实窗口抽查计算、配置、技能、物品、队伍和导入页，不能视为所有构筑与弹窗状态的穷举验收。

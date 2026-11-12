@@ -799,7 +799,7 @@ end
 function L:DrawControl(host, control, viewPort, noTooltip)
 	local previous = self.textBounds
 	local previousSuppression = self.suppressOverflow
-	self.suppressOverflow = noTooltip
+	self.suppressOverflow = previousSuppression or noTooltip
 	local left, right = viewPort.x, viewPort.x + viewPort.width
 	if host.GetPos and host.GetSize then
 		local hx = host:GetPos()

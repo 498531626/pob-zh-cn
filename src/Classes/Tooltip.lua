@@ -119,7 +119,8 @@ function TooltipClass:AddLine(size, text, font, modLine, background)
 			local maxWidth = self.maxWidth
 			if Localization and Localization:EffectiveMode() ~= "en" then
 				local screenWidth = GetVirtualScreenSize()
-				maxWidth = math.min(maxWidth or 700, screenWidth - 20)
+				-- Leave space for decorated headers, which add 50 pixels.
+				maxWidth = math.min(maxWidth or 700, math.max(40, screenWidth - 72))
 			end
 			if maxWidth then
 				local wrapped = Localization and Localization:WrapText(line, size, maxWidth - H_PAD, fontToUse)

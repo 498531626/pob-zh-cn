@@ -47,6 +47,7 @@ function PopupDialogClass:Draw(viewPort)
 	DrawImage(nil, x + 2, y + 2, width - 4, height - 4)
 	-- Draw dialog title box
 	local title = self:GetProperty("title")
+	local fullTitle = title
 	local titleSize = 16
 	if Localization and Localization:EffectiveMode() ~= "en" then title, titleSize = Localization:FitText(title, 16, "VAR", width - 16) end
 	local titleWidth = DrawStringWidth(titleSize, "VAR", title)
@@ -57,6 +58,9 @@ function PopupDialogClass:Draw(viewPort)
 	DrawImage(nil, titleX + 2, y - 8, titleWidth + 4, 20)
 	SetDrawColor(1, 1, 1)
 	DrawString(titleX + 4, y - 7 + (16 - titleSize) / 2, "LEFT", titleSize, "VAR", title)
+	if Localization and title ~= Localization:TranslateUI(fullTitle) then
+		Localization:RecordOverflow(titleX + 4, y - 7, "LEFT", titleSize, "VAR", title, Localization:TranslateUI(fullTitle))
+	end
 	if self.scrollBarFunc then
 		self.scrollBarFunc()
 	end

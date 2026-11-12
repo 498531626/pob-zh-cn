@@ -26,6 +26,9 @@ function GetScriptPath() return AUDIT_SOURCE end
 function GetRuntimePath() return AUDIT_RUNTIME end
 function GetUserPath() return AUDIT_SOURCE end
 io.read=function() error('Unexpected startup prompt') end
+function SetViewport(...)
+ assert(select('#',...)==0 or type((...))=='number','Native viewport reset requires zero arguments')
+end
 function DrawStringWidth(height,font,text)
  return #tostring(text or ''):gsub('%^x%x%x%x%x%x%x',''):gsub('%^%d','')*height*0.5
 end
@@ -33,6 +36,7 @@ dofile('Launch.lua')
 ]] end)
 assert(loadstring(source))()
 local L=Localization
+SetViewport(10,10,50,20);SetViewport()
 newBuild()
 build.skillsTab:PasteSocketGroup('Slot: Weapon 1\nCyclone 20/0  1\n')
 runCallback('OnFrame')
@@ -71,6 +75,18 @@ local originalBuf='Cyclone'
 local editor=new('EditControl',nil,{400,100,90,20},originalBuf)
 editor:Draw(viewport,true)
 assert(editor.buf==originalBuf,'Layout modified editable text')
+local cursor=GetCursorPos
+GetCursorPos=function() return 410,105 end
+L:BoundedText(400,100,'LEFT',16,'VAR',text,40)
+assert(L.overflowHint and L.overflowHint.text==text,'Elided text lost its full hover hint')
+L:DrawOverflowHint(viewport);checkError()
+assert(not L.overflowHint,'Hover hint persisted after drawing')
+GetCursorPos=cursor
+local json=require('dkjson')
+local function savedSkills()
+ local xml={};build.skillsTab:Save(xml);return json.encode(xml)
+end
+local skills=savedSkills()
 for _,screen in ipairs({{1280,720},{1920,1080}}) do
  GetScreenSize=function() return unpack(screen) end
  GetVirtualScreenSize=GetScreenSize
@@ -83,6 +99,7 @@ for _,screen in ipairs({{1280,720},{1920,1080}}) do
   for k,v in pairs(baseline) do
    assert(build.calcsTab.calcsOutput[k]==v or v~=v,'Layout changed calculation: '..k)
   end
+  assert(savedSkills()==skills,'Layout changed serialized skills')
  end
 end
 local tooltip=new('Tooltip')
