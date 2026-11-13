@@ -308152,5 +308152,29 @@
     "kind": "pob-panel",
     "status": "source-code-checked",
     "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "(totem placement speed)": {
+    "zh": "(图腾放置速度)",
+    "kind": "calculation-explanation",
+    "status": "source-code-checked",
+    "source": "src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua"
+  },
+  "15% reduced Totem Placement speed": {
+    "zh": "图腾放置速度降低 15%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "25% reduced Totem Placement speed": {
+    "zh": "图腾放置速度降低 25%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "totem placement speed": {
+    "zh": "图腾放置速度",
+    "kind": "calculation-explanation",
+    "status": "source-code-checked",
+    "source": "src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua"
   }
 }

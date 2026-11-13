@@ -344,4 +344,7 @@ return {
 {pattern="^([%+%-]?[%d%,%.]+)%% less$",zh="{0}% 总降",kinds={"number"}},
 {pattern="^([%+%-]?[%d%,%.]+)%% increased$",zh="{0}% 提高",kinds={"number"}},
 {pattern="^([%+%-]?[%d%,%.]+)%% reduced$",zh="{0}% 降低",kinds={"number"}},
+{pattern="^base life for a level ([%+%-]?[%d%,%.]+) monster$",zh="{0}级怪物的基础生命",kinds={"number"}},
+{pattern="^Totem level: ([%+%-]?[%d%,%.]+)$",zh="图腾等级：{0}",kinds={"number"}},
+{pattern="^Totems Summoned: ([%+%-]?[%d%,%.]+) %(can be overridden in the Configuration tab%)$",zh="已召唤图腾：{0}（可在配置页覆盖）",kinds={"number"}},
 }

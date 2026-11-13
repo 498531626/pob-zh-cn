@@ -291,5 +291,8 @@
   "%g%% more": "%g%% 总增",
   "%g%% less": "%g%% 总降",
   "%g%% increased": "%g%% 提高",
-  "%g%% reduced": "%g%% 降低"
+  "%g%% reduced": "%g%% 降低",
+  "base life for a level %d monster": "%d级怪物的基础生命",
+  "Totem level: %d": "图腾等级：%d",
+  "Totems Summoned: %d (can be overridden in the Configuration tab)": "已召唤图腾：%d（可在配置页覆盖）"
 }

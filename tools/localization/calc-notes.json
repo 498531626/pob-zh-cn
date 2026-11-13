@@ -434,5 +434,6 @@
   "You can't deal Chaos damage": "你无法造成混沌伤害",
   "seconds": "秒",
   "Ailment mode: Average Damage": "异常状态计算模式：平均伤害",
-  "min combined sources + (max combined sources - min combined sources) * average ignite roll": "合并来源最小值 + (合并来源最大值 - 合并来源最小值) * 平均点燃浮动值"
+  "min combined sources + (max combined sources - min combined sources) * average ignite roll": "合并来源最小值 + (合并来源最大值 - 合并来源最小值) * 平均点燃浮动值",
+  "totem placement speed": "图腾放置速度"
 }

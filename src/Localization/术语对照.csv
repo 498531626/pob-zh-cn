@@ -8391,6 +8391,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 (total modifier),(总修正),calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 (total time it would take to die),(预估死亡所需时间),calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 (totem life modifier),(图腾生命修正),calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
+(totem placement speed),(图腾放置速度),calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 (trauma per attack),(每次攻击的创伤层数),calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 (trigger rate adjusted for triggering interval),(按触发间隔调整的触发频率),calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 (trigger rate),(触发频率),calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
@@ -14935,6 +14936,7 @@ Warcry Skills have (26-30)% increased Area of Effect","战吼的增益效果提�
 15% reduced Reservation Efficiency of Skills,技能的保留效能降低 15%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 15% reduced Skill Effect Duration,技能效果持续时间缩短 15%,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 15% reduced Totem Life,图腾的生命降低 15%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+15% reduced Totem Placement speed,图腾放置速度降低 15%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 150% faster start of Energy Shield Recharge,能量护盾提前 150% 开始充能,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 150% increased Chill Duration on Enemies,敌人被冰缓的持续时间延长 150%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 150% increased Critical Strike Chance against Enemies that are on Full Life,对满血敌人的暴击几率提高 150%,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -16160,6 +16162,7 @@ Cannot deal non-Lightning Damage","最大闪电伤害总增 25%
 25% reduced Stun Threshold,晕眩门槛降低 25%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 25% reduced Stun and Block Recovery,晕眩回复和格挡回复降低 25%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 25% reduced Totem Life,图腾的生命降低 25%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+25% reduced Totem Placement speed,图腾放置速度降低 25%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 25% reduced effect,效果降低 25%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Iron_Flask,https://poedb.tw/us/Iron_Flask
 25% reduced maximum Energy Shield,能量护盾上限降低 25%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Mings_Heart,https://poedb.tw/us/Mings_Heart
 25% reduced maximum Life,生命上限降低 25%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Ephemeral_Edge,https://poedb.tw/us/Ephemeral_Edge
@@ -51087,6 +51090,7 @@ total mana regen,魔力总再生,calculation-explanation,source-code-checked,src
 total modifier,总修正,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 total time it would take to die,预估死亡所需时间,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 totem life modifier,图腾生命修正,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
+totem placement speed,图腾放置速度,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 trauma per attack,每次攻击的创伤层数,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 trigger rate,触发频率,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 trigger rate adjusted for triggering interval,按触发间隔调整的触发频率,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,

@@ -6956,6 +6956,7 @@ return {
 {en="{0}% reduced Rarity of Items found",zh="物品稀有度降低 {0}%",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%%%s+reduced%s+Rarity%s+of%s+Items%s+found$",values=1},
 {en="{0}% reduced Shock Duration on you",zh="你受到的感电持续时间缩短 {0}%",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%%%s+reduced%s+Shock%s+Duration%s+on%s+you$",values=1},
 {en="{0}% reduced Skill Effect Duration",zh="技能效果持续时间缩短 {0}%",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%%%s+reduced%s+Skill%s+Effect%s+Duration$",values=1},
+{en="{0}% reduced Totem Placement speed",zh="图腾放置速度降低 {0}%",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%%%s+reduced%s+Totem%s+Placement%s+speed$",values=1},
 {en="{0}% reduced maximum Energy Shield",zh="能量护盾上限降低 {0}%",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%%%s+reduced%s+maximum%s+Energy%s+Shield$",values=1},
 {en="{0}% to Cold and Chaos Resistances",zh="{0}% 冰霜与混沌抗性",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%%%s+to%s+Cold%s+and%s+Chaos%s+Resistances$",values=1},
 {en="{0}% to Critical Strike Multiplier",zh="{0}% 暴击伤害加成",pattern="^([%+%-]?[%d%.%(%)%-%#]+)%%%s+to%s+Critical%s+Strike%s+Multiplier$",values=1},

@@ -18,6 +18,8 @@ end
 local displayTemplates = LoadModule("Localization/DisplayTemplates")
 local displayTerms = LoadModule("Localization/DisplayTerms")
 local calcLabels = LoadModule("Localization/CalcLabels")
+local calcIdentifiers = LoadModule("Localization/CalcIdentifiers")
+local calcIdentifierTerms = LoadModule("Localization/CalcIdentifierTerms")
 local numericFields = {}
 for _, labels in ipairs({calcLabels, panelLabels}) do
 	for _, label in ipairs(labels) do numericFields[label:gsub(":$", "")] = true end
@@ -288,7 +290,83 @@ function L:TranslateCalcList(text)
 	end
 end
 
+-- Restricted calculator note grammar. Unknown phrases fail as a whole instead
+-- of turning arbitrary user text into a mixture of Chinese and English.
+local calcPhraseIndex, calcIdentifierKeys
+local function calcNoteChinese(body)
+	if body:find("\n", 1, true) then return end
+	local function canonical(value) return value:lower():gsub("[%s'%-]", "") end
+	-- Source-total rows append an identifier after their value. A normal item
+	-- sentence such as "20% increased ... for each ..." uses the item templates.
+	local numericStat = body:match("^[%+%-]?[%d%.]+ base (.+)$")
+		or body:match("^[%d%.]+%% increased (.+)$") or body:match("^[%d%.]+%% reduced (.+)$")
+		or body:match("^[%d%.]+%% more (.+)$") or body:match("^[%d%.]+%% less (.+)$")
+	if numericStat then
+		if not calcIdentifierKeys then
+			calcIdentifierKeys = {}; for en in pairs(calcIdentifiers) do calcIdentifierKeys[canonical(en)] = true end
+		end
+		if not calcIdentifierKeys[canonical(numericStat)] then return end
+	end
+	local enums = {Calculation=true, EnemyConfig=true, Gem=true, ["Max Level"]=true,
+		["Socketed In"]=true, True=true, False=true}
+	if not (enums[body] or body:match("^Condition: ") or body:match("^%a+ Condition[: ,]")
+		or body:match("^Skill type: ") or body:match("^Skill: ") or body:match("^If ")
+		or body:match("^When in slot #") or body:match("^Ignore Cond[, ]")
+		or body:match("^Global, ") or body:match("^Buff, ") or body:match("^Debuff, ")
+		or body:match("^Ailment, ") or body:match("^Modifier: ")
+		or body:match("^Total from ")
+		or body:match("^True ") or body:match("^False ")
+		or body:match("^[%+%-]?[%d%.]+%%? per ") or body:match("^[%+%-]?[%d%.]+%%? of ")
+		or body:match("^[%+%-]?[%d%.]+ base ")
+		or body:match("^[%d%.]+%% increased ") or body:match("^[%d%.]+%% reduced ")
+		or body:match("^[%d%.]+%% more ") or body:match("^[%d%.]+%% less ")
+		or body:match("^[%+%-]?[%d%.]+ %+ [%d%.]+ per ") or body == "+inf base") then return end
+	if not calcPhraseIndex then
+		calcPhraseIndex = {}
+		-- Deterministic priority: reviewed calculator terms override identifiers,
+		-- which override general UI/name vocabulary in this note grammar only.
+		for _, source in ipairs({dictionary, calcIdentifiers, calcIdentifierTerms}) do
+			local keys = {}; for en in pairs(source) do keys[#keys+1] = en end
+			table.sort(keys)
+			for _, en in ipairs(keys) do
+				local zh = source[en]
+				if not en:find("[^%w%s'%-]") and not zh:find("%a") and (source ~= dictionary or not en:find("%d")) then
+					local key = canonical(en)
+					if not calcPhraseIndex[key] or source ~= dictionary then calcPhraseIndex[key] = zh end
+				end
+			end
+		end
+	end
+	local valid = true
+	local translated = body:gsub("[^,:<>=+/#%%{}()%?]+", function(fragment)
+		local lead, text, tail = fragment:match("^(%s*)(.-)(%s*)$")
+		if text == "" then return fragment end
+		local words = {}; for word in text:gmatch("%S+") do words[#words+1] = word end
+		local memo = {}
+		local function resolve(start)
+			if start > #words then return "" end
+			if memo[start] ~= nil then return memo[start] or nil end
+			for finish = #words, start, -1 do
+				local en = table.concat(words, " ", start, finish)
+				local zh = calcPhraseIndex[canonical(en)] or (tonumber(en) and en)
+				if zh then
+					local rest = resolve(finish + 1)
+					if rest then memo[start] = zh .. rest; return memo[start] end
+				end
+			end
+			memo[start] = false
+		end
+		local zh = resolve(1)
+		if not zh then valid = false; return fragment end
+		return lead .. zh .. tail
+	end)
+	if valid then return translated end
+end
+
 local function dynamicChinese(body)
+	-- This flag list otherwise enters the legacy comma/title formatter, which
+	-- can translate only its last member and hide the unresolved first flag.
+	if body:match("^Ailment, ") then return calcNoteChinese(body) end
 	-- Crafting dropdowns append affix metadata to complete numeric stat lines.
 	-- Resolve the stat before the generic parenthesis handler can split its rolls.
 	local colouredStat, affixColour, colouredType = body:match("^(.-) (%^%d)%((Prefix)%)$")
@@ -557,6 +635,7 @@ local function dynamicChinese(body)
 	if value and (suffix == "Guard" or suffix == "Immune") and value:find("%d") then
 		return value .. code .. " (" .. dictionary[suffix] .. ")"
 	end
+	return calcNoteChinese(body)
 end
 
 function L:Translate(text, nodeId, displayMode)
@@ -595,8 +674,8 @@ function L:Translate(text, nodeId, displayMode)
 		or body:match(":$") or (body:sub(-3) == "：" and "：") or ""
 	local name = trailing ~= "" and body:sub(1, -#trailing - 1) or body
 	local context = nodeId and passiveContexts[tostring(nodeId)]
-	local direct = context and context[body] or dictionary[body] or itemNames[body]
-	local zh = direct or (context and context[name]) or dictionary[name]
+	local direct = context and context[body] or dictionary[body] or calcIdentifiers[body] or itemNames[body]
+	local zh = direct or (context and context[name]) or dictionary[name] or calcIdentifiers[name]
 	-- Strip inline colours before matching a complete message. Otherwise a
 	-- partial dynamic clause can prevent the remaining lines from translating.
 	local dynamic = not zh and not (body:find("^", 1, true) and body:find("\n", 1, true))

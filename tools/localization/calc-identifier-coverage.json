@@ -1,0 +1,7 @@
+{
+  "schema_identifiers": 728,
+  "source_identifiers": 2249,
+  "translated": 2249,
+  "pending": [],
+  "scope": "Evaluated CalcSections modName schema and all literal modifier constructors in current Lua source. Runtime-generated names are audited separately."
+}

@@ -10,6 +10,7 @@ import json
 import re
 from passive_locale import build_passives
 from calc_rules import compose
+from calc_identifier_locale import build as build_calc_identifiers
 from gem_locale import build_gems, hybrid_gem_names
 from reference_glossary import build_glossary
 from config_locale import compose_config
@@ -213,6 +214,9 @@ def build():
     OUT.mkdir(exist_ok=True)
     write_anoint_names(passive_contexts, OUT / 'AnointNames.lua')
     write_dictionary(entries)
+    calc_identifiers, identifier_report = build_calc_identifiers()
+    if identifier_report['pending']:
+        raise ValueError('Untranslated calculation identifiers; see calc-identifier-coverage.json')
     def lua(s):
         return json.dumps(s, ensure_ascii=False)
     (OUT / 'SkillPartNames.lua').write_text('return {\n' + ''.join(
@@ -252,6 +256,8 @@ def build():
     extra = crafting_text + '英文中文对照切换按住临时查看未翻译保留术语参考流亡编年史模式'
     extra += (ROOT / 'src/Modules/Localization.lua').read_text('utf8')
     all_text = ''.join(v['zh'] for v in entries.values()) + ''.join(part_terms.values()) + ''.join(v['zh'] for v in gem_templates + item_templates) + ''.join(v['zh'] for v in formats) + ''.join(display_terms.values()) + ''.join(zh for texts in passive_contexts.values() for zh in texts.values()) + extra
+    all_text += ''.join(calc_identifiers.values())
+    all_text += ''.join(json.loads((HERE / 'calc-identifier-terms.json').read_text('utf8')).values())
     chars = sorted({c for c in all_text if ord(c) > 127})
     font_info = build_atlas(chars, OUT)
     report = {'entries': len(entries), 'gem_names': sum(v['kind'] == 'gem' and 'alias_of' not in v for v in entries.values()),
@@ -262,6 +268,7 @@ def build():
               'sidebar_labels': len(labels), 'sidebar_labels_translated': len(labels),
               'skill_part_labels': len(part_labels), 'skill_part_labels_translated': len(part_labels),
               'calculation_labels': len(calc_labels), 'calculation_labels_translated': len(calc_labels),
+              'calculation_identifiers': identifier_report['translated'],
               'configuration_labels': len(config_labels), 'configuration_labels_translated': len(config_labels) - len(config_pending),
               'scope': 'Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.29 passives, paired item names/bases/modifiers, essence/currency/monster/pantheon/tattoo/enchantment/cluster/boss preset display fields and finite display clauses. Item/database audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged.'}
     (OUT / 'build-info.json').write_text(json.dumps(report, indent=2) + '\n', 'utf-8')
