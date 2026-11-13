@@ -19,8 +19,13 @@ local function downloadFileText(source, file)
 		end
 		local text = ""
 		local easy = curl.easy()
-		local escapedUrl = source..easy:escape(file)
+		local escapedUrl = source..file:gsub("([^/]+)", function(segment) return easy:escape(segment) end)
 		easy:setopt_url(escapedUrl)
+		easy:setopt(curl.OPT_FOLLOWLOCATION, 1)
+		easy:setopt(curl.OPT_MAXREDIRS, 5)
+		easy:setopt(curl.OPT_FAILONERROR, 1)
+		easy:setopt(curl.OPT_CONNECTTIMEOUT, 10)
+		easy:setopt(curl.OPT_TIMEOUT, 120)
 		easy:setopt(curl.OPT_ACCEPT_ENCODING, "")
 		if connectionProtocol then
 			easy:setopt(curl.OPT_IPRESOLVE, connectionProtocol)
@@ -55,8 +60,13 @@ local function downloadFile(source, file, outName)
 			ConPrintf("Retrying... (%d of 5)", i)
 		end
 		local easy = curl.easy()
-		local escapedUrl = source..easy:escape(file)
+		local escapedUrl = source..file:gsub("([^/]+)", function(segment) return easy:escape(segment) end)
 		easy:setopt_url(escapedUrl)
+		easy:setopt(curl.OPT_FOLLOWLOCATION, 1)
+		easy:setopt(curl.OPT_MAXREDIRS, 5)
+		easy:setopt(curl.OPT_FAILONERROR, 1)
+		easy:setopt(curl.OPT_CONNECTTIMEOUT, 10)
+		easy:setopt(curl.OPT_TIMEOUT, 120)
 		easy:setopt(curl.OPT_ACCEPT_ENCODING, "")
 		if connectionProtocol then
 			easy:setopt(curl.OPT_IPRESOLVE, connectionProtocol)
@@ -69,7 +79,8 @@ local function downloadFile(source, file, outName)
 			easy:setopt(curl.OPT_SSL_VERIFYHOST, 0)
 			ConPrintf("SSL verification disabled")
 		end
-		local file = io.open(outName, "wb+")
+		local file, openError = io.open(outName, "wb+")
+		if not file then easy:close(); return nil, openError end
 		easy:setopt_writefunction(file)
 		local _, error = easy:perform()
 		easy:close()
@@ -94,6 +105,8 @@ scriptPath = scriptPath or scriptFallback or "."
 local runtimePath, runtimeFallback = GetRuntimePath()
 runtimePath = runtimePath or runtimeFallback or scriptPath
 
+local policy = dofile(scriptPath.."/Modules/UpdatePolicy.lua")
+
 -- Load and process local manifest
 local localVer
 local localPlatform, localBranch
@@ -101,7 +114,7 @@ local localFiles = { }
 local localManXML = xml.LoadXMLFile(scriptPath.."/manifest.xml")
 local localSource
 local runtimeExecutable
-if localManXML and localManXML[1].elem == "PoBVersion" then
+if localManXML and localManXML[1] and localManXML[1].elem == "PoBVersion" then
 	for _, node in ipairs(localManXML[1]) do
 		if type(node) == "table" then
 			if node.elem == "Version" then
@@ -120,6 +133,7 @@ if localManXML and localManXML[1].elem == "PoBVersion" then
 				else
 					fullPath = scriptPath .. "/" .. node.attrib.name
 				end
+				if not policy.ValidName(node.attrib.name) then return nil, "Unsafe or personal file in local update manifest" end
 				localFiles[node.attrib.name] = { sha1 = node.attrib.sha1, part = node.attrib.part, platform = node.attrib.platform, fullPath = fullPath }
 				if node.attrib.part == "runtime" and node.attrib.name:match("Path of Building") then
 					runtimeExecutable = fullPath
@@ -133,6 +147,7 @@ if not localVer or not localSource or not localBranch or not next(localFiles) th
 	return nil, "Invalid local manifest"
 end
 localSource = localSource:gsub("{branch}", localBranch)
+if not policy.ValidSource(localSource) then return nil, "Invalid update source URL" end
 
 -- Download and process remote manifest
 local remoteVer
@@ -143,19 +158,25 @@ if not remoteManText then
 	ConPrintf("Update check failed: couldn't download version manifest")
 	return nil, "Couldn't download version manifest.\nReason: "..errMsg.."\nCheck your internet connectivity.\nIf you are using a proxy, specify it in Options."
 end
-local remoteManXML = xml.ParseXML(remoteManText)
-if remoteManXML and remoteManXML[1].elem == "PoBVersion" then
+local parsed, remoteManXML = pcall(xml.ParseXML, remoteManText)
+if not parsed then return nil, "Invalid remote manifest XML" end
+local remoteVersionAttributes
+if remoteManXML and remoteManXML[1] and remoteManXML[1].elem == "PoBVersion" then
 	for _, node in ipairs(remoteManXML[1]) do
 		if type(node) == "table" then
 			if node.elem == "Version" then
 				remoteVer = node.attrib.number
+				remoteVersionAttributes = node.attrib
 			elseif node.elem == "Source" then
+				if not node.attrib.part or not policy.ValidSource(node.attrib.url) then return nil, "Invalid remote file source" end
 				if not remoteSources[node.attrib.part] then
 					remoteSources[node.attrib.part] = { }
 				end
 				remoteSources[node.attrib.part][node.attrib.platform or "any"] = node.attrib.url
 			elseif node.elem == "File" then
 				if not node.attrib.platform or node.attrib.platform == localPlatform then
+					if not policy.ValidName(node.attrib.name) or not node.attrib.sha1 or not node.attrib.sha1:match("^%x+$") or #node.attrib.sha1 ~= 40 then return nil, "Unsafe or invalid remote file entry" end
+					if remoteFiles[node.attrib.name] then return nil, "Duplicate remote file entry" end
 					local fullPath
 					if node.attrib.part == "runtime" then
 						fullPath = runtimePath .. "/" .. node.attrib.name
@@ -171,6 +192,11 @@ end
 if not remoteVer or not next(remoteSources) or not next(remoteFiles) then
 	ConPrintf("Update check failed: invalid remote manifest")
 	return nil, "Invalid remote manifest"
+end
+
+for _, data in pairs(remoteFiles) do
+	local sources = remoteSources[data.part]
+	if not sources or not (sources[localPlatform] or sources.any) then return nil, "Missing download source for file" end
 end
 
 -- Build lists of files to be updated or deleted
@@ -288,7 +314,9 @@ end
 
 -- Create new manifest
 localManXML = { elem = "PoBVersion" }
-table.insert(localManXML, { elem = "Version", attrib = { number = remoteVer, platform = localPlatform, branch = localBranch } })
+remoteVersionAttributes.platform = localPlatform
+remoteVersionAttributes.branch = localBranch
+table.insert(localManXML, { elem = "Version", attrib = remoteVersionAttributes })
 for part, platforms in pairs(remoteSources) do
 	for platform, url in pairs(platforms) do
 		table.insert(localManXML, { elem = "Source", attrib = { part = part, platform = platform ~= "any" and platform, url = url } })

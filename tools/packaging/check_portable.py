@@ -8,6 +8,8 @@ from pathlib import Path
 import tempfile
 import subprocess
 import sys
+import struct
+import xml.etree.ElementTree as ET
 import zipfile
 
 
@@ -35,6 +37,18 @@ def check_extracted(package):
     info = json.loads((package / 'package-info.json').read_text(encoding='utf-8'))
     for relative, digest in info['sha256'].items():
         assert hashlib.sha256((package / relative).read_bytes()).hexdigest() == digest, relative
+    manifest = ET.parse(package / 'manifest.xml').getroot()
+    for entry in manifest.findall('File'):
+        relative = entry.get('name')
+        assert hashlib.sha1((package / relative).read_bytes()).hexdigest() == entry.get('sha1'), relative
+    version = manifest.find('Version')
+    assert (version.get('updates') == 'enabled') == info['automatic_updates']
+    sources = manifest.findall('Source')
+    if info['automatic_updates']:
+        assert all(entry.get('url').startswith('https://gitee.com/') for entry in sources)
+        assert next(entry.get('url') for entry in sources if entry.get('part') == 'default') + 'manifest.xml' == info['update_manifest_url']
+    else:
+        assert not sources, 'Offline package must not contain upstream update URLs'
     for path in package.rglob('*'):
         assert path.name.lower() not in {'settings.xml', 'language.cfg', 'poe_api_response.json', '.git', 'first.run', 'installed.cfg'}
         assert 'Builds' not in path.parts
@@ -44,7 +58,15 @@ def check_extracted(package):
     # Only the extracted runtime and Windows' system directories may resolve DLLs.
     os.environ['PATH'] = str(runtime) + os.pathsep + os.path.join(os.environ['SystemRoot'], 'System32')
     with os.add_dll_directory(str(runtime)):
-        loaded = [ctypes.WinDLL(str(path)) for path in runtime.glob('*.dll')]
+        libraries = list(runtime.glob('*.dll'))
+        if info['automatic_updates']:
+            helper = (runtime / 'Update.exe').read_bytes()
+            assert helper[:2] == b'MZ'
+            old_crt = runtime / 'msvcr100.dll'
+            data = old_crt.read_bytes()
+            assert struct.unpack_from('<H', data, struct.unpack_from('<I', data, 60)[0] + 4)[0] == 0x14c
+            libraries.remove(old_crt)  # x86 updater dependency; the app and Python are x64.
+        loaded = [ctypes.WinDLL(str(path)) for path in libraries]
         print(f'Native DLL loading passed: {len(loaded)} bundled libraries')
         lua = ctypes.CDLL(str(runtime / 'lua51.dll'))
         lua.luaL_newstate.restype = ctypes.c_void_p
@@ -62,31 +84,43 @@ def check_extracted(package):
                 + quote(runtime / 'lua/?/init.lua') + '..";"..package.path\n'
                 + 'package.cpath=' + quote(runtime / '?.dll') + '..";"..package.cpath\n'
                 + 'AUDIT_SOURCE=' + quote(source) + '\nAUDIT_RUNTIME=' + quote(runtime) + '\n' + r'''
+AUDIT_UPDATES=__UPDATES__
+AUDIT_CHANNEL=__CHANNEL__
 arg={}
 -- Even a stale installation marker must not trigger the official updater.
-local marker=assert(io.open('first.run','w'));marker:close()
+if not AUDIT_UPDATES then local marker=assert(io.open('first.run','w'));marker:close() end
 local f=assert(io.open('HeadlessWrapper.lua','r'));local source=f:read('*a');f:close()
 source=source:gsub('^#@',''):gsub('dofile%("Launch.lua"%)',function() return [[
 function GetScriptPath() return AUDIT_SOURCE end
 function GetRuntimePath() return AUDIT_RUNTIME end
 function GetUserPath() error('Portable build accessed external user data') end
 io.read=function() error('Unexpected startup prompt') end
-LaunchSubScript=function() error('Portable build launched a background script') end
+UPDATE_CHECKS=0
+LaunchSubScript=function() UPDATE_CHECKS=UPDATE_CHECKS+1 end
 dofile('Launch.lua')
 ]] end)
 assert(loadstring(source))()
 assert(not launch.devMode, 'Release package entered developer mode')
-assert(launch.versionBranch=='localization' and launch.versionPlatform=='win32')
-assert(launch.updatesDisabled and not launch.updateCheckRunning, 'Official updates enabled')
+assert(launch.versionBranch==AUDIT_CHANNEL and launch.versionPlatform=='win32')
+assert(launch.updatesDisabled==not AUDIT_UPDATES and not launch.updateCheckRunning)
+assert(UPDATE_CHECKS==(AUDIT_UPDATES and 1 or 0), 'Unexpected automatic check count')
 assert(not io.open('first.run','r'), 'Installation marker not consumed')
-assert(not main.controls.checkUpdate.shown(), 'Official update button is visible')
+assert(not not main.controls.checkUpdate.shown()==AUDIT_UPDATES, 'Wrong check-update visibility')
 assert(not main.controls.applyUpdate.shown(), 'Apply update button is visible')
+if AUDIT_UPDATES then
+ local _,uy=main.controls.checkUpdate:GetPos()
+ local _,ly=main.controls.language:GetPos()
+ assert(uy+20<=ly,'Update and language buttons overlap')
+ launch.updateAvailable='normal';assert(main.controls.applyUpdate.shown());launch.updateAvailable=nil
+end
 assert(not main.controls.versionLabel.label():lower():find('dev',1,true))
 assert(not main.controls.devMode.shown(), 'Developer label is visible')
 for _,key in ipairs({'F5','F6','PAUSE'}) do launch:OnKeyDown(key) end
 assert(not launch.doRestart, 'Developer restart shortcut is active')
-launch:CheckForUpdate(true);launch:CheckForUpdate(false);launch:ApplyUpdate('normal')
+launch:CheckForUpdate(true);launch:CheckForUpdate(false)
+if not AUDIT_UPDATES then launch:ApplyUpdate('normal') end
 assert(not launch.updateCheckRunning and not launch.doRestart)
+assert(UPDATE_CHECKS==(AUDIT_UPDATES and 3 or 0))
 assert(not launch.promptMsg,launch.promptMsg)
 assert(main.userPath==AUDIT_SOURCE..'/', 'Nonportable save path')
 assert(Localization.mode=='zh','Default language must be Chinese')
@@ -120,8 +154,10 @@ main:ClosePopup()
 for _,file in ipairs({'help.txt','changelog.txt'}) do
  local handle=assert(io.open(file,'r'));assert(#handle:read('*a')>0);handle:close()
 end
-print('Release mode, disabled developer shortcuts/options and official updates, headless startup, Chinese default, offline calculation, 8 pages, language switching, XML save/reload passed')
+print('Release mode, developer controls disabled, configured update controls, headless startup, Chinese default, offline calculation, 8 pages, language switching, XML save/reload passed')
 ''')
+        code = code.replace('__UPDATES__', 'true' if info['automatic_updates'] else 'false')
+        code = code.replace('__CHANNEL__', json.dumps(info.get('update_channel', 'localization')))
         try:
             lua.luaL_openlibs(state)
             result = lua.luaL_loadstring(state, code.encode('utf-8')) or lua.lua_pcall(state, 0, 0, 0)

@@ -215,13 +215,13 @@ function main:Init()
 		return ({ en = "English", zh = "中文" })[Localization.mode] .. " [F8]"
 	end, function() Localization:Cycle() end)
 	self.controls.language.tooltipText = "F8: English / 中文\nPoEDB name reference; untranslated text stays English."
-	self.controls.applyUpdate = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -24, 140, 20}, "^x50E050Update Ready", function()
+	self.controls.applyUpdate = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -48, 140, 20}, "^x50E050Update Ready", function()
 		self:OpenUpdatePopup()
 	end)
 	self.controls.applyUpdate.shown = function()
 		return not launch.updatesDisabled and launch.updateAvailable and launch.updateAvailable ~= "none"
 	end
-	self.controls.checkUpdate = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -24, 140, 20}, "", function()
+	self.controls.checkUpdate = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -48, 140, 20}, "", function()
 		launch:CheckForUpdate()
 	end)
 	self.controls.checkUpdate.shown = function()
@@ -397,13 +397,14 @@ function main:OnFrame()
 	-- Update and render toasts
 	ToastNotification:UpdateFrame(self.inputEvents, self.viewPort, self.screenH)
 	local totalToastHeight = ToastNotification:Render()
-	self.mainBarHeight = 58 + totalToastHeight
+	local barHeight = not launch.devMode and not launch.updatesDisabled and 84 or 58
+	self.mainBarHeight = barHeight + totalToastHeight
 
 	-- Draw main controls
 	SetDrawColor(0.85, 0.85, 0.85)
-	DrawImage(nil, 0, self.screenH - 58, 312, 58)
+	DrawImage(nil, 0, self.screenH - barHeight, 312, barHeight)
 	SetDrawColor(0.1, 0.1, 0.1)
-	DrawImage(nil, 0, self.screenH - 54, 308, 54)
+	DrawImage(nil, 0, self.screenH - barHeight + 4, 308, barHeight - 4)
 	self:DrawControls(self.viewPort)
 
 	if self.popups[1] then

@@ -13,8 +13,10 @@ python tools/packaging/check_portable.py 完整压缩包路径.zip
 ZIP 解压后双击根目录的 `Path of Building.exe` 或 `Start-PoB.cmd`。
 采用官方便携版的平铺结构，脚本、运行库和资源都在同一根目录。
 打包时为 manifest 写入 `branch="localization"`、`platform="win32"`，
-确保以非开发者模式运行；用独立的 `updates="disabled"` 属性关闭官方更新。
-启动代码在首次安装、手动/定期检查和应用更新处遵循该开关，界面隐藏更新按钮。
+确保以非开发者模式运行。默认不配置在线更新，独立的 `updates="disabled"` 属性关闭更新。
+提供 `--gitee-repository` 时改为 release-stable 渠道，启用自己的汉化更新源；
+详细说明见 [双仓库发布与更新流程](release-distribution.md)。
+启动代码在首次安装、手动/定期检查和应用更新处遵循该开关。
 源码目录自己的 manifest 保持原样，开发启动行为不变。
 个人数据写入包内 `Builds`、`Settings.xml` 和 `Localization/language.cfg`。
 新版本解压到新目录，先备份再迁移个人数据。旧开发模式包的数据在 `src/` 下，
@@ -22,7 +24,8 @@ ZIP 解压后双击根目录的 `Path of Building.exe` 或 `Start-PoB.cmd`。
 分别迁移到新包的上述位置，不能把整个旧 `src/` 覆盖进去。
 
 文件列表由 Git 跟踪清单确定。沿用官方发布排除项，去除安装入口、
-导出开发工具、32 位旧更新器及不供当前 x64 运行时使用的 `msvcr100.dll`。
+导出开发工具。离线包去除旧更新器及 x86 `msvcr100.dll`；在线更新包保留两者，
+用于在主程序退出后替换运行库，不能用 x64 Python 直接加载这个 x86 DLL。
 保留完整历史天赋树、图片及汉化字形资源。
 
 ## 2026-11-13 验证
