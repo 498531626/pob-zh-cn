@@ -236,6 +236,52 @@ class ReleaseTests(unittest.TestCase):
             for remote in ('origin', 'gitee'):
                 self.assertEqual(run('--git-dir', str(root / (remote + '.git')), 'rev-parse', 'localization').stdout, head)
 
+    def test_snapshot_mirror_preserves_contents_without_old_history(self):
+        with tempfile.TemporaryDirectory(prefix='PoB compact mirror QA ') as directory:
+            root = Path(directory)
+            work = root / 'work'
+            def run(*args):
+                return subprocess.check_output(['git', '-C', str(work), *args], encoding='utf-8',
+                                               stderr=subprocess.DEVNULL).strip()
+            work.mkdir()
+            run('init', '-b', 'localization')
+            run('config', 'user.name', 'Fixture')
+            run('config', 'user.email', 'fixture@example.invalid')
+            (work / 'data.txt').write_text('old content', encoding='utf-8')
+            run('add', '.')
+            run('commit', '-m', 'old upstream history')
+            old = run('rev-parse', 'HEAD')
+            (work / 'data.txt').write_text('当前源码', encoding='utf-8')
+            (work / 'gitee-mirror.json').write_text('{"history":"snapshot-v1"}', encoding='utf-8')
+            run('add', '.')
+            run('commit', '-m', 'localized source')
+            for remote in ('origin', 'gitee'):
+                subprocess.run(['git', 'init', '--bare', str(root / (remote + '.git'))], check=True,
+                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                run('remote', 'add', remote, str(root / (remote + '.git')))
+            sync(work, execute=True)
+            mirror = run('rev-parse', 'refs/remotes/gitee/localization')
+            self.assertEqual(run('rev-list', '--count', mirror), '1')
+            self.assertEqual(run('rev-parse', mirror + '^{tree}'), run('rev-parse', 'HEAD^{tree}'))
+            self.assertNotIn(old, run('rev-list', mirror))
+            sync(work, execute=True)
+            self.assertEqual(run('rev-parse', 'refs/remotes/gitee/localization'), mirror)
+            (work / 'data.txt').write_text('next localization update', encoding='utf-8')
+            run('add', '.')
+            run('commit', '-m', 'next fix')
+            source = run('rev-parse', 'HEAD')
+            sync(work, execute=True)
+            updated = run('rev-parse', 'refs/remotes/gitee/localization')
+            self.assertEqual(run('rev-parse', updated + '^'), mirror)
+            self.assertEqual(run('rev-list', '--count', updated), '2')
+            self.assertEqual(run('rev-parse', updated + '^{tree}'), run('rev-parse', source + '^{tree}'))
+            self.assertIn('Source-Commit: ' + source, run('show', '-s', '--format=%B', updated))
+            self.assertEqual(run('rev-parse', 'refs/remotes/origin/localization'), source)
+            # An unrelated branch on the remote must never be overwritten.
+            run('push', '--force', 'gitee', source + ':refs/heads/localization')
+            with self.assertRaises(RuntimeError):
+                sync(work, execute=True)
+
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)

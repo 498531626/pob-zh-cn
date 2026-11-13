@@ -4,13 +4,17 @@
 
 | 内容 | GitHub | Gitee |
 | --- | --- | --- |
-| 开发汉化源码 | origin/localization | gitee/localization，保持同一提交 |
+| 开发汉化源码 | origin/localization，完整历史 | gitee/localization，源码树相同，独立精简历史 |
 | 首次下载的完整便携包 | Releases 中的完整 ZIP | Releases 中同一 ZIP 的分卷及合并脚本 |
 | 客户端更新清单 | 可备份，不作为默认更新入口 | release-stable 分支根目录 manifest.xml |
 | 客户端更新文件 | 可备份 | 固定发布标签的 files/ 目录，通过 Raw 下载 |
 
 官方 upstream 继续用于获取官方版本，不向它推送。开发源码不直接成为用户更新源。
-Gitee 仓库尚未创建，因此本轮不配置远程、不推送、不上传附件，也不声称国内下载已验证。
+GitHub 仓库为 https://github.com/498531626/pob-zh-cn，Gitee 为 https://gitee.com/drag-and-kill/pob-zh-cn。
+首次完整历史上传后，Gitee 实测 1052.746 MB，超过此账号的 1024 MB 单仓库配额。
+经用户同意，GitHub 保留完整历史，Gitee 从当前源码快照开始记录后续更新。
+源码树完全相同，但两边提交 ID 不同；镜像提交通过 `Source-Commit` 标记原始源码提交。
+旧的完整历史初始化仓库暂保留在 `pob-zh-cn-full-history-20261113`，不再推送。
 正常构建不提供 Gitee 地址时仍生成关闭更新的便携包；不会写入占位在线地址。
 
 客户端保持非开发者模式。启动时及每隔 12 小时检查汉化清单，后台下载变化的完整文件，
@@ -33,10 +37,9 @@ python E:/POB/PathOfBuilding-Source/tools/packaging/authorize_gitee.py
 在仓库根目录运行，打包前需提交并验证修改。以下 Gitee URL 是示例，须换成实际公开仓库。
 
 ```powershell
-# 配置一次源码远程；origin 已指向 GitHub 汉化仓库。
-git remote add gitee https://gitee.com/用户名/仓库名.git
+# 此项目已配置 origin 和 gitee；不要直接 git push gitee localization，避免重新引入完整历史。
 
-# 先预览；加 --execute 才实际推送。分别报告两边结果，失败不会强推或回退另一边。
+# 先预览；加 --execute 才实际推送。GitHub 推送原始提交，Gitee 推送同树的精简镜像提交。
 python tools/packaging/sync_sources.py
 python tools/packaging/sync_sources.py --execute
 
@@ -51,6 +54,10 @@ python tools/packaging/build_portable.py --output E:/POB/Packages/新目录 --gi
 分卷每个不超过 90 MiB，包括 `.zip.001`、`.002` 等、Join-Portable.cmd 和说明。
 收件人下载全部分卷及脚本到同一目录，运行合并脚本，自动校验得到与 GitHub 字节一致的 ZIP，
 然后解压运行；不需要 Python 或 7-Zip。Git 推送不会同步 Releases 或附件，须两边分别上传。
+
+源码同步工具读取根目录 `gitee-mirror.json`；首次建立无父提交的镜像，后续以远程镜像为父提交正常快进。
+它不修改当前工作区、不合并镜像历史到开发分支，也不强推；遇到非镜像的既有分支会拒绝覆盖。
+更新发布 checkout 应能读取已推送源码的 Git 对象，避免上传大量重复文件；发布提交仍独立于源码历史。
 
 `*-update-site/` 是独立发布文件树，不要复制进开发分支。其结构为：
 
@@ -76,7 +83,7 @@ program/runtime 的 Source 指向 `/raw/<release-id>/files/`，避免一次下�
 5. 候选验证通过后再更新远程 release-stable 分支，使客户端发现该版本。发布前再次确认远程分支
    未被其他发布推进，不强制覆盖并行发布。
 6. 在 GitHub Releases 上传完整 ZIP、校验文件，在 Gitee Releases 上传全部分卷、合并脚本、
-   volumes.json 和说明；两边说明使用同一 release-id 和源码提交。Gitee 中也推送相应的源码标签。
+   volumes.json 和说明；两边说明使用同一 release-id 和原始源码提交。GitHub 源码标签指向原始提交。
 7. 验证稳定清单直链，并从旧正式版副本验证更新到新版本，保留用户数据。
 
 ```powershell
@@ -88,7 +95,8 @@ python tools/localization/check_calc_localization.py
 ```
 
 标签指向发布文件树提交；localization 分支保存开发源码。不要把发布标签误打在开发源码提交上。
-若另需源码标签，可使用 `source-<release-id>`，避免同名标签对应不同提交。
+GitHub 源码标签可使用 `source-<release-id>`；Gitee 若需源码标签，应使用 `mirror-source-<release-id>`
+并指向对应镜像提交，不得将 GitHub 原始提交的标签推到 Gitee，否则会重新带入完整上游历史。
 
 ## 待实际仓库验证的条件
 
@@ -98,7 +106,7 @@ python tools/localization/check_calc_localization.py
   https://help.gitee.com/repository/release/create 。分卷解决单附件上限，不改变总量上限。
   当前约 622 MiB 的整包分卷占同样的总容量，保留多个完整版本需要实际核对或提高配额。
 - Raw 更新文件使用代码仓库存储，仍受代码仓库容量和访问规则约束；它不是无限容量下载服务。
-  本地现有 Git 对象约 1.1 GiB，完整历史能否同步到新 Gitee 仓库须检查账户实际配额。
+  此账号已实测完整历史超过 1 GiB 配额，因此采用精简源码镜像；仍须监控后续增长。
   若不足，应申请更高配额或另设发布仓库，不自动改写已有历史。
 - 当前校验为 HTTPS + 文件哈希；未新增独立数字签名体系，也不承诺更新应用阶段支持自动回滚。
 - 本轮只验证本机 HTTP 模拟站点和独立副本，不控制桌面，不混称真实 Gitee/CDN 或图形窗口验收。
