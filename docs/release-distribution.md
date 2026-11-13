@@ -19,6 +19,17 @@ Gitee 仓库尚未创建，因此本轮不配置远程、不推送、不上传�
 
 ## 本地工具
 
+若本机没有 Gitee 授权，可由用户双击 `tools/packaging/Authorize-Gitee.cmd`，
+或在自己的交互式终端中运行：
+
+```powershell
+python E:/POB/PathOfBuilding-Source/tools/packaging/authorize_gitee.py
+```
+
+脚本隐藏读取私人令牌，验证账号后仅存入 Windows Git Credential Manager。
+令牌需有账号读取和仓库管理权限；不将令牌粘贴到聊天、不放入 Git、不嵌入更新客户端。
+授权脚本本身不创建仓库或推送内容。
+
 在仓库根目录运行，打包前需提交并验证修改。以下 Gitee URL 是示例，须换成实际公开仓库。
 
 ```powershell
