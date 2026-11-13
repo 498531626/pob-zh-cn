@@ -1,0 +1,23 @@
+﻿Path of Building 简体中文便携版 2.67.2
+
+使用方法：
+1. 先把整个 ZIP 解压到有写入权限的文件夹，例如 D:\Games\PoB。
+2. 双击 Path of Building.exe 或 Start-PoB.cmd。
+3. 无需安装 Python、Lua、Git 或开发环境；所需运行库已附带。
+4. 默认简体中文，F8 切换中英文。
+
+请保留完整目录结构，不要只发送 EXE，也不要在压缩包中直接运行。
+本包面向 Windows 10/11 64 位桌面系统；不提供 macOS/手机版本。
+基础构筑计算可离线使用；联网导入、价格查询和远程内容需要网络。
+本包不连接官方更新源。启动时从 GitHub 检查已发布的汉化更新，下载后由你确认应用并重启。
+
+个人数据：
+构筑保存在 Builds，设置保存在 Settings.xml，语言选择保存在
+Localization/language.cfg。请备份这些内容；更新时保留旧包和备份。
+如果从旧开发模式包迁移，请先备份旧包 src/Builds、src/Settings.xml 和
+src/Localization/language.cfg，再分别复制到新包的上述对应位置。
+此初始分发包不包含制作者的个人构筑、账号信息或设置。
+
+关于：
+基于 Path of Building Community，本包为非官方简体中文显示层。
+许可见 LICENSE.md；版本与文件校验信息见 package-info.json。
