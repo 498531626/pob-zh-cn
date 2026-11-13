@@ -12,10 +12,10 @@ python tools/packaging/check_portable.py 完整压缩包路径.zip
 输出包括完整目录、ZIP 和 SHA-256 校验文件。已有输出不会覆盖。
 ZIP 解压后双击根目录的 `Path of Building.exe` 或 `Start-PoB.cmd`。
 采用官方便携版的平铺结构，脚本、运行库和资源都在同一根目录。
-打包时为 manifest 写入 `branch="localization"`、`platform="win32"`，
+打包时为 manifest 写入 `branch="release-stable"`、`platform="win32"`，
 确保以非开发者模式运行。默认不配置在线更新，独立的 `updates="disabled"` 属性关闭更新。
-提供 `--gitee-repository` 时改为 release-stable 渠道，启用自己的汉化更新源；
-详细说明见 [双仓库发布与更新流程](release-distribution.md)。
+提供 `--github-repository` 时改为 release-stable 渠道，启用自己的汉化更新源；
+详细说明见 [GitHub 发布与更新流程](release-distribution.md)。
 启动代码在首次安装、手动/定期检查和应用更新处遵循该开关。
 源码目录自己的 manifest 保持原样，开发启动行为不变。
 个人数据写入包内 `Builds`、`Settings.xml` 和 `Localization/language.cfg`。
@@ -38,7 +38,7 @@ ZIP 解压后双击根目录的 `Path of Building.exe` 或 `Start-PoB.cmd`。
 - 只用解压包内 LuaJIT、Lua 模块和数据，检查无界面启动、默认中文、关闭官方更新、
   包内数据路径、Cyclone 离线计算、8 个页面、中英切换及构筑 XML 写入/重载。
 - 新包额外断言 devMode 为 false、版本文案不含 Dev、无开发者选项、
-  F5 不触发开发重启、无更新按钮，且遗留 first.run 也不会启动官方更新。
+  F5 不触发开发重启、离线包无更新按钮、在线包显示汉化更新入口，且遗留 first.run 也不会启动官方更新。
 - `python tools/localization/test_locale.py` 通过：11472 个上下文翻译、176 个面板标签。
 - 修正版的 `python tools/localization/check_calc_localization.py` 全部通过：
   2249 个计算属性、实际明细 3418 个字符串、15924 次数值对比、4214 个布局用例，

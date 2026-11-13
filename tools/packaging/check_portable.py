@@ -45,7 +45,7 @@ def check_extracted(package):
     assert (version.get('updates') == 'enabled') == info['automatic_updates']
     sources = manifest.findall('Source')
     if info['automatic_updates']:
-        assert all(entry.get('url').startswith('https://gitee.com/') for entry in sources)
+        assert all(entry.get('url').startswith('https://raw.githubusercontent.com/') for entry in sources)
         assert next(entry.get('url') for entry in sources if entry.get('part') == 'default') + 'manifest.xml' == info['update_manifest_url']
     else:
         assert not sources, 'Offline package must not contain upstream update URLs'

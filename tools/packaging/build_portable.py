@@ -8,7 +8,7 @@ import subprocess
 import zipfile
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
-from release_support import gitee_urls, split_archive, write_manifest, write_update_site
+from release_support import github_urls, write_manifest, write_update_site
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -20,10 +20,9 @@ def git(*args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, required=True)
-    parser.add_argument('--gitee-repository', help='Public Gitee HTTPS URL; omit for an offline-only package')
+    parser.add_argument('--github-repository', help='Public GitHub HTTPS URL; omit for an offline-only package')
     parser.add_argument('--channel', default='release-stable')
     parser.add_argument('--release-id', help='Unique immutable release tag; defaults to date and source commit')
-    parser.add_argument('--gitee-volumes', action='store_true', help='Also prepare complete portable ZIP volumes for Gitee')
     args = parser.parse_args()
     if git('status', '--porcelain', '--untracked-files=no').strip():
         raise SystemExit('Commit or isolate tracked changes before packaging.')
@@ -32,8 +31,8 @@ def main():
     upstream = ET.parse(ROOT / 'manifest.xml').getroot().find('Version').get('number')
     release = args.release_id or f'zh-{upstream}-{date}-{revision[:9]}'
     channel_url = payload_url = None
-    if args.gitee_repository:
-        channel_url, payload_url = gitee_urls(args.gitee_repository, args.channel, release)
+    if args.github_repository:
+        channel_url, payload_url = github_urls(args.github_repository, args.channel, release)
     name = f'PoB-ZH-CN-{upstream}-{date}-{revision[:9]}-Windows-Portable'
     output = args.output.resolve()
     folder = output / name
@@ -74,7 +73,7 @@ def main():
 请保留完整目录结构，不要只发送 EXE，也不要在压缩包中直接运行。
 本包面向 Windows 10/11 64 位桌面系统；不提供 macOS/手机版本。
 基础构筑计算可离线使用；联网导入、价格查询和远程内容需要网络。
-本包不连接官方更新源。{'启动时从 Gitee 检查已发布的汉化更新，下载后由你确认应用并重启。' if channel_url else '尚未配置汉化更新源，请使用同来源的新汉化整包更新。'}
+本包不连接官方更新源。{'启动时从 GitHub 检查已发布的汉化更新，下载后由你确认应用并重启。' if channel_url else '尚未配置汉化更新源，请使用同来源的新汉化整包更新。'}
 
 个人数据：
 构筑保存在 Builds，设置保存在 Settings.xml，语言选择保存在
@@ -111,19 +110,16 @@ src/Localization/language.cfg，再分别复制到新包的上述对应位置。
     with archive.open('rb') as handle:
         digest = hashlib.file_digest(handle, 'sha256').hexdigest()
     archive.with_suffix('.zip.sha256').write_text(f'{digest}  {archive.name}\n', encoding='ascii')
-    parts = split_archive(archive, output / (name + '-gitee-assets')) if args.gitee_volumes else []
     plan = {'source_commit': revision, 'source_branch': 'localization', 'release_id': release,
             'github_assets': [archive.name, archive.name + '.sha256'],
-            'gitee_assets_directory': name + '-gitee-assets' if parts else None,
-            'gitee_repository': args.gitee_repository, 'channel': args.channel,
+            'github_repository': args.github_repository, 'channel': args.channel,
             'update_site_directory': name + '-update-site' if channel_url else None,
             'update_manifest_url': info['update_manifest_url'], 'remote_actions_performed': False}
     (output / (name + '-release-plan.json')).write_text(json.dumps(plan, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps({'folder': str(folder), 'archive': str(archive),
                       'size_mib': round(archive.stat().st_size / 1048576, 1),
                       'sha256': digest, 'crc': 'passed', 'release_id': release,
-                      'update_manifest_url': info['update_manifest_url'],
-                      'gitee_volumes': len(parts)}, ensure_ascii=False, indent=2))
+                      'update_manifest_url': info['update_manifest_url']}, ensure_ascii=False, indent=2))
 
 
 if __name__ == '__main__':

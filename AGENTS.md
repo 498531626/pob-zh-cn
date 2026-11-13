@@ -25,9 +25,7 @@
 
 ## 验证与提交记录
 
-- 双仓库与发布流程见 [汉化发布与更新](docs/release-distribution.md)。开发分支为 `localization`，用户更新仅使用 `release-stable` 清单和固定发布标签中的文件；不得将开发分支直接用作更新源。
-- GitHub 保留完整历史；Gitee 因 1 GiB 仓库配额，使用 `gitee-mirror.json` 定义的独立精简历史。通过 `tools/packaging/sync_sources.py --execute` 同步，保证源码树完全一致；不得直接将完整 `localization` 历史推入 Gitee。首次快照及后续镜像提交均记录 `Source-Commit`，后续正常快进，不改写 GitHub 或本地开发历史。
-- GitHub 提供完整便携 ZIP；Gitee 提供同一 ZIP 的分卷，单卷不超过 90 MiB。Gitee 仓库地址未确定或匿名下载未验证时，不将演示更新地址作为可用产物分发。
+- 发布流程见 [GitHub 发布与汉化更新](docs/release-distribution.md)。源码只推送 `origin/localization`，保留完整历史；完整便携 ZIP 仅在 GitHub Releases 发布。更新只用本汉化仓库的 `release-stable` 清单和固定标签中的文件。
 - 验收只使用独立副本、无界面测试和下载检查；用户不希望控制其电脑，不进行桌面/窗口操作。
 
 - 每轮对话产生实际项目改动并通过相应验证后，自动创建本地 Git 提交，记录改动目的和验证结果；无需再次请求本地提交许可。没有项目改动时不创建空提交。
