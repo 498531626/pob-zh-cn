@@ -308056,5 +308056,101 @@
     "zh": "GitHub 项目页：^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding",
     "kind": "ui-detail",
     "status": "source-code-checked"
+  },
+  "Chaos Resist Max": {
+    "zh": "混沌抗性上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Cold Resist Max": {
+    "zh": "冰霜抗性上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Elemental Resist": {
+    "zh": "元素抗性",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Elemental Resist Max": {
+    "zh": "元素抗性上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Fire Resist Max": {
+    "zh": "火焰抗性上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Lightning Resist Max": {
+    "zh": "闪电抗性上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Totem Chaos Resist": {
+    "zh": "图腾混沌抗性",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Totem Chaos Resist Max": {
+    "zh": "图腾混沌抗性上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Totem Cold Resist": {
+    "zh": "图腾冰霜抗性",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Totem Cold Resist Max": {
+    "zh": "图腾冰霜抗性上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Totem Elemental Resist": {
+    "zh": "图腾元素抗性",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Totem Elemental Resist Max": {
+    "zh": "图腾元素抗性上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Totem Fire Resist": {
+    "zh": "图腾火焰抗性",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Totem Fire Resist Max": {
+    "zh": "图腾火焰抗性上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Totem Lightning Resist": {
+    "zh": "图腾闪电抗性",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
+  },
+  "Totem Lightning Resist Max": {
+    "zh": "图腾闪电抗性上限",
+    "kind": "pob-panel",
+    "status": "source-code-checked",
+    "source": "src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua"
   }
 }

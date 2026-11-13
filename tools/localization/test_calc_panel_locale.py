@@ -85,5 +85,48 @@ for _,row in ipairs({
 end
 assert(L:TranslateUI(calcClass:FormatModValue(23,'MORE'))=='23% 总增')
 assert(L:TranslateUI(calcClass:FormatModValue(-20,'MORE'))=='20% 总降')
+-- Breakdown Stat cells are composed from internal IDs at runtime, so the
+-- fixed CalcSections label inventory alone cannot detect missing entries.
+local resistanceCases=0
+for _,element in ipairs({{'Fire','火焰'},{'Cold','冰霜'},{'Lightning','闪电'},{'Chaos','混沌'},{'Elemental','元素'}}) do
+ for _,actor in ipairs({{'',''},{'Totem','图腾'}}) do
+  for _,suffix in ipairs({{'',''},{'Max','上限'}}) do
+   local id=actor[1]..element[1]..'Resist'..suffix[1]
+   local raw=calcClass:FormatModName(id)
+   local zh=actor[2]..element[2]..'抗性'..suffix[2]
+   L.mode='zh';assert(L:TranslateUI(raw)==zh,raw)
+   assert(L:TranslateUI('^x8888FF'..raw)=='^x8888FF'..zh)
+   L.mode='en';assert(L:TranslateUI(raw)==raw)
+   assert(calcClass:FormatModName(id)==raw,'Internal resistance identifier changed')
+   resistanceCases=resistanceCases+1
+  end
+ end
+end
+L.mode='zh'
+assert(L:TranslateUI(calcClass:FormatModName('UnknownResistMax'))=='Unknown Resist Max')
+-- Materialize the screenshot's mixed maximum/base resistance table through
+-- AddModSection, rather than assuming its Stat column uses fixed labels.
+function copyTable(t)
+ local out={};for k,v in pairs(t) do out[k]=v end;return out
+end
+local cold={name='ColdResistMax',type='BASE',value=75,source='Base',flags=0,keywordFlags=0}
+local fire={name='FireResist',type='BASE',value=-60,source='Base',flags=0,keywordFlags=0}
+local function checkRows(showMinion)
+ local player={mainSkill={},modDB={}}
+ local control=setmetatable({sectionList={},calcsTab={input={showMinion=showMinion},build={},
+  calcsEnv={player=player,minion=player}}},{__index=calcClass})
+ control:AddModSection({modName={'ColdResistMax','FireResist'}},{{mod=cold,value=75},{mod=fire,value=-60}})
+ local section=control.sectionList[1]
+ assert(#section.rowList==2)
+ for _,row in ipairs(section.rowList) do
+  local zh=row.mod==cold and '冰霜抗性上限' or '火焰抗性'
+  assert(L:TranslateUI(row.name)==zh,row.name)
+  assert(L:TranslateUI(row.source)=='基础值')
+  assert(row.value==row.mod.value and row.mod.source=='Base')
+ end
+ assert(cold.name=='ColdResistMax' and fire.name=='FireResist')
+end
+checkRows(false);checkRows(true)
+print('Runtime resistance breakdown labels: '..resistanceCases..' cases passed')
 print('Calculation panel text: '..#cases..' cases; colours, English/Chinese, Alt independence and unknown fallback passed')
 ''')

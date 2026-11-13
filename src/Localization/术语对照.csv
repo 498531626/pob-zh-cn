@@ -24424,6 +24424,7 @@ Chaos Orb,混沌石,database-name,paired-local-source,https://poedb.tw/cn/Warsta
 Chaos Recoup,混沌伤害损伤补偿,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Chaos Res. Over Max,超上限混沌抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Chaos Resist,混沌抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Chaos Resist Max,混沌抗性上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Chaos Resistance,混沌抗性,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Chaos Resistance Loss,混沌抗性降低,game-term,paired-link-target,https://poedb.tw/cn/Chaos_Resistance_Loss,https://poedb.tw/us/Chaos_Resistance_Loss
 Chaos Resistance and Avoidance,混沌抗性和免疫,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -24723,6 +24724,7 @@ Cold Recoup,冰霜伤害损伤补偿,pob-panel,source-code-checked,src/Modules/B
 Cold Relic,冰霜遗物,database-name,paired-local-source,https://poedb.tw/cn/Cold_Relic,https://poedb.tw/us/Cold_Relic
 Cold Res. Over Max,超上限冰霜抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Cold Resist,冰霜抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Cold Resist Max,冰霜抗性上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Cold Resistance,冰霜抗性,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Cold Resistance Loss,冰霜抗性降低,game-term,paired-link-target,https://poedb.tw/cn/Cold_Resistance_Loss,https://poedb.tw/us/Cold_Resistance_Loss
 Cold Resistance and Effect of Cold Ailments,冰霜抗性和冰霜异常状态效果,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -26940,6 +26942,8 @@ Elemental Proliferation,元素扩散(辅),gem,paired-name,https://poedb.tw/cn/El
 Elemental Proliferation Support,元素扩散(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Elemental_Proliferation_Support,https://poedb.tw/us/Elemental_Proliferation_Support
 Elemental Reflection,元素反射,game-term,paired-link-target,https://poedb.tw/cn/Elemental_Reflection,https://poedb.tw/us/Elemental_Reflection
 Elemental Reflection Aura,元素反射光环,game-term,paired-link-target,https://poedb.tw/cn/Elemental_Reflection_Aura,https://poedb.tw/us/Elemental_Reflection_Aura
+Elemental Resist,元素抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Elemental Resist Max,元素抗性上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Elemental Resistances,元素抗性,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Elemental Resistances are Zero,元素抗性为零,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Veil_of_the_Night,https://poedb.tw/us/Veil_of_the_Night
 Elemental Resistances are capped by your highest Maximum Elemental Resistance instead,元素抗性被你最高的元素抗性上限封顶,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -28251,6 +28255,7 @@ Fire Recoup,火焰伤害损伤补偿,pob-panel,source-code-checked,src/Modules/B
 Fire Relic,火焰遗物,database-name,paired-local-source,https://poedb.tw/cn/Fire_Relic,https://poedb.tw/us/Fire_Relic
 Fire Res. Over Max,超上限火焰抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Fire Resist,火焰抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Fire Resist Max,火焰抗性上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Fire Resistance,火焰抗性,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Fire Resistance Loss,火焰抗性降低,game-term,paired-link-target,https://poedb.tw/cn/Fire_Resistance_Loss,https://poedb.tw/us/Fire_Resistance_Loss
 Fire Resistance is 70%,火焰抗性 70%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -33416,6 +33421,7 @@ Lightning Relic,闪电遗物,database-name,paired-local-source,https://poedb.tw/
 Lightning Reprisal,闪电复仇,game-term,paired-link-target,https://poedb.tw/cn/Lightning_Reprisal,https://poedb.tw/us/Lightning_Reprisal
 Lightning Res. Over Max,超上限闪电抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Lightning Resist,闪电抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Lightning Resist Max,闪电抗性上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Lightning Resistance,闪电抗性,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Lightning Resistance Loss,闪电抗性降低,game-term,paired-link-target,https://poedb.tw/cn/Lightning_Resistance_Loss,https://poedb.tw/us/Lightning_Resistance_Loss
 Lightning Resistance does not affect Lightning Damage taken,闪电抗性不对受到的闪电伤害生效,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Doryanis_Prototype,https://poedb.tw/us/Doryanis_Prototype
@@ -44524,7 +44530,11 @@ Totem Attack Speed,图腾攻击速度,passive-name,paired-id-english-and-numbers
 Totem Attack and Cast Speed,图腾攻击和施法速度,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Totem Block Chance,图腾格挡率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Totem Chaos Res,图腾混沌抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Totem Chaos Resist,图腾混沌抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Totem Chaos Resist Max,图腾混沌抗性上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Totem Cold Res,图腾冰霜抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Totem Cold Resist,图腾冰霜抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Totem Cold Resist Max,图腾冰霜抗性上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Totem Critical Strike Chance,图腾暴击率,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Totem Critical Strike Chance and Multiplier,图腾暴击率和伤害加成,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Totem Critical Strike Multiplier,图腾暴击伤害加成,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
@@ -44535,13 +44545,19 @@ Totem Damage and Placement Speed,图腾伤害和放置速度,passive-name,paired
 Totem Dur. Mod,图腾持续时间倍率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Totem Duration,图腾持续时间,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Totem ES,图腾能量护盾,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Totem Elemental Resist,图腾元素抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Totem Elemental Resist Max,图腾元素抗性上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Totem Fire Res,图腾火焰抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Totem Fire Resist,图腾火焰抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Totem Fire Resist Max,图腾火焰抗性上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Totem Life,图腾生命,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Totem Life Mod,图腾生命倍率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Totem Life and Damage,图腾生命和伤害,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Totem Life and Elemental Resistances,图腾生命和元素抗性,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Totem Life is increased by their Overcapped Fire Resistance,图腾生命根据其超额火焰抗性提高,craft-reviewed,source-clause-reviewed,Data/Mod*.lua; Data/Bases; tools/localization/craft-extra-reviewed.tsv,
 Totem Light. Res,图腾闪电抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Totem Lightning Resist,图腾闪电抗性,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+Totem Lightning Resist Max,图腾闪电抗性上限,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Totem Mastery,图腾专精,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5
 Totem Place Time,图腾放置时间,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Totem Placement Speed and Duration,图腾放置速度和持续时间,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5

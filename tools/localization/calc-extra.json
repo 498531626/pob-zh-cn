@@ -92,5 +92,21 @@
  "Lesser Impenetrable Shrine":"低阶坚不可摧神殿",
  "Lesser Massive Shrine":"低阶巨大神殿",
  "Lesser Replenishing Shrine":"低阶补充神殿",
- "Lesser Resistance Shrine":"低阶抗性神殿"
+ "Lesser Resistance Shrine":"低阶抗性神殿",
+ "Fire Resist Max":"火焰抗性上限",
+ "Cold Resist Max":"冰霜抗性上限",
+ "Lightning Resist Max":"闪电抗性上限",
+ "Chaos Resist Max":"混沌抗性上限",
+ "Elemental Resist Max":"元素抗性上限",
+ "Elemental Resist":"元素抗性",
+ "Totem Fire Resist":"图腾火焰抗性",
+ "Totem Cold Resist":"图腾冰霜抗性",
+ "Totem Lightning Resist":"图腾闪电抗性",
+ "Totem Chaos Resist":"图腾混沌抗性",
+ "Totem Elemental Resist":"图腾元素抗性",
+ "Totem Fire Resist Max":"图腾火焰抗性上限",
+ "Totem Cold Resist Max":"图腾冰霜抗性上限",
+ "Totem Lightning Resist Max":"图腾闪电抗性上限",
+ "Totem Chaos Resist Max":"图腾混沌抗性上限",
+ "Totem Elemental Resist Max":"图腾元素抗性上限"
 }
