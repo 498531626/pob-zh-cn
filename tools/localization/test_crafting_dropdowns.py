@@ -65,6 +65,12 @@ local function check(mod,path)
   L.mode='zh';local core=L:Translate(stat);local translated=L:Translate(label)
   assert(translated==core..' ('..dictionary[mod.type]..')','Assembly regression: '..path..' '..label)
   assert(numbers(label)==numbers(translated),'Rolls changed: '..label..' => '..translated)
+  for _,colour in ipairs({'^8','^x888888'})do
+   local actual=stat..' '..colour..'('..mod.type..')'
+   local expected=core..' '..colour..'('..dictionary[mod.type]..')'
+   assert(L:Translate(actual)==expected,'Coloured metadata regression: '..actual..' => '..L:Translate(actual))
+   L.mode='en';assert(L:Translate(actual)==actual);L.mode='zh'
+  end
   local named=mod.affix and mod.affix..'   ^8['..stat..']'
   if named then
    assert(L:Translate(named)==L:Translate(mod.affix)..'   ^8['..core..']','Named affix regression: '..named)

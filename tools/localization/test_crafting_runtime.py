@@ -30,6 +30,54 @@ assert(loadstring(source))()
 newBuild()
 build.viewMode='ITEMS'
 local tab=build.itemsTab
+-- Read actual popup lists, including the bench's inline colour marker and
+-- Data.lua's combined type/subtype keys. Check the final BoundedText draw input.
+local L=Localization
+local function verifyDraw(label)
+ L.mode='zh'
+ local expected=L:Translate(label)
+ assert(not expected:gsub('%^x%x%x%x%x%x%x',''):gsub('%^%d',''):find('%a%a+'),'Actual label untranslated: '..label..' => '..expected)
+ local rawDraw=DrawString
+ local drawn
+ DrawString=function(x,y,align,h,font,text)drawn=text end
+ L:BoundedText(5,5,'LEFT',14,'VAR',label,1900)
+ DrawString=rawDraw
+ assert(drawn==expected,'Bounded draw differs: '..label)
+ L.mode='en';assert(L:Translate(label)==label);L.mode='zh'
+end
+tab:CraftItem()
+local craftPopup=assert(main.popups[1])
+local craftControls=craftPopup.controls
+local typeCount=0
+local originalTypes=table.concat(build.data.itemBaseTypeList,'|')
+for i,label in ipairs(craftControls.type.list)do
+ verifyDraw(label)
+ craftControls.type:SetSel(i)
+ assert(craftControls.base.list==build.data.itemBaseLists[label],'Translated type used as data key')
+ typeCount=typeCount+1
+end
+assert(table.concat(build.data.itemBaseTypeList,'|')==originalTypes,'Item type keys changed')
+main:ClosePopup()
+tab:SetDisplayItem(new('Item','Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85'))
+tab:AddCustomModifierToDisplayItem()
+local bench=assert(main.popups[1]).controls
+for i,row in ipairs(bench.source.list)do if row.sourceId=='MASTER'then bench.source:SetSel(i);break end end
+assert(bench.source.list[bench.source.selIndex].sourceId=='MASTER')
+local benchCount=0
+for _,row in ipairs(bench.modSelect.list)do
+ assert(row.label:find(' ^8(',1,true),'Bench fixture lost actual colour marker')
+ verifyDraw(row.label)
+ benchCount=benchCount+1
+end
+assert(benchCount>50,'Missing bench fixtures')
+bench.modSelect.dropped=true
+runCallback('OnFrame');assert(not launch.promptMsg,launch.promptMsg)
+local benchMod=bench.modSelect.list[1].mod
+local benchLine=benchMod[1]
+bench.save:Click()
+assert(tab.displayItem.explicitModLines[1].line==benchLine,'Bench parser received translated text')
+assert(not tab.displayItem:BuildRaw():find('[\128-\255]'),'Bench translation leaked into saved item')
+print('Actual popup lists and bounded draw: '..typeCount..' item types; '..benchCount..' bench rows; subtype lookup and English switching preserved')
 tab:SetDisplayItem(new('Item','Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85'))
 tab:AddCustomModifierToDisplayItem()
 local popup=assert(main.popups[1])

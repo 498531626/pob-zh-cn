@@ -291,6 +291,11 @@ end
 local function dynamicChinese(body)
 	-- Crafting dropdowns append affix metadata to complete numeric stat lines.
 	-- Resolve the stat before the generic parenthesis handler can split its rolls.
+	local colouredStat, affixColour, colouredType = body:match("^(.-) (%^%d)%((Prefix)%)$")
+	if not colouredStat then colouredStat, affixColour, colouredType = body:match("^(.-) (%^%d)%((Suffix)%)$") end
+	if not colouredStat then colouredStat, affixColour, colouredType = body:match("^(.-) (%^x%x%x%x%x%x%x)%((Prefix)%)$") end
+	if not colouredStat then colouredStat, affixColour, colouredType = body:match("^(.-) (%^x%x%x%x%x%x%x)%((Suffix)%)$") end
+	if colouredStat then return L:Translate(colouredStat, nil, "zh") .. " " .. affixColour .. "(" .. dictionary[colouredType] .. ")" end
 	local stat, affixType = body:match("^(.-) %((Prefix)%)$")
 	if not stat then stat, affixType = body:match("^(.-) %((Suffix)%)$") end
 	if stat then return L:Translate(stat, nil, "zh") .. " (" .. dictionary[affixType] .. ")" end

@@ -10,6 +10,11 @@ HERE = Path(__file__).resolve().parent
 def build():
     reviewed = json.loads((HERE / 'crafting-reviewed.json').read_text('utf8'))
     reviewed.update(json.loads((HERE / 'crafting-grafts.json').read_text('utf8')))
+    types = json.loads((HERE / 'crafting-types.json').read_text('utf8'))
+    reviewed.update(types['exact'])
+    for kind, kind_zh in types['defenceTypes'].items():
+        for defence, defence_zh in types['defences'].items():
+            reviewed[kind + ': ' + defence] = kind_zh + '：' + defence_zh
     families = json.loads((HERE / 'crafting-families.json').read_text('utf8'))
     for family in families:
         for term, chinese in family['terms'].items():

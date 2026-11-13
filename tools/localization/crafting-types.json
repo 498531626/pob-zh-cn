@@ -1,0 +1,12 @@
+{
+  "defenceTypes": {"Body Armour":"胸甲", "Boots":"鞋子", "Gloves":"手套", "Helmet":"头盔", "Shield":"盾牌"},
+  "defences": {"Armour":"护甲", "Evasion":"闪避", "Energy Shield":"能量护盾", "Armour/Evasion":"护甲/闪避", "Armour/Energy Shield":"护甲/能量护盾", "Evasion/Energy Shield":"闪避/能量护盾"},
+  "exact": {
+    "Body Armour: Armour/Evasion/Energy Shield":"胸甲：护甲/闪避/能量护盾",
+    "Boots: Ward":"鞋子：结界", "Gloves: Ward":"手套：结界", "Helmet: Ward":"头盔：结界",
+    "Amulet: Talisman":"项链：魔符", "Dagger: Rune Dagger":"匕首：符文匕首",
+    "One Handed Sword: Thrusting":"单手剑：细剑", "Staff: Warstaff":"长杖：战杖",
+    "Flask: Life":"药剂：生命", "Flask: Mana":"药剂：魔力", "Flask: Hybrid":"药剂：复合", "Flask: Utility":"药剂：功能",
+    "Jewel: Abyss":"珠宝：深渊", "Jewel: Cluster":"珠宝：星团", "Jewel: Timeless":"珠宝：永恒", "Jewel: Charm":"珠宝：护符"
+  }
+}
