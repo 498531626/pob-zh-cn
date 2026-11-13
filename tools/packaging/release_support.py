@@ -40,6 +40,9 @@ def write_manifest(folder, upstream, release, channel, channel_url=None, payload
 def write_update_site(folder, destination):
     """Publish the candidate tag before promoting the stable branch."""
     destination.mkdir()
+    # Update hashes describe exact bytes, including Windows CRLF line endings.
+    # Raw downloads must match the portable ZIP rather than Git's text filters.
+    (destination / '.gitattributes').write_bytes(b'* -text\n')
     shutil.copy2(folder / 'manifest.xml', destination / 'manifest.xml')
     shutil.copy2(folder / 'changelog.txt', destination / 'changelog.txt')
     shutil.copytree(folder, destination / 'files')

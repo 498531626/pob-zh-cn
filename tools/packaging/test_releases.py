@@ -181,6 +181,24 @@ class UpdateTests(unittest.TestCase):
 
 
 class ReleaseTests(unittest.TestCase):
+    def test_update_site_preserves_crlf_bytes_in_git(self):
+        with tempfile.TemporaryDirectory(prefix='PoB publish bytes QA ') as directory:
+            root = Path(directory)
+            package = root / 'package'
+            package.mkdir()
+            content = b'#@\r\n-- release text with Windows newlines\r\n'
+            (package / 'Launch.lua').write_bytes(content)
+            (package / 'changelog.txt').write_bytes(b'release\r\n')
+            write_manifest(package, '2.67.2', 'zh-test', 'release-stable')
+            site = root / 'site'
+            write_update_site(package, site)
+            subprocess.run(['git', 'init', str(site)], check=True, stdout=subprocess.DEVNULL)
+            subprocess.run(['git', '-C', str(site), '-c', 'core.autocrlf=true', 'add', '.'], check=True)
+            stored = subprocess.check_output(['git', '-C', str(site), 'show', ':files/Launch.lua'])
+            self.assertEqual(stored, content)
+            node = ET.parse(site / 'manifest.xml').getroot().find("File[@name='Launch.lua']")
+            self.assertEqual(hashlib.sha1(stored).hexdigest(), node.get('sha1'))
+
     def test_real_x86_update_helper_without_opening_a_window(self):
         with tempfile.TemporaryDirectory(prefix='PoB helper QA ') as directory:
             root = Path(directory)

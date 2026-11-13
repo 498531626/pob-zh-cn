@@ -53,9 +53,9 @@ def main():
         run('git', 'symbolic-ref', 'HEAD', 'refs/heads/publish-' + os.environ['GITHUB_RUN_ID'], cwd=publish)
     run('git', 'read-tree', '--empty', cwd=publish)
     shutil.copytree(site, publish, dirs_exist_ok=True)
-    run('git', 'add', '.', cwd=publish)
+    run('git', '-c', 'core.autocrlf=false', 'add', '.', cwd=publish)
     run('git', '-c', 'user.name=PoB Release', '-c', 'user.email=release@users.noreply.github.com',
-        'commit', '-m', 'Publish ' + args.release_id + '; source ' + source, cwd=publish)
+        'commit', '-qm', 'Publish ' + args.release_id + '; source ' + source, cwd=publish)
     candidate = run('git', 'rev-parse', 'HEAD', cwd=publish, capture=True)
     run('git', 'tag', args.release_id, candidate, cwd=publish)
     run('git', 'push', 'origin', 'refs/tags/' + args.release_id, cwd=publish)
