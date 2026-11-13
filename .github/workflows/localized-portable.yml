@@ -1,0 +1,29 @@
+name: Publish Chinese portable release
+run-name: Publish ${{ inputs.release_id }}
+on:
+  workflow_dispatch:
+    inputs:
+      release_id:
+        description: Unique immutable release ID
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: localized-portable-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    env:
+      PYTHONUTF8: '1'
+      GH_TOKEN: ${{ github.token }}
+      RELEASE_ID: ${{ inputs.release_id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build, verify and publish
+        shell: pwsh
+        run: python tools/packaging/publish_github.py --release-id $env:RELEASE_ID

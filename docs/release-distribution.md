@@ -29,6 +29,11 @@ ZIP 包含原始资源，无需用户合并下载分卷。目标系统为 Window
 
 ## 发布顺序
 
+推荐在 GitHub Actions 手动运行 `Publish Chinese portable release`，选择 `localization` 分支并输入唯一 release-id。
+它在 GitHub Windows runner 上构建和无界面验证，上传候选标签、探测匿名下载、上传完整附件，
+再推进稳定更新分支并公开 Release；不会在每次源码推送时自动发布。所需权限由工作流的 `contents: write` 提供。
+本地无需上传约 623 MiB 的整包；也不需要额外保存发布令牌。
+
 1. 验证并提交汉化，推送 `origin/localization`。
 2. 用实际 GitHub 地址构建，验证解压后的正式包。
 3. 在隔离的发布 checkout 中提交 update-site 文件树；首次使用独立 orphan `release-stable` 分支。
