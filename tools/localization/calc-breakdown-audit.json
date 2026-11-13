@@ -9821,7 +9821,7 @@
     {
       "chinese": "+10 基础值",
       "english": "+10 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -9863,7 +9863,7 @@
     {
       "chinese": "+15 基础值",
       "english": "+15 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -9905,13 +9905,13 @@
     {
       "chinese": "+25 基础值",
       "english": "+25 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
       "chinese": "+3 基础值",
       "english": "+3 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -10061,7 +10061,7 @@
     {
       "chinese": "+54 基础值",
       "english": "+54 base",
-      "kind": "materialized Righteous Fire",
+      "kind": "materialized Righteous Fire source tooltip",
       "remaining": []
     },
     {
@@ -10829,7 +10829,7 @@
     {
       "chinese": "25% 总降",
       "english": "25% less",
-      "kind": "materialized Arc",
+      "kind": "materialized Arc source tooltip",
       "remaining": []
     },
     {
@@ -10901,7 +10901,7 @@
     {
       "chinese": "30% 总降",
       "english": "30% less",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -11147,7 +11147,7 @@
     {
       "chinese": "80% 总降",
       "english": "80% less",
-      "kind": "materialized Storm Brand",
+      "kind": "materialized Storm Brand source tooltip",
       "remaining": []
     },
     {
