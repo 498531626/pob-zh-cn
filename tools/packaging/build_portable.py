@@ -6,6 +6,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import zipfile
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -42,22 +43,29 @@ def main():
                 or path.name.lower() in {'settings.xml', 'language.cfg', 'poe_api_response.json'}
                 or 'Builds' in path.parts):
             continue
-        target = folder / path
+        # The official portable layout puts scripts, runtime and assets together.
+        target = folder / (path.relative_to(path.parts[0]) if path.parts[0] in {'src', 'runtime'} else path)
         if relative == 'runtime/Path{space}of{space}Building.exe':
-            target = folder / 'runtime/Path of Building.exe'
+            target = folder / 'Path of Building.exe'
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT / path, target)
         hashes[target.relative_to(folder).as_posix()] = hashlib.sha256(target.read_bytes()).hexdigest()
-    # Keep the proven runtime/ + src/ layout: the runtime resolves ../src/Launch.lua.
-    # The repository manifest enables devMode, which disables official updates
-    # and places all saves inside src/ instead of using the recipient's Documents.
+    # Supply release metadata so Launch.lua does not infer a source checkout.
+    # Disable upstream updates independently of developer mode.
+    manifest = ET.parse(folder / 'manifest.xml')
+    version = manifest.getroot().find('Version')
+    version.set('branch', 'localization')
+    version.set('platform', 'win32')
+    version.set('updates', 'disabled')
+    manifest.write(folder / 'manifest.xml', encoding='utf-8', xml_declaration=True)
+    hashes['manifest.xml'] = hashlib.sha256((folder / 'manifest.xml').read_bytes()).hexdigest()
     (folder / 'Start-PoB.cmd').write_bytes(
-        b'@echo off\r\ncd /d "%~dp0runtime"\r\nstart "" "Path of Building.exe"\r\n')
+        b'@echo off\r\ncd /d "%~dp0"\r\nstart "" "Path of Building.exe"\r\n')
     (folder / '使用说明.txt').write_text('''Path of Building 简体中文便携版 2.67.2
 
 使用方法：
 1. 先把整个 ZIP 解压到有写入权限的文件夹，例如 D:\\Games\\PoB。
-2. 双击 Start-PoB.cmd；也可直接进入 runtime 双击 Path of Building.exe。
+2. 双击 Path of Building.exe 或 Start-PoB.cmd。
 3. 无需安装 Python、Lua、Git 或开发环境；所需运行库已附带。
 4. 默认简体中文，F8 切换中英文。
 
@@ -67,8 +75,10 @@ def main():
 本汉化包关闭官方自动更新。后续更新请使用同来源的新汉化整包。
 
 个人数据：
-构筑保存在 src/Builds，设置保存在 src/Settings.xml，语言选择保存在
-src/Localization/language.cfg。请备份这些内容；更新时保留旧包和备份。
+构筑保存在 Builds，设置保存在 Settings.xml，语言选择保存在
+Localization/language.cfg。请备份这些内容；更新时保留旧包和备份。
+如果从旧开发模式包迁移，请先备份旧包 src/Builds、src/Settings.xml 和
+src/Localization/language.cfg，再分别复制到新包的上述对应位置。
 此初始分发包不包含制作者的个人构筑、账号信息或设置。
 
 关于：
@@ -78,6 +88,7 @@ src/Localization/language.cfg。请备份这些内容；更新时保留旧包和
     info = {'name': name, 'upstream_version': '2.67.2', 'source_commit': revision,
             'created_utc': datetime.now(timezone.utc).isoformat(),
             'entry_point': 'Start-PoB.cmd', 'automatic_updates': False,
+            'developer_mode': False,
             'personal_data_included': False, 'sha256': hashes}
     (folder / 'package-info.json').write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding='utf-8')
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as bundle:

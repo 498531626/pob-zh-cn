@@ -38,8 +38,9 @@ def check_extracted(package):
     for path in package.rglob('*'):
         assert path.name.lower() not in {'settings.xml', 'language.cfg', 'poe_api_response.json', '.git', 'first.run', 'installed.cfg'}
         assert 'Builds' not in path.parts
-    assert (package / 'runtime/Path of Building.exe').read_bytes()[:2] == b'MZ'
-    runtime = package / 'runtime'
+    assert info['developer_mode'] is False
+    assert (package / 'Path of Building.exe').read_bytes()[:2] == b'MZ'
+    runtime = package
     # Only the extracted runtime and Windows' system directories may resolve DLLs.
     os.environ['PATH'] = str(runtime) + os.pathsep + os.path.join(os.environ['SystemRoot'], 'System32')
     with os.add_dll_directory(str(runtime)):
@@ -54,7 +55,7 @@ def check_extracted(package):
         lua.lua_tolstring.restype = ctypes.c_char_p
         lua.lua_close.argtypes = [ctypes.c_void_p]
         state = lua.luaL_newstate()
-        source = package / 'src'
+        source = package
         quote = lambda path: json.dumps(path.as_posix(), ensure_ascii=False)
         os.chdir(source)
         code = ('package.path=' + quote(runtime / 'lua/?.lua') + '..";"..'
@@ -62,16 +63,30 @@ def check_extracted(package):
                 + 'package.cpath=' + quote(runtime / '?.dll') + '..";"..package.cpath\n'
                 + 'AUDIT_SOURCE=' + quote(source) + '\nAUDIT_RUNTIME=' + quote(runtime) + '\n' + r'''
 arg={}
+-- Even a stale installation marker must not trigger the official updater.
+local marker=assert(io.open('first.run','w'));marker:close()
 local f=assert(io.open('HeadlessWrapper.lua','r'));local source=f:read('*a');f:close()
 source=source:gsub('^#@',''):gsub('dofile%("Launch.lua"%)',function() return [[
 function GetScriptPath() return AUDIT_SOURCE end
 function GetRuntimePath() return AUDIT_RUNTIME end
 function GetUserPath() error('Portable build accessed external user data') end
 io.read=function() error('Unexpected startup prompt') end
+LaunchSubScript=function() error('Portable build launched a background script') end
 dofile('Launch.lua')
 ]] end)
 assert(loadstring(source))()
-assert(launch.devMode and not launch.updateCheckRunning, 'Official updates enabled')
+assert(not launch.devMode, 'Release package entered developer mode')
+assert(launch.versionBranch=='localization' and launch.versionPlatform=='win32')
+assert(launch.updatesDisabled and not launch.updateCheckRunning, 'Official updates enabled')
+assert(not io.open('first.run','r'), 'Installation marker not consumed')
+assert(not main.controls.checkUpdate.shown(), 'Official update button is visible')
+assert(not main.controls.applyUpdate.shown(), 'Apply update button is visible')
+assert(not main.controls.versionLabel.label():lower():find('dev',1,true))
+assert(not main.controls.devMode.shown(), 'Developer label is visible')
+for _,key in ipairs({'F5','F6','PAUSE'}) do launch:OnKeyDown(key) end
+assert(not launch.doRestart, 'Developer restart shortcut is active')
+launch:CheckForUpdate(true);launch:CheckForUpdate(false);launch:ApplyUpdate('normal')
+assert(not launch.updateCheckRunning and not launch.doRestart)
 assert(not launch.promptMsg,launch.promptMsg)
 assert(main.userPath==AUDIT_SOURCE..'/', 'Nonportable save path')
 assert(Localization.mode=='zh','Default language must be Chinese')
@@ -99,7 +114,13 @@ for k,v in pairs(baseline) do
  assert(build.calcsTab.calcsOutput[k]==v or v~=v,'XML roundtrip changed: '..k)
 end
 local output=assert(io.open(AUDIT_SOURCE..'/portable-smoke.xml','w'));output:write(saved);output:close()
-print('Headless startup, Chinese default, offline calculation, 8 pages, language switching, XML save/reload passed')
+main:OpenOptionsPopup()
+assert(not main.popups[1].controls.disableDevAutoSave, 'Developer option is visible')
+main:ClosePopup()
+for _,file in ipairs({'help.txt','changelog.txt'}) do
+ local handle=assert(io.open(file,'r'));assert(#handle:read('*a')>0);handle:close()
+end
+print('Release mode, disabled developer shortcuts/options and official updates, headless startup, Chinese default, offline calculation, 8 pages, language switching, XML save/reload passed')
 ''')
         try:
             lua.luaL_openlibs(state)

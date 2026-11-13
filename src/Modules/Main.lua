@@ -219,13 +219,13 @@ function main:Init()
 		self:OpenUpdatePopup()
 	end)
 	self.controls.applyUpdate.shown = function()
-		return launch.updateAvailable and launch.updateAvailable ~= "none"
+		return not launch.updatesDisabled and launch.updateAvailable and launch.updateAvailable ~= "none"
 	end
 	self.controls.checkUpdate = new("ButtonControl", {"BOTTOMLEFT",self.anchorMain,"BOTTOMLEFT"}, {0, -24, 140, 20}, "", function()
 		launch:CheckForUpdate()
 	end)
 	self.controls.checkUpdate.shown = function()
-		return not launch.devMode and (not launch.updateAvailable or launch.updateAvailable == "none")
+		return not launch.devMode and not launch.updatesDisabled and (not launch.updateAvailable or launch.updateAvailable == "none")
 	end
 	self.controls.checkUpdate.label = function()
 		return launch.updateCheckRunning and launch.updateProgress or "Check for Update"

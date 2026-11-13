@@ -19,6 +19,7 @@ collectgarbage("setpause", 400)
 
 function launch:OnInit()
 	self.devMode = false
+	self.updatesDisabled = false
 	self.installedMode = false
 	self.versionNumber = "?"
 	self.versionBranch = "?"
@@ -26,22 +27,6 @@ function launch:OnInit()
 	self.lastUpdateCheck = GetTime()
 	self.subScripts = { }
 	self.startTime = startTime
-	local firstRunFile = io.open("first.run", "r")
-	if firstRunFile then
-		firstRunFile:close()
-		os.remove("first.run")
-		-- This is a fresh installation
-		-- Perform an immediate update to download the latest version
-		ConClear()
-		ConPrintf("Please wait while we complete installation...\n")
-		local updateMode, errMsg = LoadModule("UpdateCheck")
-		if not updateMode then
-			self.updateErrMsg = errMsg
-		elseif updateMode ~= "none" then
-			self:ApplyUpdate(updateMode)
-			return
-		end
-	end
 	local xml = require("xml")
 	local localManXML = xml.LoadXMLFile("manifest.xml") or xml.LoadXMLFile("../manifest.xml")
 	if localManXML and localManXML[1].elem == "PoBVersion" then
@@ -51,6 +36,7 @@ function launch:OnInit()
 					self.versionNumber = node.attrib.number
 					self.versionBranch = node.attrib.branch
 					self.versionPlatform = node.attrib.platform
+					self.updatesDisabled = node.attrib.updates == "disabled"
 				end
 			end
 		end
@@ -59,6 +45,24 @@ function launch:OnInit()
 		-- Looks like a remote manifest, so we're probably running from a repository
 		-- Enable dev mode to disable updates and set user path to be the script path
 		self.devMode = true
+	end
+	local firstRunFile = io.open("first.run", "r")
+	if firstRunFile then
+		firstRunFile:close()
+		os.remove("first.run")
+		if not self.updatesDisabled then
+			-- This is a fresh installation
+			-- Perform an immediate update to download the latest version
+			ConClear()
+			ConPrintf("Please wait while we complete installation...\n")
+			local updateMode, errMsg = LoadModule("UpdateCheck")
+			if not updateMode then
+				self.updateErrMsg = errMsg
+			elseif updateMode ~= "none" then
+				self:ApplyUpdate(updateMode)
+				return
+			end
+		end
 	end
 	local installedFile = io.open("installed.cfg", "r")
 	if installedFile then
@@ -323,6 +327,7 @@ function launch:DownloadPage(url, callback, params)
 end
 
 function launch:ApplyUpdate(mode)
+	if self.updatesDisabled then return end
 	if mode == "basic" then
 		-- Need to revert to the basic environment to fully apply the update
 		LoadModule("UpdateApply", "Update/opFile.txt")
@@ -337,7 +342,7 @@ function launch:ApplyUpdate(mode)
 end
 
 function launch:CheckForUpdate(inBackground)
-	if self.updateCheckRunning then
+	if self.updatesDisabled or self.updateCheckRunning then
 		return
 	end
 	self.updateCheckBackground = inBackground
