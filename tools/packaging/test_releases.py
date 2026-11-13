@@ -13,7 +13,7 @@ import threading
 import unittest
 import xml.etree.ElementTree as ET
 
-from release_support import gitee_urls, split_archive, write_manifest, write_update_site
+from release_support import RAW_CHUNK_BYTES, gitee_urls, split_archive, write_manifest, write_update_site
 from sync_sources import sync
 from probe_update_site import probe
 
@@ -162,6 +162,46 @@ class UpdateTests(unittest.TestCase):
     def test_anonymous_site_probe(self):
         self.publish()
         probe(self.url + 'published/manifest.xml', all_files=True)
+
+    def test_large_file_chunks_reassemble_and_preserve_full_hash(self):
+        content = os.urandom(RAW_CHUNK_BYTES + 123)
+        name = 'nested/字库.bin'
+        (self.new / name).write_bytes(content)
+        self.publish()
+        payload = self.site / 'published/files' / name
+        self.assertFalse(payload.exists())
+        self.assertEqual(payload.with_name(payload.name + '.part001').stat().st_size, RAW_CHUNK_BYTES)
+        probe(self.url + 'published/manifest.xml', all_files=True)
+        self.update()
+        self.assertEqual((self.old / name).read_bytes(), content)
+        node = ET.parse(self.old / 'manifest.xml').getroot().find("File[@name='" + name + "']")
+        self.assertEqual(node.get('chunks'), '2')
+        self.assertFalse(list((self.old / 'Update').glob('*.chunk')))
+        self.update(mode='none', apply=False)
+
+    def test_corrupt_or_missing_chunk_never_generates_apply_operations(self):
+        (self.new / 'nested/large.bin').write_bytes(os.urandom(RAW_CHUNK_BYTES + 123))
+        self.publish()
+        last = self.site / 'published/files/nested/large.bin.part002'
+        for missing in (False, True):
+            if missing:
+                last.unlink()
+            else:
+                last.write_bytes(b'corrupted final chunk')
+            self.update(mode='error')
+            self.assertFalse((self.old / 'Update/opFile.txt').exists())
+            self.assertFalse((self.old / 'nested/large.bin').exists())
+
+    def test_invalid_chunk_count_is_rejected(self):
+        self.publish()
+        manifest = self.site / 'published/manifest.xml'
+        baseline = manifest.read_bytes()
+        for chunks in ('0', '-1', '1.5', 'no', '1025'):
+            root = ET.fromstring(baseline)
+            root.find('File').set('chunks', chunks)
+            ET.ElementTree(root).write(manifest, encoding='utf-8')
+            self.update(mode='error')
+            self.assertFalse((self.old / 'Update/opFile.txt').exists())
 
     def test_reject_personal_and_traversal_entries(self):
         self.publish()

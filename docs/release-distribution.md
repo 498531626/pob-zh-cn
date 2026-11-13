@@ -70,6 +70,10 @@ files/             平铺的便携版文件，与 ZIP 中一致
 清单列出本次实际打包文件的 SHA-1，不复用官方旧清单；package-info.json 另记 SHA-256 和源码提交。
 `Source default` 指向 Gitee `/raw/release-stable/`，用于后续检查清单；
 program/runtime 的 Source 指向 `/raw/<release-id>/files/`，避免一次下载混入多个版本。
+实测 Gitee 对大 Raw 文件返回 403 并要求登录（约 19 MB 的中文字库已触发）。
+更新站点将超过 4 MiB 的文件拆成 `.part001` 等小块；清单中的 `chunks` 记录块数，
+客户端下载并重组后验证完整文件 SHA-1，全部成功后才生成应用更新操作。
+便携 ZIP 内保留原文件，不需要用户手动合并这些更新小块；完整 ZIP 的下载分卷是独立机制。
 汉化发布标签独立于上游版本号，同一个 PoB 版本可发布多次汉化修复。标签发布后不可移动。
 
 ## 发布顺序

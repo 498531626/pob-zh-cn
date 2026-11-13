@@ -97,6 +97,28 @@ local function downloadFile(source, file, outName)
 	return true
 end
 
+local function downloadChunkedFile(source, data, outName)
+	local output, openError = io.open(outName, "wb")
+	if not output then return nil, openError end
+	local temporary = outName..".chunk"
+	for index = 1, data.chunks do
+		local ok, reason = downloadFile(source, data.name..string.format(".part%03d", index), temporary)
+		if not ok then
+			output:close()
+			os.remove(temporary)
+			os.remove(outName)
+			return nil, reason
+		end
+		local chunk = io.open(temporary, "rb")
+		if not chunk then output:close(); os.remove(outName); return nil, "Missing update chunk" end
+		output:write(chunk:read("*a"))
+		chunk:close()
+		os.remove(temporary)
+	end
+	output:close()
+	return true
+end
+
 ConPrintf("Checking for update...")
 
 -- Use built-in helpers to obtain absolute paths without spawning a shell.
@@ -177,13 +199,15 @@ if remoteManXML and remoteManXML[1] and remoteManXML[1].elem == "PoBVersion" the
 				if not node.attrib.platform or node.attrib.platform == localPlatform then
 					if not policy.ValidName(node.attrib.name) or not node.attrib.sha1 or not node.attrib.sha1:match("^%x+$") or #node.attrib.sha1 ~= 40 then return nil, "Unsafe or invalid remote file entry" end
 					if remoteFiles[node.attrib.name] then return nil, "Duplicate remote file entry" end
+					local chunks = node.attrib.chunks and tonumber(node.attrib.chunks)
+					if node.attrib.chunks and (not node.attrib.chunks:match("^%d+$") or not chunks or chunks < 1 or chunks > 1024) then return nil, "Invalid update chunk count" end
 					local fullPath
 					if node.attrib.part == "runtime" then
 						fullPath = runtimePath .. "/" .. node.attrib.name
 					else
 						fullPath = scriptPath .. "/" .. node.attrib.name
 					end
-					remoteFiles[node.attrib.name] = { sha1 = node.attrib.sha1, part = node.attrib.part, platform = node.attrib.platform, fullPath = fullPath }
+					remoteFiles[node.attrib.name] = { sha1 = node.attrib.sha1, part = node.attrib.part, platform = node.attrib.platform, fullPath = fullPath, chunks = chunks }
 				end
 			end
 		end
@@ -288,7 +312,11 @@ for index, data in ipairs(updateFiles) do
 		end
 		if not skipDownload then
 			ConPrintf("Downloading %s... (%d of %d)", data.name, index, #updateFiles)
-			downloadFile(source, data.name, fileName)
+			if data.chunks then
+				downloadChunkedFile(source, data, fileName)
+			else
+				downloadFile(source, data.name, fileName)
+			end
 		end
 	end
 	local file = io.open(fileName, "rb")
@@ -323,7 +351,7 @@ for part, platforms in pairs(remoteSources) do
 	end
 end
 for name, data in pairs(remoteFiles) do
-	table.insert(localManXML, { elem = "File", attrib = { name = data.name, sha1 = data.sha1, part = data.part, platform = data.platform } })
+	table.insert(localManXML, { elem = "File", attrib = { name = data.name, sha1 = data.sha1, part = data.part, platform = data.platform, chunks = data.chunks and tostring(data.chunks) } })
 end 
 xml.SaveXMLFile(localManXML, scriptPath.."/Update/manifest.xml")
 

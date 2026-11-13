@@ -7,6 +7,8 @@ import shutil
 from urllib.parse import urlsplit
 import xml.etree.ElementTree as ET
 
+RAW_CHUNK_BYTES = 4 * 1024 * 1024
+
 
 def gitee_urls(repository, channel, release):
     parsed = urlsplit(repository)
@@ -32,8 +34,10 @@ def write_manifest(folder, upstream, release, channel, channel_url=None, payload
             continue
         relative = path.relative_to(folder).as_posix()
         part = 'runtime' if path.suffix.lower() in {'.exe', '.dll'} else 'program'
-        ET.SubElement(root, 'File', name=relative, part=part,
-                      sha1=hashlib.sha1(path.read_bytes()).hexdigest())
+        node = ET.SubElement(root, 'File', name=relative, part=part,
+                             sha1=hashlib.sha1(path.read_bytes()).hexdigest())
+        if channel_url and path.stat().st_size > RAW_CHUNK_BYTES:
+            node.set('chunks', str((path.stat().st_size + RAW_CHUNK_BYTES - 1) // RAW_CHUNK_BYTES))
     ET.indent(root, '\t')
     ET.ElementTree(root).write(folder / 'manifest.xml', encoding='utf-8', xml_declaration=True)
 
@@ -44,6 +48,17 @@ def write_update_site(folder, destination):
     shutil.copy2(folder / 'manifest.xml', destination / 'manifest.xml')
     shutil.copy2(folder / 'changelog.txt', destination / 'changelog.txt')
     shutil.copytree(folder, destination / 'files')
+    for node in ET.parse(folder / 'manifest.xml').getroot().findall('File'):
+        if not node.get('chunks'):
+            continue
+        path = destination / 'files' / node.get('name')
+        with path.open('rb') as source:
+            for index in range(1, int(node.get('chunks')) + 1):
+                chunk = path.with_name(path.name + f'.part{index:03d}')
+                if chunk.exists():
+                    raise ValueError('Update chunk path collides with a packaged file: ' + str(chunk))
+                chunk.write_bytes(source.read(RAW_CHUNK_BYTES))
+        path.unlink()
 
 
 def split_archive(archive, destination, volume_bytes=90 * 1024 * 1024):

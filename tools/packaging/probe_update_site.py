@@ -33,8 +33,12 @@ def probe(manifest_url, all_files=False):
         raise ValueError('No representative payloads in the manifest')
     for node in selected:
         name = node.get('name')
-        data = fetch(sources[node.get('part')] + quote(name, safe='/'))
-        if hashlib.sha1(data).hexdigest() != node.get('sha1'):
+        digest = hashlib.sha1()
+        names = ([name + f'.part{i:03d}' for i in range(1, int(node.get('chunks')) + 1)]
+                 if node.get('chunks') else [name])
+        for payload in names:
+            digest.update(fetch(sources[node.get('part')] + quote(payload, safe='/')))
+        if digest.hexdigest() != node.get('sha1'):
             raise ValueError('Downloaded file hash mismatch: ' + name)
     print(f'Anonymous downloads passed: release={version.get("release")}, files={len(selected)}/{len(files)}')
 
