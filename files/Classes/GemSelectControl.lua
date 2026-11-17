@@ -11,15 +11,24 @@ local m_min = math.min
 local m_max = math.max
 local m_floor = math.floor
 
-local gemTooltip = LoadModule("Classes/GemTooltip")
+local gemTooltip = require("Classes.GemTooltip")
 local toolTipText = "Prefix tag searches with a colon and exclude tags with a dash. e.g. :fire:lightning:-cold:area"
 local imbuedTooltipText = "\"Socketed in\" item must be set in order to add an imbued support.\nOnly one imbued support is allowed per item."
 
-local GemSelectClass = newClass("GemSelectControl", "EditControl", function(self, anchor, rect, skillsTab, index, changeFunc, forceTooltip, imbued)
-	self.EditControl(anchor, rect, nil, nil, "^ %a':-")
-	-- Localize the selected name only while this field is not being edited.
+---@class GemSelectControl: EditControl
+local GemSelectClass = newClass("GemSelectControl", "EditControl")
+
+---@param anchor Anchor?
+---@param rect Rect?
+---@param skillsTab SkillsTab
+---@param index integer
+---@param changeFunc fun(...)
+---@param forceTooltip boolean
+---@param imbued boolean
+function GemSelectClass:GemSelectControl(anchor, rect, skillsTab, index, changeFunc, forceTooltip, imbued)
+	self:EditControl(anchor, rect, nil, nil, "^ %a':-")
 	self.translateInactive = true
-	self.controls.scrollBar = new("ScrollBarControl", { "TOPRIGHT", self, "TOPRIGHT" }, {-1, 0, 18, 0}, (self.height - 4) * 4)
+	self.controls.scrollBar = new("ScrollBarControl"):ScrollBarControl({ "TOPRIGHT", self, "TOPRIGHT" }, {-1, 0, 18, 0}, (self.height - 4) * 4)
 	self.controls.scrollBar.y = function()
 		local width, height = self:GetSize()
 		return height + 1
@@ -56,7 +65,8 @@ local GemSelectClass = newClass("GemSelectControl", "EditControl", function(self
 	}
 	self.imbuedSelect = imbued
 	self.dpsBuildFlag = false
-end)
+	return self
+end
 
 function GemSelectClass:CalcOutputWithThisGem(calcFunc, gemData, useFullDPS)
 	local gemList = self.skillsTab.displayGroup.gemList

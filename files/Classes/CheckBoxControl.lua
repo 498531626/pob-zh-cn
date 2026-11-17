@@ -3,15 +3,20 @@
 -- Class: Check Box Control
 -- Basic check box control.
 --
-local CheckBoxClass = newClass("CheckBoxControl", "Control", "TooltipHost", function(self, anchor, rect, label, changeFunc, tooltipText, initialState)
+---@class CheckBoxControl: Control, TooltipHost
+local CheckBoxClass = newClass("CheckBoxControl", "Control", "TooltipHost")
+
+function CheckBoxClass:CheckBoxControl(anchor, rect, label, changeFunc, tooltipText, initialState)
 	rect[4] = rect[3] or 0
-	self.Control(anchor, rect)
-	self.TooltipHost(tooltipText)
+	self:Control(anchor, rect)
+	self:TooltipHost(tooltipText)
 	self.label = label
 	self.labelWidth = DrawStringWidth(self.width - 4, "VAR", label or "") + 5
+	self.labelRight = false
 	self.changeFunc = changeFunc
 	self.state = initialState
-end)
+	return self
+end
 
 function CheckBoxClass:IsMouseOver()
 	if not self:IsShown() then
@@ -21,12 +26,14 @@ function CheckBoxClass:IsMouseOver()
 	local width, height = self:GetSize()
 	local cursorX, cursorY = GetCursorPos()
 
-	-- move x left by label width, increase width by label width
+	-- Include the label in the clickable area.
 	local label = self:GetProperty("label")
 	if label then
 		self.labelWidth = DrawStringWidth(self.width - 4, "VAR", label) + 5
 		if Localization and Localization:EffectiveMode() ~= "en" then self.labelWidth = math.min(self.labelWidth, Localization:LeftLabelWidth(self, x - 5) + 5) end
-		x = x - self.labelWidth
+		if not self.labelRight then
+			x = x - self.labelWidth
+		end
 		width = width + self.labelWidth
 	end
 	return cursorX >= x and cursorY >= y and cursorX < x + width and cursorY < y + height
@@ -74,7 +81,9 @@ function CheckBoxClass:Draw(viewPort, noTooltip)
 		SetDrawColor(0.33, 0.33, 0.33)
 	end
 	local label = self:GetProperty("label")
-	if label then
+	if label and self.labelRight then
+		DrawString(x + self.width + 5, y + 2, nil, size - 4, "VAR", label)
+	elseif label then
 		if Localization then
 			Localization:BoundedText(x - 5, y + 2, "RIGHT_X", size - 4, "VAR", label, Localization:LeftLabelWidth(self, x - 5))
 		else

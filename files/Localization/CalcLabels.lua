@@ -375,6 +375,7 @@ return {
 	"More Mana Regeneration Rate",
 	"More Rage Regeneration Rate",
 	"More Recovery",
+	"More Recovery Rate",
 	"More Warcry Speed",
 	"Movement Speed",
 	"Net Avg.",

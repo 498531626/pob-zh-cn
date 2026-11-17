@@ -12,6 +12,7 @@ SetWindowTitle(APP_NAME)
 ConExecute("set vid_mode 8")
 ConExecute("set vid_resizable 3")
 
+---@diagnostic disable-next-line: lowercase-global
 launch = { }
 SetMainObject(launch)
 jit.opt.start('maxtrace=4000','maxmcode=8192')
@@ -325,17 +326,16 @@ function launch:DownloadPage(url, callback, params)
 		}
 	end
 end
-
 function launch:ApplyUpdate(mode)
 	if self.updatesDisabled then return end
 	if mode == "basic" then
 		-- Need to revert to the basic environment to fully apply the update
-		LoadModule("UpdateApply", "Update/opFile.txt")
+		LoadModule("UpdateApply")("Update/opFile.txt")
 		SpawnProcess(GetRuntimePath()..'/Update', 'UpdateApply.lua Update/opFileRuntime.txt')
 		Exit()
 	elseif mode == "normal" then
 		-- Update can be applied while normal environment is running
-		LoadModule("UpdateApply", "Update/opFile.txt")
+		LoadModule("UpdateApply")("Update/opFile.txt")
 		Restart()
 		self.doRestart = "Updating..."
 	end

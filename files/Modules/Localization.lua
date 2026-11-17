@@ -1058,7 +1058,7 @@ function L:DrawOverflowHint(viewPort)
 	local hint = self.overflowHint
 	self.overflowHint = nil
 	if not hint or not main or not new then return end
-	self.overflowTooltip = self.overflowTooltip or new("Tooltip")
+	self.overflowTooltip = self.overflowTooltip or new("Tooltip"):Tooltip()
 	local tooltip = self.overflowTooltip
 	if tooltip:CheckForUpdate(hint.text, viewPort.width) then
 		tooltip.maxWidth = math.min(600, viewPort.width - 16)
