@@ -36,7 +36,7 @@
 | 覆盖报告 | `tools/localization/passive-coverage.json` |
 | Lua 专项验证 | `tools/localization/test_locale.py` |
 
-目前参考版本 3.29 及 PoB 版本字段仍有硬编码。接入新版时必须复核，不能只重跑生成脚本。
+目前参考版本 3.30 及 PoB 版本字段仍有硬编码。接入新版时必须复核，不能只重跑生成脚本。
 
 ## 以后如何发起
 

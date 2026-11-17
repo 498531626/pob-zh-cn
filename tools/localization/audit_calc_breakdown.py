@@ -78,7 +78,7 @@ local function scan(t,kind,visited)
  for key,value in pairs(t)do
   if type(value)=='table' and key~='mod' then scan(value,kind,visited)
   elseif key=='sourceTooltip' and type(value)=='function' then
-   L.mode='en';local tip=new('Tooltip');value(tip);L.mode='zh'
+   L.mode='en';local tip=new('Tooltip'):Tooltip();value(tip);L.mode='zh'
    for _,line in ipairs(tip.lines)do record(line.text,kind..' source tooltip')end
   elseif type(value)=='string' and (type(key)=='number' or key=='label' or key=='footer'
    or key=='name' or key=='source' or key=='sourceName' or key=='flags' or key=='tags' or key=='displayValue')then
@@ -147,7 +147,7 @@ local originalActor=control.calcsTab.calcsEnv.player
 local originalMinion=control.calcsTab.input.showMinion
 control.calcsTab.input.showMinion=false
 for _,id in ipairs(sorted)do
- local db=new('ModDB')
+ local db=new('ModDB'):ModDB()
  db:AddMod(modLib.createMod(id,'BASE',1,'Base'))
  control.calcsTab.calcsEnv.player={mainSkill={},modDB=db}
  control.sectionList={}

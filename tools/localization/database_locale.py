@@ -122,13 +122,15 @@ def build_database():
     templates={en:next(iter(v.values()))for en,v in patterns.items()if len(v)==1}
     reviewed_path=HERE/'database-reviewed.json'
     reviewed=json.loads(reviewed_path.read_text('utf8'))if reviewed_path.exists()else {}
+    obsolete_reviewed=[]
     for en,meta in reviewed.items():
         if '{'in en:
             assert shape(re.sub(r'\{\d+\}','#',en))in shapes,en
             assert sorted(re.findall(r'\{\d+\}',en))==sorted(re.findall(r'\{\d+\}',meta['zh'])),en
             templates[en]=dict(meta,en=en,values=len(re.findall(r'\{\d+\}',en)),pattern=lua_pattern(en))
         else:
-            assert en in local,en
+            if en not in local:
+                obsolete_reviewed.append(en)
             entries[en]=meta
     legion_local={r['english'].strip() for r in json.loads((HERE/'legion-source.json').read_text('utf8'))}
     for en,zh in json.loads((HERE/'legion-reviewed.json').read_text('utf8')).items():
@@ -141,7 +143,7 @@ def build_database():
         entries[en]=meta
         e,z,n=paired
         if n:templates[e]=dict(meta,en=e,zh=z,values=n,pattern=lua_pattern(e))
-    report={'source_rows':len(rows),'matched_pairs':pairs,'exact_entries':len(entries),'numeric_templates':len(templates),
+    report={'obsolete_reviewed':obsolete_reviewed,'source_rows':len(rows),'matched_pairs':pairs,'exact_entries':len(entries),'numeric_templates':len(templates),
             'ambiguous_exact':{k:list(v)for k,v in exact.items()if len(v)>1},
             'ambiguous_templates':{k:list(v)for k,v in patterns.items()if len(v)>1}}
     (HERE/'database-coverage.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n','utf8')

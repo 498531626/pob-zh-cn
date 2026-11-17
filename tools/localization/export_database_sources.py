@@ -59,7 +59,8 @@ cluster(load('ClusterJewels'))
 for _,node in pairs(load('TattooPassives').nodes)do
  add(node.dn,'tattoo-name','Data/TattooPassives.lua');lines(node.sd,'tattoo-stat','Data/TattooPassives.lua')
 end
-local bosses,list=load('BossSkills')
+local presets=load('BossSkills')
+local bosses,list=presets.bossSkills,presets.bossSkillsList
 for _,b in pairs(bosses)do add(b.tooltip,'boss-skill-tooltip','Data/BossSkills.lua')end
 for _,b in ipairs(list)do add(b.label,'boss-skill-name','Data/BossSkills.lua')end
 table.sort(rows,function(a,b)return a.kind==b.kind and a.english<b.english or a.kind<b.kind end)

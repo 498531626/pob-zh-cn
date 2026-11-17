@@ -38,11 +38,11 @@ local fixtures={
  {'Endless','Quicksilver Flask','of Persistence',''},
  {"Masochist's",'Diamond Flask','of Penetrating',''},
 }
-local tip=new('Tooltip')
+local tip=new('Tooltip'):Tooltip()
 local rows={}
 for i,parts in ipairs(fixtures)do
  local name=parts[1]..' '..parts[2]..' '..parts[3]
- local item=new('Item','Rarity: MAGIC\n'..name..'\nQuality: 20\nItem Level: 85\n'..parts[4])
+ local item=new('Item'):Item('Rarity: MAGIC\n'..name..'\nQuality: 20\nItem Level: 85\n'..parts[4])
  assert(item.baseName==parts[2] and item.rarity=='MAGIC','Import failed: '..name)
  build.itemsTab:AddItem(item,true)
  build.itemsTab.slots['Flask '..i]:SetSelItemId(item.id)
@@ -57,7 +57,7 @@ build.viewMode='ITEMS'
 local notableCount=0
 local steelwood
 local anointNames=LoadModule('Localization/AnointNames')
-build.itemsTab:SetDisplayItem(new('Item','Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85'))
+build.itemsTab:SetDisplayItem(new('Item'):Item('Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85'))
 build.itemsTab:AnointDisplayItem(1)
 local anointPopup=assert(main.popups[1])
 local notableDB=assert(anointPopup.controls.notableDB)
@@ -75,7 +75,7 @@ for _,node in pairs(build.spec.nodes)do
 end
 main:ClosePopup()
 assert(steelwood and notableCount>100,'Anoint recipe inventory missing')
-local amulet=new('Item','Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85\nAllocates Steelwood Stance (enchant)\n+129 to maximum Life')
+local amulet=new('Item'):Item('Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85\nAllocates Steelwood Stance (enchant)\n+129 to maximum Life')
 local amuletRaw=amulet:BuildRaw()
 build.itemsTab:AddItem(amulet,true)
 build.itemsTab.slots.Amulet:SetSelItemId(amulet.id)
@@ -118,8 +118,8 @@ for _,mode in ipairs({'zh','en','zh'})do
 end
 -- Unsupported calculation effects must still receive their reviewed display
 -- translation, including the red colour and the unsupported-effect suffix.
-local ignite='When you Kill an Ignited Enemy, inflict an equivalent Ignite on each nearby Enemy'
-local shock='When you Kill a Shocked Enemy, inflict an equivalent Shock on each nearby Enemy'
+local ignite='When you Kill an Ignited Enemy, inflict an equivalent Ignite on each Enemy within 2 metres'
+local shock='When you Kill a Shocked Enemy, inflict an equivalent Shock on each Enemy within 2 metres'
 for _,name in ipairs({"Abberath's Hooves", "Berek's Respite"})do
  local item
  for _,candidate in pairs(main.uniqueDB.list)do if candidate.title==name then item=candidate;break end end

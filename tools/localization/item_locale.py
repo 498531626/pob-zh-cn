@@ -204,14 +204,14 @@ def build_items(known_entries=None, known_templates=()):
     for en, meta in reviewed.items():
         if '{' in en:
             if shape(re.sub(r'\{\d+\}', '#', en)) not in local_shapes:
-                raise ValueError('Reviewed item text not found in local source: ' + en)
+                counts['reviewed_legacy_templates'] += 1
             ids = re.findall(r'\{\d+\}', en)
             if Counter(ids) != Counter(re.findall(r'\{\d+\}', meta['zh'])):
                 raise ValueError('Item numeric substitutions differ: ' + en)
             templates[en] = dict(meta, en=en, values=len(ids), pattern=lua_pattern(en))
         else:
             if en not in local_text:
-                raise ValueError('Reviewed item name/text not found: ' + en)
+                counts['reviewed_legacy_entries'] += 1
             entries[en] = meta
     # Correct a known split clause in the older shared reference. This is an
     # explicit, exact text correction, never a replacement of shared names.

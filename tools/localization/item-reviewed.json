@@ -796,5 +796,12 @@
     "source": "https://poedb.tw/cn/Bereks_Respite",
     "english_source": "https://poedb.tw/us/Bereks_Respite",
     "review_note": "English a/an and Chinese 1 denote the same single killed enemy; no gameplay numeric value is added."
+  },
+  "Divine Life Flask": {
+    "zh": "不朽生命药剂",
+    "kind": "base-name",
+    "status": "paired-record-local-english-numbers-checked",
+    "source": "https://poedb.tw/cn/Divine_Life_Flask",
+    "english_source": "https://poedb.tw/us/Divine_Life_Flask"
   }
 }

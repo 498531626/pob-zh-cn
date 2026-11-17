@@ -989,5 +989,22 @@
   "Elemental Damage Taken As Fire": "承受的元素伤害转为火焰伤害",
   "Elemental Damage From Hits Taken As Fire": "承受的元素击中伤害转为火焰伤害",
   "Elemental Damage Taken As Chaos": "承受的元素伤害转为混沌伤害",
-  "Elemental Damage From Hits Taken As Chaos": "承受的元素击中伤害转为混沌伤害"
+  "Elemental Damage From Hits Taken As Chaos": "承受的元素击中伤害转为混沌伤害",
+  "Blightcore Notable": "枯疫核心核心天赋",
+  "Blood Shrine Exploding Toad Trigger Chance": "鲜血神殿爆炸蟾蜍触发几率",
+  "Corrupt Implicit Count": "腐化固定词缀数量",
+  "Goreblossom Bloom": "血肉之花花朵",
+  "Goreblossom Max Blooms": "血肉之花最大花朵数",
+  "Witchhunters Pyre Additional Burning Debuff": "猎巫者的柴堆额外燃烧减益",
+  "Recoup Recovery Amount": "补偿恢复量",
+  "Active Animated Weapon Limit": "活动幻化武器数量上限",
+  "Active Raging Spirit Limit": "活动愤怒狂灵数量上限",
+  "Active Reaper Limit": "活动召唤死神数量上限",
+  "Active Sentinel Of Purity Limit": "活动纯净哨兵数量上限",
+  "Active Void Spawn Limit": "活动虚空孳虫数量上限",
+  "Can Have Alchemist Genius": "可获得炼金天才",
+  "Animated Weapon": "幻化武器",
+  "Intensity": "凝聚",
+  "Intensity Limit": "凝聚层数上限",
+  "taken From Void Spawn Before You": "优先由虚空孳虫承受"
 }

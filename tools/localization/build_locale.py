@@ -262,7 +262,7 @@ def build():
     font_info = build_atlas(chars, OUT)
     report = {'entries': len(entries), 'gem_names': sum(v['kind'] == 'gem' and 'alias_of' not in v for v in entries.values()),
               'glyphs': len(chars), **font_info,
-              'pob_version': '2.67.2', 'name_reference_retrieved': '2026-11-11', 'item_reference_retrieved': '2026-11-12',
+              'pob_version': '2.68.0', 'passive_reference_version': '3.30', 'passive_reference_retrieved': '2026-11-17', 'name_reference_retrieved': '2026-11-11', 'item_reference_retrieved': '2026-11-12',
               'passives': passive_report, 'gem_details': gem_report, 'item_details': item_report,
               'database_details': {k:v if not isinstance(v,dict)else len(v)for k,v in database_report.items()},
               'sidebar_labels': len(labels), 'sidebar_labels_translated': len(labels),
@@ -270,7 +270,7 @@ def build():
               'calculation_labels': len(calc_labels), 'calculation_labels_translated': len(calc_labels),
               'calculation_identifiers': identifier_report['translated'],
               'configuration_labels': len(config_labels), 'configuration_labels_translated': len(config_labels) - len(config_pending),
-              'scope': 'Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.29 passives, paired item names/bases/modifiers, essence/currency/monster/pantheon/tattoo/enchantment/cluster/boss preset display fields and finite display clauses. Item/database audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged.'}
+              'scope': 'Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.30 passives, paired item names/bases/modifiers, essence/currency/monster/pantheon/tattoo/enchantment/cluster/boss preset display fields and finite display clauses. Item/database audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged.'}
     (OUT / 'build-info.json').write_text(json.dumps(report, indent=2) + '\n', 'utf-8')
     print(json.dumps(report), flush=True)
 

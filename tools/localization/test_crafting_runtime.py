@@ -58,7 +58,7 @@ for i,label in ipairs(craftControls.type.list)do
 end
 assert(table.concat(build.data.itemBaseTypeList,'|')==originalTypes,'Item type keys changed')
 main:ClosePopup()
-tab:SetDisplayItem(new('Item','Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85'))
+tab:SetDisplayItem(new('Item'):Item('Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85'))
 tab:AddCustomModifierToDisplayItem()
 local bench=assert(main.popups[1]).controls
 for i,row in ipairs(bench.source.list)do if row.sourceId=='MASTER'then bench.source:SetSel(i);break end end
@@ -78,7 +78,7 @@ bench.save:Click()
 assert(tab.displayItem.explicitModLines[1].line==benchLine,'Bench parser received translated text')
 assert(not tab.displayItem:BuildRaw():find('[\128-\255]'),'Bench translation leaked into saved item')
 print('Actual popup lists and bounded draw: '..typeCount..' item types; '..benchCount..' bench rows; subtype lookup and English switching preserved')
-tab:SetDisplayItem(new('Item','Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85'))
+tab:SetDisplayItem(new('Item'):Item('Rarity: RARE\nDragon Heart\nOnyx Amulet\nItem Level: 85'))
 tab:AddCustomModifierToDisplayItem()
 local popup=assert(main.popups[1])
 local controls=popup.controls

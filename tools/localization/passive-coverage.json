@@ -1,33 +1,2038 @@
 {
   "counts": {
-    "matched_node_ids": 3390,
-    "passive-name_occurrences": 3389,
-    "nodes_with_name": 3389,
-    "passive-stat_occurrences": 4937,
-    "passive-reminder_occurrences": 999,
-    "mastery-stat_occurrences": 1994,
-    "number_mismatch_skipped": 66,
-    "passive-flavour_occurrences": 68,
-    "reviewed_translations": 58,
-    "unique_translations": 5131,
-    "ambiguous_texts_context_only": 51,
-    "local_nodes": 3397,
-    "named_nodes_total": 3396,
-    "named_nodes_translated": 3396,
-    "stat_lines_total": 4984,
-    "stat_lines_translated": 4984,
-    "mastery_lines_total": 2015,
-    "mastery_lines_translated": 2015
+    "matched_node_ids": 3060,
+    "passive-name_occurrences": 2987,
+    "nodes_with_name": 2987,
+    "passive-stat_occurrences": 2921,
+    "mastery-stat_occurrences": 1989,
+    "passive-reminder_occurrences": 23,
+    "number_mismatch_skipped": 60,
+    "passive-flavour_occurrences": 60,
+    "reviewed_not_in_current_tree": 7,
+    "reviewed_translations": 51,
+    "unique_translations": 3328,
+    "ambiguous_texts_context_only": 52,
+    "local_nodes": 3469,
+    "named_nodes_total": 3468,
+    "named_nodes_translated": 2994,
+    "stat_lines_total": 5069,
+    "stat_lines_translated": 2965,
+    "mastery_lines_total": 2020,
+    "mastery_lines_translated": 2010
   },
-  "unmatched": [],
-  "conflicts": [
+  "unmatched": [
     {
-      "english": "Evasion",
-      "translations": [
-        "闪避",
-        "闪避值"
-      ]
+      "node_id": "33",
+      "kind": "node",
+      "english": "Lord of Drought"
     },
+    {
+      "node_id": "37",
+      "kind": "node",
+      "english": "Martial Prowess"
+    },
+    {
+      "node_id": "68",
+      "kind": "node",
+      "english": "Hulking Corpses"
+    },
+    {
+      "node_id": "408",
+      "kind": "node",
+      "english": "Cooked Alive"
+    },
+    {
+      "node_id": "747",
+      "kind": "node",
+      "english": "Attack Damage"
+    },
+    {
+      "node_id": "784",
+      "kind": "node",
+      "english": "Conjured Wall"
+    },
+    {
+      "node_id": "907",
+      "kind": "node",
+      "english": "Introspection"
+    },
+    {
+      "node_id": "981",
+      "kind": "node",
+      "english": "Furious Assault"
+    },
+    {
+      "node_id": "1066",
+      "kind": "node",
+      "english": "Seal Mender"
+    },
+    {
+      "node_id": "1067",
+      "kind": "node",
+      "english": "Wind-up"
+    },
+    {
+      "node_id": "1371",
+      "kind": "node",
+      "english": "Projectile Damage"
+    },
+    {
+      "node_id": "1478",
+      "kind": "node",
+      "english": "Deadly Repartee"
+    },
+    {
+      "node_id": "1494",
+      "kind": "node",
+      "english": "Unspeakable Gifts"
+    },
+    {
+      "node_id": "1581",
+      "kind": "node",
+      "english": "Non-Flammable"
+    },
+    {
+      "node_id": "2004",
+      "kind": "node",
+      "english": "Snaring Spirits"
+    },
+    {
+      "node_id": "2054",
+      "kind": "node",
+      "english": "Aura Effect Mastery"
+    },
+    {
+      "node_id": "2220",
+      "kind": "node",
+      "english": "Clarity of Purpose"
+    },
+    {
+      "node_id": "2264",
+      "kind": "node",
+      "english": "Unholy Grace"
+    },
+    {
+      "node_id": "2306",
+      "kind": "node",
+      "english": "Corrosive Elements"
+    },
+    {
+      "node_id": "2510",
+      "kind": "node",
+      "english": "Critical Chance Mastery"
+    },
+    {
+      "node_id": "2655",
+      "kind": "node",
+      "english": "Martial Momentum"
+    },
+    {
+      "node_id": "2796",
+      "kind": "node",
+      "english": "Master the Fundamentals"
+    },
+    {
+      "node_id": "2977",
+      "kind": "node",
+      "english": "Overwhelming Malice"
+    },
+    {
+      "node_id": "3354",
+      "kind": "node",
+      "english": "Lone Messenger"
+    },
+    {
+      "node_id": "3367",
+      "kind": "node",
+      "english": "Minion Damage while you have a Herald"
+    },
+    {
+      "node_id": "3723",
+      "kind": "node",
+      "english": "Wall of Muscle"
+    },
+    {
+      "node_id": "3805",
+      "kind": "node",
+      "english": "Force Multiplier"
+    },
+    {
+      "node_id": "3870",
+      "kind": "node",
+      "english": "Exerted Attack Damage"
+    },
+    {
+      "node_id": "3879",
+      "kind": "node",
+      "english": "Armour"
+    },
+    {
+      "node_id": "4094",
+      "kind": "node",
+      "english": "Brewed for Potency"
+    },
+    {
+      "node_id": "4205",
+      "kind": "node",
+      "english": "Weight Advantage"
+    },
+    {
+      "node_id": "4641",
+      "kind": "node",
+      "english": "Flexible Sentry"
+    },
+    {
+      "node_id": "4942",
+      "kind": "node",
+      "english": "Vivid Hues"
+    },
+    {
+      "node_id": "4958",
+      "kind": "node",
+      "english": "Liquid Inspiration"
+    },
+    {
+      "node_id": "5075",
+      "kind": "node",
+      "english": "Fasting"
+    },
+    {
+      "node_id": "5190",
+      "kind": "node",
+      "english": "Burden Projection"
+    },
+    {
+      "node_id": "5781",
+      "kind": "node",
+      "english": "Pure Agony"
+    },
+    {
+      "node_id": "6258",
+      "kind": "node",
+      "english": "Blanketed Snow"
+    },
+    {
+      "node_id": "6265",
+      "kind": "node",
+      "english": "Aura Effect"
+    },
+    {
+      "node_id": "6553",
+      "kind": "node",
+      "english": "Brutal Infamy"
+    },
+    {
+      "node_id": "6696",
+      "kind": "node",
+      "english": "Haunting Shout"
+    },
+    {
+      "node_id": "6703",
+      "kind": "node",
+      "english": "Raze and Pillage"
+    },
+    {
+      "node_id": "7039",
+      "kind": "node",
+      "english": "Doryani's Lesson"
+    },
+    {
+      "node_id": "7107",
+      "kind": "node",
+      "english": "Warning Call"
+    },
+    {
+      "node_id": "7279",
+      "kind": "node",
+      "english": "Wish for Death"
+    },
+    {
+      "node_id": "7343",
+      "kind": "node",
+      "english": "Arcing Shot"
+    },
+    {
+      "node_id": "7431",
+      "kind": "node",
+      "english": "Fiery Aegis"
+    },
+    {
+      "node_id": "7883",
+      "kind": "node",
+      "english": "Projectile Damage Mastery"
+    },
+    {
+      "node_id": "8073",
+      "kind": "node",
+      "english": "Evasion"
+    },
+    {
+      "node_id": "8258",
+      "kind": "node",
+      "english": "Rend"
+    },
+    {
+      "node_id": "8897",
+      "kind": "node",
+      "english": "Dark Messenger"
+    },
+    {
+      "node_id": "8949",
+      "kind": "node",
+      "english": "Peak Vigour"
+    },
+    {
+      "node_id": "9042",
+      "kind": "node",
+      "english": "Enduring Ward"
+    },
+    {
+      "node_id": "9245",
+      "kind": "node",
+      "english": "Readiness"
+    },
+    {
+      "node_id": "9276",
+      "kind": "node",
+      "english": "Darting Movements"
+    },
+    {
+      "node_id": "9372",
+      "kind": "node",
+      "english": "Blood Artist"
+    },
+    {
+      "node_id": "9495",
+      "kind": "node",
+      "english": "Hound's Mark"
+    },
+    {
+      "node_id": "10118",
+      "kind": "node",
+      "english": "Warcry Buff Effect Mastery"
+    },
+    {
+      "node_id": "10355",
+      "kind": "node",
+      "english": "Circling Oblivion"
+    },
+    {
+      "node_id": "10409",
+      "kind": "node",
+      "english": "Sage"
+    },
+    {
+      "node_id": "10493",
+      "kind": "node",
+      "english": "Channelling Skill Damage"
+    },
+    {
+      "node_id": "10576",
+      "kind": "node",
+      "english": "Channelling Skill Damage Mastery"
+    },
+    {
+      "node_id": "10695",
+      "kind": "node",
+      "english": "Critical Chance"
+    },
+    {
+      "node_id": "10952",
+      "kind": "node",
+      "english": "Wrapped in Flame"
+    },
+    {
+      "node_id": "11011",
+      "kind": "node",
+      "english": "Rote Reinforcement"
+    },
+    {
+      "node_id": "11199",
+      "kind": "node",
+      "english": "Bodyguards"
+    },
+    {
+      "node_id": "11318",
+      "kind": "node",
+      "english": "Confident Combatant"
+    },
+    {
+      "node_id": "11513",
+      "kind": "node",
+      "english": "Conservation of Energy"
+    },
+    {
+      "node_id": "11535",
+      "kind": "node",
+      "english": "Skeletal Atrophy"
+    },
+    {
+      "node_id": "11661",
+      "kind": "node",
+      "english": "Powerful Assault"
+    },
+    {
+      "node_id": "11995",
+      "kind": "node",
+      "english": "Eternal Suffering"
+    },
+    {
+      "node_id": "12117",
+      "kind": "node",
+      "english": "Chaos Damage Mastery"
+    },
+    {
+      "node_id": "12149",
+      "kind": "node",
+      "english": "Assert Dominance"
+    },
+    {
+      "node_id": "12400",
+      "kind": "node",
+      "english": "Shrieking Bolts"
+    },
+    {
+      "node_id": "12806",
+      "kind": "node",
+      "english": "Strike Leader"
+    },
+    {
+      "node_id": "12867",
+      "kind": "node",
+      "english": "Mindfulness"
+    },
+    {
+      "node_id": "12953",
+      "kind": "node",
+      "english": "Disciple of Kitava"
+    },
+    {
+      "node_id": "13054",
+      "kind": "node",
+      "english": "Overlord"
+    },
+    {
+      "node_id": "13146",
+      "kind": "node",
+      "english": "Fire Damage"
+    },
+    {
+      "node_id": "13392",
+      "kind": "node",
+      "english": "Grand Design"
+    },
+    {
+      "node_id": "13549",
+      "kind": "node",
+      "english": "Blacksmith"
+    },
+    {
+      "node_id": "13790",
+      "kind": "node",
+      "english": "Smoking Remains"
+    },
+    {
+      "node_id": "13812",
+      "kind": "node",
+      "english": "Aerodynamics"
+    },
+    {
+      "node_id": "13950",
+      "kind": "node",
+      "english": "Ancestral Inspiration"
+    },
+    {
+      "node_id": "14036",
+      "kind": "node",
+      "english": "Physical Damage over Time"
+    },
+    {
+      "node_id": "14061",
+      "kind": "node",
+      "english": "Misery Everlasting"
+    },
+    {
+      "node_id": "14084",
+      "kind": "node",
+      "english": "Axe and Sword Damage"
+    },
+    {
+      "node_id": "14085",
+      "kind": "node",
+      "english": "Thaumophage"
+    },
+    {
+      "node_id": "14303",
+      "kind": "node",
+      "english": "Attack Damage while holding a Shield"
+    },
+    {
+      "node_id": "14412",
+      "kind": "node",
+      "english": "Dragon Hunter"
+    },
+    {
+      "node_id": "14418",
+      "kind": "node",
+      "english": "Master of Fear"
+    },
+    {
+      "node_id": "14431",
+      "kind": "node",
+      "english": "Martial Mastery"
+    },
+    {
+      "node_id": "14518",
+      "kind": "node",
+      "english": "Fuel the Fight"
+    },
+    {
+      "node_id": "14933",
+      "kind": "node",
+      "english": "Minion Life Mastery"
+    },
+    {
+      "node_id": "15015",
+      "kind": "node",
+      "english": "Lightning Damage Mastery"
+    },
+    {
+      "node_id": "15175",
+      "kind": "node",
+      "english": "Daring Ideas"
+    },
+    {
+      "node_id": "15538",
+      "kind": "node",
+      "english": "Feast of Flesh"
+    },
+    {
+      "node_id": "15990",
+      "kind": "node",
+      "english": "Arcane Adept"
+    },
+    {
+      "node_id": "16351",
+      "kind": "node",
+      "english": "Minion Damage Mastery"
+    },
+    {
+      "node_id": "16404",
+      "kind": "node",
+      "english": "Attack Damage while Dual Wielding"
+    },
+    {
+      "node_id": "16540",
+      "kind": "node",
+      "english": "Doedre's Apathy"
+    },
+    {
+      "node_id": "16650",
+      "kind": "node",
+      "english": "Rotten Claws"
+    },
+    {
+      "node_id": "16808",
+      "kind": "node",
+      "english": "Totem Damage Mastery"
+    },
+    {
+      "node_id": "16952",
+      "kind": "node",
+      "english": "Cult-Leader"
+    },
+    {
+      "node_id": "17050",
+      "kind": "node",
+      "english": "Prismatic Heart"
+    },
+    {
+      "node_id": "17066",
+      "kind": "node",
+      "english": "Empowered Envoy"
+    },
+    {
+      "node_id": "17198",
+      "kind": "node",
+      "english": "Damage while you have a Herald"
+    },
+    {
+      "node_id": "17255",
+      "kind": "node",
+      "english": "Disorienting Display"
+    },
+    {
+      "node_id": "17271",
+      "kind": "node",
+      "english": "Chance to Block Attack Damage"
+    },
+    {
+      "node_id": "17662",
+      "kind": "node",
+      "english": "Tempt the Storm"
+    },
+    {
+      "node_id": "17769",
+      "kind": "node",
+      "english": "Pure Might"
+    },
+    {
+      "node_id": "17816",
+      "kind": "node",
+      "english": "Cry Wolf"
+    },
+    {
+      "node_id": "17905",
+      "kind": "node",
+      "english": "Lasting Impression"
+    },
+    {
+      "node_id": "18155",
+      "kind": "node",
+      "english": "No Witnesses"
+    },
+    {
+      "node_id": "18412",
+      "kind": "node",
+      "english": "Phlebotomist"
+    },
+    {
+      "node_id": "18463",
+      "kind": "node",
+      "english": "Battlefield Dominator"
+    },
+    {
+      "node_id": "18530",
+      "kind": "node",
+      "english": "Curse Effect"
+    },
+    {
+      "node_id": "18624",
+      "kind": "node",
+      "english": "Doedre's Spite"
+    },
+    {
+      "node_id": "18861",
+      "kind": "node",
+      "english": "Deep Chill"
+    },
+    {
+      "node_id": "18870",
+      "kind": "node",
+      "english": "Bow Damage"
+    },
+    {
+      "node_id": "19508",
+      "kind": "node",
+      "english": "Hibernator"
+    },
+    {
+      "node_id": "19686",
+      "kind": "node",
+      "english": "Wasting Affliction"
+    },
+    {
+      "node_id": "19723",
+      "kind": "node",
+      "english": "Surging Vitality"
+    },
+    {
+      "node_id": "20241",
+      "kind": "node",
+      "english": "Energy From Naught"
+    },
+    {
+      "node_id": "20314",
+      "kind": "node",
+      "english": "Physical Damage over Time Multiplier Mastery"
+    },
+    {
+      "node_id": "20343",
+      "kind": "node",
+      "english": "Inspired Oppression"
+    },
+    {
+      "node_id": "20383",
+      "kind": "node",
+      "english": "Careful Handling"
+    },
+    {
+      "node_id": "20492",
+      "kind": "node",
+      "english": "Minion Life"
+    },
+    {
+      "node_id": "20533",
+      "kind": "node",
+      "english": "Arcane Heroism"
+    },
+    {
+      "node_id": "20834",
+      "kind": "node",
+      "english": "Broadside"
+    },
+    {
+      "node_id": "20968",
+      "kind": "node",
+      "english": "Openness"
+    },
+    {
+      "node_id": "20996",
+      "kind": "node",
+      "english": "Fearsome Warrior"
+    },
+    {
+      "node_id": "21126",
+      "kind": "node",
+      "english": "Brand Damage"
+    },
+    {
+      "node_id": "21688",
+      "kind": "node",
+      "english": "Antivenom"
+    },
+    {
+      "node_id": "21796",
+      "kind": "node",
+      "english": "Reservation Efficiency"
+    },
+    {
+      "node_id": "21841",
+      "kind": "node",
+      "english": "Spell Damage Mastery"
+    },
+    {
+      "node_id": "21845",
+      "kind": "node",
+      "english": "Spell Damage"
+    },
+    {
+      "node_id": "21907",
+      "kind": "node",
+      "english": "Uncompromising"
+    },
+    {
+      "node_id": "22002",
+      "kind": "node",
+      "english": "Capacitor"
+    },
+    {
+      "node_id": "22434",
+      "kind": "node",
+      "english": "Surprise Sabotage"
+    },
+    {
+      "node_id": "22540",
+      "kind": "node",
+      "english": "Feasting Fiends"
+    },
+    {
+      "node_id": "22581",
+      "kind": "node",
+      "english": "Devastator"
+    },
+    {
+      "node_id": "22607",
+      "kind": "node",
+      "english": "Storm Drinker"
+    },
+    {
+      "node_id": "22704",
+      "kind": "node",
+      "english": "Untouchable"
+    },
+    {
+      "node_id": "23042",
+      "kind": "node",
+      "english": "Aerialist"
+    },
+    {
+      "node_id": "23113",
+      "kind": "node",
+      "english": "Cold-Blooded Killer"
+    },
+    {
+      "node_id": "23232",
+      "kind": "node",
+      "english": "Insatiable Killer"
+    },
+    {
+      "node_id": "23238",
+      "kind": "node",
+      "english": "Quick Getaway"
+    },
+    {
+      "node_id": "23335",
+      "kind": "node",
+      "english": "Grim Oath"
+    },
+    {
+      "node_id": "23376",
+      "kind": "node",
+      "english": "Curse Effect"
+    },
+    {
+      "node_id": "23884",
+      "kind": "node",
+      "english": "Holistic Health"
+    },
+    {
+      "node_id": "23989",
+      "kind": "node",
+      "english": "Veteran Defender"
+    },
+    {
+      "node_id": "24038",
+      "kind": "node",
+      "english": "Endbringer"
+    },
+    {
+      "node_id": "24357",
+      "kind": "node",
+      "english": "Disciples"
+    },
+    {
+      "node_id": "24484",
+      "kind": "node",
+      "english": "Combat Rhythm"
+    },
+    {
+      "node_id": "24645",
+      "kind": "node",
+      "english": "Guerilla Tactics"
+    },
+    {
+      "node_id": "24889",
+      "kind": "node",
+      "english": "Mage Bane"
+    },
+    {
+      "node_id": "25282",
+      "kind": "node",
+      "english": "Spiked Concoction"
+    },
+    {
+      "node_id": "25429",
+      "kind": "node",
+      "english": "Attack Damage while holding a Shield Mastery"
+    },
+    {
+      "node_id": "25450",
+      "kind": "node",
+      "english": "Mage Hunter"
+    },
+    {
+      "node_id": "25563",
+      "kind": "node",
+      "english": "Cold Conduction"
+    },
+    {
+      "node_id": "25938",
+      "kind": "node",
+      "english": "Blizzard Caller"
+    },
+    {
+      "node_id": "25966",
+      "kind": "node",
+      "english": "Savage Response"
+    },
+    {
+      "node_id": "26179",
+      "kind": "node",
+      "english": "Student of Decay"
+    },
+    {
+      "node_id": "26197",
+      "kind": "node",
+      "english": "Feed the Fury"
+    },
+    {
+      "node_id": "26322",
+      "kind": "node",
+      "english": "Pure Guile"
+    },
+    {
+      "node_id": "26839",
+      "kind": "node",
+      "english": "Chip Away"
+    },
+    {
+      "node_id": "27397",
+      "kind": "node",
+      "english": "Flask Duration Mastery"
+    },
+    {
+      "node_id": "27625",
+      "kind": "node",
+      "english": "Flask Duration"
+    },
+    {
+      "node_id": "28015",
+      "kind": "node",
+      "english": "Iron Breaker"
+    },
+    {
+      "node_id": "28146",
+      "kind": "node",
+      "english": "Brush with Death"
+    },
+    {
+      "node_id": "28321",
+      "kind": "node",
+      "english": "Mana"
+    },
+    {
+      "node_id": "28338",
+      "kind": "node",
+      "english": "Righteous Path"
+    },
+    {
+      "node_id": "28384",
+      "kind": "node",
+      "english": "Powerful Ward"
+    },
+    {
+      "node_id": "28398",
+      "kind": "node",
+      "english": "Precise Retaliation"
+    },
+    {
+      "node_id": "28551",
+      "kind": "node",
+      "english": "Heraldry"
+    },
+    {
+      "node_id": "28635",
+      "kind": "node",
+      "english": "Vicious Skewering"
+    },
+    {
+      "node_id": "28682",
+      "kind": "node",
+      "english": "Overshock"
+    },
+    {
+      "node_id": "28744",
+      "kind": "node",
+      "english": "Mob Mentality"
+    },
+    {
+      "node_id": "28987",
+      "kind": "node",
+      "english": "Chaos Resistance"
+    },
+    {
+      "node_id": "29096",
+      "kind": "node",
+      "english": "Rot-Resistant"
+    },
+    {
+      "node_id": "29193",
+      "kind": "node",
+      "english": "Set and Forget"
+    },
+    {
+      "node_id": "29450",
+      "kind": "node",
+      "english": "Rattling Bellow"
+    },
+    {
+      "node_id": "29540",
+      "kind": "node",
+      "english": "Master of Command"
+    },
+    {
+      "node_id": "29748",
+      "kind": "node",
+      "english": "Blowback"
+    },
+    {
+      "node_id": "29764",
+      "kind": "node",
+      "english": "Aggressive Defence"
+    },
+    {
+      "node_id": "30622",
+      "kind": "node",
+      "english": "Storm's Hand"
+    },
+    {
+      "node_id": "30847",
+      "kind": "node",
+      "english": "Nature's Patience"
+    },
+    {
+      "node_id": "31333",
+      "kind": "node",
+      "english": "Frantic Aspect"
+    },
+    {
+      "node_id": "31440",
+      "kind": "node",
+      "english": "Ancestral Echo"
+    },
+    {
+      "node_id": "31472",
+      "kind": "node",
+      "english": "Intelligence"
+    },
+    {
+      "node_id": "31549",
+      "kind": "node",
+      "english": "Fire Damage over Time"
+    },
+    {
+      "node_id": "31680",
+      "kind": "node",
+      "english": "Dagger and Claw Damage"
+    },
+    {
+      "node_id": "31825",
+      "kind": "node",
+      "english": "Paralysis"
+    },
+    {
+      "node_id": "32031",
+      "kind": "node",
+      "english": "Stubborn Student"
+    },
+    {
+      "node_id": "32118",
+      "kind": "node",
+      "english": "Veteran's Awareness"
+    },
+    {
+      "node_id": "32169",
+      "kind": "node",
+      "english": "Damage over Time"
+    },
+    {
+      "node_id": "32259",
+      "kind": "node",
+      "english": "Mortifying Aspect"
+    },
+    {
+      "node_id": "32415",
+      "kind": "node",
+      "english": "Essence Rush"
+    },
+    {
+      "node_id": "32642",
+      "kind": "node",
+      "english": "Curse Effect Mastery"
+    },
+    {
+      "node_id": "33002",
+      "kind": "node",
+      "english": "Explosive Force"
+    },
+    {
+      "node_id": "33182",
+      "kind": "node",
+      "english": "Provocateur"
+    },
+    {
+      "node_id": "33232",
+      "kind": "node",
+      "english": "Self-Control"
+    },
+    {
+      "node_id": "33431",
+      "kind": "node",
+      "english": "Damage while you have a Herald Mastery"
+    },
+    {
+      "node_id": "33482",
+      "kind": "node",
+      "english": "Master of Fire"
+    },
+    {
+      "node_id": "33676",
+      "kind": "node",
+      "english": "Antifreeze"
+    },
+    {
+      "node_id": "33698",
+      "kind": "node",
+      "english": "Will Shaper"
+    },
+    {
+      "node_id": "34108",
+      "kind": "node",
+      "english": "Mystical Ward"
+    },
+    {
+      "node_id": "34205",
+      "kind": "node",
+      "english": "Practiced Caster"
+    },
+    {
+      "node_id": "34581",
+      "kind": "node",
+      "english": "Flow of Life"
+    },
+    {
+      "node_id": "34595",
+      "kind": "node",
+      "english": "Wicked Pall"
+    },
+    {
+      "node_id": "35020",
+      "kind": "node",
+      "english": "Chaos Damage over Time"
+    },
+    {
+      "node_id": "35363",
+      "kind": "node",
+      "english": "Stoic Focus"
+    },
+    {
+      "node_id": "35430",
+      "kind": "node",
+      "english": "Thunderstruck"
+    },
+    {
+      "node_id": "35790",
+      "kind": "node",
+      "english": "Advance Guard"
+    },
+    {
+      "node_id": "36276",
+      "kind": "node",
+      "english": "Brand Loyalty"
+    },
+    {
+      "node_id": "36370",
+      "kind": "node",
+      "english": "Low Tolerance"
+    },
+    {
+      "node_id": "36455",
+      "kind": "node",
+      "english": "Gladiatorial Combat"
+    },
+    {
+      "node_id": "36551",
+      "kind": "node",
+      "english": "Fire Resistance"
+    },
+    {
+      "node_id": "36645",
+      "kind": "node",
+      "english": "Streamlined"
+    },
+    {
+      "node_id": "36655",
+      "kind": "node",
+      "english": "Lead By Example"
+    },
+    {
+      "node_id": "36776",
+      "kind": "node",
+      "english": "Widespread Destruction"
+    },
+    {
+      "node_id": "36807",
+      "kind": "node",
+      "english": "Gladiator's Fortitude"
+    },
+    {
+      "node_id": "37081",
+      "kind": "node",
+      "english": "Pitfighter"
+    },
+    {
+      "node_id": "37171",
+      "kind": "node",
+      "english": "Physical Damage"
+    },
+    {
+      "node_id": "37358",
+      "kind": "node",
+      "english": "Seeker Runes"
+    },
+    {
+      "node_id": "37384",
+      "kind": "node",
+      "english": "Compound Injury"
+    },
+    {
+      "node_id": "37478",
+      "kind": "node",
+      "english": "Stormrider"
+    },
+    {
+      "node_id": "37882",
+      "kind": "node",
+      "english": "Doedre's Gluttony"
+    },
+    {
+      "node_id": "37926",
+      "kind": "node",
+      "english": "Cold Resistance"
+    },
+    {
+      "node_id": "37971",
+      "kind": "node",
+      "english": "Minion Damage while you have a Herald Mastery"
+    },
+    {
+      "node_id": "37977",
+      "kind": "node",
+      "english": "Cold Damage Mastery"
+    },
+    {
+      "node_id": "38275",
+      "kind": "node",
+      "english": "Unwavering Focus"
+    },
+    {
+      "node_id": "38334",
+      "kind": "node",
+      "english": "Wand Damage Mastery"
+    },
+    {
+      "node_id": "38342",
+      "kind": "node",
+      "english": "Energy Shield"
+    },
+    {
+      "node_id": "38399",
+      "kind": "node",
+      "english": "Septic Spells"
+    },
+    {
+      "node_id": "38563",
+      "kind": "node",
+      "english": "Tempered Arrowheads"
+    },
+    {
+      "node_id": "38592",
+      "kind": "node",
+      "english": "Unwaveringly Evil"
+    },
+    {
+      "node_id": "38633",
+      "kind": "node",
+      "english": "Pressure Points"
+    },
+    {
+      "node_id": "38683",
+      "kind": "node",
+      "english": "Winter Prowler"
+    },
+    {
+      "node_id": "38790",
+      "kind": "node",
+      "english": "Heavy Hitter"
+    },
+    {
+      "node_id": "39006",
+      "kind": "node",
+      "english": "Bloodscent"
+    },
+    {
+      "node_id": "39058",
+      "kind": "node",
+      "english": "Quick and Deadly"
+    },
+    {
+      "node_id": "39222",
+      "kind": "node",
+      "english": "Cold Damage over Time"
+    },
+    {
+      "node_id": "39331",
+      "kind": "node",
+      "english": "Heart of Iron"
+    },
+    {
+      "node_id": "39738",
+      "kind": "node",
+      "english": "Fan of Blades"
+    },
+    {
+      "node_id": "39874",
+      "kind": "node",
+      "english": "Blast-Freeze"
+    },
+    {
+      "node_id": "40036",
+      "kind": "node",
+      "english": "Chaos Damage over Time Multiplier Mastery"
+    },
+    {
+      "node_id": "40181",
+      "kind": "node",
+      "english": "Elegant Form"
+    },
+    {
+      "node_id": "40402",
+      "kind": "node",
+      "english": "Invigorating Portents"
+    },
+    {
+      "node_id": "40561",
+      "kind": "node",
+      "english": "Kineticism"
+    },
+    {
+      "node_id": "40828",
+      "kind": "node",
+      "english": "Dark Ideation"
+    },
+    {
+      "node_id": "40858",
+      "kind": "node",
+      "english": "Adrenaline"
+    },
+    {
+      "node_id": "40870",
+      "kind": "node",
+      "english": "Snowstorm"
+    },
+    {
+      "node_id": "40966",
+      "kind": "node",
+      "english": "Cold Damage over Time Multiplier Mastery"
+    },
+    {
+      "node_id": "41056",
+      "kind": "node",
+      "english": "Opportunistic Fusilade"
+    },
+    {
+      "node_id": "41204",
+      "kind": "node",
+      "english": "Wand Damage"
+    },
+    {
+      "node_id": "41284",
+      "kind": "node",
+      "english": "Drive the Destruction"
+    },
+    {
+      "node_id": "41355",
+      "kind": "node",
+      "english": "Cold Damage"
+    },
+    {
+      "node_id": "41509",
+      "kind": "node",
+      "english": "Mender's Wellspring"
+    },
+    {
+      "node_id": "41594",
+      "kind": "node",
+      "english": "Calamitous"
+    },
+    {
+      "node_id": "41983",
+      "kind": "node",
+      "english": "Vicious Bite"
+    },
+    {
+      "node_id": "42024",
+      "kind": "node",
+      "english": "Improvisor"
+    },
+    {
+      "node_id": "42068",
+      "kind": "node",
+      "english": "Follow-Through"
+    },
+    {
+      "node_id": "42117",
+      "kind": "node",
+      "english": "Sadist"
+    },
+    {
+      "node_id": "42126",
+      "kind": "node",
+      "english": "Blessed Rebirth"
+    },
+    {
+      "node_id": "42145",
+      "kind": "node",
+      "english": "Intensity"
+    },
+    {
+      "node_id": "42305",
+      "kind": "node",
+      "english": "Evil Eye"
+    },
+    {
+      "node_id": "42313",
+      "kind": "node",
+      "english": "Prismatic Dance"
+    },
+    {
+      "node_id": "42338",
+      "kind": "node",
+      "english": "Disorienting Wounds"
+    },
+    {
+      "node_id": "42530",
+      "kind": "node",
+      "english": "Fire Attunement"
+    },
+    {
+      "node_id": "42601",
+      "kind": "node",
+      "english": "Exploit Weakness"
+    },
+    {
+      "node_id": "42636",
+      "kind": "node",
+      "english": "Holy Conquest"
+    },
+    {
+      "node_id": "42648",
+      "kind": "node",
+      "english": "Sap Psyche"
+    },
+    {
+      "node_id": "42687",
+      "kind": "node",
+      "english": "Graceful Execution"
+    },
+    {
+      "node_id": "42783",
+      "kind": "node",
+      "english": "Dagger and Claw Damage Mastery"
+    },
+    {
+      "node_id": "42929",
+      "kind": "node",
+      "english": "Victim Maker"
+    },
+    {
+      "node_id": "43130",
+      "kind": "node",
+      "english": "Mace and Staff Damage Mastery"
+    },
+    {
+      "node_id": "43834",
+      "kind": "node",
+      "english": "Scintillating Idea"
+    },
+    {
+      "node_id": "43904",
+      "kind": "node",
+      "english": "Fire Damage Mastery"
+    },
+    {
+      "node_id": "44078",
+      "kind": "node",
+      "english": "Elemental Damage Mastery"
+    },
+    {
+      "node_id": "44100",
+      "kind": "node",
+      "english": "Attack Damage while Dual Wielding Mastery"
+    },
+    {
+      "node_id": "44203",
+      "kind": "node",
+      "english": "Wizardry"
+    },
+    {
+      "node_id": "44237",
+      "kind": "node",
+      "english": "Prodigious Defence"
+    },
+    {
+      "node_id": "44435",
+      "kind": "node",
+      "english": "Holy Word"
+    },
+    {
+      "node_id": "44483",
+      "kind": "node",
+      "english": "Area Damage"
+    },
+    {
+      "node_id": "44544",
+      "kind": "node",
+      "english": "Basics of Pain"
+    },
+    {
+      "node_id": "44670",
+      "kind": "node",
+      "english": "Smite the Weak"
+    },
+    {
+      "node_id": "44731",
+      "kind": "node",
+      "english": "Master of the Maelstrom"
+    },
+    {
+      "node_id": "44810",
+      "kind": "node",
+      "english": "Axe and Sword Damage Mastery"
+    },
+    {
+      "node_id": "45128",
+      "kind": "node",
+      "english": "Fan the Flames"
+    },
+    {
+      "node_id": "45180",
+      "kind": "node",
+      "english": "Chance to Block Spell Damage"
+    },
+    {
+      "node_id": "45259",
+      "kind": "node",
+      "english": "Life and Mana recovery from Flasks Mastery"
+    },
+    {
+      "node_id": "45284",
+      "kind": "node",
+      "english": "Chance to Suppress Spell Damage"
+    },
+    {
+      "node_id": "45462",
+      "kind": "node",
+      "english": "Effect of Non-Damaging Ailments Mastery"
+    },
+    {
+      "node_id": "45474",
+      "kind": "node",
+      "english": "Trap and Mine Damage Mastery"
+    },
+    {
+      "node_id": "45935",
+      "kind": "node",
+      "english": "Unrestrained Focus"
+    },
+    {
+      "node_id": "46074",
+      "kind": "node",
+      "english": "Shifting Shadow"
+    },
+    {
+      "node_id": "46248",
+      "kind": "node",
+      "english": "Chaos Damage"
+    },
+    {
+      "node_id": "46264",
+      "kind": "node",
+      "english": "Enduring Focus"
+    },
+    {
+      "node_id": "46909",
+      "kind": "node",
+      "english": "Totem Damage"
+    },
+    {
+      "node_id": "47192",
+      "kind": "node",
+      "english": "Life"
+    },
+    {
+      "node_id": "47393",
+      "kind": "node",
+      "english": "Spiteful Presence"
+    },
+    {
+      "node_id": "47424",
+      "kind": "node",
+      "english": "Steady Torment"
+    },
+    {
+      "node_id": "47584",
+      "kind": "node",
+      "english": "Special Reserve"
+    },
+    {
+      "node_id": "48550",
+      "kind": "node",
+      "english": "Titanic Swings"
+    },
+    {
+      "node_id": "48803",
+      "kind": "node",
+      "english": "Molten One's Mark"
+    },
+    {
+      "node_id": "48881",
+      "kind": "node",
+      "english": "Trap and Mine Damage"
+    },
+    {
+      "node_id": "48925",
+      "kind": "node",
+      "english": "Expansive Might"
+    },
+    {
+      "node_id": "48978",
+      "kind": "node",
+      "english": "Damage over Time Multiplier Mastery"
+    },
+    {
+      "node_id": "49273",
+      "kind": "node",
+      "english": "Touch of Cruelty"
+    },
+    {
+      "node_id": "49331",
+      "kind": "node",
+      "english": "Minion Damage"
+    },
+    {
+      "node_id": "49424",
+      "kind": "node",
+      "english": "Brand Damage Mastery"
+    },
+    {
+      "node_id": "49465",
+      "kind": "node",
+      "english": "Elemental Damage"
+    },
+    {
+      "node_id": "49694",
+      "kind": "node",
+      "english": "Peace Amidst Chaos"
+    },
+    {
+      "node_id": "49817",
+      "kind": "node",
+      "english": "Lightning Damage"
+    },
+    {
+      "node_id": "50820",
+      "kind": "node",
+      "english": "Militarism"
+    },
+    {
+      "node_id": "51042",
+      "kind": "node",
+      "english": "Life and Mana recovery from Flasks"
+    },
+    {
+      "node_id": "51421",
+      "kind": "node",
+      "english": "Pure Aptitude"
+    },
+    {
+      "node_id": "51467",
+      "kind": "node",
+      "english": "Astonishing Affliction"
+    },
+    {
+      "node_id": "51523",
+      "kind": "node",
+      "english": "Born of Chaos"
+    },
+    {
+      "node_id": "51541",
+      "kind": "node",
+      "english": "Eye of the Storm"
+    },
+    {
+      "node_id": "51642",
+      "kind": "node",
+      "english": "Mace and Staff Damage"
+    },
+    {
+      "node_id": "51870",
+      "kind": "node",
+      "english": "Purposeful Harbinger"
+    },
+    {
+      "node_id": "52058",
+      "kind": "node",
+      "english": "Arcane Pyrotechnics"
+    },
+    {
+      "node_id": "52544",
+      "kind": "node",
+      "english": "Savour the Moment"
+    },
+    {
+      "node_id": "52606",
+      "kind": "node",
+      "english": "Damage with Two Handed Melee Weapons Mastery"
+    },
+    {
+      "node_id": "52844",
+      "kind": "node",
+      "english": "Fettle"
+    },
+    {
+      "node_id": "52919",
+      "kind": "node",
+      "english": "Dexterity"
+    },
+    {
+      "node_id": "53067",
+      "kind": "node",
+      "english": "One with the Shield"
+    },
+    {
+      "node_id": "53285",
+      "kind": "node",
+      "english": "Repeater"
+    },
+    {
+      "node_id": "53318",
+      "kind": "node",
+      "english": "Battle-Hardened"
+    },
+    {
+      "node_id": "54170",
+      "kind": "node",
+      "english": "Eye to Eye"
+    },
+    {
+      "node_id": "54209",
+      "kind": "node",
+      "english": "Ancestral Guidance"
+    },
+    {
+      "node_id": "54382",
+      "kind": "node",
+      "english": "Vital Focus"
+    },
+    {
+      "node_id": "54436",
+      "kind": "node",
+      "english": "Cold to the Core"
+    },
+    {
+      "node_id": "54760",
+      "kind": "node",
+      "english": "Expert Sabotage"
+    },
+    {
+      "node_id": "54766",
+      "kind": "node",
+      "english": "Prismatic Carapace"
+    },
+    {
+      "node_id": "54798",
+      "kind": "node",
+      "english": "Insulated"
+    },
+    {
+      "node_id": "54888",
+      "kind": "node",
+      "english": "Attack Damage Mastery"
+    },
+    {
+      "node_id": "54935",
+      "kind": "node",
+      "english": "Bow Damage Mastery"
+    },
+    {
+      "node_id": "55022",
+      "kind": "node",
+      "english": "Call to the Slaughter"
+    },
+    {
+      "node_id": "55171",
+      "kind": "node",
+      "english": "Dread March"
+    },
+    {
+      "node_id": "55714",
+      "kind": "node",
+      "english": "Precise Focus"
+    },
+    {
+      "node_id": "56065",
+      "kind": "node",
+      "english": "Burning Bright"
+    },
+    {
+      "node_id": "56070",
+      "kind": "node",
+      "english": "Exposure Therapy"
+    },
+    {
+      "node_id": "56686",
+      "kind": "node",
+      "english": "Ancestral Preservation"
+    },
+    {
+      "node_id": "56696",
+      "kind": "node",
+      "english": "Cremator"
+    },
+    {
+      "node_id": "56760",
+      "kind": "node",
+      "english": "Deep Cuts"
+    },
+    {
+      "node_id": "56879",
+      "kind": "node",
+      "english": "Haemorrhage"
+    },
+    {
+      "node_id": "56886",
+      "kind": "node",
+      "english": "Distilled Perfection"
+    },
+    {
+      "node_id": "57049",
+      "kind": "node",
+      "english": "Fire Damage over Time Multiplier Mastery"
+    },
+    {
+      "node_id": "57104",
+      "kind": "node",
+      "english": "Evil Eye"
+    },
+    {
+      "node_id": "57141",
+      "kind": "node",
+      "english": "Disease Vector"
+    },
+    {
+      "node_id": "57212",
+      "kind": "node",
+      "english": "Ancestral Reach"
+    },
+    {
+      "node_id": "57280",
+      "kind": "node",
+      "english": "Secrets of Suffering"
+    },
+    {
+      "node_id": "57383",
+      "kind": "node",
+      "english": "Sleepless Sentries"
+    },
+    {
+      "node_id": "57572",
+      "kind": "node",
+      "english": "Enduring Composure"
+    },
+    {
+      "node_id": "57892",
+      "kind": "node",
+      "english": "Primordial Bond"
+    },
+    {
+      "node_id": "58031",
+      "kind": "node",
+      "english": "Damage with Two Handed Weapons"
+    },
+    {
+      "node_id": "58189",
+      "kind": "node",
+      "english": "Run Through"
+    },
+    {
+      "node_id": "58221",
+      "kind": "node",
+      "english": "Destructive Aspect"
+    },
+    {
+      "node_id": "58248",
+      "kind": "node",
+      "english": "Chilling Presence"
+    },
+    {
+      "node_id": "58618",
+      "kind": "node",
+      "english": "Physical Damage Mastery"
+    },
+    {
+      "node_id": "58904",
+      "kind": "node",
+      "english": "Alchemist"
+    },
+    {
+      "node_id": "58944",
+      "kind": "node",
+      "english": "Vicious Guard"
+    },
+    {
+      "node_id": "58949",
+      "kind": "node",
+      "english": "Renewal"
+    },
+    {
+      "node_id": "59307",
+      "kind": "node",
+      "english": "Remarkable"
+    },
+    {
+      "node_id": "59350",
+      "kind": "node",
+      "english": "Electric Presence"
+    },
+    {
+      "node_id": "59646",
+      "kind": "node",
+      "english": "Supercharge"
+    },
+    {
+      "node_id": "60069",
+      "kind": "node",
+      "english": "Hollow Palm Technique"
+    },
+    {
+      "node_id": "60617",
+      "kind": "node",
+      "english": "Magnifier"
+    },
+    {
+      "node_id": "60647",
+      "kind": "node",
+      "english": "Second Skin"
+    },
+    {
+      "node_id": "60690",
+      "kind": "node",
+      "english": "Sublime Form"
+    },
+    {
+      "node_id": "60864",
+      "kind": "node",
+      "english": "Ancestral Might"
+    },
+    {
+      "node_id": "60894",
+      "kind": "node",
+      "english": "Wound Aggravation"
+    },
+    {
+      "node_id": "61043",
+      "kind": "node",
+      "english": "Eldritch Inspiration"
+    },
+    {
+      "node_id": "61474",
+      "kind": "node",
+      "english": "Surefooted Striker"
+    },
+    {
+      "node_id": "61549",
+      "kind": "node",
+      "english": "Forbidden Words"
+    },
+    {
+      "node_id": "61616",
+      "kind": "node",
+      "english": "Volatile Presence"
+    },
+    {
+      "node_id": "61851",
+      "kind": "node",
+      "english": "Effect of Non-Damaging Ailments"
+    },
+    {
+      "node_id": "61998",
+      "kind": "node",
+      "english": "Agent of Destruction"
+    },
+    {
+      "node_id": "62160",
+      "kind": "node",
+      "english": "Genius"
+    },
+    {
+      "node_id": "62318",
+      "kind": "node",
+      "english": "Life from Death"
+    },
+    {
+      "node_id": "62618",
+      "kind": "node",
+      "english": "Hit and Run"
+    },
+    {
+      "node_id": "62634",
+      "kind": "node",
+      "english": "Replenishing Presence"
+    },
+    {
+      "node_id": "62706",
+      "kind": "node",
+      "english": "Sublime Sensation"
+    },
+    {
+      "node_id": "62707",
+      "kind": "node",
+      "english": "Numbing Elixir"
+    },
+    {
+      "node_id": "63142",
+      "kind": "node",
+      "english": "Skullbreaker"
+    },
+    {
+      "node_id": "63454",
+      "kind": "node",
+      "english": "Area Damage Mastery"
+    },
+    {
+      "node_id": "63607",
+      "kind": "node",
+      "english": "Towering Threat"
+    },
+    {
+      "node_id": "63969",
+      "kind": "node",
+      "english": "Vast Power"
+    },
+    {
+      "node_id": "64259",
+      "kind": "node",
+      "english": "Natural Vigour"
+    },
+    {
+      "node_id": "64407",
+      "kind": "node",
+      "english": "Riot Queller"
+    },
+    {
+      "node_id": "64717",
+      "kind": "node",
+      "english": "Blessed"
+    },
+    {
+      "node_id": "64782",
+      "kind": "node",
+      "english": "Spring Back"
+    },
+    {
+      "node_id": "65026",
+      "kind": "node",
+      "english": "Lightning Resistance"
+    },
+    {
+      "node_id": "65110",
+      "kind": "node",
+      "english": "Vile Reinvigoration"
+    },
+    {
+      "node_id": "65117",
+      "kind": "node",
+      "english": "Hex Breaker"
+    },
+    {
+      "node_id": "65138",
+      "kind": "node",
+      "english": "Expendability"
+    },
+    {
+      "node_id": "65506",
+      "kind": "node",
+      "english": "Strength"
+    },
+    {
+      "node_id": "65521",
+      "kind": "node",
+      "english": "Self-Fulfilling Prophecy"
+    }
+  ],
+  "conflicts": [
     {
       "english": "Sword Critical Strike Chance and Multiplier",
       "translations": [
@@ -153,6 +2158,13 @@
       "translations": [
         "地雷暴击率和伤害加成",
         "地雷暴击率和加成"
+      ]
+    },
+    {
+      "english": "25% increased Critical Strike Chance",
+      "translations": [
+        "暴击率提高 25%",
+        "+25% 攻击和法术暴击伤害加成"
       ]
     },
     {
@@ -288,6 +2300,13 @@
         "元素伤害和攻击和施法速度",
         "元素伤害，攻击和施法速度",
         "元素伤害, 攻击和施法速度"
+      ]
+    },
+    {
+      "english": "+1 to Maximum number of Raised Zombies",
+      "translations": [
+        "+1 灵体数量上限",
+        "+1 魔卫复苏数量上限"
       ]
     },
     {

@@ -38,7 +38,7 @@ dofile('Launch.lua')
 ]])
 assert(loadstring(source))()
 newBuild()
-build.itemsTab:AddItem(new('Item','Rarity: NORMAL\nRusted Sword\n'))
+build.itemsTab:AddItem(new('Item'):Item('Rarity: NORMAL\nRusted Sword\n'))
 build.skillsTab:PasteSocketGroup('Slot: Weapon 1\n'..AUDIT_GEM..' 20/0  1\n')
 build.viewMode='CALCS';runCallback('OnFrame')
 local L=Localization

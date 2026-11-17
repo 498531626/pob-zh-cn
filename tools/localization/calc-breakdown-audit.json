@@ -12,6 +12,7 @@
     "ActiveMineLimit",
     "ActiveTotemLimit",
     "ActiveTrapLimit",
+    "AddLifeRecoupToManaRecoup",
     "AdditionalChainsAddSplitsInstead",
     "AdditionalCooldownUses",
     "AdditionalPoisonChance",
@@ -103,6 +104,11 @@
     "BlockedDamageDoesntBypassES",
     "BloodChargesMax",
     "BloodMagicReserved",
+    "BloodShrineOfBats",
+    "BloodShrineOfCrows",
+    "BloodShrineOfLocusts",
+    "BloodShrineOfRats",
+    "BloodShrineOfToads",
     "BounceCount",
     "BrandAttachmentRange",
     "BrandsAttachedLimit",
@@ -119,6 +125,7 @@
     "BuffEffect",
     "BuffEffectOnSelf",
     "BuffExpireFaster",
+    "CanAttackAsClawUnarmed",
     "CanCreateBrineGround",
     "CanInflictBarnacles",
     "CanLeechEnergyShieldOnFullEnergyShield",
@@ -147,6 +154,7 @@
     "CannotLeechMana",
     "CannotMultiplePoison",
     "CannotPierce",
+    "CannotRecoupLife",
     "CannotRecoverLifeOutsideLeech",
     "CannotSap",
     "CannotScorch",
@@ -284,6 +292,7 @@
     "Condition:CanGainMana",
     "Condition:CanGainRage",
     "Condition:CanHaveAlchemistGenius",
+    "Condition:CanHaveBloodShrines",
     "Condition:CanHaveRegularShrines",
     "Condition:CanHaveSoulEater",
     "Condition:CanInflictHallowingFlame",
@@ -434,6 +443,7 @@
     "CooldownRecovery",
     "CorpseLevel",
     "CorpseLife",
+    "CorruptImplicitCount",
     "CorruptedBloodImmune",
     "Cost",
     "CostESInsteadOfManaOrLife",
@@ -542,6 +552,9 @@
     "EnemyBrittleChance",
     "EnemyBrittleDuration",
     "EnemyBrittleEffect",
+    "EnemyCannotPenColdResistance",
+    "EnemyCannotPenFireResistance",
+    "EnemyCannotPenLightningResistance",
     "EnemyChillDuration",
     "EnemyChillEffect",
     "EnemyCurseLimit",
@@ -594,7 +607,9 @@
     "EvasionESRecoveryCap",
     "EvasionRatingIncreasedByOvercappedColdRes",
     "EvasionRatingIncreasedByUncappedColdRes",
+    "Every2UseManaCostRefund",
     "Every3UseCrit",
+    "Every6UseCrit",
     "Excommunicated",
     "ExertAttackIncrease",
     "ExertIncrease",
@@ -691,6 +706,8 @@
     "FrenzyChargesMin",
     "FrostGlobeDamageMitigation",
     "FrostGlobeHealth",
+    "GemGlobalLevel",
+    "GemGlobalQuality",
     "GemItemLevel",
     "GemItemQuality",
     "GemLevel",
@@ -854,6 +871,7 @@
     "LootRarity",
     "LootRarityMagicEnemies",
     "LuckyHits",
+    "LuckyHitsChance",
     "MagicUtilityFlaskEffect",
     "MaimImmune",
     "MainHandCritIsEqualToParent",
@@ -919,6 +937,7 @@
     "MinionCastSpeedAppliesToPlayer",
     "MinionDamageAppliesToPlayer",
     "MinionModifier",
+    "MinionsGainYourSpellSuppressionChance",
     "MovementSpeed",
     "MovementSpeedCannotBeBelowBase",
     "MovementSpeedEqualHighestLinkedPlayers",
@@ -951,6 +970,8 @@
     "Multiplier:HallowingFlameStacksRemovedByAlly",
     "Multiplier:ImpaleStacks",
     "Multiplier:IntensityLimit",
+    "Multiplier:LunarProtection",
+    "Multiplier:LunarResistance",
     "Multiplier:NonVaalSummonedMinion",
     "Multiplier:OathOfTheMajiDoubled",
     "Multiplier:PermanentMinion",
@@ -974,6 +995,7 @@
     "Multiplier:SpectralTigerCount",
     "Multiplier:SpiderWebApplyStackMax",
     "Multiplier:SummonedMinion",
+    "Multiplier:SunscaldStack",
     "Multiplier:TraumaStacks",
     "Multiplier:UnlinkedSocketInAmulet",
     "Multiplier:UnlinkedSocketInBelt",
@@ -1111,6 +1133,7 @@
     "RageRegen",
     "RageRegenPercent",
     "RaisedSkeletonPermanentDuration",
+    "RecoupRecoveryAmount",
     "ReduceCritExtraDamage",
     "ReflectedDamageTaken",
     "RepeatCount",
@@ -1241,6 +1264,7 @@
     "SmallExplosions",
     "SocketAlwaysMatches",
     "SocketedCursesHexLimitValue",
+    "SocketedSupportGemsHaveNoEffect",
     "SoulCost",
     "SoulCostEfficiency",
     "SoulEaterMax",
@@ -1348,8 +1372,8 @@
     "takenFromVoidSpawnBeforeYou",
     "tornadoShotSecondaryProjectiles"
   ],
-  "numeric_comparisons": 15924,
-  "observed_modifiers": 1347,
+  "numeric_comparisons": 15994,
+  "observed_modifiers": 1371,
   "pending": [],
   "rows": [
     {
@@ -1775,6 +1799,12 @@
     {
       "chinese": "+1基础值陷阱数量上限",
       "english": "+1 base Active Trap Limit",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值附加生命损伤补偿至魔力损伤补偿",
+      "english": "+1 base Add Life Recoup To Mana Recoup",
       "kind": "schema source totals source tooltip",
       "remaining": []
     },
@@ -2325,6 +2355,36 @@
       "remaining": []
     },
     {
+      "chinese": "+1基础值蝙蝠之鲜血神龛",
+      "english": "+1 base Blood Shrine Of Bats",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值乌鸦之鲜血神龛",
+      "english": "+1 base Blood Shrine Of Crows",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值飞蝗之鲜血神龛",
+      "english": "+1 base Blood Shrine Of Locusts",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值鼠群之鲜血神龛",
+      "english": "+1 base Blood Shrine Of Rats",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值蟾蜍之鲜血神龛",
+      "english": "+1 base Blood Shrine Of Toads",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
       "chinese": "+1基础值弹射数量",
       "english": "+1 base Bounce Count",
       "kind": "schema source totals source tooltip",
@@ -2417,6 +2477,12 @@
     {
       "chinese": "+1基础值增益消退加快",
       "english": "+1 base Buff Expire Faster",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值可以攻击作为爪空手",
+      "english": "+1 base Can Attack As Claw Unarmed",
       "kind": "schema source totals source tooltip",
       "remaining": []
     },
@@ -2585,6 +2651,12 @@
     {
       "chinese": "+1基础值无法穿透",
       "english": "+1 base Cannot Pierce",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值无法损伤补偿生命",
+      "english": "+1 base Cannot Recoup Life",
       "kind": "schema source totals source tooltip",
       "remaining": []
     },
@@ -3267,7 +3339,7 @@
       "remaining": []
     },
     {
-      "chinese": "+1基础值条件:对抗持续伤害加成",
+      "chinese": "+1基础值条件:对抗持续伤害",
       "english": "+1 base Condition:Against Damage Over Time",
       "kind": "schema source totals source tooltip",
       "remaining": []
@@ -3405,8 +3477,14 @@
       "remaining": []
     },
     {
-      "chinese": "+1基础值条件:可以拥有炼金师天才",
+      "chinese": "+1基础值条件:可获得炼金天才",
       "english": "+1 base Condition:Can Have Alchemist Genius",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值条件:可以拥有鲜血神殿",
+      "english": "+1 base Condition:Can Have Blood Shrines",
       "kind": "schema source totals source tooltip",
       "remaining": []
     },
@@ -3825,7 +3903,7 @@
       "remaining": []
     },
     {
-      "chinese": "+1基础值条件:拥有破法",
+      "chinese": "+1基础值条件:拥有法师克星",
       "english": "+1 base Condition:Have Magebane",
       "kind": "schema source totals source tooltip",
       "remaining": []
@@ -4311,6 +4389,12 @@
       "remaining": []
     },
     {
+      "chinese": "+1基础值腐化固定词缀数量",
+      "english": "+1 base Corrupt Implicit Count",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
       "chinese": "+1基础值腐化之血免疫",
       "english": "+1 base Corrupted Blood Immune",
       "kind": "schema source totals source tooltip",
@@ -4461,7 +4545,7 @@
       "remaining": []
     },
     {
-      "chinese": "+1基础值恶狼哭号最低威力值",
+      "chinese": "+1基础值战吼狼最低威力值",
       "english": "+1 base Cry Wolf Minimum Power",
       "kind": "schema source totals source tooltip",
       "remaining": []
@@ -4959,6 +5043,24 @@
       "remaining": []
     },
     {
+      "chinese": "+1基础值敌人无法穿透冰霜抗性",
+      "english": "+1 base Enemy Cannot Pen Cold Resistance",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值敌人无法穿透火焰抗性",
+      "english": "+1 base Enemy Cannot Pen Fire Resistance",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值敌人无法穿透闪电抗性",
+      "english": "+1 base Enemy Cannot Pen Lightning Resistance",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
       "chinese": "+1基础值敌人冰缓持续时间",
       "english": "+1 base Enemy Chill Duration",
       "kind": "schema source totals source tooltip",
@@ -5127,7 +5229,7 @@
       "remaining": []
     },
     {
-      "chinese": "+1基础值能量护盾提高通过格挡法术伤害几率",
+      "chinese": "+1基础值能量护盾提高通过几率至格挡法术伤害",
       "english": "+1 base Energy Shield Increased By Chance To Block Spell Damage",
       "kind": "schema source totals source tooltip",
       "remaining": []
@@ -5271,8 +5373,20 @@
       "remaining": []
     },
     {
+      "chinese": "+1基础值每2使用魔力消耗返还",
+      "english": "+1 base Every2Use Mana Cost Refund",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
       "chinese": "+1基础值每3使用暴击",
       "english": "+1 base Every3Use Crit",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值每6使用暴击",
+      "english": "+1 base Every6Use Crit",
       "kind": "schema source totals source tooltip",
       "remaining": []
     },
@@ -5849,6 +5963,18 @@
     {
       "chinese": "+1基础值冰霜球体生命值",
       "english": "+1 base Frost Globe Health",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值技能石全局等级",
+      "english": "+1 base Gem Global Level",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值技能石全局品质",
+      "english": "+1 base Gem Global Quality",
       "kind": "schema source totals source tooltip",
       "remaining": []
     },
@@ -6831,6 +6957,12 @@
       "remaining": []
     },
     {
+      "chinese": "+1基础值幸运击中几率",
+      "english": "+1 base Lucky Hits Chance",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
       "chinese": "+1基础值魔法功能药剂效果",
       "english": "+1 base Magic Utility Flask Effect",
       "kind": "schema source totals source tooltip",
@@ -7221,6 +7353,12 @@
       "remaining": []
     },
     {
+      "chinese": "+1基础值召唤生物获得你的法术伤害压制率",
+      "english": "+1 base Minions Gain Your Spell Suppression Chance",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
       "chinese": "+1基础值移动速度",
       "english": "+1 base Movement Speed",
       "kind": "schema source totals source tooltip",
@@ -7419,8 +7557,20 @@
       "remaining": []
     },
     {
-      "chinese": "+1基础值倍率:凝聚上限",
+      "chinese": "+1基础值倍率:凝聚层数上限",
       "english": "+1 base Multiplier:Intensity Limit",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值倍率:月影防护",
+      "english": "+1 base Multiplier:Lunar Protection",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值倍率:月影抗性",
+      "english": "+1 base Multiplier:Lunar Resistance",
       "kind": "schema source totals source tooltip",
       "remaining": []
     },
@@ -7559,6 +7709,12 @@
     {
       "chinese": "+1基础值倍率:已召唤召唤生物",
       "english": "+1 base Multiplier:Summoned Minion",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
+      "chinese": "+1基础值倍率:烈日灼心层",
+      "english": "+1 base Multiplier:Sunscald Stack",
       "kind": "schema source totals source tooltip",
       "remaining": []
     },
@@ -8373,6 +8529,12 @@
       "remaining": []
     },
     {
+      "chinese": "+1基础值补偿恢复量",
+      "english": "+1 base Recoup Recovery Amount",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
       "chinese": "+1基础值降低暴击额外伤害",
       "english": "+1 base Reduce Crit Extra Damage",
       "kind": "schema source totals source tooltip",
@@ -8517,7 +8679,7 @@
       "remaining": []
     },
     {
-      "chinese": "+1基础值烧灼飞掠者",
+      "chinese": "+1基础值酷热的飞掠者",
       "english": "+1 base Scorching Skitterbot",
       "kind": "schema source totals source tooltip",
       "remaining": []
@@ -9153,6 +9315,12 @@
       "remaining": []
     },
     {
+      "chinese": "+1基础值插入插槽的辅助宝石拥有无效果",
+      "english": "+1 base Socketed Support Gems Have No Effect",
+      "kind": "schema source totals source tooltip",
+      "remaining": []
+    },
+    {
       "chinese": "+1基础值灵魂消耗",
       "english": "+1 base Soul Cost",
       "kind": "schema source totals source tooltip",
@@ -9777,7 +9945,7 @@
       "remaining": []
     },
     {
-      "chinese": "+1基础值伤害转由虚空造物先于自身承受",
+      "chinese": "+1基础值优先由虚空孳虫承受",
       "english": "+1 base taken From Void Spawn Before You",
       "kind": "schema source totals source tooltip",
       "remaining": []
@@ -9821,7 +9989,7 @@
     {
       "chinese": "+10 基础值",
       "english": "+10 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -9863,7 +10031,7 @@
     {
       "chinese": "+15 基础值",
       "english": "+15 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -9905,13 +10073,13 @@
     {
       "chinese": "+25 基础值",
       "english": "+25 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
       "chinese": "+3 基础值",
       "english": "+3 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -10061,7 +10229,7 @@
     {
       "chinese": "+54 基础值",
       "english": "+54 base",
-      "kind": "materialized Righteous Fire",
+      "kind": "materialized Righteous Fire source tooltip",
       "remaining": []
     },
     {
@@ -10341,8 +10509,8 @@
       "remaining": []
     },
     {
-      "chinese": "0%，在 4 秒内",
-      "english": "0% over 4 seconds",
+      "chinese": "0% ^8(基础值)",
+      "english": "0% ^8(base)",
       "kind": "materialized Fireball",
       "remaining": []
     },
@@ -10374,6 +10542,12 @@
       "chinese": "0.0 ^8(生命总再生)",
       "english": "0.0 ^8(total life regen)",
       "kind": "materialized Righteous Fire",
+      "remaining": []
+    },
+    {
+      "chinese": "0.0%，在 4 秒内",
+      "english": "0.0% over 4 seconds",
+      "kind": "materialized Fireball",
       "remaining": []
     },
     {
@@ -10677,6 +10851,12 @@
       "remaining": []
     },
     {
+      "chinese": "防御提高 16%",
+      "english": "16% increased Defences",
+      "kind": "materialized Summon Stone Golem source tooltip",
+      "remaining": []
+    },
+    {
       "chinese": "16.00 ^8(基础魔力消耗)",
       "english": "16.00 ^8(base mana cost)",
       "kind": "materialized Blade Vortex",
@@ -10746,12 +10926,6 @@
       "chinese": "20% 提高",
       "english": "20% increased",
       "kind": "runtime modifier",
-      "remaining": []
-    },
-    {
-      "chinese": "防御提高 20%",
-      "english": "20% increased Defences",
-      "kind": "materialized Summon Stone Golem source tooltip",
       "remaining": []
     },
     {
@@ -10829,7 +11003,7 @@
     {
       "chinese": "25% 总降",
       "english": "25% less",
-      "kind": "materialized Arc",
+      "kind": "materialized Arc source tooltip",
       "remaining": []
     },
     {
@@ -10901,7 +11075,7 @@
     {
       "chinese": "30% 总降",
       "english": "30% less",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -11147,7 +11321,7 @@
     {
       "chinese": "80% 总降",
       "english": "80% less",
-      "kind": "materialized Storm Brand",
+      "kind": "materialized Storm Brand source tooltip",
       "remaining": []
     },
     {
@@ -11189,6 +11363,12 @@
     {
       "chinese": "= 0.0 ^8每秒^7",
       "english": "= 0.0 ^8per second",
+      "kind": "materialized Fireball",
+      "remaining": []
+    },
+    {
+      "chinese": "= 0.0%，在 4 秒内",
+      "english": "= 0.0% over 4 seconds",
       "kind": "materialized Fireball",
       "remaining": []
     },
@@ -11621,6 +11801,12 @@
     {
       "chinese": "陷阱数量上限",
       "english": "Active Trap Limit",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "附加生命损伤补偿至魔力损伤补偿",
+      "english": "Add Life Recoup To Mana Recoup",
       "kind": "identifier",
       "remaining": []
     },
@@ -12273,6 +12459,36 @@
       "remaining": []
     },
     {
+      "chinese": "蝙蝠之鲜血神龛",
+      "english": "Blood Shrine Of Bats",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "乌鸦之鲜血神龛",
+      "english": "Blood Shrine Of Crows",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "飞蝗之鲜血神龛",
+      "english": "Blood Shrine Of Locusts",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "鼠群之鲜血神龛",
+      "english": "Blood Shrine Of Rats",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "蟾蜍之鲜血神龛",
+      "english": "Blood Shrine Of Toads",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
       "chinese": "弹射数量",
       "english": "Bounce Count",
       "kind": "identifier",
@@ -12384,6 +12600,12 @@
       "chinese": "计算",
       "english": "Calculation",
       "kind": "materialized Poisonous Concoction",
+      "remaining": []
+    },
+    {
+      "chinese": "可以攻击作为爪空手",
+      "english": "Can Attack As Claw Unarmed",
+      "kind": "identifier",
       "remaining": []
     },
     {
@@ -12551,6 +12773,12 @@
     {
       "chinese": "无法穿透",
       "english": "Cannot Pierce",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "无法损伤补偿生命",
+      "english": "Cannot Recoup Life",
       "kind": "identifier",
       "remaining": []
     },
@@ -13299,7 +13527,7 @@
       "remaining": []
     },
     {
-      "chinese": "条件：对抗持续伤害加成",
+      "chinese": "条件：对抗持续伤害",
       "english": "Condition: Against Damage Over Time",
       "kind": "identifier",
       "remaining": []
@@ -13379,6 +13607,36 @@
     {
       "chinese": "条件：被格挡法术近期内",
       "english": "Condition: Blocked Spell Recently",
+      "kind": "runtime modifier",
+      "remaining": []
+    },
+    {
+      "chinese": "条件：蝙蝠之鲜血神龛",
+      "english": "Condition: Blood Shrine Of Bats",
+      "kind": "runtime modifier",
+      "remaining": []
+    },
+    {
+      "chinese": "条件：乌鸦之鲜血神龛",
+      "english": "Condition: Blood Shrine Of Crows",
+      "kind": "runtime modifier",
+      "remaining": []
+    },
+    {
+      "chinese": "条件：飞蝗之鲜血神龛",
+      "english": "Condition: Blood Shrine Of Locusts",
+      "kind": "runtime modifier",
+      "remaining": []
+    },
+    {
+      "chinese": "条件：鼠群之鲜血神龛",
+      "english": "Condition: Blood Shrine Of Rats",
+      "kind": "runtime modifier",
+      "remaining": []
+    },
+    {
+      "chinese": "条件：蟾蜍之鲜血神龛",
+      "english": "Condition: Blood Shrine Of Toads",
       "kind": "runtime modifier",
       "remaining": []
     },
@@ -13473,8 +13731,14 @@
       "remaining": []
     },
     {
-      "chinese": "条件：可以拥有炼金师天才的",
+      "chinese": "条件：可获得炼金天才",
       "english": "Condition: Can Have Alchemist Genius",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "条件：可以拥有鲜血神殿",
+      "english": "Condition: Can Have Blood Shrines",
       "kind": "identifier",
       "remaining": []
     },
@@ -14751,6 +15015,12 @@
       "remaining": []
     },
     {
+      "chinese": "腐化固定词缀数量",
+      "english": "Corrupt Implicit Count",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
       "chinese": "腐化之血免疫",
       "english": "Corrupted Blood Immune",
       "kind": "identifier",
@@ -14919,7 +15189,7 @@
       "remaining": []
     },
     {
-      "chinese": "恶狼哭号最低威力值",
+      "chinese": "战吼狼最低威力值",
       "english": "Cry Wolf Minimum Power",
       "kind": "identifier",
       "remaining": []
@@ -15291,8 +15561,8 @@
       "remaining": []
     },
     {
-      "chinese": "有效闪避值：19",
-      "english": "Effective Evasion: 19",
+      "chinese": "有效闪避值：18",
+      "english": "Effective Evasion: 18",
       "kind": "materialized Summon Stone Golem",
       "remaining": []
     },
@@ -15515,6 +15785,24 @@
     {
       "chinese": "敌人脆弱效果",
       "english": "Enemy Brittle Effect",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "敌人无法穿透冰霜抗性",
+      "english": "Enemy Cannot Pen Cold Resistance",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "敌人无法穿透火焰抗性",
+      "english": "Enemy Cannot Pen Fire Resistance",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "敌人无法穿透闪电抗性",
+      "english": "Enemy Cannot Pen Lightning Resistance",
       "kind": "identifier",
       "remaining": []
     },
@@ -15759,7 +16047,7 @@
       "remaining": []
     },
     {
-      "chinese": "能量护盾提高通过格挡法术伤害几率",
+      "chinese": "能量护盾提高通过几率至格挡法术伤害",
       "english": "Energy Shield Increased By Chance To Block Spell Damage",
       "kind": "identifier",
       "remaining": []
@@ -15909,8 +16197,20 @@
       "remaining": []
     },
     {
+      "chinese": "每2使用魔力消耗返还",
+      "english": "Every 2 Use Mana Cost Refund",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
       "chinese": "每3使用暴击",
       "english": "Every 3 Use Crit",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "每6使用暴击",
+      "english": "Every 6 Use Crit",
       "kind": "identifier",
       "remaining": []
     },
@@ -16560,6 +16860,18 @@
       "chinese": "技能石",
       "english": "Gem",
       "kind": "materialized Fireball",
+      "remaining": []
+    },
+    {
+      "chinese": "技能石全局等级",
+      "english": "Gem Global Level",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "技能石全局品质",
+      "english": "Gem Global Quality",
+      "kind": "identifier",
       "remaining": []
     },
     {
@@ -17637,6 +17949,12 @@
       "remaining": []
     },
     {
+      "chinese": "幸运击中几率",
+      "english": "Lucky Hits Chance",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
       "chinese": "魔法功能药剂效果",
       "english": "Magic Utility Flask Effect",
       "kind": "identifier",
@@ -18081,6 +18399,12 @@
       "remaining": []
     },
     {
+      "chinese": "召唤生物获得你的法术伤害压制率",
+      "english": "Minions Gain Your Spell Suppression Chance",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
       "chinese": "总增／总降",
       "english": "More/less",
       "kind": "materialized Fireball",
@@ -18303,8 +18627,20 @@
       "remaining": []
     },
     {
-      "chinese": "计数：凝聚上限",
+      "chinese": "计数：凝聚层数上限",
       "english": "Multiplier: Intensity Limit",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "计数：月影防护",
+      "english": "Multiplier: Lunar Protection",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "计数：月影抗性",
+      "english": "Multiplier: Lunar Resistance",
       "kind": "identifier",
       "remaining": []
     },
@@ -18443,6 +18779,12 @@
     {
       "chinese": "计数：已召唤召唤生物",
       "english": "Multiplier: Summoned Minion",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
+      "chinese": "计数：烈日灼心层",
+      "english": "Multiplier: Sunscald Stack",
       "kind": "identifier",
       "remaining": []
     },
@@ -19389,6 +19731,12 @@
       "remaining": []
     },
     {
+      "chinese": "补偿恢复量",
+      "english": "Recoup Recovery Amount",
+      "kind": "identifier",
+      "remaining": []
+    },
+    {
       "chinese": "降低暴击额外伤害",
       "english": "Reduce Crit Extra Damage",
       "kind": "identifier",
@@ -19551,7 +19899,7 @@
       "remaining": []
     },
     {
-      "chinese": "烧灼飞掠者",
+      "chinese": "酷热的飞掠者",
       "english": "Scorching Skitterbot",
       "kind": "identifier",
       "remaining": []
@@ -20205,6 +20553,12 @@
       "remaining": []
     },
     {
+      "chinese": "技能类型: 法术, 技能类型: 不 ?",
+      "english": "Skill type: Spell, Skill type: Not ?",
+      "kind": "runtime modifier",
+      "remaining": []
+    },
+    {
       "chinese": "技能类型: 旅行",
       "english": "Skill type: Travel",
       "kind": "runtime modifier",
@@ -20352,6 +20706,12 @@
       "chinese": "插入插槽",
       "english": "Socketed In",
       "kind": "runtime modifier",
+      "remaining": []
+    },
+    {
+      "chinese": "插入插槽的辅助宝石拥有无效果",
+      "english": "Socketed Support Gems Have No Effect",
+      "kind": "identifier",
       "remaining": []
     },
     {
@@ -21261,6 +21621,12 @@
       "remaining": []
     },
     {
+      "chinese": "^8等级上限 20",
+      "english": "^8Limited to Level 20",
+      "kind": "materialized Puncture",
+      "remaining": []
+    },
+    {
       "chinese": "^8最大承受击中按反向顺序计算——",
       "english": "^8Maximum hit is calculated in reverse -",
       "kind": "materialized Fireball",
@@ -21495,7 +21861,7 @@
       "remaining": []
     },
     {
-      "chinese": "伤害转由虚空造物先于自身承受",
+      "chinese": "优先由虚空孳虫承受",
       "english": "taken From Void Spawn Before You",
       "kind": "identifier",
       "remaining": []
@@ -21863,18 +22229,18 @@
   ],
   "scope": "All evaluated CalcSections keys, every table from 12 skill fixtures, startup/runtime modifier constructors and their renderable notes/flags; unresolved pre-calculation constructor templates listed separately; no user builds.",
   "source_sha256": {
-    "Classes/CalcBreakdownControl.lua": "880130ca0fbb72323565a3f6b698eab169448b46b3387e3636bafcf3eb49d1c8",
-    "Localization/CalcIdentifierTerms.lua": "d8eb946a14d98a4b1ef637f1ba1df94cf0d182a4e97dcdfe45313e33b3cb8b1c",
-    "Localization/CalcIdentifiers.lua": "00530e137e870c49d2845cc19f8b467536c82cd05de56f50c96ce59d510c7b21",
-    "Modules/CalcSections.lua": "ad42fe24eacc4441a2fdfe3fc563356bf7c913f6010fb41db951b7e9b1e26383",
-    "Modules/Localization.lua": "d558649457df03d7e5eeb733bcc6ba8f7a68e99a3b209a5462accf01c0829ef0",
-    "Modules/ModParser.lua": "735f24326dce5e0f0940a5866947e8b23ea0ef3ada6df522a94586c092544b94"
+    "Classes/CalcBreakdownControl.lua": "1d817f5a197b0a43aecdcce26c684ce0d530cdea80032142db8e5fda1d10bb7b",
+    "Localization/CalcIdentifierTerms.lua": "7881b062b79ca906470924ff473a2e15d5c234cb70ec3da6929713dbcc3d9c0c",
+    "Localization/CalcIdentifiers.lua": "cc62e1aef377cd7d576e754399cd865c3e6125c8ac4c9787c6c288239178771b",
+    "Modules/CalcSections.lua": "4ab745c161cc2c1d7508308dcdd1f130fddcb224e61f799d6167c941875dfcdd",
+    "Modules/Localization.lua": "a1aaaea21a4adccdb69f8b25110c45b28c34ed4422f7c23765c8c93242e83f8a",
+    "Modules/ModParser.lua": "d178a38b8aa4b365aa3c99ab31bc3ba16f301e09387ace511eefa470ef48f1f8"
   },
-  "texts": 3418,
+  "texts": 3475,
   "unresolved_constructor_templates": [
     {
       "id": "EnableSkill",
-      "reason": "Classes/CalcBreakdownControl.lua:466: attempt to concatenate field 'skillName' (a nil value)"
+      "reason": "Classes/CalcBreakdownControl.lua:503: attempt to concatenate field 'skillName' (a nil value)"
     }
   ]
 }

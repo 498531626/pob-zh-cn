@@ -1,37 +1,34 @@
 {
-  "source_rows": 6275,
-  "matched_pairs": 12469,
-  "exact_entries": 2745,
-  "numeric_templates": 1065,
+  "obsolete_reviewed": [
+    "All Relics",
+    "Bone Husk",
+    "Cannibal Fire-eater",
+    "Goatman Shaman",
+    "Gut Flayer",
+    "Tentacle Miscreation",
+    "Whipping Miscreation",
+    "1% additional Physical Damage Reduction for each nearby Enemy, up to 8%",
+    "1% increased Movement Speed for each nearby Enemy, up to 8%",
+    "6% additional Physical Damage Reduction while there is only one nearby Enemy",
+    "Summoned Arbalist",
+    "Summoned Rhoa"
+  ],
+  "source_rows": 5970,
+  "matched_pairs": 11869,
+  "exact_entries": 2418,
+  "numeric_templates": 1026,
   "ambiguous_exact": {
     "Ancient Orb": [
       "远古石",
       "古变石"
     ],
-    "Tailoring Orb": [
-      "裁剪石",
-      "裁缝石"
-    ],
     "Tempering Orb": [
       "回火石",
       "淬炼石"
     ],
-    "Goatman Shaman": [
-      "羊人术师",
-      "羊人萨满"
-    ],
-    "Bone Husk": [
-      "白骨之牙",
-      "骨壳"
-    ],
-    "Necromancer": [
-      "死灵法师",
-      "召唤师",
-      "死灵师"
-    ],
-    "Tentacle Miscreation": [
-      "古灵实验者:扫荡者",
-      "古灵实验者：扫荡者"
+    "Tailoring Orb": [
+      "裁剪石",
+      "裁缝石"
     ],
     "Instilling Orb": [
       "灌顶石",
@@ -41,17 +38,9 @@
       "剥离石",
       "无效石"
     ],
-    "Gut Flayer": [
-      "裂脏剥皮者",
-      "裂脏剥皮刃"
-    ],
     "Necromantic Aegis": [
       "灵能护盾",
       "灵能神盾"
-    ],
-    "Whipping Miscreation": [
-      "古灵实验者:长鞭",
-      "古灵实验者：长鞭"
     ],
     "Evasion": [
       "闪避值",

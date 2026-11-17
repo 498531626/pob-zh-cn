@@ -6511,11 +6511,11 @@
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Decoy, Devouring and Rejuvenation Totems Reflect 100% of their maximum Life as Fire Damage to nearby Enemies when Hit",
+    "english":"Decoy, Devouring and Rejuvenation Totems Reflect 100% of their maximum Life as Fire Damage to Enemies within a base radius of 1.8 metres when Hit",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Decoy, Devouring and Rejuvenation Totems Reflect 200% of their maximum Life as Fire Damage to nearby Enemies when Hit",
+    "english":"Decoy, Devouring and Rejuvenation Totems Reflect 200% of their maximum Life as Fire Damage to Enemies within a base radius of 1.8 metres when Hit",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
@@ -6835,51 +6835,51 @@
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Grants Level 20 Aspect of Arakaali Skill",
+    "english":"Grants Level 20 Aspect of Arakaali",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
-    "english":"Grants Level 20 Aspect of Lunaris Skill",
+    "english":"Grants Level 20 Aspect of Lunaris",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
-    "english":"Grants Level 20 Aspect of Solaris Skill",
+    "english":"Grants Level 20 Aspect of Solaris",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
-    "english":"Grants Level 20 Aspect of the Avian Skill",
+    "english":"Grants Level 20 Aspect of the Avian",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
-    "english":"Grants Level 20 Aspect of the Brine King Skill",
+    "english":"Grants Level 20 Aspect of the Brine King",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
-    "english":"Grants Level 20 Aspect of the Cat Skill",
+    "english":"Grants Level 20 Aspect of the Cat",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
-    "english":"Grants Level 20 Aspect of the Crab Skill",
+    "english":"Grants Level 20 Aspect of the Crab",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
-    "english":"Grants Level 20 Aspect of the Spider Skill",
+    "english":"Grants Level 20 Aspect of the Spider",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
-    "english":"Grants Level 30 Aspect of the Avian Skill",
+    "english":"Grants Level 30 Aspect of the Avian",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
-    "english":"Grants Level 30 Aspect of the Cat Skill",
+    "english":"Grants Level 30 Aspect of the Cat",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
-    "english":"Grants Level 30 Aspect of the Crab Skill",
+    "english":"Grants Level 30 Aspect of the Crab",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
-    "english":"Grants Level 30 Aspect of the Spider Skill",
+    "english":"Grants Level 30 Aspect of the Spider",
     "kind":"craft-extra-stat",
     "source":"Data/BeastCraft.lua"
   },{
@@ -7279,7 +7279,7 @@
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Item sells for 2 additional Cartography Scarabs of every type",
+    "english":"Item sells for 2 additional Threads",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
@@ -7335,10 +7335,6 @@
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Item sells for an additional Cartography Scarab of every type",
-    "kind":"craft-extra-stat",
-    "source":"Data/Crucible.lua"
-  },{
     "english":"Item sells for an additional Crystalline Geode",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
@@ -7364,6 +7360,10 @@
     "source":"Data/Crucible.lua"
   },{
     "english":"Item sells for an additional Sacred Orb",
+    "kind":"craft-extra-stat",
+    "source":"Data/Crucible.lua"
+  },{
+    "english":"Item sells for an additional Thread",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
@@ -9443,43 +9443,51 @@
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Advanced Traps",
+    "english":"Socketed Gems are Supported by Level 10 Advanced Traps Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Ancestral Call",
+    "english":"Socketed Gems are Supported by Level 10 Ancestral Call Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Arcane Surge",
+    "english":"Socketed Gems are Supported by Level 10 Arcane Surge Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Arrow Nova",
+    "english":"Socketed Gems are Supported by Level 10 Arrow Nova Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Behead",
+    "english":"Socketed Gems are Supported by Level 10 Behead Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Chain",
+    "english":"Socketed Gems are Supported by Level 10 Blind Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Chance To Bleed",
+    "english":"Socketed Gems are Supported by Level 10 Chain Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Chance to Poison",
+    "english":"Socketed Gems are Supported by Level 10 Chance to Bleed Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Combustion",
+    "english":"Socketed Gems are Supported by Level 10 Chance to Flee Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Culling Strike",
+    "english":"Socketed Gems are Supported by Level 10 Chance to Poison Support",
+    "kind":"craft-extra-stat",
+    "source":"Data/Crucible.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level 10 Combustion Support",
+    "kind":"craft-extra-stat",
+    "source":"Data/Crucible.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level 10 Culling Strike Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
@@ -9487,103 +9495,123 @@
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Elemental Proliferation",
+    "english":"Socketed Gems are Supported by Level 10 Elemental Proliferation Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Energy Leech",
+    "english":"Socketed Gems are Supported by Level 10 Energy Leech Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Faster Casting",
+    "english":"Socketed Gems are Supported by Level 10 Faster Casting Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Feeding Frenzy",
+    "english":"Socketed Gems are Supported by Level 10 Faster Projectiles Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Fortify",
+    "english":"Socketed Gems are Supported by Level 10 Feeding Frenzy Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Ignite Proliferation",
+    "english":"Socketed Gems are Supported by Level 10 Fork Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Impale",
+    "english":"Socketed Gems are Supported by Level 10 Fortify Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Increased Area of Effect",
+    "english":"Socketed Gems are Supported by Level 10 Ignite Proliferation Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Intensify",
+    "english":"Socketed Gems are Supported by Level 10 Impale Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Iron Grip",
+    "english":"Socketed Gems are Supported by Level 10 Increased Area of Effect Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Iron Will",
+    "english":"Socketed Gems are Supported by Level 10 Intensify Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Item Rarity",
+    "english":"Socketed Gems are Supported by Level 10 Iron Grip Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Knockback",
+    "english":"Socketed Gems are Supported by Level 10 Iron Will Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Less Duration",
+    "english":"Socketed Gems are Supported by Level 10 Item Rarity Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Lifetap",
+    "english":"Socketed Gems are Supported by Level 10 Knockback Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Maim",
+    "english":"Socketed Gems are Supported by Level 10 Less Duration Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Mana Leech",
+    "english":"Socketed Gems are Supported by Level 10 Life Leech Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Minion Life",
+    "english":"Socketed Gems are Supported by Level 10 Lifetap Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Minion Speed",
+    "english":"Socketed Gems are Supported by Level 10 Maim Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Momentum",
+    "english":"Socketed Gems are Supported by Level 10 Mana Leech Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Multiple Projectiles",
+    "english":"Socketed Gems are Supported by Level 10 Melee Splash Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Overcharge",
+    "english":"Socketed Gems are Supported by Level 10 Minion Life Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Physical To Lightning",
+    "english":"Socketed Gems are Supported by Level 10 Minion Speed Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Pinpoint",
+    "english":"Socketed Gems are Supported by Level 10 Momentum Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Point Blank",
+    "english":"Socketed Gems are Supported by Level 10 Multiple Projectiles Support",
+    "kind":"craft-extra-stat",
+    "source":"Data/Crucible.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level 10 Overcharge Support",
+    "kind":"craft-extra-stat",
+    "source":"Data/Crucible.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level 10 Physical to Lightning Support",
+    "kind":"craft-extra-stat",
+    "source":"Data/Crucible.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level 10 Pierce Support",
+    "kind":"craft-extra-stat",
+    "source":"Data/Crucible.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level 10 Pinpoint Support",
+    "kind":"craft-extra-stat",
+    "source":"Data/Crucible.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level 10 Point Blank Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
@@ -9591,7 +9619,7 @@
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Rage",
+    "english":"Socketed Gems are Supported by Level 10 Rage Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
@@ -9599,31 +9627,39 @@
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Slower Projectiles",
+    "english":"Socketed Gems are Supported by Level 10 Slower Projectiles Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Spell Cascade",
+    "english":"Socketed Gems are Supported by Level 10 Spell Cascade Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Swift Assembly",
+    "english":"Socketed Gems are Supported by Level 10 Stun Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Swiftbrand",
+    "english":"Socketed Gems are Supported by Level 10 Swift Assembly Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Volley",
+    "english":"Socketed Gems are Supported by Level 10 Swiftbrand Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 10 Withering Touch",
+    "english":"Socketed Gems are Supported by Level 10 Volley Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 15 Decay",
+    "english":"Socketed Gems are Supported by Level 10 Withering Touch Support",
+    "kind":"craft-extra-stat",
+    "source":"Data/Crucible.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level 15 Additional Accuracy Support",
+    "kind":"craft-extra-stat",
+    "source":"Data/Crucible.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level 15 Decay Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
@@ -9631,279 +9667,243 @@
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 15 Infernal Legion",
+    "english":"Socketed Gems are Supported by Level 15 Infernal Legion Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 15 Life Gain On Hit",
+    "english":"Socketed Gems are Supported by Level 15 Life Gain on Hit Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 15 Summon Phantasm",
+    "english":"Socketed Gems are Supported by Level 15 Summon Phantasm Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 25 Arrogance",
+    "english":"Socketed Gems are Supported by Level 25 Arrogance Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 25 Blasphemy",
+    "english":"Socketed Gems are Supported by Level 25 Blasphemy Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 25 Cursed Ground",
+    "english":"Socketed Gems are Supported by Level 25 Cursed Ground Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 25 Divine Blessing",
+    "english":"Socketed Gems are Supported by Level 25 Divine Blessing Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 25 Eternal Blessing",
+    "english":"Socketed Gems are Supported by Level 25 Eternal Blessing Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 25 Generosity",
+    "english":"Socketed Gems are Supported by Level 25 Generosity Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 25 Hex Bloom",
+    "english":"Socketed Gems are Supported by Level 25 Hex Bloom Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 25 Second Wind",
+    "english":"Socketed Gems are Supported by Level 25 Second Wind Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 25 Urgent Orders",
+    "english":"Socketed Gems are Supported by Level 25 Urgent Orders Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 3 Empower",
+    "english":"Socketed Gems are Supported by Level 3 Empower Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 3 Enhance",
+    "english":"Socketed Gems are Supported by Level 3 Enhance Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 3 Enlighten",
+    "english":"Socketed Gems are Supported by Level 3 Enlighten Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Added Chaos Damage",
+    "english":"Socketed Gems are Supported by Level 30 Added Chaos Damage Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Added Cold Damage",
+    "english":"Socketed Gems are Supported by Level 30 Added Cold Damage Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Added Lightning Damage",
+    "english":"Socketed Gems are Supported by Level 30 Added Lightning Damage Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Arcane Surge",
+    "english":"Socketed Gems are Supported by Level 30 Arcane Surge Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Archmage",
+    "english":"Socketed Gems are Supported by Level 30 Archmage Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Bonechill",
+    "english":"Socketed Gems are Supported by Level 30 Bonechill Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Burning Damage",
+    "english":"Socketed Gems are Supported by Level 30 Burning Damage Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Cold Penetration",
+    "english":"Socketed Gems are Supported by Level 30 Cold Penetration Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Cold to Fire",
+    "english":"Socketed Gems are Supported by Level 30 Cold to Fire Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Combustion",
+    "english":"Socketed Gems are Supported by Level 30 Combustion Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Concentrated Effect",
+    "english":"Socketed Gems are Supported by Level 30 Concentrated Effect Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Controlled Destruction",
+    "english":"Socketed Gems are Supported by Level 30 Controlled Destruction Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Critical Strike Affliction",
+    "english":"Socketed Gems are Supported by Level 30 Critical Strike Affliction Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Deadly Ailments",
+    "english":"Socketed Gems are Supported by Level 30 Deadly Ailments Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Decay",
+    "english":"Socketed Gems are Supported by Level 30 Decay Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Efficacy",
+    "english":"Socketed Gems are Supported by Level 30 Efficacy Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Elemental Focus",
+    "english":"Socketed Gems are Supported by Level 30 Elemental Focus Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Elemental Penetration",
+    "english":"Socketed Gems are Supported by Level 30 Elemental Penetration Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Elemental Proliferation",
+    "english":"Socketed Gems are Supported by Level 30 Elemental Proliferation Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Energy Leech",
+    "english":"Socketed Gems are Supported by Level 30 Energy Leech Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Faster Casting",
+    "english":"Socketed Gems are Supported by Level 30 Faster Casting Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Fire Penetration",
+    "english":"Socketed Gems are Supported by Level 30 Fire Penetration Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Hypothermia",
+    "english":"Socketed Gems are Supported by Level 30 Hypothermia Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Ice Bite",
+    "english":"Socketed Gems are Supported by Level 30 Ice Bite Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Ignite Proliferation",
+    "english":"Socketed Gems are Supported by Level 30 Ignite Proliferation Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Immolate",
+    "english":"Socketed Gems are Supported by Level 30 Immolate Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Increased Critical Strikes",
+    "english":"Socketed Gems are Supported by Level 30 Increased Critical Damage Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Infused Channelling",
+    "english":"Socketed Gems are Supported by Level 30 Increased Critical Strikes Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Innervate",
+    "english":"Socketed Gems are Supported by Level 30 Infused Channelling Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Inspiration",
+    "english":"Socketed Gems are Supported by Level 30 Innervate Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Intensify",
+    "english":"Socketed Gems are Supported by Level 30 Inspiration Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Lightning Penetration",
+    "english":"Socketed Gems are Supported by Level 30 Intensify Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Overcharge",
+    "english":"Socketed Gems are Supported by Level 30 Lightning Penetration Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Physical To Lightning",
+    "english":"Socketed Gems are Supported by Level 30 Overcharge Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Pinpoint",
+    "english":"Socketed Gems are Supported by Level 30 Physical to Lightning Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Power Charge On Critical Strike",
+    "english":"Socketed Gems are Supported by Level 30 Pinpoint Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Spell Cascade",
+    "english":"Socketed Gems are Supported by Level 30 Power Charge On Critical Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Spell Echo",
+    "english":"Socketed Gems are Supported by Level 30 Spell Cascade Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Summon Phantasm",
+    "english":"Socketed Gems are Supported by Level 30 Spell Echo Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Swift Affliction",
+    "english":"Socketed Gems are Supported by Level 30 Summon Phantasm Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Swiftbrand",
+    "english":"Socketed Gems are Supported by Level 30 Swift Affliction Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Trinity",
+    "english":"Socketed Gems are Supported by Level 30 Swiftbrand Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Unbound Ailments",
+    "english":"Socketed Gems are Supported by Level 30 Trinity Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are Supported by Level 30 Unleash",
+    "english":"Socketed Gems are Supported by Level 30 Unbound Ailments Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
-    "english":"Socketed Gems are supported by Level 10 Blind",
-    "kind":"craft-extra-stat",
-    "source":"Data/Crucible.lua"
-  },{
-    "english":"Socketed Gems are supported by Level 10 Chance to Flee",
-    "kind":"craft-extra-stat",
-    "source":"Data/Crucible.lua"
-  },{
-    "english":"Socketed Gems are supported by Level 10 Faster Projectiles",
-    "kind":"craft-extra-stat",
-    "source":"Data/Crucible.lua"
-  },{
-    "english":"Socketed Gems are supported by Level 10 Fork",
-    "kind":"craft-extra-stat",
-    "source":"Data/Crucible.lua"
-  },{
-    "english":"Socketed Gems are supported by Level 10 Life Leech",
-    "kind":"craft-extra-stat",
-    "source":"Data/Crucible.lua"
-  },{
-    "english":"Socketed Gems are supported by Level 10 Melee Splash",
-    "kind":"craft-extra-stat",
-    "source":"Data/Crucible.lua"
-  },{
-    "english":"Socketed Gems are supported by Level 10 Pierce",
-    "kind":"craft-extra-stat",
-    "source":"Data/Crucible.lua"
-  },{
-    "english":"Socketed Gems are supported by Level 10 Stun",
-    "kind":"craft-extra-stat",
-    "source":"Data/Crucible.lua"
-  },{
-    "english":"Socketed Gems are supported by Level 15 Additional Accuracy",
-    "kind":"craft-extra-stat",
-    "source":"Data/Crucible.lua"
-  },{
-    "english":"Socketed Gems are supported by Level 30 Increased Critical Damage",
+    "english":"Socketed Gems are Supported by Level 30 Unleash Support",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
@@ -10027,6 +10027,10 @@
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
+    "english":"Trigger Level 1 Stance Swap when you Attack with Perforate or Lacerate",
+    "kind":"craft-extra-stat",
+    "source":"Data/Crucible.lua"
+  },{
     "english":"Trigger Level 20 Blink Arrow when you Attack with Mirror Arrow",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
@@ -10052,10 +10056,6 @@
     "source":"Data/Crucible.lua"
   },{
     "english":"Trigger Level 20 Mirror Arrow when you Attack with Blink Arrow",
-    "kind":"craft-extra-stat",
-    "source":"Data/Crucible.lua"
-  },{
-    "english":"Trigger Level 20 Stance Swap when you Attack with Perforate or Lacerate",
     "kind":"craft-extra-stat",
     "source":"Data/Crucible.lua"
   },{
@@ -10291,7 +10291,55 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
+    "english":"Afarud Enshrouding Crystal",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
     "english":"Alchemy Shard",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Allflame Ember of Flesh",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Allflame Ember of Kulemak",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Allflame Ember of Propagation",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Allflame Ember of Resplendence",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Allflame Ember of Toads",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Allflame Ember of the Cloister",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Allflame Ember of the Divine",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Allflame Ember of the Ethereal",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Allflame Ember of the Gilded",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Allflame Ember of the Multitude",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Allflame Ember of the Wildwood",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -10399,26 +10447,6 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
-    "english":"Coin of Desecration",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Coin of Knowledge",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Coin of Power",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Coin of Restoration",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Coin of Skill",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
     "english":"Corroded Fossil",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
@@ -10432,6 +10460,10 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"Crusader's Exalted Orb",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Cryptic Astrolabe",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -10527,10 +10559,6 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
-    "english":"Deceptive Astrolabe",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
     "english":"Deft Fossil",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
@@ -10548,6 +10576,10 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"Divine Orb",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Divine Vessel",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -10595,6 +10627,10 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
+    "english":"Essence of Trickery",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
     "english":"Eternal Orb",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
@@ -10620,6 +10656,10 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"Faceted Fossil",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Feral Astrolabe",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -10691,15 +10731,7 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
-    "english":"Fragmented Delirium Orb",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
     "english":"Frigid Fossil",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Fruiting Astrolabe",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -10836,6 +10868,10 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"Imbued Catalyst",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Immortal Astrolabe",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -10979,7 +11015,7 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
-    "english":"Maven's Chisel of Scarabs",
+    "english":"Maven's Chisel of Threads",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -11244,6 +11280,14 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"Rotmother's Ducat",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Royal Astrolabe",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Royal Visage",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -11595,7 +11639,19 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
-    "english":"Skittering Delirium Orb",
+    "english":"Soul Core of Finesse",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Soul Core of Instability",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Soul Core of Intellect",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Soul Core of Might",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -11911,10 +11967,6 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
-    "english":"Templar Astrolabe",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
     "english":"Templar Enshrouding Crystal",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
@@ -11928,6 +11980,10 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"The Genteel's Ducat",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Threaded Delirium Orb",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -19131,10 +19187,6 @@
     "kind":"essence-name",
     "source":"Data/Essence.lua"
   },{
-    "english":"Essence of Desolation",
-    "kind":"essence-name",
-    "source":"Data/Essence.lua"
-  },{
     "english":"Essence of Horror",
     "kind":"essence-name",
     "source":"Data/Essence.lua"
@@ -19144,6 +19196,10 @@
     "source":"Data/Essence.lua"
   },{
     "english":"Essence of Insanity",
+    "kind":"essence-name",
+    "source":"Data/Essence.lua"
+  },{
+    "english":"Essence of Trickery",
     "kind":"essence-name",
     "source":"Data/Essence.lua"
   },{
@@ -19467,251 +19523,11 @@
     "kind":"essence-name",
     "source":"Data/Essence.lua"
   },{
-    "english":"Agony Crawler",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#HeraldOfAgonySpiderPlated"
-  },{
-    "english":"All Relics",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#GuardianRelicAll"
-  },{
-    "english":"Animated Guardian",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AnimatedArmour"
-  },{
-    "english":"Animated Weapon",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AnimatedWeapon"
-  },{
-    "english":"Ascended Sentinel of Absolution",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AbsolutionTemplarJudgeVaal"
-  },{
-    "english":"Ascended Sentinel of Dominance",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AxisEliteSoldierDominatingBlowVaal"
-  },{
-    "english":"Bone Feeder",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AbyssDebuffBot"
-  },{
-    "english":"Carrion Golem",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedCarrionGolem"
-  },{
-    "english":"Ceaseless Flesh",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#ShamblingUndead"
-  },{
-    "english":"Chaos Golem",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedChaosGolem"
-  },{
-    "english":"Chilling Skitterbot",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SkitterbotCold"
-  },{
-    "english":"Clone",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#ArrowCloneEle"
-  },{
-    "english":"Cold Relic",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#GuardianRelicCold"
-  },{
-    "english":"Dancing Dervish",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#UniqueAnimatedWeapon"
-  },{
-    "english":"Essence Spirit",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedEssenceSpirit"
-  },{
-    "english":"Fire Relic",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#GuardianRelicFire"
-  },{
-    "english":"Flame Golem",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedFlameGolem"
-  },{
-    "english":"Grave Spirit",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#IcyRagingSpirit"
-  },{
-    "english":"Holy Armament",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#HolyStrikeMinion"
-  },{
-    "english":"Holy Relic",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#HolyLivingRelic"
-  },{
-    "english":"Ice Golem",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedIceGolem"
-  },{
-    "english":"It That Crawls",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#Hiveborn"
-  },{
-    "english":"Lightning Golem",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedLightningGolem"
-  },{
-    "english":"Lightning Relic",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#GuardianRelicLightning"
-  },{
-    "english":"Living Lightning",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#LivingLightningMinion"
-  },{
-    "english":"Raging Spirit",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedRagingSpirit"
-  },{
-    "english":"Raised Zombie",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#RaisedZombie"
-  },{
-    "english":"Reaper",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedReaper"
-  },{
-    "english":"Scorching Skitterbot",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SkitterbotFire"
-  },{
-    "english":"Sentinel of Absolution",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AbsolutionTemplarJudge"
-  },{
-    "english":"Sentinel of Dominance",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AxisEliteSoldierDominatingBlow"
-  },{
-    "english":"Sentinel of Purity",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AxisEliteSoldierHeraldOfLight"
-  },{
-    "english":"Sentinel of Radiance",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#GuardianSentinel"
-  },{
-    "english":"Shackled Phantasm",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#PenanceMarkPhantasm"
-  },{
-    "english":"Shocking Skitterbot",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SkitterbotLightning"
-  },{
-    "english":"Spectral Tiger Companion",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedSpectralTiger"
-  },{
-    "english":"Spectral Wolf Companion",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedSpectralWolf"
-  },{
-    "english":"Spider Minion",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SpiderMinion"
-  },{
-    "english":"Spirit of Ahuana",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AncestralAhuanaMinion"
-  },{
-    "english":"Spirit of Akoya",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AncestralAkoyaMinion"
-  },{
-    "english":"Spirit of Ikiaho",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AncestralIkiahoMinion"
-  },{
-    "english":"Spirit of Kahuturoa",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AncestralKahuturoaMinion"
-  },{
-    "english":"Spirit of Kaom",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AncestralKaomMinion"
-  },{
-    "english":"Spirit of Kiloava",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AncestralKiloavaMinion"
-  },{
-    "english":"Spirit of Maata",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AncestralMaataMinion"
-  },{
-    "english":"Spirit of Rakiata",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AncestralRakiataMinion"
-  },{
-    "english":"Spirit of Tawhanuku",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AncestralTawhanukuMinion"
-  },{
-    "english":"Spirit of Utula",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#AncestralUtulaMinion"
-  },{
-    "english":"Stone Golem",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedStoneGolem"
-  },{
-    "english":"Summoned Arbalist",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedArbalists"
-  },{
-    "english":"Summoned Cobra",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SnakeSpitUniqueSummoned"
-  },{
-    "english":"Summoned Phantasm",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#SummonedPhantasm"
-  },{
-    "english":"Summoned Rhoa",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#RhoaUniqueSummoned"
-  },{
-    "english":"Summoned Skeleton",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#RaisedSkeleton"
-  },{
-    "english":"Summoned Skeleton Archer",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#RaisedSkeletonArcherVaal"
-  },{
-    "english":"Summoned Skeleton Caster",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#RaisedSkeletonCaster"
-  },{
-    "english":"Summoned Skeleton Soldier",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#RaisedSkeletonMeleeVaal"
-  },{
-    "english":"Summoned Ursa",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#DropBearUniqueSummoned"
-  },{
-    "english":"Void Spawn",
-    "kind":"minion-name",
-    "source":"Data/Minions.lua#VoidSpawn"
-  },{
     "english":"Armala, the Widow",
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
-    "english":"Captain Clayborne, The Accursed",
-    "kind":"pantheon-name",
-    "source":"Data/Pantheons.lua"
-  },{
-    "english":"Captain Tanner Lightfoot",
+    "english":"Belcer, the Pirate Lord",
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
@@ -19719,7 +19535,7 @@
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
-    "english":"Drought-Maddened Rhoa",
+    "english":"Enticer of Rot",
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
@@ -19731,23 +19547,11 @@
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
-    "english":"Fragment of Winter",
-    "kind":"pantheon-name",
-    "source":"Data/Pantheons.lua"
-  },{
-    "english":"Glace",
-    "kind":"pantheon-name",
-    "source":"Data/Pantheons.lua"
-  },{
     "english":"Gorulis, Will-Thief",
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
-    "english":"Kitava, The Destroyer",
-    "kind":"pantheon-name",
-    "source":"Data/Pantheons.lua"
-  },{
-    "english":"Maligaro the Mutilator",
+    "english":"Jorus, Sky's Edge",
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
@@ -19755,11 +19559,19 @@
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
+    "english":"Merveil, the Returned",
+    "kind":"pantheon-name",
+    "source":"Data/Pantheons.lua"
+  },{
+    "english":"Mutewind Leader",
+    "kind":"pantheon-name",
+    "source":"Data/Pantheons.lua"
+  },{
     "english":"Nassar, Lion of the Seas",
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
-    "english":"Oak the Mighty",
+    "english":"Sebbert, Crescent's Point",
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
@@ -19815,6 +19627,10 @@
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
+    "english":"Stalker of the Endless Dunes",
+    "kind":"pantheon-name",
+    "source":"Data/Pantheons.lua"
+  },{
     "english":"Tahsin, Warmaker",
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
@@ -19823,7 +19639,11 @@
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
-    "english":"The Blacksmith",
+    "english":"The Infernal King",
+    "kind":"pantheon-name",
+    "source":"Data/Pantheons.lua"
+  },{
+    "english":"Thraxia",
     "kind":"pantheon-name",
     "source":"Data/Pantheons.lua"
   },{
@@ -19835,15 +19655,15 @@
     "kind":"pantheon-stat",
     "source":"Data/Pantheons.lua"
   },{
+    "english":"1% additional Physical Damage Reduction for each Enemy within 6 metres, up to 8%",
+    "kind":"pantheon-stat",
+    "source":"Data/Pantheons.lua"
+  },{
     "english":"1% additional Physical Damage Reduction for each Hit you've taken Recently up to a maximum of 5%",
     "kind":"pantheon-stat",
     "source":"Data/Pantheons.lua"
   },{
-    "english":"1% additional Physical Damage Reduction for each nearby Enemy, up to 8%",
-    "kind":"pantheon-stat",
-    "source":"Data/Pantheons.lua"
-  },{
-    "english":"1% increased Movement Speed for each nearby Enemy, up to 8%",
+    "english":"1% increased Movement Speed for each Enemy within 6 metres, up to 8%",
     "kind":"pantheon-stat",
     "source":"Data/Pantheons.lua"
   },{
@@ -19911,7 +19731,7 @@
     "kind":"pantheon-stat",
     "source":"Data/Pantheons.lua"
   },{
-    "english":"6% additional Physical Damage Reduction while there is only one nearby Enemy",
+    "english":"6% additional Physical Damage Reduction while there is only one Enemy within 6 metres",
     "kind":"pantheon-stat",
     "source":"Data/Pantheons.lua"
   },{
@@ -19994,1046 +19814,6 @@
     "english":"You cannot be Stunned if you've been Stunned or Blocked a Stunning Hit in the past 2 seconds",
     "kind":"pantheon-stat",
     "source":"Data/Pantheons.lua"
-  },{
-    "english":"Alira's Deadeye",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Bandits/BanditBowPoisonArrow"
-  },{
-    "english":"Alpine Shaman",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Goatman/MountainGoatmanShamanIceSpear"
-  },{
-    "english":"Ancient Construct",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/incaminion/Fragment"
-  },{
-    "english":"Ancient Suffering",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueDelve/GhostEncounter/WraithPurple"
-  },{
-    "english":"Ancient Wraith",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueDelve/GhostEncounter/Wraith"
-  },{
-    "english":"Archer Statue",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Statue/StoneStatueMaleBow"
-  },{
-    "english":"Arena Master",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/AtlasExiles/AdjudicatorInfluenceMonsters/AdjudicatorGrandMasterSpectre"
-  },{
-    "english":"Armour Cruncher",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Beasts/BeastVulnerabilityCurse"
-  },{
-    "english":"Artless Assassin",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHeist/Thug/ThugRanged1EliteSpectre"
-  },{
-    "english":"Ash Prophet",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Necromancer/NecromancerFlamability"
-  },{
-    "english":"Ashblessed Warden",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHeist/Robot/RobotPyreKnightEliteSpectre"
-  },{
-    "english":"Aurid Synthete",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueSynthesis/SynthesisSoulstealer4Spectre"
-  },{
-    "english":"Avian Retch",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Kiweth/Kiweth"
-  },{
-    "english":"Baranite Preacher",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/AtlasExiles/CrusaderInfluenceMonsters/CrusaderTemplarJudgeSpectre"
-  },{
-    "english":"Baranite Sister",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/AtlasExiles/CrusaderInfluenceMonsters/CrusaderBlessedSisterSpectre"
-  },{
-    "english":"Baranite Thaumaturge",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/AtlasExiles/CrusaderInfluenceMonsters/CrusaderMageguardCasterSpectre"
-  },{
-    "english":"Barb Serpent",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Snake/SnakeScorpionMultiShot"
-  },{
-    "english":"Bearded Devil",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Goatman/GoatmanLightningLeapSlamMaps"
-  },{
-    "english":"Bearded Shaman",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Goatman/GoatmanShamanLightning"
-  },{
-    "english":"Blackguard Arcmage",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Axis/AxisCasterArc"
-  },{
-    "english":"Blackguard Mage",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Axis/AxisCaster"
-  },{
-    "english":"Blasphemer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/GeofriMid_"
-  },{
-    "english":"Blood Demon",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/DemonBossMid"
-  },{
-    "english":"Bone Husk",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/SkeletonCannon/SkeletonCannon1"
-  },{
-    "english":"Bone Stalker",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/BoneStalker/BoneStalker"
-  },{
-    "english":"Bramble Cobra",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Snake/SnakeMeleeSpit"
-  },{
-    "english":"Brittle Bleeder",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonBowPuncture"
-  },{
-    "english":"Brittle Poacher",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonBowLightning"
-  },{
-    "english":"Burned Miscreation",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/DemonModular/DemonModularFire"
-  },{
-    "english":"Cannibal Fire-eater",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Cannibal/CannibalMaleChampion"
-  },{
-    "english":"Carnage Chieftain",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/BloodChieftain/MonkeyChiefBloodEnrage"
-  },{
-    "english":"Carrion Queen",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/InsectSpawner/InsectSpawner"
-  },{
-    "english":"Chrome-infused Chimeral",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/GemMonster/IguanaChrome"
-  },{
-    "english":"Cinder Elemental",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/MossMonster/FireMonster"
-  },{
-    "english":"Cloud Retch",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieKiwethSpectre"
-  },{
-    "english":"Colossal Bonestalker",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonMeleeLarge"
-  },{
-    "english":"Colossus Crusher",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Goatman/MountainGoatmanChampion"
-  },{
-    "english":"Conjuror of Rot",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/FaridunLeague/FaridunWarlock/FaridunWarlockMid_"
-  },{
-    "english":"Crazed Driver",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriverKitava"
-  },{
-    "english":"Cursed Mariner",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/GhostPirates/GhostPirateBlackFlickerStrikeMaps"
-  },{
-    "english":"Dancing Sword",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/AnimatedSwordMid"
-  },{
-    "english":"Dark Marionette",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Mannequin/MannequinMid"
-  },{
-    "english":"Dark Reaper",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ReaperMid"
-  },{
-    "english":"Deadly Tarantula",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Spiders/SpiderThornViperStrikeFlickerStrike"
-  },{
-    "english":"Death Bishop",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Necromancer/NecromancerFrostbite"
-  },{
-    "english":"Defiler",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Necromancer/NecromancerElementalWeakness"
-  },{
-    "english":"Demon Harpy",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHellscape/DemonFaction/HellscapeDemonElite1Spectre"
-  },{
-    "english":"Demon Herder",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHellscape/DemonFaction/HellscapeDemonElite2_Spectre"
-  },{
-    "english":"Desecrated Saint",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonBlackCaster1_"
-  },{
-    "english":"Diabolist",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Necromancer/NecromancerEnfeebleCurse"
-  },{
-    "english":"Druidic Alchemist",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/FlaskloverMid"
-  },{
-    "english":"Dune Hellion",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Lion/LionDesertSkinPuncture"
-  },{
-    "english":"Eldritch Eye",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TentacleMinionMid"
-  },{
-    "english":"Enhanced Vaal Fallen",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonMeleeKnightElementalSwordIncursionChampion"
-  },{
-    "english":"Escaped Prototype",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ForgeHoundMid"
-  },{
-    "english":"Fetid Maw",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Frog/Frog"
-  },{
-    "english":"Fiery Cannibal",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Firefury/FirefuryMid"
-  },{
-    "english":"Fighting Bull",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Bull/Bull"
-  },{
-    "english":"Flame Sentinel",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Guardians/GuardianFire"
-  },{
-    "english":"Flayed Archer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonBowLightning3"
-  },{
-    "english":"Flesh Sculptor",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Axis/AxisExperimenter2"
-  },{
-    "english":"Flickershade",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Maligaro/SecretDesecrateMonster"
-  },{
-    "english":"Foreman",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Bandit/DockworkerChampion_"
-  },{
-    "english":"Forest Tiger",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TigerMid"
-  },{
-    "english":"Forest Warrior",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/VikingMid"
-  },{
-    "english":"Forged Frostbearer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueCrucible/Cold/Pyromaniac"
-  },{
-    "english":"Forged Vendigo",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueCrucible/Lightning/Vendigo_"
-  },{
-    "english":"Freezing Wolf",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Lion/LionWolf3Champion"
-  },{
-    "english":"Frost Auto-Scout",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHeist/Robot/RobotClockworkGolemColdSpectre"
-  },{
-    "english":"Frost Harbinger",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonCasterColdMultipleProjectiles"
-  },{
-    "english":"Frost Sentinel",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Guardians/GuardianFire_BlueMaps"
-  },{
-    "english":"Frozen Cannibal",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Hailrake/HailrakeMid"
-  },{
-    "english":"Galvanic Ribbon",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Guardians/GuardianLightning"
-  },{
-    "english":"Gluttonous Gull",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Kiweth/KiwethSeagull"
-  },{
-    "english":"Goatman",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Goatman/GoatmanLeapSlam"
-  },{
-    "english":"Goatman Fire-raiser",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Goatman/GoatmanShamanFireChampion"
-  },{
-    "english":"Goatman Shaman",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Goatman/GoatmanShamanFireball"
-  },{
-    "english":"Guardian Turtle",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TurtleMid_"
-  },{
-    "english":"Gut Flayer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/HalfSkeleton/HalfSkeleton"
-  },{
-    "english":"Hairy Bonecruncher",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Beasts/BeastCleaveEnduringCry"
-  },{
-    "english":"Half-remembered Goliath",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/SynthesisGolemMid"
-  },{
-    "english":"Host Chieftain",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/BloodChieftain/MonkeyChiefBloodParasite"
-  },{
-    "english":"Hulking Miscreation",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/RobotArgusMid"
-  },{
-    "english":"Hydra",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Hydra/HydraMid"
-  },{
-    "english":"Hyrri's Watch",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LegionLeague/LegionKaruiArcherSpectre"
-  },{
-    "english":"Imperfect Blasphemer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/GeofriLow"
-  },{
-    "english":"Imperfect Blood Demon",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/DemonBossLow"
-  },{
-    "english":"Imperfect Conjuror of Rot",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/FaridunLeague/FaridunWarlock/FaridunWarlockLow"
-  },{
-    "english":"Imperfect Dancing Sword",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/AnimatedSwordLow"
-  },{
-    "english":"Imperfect Dark Marionette",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Mannequin/MannequinLow"
-  },{
-    "english":"Imperfect Dark Reaper",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ReaperLow"
-  },{
-    "english":"Imperfect Druidic Alchemist",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/FlaskloverLow__"
-  },{
-    "english":"Imperfect Eldritch Eye",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TentacleMinionLow"
-  },{
-    "english":"Imperfect Escaped Prototype",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ForgeHoundLow"
-  },{
-    "english":"Imperfect Fiery Cannibal",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Firefury/FirefuryLow"
-  },{
-    "english":"Imperfect Forest Tiger",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TigerLow"
-  },{
-    "english":"Imperfect Forest Warrior",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/VikingLow"
-  },{
-    "english":"Imperfect Frozen Cannibal",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Hailrake/HailrakeLow"
-  },{
-    "english":"Imperfect Guardian Turtle",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TurtleLow"
-  },{
-    "english":"Imperfect Half-remembered Goliath",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/SynthesisGolemLow"
-  },{
-    "english":"Imperfect Hulking Miscreation",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/RobotArgusLow"
-  },{
-    "english":"Imperfect Hydra",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Hydra/HydraLow"
-  },{
-    "english":"Imperfect Judgemental Spirit",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/GoddessLow"
-  },{
-    "english":"Imperfect Meatsack",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TankyZombieLow"
-  },{
-    "english":"Imperfect Naval Officer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/AdmiralLow"
-  },{
-    "english":"Imperfect Needle Horror",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/BarrageDemonLow"
-  },{
-    "english":"Imperfect Pain Artist",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/CasterDemonLow"
-  },{
-    "english":"Imperfect Primal Demiurge",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ManaPhantasmLow__"
-  },{
-    "english":"Imperfect Primal Thunderbird",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/HarvestBirdLow"
-  },{
-    "english":"Imperfect Restless Knight",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/DeathKnightLow"
-  },{
-    "english":"Imperfect Riftcaster",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/FlameblasterLow_"
-  },{
-    "english":"Imperfect Runic Skeleton",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/MegaSkeletonLow"
-  },{
-    "english":"Imperfect Sanguimancer Demon",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ShepherdLow"
-  },{
-    "english":"Imperfect Sawblade Horror",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/CycloneDemonLow"
-  },{
-    "english":"Imperfect Serpent Warrior",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/BasaliskLow"
-  },{
-    "english":"Imperfect Shadow Berserker",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/SlammerDemonLow"
-  },{
-    "english":"Imperfect Shadow Construct",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/VaalOversoulLow"
-  },{
-    "english":"Imperfect Slashing Horror",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/DualstrikeDemonLow"
-  },{
-    "english":"Imperfect Spider Matriarch",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/SpiderLeaderLow"
-  },{
-    "english":"Imperfect Spirit of Fortune",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/KudukuLow"
-  },{
-    "english":"Imperfect Warlord",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/OakLow"
-  },{
-    "english":"Imperial Vanguard",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Bandits/BanditRangedTornadoShotPetrified"
-  },{
-    "english":"Incinerated Mage",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonCasterFireMultipleProjectiles2"
-  },{
-    "english":"Judgemental Spirit",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/GoddessMid"
-  },{
-    "english":"Kaom's Chosen",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/KaomWarrior/KaomWarrior2"
-  },{
-    "english":"Karui Backburner",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LegionLeague/LegionKaruiMeleeFireSpectre"
-  },{
-    "english":"Kiln Mother",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/MotherOfFlames/MotherOfFlamesZombie"
-  },{
-    "english":"Kitava's Herald",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monster/KitavaDemon/KitavaDemon"
-  },{
-    "english":"Knitted Horror",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/MassSkeleton/MassSkeleton"
-  },{
-    "english":"Kraityn's Sentry",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Bandits/BanditBowChampion"
-  },{
-    "english":"Leaping Spider",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Spiders/SpiderThornFlickerStrike"
-  },{
-    "english":"Lunaris Concubine",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/DemonModular/DemonFemaleRanged2"
-  },{
-    "english":"Lunarsworn Wintermage",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Axis/AxisCasterLunaris"
-  },{
-    "english":"Meatsack",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TankyZombieMid"
-  },{
-    "english":"Merveil's Attendant",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Seawitch/SeaWitchSpawnExploding"
-  },{
-    "english":"Merveil's Blessed",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Seawitch/SeaWitchFrostBolt"
-  },{
-    "english":"Merveil's Chosen",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Seawitch/SeaWitchSpawnTemporalChains"
-  },{
-    "english":"Merveil's Retainer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Seawitch/SeaWitchVulnerabilityCurse"
-  },{
-    "english":"Mortality Experimenter",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Axis/AxisExperimenter"
-  },{
-    "english":"Murk Fiend",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Frog/Frog2"
-  },{
-    "english":"Naval Officer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/AdmiralMid__"
-  },{
-    "english":"Necromancer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Necromancer/NecromancerProjectileWeakness"
-  },{
-    "english":"Needle Horror",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/BarrageDemonMid"
-  },{
-    "english":"Noisome Ophidian",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Taster/Taster"
-  },{
-    "english":"Oak's Devoted",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Bandits/BanditMeleeWarlordsMarkMaul"
-  },{
-    "english":"Oak's Sniper",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Bandits/BanditBowExplosiveArrow"
-  },{
-    "english":"Pain Artist",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/CasterDemonMid"
-  },{
-    "english":"Pale Angel",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHellscape/PaleFaction/HellscapePaleElite1Spectre"
-  },{
-    "english":"Pale Seraphim",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHellscape/PaleFaction/HellscapePaleElite2Spectre"
-  },{
-    "english":"Perfect Blasphemer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/GeofriHigh"
-  },{
-    "english":"Perfect Blood Demon",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/DemonBossHigh"
-  },{
-    "english":"Perfect Conjuror of Rot",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/FaridunLeague/FaridunWarlock/FaridunWarlockHigh"
-  },{
-    "english":"Perfect Dancing Sword",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/AnimatedSwordHigh_"
-  },{
-    "english":"Perfect Dark Marionette",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Mannequin/MannequinHigh_"
-  },{
-    "english":"Perfect Dark Reaper",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ReaperHigh"
-  },{
-    "english":"Perfect Druidic Alchemist",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/FlaskloverHigh"
-  },{
-    "english":"Perfect Eldritch Eye",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TentacleMinionHigh"
-  },{
-    "english":"Perfect Escaped Prototype",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ForgeHoundHigh_"
-  },{
-    "english":"Perfect Fiery Cannibal",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Firefury/FirefuryHigh_"
-  },{
-    "english":"Perfect Forest Tiger",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TigerHigh"
-  },{
-    "english":"Perfect Forest Warrior",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/VikingHigh"
-  },{
-    "english":"Perfect Frozen Cannibal",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Hailrake/HailrakeHigh"
-  },{
-    "english":"Perfect Guardian Turtle",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TurtleHigh"
-  },{
-    "english":"Perfect Half-remembered Goliath",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/SynthesisGolemHigh"
-  },{
-    "english":"Perfect Hulking Miscreation",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/RobotArgusHigh__"
-  },{
-    "english":"Perfect Hydra",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/Hydra/HydraHigh_"
-  },{
-    "english":"Perfect Judgemental Spirit",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/GoddessHigh"
-  },{
-    "english":"Perfect Meatsack",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/TankyZombieHigh"
-  },{
-    "english":"Perfect Naval Officer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/AdmiralHigh_"
-  },{
-    "english":"Perfect Needle Horror",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/BarrageDemonHigh_"
-  },{
-    "english":"Perfect Pain Artist",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/CasterDemonHigh"
-  },{
-    "english":"Perfect Primal Demiurge",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ManaPhantasmHigh"
-  },{
-    "english":"Perfect Primal Thunderbird",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/HarvestBirdHigh"
-  },{
-    "english":"Perfect Restless Knight",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/DeathKnightHigh"
-  },{
-    "english":"Perfect Riftcaster",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/FlameblasterHigh_"
-  },{
-    "english":"Perfect Runic Skeleton",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/MegaSkeletonHigh"
-  },{
-    "english":"Perfect Sanguimancer Demon",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ShepherdHigh"
-  },{
-    "english":"Perfect Sawblade Horror",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/CycloneDemonHigh"
-  },{
-    "english":"Perfect Serpent Warrior",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/BasaliskHigh"
-  },{
-    "english":"Perfect Shadow Berserker",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/SlammerDemonHigh"
-  },{
-    "english":"Perfect Shadow Construct",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/VaalOversoulHigh"
-  },{
-    "english":"Perfect Slashing Horror",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/DualstrikeDemonHigh"
-  },{
-    "english":"Perfect Spider Matriarch",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/SpiderLeaderHigh_"
-  },{
-    "english":"Perfect Spirit of Fortune",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/KudukuHigh"
-  },{
-    "english":"Perfect Warlord",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/OakHigh"
-  },{
-    "english":"Plagued Bowman",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonBowPoison"
-  },{
-    "english":"Plumed Chimeral",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/GemMonster/Iguana"
-  },{
-    "english":"Pocked Illuminator",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Miner/MinerLanternCrystalVeins"
-  },{
-    "english":"Pocked Lanternbearer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Miner/MinerLantern"
-  },{
-    "english":"Primal Crushclaw",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHarvest/Blue/HarvestNessaCrabT3Spectre"
-  },{
-    "english":"Primal Demiurge",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ManaPhantasmMid"
-  },{
-    "english":"Primal Rhex Matriarch",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHarvest/Blue/HarvestRhexT3Spectre"
-  },{
-    "english":"Primal Thunderbird",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/HarvestBirdMid"
-  },{
-    "english":"Primeval Hunter",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonMeleeBlackAbyssBoneLance"
-  },{
-    "english":"Ravenous Bloodshaper",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHellscape/FleshFaction/HellscapeFleshElite1Spectre"
-  },{
-    "english":"Ravenous Misshapen",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHellscape/FleshFaction/HellscapeFleshFodder4Spectre"
-  },{
-    "english":"Reanimator",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Axis/AxisExperimenterRaiseZombie"
-  },{
-    "english":"Redemption Knight",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieSeraphFighterSpectre_"
-  },{
-    "english":"Redemption Sentry",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieSeraphArcherSpectre"
-  },{
-    "english":"Restless Archer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonBowLightning2"
-  },{
-    "english":"Restless Knight",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/DeathKnightMid"
-  },{
-    "english":"Riftcaster",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/FlameblasterMid_"
-  },{
-    "english":"Risen Vaal Advocate",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/KitavaCultist/VaalCultistSpearBloodChampionDelve"
-  },{
-    "english":"Risen Vaal Fanatic",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/KitavaCultist/VaalCultistSpearBloodDelve"
-  },{
-    "english":"Ruins Hellion",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Hellion/Hellion3Spectre"
-  },{
-    "english":"Runic Skeleton",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/MegaSkeletonMid"
-  },{
-    "english":"Sandworn Slaves",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monster/CageSpider/CageSpider2"
-  },{
-    "english":"Sanguimancer Demon",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/ShepherdMid_"
-  },{
-    "english":"Sawblade Horror",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/CycloneDemonMid"
-  },{
-    "english":"Scale of Esh",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/SandLeaper/SandLeaperBreachSpectre_"
-  },{
-    "english":"Scinteel Synthete",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueSynthesis/SynthesisSoulstealer3Spectre"
-  },{
-    "english":"Serpent Warrior",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/BasaliskMid"
-  },{
-    "english":"Shadow Berserker",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/SlammerDemonMid"
-  },{
-    "english":"Shadow Construct",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/VaalOversoulMid"
-  },{
-    "english":"Shadow Lurker",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Grappler/GrapplerLabyrinth"
-  },{
-    "english":"Shaggy Monstrosity",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Beasts/BeastCaveDegenAura"
-  },{
-    "english":"Sin Archer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonBowLightning4"
-  },{
-    "english":"Sin Lord",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Necromancer/NecromancerConductivity"
-  },{
-    "english":"Singing Siren",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Seawitch/SeaWitchScreech"
-  },{
-    "english":"Skitterling",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Spiders/DelveSpiderPacksMediumSpectre"
-  },{
-    "english":"Slashed Miscreation",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/DemonModular/DemonModularBladeVortex"
-  },{
-    "english":"Slashing Horror",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/DualstrikeDemonMid"
-  },{
-    "english":"Slave Driver",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"
-  },{
-    "english":"Snow Rhex",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/AtlasExiles/EyrieInfluenceMonsters/EyrieArmouredBirdSpectre__"
-  },{
-    "english":"Solar Guard",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/HolyFireElemental/HolyFireElementalSolarisBeam"
-  },{
-    "english":"Solaris Champion",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Axis/AxisEliteSoldier3Champion"
-  },{
-    "english":"Sparking Mage",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonCasterLightningSpark"
-  },{
-    "english":"Spectral Bowman",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/GhostPirates/GhostPirateBlackBowMaps"
-  },{
-    "english":"Spectral Scoundrel",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/GhostPirates/GhostPirateGreenBladeVortex"
-  },{
-    "english":"Spider Matriarch",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/SpiderLeaderMid"
-  },{
-    "english":"Spirit of Fortune",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/KudukuMid"
-  },{
-    "english":"Stoneskin Flayer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueDelve/ProtoVaalWarriorElite"
-  },{
-    "english":"Stygian Revenant",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Revenant/Revenant"
-  },{
-    "english":"Syndicate Operative",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueBetrayal/BetrayalSecretPolice2Spectre_"
-  },{
-    "english":"Templar Conscript",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LegionLeague/LegionTemplarMelee2Spectre"
-  },{
-    "english":"Templar Tactician",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LegionLeague/LegionTemplarCaster1Spectre"
-  },{
-    "english":"Tentacle Miscreation",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/DemonModular/DemonFemaleRanged"
-  },{
-    "english":"They of Tul",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/MinerLarge/MinerLargeCommanderBreachSpectre"
-  },{
-    "english":"Towering Figment",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Statue/DaressoStatueLargeMaleSpear"
-  },{
-    "english":"Trial Galecaller",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueUltimatum/Guard/GuardBowColdWeakSpectre"
-  },{
-    "english":"Trial Windchaser",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueUltimatum/Guard/GuardBowColdSpectre"
-  },{
-    "english":"Tukohama's Vanguard",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/KaomWarrior/KaomWarrior7"
-  },{
-    "english":"Undead Vaal Commander",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/VaalMonsters/VaalOverseer"
-  },{
-    "english":"Undying Alchemist",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Pyromaniac/PyromaniacPoison"
-  },{
-    "english":"Undying Evangelist",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Undying/CityStalkerMaleCasterArmour"
-  },{
-    "english":"Undying Grappler",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Grappler/Grappler"
-  },{
-    "english":"Undying Impaler",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Undying/UndyingOutcastPuncture"
-  },{
-    "english":"Undying Incinerator",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Pyromaniac/PyromaniacFire"
-  },{
-    "english":"Undying Outcast",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Undying/UndyingOutcastWhirlingBlades"
-  },{
-    "english":"Unholy Aberration",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/SpiderPlated/SpiderPlatedUnholyEmerge"
-  },{
-    "english":"Vaal Slayer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonBowKnightElemental"
-  },{
-    "english":"Vexing Archer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Skeletons/SkeletonBowProjectileWeaknessCurse"
-  },{
-    "english":"Violator",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHeist/Science/ProjectUnarmedEliteGuardSpectre"
-  },{
-    "english":"Voidbearer",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Monkeys/FlameBearer"
-  },{
-    "english":"Warlord",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueAzmeri/SpecialCorpses/OakMid"
-  },{
-    "english":"Whipping Miscreation",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/DemonFemale/DemonFemale"
-  },{
-    "english":"Wicker Man",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/WickerMan/WickerMan"
-  },{
-    "english":"Wild Homunculus",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/LeagueHarvest/Red/HarvestMinerHammerT2Spectre"
-  },{
-    "english":"Wretched Defiler",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Revenant/RevenantMapBossStandalone_AtlasUber"
-  },{
-    "english":"Xoph's Favoured",
-    "kind":"spectre-name",
-    "source":"Data/Spectres.lua#Metadata/Monsters/Hellion/HellionBreachHowlSpectre"
   },{
     "english":"Acrobatics",
     "kind":"tattoo-name",
@@ -21795,6 +20575,10 @@
     "kind":"tattoo-stat",
     "source":"Data/TattooPassives.lua"
   },{
+    "english":"+3% to Item Rarity",
+    "kind":"tattoo-stat",
+    "source":"Data/TattooPassives.lua"
+  },{
     "english":"+3% to all Elemental Resistances",
     "kind":"tattoo-stat",
     "source":"Data/TattooPassives.lua"
@@ -21999,10 +20783,6 @@
     "kind":"tattoo-stat",
     "source":"Data/TattooPassives.lua"
   },{
-    "english":"3% increased Rarity of Items found",
-    "kind":"tattoo-stat",
-    "source":"Data/TattooPassives.lua"
-  },{
     "english":"3% increased maximum Energy Shield",
     "kind":"tattoo-stat",
     "source":"Data/TattooPassives.lua"
@@ -22123,7 +20903,7 @@
     "kind":"tattoo-stat",
     "source":"Data/TattooPassives.lua"
   },{
-    "english":"50% increased Damage with Damaging Ailments you inflict while you are affected by the same Ailment",
+    "english":"50% increased Damage with Damaging Ailments you inflict while you have that same Ailment on you",
     "kind":"tattoo-stat",
     "source":"Data/TattooPassives.lua"
   },{
@@ -22831,7 +21611,7 @@
     "kind":"tattoo-stat",
     "source":"Data/TattooPassives.lua"
   },{
-    "english":"be inflicted on a nearby Minion instead",
+    "english":"be inflicted on a Minion within 4 metres instead",
     "kind":"tattoo-stat",
     "source":"Data/TattooPassives.lua"
   },{

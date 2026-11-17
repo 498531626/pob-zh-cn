@@ -347,4 +347,6 @@ return {
 {pattern="^base life for a level ([%+%-]?[%d%,%.]+) monster$",zh="{0}级怪物的基础生命",kinds={"number"}},
 {pattern="^Totem level: ([%+%-]?[%d%,%.]+)$",zh="图腾等级：{0}",kinds={"number"}},
 {pattern="^Totems Summoned: ([%+%-]?[%d%,%.]+) %(can be overridden in the Configuration tab%)$",zh="已召唤图腾：{0}（可在配置页覆盖）",kinds={"number"}},
+{pattern="^= ([%+%-]?[%d%,%.]+)%% over ([%+%-]?[%d%,%.]+) seconds$",zh="= {0}%，在 {1} 秒内",kinds={"number","number"}},
+{pattern="^Limited to Level ([%+%-]?[%d%,%.]+)$",zh="等级上限 {0}",kinds={"number"}},
 }

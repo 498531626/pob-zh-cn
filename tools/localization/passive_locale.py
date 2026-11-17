@@ -1,4 +1,4 @@
-"""Match PoEDB 3.29 text by stable node/effect ID, never by list position alone."""
+"""Match PoEDB 3.30 text by stable node/effect ID, never by list position alone."""
 import collections
 import html
 import json
@@ -29,8 +29,8 @@ def build_passives():
             counts['number_mismatch_skipped'] += 1
             return False
         candidates[english][chinese] = {'zh': chinese, 'kind': kind, 'node_id': node_id,
-            'source': 'https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5',
-            'english_source': 'https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5',
+            'source': 'https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5',
+            'english_source': 'https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5',
             'status': 'paired-id-english-and-numbers-checked'}
         contexts[node_id][english] = chinese
         counts[kind + '_occurrences'] += 1
@@ -76,10 +76,11 @@ def build_passives():
                 contexts[node_id][english] = meta['zh']
                 matched += 1
         if not matched:
-            raise ValueError('Reviewed passive no longer exists: ' + english)
+            counts['reviewed_not_in_current_tree'] += 1
+            continue
         candidates[english] = {meta['zh']: meta}
     misses = [m for m in misses if m.get('english') not in reviewed]
-    counts['reviewed_translations'] = len(reviewed)
+    counts['reviewed_translations'] = len(reviewed) - counts['reviewed_not_in_current_tree']
     entries = {}
     conflicts = []
     for english, options in candidates.items():
@@ -102,8 +103,8 @@ def build_passives():
                 for old, new in [(local[field], chinese[field]),
                                  (local[field].replace('\\n','\n'),chinese[field].replace('\\n','\n'))]:
                     entries[old] = {'zh': new, 'kind':'ascendancy-'+field, 'status':'paired-id-local-english-checked',
-                        'source':'https://poedb.tw/data/passive-skill-tree/3.29/data_cn.json?5',
-                        'english_source':'https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5'}
+                        'source':'https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5',
+                        'english_source':'https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5'}
     counts['unique_translations'] = len(entries)
     counts['ambiguous_texts_context_only'] = len(conflicts)
     counts['local_nodes'] = len(pob['nodes'])

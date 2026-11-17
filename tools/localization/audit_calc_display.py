@@ -82,7 +82,7 @@ assert(#pending==0,'Untranslated calculation display text; see calculation-displ
 if AUDIT_PASSIVES then
  newBuild();L.mode='zh';main.notSupportedModTooltips=true;main.showFlavourText=true
  local viewer=build.treeTab.viewer;viewer.showStatDifferences=false
- local tip=new('Tooltip')
+ local tip=new('Tooltip'):Tooltip()
  local unresolved,seen={},{}
  local count,redCount=0,0
  local redSamples={}

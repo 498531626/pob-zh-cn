@@ -8,6 +8,7 @@ return {
 	"Life Leech/Gain per Hit",
 	"Lightning Res. Over Max",
 	"Mana Leech/Gain per Hit",
+	"Max Eff. KF Attack Rate",
 	"Movement Speed Modifier",
 	"Projectile Evade Chance",
 	"Total Damage per Ignite",

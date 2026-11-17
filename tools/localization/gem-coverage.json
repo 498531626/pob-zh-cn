@@ -1,8 +1,8 @@
 {
   "counts": {
     "gem_pairs": 1038,
-    "exact_entries": 2912,
-    "numeric_templates": 1679,
+    "exact_entries": 2910,
+    "numeric_templates": 1676,
     "reviewed_entries": 126,
     "ambiguous_exact": 23,
     "ambiguous_templates": 13,
@@ -82,9 +82,24 @@
       "english": "is area damage [1]"
     },
     {
+      "slug": "Barkskin",
+      "reason": "local-template-mismatch",
+      "english": "Gain 1 Bark each second if you haven't been Hit by an Enemy Attack Recently\nLose 1 Bark when Hit by an Enemy Attack\nMaximum {0} Bark"
+    },
+    {
       "slug": "Blade_Trap",
       "reason": "local-template-mismatch",
       "english": "Trap lasts {0} second\nRotates {1} time"
+    },
+    {
+      "slug": "Blade_Trap_of_Laceration",
+      "reason": "local-template-mismatch",
+      "english": "Bleeding inflicted by this Skill deals Damage {0}% faster"
+    },
+    {
+      "slug": "Blade_Trap_of_Laceration",
+      "reason": "local-template-mismatch",
+      "english": "Bleeding inflicted by this Skill deals Damage {0}% faster"
     },
     {
       "slug": "Blazing_Glare",
@@ -1068,12 +1083,6 @@
     {
       "slug": "Festering_Resentment",
       "reason": "card-name",
-      "english": "Festering Resentment",
-      "chinese": "积怨溃脓"
-    },
-    {
-      "slug": "Festering_Resentment",
-      "reason": "card-name",
       "english": "SupportUniqueVirulenceSpellsCastOnBlock",
       "chinese": "SupportUniqueVirulenceSpellsCastOnBlock"
     },
@@ -1361,6 +1370,16 @@
       "slug": "Invention_Support",
       "reason": "local-template-mismatch",
       "english": "Supported Skills have {0}% increased Trap Duration\nSupported Skills have {1}% increased Mine Duration"
+    },
+    {
+      "slug": "Item_Rarity_Support",
+      "reason": "local-template-mismatch",
+      "english": "{0}% increased Rarity of Items Dropped by Enemies Slain from Supported Skills"
+    },
+    {
+      "slug": "Item_Rarity_Support",
+      "reason": "local-template-mismatch",
+      "english": "{0}% increased Rarity of Items Dropped by Enemies Slain from Supported Skills"
     },
     {
       "slug": "Kinetic_Anomaly",
@@ -1932,6 +1951,11 @@
       "slug": "Sacred_Wisps_Support",
       "reason": "line-numeric-span-mismatch",
       "english": "Projectile with that Skill"
+    },
+    {
+      "slug": "Sadism_Support",
+      "reason": "local-template-mismatch",
+      "english": "Damaging Ailments inflicted with Supported Skills deal damage {0}% faster"
     },
     {
       "slug": "Savage_Barnacle",
@@ -2551,6 +2575,16 @@
       "slug": "Thunderburst",
       "reason": "numeric-span-mismatch",
       "english": "triggered by windstorm [1]"
+    },
+    {
+      "slug": "Transfusion_Support",
+      "reason": "local-template-mismatch",
+      "english": "A nearby Minion gains a Soul for every {0} Life you spend on Upfront\nCosts with Supported Spells"
+    },
+    {
+      "slug": "Transfusion_Support",
+      "reason": "local-template-mismatch",
+      "english": "A nearby Minion gains a Soul for every {0} Life you spend on Upfront"
     },
     {
       "slug": "Twister",

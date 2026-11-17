@@ -63,16 +63,16 @@ for _,width in ipairs({80,240,600}) do
  end
 end
 local viewport={x=320,y=60,width=960,height=660}
-local box=new('CheckBoxControl',nil,{554,80,18},string.rep('中文',40))
-local panel=new('SectionControl',nil,{320,60,360,100},'Panel')
+local box=new('CheckBoxControl'):CheckBoxControl(nil,{554,80,18},string.rep('中文',40))
+local panel=new('SectionControl'):SectionControl(nil,{320,60,360,100},'Panel')
 box:SetAnchor('TOPLEFT',panel,'TOPLEFT',234,20)
-local host=new('ControlHost');host.controls={box}
+local host=new('ControlHost'):ControlHost();host.controls={box}
 host:DrawControls(viewport);checkError()
 assert(box.labelWidth<=234,'Checkbox hit region crossed panel border')
-local label=new('LabelControl',{'RIGHT',box,'LEFT'},{-4,0,128,16},text)
+local label=new('LabelControl'):LabelControl({'RIGHT',box,'LEFT'},{-4,0,128,16},text)
 assert(label:GetSize()<=128,'Explicit label width was ignored')
 local originalBuf='Cyclone'
-local editor=new('EditControl',nil,{400,100,90,20},originalBuf)
+local editor=new('EditControl'):EditControl(nil,{400,100,90,20},originalBuf)
 editor:Draw(viewport,true)
 assert(editor.buf==originalBuf,'Layout modified editable text')
 local cursor=GetCursorPos
@@ -102,7 +102,7 @@ for _,screen in ipairs({{1280,720},{1920,1080}}) do
   assert(savedSkills()==skills,'Layout changed serialized skills')
  end
 end
-local tooltip=new('Tooltip')
+local tooltip=new('Tooltip'):Tooltip()
 L.mode='zh';tooltip:AddLine(16,text)
 local width=tooltip:GetSize()
 assert(width<=712,'Unbounded tooltip paragraph')

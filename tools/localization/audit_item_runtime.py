@@ -73,7 +73,7 @@ for _,raw in ipairs(data.uniques.generated)do
 end
 main.showFlavourText=false
 build.itemsTab.showStatDifferences=false
-local tip=new('Tooltip')
+local tip=new('Tooltip'):Tooltip()
 local rows,pending,titlePending={},{},{}
 local function check(item,kind)
  local original=item:BuildRaw()
@@ -119,7 +119,7 @@ for _,item in pairs(main.uniqueDB.list)do check(item,'unique')end
 local crafted=0
 for _,base in ipairs({'Vaal Regalia','Hubris Circlet','Titan Gauntlets','Opal Ring','Imperial Claw','Spine Bow'})do
  build.itemsTab.showStatDifferences=true
- local item=new('Item','Rarity: RARE\nNew Item\n'..base..'\nItem Level: 86\n')
+ local item=new('Item'):Item('Rarity: RARE\nNew Item\n'..base..'\nItem Level: 86\n')
  if item.base then
   item.crafted=true;item:BuildAndParseRaw()
   for id,mod in pairs(item.affixes or {})do

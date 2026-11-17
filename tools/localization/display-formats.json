@@ -294,5 +294,7 @@
   "%g%% reduced": "%g%% 降低",
   "base life for a level %d monster": "%d级怪物的基础生命",
   "Totem level: %d": "图腾等级：%d",
-  "Totems Summoned: %d (can be overridden in the Configuration tab)": "已召唤图腾：%d（可在配置页覆盖）"
+  "Totems Summoned: %d (can be overridden in the Configuration tab)": "已召唤图腾：%d（可在配置页覆盖）",
+  "= %.1f%% over %d seconds": "= %.1f%%，在 %d 秒内",
+  "Limited to Level %d": "等级上限 %d"
 }

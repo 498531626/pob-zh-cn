@@ -93,5 +93,11 @@
   "You can have two Offerings of different types": "你可以同时拥有两种不同类型的奉献",
   "Your Physical Damage can Ignite during Effect": "药剂生效期间，你的物理伤害可以点燃",
   "Enemies Ignited by you during Effect have Malediction": "药剂生效期间，被你点燃的敌人受到恶语术影响",
-  "Increases and Reductions to Minion Cast Speed also affect you": "召唤生物施法速度的提高和降低也作用于你"
+  "Increases and Reductions to Minion Cast Speed also affect you": "召唤生物施法速度的提高和降低也作用于你",
+  "{0} Suffix Modifier cannot be changed": "{0} 条后缀词缀无法改变",
+  "{0} Prefix Modifier cannot be changed": "{0} 条前缀词缀无法改变",
+  "{0} Suffix Modifiers cannot be changed": "{0} 条后缀词缀无法改变",
+  "{0} Prefix Modifiers cannot be changed": "{0} 条前缀词缀无法改变",
+  "Suffix Modifiers cannot be changed": "后缀词缀无法改变",
+  "Prefix Modifiers cannot be changed": "前缀词缀无法改变"
 }
