@@ -87,7 +87,7 @@ local function savedSkills()
  local xml={};build.skillsTab:Save(xml);return json.encode(xml)
 end
 local skills=savedSkills()
-for _,screen in ipairs({{1280,720},{1920,1080}}) do
+for _,screen in ipairs({{1280,720},{1920,1080},{2560,1440}}) do
  GetScreenSize=function() return unpack(screen) end
  GetVirtualScreenSize=GetScreenSize
  for _,mode in ipairs({'zh','en','zh'}) do
@@ -95,6 +95,20 @@ for _,screen in ipairs({{1280,720},{1920,1080}}) do
   for _,page in ipairs({'TREE','SKILLS','ITEMS','CALCS','CONFIG','NOTES','PARTY','IMPORT'}) do
    build.viewMode=page
    runCallback('OnFrame');checkError()
+   if page=='ITEMS' then
+    local controls=build.itemsTab.controls
+    assert(controls.selectDBLabel:IsShown() and controls.selectDB:IsShown(),'Item database selector hidden')
+    for index,key in ipairs({'uniqueDB','rareDB','visceraDB'}) do
+     controls.selectDB:SetSel(index)
+     runCallback('OnFrame');checkError()
+     for _,other in ipairs({'uniqueDB','rareDB','visceraDB'}) do
+      assert(controls[other]:IsShown()==(other==key),'Wrong database visible: '..key..' / '..other)
+     end
+    end
+    assert(controls.selectDB.list[3]=='Viscera','Translated database key leaked into source list')
+    assert(L:Translate('Viscera')==(mode=='en' and 'Viscera' or '脏器'),'Viscera language switching failed')
+    controls.selectDB:SetSel(1)
+   end
   end
   for k,v in pairs(baseline) do
    assert(build.calcsTab.calcsOutput[k]==v or v~=v,'Layout changed calculation: '..k)
@@ -107,5 +121,5 @@ L.mode='zh';tooltip:AddLine(16,text)
 local width=tooltip:GetSize()
 assert(width<=712,'Unbounded tooltip paragraph')
 tooltip:Draw(500,200,30,20,{x=0,y=0,width=1920,height=1080});checkError()
-print('Layout: '..checked..' label/width cases; Chinese wrapping, checkbox hit bounds, explicit label widths, edit isolation, 8 pages at 2 resolutions, language switching and numeric outputs passed')
+print('Layout: '..checked..' label/width cases; Chinese wrapping, checkbox hit bounds, explicit label widths, edit isolation, 8 pages at 3 resolutions including all 3 item databases, language switching and numeric outputs passed')
 ''')

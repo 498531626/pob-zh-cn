@@ -1,0 +1,29 @@
+{
+  "recorded_base": {
+    "repository": "https://github.com/PathOfBuildingCommunity/PathOfBuilding.git",
+    "tag": "v2.68.0",
+    "commit": "07fa089bf08f6a089004c5c39192d12d210a13ac",
+    "integration_branch": "localization",
+    "original_archive_baseline": "52a02f1",
+    "note": "Advance tag and commit only after upstream merge, localization adaptation and validation."
+  },
+  "base_is_ancestor_of_head": true,
+  "candidate_tag": "v2.68.1",
+  "candidate_commit": "a41fec6c20f822a658ae5df1273e8c69d5969bac",
+  "working_tree_clean": true,
+  "upstream_changed_count": 4,
+  "upstream_changed_files": [
+    "CHANGELOG.md",
+    "changelog.txt",
+    "manifest.xml",
+    "src/Classes/ItemsTab.lua"
+  ],
+  "local_delta_count": 3824,
+  "overlapping_files": [
+    "src/Classes/ItemsTab.lua"
+  ],
+  "review_for_localization_or_runtime": [
+    "src/Classes/ItemsTab.lua"
+  ],
+  "note": "File overlap is a review hint, not a compatibility test. No files changed."
+}

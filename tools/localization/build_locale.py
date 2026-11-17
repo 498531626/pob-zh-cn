@@ -262,7 +262,7 @@ def build():
     font_info = build_atlas(chars, OUT)
     report = {'entries': len(entries), 'gem_names': sum(v['kind'] == 'gem' and 'alias_of' not in v for v in entries.values()),
               'glyphs': len(chars), **font_info,
-              'pob_version': '2.68.0', 'passive_reference_version': '3.30', 'passive_reference_retrieved': '2026-11-17', 'name_reference_retrieved': '2026-11-11', 'item_reference_retrieved': '2026-11-12',
+              'pob_version': '2.68.1', 'passive_reference_version': '3.30', 'passive_reference_retrieved': '2026-11-17', 'name_reference_retrieved': '2026-11-11', 'item_reference_retrieved': '2026-11-12',
               'passives': passive_report, 'gem_details': gem_report, 'item_details': item_report,
               'database_details': {k:v if not isinstance(v,dict)else len(v)for k,v in database_report.items()},
               'sidebar_labels': len(labels), 'sidebar_labels_translated': len(labels),
