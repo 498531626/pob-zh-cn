@@ -1,5 +1,5 @@
 {
-  "entries": 42747,
+  "entries": 42806,
   "gem_names": 1040,
   "glyphs": 2447,
   "font": "Noto Sans SC Medium (installed on local PC)",
@@ -62,11 +62,11 @@
   },
   "item_details": {
     "paired_mod_records": 103475,
-    "reviewed_legacy_templates": 31,
+    "reviewed_legacy_templates": 32,
     "reviewed_legacy_entries": 45,
-    "exact_entries": 29457,
-    "numeric_templates": 6516,
-    "composed_entries": 9807,
+    "exact_entries": 29516,
+    "numeric_templates": 6521,
+    "composed_entries": 9866,
     "ambiguous_exact_resolved": 61,
     "ambiguous_templates_resolved": 25,
     "ambiguous_exact": 61,

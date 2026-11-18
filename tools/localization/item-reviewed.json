@@ -1,4 +1,16 @@
 {
+  "{0}% to Item Rarity": {
+    "zh": "物品掉落稀有度 {0}%",
+    "kind": "item-reviewed",
+    "status": "direct-translation-numeric-checked",
+    "source": "src/Data/ModExplicit.lua; src/Data/ModCache.lua"
+  },
+  "{0}% TO ITEM RARITY": {
+    "zh": "物品掉落稀有度 {0}%",
+    "kind": "item-reviewed",
+    "status": "direct-translation-numeric-checked",
+    "source": "src/Data/ModExplicit.lua; uppercase imported-item display variant"
+  },
   "{0}% increased maximum Energy Shield": {
     "zh": "能量护盾上限提高 {0}%",
     "kind": "item-reviewed",

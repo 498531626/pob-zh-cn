@@ -8401,6 +8401,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(-30-30)% to Cold Resistance,+(-30-30)% 冰霜抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(-30-30)% to Fire Resistance,+(-30-30)% 火焰抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(-30-30)% to Lightning Resistance,+(-30-30)% 闪电抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++(-40-40)% to Item Rarity,物品掉落稀有度 +(-40-40)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(-40-90) to Maximum Charges,最大充能 +(-40-90),item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(-5-5) to Maximum Rage,怒火上限 +(-5-5),item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(0-100) to maximum Life,+(0-100) 最大生命,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Doryanis_Delusion,https://poedb.tw/us/Doryanis_Delusion
@@ -8456,6 +8457,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(1-2)% chance to Block Projectile Attack Damage,+(1-2)% 对投射物伤害格挡几率,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(1-2)% chance to Evade Attack Hits,+(1-2)% 闪避攻击击中率,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(1-2)% to Critical Strike Chance against Enemies on Consecrated Ground during Effect,药剂持续期间，对奉献地面上的敌人暴击几率 +(1-2)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++(1-2)% to Item Rarity,物品掉落稀有度 +(1-2)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(1-2)% to all maximum Elemental Resistances if 6 Shaper Items are Equipped,装备 6 件塑界者物品时，+(1-2)% 元素抗性上限,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(1-2)% to maximum Chance to Block Attack Damage,+(1-2)% 攻击伤害格挡几率上限,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(1-2)% to maximum Chance to Block Spell Damage,+(1-2)% 法术伤害格挡几率上限,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
@@ -8487,6 +8489,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(10-11)% Chance to Block Attack Damage,+(10-11)% 攻击伤害格挡几率,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Staves,https://poedb.tw/us/Staves
 +(10-11)% Chance to Block Spell Damage,+(10-11)% 格挡法术伤害几率,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Staves,https://poedb.tw/us/Staves
 +(10-11)% to Chaos Resistance,+(10-11)% 混沌抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
++(10-11)% to Item Rarity,物品掉落稀有度 +(10-11)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(10-12) to all Attributes,+(10-12) 全属性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 +(10-12) to maximum Energy Shield,+(10-12) 最大能量护盾,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 +(10-12)% Chance to Block Spell Damage if you have Blocked Spell Damage Recently,若你近期内格挡过法术伤害，则 +(10-12)% 法术伤害格挡率,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bone_Spirit_Shield,https://poedb.tw/us/Bone_Spirit_Shield
@@ -8559,6 +8562,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(10-20)% to Fire Resistance,+(10-20)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Yoke_of_Suffering,https://poedb.tw/us/Yoke_of_Suffering
 +(10-20)% to Fire and Cold Resistances,+(10-20)% 火焰与冰霜抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Mistwall,https://poedb.tw/us/Mistwall
 +(10-20)% to Global Critical Strike Multiplier,+(10-20)% 全域暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++(10-20)% to Item Rarity,物品掉落稀有度 +(10-20)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(10-20)% to Lightning Resistance,+(10-20)% 闪电抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(10-20)% to Off Hand Critical Strike Chance,副手暴击率 +(10-20)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Wings_of_Entropy,https://poedb.tw/us/Replica_Wings_of_Entropy
 +(10-20)% to Quality,+(10-20)% 品质,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
@@ -8586,6 +8590,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(10-30) to all Attributes,+(10-30) 全属性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Le_Heup_of_All,https://poedb.tw/us/Le_Heup_of_All
 +(10-30) to maximum Mana,+(10-30) 最大魔力,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Blackgleam,https://poedb.tw/us/Blackgleam
 +(10-30)% to Global Critical Strike Multiplier,+(10-30)% 全域暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++(10-30)% to Item Rarity,物品掉落稀有度 +(10-30)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(10-30)% to all Elemental Resistances,+(10-30)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Le_Heup_of_All,https://poedb.tw/us/Le_Heup_of_All
 +(10-40)% to Cold Resistance,+(10-40)% 冰霜抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Defiance_of_Destiny,https://poedb.tw/us/Defiance_of_Destiny
 +(10-40)% to Fire Resistance,+(10-40)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Defiance_of_Destiny,https://poedb.tw/us/Defiance_of_Destiny
@@ -8665,6 +8670,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(11-13)% to Physical Damage over Time Multiplier,+(11-13)% 物理持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(11-14) to maximum Life,+(11-14) 最大生命,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 +(11-14) to maximum Mana,+(11-14) 最大魔力,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
++(11-14)% to Item Rarity,物品掉落稀有度 +(11-14)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(11-15) to maximum Energy Shield,+(11-15) 最大能量护盾,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Belts,https://poedb.tw/us/Belts
 "+(11-15) to maximum Energy Shield
 +(16-19) to maximum Mana","+(11-15) 最大能量护盾
@@ -8713,6 +8719,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(12-13)% Chance to Block Attack Damage,+(12-13)% 攻击伤害格挡几率,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Staves,https://poedb.tw/us/Staves
 +(12-13)% Chance to Block Spell Damage,+(12-13)% 格挡法术伤害几率,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Staves,https://poedb.tw/us/Staves
 +(12-13)% to Chaos Resistance,+(12-13)% 混沌抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
++(12-13)% to Item Rarity,物品掉落稀有度 +(12-13)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(12-14) to Dexterity,+(12-14) 敏捷,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(12-14) to Intelligence,+(12-14) 智慧,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(12-14) to Strength,+(12-14) 力量,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
@@ -8744,6 +8751,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(12-18)% to Damage over Time Multiplier,+(12-18)% 持续伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(12-18)% to all Elemental Resistances,+(12-18)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/March_of_the_Legion,https://poedb.tw/us/March_of_the_Legion
 +(12-20) to maximum Life,+(12-20) 最大生命,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++(12-20)% to Item Rarity,物品掉落稀有度 +(12-20)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(12-24) to maximum Energy Shield,+(12-24) 最大能量护盾,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(120-126) to maximum Life,+(120-126) 最大生命,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(120-129) to maximum Mana,+(120-129) 最大魔力,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Claws,https://poedb.tw/us/Claws
@@ -8793,6 +8801,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(13-17) to Dexterity,+(13-17) 敏捷,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(13-17) to Intelligence,+(13-17) 智慧,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(13-17) to Strength,+(13-17) 力量,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
++(13-18)% to Item Rarity,物品掉落稀有度 +(13-18)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(13-18)% to Quality,+(13-18)% 品质,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(13-19)% to Chaos Resistance,+(13-19)% 混沌抗性,database-stat,paired-local-source,https://poedb.tw/cn/Unique_item,https://poedb.tw/us/Unique_item
 +(13-19)% to Critical Strike Multiplier with Bows,弓类攻击 +(13-19)% 暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Quivers,https://poedb.tw/us/Quivers
@@ -8823,6 +8832,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(14-15)% to Chaos Resistance,+(14-15)% 混沌抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
 +(14-15)% to Cold Damage over Time Multiplier,+(14-15)% 冰霜持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
 +(14-15)% to Fire Damage over Time Multiplier,+(14-15)% 火焰持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
++(14-15)% to Item Rarity,物品掉落稀有度 +(14-15)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(14-15)% to Physical Damage over Time Multiplier,+(14-15)% 物理持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
 +(14-16) to maximum Life,+(14-16) 最大生命,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bone_Spirit_Shield,https://poedb.tw/us/Bone_Spirit_Shield
 +(14-16)% chance to Suppress Spell Damage,法术伤害压制率 +(14-16)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
@@ -8929,6 +8939,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(15-20)% to Damage over Time Multiplier,+(15-20)% 持续伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(15-20)% to Fire Resistance,+(15-20)% 火焰抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(15-20)% to Global Critical Strike Multiplier,+(15-20)% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Ixchels_Temptation,https://poedb.tw/us/Ixchels_Temptation
++(15-20)% to Item Rarity,物品掉落稀有度 +(15-20)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(15-20)% to Lightning Resistance,+(15-20)% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Malachais_Vision,https://poedb.tw/us/Malachais_Vision
 +(15-20)% to all Elemental Resistances,+(15-20)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Fury_Valve,https://poedb.tw/us/Fury_Valve
 +(15-25) to Armour,+(15-25) 护甲,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -8954,6 +8965,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 "+(15-25)% to Global Critical Strike Multiplier
 (80-100)% increased Critical Strike Chance if you haven't dealt a Critical Strike Recently","+(15-25)% 全域暴击伤害加成
 若你近期内没有打出暴击，则暴击率提高 (80-100)%",item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Staves,https://poedb.tw/us/Staves
++(15-25)% to Item Rarity,物品掉落稀有度 +(15-25)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(15-25)% to Lightning Resistance,+(15-25)% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Poised_Prism,https://poedb.tw/us/The_Poised_Prism
 +(15-25)% to all Elemental Resistances,+(15-25)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Viridis_Veil,https://poedb.tw/us/Viridis_Veil
 +(15-30) to Strength,+(15-30) 力量,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Limbsplit,https://poedb.tw/us/Limbsplit
@@ -9003,6 +9015,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(16-17)% to Chaos Resistance,+(16-17)% 混沌抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
 +(16-17)% to Cold Damage over Time Multiplier,+(16-17)% 冰霜持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
 +(16-17)% to Fire Damage over Time Multiplier,+(16-17)% 火焰持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
++(16-17)% to Item Rarity,物品掉落稀有度 +(16-17)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(16-17)% to Physical Damage over Time Multiplier,+(16-17)% 物理持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
 +(16-18) to maximum Energy Shield,+(16-18) 最大能量护盾,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 +(16-18)% chance to Suppress Spell Damage,法术伤害压制率 +(16-18)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -9063,6 +9076,7 @@ Life Leech is instant during Effect","回复量降低 (80-90)%
 +(16-24) to Strength and Intelligence,+(16-24) 力量和智慧,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Eternal_Damnation,https://poedb.tw/us/Eternal_Damnation
 +(16-24) to all Attributes,+(16-24) 全属性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Demigods_Triumph,https://poedb.tw/us/Demigods_Triumph
 +(16-24)% to Global Critical Strike Multiplier,+(16-24)% 全域暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++(16-24)% to Item Rarity,物品掉落稀有度 +(16-24)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(16-24)% to all Elemental Resistances,+(16-24)% 所有元素抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(16-25) to maximum Energy Shield,+(16-25) 最大能量护盾,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex_int,https://poedb.tw/us/Body_Armours_dex_int
 "+(16-25) to maximum Energy Shield
@@ -9134,6 +9148,7 @@ Minions deal (8-12)% increased Damage","+(17-20) 最大魔力
 +(18-20)% to Fire Damage over Time Multiplier,+(18-20)% 火焰持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
 +(18-20)% to Fire Resistance,+(18-20)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(18-20)% to Global Critical Strike Multiplier,+(18-20)% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bone_Ring,https://poedb.tw/us/Bone_Ring
++(18-20)% to Item Rarity,物品掉落稀有度 +(18-20)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(18-20)% to Lightning Resistance,+(18-20)% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(18-20)% to Physical Damage over Time Multiplier,+(18-20)% 物理持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
 +(18-21)% chance to Suppress Spell Damage,法术伤害压制率 +(18-21)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -9163,6 +9178,7 @@ Minions deal (8-12)% increased Damage","+(17-20) 最大魔力
 +(19-20)% to Fire Damage over Time Multiplier,+(19-20)% 火焰持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(19-20)% to Fire Resistance,+(19-20)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
 +(19-20)% to Global Critical Strike Multiplier,+(19-20)% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
++(19-20)% to Item Rarity,物品掉落稀有度 +(19-20)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(19-20)% to Lightning Resistance,+(19-20)% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
 +(19-20)% to Physical Damage over Time Multiplier,+(19-20)% 物理持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(19-21) to maximum Energy Shield,+(19-21) 最大能量护盾,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
@@ -9180,6 +9196,7 @@ Minions deal (8-12)% increased Damage","+(17-20) 最大魔力
 +(19-23)% to Fire Damage over Time Multiplier,+(19-23)% 火焰持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Convoking_Wand,https://poedb.tw/us/Convoking_Wand
 +(19-23)% to Melee Weapon Critical Strike Multiplier,近战武器暴击伤害加成 +(19-23)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Tinctures,https://poedb.tw/us/Tinctures
 +(19-23)% to Physical Damage over Time Multiplier,+(19-23)% 物理持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Convoking_Wand,https://poedb.tw/us/Convoking_Wand
++(19-24)% to Item Rarity,物品掉落稀有度 +(19-24)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(19-29)% to Chaos Resistance,+(19-29)% 混沌抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Temptation_Step,https://poedb.tw/us/Temptation_Step
 +(2-3) to Dexterity,+(2-3) 敏捷,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Cobalt_Jewel,https://poedb.tw/us/Cobalt_Jewel
 +(2-3) to Intelligence,+(2-3) 智慧,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Cobalt_Jewel,https://poedb.tw/us/Cobalt_Jewel
@@ -9291,6 +9308,7 @@ Minions deal (8-12)% increased Damage","+(17-20) 最大魔力
 +(20-25)% to Critical Strike Multiplier during any Flask Effect,药剂持续期间，+(20-25)% 暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Belts,https://poedb.tw/us/Belts
 +(20-25)% to Fire Resistance,+(20-25)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Rise_of_the_Phoenix,https://poedb.tw/us/Rise_of_the_Phoenix
 +(20-25)% to Fire and Chaos Resistances,+(20-25)% 火焰与混沌抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Blackflame,https://poedb.tw/us/Blackflame
++(20-25)% to Item Rarity,物品掉落稀有度 +(20-25)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(20-25)% to Lightning Resistance,+(20-25)% 闪电抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(20-25)% to all Elemental Resistances,+(20-25)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Magnate,https://poedb.tw/us/The_Magnate
 +(20-25)% to all Elemental Resistances while you have at least 200 Strength,至少有 200 点力量时，+(20-25)% 元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Nomad,https://poedb.tw/us/The_Nomad
@@ -9324,6 +9342,8 @@ Minions deal (8-12)% increased Damage","+(17-20) 最大魔力
 +(20-30)% to Fire and Cold Resistances,+(20-30)% 火焰与冰霜抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Frostferno,https://poedb.tw/us/Frostferno
 +(20-30)% to Fire and Lightning Resistances,+(20-30)% 火焰与闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Hands_of_the_High_Templar,https://poedb.tw/us/Hands_of_the_High_Templar
 +(20-30)% to Global Critical Strike Multiplier,+(20-30)% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Goddess_Scorned,https://poedb.tw/us/The_Goddess_Scorned
++(20-30)% to Item Rarity,物品掉落稀有度 +(20-30)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++(20-30)% to Item Rarity during Effect,药剂持续期间，物品掉落稀有度 +(20-30)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(20-30)% to Lightning Resistance,+(20-30)% 闪电抗性,database-stat,paired-local-source,https://poedb.tw/cn/Unset_Ring,https://poedb.tw/us/Unset_Ring
 "+(20-30)% to Lightning Resistance
 (8-10)% chance to Avoid Lightning Damage from Hits","+(20-30)% 闪电抗性
@@ -9354,6 +9374,7 @@ Minions deal (8-12)% increased Damage","+(17-20) 最大魔力
 +(20-40)% to Cold Resistance,+(20-40)% 冰霜抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Eye_of_Malice,https://poedb.tw/us/Eye_of_Malice
 +(20-40)% to Damage over Time Multiplier,+(20-40)% 持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Skysunder,https://poedb.tw/us/Skysunder
 +(20-40)% to Fire Resistance,+(20-40)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Eye_of_Malice,https://poedb.tw/us/Eye_of_Malice
++(20-40)% to Item Rarity,物品掉落稀有度 +(20-40)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(20-40)% to Lightning Resistance,+(20-40)% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Gamblesprint,https://poedb.tw/us/Gamblesprint
 +(20-45) to Evasion Rating,+(20-45) 点闪避值,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(20-50) to Dexterity,+(20-50) 敏捷,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Eternal_Struggle,https://poedb.tw/us/The_Eternal_Struggle
@@ -9381,6 +9402,7 @@ Minions deal (8-12)% increased Damage","+(17-20) 最大魔力
 +(201-300) to Evasion Rating,+(201-300) 点闪避值,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 +(21-22)% to Cold Resistance,+(21-22)% 冰霜抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
 +(21-22)% to Fire Resistance,+(21-22)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
++(21-22)% to Item Rarity,物品掉落稀有度 +(21-22)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(21-22)% to Lightning Resistance,+(21-22)% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
 +(21-23)% to Chaos Damage over Time Multiplier,+(21-23)% 混沌持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Staves,https://poedb.tw/us/Staves
 +(21-23)% to Cold Damage over Time Multiplier,+(21-23)% 冰霜持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Staves,https://poedb.tw/us/Staves
@@ -9424,6 +9446,7 @@ Minions deal (13-18)% increased Damage","+(21-24) 最大魔力
 +(21-25)% to Global Critical Strike Multiplier,+(21-25)% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bone_Ring,https://poedb.tw/us/Bone_Ring
 +(21-25)% to Physical Damage over Time Multiplier,+(21-25)% 物理持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Gloves_dex,https://poedb.tw/us/Gloves_dex
 +(21-25)% to Physical Damage over Time Multiplier with Attack Skills,攻击技能的持续物理伤害加成 +(21-25)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Quivers,https://poedb.tw/us/Quivers
++(21-26)% to Item Rarity,物品掉落稀有度 +(21-26)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(21-28)% to Cold Resistance,+(21-28)% 冰霜抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(21-28)% to Fire Resistance,+(21-28)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(21-28)% to Lightning Resistance,+(21-28)% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
@@ -9509,6 +9532,7 @@ Minions deal (13-18)% increased Damage","+(21-24) 最大魔力
 +(23-25)% to Critical Strike Multiplier with Bows,弓类攻击 +(23-25)% 暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Quivers,https://poedb.tw/us/Quivers
 +(23-25)% to Fire Resistance,+(23-25)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(23-25)% to Global Critical Strike Multiplier,+(23-25)% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
++(23-25)% to Item Rarity,物品掉落稀有度 +(23-25)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(23-25)% to Lightning Resistance,+(23-25)% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(23-26) to maximum Energy Shield,+(23-26) 最大能量护盾,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(23-26) to maximum Life,+(23-26) 最大生命,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
@@ -9580,6 +9604,7 @@ Minions deal (13-18)% increased Damage","+(21-24) 最大魔力
 Minions deal (19-24)% increased Damage","+(25-28) 最大魔力
 召唤生物的伤害提高 (19-24)%",item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Convoking_Wand,https://poedb.tw/us/Convoking_Wand
 +(25-28)% to Global Critical Strike Multiplier,+(25-28)% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
++(25-28)% to Item Rarity,物品掉落稀有度 +(25-28)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(25-29) to maximum Mana,+(25-29) 最大魔力,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(25-29)% to Critical Strike Multiplier with Bows,弓类攻击 +(25-29)% 暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Quivers,https://poedb.tw/us/Quivers
 +(25-29)% to Global Critical Strike Multiplier,+(25-29)% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
@@ -9754,6 +9779,7 @@ You take 10% of Damage from Blocked Hits","+(3-4)% 攻击伤害格挡几率
 +(3-4)% chance to Block Projectile Attack Damage,+(3-4)% 对投射物伤害格挡几率,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(3-4)% chance to Suppress Spell Damage,法术伤害压制率 +(3-4)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
 +(3-4)% to Global Critical Strike Multiplier,+(3-4)% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Cobalt_Jewel,https://poedb.tw/us/Cobalt_Jewel
++(3-4)% to Item Rarity,物品掉落稀有度 +(3-4)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(3-4)% to all Elemental Resistances,+(3-4)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 +(3-5) to Dexterity,+(3-5) 敏捷,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(3-5) to Intelligence,+(3-5) 智慧,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -9809,6 +9835,7 @@ You take 10% of Damage from Blocked Hits","+(3-4)% 攻击伤害格挡几率
 +(30-40)% to Fire Damage over Time Multiplier,持续火焰伤害加成 +(30-40)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(30-40)% to Fire Resistance,+(30-40)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Sundance,https://poedb.tw/us/Sundance
 +(30-40)% to Global Critical Strike Multiplier,+(30-40)% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Widowmaker,https://poedb.tw/us/Widowmaker
++(30-40)% to Item Rarity,物品掉落稀有度 +(30-40)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(30-40)% to Lightning Resistance,+(30-40)% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Victarios_Acuity,https://poedb.tw/us/Victarios_Acuity
 +(30-40)% to all Elemental Resistances,+(30-40)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Goldrim,https://poedb.tw/us/Goldrim
 +(30-45) to maximum Energy Shield,+(30-45) 最大能量护盾,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Gull,https://poedb.tw/us/The_Gull
@@ -9833,6 +9860,8 @@ You take 10% of Damage from Blocked Hits","+(3-4)% 攻击伤害格挡几率
 +(30-50)% to Critical Strike Multiplier while affected by Precision,受到精准影响时，+(30-50)% 暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(30-50)% to Damage over Time Multiplier for Ignite from Critical Strikes,+(30-50)% 暴击导致的点燃持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Abberaths_Horn,https://poedb.tw/us/Abberaths_Horn
 +(30-50)% to Fire Resistance,+(30-50)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Deep_Ones_Hide,https://poedb.tw/us/The_Deep_Ones_Hide
++(30-50)% to Item Rarity,物品掉落稀有度 +(30-50)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++(30-50)% to Item Rarity during Effect,药剂持续期间，物品掉落稀有度 +(30-50)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(30-50)% to Quality of Socketed Gems,此物品上装备的技能石品质 +(30-50)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Crest_of_Desire,https://poedb.tw/us/Crest_of_Desire
 +(30-55) to Dexterity,+(30-55) 敏捷,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Hyrris_Truth,https://poedb.tw/us/Replica_Hyrris_Truth
 +(30-60) to Evasion Rating,+(30-60) 点闪避值,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Thousand_Ribbons,https://poedb.tw/us/Thousand_Ribbons
@@ -10098,6 +10127,7 @@ You take 20% of Damage from Blocked Hits","+(4-5)% 攻击伤害格挡几率
 +(4-6)% chance to Evade Attack Hits while affected by Grace,受到优雅影响时，+(4-6)% 闪避攻击击中率,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(4-6)% chance to Suppress Spell Damage,法术伤害压制率 +(4-6)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(4-6)% to Damage over Time Multiplier,+(4-6)% 持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Cobalt_Jewel,https://poedb.tw/us/Cobalt_Jewel
++(4-6)% to Item Rarity,物品掉落稀有度 +(4-6)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(4-6)% to Quality of Socketed AoE Gems,插入的范围伤害宝石品质 +(4-6)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Gloves_dex,https://poedb.tw/us/Gloves_dex
 +(4-6)% to Quality of Socketed Aura Gems,插入的光环宝石品质 +(4-6)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Helmets_dex,https://poedb.tw/us/Helmets_dex
 +(4-6)% to Quality of Socketed Bow Gems,插入的弓类宝石品质 +(4-6)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
@@ -10139,6 +10169,7 @@ Minions have +(5-8)% to all Elemental Resistances","+(4-6)% 所有元素抗性
 +(40-50)% to Cold Resistance,+(40-50)% 冰霜抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Southbound,https://poedb.tw/us/Southbound
 +(40-50)% to Fire Resistance,+(40-50)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Goldwyrm,https://poedb.tw/us/Goldwyrm
 +(40-50)% to Global Critical Strike Multiplier,+(40-50)% 全域暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++(40-50)% to Item Rarity,物品掉落稀有度 +(40-50)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(40-54) to maximum Life,+(40-54) 最大生命,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(40-55) to Dexterity,+(40-55) 敏捷,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Headhunter,https://poedb.tw/us/Replica_Headhunter
 +(40-55) to Strength,+(40-55) 力量,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Headhunter,https://poedb.tw/us/Replica_Headhunter
@@ -10157,6 +10188,7 @@ Minions have +(5-8)% to all Elemental Resistances","+(4-6)% 所有元素抗性
 +(40-60)% to Damage over Time Multiplier if you've dealt a Critical Strike in the past 8 seconds,若过去 8 秒内你造成过暴击，则持续伤害加成 +(40-60)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Qotras_Regulator,https://poedb.tw/us/Qotras_Regulator
 +(40-60)% to Fire Damage over Time Multiplier,+(40-60)% 火焰持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Searing_Touch,https://poedb.tw/us/The_Searing_Touch
 +(40-60)% to Fire Resistance,+(40-60)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Arns_Anguish,https://poedb.tw/us/Arns_Anguish
++(40-60)% to Item Rarity during Effect,药剂持续期间，物品掉落稀有度 +(40-60)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(40-60)% to Lightning Resistance,+(40-60)% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Gravens_Secret,https://poedb.tw/us/Gravens_Secret
 +(40-60)% to all Elemental Resistances,+(40-60)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Aurumvorax,https://poedb.tw/us/Aurumvorax
 +(40-65) to maximum Energy Shield,+(40-65) 最大能量护盾,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -10358,6 +10390,7 @@ Regenerate 0.4% of Energy Shield per second","+(44-47) 最大能量护盾
 +(5-14) to maximum Life,+(5-14) 最大生命,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
 +(5-15) to Accuracy Rating,+(5-15) 命中值,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(5-15) to Intelligence,+(5-15) 智慧,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Witchbane,https://poedb.tw/us/Witchbane
++(5-15)% to Item Rarity,物品掉落稀有度 +(5-15)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(5-15)% to all Elemental Resistances,+(5-15)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Scornflux,https://poedb.tw/us/Scornflux
 +(5-20) to Intelligence,+(5-20) 智慧,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Doedres_Damning,https://poedb.tw/us/Replica_Doedres_Damning
 +(5-20)% to all Elemental Resistances,+(5-20)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Doedres_Damning,https://poedb.tw/us/Replica_Doedres_Damning
@@ -10438,6 +10471,7 @@ You take 10% of Damage from Blocked Hits","+(5-6)% 攻击伤害格挡几率
 +(50-70) to maximum Energy Shield,+(50-70) 最大能量护盾,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Broken_Crown,https://poedb.tw/us/The_Broken_Crown
 +(50-70) to maximum Life,+(50-70) 最大生命,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Victarios_Charity,https://poedb.tw/us/Victarios_Charity
 +(50-70) to maximum Mana,+(50-70) 最大魔力,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Kingsguard,https://poedb.tw/us/Kingsguard
++(50-70)% to Item Rarity,物品掉落稀有度 +(50-70)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(50-75) to Armour,+(50-75) 护甲,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 +(50-75) to Evasion Rating,+(50-75) 点闪避值,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 +(50-75)% chance to Suppress Spell Damage while your Off Hand is empty,法术伤害压制率在空出副手时 +(50-75)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -10525,6 +10559,7 @@ Regenerate 5.3 Mana per second","+(55-60) 最大生命
 +(6-10)% to Critical Strike Multiplier,+(6-10)% 暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(6-10)% to Critical Strike Multiplier per Power Charge,每个暴击球 +(6-10)% 暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Shimmeron,https://poedb.tw/us/Shimmeron
 +(6-10)% to Fire Resistance,+(6-10)% 火焰抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Queen_of_the_Forest,https://poedb.tw/us/Queen_of_the_Forest
++(6-10)% to Item Rarity,物品掉落稀有度 +(6-10)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(6-10)% to all Elemental Resistances,+(6-10)% 所有元素抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(6-11) to maximum Energy Shield,+(6-11) 最大能量护盾,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 +(6-11)% to Cold Resistance,+(6-11)% 冰霜抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
@@ -10532,10 +10567,12 @@ Regenerate 5.3 Mana per second","+(55-60) 最大生命
 +(6-11)% to Lightning Resistance,+(6-11)% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 +(6-12) to Armour,+(6-12) 护甲,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_str,https://poedb.tw/us/Body_Armours_str
 +(6-12) to Evasion Rating,+(6-12) 点闪避值,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
++(6-15)% to Item Rarity,物品掉落稀有度 +(6-15)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(6-15)% to all Elemental Resistances,+(6-15)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Prismweave,https://poedb.tw/us/Replica_Prismweave
 +(6-17) to Dexterity and Intelligence,+(6-17) 敏捷与智慧,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(6-17) to Strength and Dexterity,+(6-17) 力量和敏捷,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(6-17) to Strength and Intelligence,力量和智慧 +(6-17),item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++(6-30)% to Item Rarity,物品掉落稀有度 +(6-30)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(6-7) to all Attributes,+(6-7) 全属性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 +(6-7) to maximum Energy Shield,+(6-7) 最大能量护盾,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
 +(6-7)% Chance to Block,该装备 +(6-7)% 攻击格挡率,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -10581,6 +10618,7 @@ Regenerate 5.3 Mana per second","+(55-60) 最大生命
 +(60-80) to maximum Mana,+(60-80) 最大魔力,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Tawhanukus_Timing,https://poedb.tw/us/Tawhanukus_Timing
 +(60-80)% to Damage over Time Multiplier for Bleeding from Critical Strikes,+(60-80)% 暴击导致的流血持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Yielding_Mortality,https://poedb.tw/us/The_Yielding_Mortality
 +(60-90) to maximum Life,+(60-90) 最大生命,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Tinkerskin,https://poedb.tw/us/Tinkerskin
++(60-90)% to Item Rarity,物品掉落稀有度 +(60-90)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(600-1000) to Accuracy Rating,+(600-1000) 命中值,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Hinekoras_Sight,https://poedb.tw/us/Replica_Hinekoras_Sight
 +(600-1000) to Armour,+(600-1000) 护甲,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Hinekoras_Sight,https://poedb.tw/us/Replica_Hinekoras_Sight
 +(600-1000) to Armour while affected by Determination,受到坚定影响时，+(600-1000) 护甲,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -10771,6 +10809,7 @@ Regenerate (5-7) Mana per second","+(74-78) 最大魔力
 +(8-12)% to Critical Strike Multiplier with Bows,弓类攻击 +(8-12)% 暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Quivers,https://poedb.tw/us/Quivers
 +(8-12)% to Fire Damage over Time Multiplier,+(8-12)% 火焰持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Blackflame,https://poedb.tw/us/Blackflame
 +(8-12)% to Global Critical Strike Multiplier,+(8-12)% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
++(8-12)% to Item Rarity,物品掉落稀有度 +(8-12)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(8-12)% to all Elemental Resistances,+(8-12)% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Deaths_Oath,https://poedb.tw/us/Deaths_Oath
 +(8-12)% to all Elemental Resistances if Corrupted,若腐化，获得 +(8-12)% 元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Helmets_dex,https://poedb.tw/us/Helmets_dex
 +(8-14)% to Critical Strike Multiplier if you've Killed Recently,若你近期内有击败敌人，则 +(8-14)% 暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Hypnotic_Eye_Jewel,https://poedb.tw/us/Hypnotic_Eye_Jewel
@@ -10791,6 +10830,7 @@ Regenerate (5-7) Mana per second","+(74-78) 最大魔力
 +(8-9)% Chance to Block Attack Damage while Dual Wielding,双持时攻击伤害格挡几率 +(8-9)%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Claws,https://poedb.tw/us/Claws
 +(8-9)% Chance to Block Spell Damage,+(8-9)% 格挡法术伤害几率,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Bone_Spirit_Shield,https://poedb.tw/us/Bone_Spirit_Shield
 +(8-9)% to Chaos Resistance,+(8-9)% 混沌抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Boots_dex,https://poedb.tw/us/Boots_dex
++(8-9)% to Item Rarity,物品掉落稀有度 +(8-9)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +(80-100) to Armour,+(80-100) 护甲,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Ixchels_Temptation,https://poedb.tw/us/Ixchels_Temptation
 +(80-100) to Evasion Rating,+(80-100) 点闪避值,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Ixchels_Temptation,https://poedb.tw/us/Ixchels_Temptation
 +(80-100) to Evasion Rating and Energy Shield,+(80-100) 点闪避值和能量护盾,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Magna_Eclipsis,https://poedb.tw/us/Magna_Eclipsis
@@ -11206,6 +11246,7 @@ Gain a Divine Charge on Hit","+10 最大神圣球
 +10% to Elemental Resistances during Effect,生效期间，所有元素抗性 +10%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Divination_Distillate,https://poedb.tw/us/Divination_Distillate
 +10% to Fire Damage over Time Multiplier,+10% 火焰持续伤害加成,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 +10% to Global Critical Strike Multiplier per Green Socket,每个绿色插槽 +10% 全域暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++10% to Item Rarity,物品掉落稀有度 +10%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +10% to Lightning Resistance,+10% 闪电抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +10% to Maximum Effect of Shock,最大感电效果+10%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +10% to Melee Critical Strike Multiplier,+10% 近战攻击暴击伤害加成,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
@@ -11231,6 +11272,8 @@ Gain a Divine Charge on Hit","+10 最大神圣球
 +100% to Critical Strike Multiplier against Enemies that are on Full Life,对满血敌人的暴击伤害提高 +100%,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 +100% to Critical Strike Multiplier for Spell Damage,法术伤害的暴击伤害加成 +100%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +100% to Global Critical Strike Multiplier,+100% 全域暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++100% to Item Rarity,物品掉落稀有度 +100%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++100% to Item Rarity when on Low Life,低血时，物品掉落稀有度 +100%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +1000 Armour if you've Blocked Recently,格挡后的近期内 +1000 护甲,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +1000 Armour while you do not have Avatar of Fire,当你没有获得火之化身时，+1000 护甲,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +1000 to Accuracy Rating,+1000 命中值,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -11306,6 +11349,7 @@ Gain a Divine Charge on Hit","+10 最大神圣球
 +15% to Critical Strike Multiplier with Swords,剑类攻击 +15% 暴击伤害加成,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 +15% to Damage over Time Multiplier,+15% 持续伤害加成,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 +15% to Fire Resistance,+15% 火焰抗性,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
++15% to Item Rarity,物品掉落稀有度 +15%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +15% to Lightning Resistance,+15% 闪电抗性,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 +15% to Maximum Effect of Shock,最大感电效果+15%,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 +15% to Melee Critical Strike Multiplier,+15% 近战攻击暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -11934,6 +11978,7 @@ Implicit Modifiers Cannot Be Changed","可拥有的前缀词缀数量 +3
 +3% to Damage over Time Multiplier,+3% 持续伤害加成,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 +3% to Damage over Time Multiplier for Bleeding per Endurance Charge,流血持续伤害加成按照每个耐力球 +3%,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 +3% to Damage over Time Multiplier per 10 Intelligence on Unallocated Passives in Radius,范围内每有 10 点未配置的智慧，便 +3% 持续伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Transcendent_Mind,https://poedb.tw/us/Transcendent_Mind
++3% to Item Rarity,物品掉落稀有度 +3%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +3% to all Elemental Resistances,+3% 所有元素抗性,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 +3% to all Elemental Resistances per Endurance Charge,每个耐力球 +3% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Remnant_of_Empires,https://poedb.tw/us/Remnant_of_Empires
 +3% to all maximum Elemental Resistances while affected by Purity of Elements,受到元素净化影响时，+3% 元素抗性上限,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -11979,6 +12024,7 @@ You are Crushed","+3% 混沌抗性上限
 +30% to Damage over Time Multiplier,持续伤害加成 +30%,ui,editorial-ui,,
 +30% to Fire Resistance,+30% 火焰抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +30% to Global Critical Strike Multiplier,+30% 全域暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Facebreaker,https://poedb.tw/us/Facebreaker
++30% to Item Rarity,物品掉落稀有度 +30%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +30% to Lightning Resistance,+30% 闪电抗性,database-stat,paired-local-source,https://poedb.tw/cn/Unique_item,https://poedb.tw/us/Unique_item
 +30% to Quality of Socketed Gems,此物品上装备的技能石品质 +30%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Voideye,https://poedb.tw/us/Replica_Voideye
 +30% to Quality of Socketed Support Gems,此物品上装备的辅助技能石品质 +30%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Atziris_Disfavour,https://poedb.tw/us/Atziris_Disfavour
@@ -12003,6 +12049,7 @@ You are Crushed","+3% 混沌抗性上限
 +35 to maximum Life,+35 最大生命,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +35% to Chaos Resistance,+35% 混沌抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +35% to Global Critical Strike Multiplier,+35% 全域暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++35% to Item Rarity,物品掉落稀有度 +35%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +35% to all Elemental Resistances,+35% 所有元素抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +350 to Accuracy Rating,+350 命中值,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Nametaker,https://poedb.tw/us/Nametaker
 +350 to Evasion Rating,+350 点闪避值,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Drillneck,https://poedb.tw/us/Drillneck
@@ -12084,6 +12131,7 @@ You are Crushed","+4% 混沌抗性上限
 +40% to Critical Strike Multiplier with Claws,爪类攻击 +40% 暴击伤害加成,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 +40% to Fire Resistance,+40% 火焰抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +40% to Global Critical Strike Multiplier,+40% 全域暴击伤害加成,database-stat,paired-local-source,https://poedb.tw/cn/Unique_item,https://poedb.tw/us/Unique_item
++40% to Item Rarity,物品掉落稀有度 +40%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +40% to Lightning Resistance,+40% 闪电抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Thunder_of_the_Dawn,https://poedb.tw/us/Thunder_of_the_Dawn
 +40% to Maximum Effect of Shock,最大感电效果+40%,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Voltaxic_Rift,https://poedb.tw/us/Voltaxic_Rift
 +400 to Accuracy Rating,+400 命中值,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Story_of_the_Vaal,https://poedb.tw/us/Story_of_the_Vaal
@@ -12173,6 +12221,8 @@ You are Crushed","+4% 混沌抗性上限
 +50% to Elemental Resistances during Effect,生效期间，所有元素抗性 +50%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +50% to Fire Resistance,+50% 火焰抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +50% to Global Critical Strike Multiplier,+50% 全域暴击伤害加成,database-stat,paired-local-source,https://poedb.tw/cn/Bows,https://poedb.tw/us/Bows
++50% to Item Rarity,物品掉落稀有度 +50%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++50% to Item Rarity when on Low Life,低血时，物品掉落稀有度 +50%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +50% to Lightning Resistance,+50% 闪电抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +50% to Melee Critical Strike Multiplier,+50% 近战攻击暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +50% to all Elemental Resistances,所有元素抗性 +50%,config-tooltip,source-clauses-reviewed,src/Modules/ConfigOptions.lua,
@@ -12233,6 +12283,7 @@ You are Crushed","+4% 混沌抗性上限
 +60% to Critical Strike Multiplier if you haven't dealt a Critical Strike Recently,若你近期内没有打出过暴击，则获得 +60% 暴击伤害加成,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 +60% to Critical Strike Multiplier if you've dealt a Non-Critical Strike Recently,若你近期内造成非暴击伤害，则 +60% 暴击伤害加成,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Duskdawn,https://poedb.tw/us/Duskdawn
 +60% to Global Critical Strike Multiplier,+60% 全域暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
++60% to Item Rarity per White Socket,每个白色插槽使物品掉落稀有度 +60%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +600 Strength and Intelligence Requirement,+600 力量和智慧需求,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Garb_of_the_Ephemeral,https://poedb.tw/us/Garb_of_the_Ephemeral
 +65 to Armour,+65 护甲,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 +65 to Evasion Rating,+65 点闪避值,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -12328,6 +12379,7 @@ You are Crushed","+4% 混沌抗性上限
 -(20-10)% to Chaos Resistance,-(20-10)% 混沌抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(20-10)% to Cold Resistance,-(20-10)% 冰霜抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(20-10)% to Fire Resistance,-(20-10)% 火焰抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+-(20-10)% to Item Rarity,物品掉落稀有度 -(20-10)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(20-10)% to Lightning Resistance,-(20-10)% 闪电抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(20-10)% to all Elemental Resistances,-(20-10)% 所有元素抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(20-16) Physical Damage taken from Attack Hits,攻击击中承受 -(20-16) 物理伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -12337,6 +12389,7 @@ You are Crushed","+4% 混沌抗性上限
 -(20-16)% to Lightning Resistance,-(20-16)% 闪电抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(200-100) Fire Damage taken from Hits,被击中时承受 -(200-100) 火焰伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(21-18)% to Chaos Resistance,-(21-18)% 混沌抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+-(21-18)% to Item Rarity,物品掉落稀有度 -(21-18)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(24-17) Physical Damage taken from Attack Hits,攻击击中承受 -(24-17) 物理伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(24-21)% chance to Suppress Spell Damage,法术伤害压制率 -(24-21)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(25-15) to Intelligence,-(25-15) 智慧,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -12348,6 +12401,7 @@ You are Crushed","+4% 混沌抗性上限
 -(25-21)% to Fire Resistance,-(25-21)% 火焰抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(25-21)% to Lightning Resistance,-(25-21)% 闪电抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(25-22)% to Chaos Resistance,-(25-22)% 混沌抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+-(27-24)% to Item Rarity,物品掉落稀有度 -(27-24)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(30-20) Physical Damage taken from Attack Hits,攻击击中承受 -(30-20) 物理伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(30-20) Physical Damage taken from Hits by Animals,被动物击中时承受 -(30-20) 物理伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(30-20)% to Fire Resistance,-(30-20)% 火焰抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -12360,11 +12414,13 @@ You are Crushed","+4% 混沌抗性上限
 -(30-26)% to Lightning Resistance,-(30-26)% 闪电抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(30-40) Chaos Damage taken,-(30-40) 受到的混沌伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(31-18) Chaos Damage taken,-(31-18) 受到的混沌伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+-(33-30)% to Item Rarity,物品掉落稀有度 -(33-30)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(34-20) Physical Damage taken from Hits,被击中时承受 -(34-20) 物理伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(35-25) Physical Damage taken from Attack Hits,攻击击中承受 -(35-25) 物理伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(35-31) to maximum Life,-(35-31) 最大生命,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(35-31) to maximum Mana,-(35-31) 最大魔力,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(39-33)% to Damage over Time Multiplier,-(39-33)% 持续伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+-(39-36)% to Item Rarity,物品掉落稀有度 -(39-36)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(40-16) Cold Damage taken from Hits,被击中时承受 -(40-16) 冰霜伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(40-16) Fire Damage taken from Hits,被击中时承受 -(40-16) 火焰伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(40-16) Lightning Damage taken from Hits,被击中时承受 -(40-16) 闪电伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -12374,6 +12430,7 @@ You are Crushed","+4% 混沌抗性上限
 -(45-36) Physical Damage taken from Attack Hits,攻击击中承受 -(45-36) 物理伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(49-35) Physical Damage taken from Hits,被击中时承受 -(49-35) 物理伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(5-7) Physical Damage taken from Attack Hits,攻击击中承受 -(5-7) 物理伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+-(50-30)% to Item Rarity,物品掉落稀有度 -(50-30)%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(50-40) Physical Damage taken from Attack Hits,攻击击中承受 -(50-40) 物理伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(50-40) Physical Damage taken from Hits by Animals,被动物击中时承受 -(50-40) 物理伤害,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -(50-40)% to all Elemental Resistances,-(50-40)% 所有元素抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -12525,6 +12582,7 @@ Implicit Modifiers Cannot Be Changed
 -20% to Cold Resistance,-20% 冰霜抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -20% to Critical Strike Multiplier with Swords,剑类攻击 -20% 暴击伤害加成,mastery-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 -20% to Fire Resistance,-20% 火焰抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+-20% to Item Rarity,物品掉落稀有度 -20%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -20% to Lightning Resistance,-20% 闪电抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -20% to all Elemental Resistances,-20% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Malachais_Artifice,https://poedb.tw/us/Malachais_Artifice
 -25 Physical Damage taken from Projectile Attacks,承受投射物攻击造成的物理伤害 -25,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
@@ -12562,6 +12620,7 @@ Implicit Modifiers Cannot Be Changed","可拥有的前缀词缀数量 -3
 -5% to maximum Fire Resistance,-5% 火焰抗性上限,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -50% to Fire Resistance,-50% 火焰抗性,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -50% to Global Critical Strike Multiplier,-50% 全域暴击伤害加成,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
+-50% to Item Rarity,物品掉落稀有度 -50%,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 -50% to all Elemental Resistances,-50% 所有元素抗性,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Maligaros_Lens,https://poedb.tw/us/Maligaros_Lens
 -500 to Accuracy Rating,-500 命中值,database-stat,paired-local-source,https://poedb.tw/cn/Unique_item,https://poedb.tw/us/Unique_item
 -5000 to Accuracy Rating,-5000 命中值,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Trypanon,https://poedb.tw/us/Replica_Trypanon

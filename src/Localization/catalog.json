@@ -286345,5 +286345,359 @@
     "zh": "GitHub 项目页：^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding",
     "kind": "ui-detail",
     "status": "source-code-checked"
+  },
+  "+(-40-40)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(-40-40)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(1-2)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(1-2)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(10-11)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(10-11)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(10-20)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(10-20)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(10-30)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(10-30)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(11-14)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(11-14)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(12-13)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(12-13)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(12-20)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(12-20)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(13-18)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(13-18)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(14-15)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(14-15)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(15-20)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(15-20)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(15-25)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(15-25)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(16-17)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(16-17)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(16-24)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(16-24)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(18-20)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(18-20)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(19-20)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(19-20)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(19-24)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(19-24)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(20-25)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(20-25)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(20-30)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(20-30)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(20-30)% to Item Rarity during Effect": {
+    "zh": "药剂持续期间，物品掉落稀有度 +(20-30)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(20-40)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(20-40)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(21-22)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(21-22)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(21-26)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(21-26)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(23-25)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(23-25)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(25-28)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(25-28)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(3-4)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(3-4)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(30-40)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(30-40)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(30-50)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(30-50)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(30-50)% to Item Rarity during Effect": {
+    "zh": "药剂持续期间，物品掉落稀有度 +(30-50)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(4-6)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(4-6)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(40-50)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(40-50)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(40-60)% to Item Rarity during Effect": {
+    "zh": "药剂持续期间，物品掉落稀有度 +(40-60)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(5-15)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(5-15)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(50-70)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(50-70)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(6-10)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(6-10)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(6-15)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(6-15)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(6-30)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(6-30)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(60-90)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(60-90)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(8-12)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(8-12)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+(8-9)% to Item Rarity": {
+    "zh": "物品掉落稀有度 +(8-9)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+10% to Item Rarity": {
+    "zh": "物品掉落稀有度 +10%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+100% to Item Rarity": {
+    "zh": "物品掉落稀有度 +100%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+100% to Item Rarity when on Low Life": {
+    "zh": "低血时，物品掉落稀有度 +100%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+15% to Item Rarity": {
+    "zh": "物品掉落稀有度 +15%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+3% to Item Rarity": {
+    "zh": "物品掉落稀有度 +3%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+30% to Item Rarity": {
+    "zh": "物品掉落稀有度 +30%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+35% to Item Rarity": {
+    "zh": "物品掉落稀有度 +35%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+40% to Item Rarity": {
+    "zh": "物品掉落稀有度 +40%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+50% to Item Rarity": {
+    "zh": "物品掉落稀有度 +50%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+50% to Item Rarity when on Low Life": {
+    "zh": "低血时，物品掉落稀有度 +50%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "+60% to Item Rarity per White Socket": {
+    "zh": "每个白色插槽使物品掉落稀有度 +60%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "-(20-10)% to Item Rarity": {
+    "zh": "物品掉落稀有度 -(20-10)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "-(21-18)% to Item Rarity": {
+    "zh": "物品掉落稀有度 -(21-18)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "-(27-24)% to Item Rarity": {
+    "zh": "物品掉落稀有度 -(27-24)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "-(33-30)% to Item Rarity": {
+    "zh": "物品掉落稀有度 -(33-30)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "-(39-36)% to Item Rarity": {
+    "zh": "物品掉落稀有度 -(39-36)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "-(50-30)% to Item Rarity": {
+    "zh": "物品掉落稀有度 -(50-30)%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "-20% to Item Rarity": {
+    "zh": "物品掉落稀有度 -20%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "-50% to Item Rarity": {
+    "zh": "物品掉落稀有度 -50%",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
   }
 }

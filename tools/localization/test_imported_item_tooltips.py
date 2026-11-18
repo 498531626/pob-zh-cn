@@ -40,6 +40,27 @@ local fixtures={
 }
 local tip=new('Tooltip'):Tooltip()
 local rows={}
+-- Imported rarity affixes must translate in actual item tooltips without
+-- changing the parser input, its signed value, or the saved item.
+for _,stat in ipairs({'+26% to Item Rarity', '+26% TO ITEM RARITY', '-10% to Item Rarity'})do
+ local item=new('Item'):Item('Rarity: RARE\nRapture Corona\nHubris Circlet\nItem Level: 85\n'..stat)
+ local raw=item:BuildRaw()
+ local amount=stat:match('^[%+%-]%d+')
+ local mod=assert(item.explicitModLines[1].modList[1],'Rarity affix not parsed')
+ assert(mod.name=='LootRarity' and mod.type=='BASE' and mod.value==tonumber(amount),'Rarity parser semantics changed')
+ for _,mode in ipairs({'zh','en','zh'})do
+  L.mode=mode;tip:Clear();build.itemsTab:AddItemTooltip(tip,item,nil,true)
+  local text='';for _,line in ipairs(tip.lines)do text=text..(line.text or '')..'\n'end
+  local expected=mode=='en' and stat or '物品掉落稀有度 '..amount..'%'
+  assert(text:find(expected,1,true),text)
+  assert(item:BuildRaw()==raw,'Rarity display changed raw item')
+  assert(mod.name=='LootRarity' and mod.type=='BASE' and mod.value==tonumber(amount),'Rarity display changed numeric modifier')
+ end
+end
+L.mode='zh'
+assert(L:Translate('^x8888FF+(21-26)% to Item Rarity')=='^x8888FF物品掉落稀有度 +(21-26)%')
+assert(L:Translate('+26% to Unknown Item Rarity')=='+26% to Unknown Item Rarity')
+print('Imported item rarity: mixed/upper case, signed values, ranges, colour, language switching and raw item preservation passed')
 for i,parts in ipairs(fixtures)do
  local name=parts[1]..' '..parts[2]..' '..parts[3]
  local item=new('Item'):Item('Rarity: MAGIC\n'..name..'\nQuality: 20\nItem Level: 85\n'..parts[4])
