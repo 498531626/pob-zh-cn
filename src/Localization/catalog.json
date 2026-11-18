@@ -299193,5 +299193,23 @@
     "zh": "GitHub 项目页：^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding",
     "kind": "ui-detail",
     "status": "source-code-checked"
+  },
+  "Miracle Band": {
+    "zh": "奇迹之环",
+    "kind": "rare-name",
+    "status": "direct-translation",
+    "source": "User supplied imported ring title; direct translation, pending official name verification"
+  },
+  "Grants Level 20 Aspect of the Spider": {
+    "zh": "获得 20 级蛛之势",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Aspect of the Spider": {
+    "zh": "获得 30 级蛛之势",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
   }
 }

@@ -1,4 +1,28 @@
 {
+  "Miracle Band": {
+    "zh": "奇迹之环",
+    "kind": "rare-name",
+    "status": "direct-translation",
+    "source": "User supplied imported ring title; direct translation, pending official name verification"
+  },
+  "Your Chilling Towers Freeze Enemies for {0} seconds while they are affected by Chilling Beams": {
+    "zh": "你的冰冻塔使受到冰缓光束影响的敌人冻结 {0} 秒",
+    "kind": "item-reviewed",
+    "status": "direct-translation-numeric-checked",
+    "source": "User supplied imported ring enchantment; direct translation, pending official wording verification"
+  },
+  "Grants Level {0} Aspect of the Spider": {
+    "zh": "获得 {0} 级蛛之势",
+    "kind": "item-reviewed",
+    "status": "direct-translation-numeric-checked",
+    "source": "src/Data/Mod*.lua; existing Aspect of the Spider glossary; direct translation"
+  },
+  "Grants Level {0} Aspect of the Spider Skill": {
+    "zh": "获得 {0} 级蛛之势技能",
+    "kind": "item-reviewed",
+    "status": "direct-translation-numeric-checked",
+    "source": "src/Data/Uniques; existing Aspect of the Spider glossary; direct translation"
+  },
   "Rapture Glisten": {
     "zh": "狂喜之辉",
     "kind": "rare-name",

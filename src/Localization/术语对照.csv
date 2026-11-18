@@ -29377,6 +29377,7 @@ Grants Level 1 Lightning Warp Skill,获得 1 级闪电传送技能,item-clause,r
 Grants Level 10 Wrath Skill,提供 10 级雷霆,item-reviewed,reviewed-paired-variants,https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item,
 Grants Level 15 Battlemage's Cry Skill,获得 15 级魔武战号技能,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Martyr_of_Innocence,https://poedb.tw/us/Martyr_of_Innocence
 Grants Level 15 Wrath Skill,提供 15 级雷霆,item-reviewed,reviewed-paired-variants,https://poedb.tw/cn/Modifiers; https://poedb.tw/cn/Unique_item,
+Grants Level 20 Aspect of the Spider,获得 20 级蛛之势,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 Grants Level 20 Blazing Glare,获得 20 级怒炎凝视,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Solerais_Radiance,https://poedb.tw/us/Solerais_Radiance
 Grants Level 20 Caustic Retribution,获得 20 级腐蚀惩戒,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Sareshs_Darkness,https://poedb.tw/us/Sareshs_Darkness
 Grants Level 20 Hatred Skill,获得 20 级的主动技能憎恨，且可被此道具上的技能石辅助,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Scar_of_Fate,https://poedb.tw/us/Scar_of_Fate
@@ -29405,6 +29406,7 @@ Grants Level 20 Summon Spectral Tiger,暴击时触发 20 级召唤幻影猛虎,p
 Grants Level 20 Summon Triggerbots,分配时触发 20 级召唤触发机器人,passive-stat,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 Grants Level 21 Despair Curse Aura during Effect,生效期间，赋予 21 级绝望诅咒光环,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Witchfire_Brew,https://poedb.tw/us/Witchfire_Brew
 Grants Level 21 Vulnerability Curse Aura during Effect,效果期间获得 21 级脆弱诅咒光环,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Replica_Witchfire_Brew,https://poedb.tw/us/Replica_Witchfire_Brew
+Grants Level 30 Aspect of the Spider,获得 30 级蛛之势,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 "Grants Malachai's Endurance, Frenzy and Power for 6 seconds each, in sequence",每 6 秒会交替给予玩家以玛拉凯的不同奇术,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Malachais_Mark,https://poedb.tw/us/Malachais_Mark
 Grants Perfect Agony during effect,药剂持续期间获得完美苦痛,unique-reviewed,source-clause-reviewed,Data/Uniques; tools/localization/unique-extra-reviewed.tsv,
 Grants Phasing,获得迷踪,gem-detail,paired-reference-semantic-review,tools/localization/gem-reviewed.json,src/Data/StatDescriptions
@@ -34790,6 +34792,7 @@ Minions' Hits are always Critical Strikes,召唤生物的击中始终为暴击,g
 Minions' Hits can only Kill Ignited Enemies,召唤生物只能击败被点燃的敌人,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Speakers_Wreath,https://poedb.tw/us/Speakers_Wreath
 Minor God,次神,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poedb.tw/cn/,
 Minotaur's Head,牛头人的头,viscera-name,literal-translation-pending-reference,Data/Viscera.lua; Data/Bases/wickerman.lua; tools/localization/viscera-names.json,
+Miracle Band,奇迹之环,rare-name,direct-translation,"User supplied imported ring title; direct translation, pending official name verification",
 Mirage,幻影,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 Mirage Archer,幻影射手(辅),gem,paired-name,https://poedb.tw/cn/Mirage_Archer_Support,https://poedb.tw/us/Mirage_Archer_Support
 Mirage Archer Support,幻影射手(辅),gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Mirage_Archer_Support,https://poedb.tw/us/Mirage_Archer_Support

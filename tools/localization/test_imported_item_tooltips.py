@@ -239,6 +239,37 @@ for _,name in ipairs({"Abberath's Hooves", "Berek's Respite"})do
   assert(item:BuildRaw()==raw,'Unique display changed raw data')
  end
 end
+-- The reported ring contains an unsupported custom enchant and a granted
+-- skill clause without the usual trailing "Skill". Check the actual tooltip,
+-- including developer parser diagnostics, without changing imported data.
+local tower='Your Chilling Towers Freeze Enemies for 0.2 seconds while they are affected by Chilling Beams'
+local towerZh='你的冰冻塔使受到冰缓光束影响的敌人冻结 0.2 秒'
+local ring=new('Item'):Item('Rarity: RARE\nMiracle Band\nUnset Ring\nItem Level: 85\n'..tower..' (enchant)\nGrants Level 20 Aspect of the Spider\n+34 to maximum Energy Shield')
+local ringRaw=ring:BuildRaw()
+local devMode=launch.devModeAlt
+for _,developer in ipairs({false,true})do
+ launch.devModeAlt=developer
+ for _,mode in ipairs({'zh','en','zh'})do
+  L.mode=mode;tip:Clear();build.itemsTab:AddItemTooltip(tip,ring,nil,true)
+  local text='';for _,line in ipairs(tip.lines)do text=text..(line.text or '')..'\n'end
+  assert(text:find(mode=='en' and 'Miracle Band' or '奇迹之环',1,true),text)
+  assert(text:find(mode=='en' and tower or towerZh,1,true),text)
+  assert(text:find(mode=='en' and 'Grants Level 20 Aspect of the Spider' or '获得 20 级蛛之势',1,true),text)
+  if mode=='zh'then
+   assert(not text:lower():find('chilling',1,true),text)
+   assert(not text:find('Aspect of the Spider',1,true),text)
+   assert(text:find('^xF05050'..towerZh,1,true),text)
+   assert(text:find('（PoB 尚未支持此效果）',1,true),text)
+  end
+  assert(ring:BuildRaw()==ringRaw,'Ring display changed parser data')
+ end
+end
+launch.devModeAlt=devMode
+L.mode='zh'
+assert(L:Translate('Grants Level 30 Aspect of the Spider')=='获得 30 级蛛之势')
+assert(L:Translate('Grants Level 20 Aspect of the Spider Skill')=='获得 20 级蛛之势技能')
+assert(L:Translate(tower:gsub('0%.2','0.4'))==towerZh:gsub('0%.2','0.4'))
+print('Imported Miracle Band: enchantment, granted skill, developer diagnostics, language switching and raw data preservation passed')
 local f=assert(io.open(AUDIT_SOURCE..'/Imported-Item-QA.xml','wb'));f:write(saved);f:close()
 print('Five imported magic names: real parsing, equipped slots, tooltips, language switching and identical saved build XML passed')
 print('Unsupported ignite/shock propagation on both unique items: translated actual tooltips, red colour, warning and raw data preservation passed')
