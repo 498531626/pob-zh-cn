@@ -4186,12 +4186,16 @@ function CompareTabClass:DrawSkills(vp, compareEntry)
 	local gemFontSize = 16
 	local gemLineHeight = 18
 
+	local function translate(text)
+		return Localization and Localization:Translate(text) or text
+	end
+
 	-- Helper: build the exact string drawGemList will render (used for both drawing and width measurement)
 	local function buildGemDisplayString(entry)
+		local gemName = translate(entry.name or "?")
 		if entry.status == "missing" then
-			return colorCodes.NEGATIVE .. "- " .. entry.name .. "^7"
+			return colorCodes.NEGATIVE .. "- " .. gemName .. "^7"
 		elseif entry.gem then
-			local gemName = entry.gem.grantedEffect and entry.gem.grantedEffect.name or entry.gem.nameSpec or "?"
 			local gemColor = entry.gem.color or colorCodes.GEM
 			local levelStr = entry.gem.level and (" " .. entry.gem.level) or ""
 			local qualStr = entry.gem.quality and ("/" .. entry.gem.quality .. "") or ""
@@ -4319,9 +4323,18 @@ function CompareTabClass:DrawSkills(vp, compareEntry)
 
 	-- Build display lists once and measure widest primary-side content
 	local function getGroupLabel(group, idx)
-		local groupLabel = group.displayLabel or group.label or ("Group " .. idx)
+		local groupLabel
+		if group.label and group.label:match("%S") then
+			groupLabel = group.label
+		elseif group.displayLabel then
+			groupLabel = Localization and Localization:TranslateCalcList(group.displayLabel) or group.displayLabel
+		else
+			groupLabel = translate("Group") .. " " .. idx
+		end
 		if group.slot then
-			groupLabel = groupLabel .. " (" .. group.slot .. ")"
+			local slotLabel = group.slot:gsub("^(Weapon [12]) Swap$", "%1 (Swap)")
+			local translatedSlot = translate(slotLabel)
+			groupLabel = groupLabel .. " (" .. (translatedSlot ~= slotLabel and translatedSlot or group.slot) .. ")"
 		end
 		return groupLabel
 	end

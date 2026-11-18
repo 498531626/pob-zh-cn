@@ -167,6 +167,53 @@ for _,mode in ipairs({'zh','en','zh'}) do
  assert(right:find(isChinese and '灵体, 雷霆, Unknown Buff' or 'Spectre, Wrath, Unknown Buff',1,true),right)
 end
 print('Compare calculator: bilingual headers and lists, unknown entries, column width and header height passed')
+local function gem(name, level, quality)
+ return {grantedEffect={name=name},level=level,quality=quality,color='^4'}
+end
+local customLabel='3 Gems are for Pob Config, You will only use 1'
+local primaryGroups={
+ {slot='Gloves',displayLabel='Frostblink of Wintry Blast, Temporal Chains',gemList={
+  gem('Frostblink of Wintry Blast',20,0),gem('Temporal Chains',1,0),gem('Herald of Ash',20,0)}},
+ {slot='Weapon 1 Swap',displayLabel='<No active skills>',gemList={gem('Enlighten',2,0)}},
+}
+local compareGroups={
+ {slot='Helmet',displayLabel='Frostblink of Wintry Blast, Temporal Chains',gemList={
+  gem('Frostblink of Wintry Blast',21,20),gem('Temporal Chains',1,0),gem('Annihilation',3,20)}},
+ {slot='Boots',label=customLabel,displayLabel=customLabel,gemList={{nameSpec='Unknown Gem',level=1,quality=0}}},
+}
+local originalPrimaryGroups=build.skillsTab.socketGroupList
+local originalCompareGroups=compareEntry.skillsTab.socketGroupList
+build.skillsTab.socketGroupList=primaryGroups
+compareEntry.skillsTab.socketGroupList=compareGroups
+compareTab.scrollY=0
+for _,mode in ipairs({'zh','en','zh'}) do
+ L.mode=mode
+ local isChinese=mode=='zh'
+ local drawn={}
+ DrawString=function(x,_,_,_,_,value) drawn[L:TranslateUI(value)]=x end
+ compareTab:DrawSkills({x=0,y=0,width=1180,height=720},compareEntry)
+ DrawString=originalDraw
+ local function text(chinese, english)
+  return isChinese and chinese or english
+ end
+ local common='^4'..text('冰爆之冰霜闪现','Frostblink of Wintry Blast')..'^7 '
+ local left=assert(drawn[common..'20/0'],'Missing primary gem')
+ local right=assert(drawn[common..'21/20'],'Missing comparison gem')
+ assert(left<right,'Comparison columns are not separated')
+ assert(drawn[colorCodes.POSITIVE..'+ ^4'..text('抹灭（辅）','Annihilation')..'^7 3/20']==right)
+ assert(drawn[colorCodes.NEGATIVE..'- '..text('抹灭（辅）','Annihilation')..'^7']==left)
+ assert(drawn[colorCodes.POSITIVE..'+ ^4'..text('灰烬之捷','Herald of Ash')..'^7 20/0']==left)
+ assert(drawn[colorCodes.NEGATIVE..'- '..text('灰烬之捷','Herald of Ash')..'^7']==right)
+ assert(drawn['^7'..text('冰爆之冰霜闪现, 时空锁链 (头盔)','Frostblink of Wintry Blast, Temporal Chains (Helmet)')]==right)
+ assert(drawn['^7'..text('<无生效技能> (武器 1（切换）)','<No active skills> (Weapon 1 Swap)')]==left)
+ assert(drawn['^7'..customLabel..text(' (鞋子)',' (Boots)')]==right)
+ assert(drawn[colorCodes.POSITIVE..'+ '..colorCodes.GEM..'Unknown Gem^7 1/0']==right)
+ assert(primaryGroups[2].slot=='Weapon 1 Swap' and compareGroups[2].label==customLabel)
+ assert(compareGroups[1].gemList[3].grantedEffect.name=='Annihilation')
+end
+build.skillsTab.socketGroupList=originalPrimaryGroups
+compareEntry.skillsTab.socketGroupList=originalCompareGroups
+print('Compare skills: bilingual group headers, gem names, level/quality, colours, differences and unchanged source data passed')
 local tooltip=new('Tooltip'):Tooltip()
 L.mode='zh';tooltip:AddLine(16,text)
 local width=tooltip:GetSize()
