@@ -2091,7 +2091,7 @@ return {
 ["Shepherd Of Souls"]="灵魂牧者",
 ["Shock"]="感电",
 ["Shock As Though Dealing"]="感电效果视为造成伤害的",
-["Shock Avoid Applies To Elemental Ailments"]="感电避免应用至元素异常状态",
+["Shock Avoid Applies To Elemental Ailments"]="避免感电应用至元素异常状态",
 ["Shock Base"]="感电基础值",
 ["Shock Can Stack"]="感电可以层",
 ["Shock Immune"]="感电免疫",

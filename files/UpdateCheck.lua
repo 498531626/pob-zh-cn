@@ -230,7 +230,7 @@ for name, data in pairs(localFiles) do
 	end
 end
 	
-if #updateFiles == 0 and #deleteFiles == 0 then
+if #updateFiles == 0 and #deleteFiles == 0 and localVer == remoteVer then
 	ConPrintf("No update available.")
 	return "none"
 end
