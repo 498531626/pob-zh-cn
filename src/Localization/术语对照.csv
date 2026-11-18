@@ -23010,6 +23010,7 @@ Cadigan's Authority,卡迪甘的权威,unique-name,paired-record-local-english-n
 Cadigan's Crown,卡迪甘王冠,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Cadigans_Crown,https://poedb.tw/us/Cadigans_Crown
 Cadiro (Supreme Decadence),卡迪罗（无上衰败）,ui-detail,source-code-checked,,
 Calamitous Visions,灾祸异象,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Calamitous_Visions,https://poedb.tw/us/Calamitous_Visions
+Calc Mode,计算模式,ui-detail,source-code-checked,,
 Calcified Leg,钙化腿,viscera-name,literal-translation-pending-reference,Data/Viscera.lua; Data/Bases/wickerman.lua; tools/localization/viscera-names.json,
 Calcs,计算,ui,editorial-ui,,
 Calculated Risk,精算风险,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
@@ -41207,6 +41208,7 @@ Suffix,后缀,config-ui,editorial-ui,src/Modules/ConfigOptions.lua; https://poed
 Suffixed,后缀的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Amulets,https://poedb.tw/us/Amulets
 Sulphite Intoxication,亚硫酸中毒,game-term,paired-link-target,https://poedb.tw/cn/Sulphite_Intoxication,https://poedb.tw/us/Sulphite_Intoxication
 Sulphur Flask,硫磺药剂,game-term,paired-link-target,https://poedb.tw/cn/Sulphur_Flask,https://poedb.tw/us/Sulphur_Flask
+Summary,总览,ui-detail,source-code-checked,,
 Summon 2 additional Skeletons with Summon Skeletons,召唤魔侍额外召唤 2 个魔侍,item-clause,reviewed-finite-clauses-known-terms,tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers,
 Summon 4 additional Skeletons with Summon Skeletons,召唤魔侍额外召唤 4 个魔侍,item-stat,paired-record-local-english-numbers-checked,https://poedb.tw/cn/From_Dust,https://poedb.tw/us/From_Dust
 Summon Arbalists,召唤劲弩,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Summon_Arbalists,https://poedb.tw/us/Summon_Arbalists

@@ -80088,6 +80088,11 @@
     "status": "literal-translation-pending-reference",
     "source": "Data/Viscera.lua; Data/Bases/wickerman.lua; tools/localization/viscera-names.json"
   },
+  "Calc Mode": {
+    "zh": "计算模式",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
+  },
   "Calcified Leg": {
     "zh": "钙化腿",
     "kind": "viscera-name",
@@ -288243,6 +288248,11 @@
     "kind": "item-clause",
     "status": "reviewed-finite-clauses-known-terms",
     "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Summary": {
+    "zh": "总览",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
   },
   "Summon 2 additional Skeletons with Summon Skeletons": {
     "zh": "召唤魔侍额外召唤 2 个魔侍",

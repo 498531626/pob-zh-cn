@@ -46,6 +46,20 @@ local function wrapInfoLine(str, width)
 	return lines
 end
 
+local CALCS_INFO_LINES = {
+	{ label = "Aura/Buff Skills", format = "{output:BuffList}", breakdown = "SkillBuffs" },
+	{ label = "Combat Buffs", format = "{output:CombatList}" },
+	{ label = "Curses/Debuffs", format = "{output:CurseList}", breakdown = "SkillDebuffs" },
+}
+
+local function wrapCalcsInfoLine(info, actor, width)
+	if not actor or not actor.output then return {} end
+	local value = formatCalcStr(info.format, actor)
+	if value == "" then return {} end
+	local label = Localization and Localization:Translate(info.label) or info.label
+	return wrapInfoLine(label .. ": " .. value, width)
+end
+
 -- Layout constants (shared across Draw, DrawConfig, DrawItems, DrawCalcs, etc.)
 local LAYOUT = {
 	-- Main tab control bar
@@ -2377,26 +2391,11 @@ function CompareTabClass:LayoutCalcsSkillControls(vp, compareEntry)
 	local textLinesHeight = 2 -- padding before text
 	local primaryEnv = self.primaryBuild.calcsTab and self.primaryBuild.calcsTab.calcsEnv
 	local compareEnv = compareEntry.calcsTab and compareEntry.calcsTab.calcsEnv
-	local primaryOutput = primaryEnv and primaryEnv.player and primaryEnv.player.output
-	local compareOutput = compareEnv and compareEnv.player and compareEnv.player.output
-	if primaryOutput or compareOutput then
-		local wrapWidth = colWidth - 8
-		local infoLabels = {
-			BuffList = "Aura/Buff Skills",
-			CombatList = "Combat Buffs",
-			CurseList = "Curses/Debuffs",
-		}
-		local infoKeys = { "BuffList", "CombatList", "CurseList" }
-		for _, key in ipairs(infoKeys) do
-			local primaryValue = primaryOutput and primaryOutput[key]
-			local compareValue = compareOutput and compareOutput[key]
-			if (primaryValue and primaryValue ~= "") or (compareValue and compareValue ~= "") then
-				local label = infoLabels[key]
-				local primaryLineCount = (primaryValue and primaryValue ~= "") and #wrapInfoLine(label .. ": " .. primaryValue, wrapWidth) or 0
-				local compareLineCount = (compareValue and compareValue ~= "") and #wrapInfoLine(label .. ": " .. compareValue, wrapWidth) or 0
-				textLinesHeight = textLinesHeight + m_max(primaryLineCount, compareLineCount, 1) * 18
-			end
-		end
+	local wrapWidth = colWidth - 8
+	for _, info in ipairs(CALCS_INFO_LINES) do
+		local primaryLines = wrapCalcsInfoLine(info, primaryEnv and primaryEnv.player, wrapWidth)
+		local compareLines = wrapCalcsInfoLine(info, compareEnv and compareEnv.player, wrapWidth)
+		textLinesHeight = textLinesHeight + m_max(#primaryLines, #compareLines) * 18
 	end
 
 	local textBaseY = m_max(leftY, rightY)
@@ -4575,23 +4574,14 @@ function CompareTabClass:DrawCalcsSkillHeader(vp, compareEntry, headerHeight, pr
 
 	-- Text info lines (Aura/Buffs, Combat Buffs, Curses)
 	local textY = m_max(leftY, rightY) + 2
-	local primaryOutput = primaryEnv.player and primaryEnv.player.output
-	local compareOutput = compareEnv.player and compareEnv.player.output
 	self.calcsSkillHeaderHover = nil  -- Reset hover state
-	if primaryOutput or compareOutput then
+	if primaryEnv.player or compareEnv.player then
 		local cursorX, cursorY = GetCursorPos()
 		local wrapWidth = colWidth - 8
-		local infoLines = {
-			{ label = "Aura/Buff Skills", key = "BuffList", breakdown = "SkillBuffs" },
-			{ label = "Combat Buffs", key = "CombatList" },
-			{ label = "Curses/Debuffs", key = "CurseList", breakdown = "SkillDebuffs" },
-		}
-		for _, info in ipairs(infoLines) do
-			local primaryValue = primaryOutput and primaryOutput[info.key]
-			local compareValue = compareOutput and compareOutput[info.key]
-			if (primaryValue and primaryValue ~= "") or (compareValue and compareValue ~= "") then
-				local primaryLines = (primaryValue and primaryValue ~= "") and wrapInfoLine(info.label .. ": " .. primaryValue, wrapWidth) or {}
-				local compareLines = (compareValue and compareValue ~= "") and wrapInfoLine(info.label .. ": " .. compareValue, wrapWidth) or {}
+		for _, info in ipairs(CALCS_INFO_LINES) do
+			local primaryLines = wrapCalcsInfoLine(info, primaryEnv.player, wrapWidth)
+			local compareLines = wrapCalcsInfoLine(info, compareEnv.player, wrapWidth)
+			if #primaryLines > 0 or #compareLines > 0 then
 				local primaryHeight = #primaryLines * 18
 				local compareHeight = #compareLines * 18
 				local rowH = m_max(primaryHeight, compareHeight, 18)

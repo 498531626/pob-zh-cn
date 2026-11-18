@@ -24,7 +24,7 @@ function formatCalcStr(str, actor, colData)
 			value = actor.output[c] or ""
 		end
 		local key = var or c
-		if Localization and (key == "BuffList" or key == "CombatList") then
+		if Localization and (key == "BuffList" or key == "CombatList" or key == "CurseList") then
 			return Localization:TranslateCalcList(value)
 		end
 		return value

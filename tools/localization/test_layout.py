@@ -116,6 +116,57 @@ for _,screen in ipairs({{1280,720},{1920,1080},{2560,1440}}) do
   assert(savedSkills()==skills,'Layout changed serialized skills')
  end
 end
+local compareTab=build.compareTab
+local compareEntry=new('CompareEntry'):CompareEntry(build:SaveDB('code'),'Comparison')
+compareTab.compareEntries={compareEntry}
+compareTab.activeCompareIndex=1
+compareTab.compareViewMode='CALCS'
+local primaryEnv=build.calcsTab.calcsEnv
+local compareEnv=compareEntry.calcsTab.calcsEnv
+local auras='Arcane Surge, Arctic Armour, Clarity, Discipline, Infused Channelling, Lightning Golem Wrath, Purity of Elements, Righteous Fire of Arcane Devotion, Summon Flame Golem, Summon Lightning Golem, Summon Stone Golem, Vitality'
+local buffs='1 Frenzy Charges, 3 Endurance Charges, 5 Inspiration Charges'
+primaryEnv.player.output.BuffList=auras
+compareEnv.player.output.BuffList=auras..', Aspect of Solaris, Determination, Herald of Purity, Spectre, Wrath, Unknown Buff'
+for _,env in ipairs({primaryEnv,compareEnv}) do
+ env.player.output.CombatList=buffs
+ env.player.output.CurseList='Temporal Chains'
+end
+local originalDraw=DrawString
+for _,mode in ipairs({'zh','en','zh'}) do
+ L.mode=mode
+ local isChinese=mode=='zh'
+ local headerViewport={x=0,y=0,width=620,height=540}
+ local colWidth=math.floor((headerViewport.width-20)/2)
+ local height=compareTab:LayoutCalcsSkillControls(headerViewport,compareEntry)
+ local columns={{},{}}
+ DrawString=function(x,y,align,size,font,value)
+  local column=x<colWidth and 1 or 2
+  local translated=L:TranslateUI(value)
+  table.insert(columns[column],(translated:gsub('^%^7','')))
+  if y>compareTab.controls[(column==1 and 'prim' or 'cmp')..'CalcsMode'].y+2 then
+   assert(y+size<=height-2,'Comparison list overlaps the separator')
+   assert(DrawStringWidth(size,font,translated)<=colWidth-8,translated)
+  end
+ end
+ compareTab:DrawCalcsSkillHeader(headerViewport,compareEntry,height,primaryEnv,compareEnv)
+ DrawString=originalDraw
+ assert(L:TranslateUI(compareTab.controls.subTabSummary.label)==(isChinese and '总览' or 'Summary'))
+ for _,column in ipairs(columns) do
+  local drawn=table.concat(column,' ')
+  for _,expected in ipairs(isChinese and {'计算模式:', '光环／增益技能: 秘术增强(辅), 极地装甲', '战斗增益: 1 狂怒能量球, 3 耐力能量球, 5 启迪球', '诅咒／减益: 时空锁链'}
+    or {'Calc Mode:', 'Aura/Buff Skills: '..auras, 'Combat Buffs: '..buffs, 'Curses/Debuffs: Temporal Chains'}) do
+   assert(drawn:find(expected,1,true),expected..' missing from '..drawn)
+  end
+  if isChinese then
+   for name in auras:gmatch('[^,]+') do
+    assert(not drawn:find((name:gsub('^ ','')),1,true),drawn)
+   end
+  end
+ end
+ local right=table.concat(columns[2],' ')
+ assert(right:find(isChinese and '灵体, 雷霆, Unknown Buff' or 'Spectre, Wrath, Unknown Buff',1,true),right)
+end
+print('Compare calculator: bilingual headers and lists, unknown entries, column width and header height passed')
 local tooltip=new('Tooltip'):Tooltip()
 L.mode='zh';tooltip:AddLine(16,text)
 local width=tooltip:GetSize()

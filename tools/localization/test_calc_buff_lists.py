@@ -10,13 +10,16 @@ local L=LoadModule('Modules/Localization'); Localization=L
 LoadModule('Modules/CalcFormat')
 local dict=LoadModule('Localization/Dictionary')
 local aura='Clarity, Determination, Discipline, Lightning Golem Wrath, Spectre, Vitality, Wrath, Zealotry'
-local actor={output={BuffList=aura,CombatList='5 Inspiration Charges',Minion={BuffList=aura,CombatList='3 Ghost Shrouds, 10 Crab Barriers, 2 Spirit Infusions'}}}
+local curses='Temporal Chains, Unknown Curse, Enfeeble'
+local actor={output={BuffList=aura,CombatList='5 Inspiration Charges',CurseList=curses,Minion={BuffList=aura,CombatList='3 Ghost Shrouds, 10 Crab Barriers, 2 Spirit Infusions',CurseList=curses}}}
 local expected='清晰, 坚定, 纪律, 闪电魔像愤怒, 灵体, 活力, 雷霆, 奋锐光环'
 L.mode='zh'
 assert(formatCalcStr('{output:BuffList}',actor)==expected,formatCalcStr('{output:BuffList}',actor))
 assert(formatCalcStr('{output:CombatList}',actor)=='5 启迪球')
 assert(formatCalcStr('{output:Minion.BuffList}',actor)==expected)
 assert(formatCalcStr('{output:Minion.CombatList}',actor)=='3 幽魂缠身, 10 深海屏障, 2 精魂灌注')
+assert(formatCalcStr('{output:CurseList}',actor)=='时空锁链, Unknown Curse, 衰弱')
+assert(formatCalcStr('{output:Minion.CurseList}',actor)=='时空锁链, Unknown Curse, 衰弱')
 actor.output.BuffList='Anger, Unknown Buff, Wrath'
 assert(formatCalcStr('{output:BuffList}',actor)=='愤怒, Unknown Buff, 雷霆')
 actor.output.BuffList='Unknown Buff, Anger'
@@ -51,7 +54,7 @@ assert(formatCalcStr('{output:MinionMissing.BuffList}',actor)=='')
 assert(formatCalcStr('{output:BuffList}',nil)=='')
 assert(actor.output.CombatList=='5 Inspiration Charges')
 L.mode='en'
-for _,field in ipairs({'BuffList','CombatList'}) do
+for _,field in ipairs({'BuffList','CombatList','CurseList'}) do
  assert(formatCalcStr('{output:'..field..'}',actor)==actor.output[field])
 end
 assert(L:TranslateCalcList('')=='')
