@@ -40,6 +40,56 @@ local fixtures={
 }
 local tip=new('Tooltip'):Tooltip()
 local rows={}
+-- Exercise the complete keyed cluster inventory, then the actual imported
+-- jewel from the report, including its appended notable descriptions.
+local clusterData=LoadModule('Data/ClusterJewels')
+local clusterCount=0
+for name in pairs(clusterData.notableSortOrder)do
+ clusterCount=clusterCount+1
+ for _,mode in ipairs({'zh','en','zh'})do
+  L.mode=mode
+  for _,count in ipairs({'1','2','#'})do
+   local line=count..' Added Passive Skill is '..name
+   local display=L:Translate('^x8888FF'..line)
+   if mode=='en' then
+    assert(display=='^x8888FF'..line,'Cluster English text changed: '..name)
+   else
+    assert(not display:sub(9):match('%a'),'Untranslated cluster clause: '..line)
+    assert(display:sub(1,8)=='^x8888FF' and display:sub(9,9)==count,'Cluster count/colour changed')
+    assert(L:Translate(name)~=name,'Missing standalone cluster name: '..name)
+   end
+  end
+ end
+end
+assert(clusterCount>=300,'Cluster notable inventory missing')
+local clusterItem=new('Item'):Item([[Rarity: RARE
+Rapture Glisten
+Large Cluster Jewel
+Item Level: 75
+Adds 8 Passive Skills (enchant)
+2 Added Passive Skills are Jewel Sockets (enchant)
+Added Small Passive Skills grant: 12% increased Lightning Damage (enchant)
+Added Small Passive Skills also grant: Regenerate 0.15% of Life per Second
+1 Added Passive Skill is Overshock
+1 Added Passive Skill is Prismatic Heart
+1 Added Passive Skill is Widespread Destruction]])
+assert(clusterItem.clusterJewel and #clusterItem.jewelData.clusterJewelNotables==3,'Cluster import failed')
+local clusterRaw=clusterItem:BuildRaw()
+local clusterSaved=build:SaveDB('fixture')
+for _,mode in ipairs({'zh','en','zh'})do
+ L.mode=mode;tip:Clear();build.itemsTab:AddItemTooltip(tip,clusterItem,nil,true)
+ local text='';for _,line in ipairs(tip.lines)do text=text..(line.text or '')..'\n'end
+ assert(text:find(mode=='en' and 'Rapture Glisten' or '狂喜之辉',1,true),text)
+ for _,name in ipairs({'Overshock','Prismatic Heart','Widespread Destruction'})do
+  local label=mode=='en' and name or dict[name]
+  assert(text:find((mode=='en' and '1 Added Passive Skill is ' or '1 个增加的天赋为')..label,1,true),text)
+  assert(text:find(label..'\n',1,true),'Appended cluster title missing: '..name)
+  if mode=='zh' then assert(not text:find(name,1,true),text)end
+ end
+ assert(clusterItem:BuildRaw()==clusterRaw and build:SaveDB('fixture')==clusterSaved,'Cluster display changed saved data')
+end
+assert(L:Translate('1 Added Passive Skill is Unknown Passive')=='1 Added Passive Skill is Unknown Passive')
+print('All '..clusterCount..' cluster notable names/clauses and imported Rapture Glisten tooltip: colours, counts, language switching and raw data passed')
 -- Imported rarity affixes must translate in actual item tooltips without
 -- changing the parser input, its signed value, or the saved item.
 for _,stat in ipairs({'+26% to Item Rarity', '+26% TO ITEM RARITY', '-10% to Item Rarity'})do

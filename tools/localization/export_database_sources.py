@@ -55,7 +55,13 @@ local function cluster(t)
   elseif type(v)=='table'then cluster(v)end
  end
 end
-cluster(load('ClusterJewels'))
+local clusterJewels=load('ClusterJewels')
+cluster(clusterJewels)
+-- Notable names are table keys, rather than fields named "name".
+for name in pairs(clusterJewels.notableSortOrder)do
+ add(name,'cluster-notable-name','Data/ClusterJewels.lua#notableSortOrder')
+ add('1 Added Passive Skill is '..name,'cluster-notable-stat','Data/ClusterJewels.lua#notableSortOrder')
+end
 for _,node in pairs(load('TattooPassives').nodes)do
  add(node.dn,'tattoo-name','Data/TattooPassives.lua');lines(node.sd,'tattoo-stat','Data/TattooPassives.lua')
 end

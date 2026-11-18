@@ -1,7 +1,7 @@
 {
-  "entries": 44109,
+  "entries": 44702,
   "gem_names": 1040,
-  "glyphs": 2493,
+  "glyphs": 2520,
   "font": "Noto Sans SC Medium (installed on local PC)",
   "font_weight": 500,
   "font_sizes": [
@@ -62,11 +62,11 @@
   },
   "item_details": {
     "paired_mod_records": 103475,
-    "reviewed_legacy_entries": 29,
+    "reviewed_legacy_entries": 30,
     "reviewed_legacy_templates": 32,
-    "exact_entries": 30153,
-    "numeric_templates": 6528,
-    "composed_entries": 9954,
+    "exact_entries": 30150,
+    "numeric_templates": 6524,
+    "composed_entries": 9950,
     "ambiguous_exact_resolved": 62,
     "ambiguous_templates_resolved": 25,
     "ambiguous_exact": 62,
@@ -87,11 +87,13 @@
       "Summoned Arbalist",
       "Summoned Rhoa"
     ],
-    "source_rows": 7021,
-    "matched_pairs": 11955,
-    "exact_entries": 2649,
-    "numeric_templates": 1091,
-    "ambiguous_exact": 11,
+    "source_rows": 7621,
+    "matched_pairs": 13173,
+    "exact_entries": 3249,
+    "numeric_templates": 1391,
+    "cluster_notable_names": 300,
+    "missing_cluster_notable_names": [],
+    "ambiguous_exact": 12,
     "ambiguous_templates": 6
   },
   "spectre_names": {

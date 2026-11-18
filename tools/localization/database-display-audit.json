@@ -3,16 +3,16 @@
     "boss-skill-name":11,
     "boss-skill-tooltip":9,
     "cluster-name":55,
+    "cluster-notable-name":300,
+    "cluster-notable-stat":300,
     "cluster-stat":120,
     "craft-affix":8,
     "craft-extra-stat":2365,
-    "currency-name":471,
+    "currency-name":485,
     "enchantment-stat":1723,
     "essence-name":105,
-    "minion-name":59,
     "pantheon-name":32,
     "pantheon-stat":41,
-    "spectre-name":260,
     "tattoo-name":172,
     "tattoo-stat":280
   },
@@ -22,9 +22,15 @@
       "reason":"PoEDB makes the singular article a explicit as 1; chance and charge count are unchanged."
     }],
   "pending_by_kind":{
-    "craft-extra-stat":659,
-    "enchantment-stat":218,
-    "tattoo-stat":133
+    "cluster-name":17,
+    "cluster-stat":16,
+    "craft-extra-stat":570,
+    "currency-name":22,
+    "enchantment-stat":128,
+    "essence-name":1,
+    "pantheon-name":9,
+    "pantheon-stat":3,
+    "tattoo-stat":115
   },
-  "total":5711
+  "total":6006
 }

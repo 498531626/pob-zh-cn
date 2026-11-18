@@ -299,6 +299,2406 @@
     "kind":"cluster-name",
     "source":"Data/ClusterJewels.lua"
   },{
+    "english":"Adrenaline",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Advance Guard",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Aerialist",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Aerodynamics",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Agent of Destruction",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Aggressive Defence",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Alchemist",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Ancestral Echo",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Ancestral Guidance",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Ancestral Inspiration",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Ancestral Might",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Ancestral Preservation",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Ancestral Reach",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Antifreeze",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Antivenom",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Arcane Adept",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Arcane Heroism",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Arcane Pyrotechnics",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Arcing Shot",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Assert Dominance",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Astonishing Affliction",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Basics of Pain",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Battle-Hardened",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Battlefield Dominator",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Blacksmith",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Blanketed Snow",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Blast-Freeze",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Blessed",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Blessed Rebirth",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Blizzard Caller",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Blood Artist",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Bloodscent",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Blowback",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Bodyguards",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Born of Chaos",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Brand Loyalty",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Brewed for Potency",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Broadside",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Brush with Death",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Brutal Infamy",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Burden Projection",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Burning Bright",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Calamitous",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Call to the Slaughter",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Capacitor",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Careful Handling",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Chilling Presence",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Chip Away",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Circling Oblivion",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Clarity of Purpose",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Cold Conduction",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Cold to the Core",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Cold-Blooded Killer",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Combat Rhythm",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Compound Injury",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Confident Combatant",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Conjured Wall",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Conservation of Energy",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Cooked Alive",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Corrosive Elements",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Cremator",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Cry Wolf",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Cult-Leader",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Daring Ideas",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Dark Ideation",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Dark Messenger",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Darting Movements",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Deadly Repartee",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Deep Chill",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Deep Cuts",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Destructive Aspect",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Devastator",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Disciples",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Disease Vector",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Disorienting Display",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Disorienting Wounds",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Distilled Perfection",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Doedre's Apathy",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Doedre's Gluttony",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Doedre's Spite",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Doryani's Lesson",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Dragon Hunter",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Dread March",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Drive the Destruction",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Eldritch Inspiration",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Electric Presence",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Elegant Form",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Empowered Envoy",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Endbringer",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Enduring Composure",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Enduring Focus",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Enduring Ward",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Energy From Naught",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Essence Rush",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Eternal Suffering",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Evil Eye",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Expansive Might",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Expendability",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Expert Sabotage",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Exploit Weakness",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Explosive Force",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Exposure Therapy",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Eye of the Storm",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Eye to Eye",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Fan of Blades",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Fan the Flames",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Fasting",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Fearsome Warrior",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Feast of Flesh",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Feasting Fiends",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Feed the Fury",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Fettle",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Fiery Aegis",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Fire Attunement",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Flexible Sentry",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Flow of Life",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Follow-Through",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Forbidden Words",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Force Multiplier",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Frantic Aspect",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Fuel the Fight",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Furious Assault",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Genius",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Gladiator's Fortitude",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Gladiatorial Combat",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Graceful Execution",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Grand Design",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Grim Oath",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Guerilla Tactics",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Haemorrhage",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Haunting Shout",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Heart of Iron",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Heavy Hitter",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Heraldry",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Hex Breaker",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Hibernator",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Hit and Run",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Holistic Health",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Holy Conquest",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Holy Word",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Hound's Mark",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Hulking Corpses",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Improvisor",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Insatiable Killer",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Inspired Oppression",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Insulated",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Intensity",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Introspection",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Invigorating Portents",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Iron Breaker",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Lasting Impression",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Lead By Example",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Life from Death",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Liquid Inspiration",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Lord of Drought",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Low Tolerance",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Mage Bane",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Mage Hunter",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Magnifier",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Martial Mastery",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Martial Momentum",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Martial Prowess",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Master of Command",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Master of Fear",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Master of Fire",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Master of the Maelstrom",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Master the Fundamentals",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Mender's Wellspring",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Militarism",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Mindfulness",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Misery Everlasting",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Mob Mentality",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Molten One's Mark",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Mortifying Aspect",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Mystical Ward",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Natural Vigour",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"No Witnesses",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Non-Flammable",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Numbing Elixir",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"One with the Shield",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Openness",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Opportunistic Fusilade",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Overlord",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Overshock",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Overwhelming Malice",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Paralysis",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Peace Amidst Chaos",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Peak Vigour",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Phlebotomist",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Powerful Assault",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Powerful Ward",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Practiced Caster",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Precise Focus",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Precise Retaliation",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Pressure Points",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Primordial Bond",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Prismatic Carapace",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Prismatic Dance",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Prismatic Heart",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Prodigious Defence",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Provocateur",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Pure Agony",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Pure Aptitude",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Pure Guile",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Pure Might",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Purposeful Harbinger",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Quick Getaway",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Quick and Deadly",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Rattling Bellow",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Raze and Pillage",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Readiness",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Remarkable",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Rend",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Renewal",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Repeater",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Replenishing Presence",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Righteous Path",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Riot Queller",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Rot-Resistant",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Rote Reinforcement",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Rotten Claws",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Run Through",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Sadist",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Sage",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Sap Psyche",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Savage Response",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Savour the Moment",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Scintillating Idea",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Seal Mender",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Second Skin",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Seeker Runes",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Self-Control",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Self-Fulfilling Prophecy",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Septic Spells",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Set and Forget",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Shifting Shadow",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Shrieking Bolts",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Skeletal Atrophy",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Skullbreaker",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Sleepless Sentries",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Smite the Weak",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Smoking Remains",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Snaring Spirits",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Snowstorm",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Special Reserve",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Spiked Concoction",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Spiteful Presence",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Spring Back",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Steady Torment",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Stoic Focus",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Storm Drinker",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Storm's Hand",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Stormrider",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Streamlined",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Strike Leader",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Stubborn Student",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Student of Decay",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Sublime Form",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Sublime Sensation",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Supercharge",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Surefooted Striker",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Surging Vitality",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Surprise Sabotage",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Tempered Arrowheads",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Tempt the Storm",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Thaumophage",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Thunderstruck",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Titanic Swings",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Touch of Cruelty",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Towering Threat",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Uncompromising",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Unholy Grace",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Unrestrained Focus",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Unspeakable Gifts",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Untouchable",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Unwavering Focus",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Unwaveringly Evil",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Vast Power",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Veteran Defender",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Vicious Bite",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Vicious Guard",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Vicious Skewering",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Victim Maker",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Vile Reinvigoration",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Vital Focus",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Vivid Hues",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Volatile Presence",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Wall of Muscle",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Warning Call",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Wasting Affliction",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Weight Advantage",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Wicked Pall",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Widespread Destruction",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Will Shaper",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Wind-up",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Winter Prowler",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Wish for Death",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Wizardry",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Wound Aggravation",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"Wrapped in Flame",
+    "kind":"cluster-notable-name",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Adrenaline",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Advance Guard",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Aerialist",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Aerodynamics",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Agent of Destruction",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Aggressive Defence",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Alchemist",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Ancestral Echo",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Ancestral Guidance",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Ancestral Inspiration",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Ancestral Might",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Ancestral Preservation",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Ancestral Reach",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Antifreeze",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Antivenom",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Arcane Adept",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Arcane Heroism",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Arcane Pyrotechnics",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Arcing Shot",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Assert Dominance",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Astonishing Affliction",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Basics of Pain",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Battle-Hardened",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Battlefield Dominator",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Blacksmith",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Blanketed Snow",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Blast-Freeze",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Blessed",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Blessed Rebirth",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Blizzard Caller",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Blood Artist",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Bloodscent",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Blowback",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Bodyguards",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Born of Chaos",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Brand Loyalty",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Brewed for Potency",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Broadside",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Brush with Death",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Brutal Infamy",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Burden Projection",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Burning Bright",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Calamitous",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Call to the Slaughter",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Capacitor",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Careful Handling",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Chilling Presence",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Chip Away",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Circling Oblivion",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Clarity of Purpose",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Cold Conduction",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Cold to the Core",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Cold-Blooded Killer",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Combat Rhythm",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Compound Injury",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Confident Combatant",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Conjured Wall",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Conservation of Energy",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Cooked Alive",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Corrosive Elements",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Cremator",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Cry Wolf",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Cult-Leader",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Daring Ideas",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Dark Ideation",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Dark Messenger",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Darting Movements",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Deadly Repartee",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Deep Chill",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Deep Cuts",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Destructive Aspect",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Devastator",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Disciples",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Disease Vector",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Disorienting Display",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Disorienting Wounds",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Distilled Perfection",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Doedre's Apathy",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Doedre's Gluttony",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Doedre's Spite",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Doryani's Lesson",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Dragon Hunter",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Dread March",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Drive the Destruction",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Eldritch Inspiration",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Electric Presence",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Elegant Form",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Empowered Envoy",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Endbringer",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Enduring Composure",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Enduring Focus",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Enduring Ward",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Energy From Naught",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Essence Rush",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Eternal Suffering",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Evil Eye",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Expansive Might",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Expendability",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Expert Sabotage",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Exploit Weakness",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Explosive Force",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Exposure Therapy",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Eye of the Storm",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Eye to Eye",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Fan of Blades",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Fan the Flames",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Fasting",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Fearsome Warrior",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Feast of Flesh",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Feasting Fiends",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Feed the Fury",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Fettle",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Fiery Aegis",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Fire Attunement",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Flexible Sentry",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Flow of Life",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Follow-Through",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Forbidden Words",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Force Multiplier",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Frantic Aspect",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Fuel the Fight",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Furious Assault",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Genius",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Gladiator's Fortitude",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Gladiatorial Combat",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Graceful Execution",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Grand Design",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Grim Oath",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Guerilla Tactics",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Haemorrhage",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Haunting Shout",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Heart of Iron",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Heavy Hitter",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Heraldry",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Hex Breaker",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Hibernator",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Hit and Run",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Holistic Health",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Holy Conquest",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Holy Word",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Hound's Mark",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Hulking Corpses",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Improvisor",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Insatiable Killer",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Inspired Oppression",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Insulated",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Intensity",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Introspection",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Invigorating Portents",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Iron Breaker",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Lasting Impression",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Lead By Example",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Life from Death",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Liquid Inspiration",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Lord of Drought",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Low Tolerance",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Mage Bane",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Mage Hunter",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Magnifier",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Martial Mastery",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Martial Momentum",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Martial Prowess",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Master of Command",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Master of Fear",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Master of Fire",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Master of the Maelstrom",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Master the Fundamentals",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Mender's Wellspring",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Militarism",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Mindfulness",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Misery Everlasting",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Mob Mentality",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Molten One's Mark",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Mortifying Aspect",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Mystical Ward",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Natural Vigour",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is No Witnesses",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Non-Flammable",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Numbing Elixir",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is One with the Shield",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Openness",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Opportunistic Fusilade",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Overlord",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Overshock",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Overwhelming Malice",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Paralysis",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Peace Amidst Chaos",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Peak Vigour",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Phlebotomist",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Powerful Assault",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Powerful Ward",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Practiced Caster",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Precise Focus",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Precise Retaliation",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Pressure Points",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Primordial Bond",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Prismatic Carapace",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Prismatic Dance",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Prismatic Heart",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Prodigious Defence",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Provocateur",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Pure Agony",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Pure Aptitude",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Pure Guile",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Pure Might",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Purposeful Harbinger",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Quick Getaway",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Quick and Deadly",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Rattling Bellow",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Raze and Pillage",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Readiness",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Remarkable",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Rend",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Renewal",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Repeater",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Replenishing Presence",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Righteous Path",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Riot Queller",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Rot-Resistant",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Rote Reinforcement",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Rotten Claws",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Run Through",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Sadist",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Sage",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Sap Psyche",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Savage Response",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Savour the Moment",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Scintillating Idea",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Seal Mender",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Second Skin",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Seeker Runes",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Self-Control",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Self-Fulfilling Prophecy",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Septic Spells",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Set and Forget",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Shifting Shadow",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Shrieking Bolts",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Skeletal Atrophy",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Skullbreaker",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Sleepless Sentries",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Smite the Weak",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Smoking Remains",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Snaring Spirits",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Snowstorm",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Special Reserve",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Spiked Concoction",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Spiteful Presence",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Spring Back",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Steady Torment",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Stoic Focus",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Storm Drinker",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Storm's Hand",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Stormrider",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Streamlined",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Strike Leader",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Stubborn Student",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Student of Decay",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Sublime Form",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Sublime Sensation",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Supercharge",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Surefooted Striker",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Surging Vitality",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Surprise Sabotage",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Tempered Arrowheads",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Tempt the Storm",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Thaumophage",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Thunderstruck",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Titanic Swings",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Touch of Cruelty",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Towering Threat",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Uncompromising",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Unholy Grace",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Unrestrained Focus",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Unspeakable Gifts",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Untouchable",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Unwavering Focus",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Unwaveringly Evil",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Vast Power",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Veteran Defender",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Vicious Bite",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Vicious Guard",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Vicious Skewering",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Victim Maker",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Vile Reinvigoration",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Vital Focus",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Vivid Hues",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Volatile Presence",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Wall of Muscle",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Warning Call",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Wasting Affliction",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Weight Advantage",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Wicked Pall",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Widespread Destruction",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Will Shaper",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Wind-up",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Winter Prowler",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Wish for Death",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Wizardry",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Wound Aggravation",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
+    "english":"1 Added Passive Skill is Wrapped in Flame",
+    "kind":"cluster-notable-stat",
+    "source":"Data/ClusterJewels.lua#notableSortOrder"
+  },{
     "english":"+10 to Dexterity",
     "kind":"cluster-stat",
     "source":"Data/ClusterJewels.lua"

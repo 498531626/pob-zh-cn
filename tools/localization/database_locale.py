@@ -143,7 +143,30 @@ def build_database():
         entries[en]=meta
         e,z,n=paired
         if n:templates[e]=dict(meta,en=e,zh=z,values=n,pattern=lua_pattern(e))
+    # Cluster notable names live in the keys of notableSortOrder. Pair the
+    # exported names by stable PoEDB link target, then compose complete item
+    # clauses; never translate or rewrite the underlying parser input.
+    cluster_names = {r['english'] for r in rows if r['kind'] == 'cluster-notable-name'}
+    cluster_reference = HERE / 'database-reference'
+    cluster_pairs = {en: zh for en, zh, kind in page_pairs(
+        cluster_reference / 'Cluster_Jewel-us.html.gz', cluster_reference / 'Cluster_Jewel-cn.html.gz')
+        if kind == 'name'}
+    missing_cluster_names = sorted(cluster_names - cluster_pairs.keys())
+    if missing_cluster_names:
+        raise ValueError('Untranslated cluster notables: ' + ', '.join(missing_cluster_names))
+    for name in sorted(cluster_names):
+        entries.setdefault(name, {'zh': cluster_pairs[name], 'kind': 'cluster-notable-name',
+                                 'status': 'paired-cluster-name',
+                                 'source': 'https://poedb.tw/cn/Cluster_Jewel',
+                                 'english_source': 'https://poedb.tw/us/Cluster_Jewel'})
+        meta = dict(entries[name], kind='cluster-notable-stat', status='paired-name-composed-clause')
+        english = '1 Added Passive Skill is ' + name
+        entries[english] = dict(meta, zh='1 个增加的天赋为' + entries[name]['zh'])
+        pattern = '{0} Added Passive Skill is ' + name
+        templates[pattern] = dict(meta, en=pattern, zh='{0} 个增加的天赋为' + entries[name]['zh'],
+                                  values=1, pattern=lua_pattern(pattern))
     report={'obsolete_reviewed':obsolete_reviewed,'source_rows':len(rows),'matched_pairs':pairs,'exact_entries':len(entries),'numeric_templates':len(templates),
+            'cluster_notable_names':len(cluster_names),'missing_cluster_notable_names':missing_cluster_names,
             'ambiguous_exact':{k:list(v)for k,v in exact.items()if len(v)>1},
             'ambiguous_templates':{k:list(v)for k,v in patterns.items()if len(v)>1}}
     (HERE/'database-coverage.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n','utf8')

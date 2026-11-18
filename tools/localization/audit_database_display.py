@@ -28,9 +28,8 @@ end
 for _,row in ipairs(rows)do
  L.mode='zh';row.chinese=L:Translate(row.english)
  L.mode='en';assert(L:Translate(row.english)==row.english,'English mode changed database text')
- L.mode='bilingual';local both=L:Translate(row.english)
+ L.mode='zh';assert(L:Translate(row.english)==row.chinese,'Chinese database text changed after switching')
  if row.chinese~=row.english then
-  assert(both~=row.chinese,'Database comparison mode lost English: '..row.english)
   if row.kind:find('stat',1,true)or row.kind=='boss-skill-tooltip'then
    if numbers(row.chinese)~=numbers(row.english)then
     if row.english=='6% chance to gain a Frenzy Charge on Kill'and plain(row.chinese)=='击败敌人后有 6% 的几率获得 1 个狂怒球'then
@@ -59,14 +58,15 @@ assert(#numberIssues==0,'Database number differences require review; see databas
              'tattoo-name':'纹身及符文之结名称', 'tattoo-stat':'纹身及符文之结属性',
              'enchantment-stat':'附魔属性', 'craft-extra-stat':'兽园及熔炉工艺属性',
              'craft-affix':'工艺词缀名称', 'cluster-name':'星团名称', 'cluster-stat':'星团属性',
+             'cluster-notable-name':'星团核心天赋名称', 'cluster-notable-stat':'星团核心天赋词条',
              'boss-skill-name':'首领技能预设名称', 'boss-skill-tooltip':'首领技能预设说明'}
     with (here/'database-display-pending.csv').open('w',encoding='utf-8-sig',newline='') as f:
         writer = csv.writer(f)
         writer.writerow(['类别','英文原文','当前中文显示','源码位置'])
         for row in pending: writer.writerow([kinds[row['kind']],row['english'],row['chinese'],row['source']])
     lines = ['# 数据库汉化检查','',
-             '检查当前源码中的显示字段；内部 ID、解析键和计算数据不纳入翻译。含英文的未核对条目保留原文。',
-             '当前报告通过三种语言模式与已翻译属性的数值保持检查；不代表所有构筑的界面验收。','',
+             '检查当前源码中的显示字段；内部 ID、解析键和计算数据不纳入翻译。未核对条目允许按英文原文直译，可注明“直译，待核对”；不因来源核对流程未完成而强制保留英文。直译仍须保留原意、数值与格式占位符并通过相应检查；以下统计为当轮检查记录。',
+             '当前报告通过中英文切换与已翻译属性的数值保持检查；不代表所有构筑的界面验收。','',
              '| 类别 | 检查条目 | 尚有英文 |','| --- | ---: | ---: |']
     for kind,total in sorted(report['by_kind'].items()):
         lines.append(f'| {kinds[kind]} | {total} | {report["pending_by_kind"].get(kind,0)} |')

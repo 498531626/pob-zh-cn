@@ -3903,7 +3903,7 @@
       "remaining": []
     },
     {
-      "chinese": "+1基础值条件:拥有法师克星",
+      "chinese": "+1基础值条件:拥有破法",
       "english": "+1 base Condition:Have Magebane",
       "kind": "schema source totals source tooltip",
       "remaining": []
@@ -4545,7 +4545,7 @@
       "remaining": []
     },
     {
-      "chinese": "+1基础值战吼狼最低威力值",
+      "chinese": "+1基础值恶狼哭号最低威力值",
       "english": "+1 base Cry Wolf Minimum Power",
       "kind": "schema source totals source tooltip",
       "remaining": []
@@ -14289,7 +14289,7 @@
       "remaining": []
     },
     {
-      "chinese": "条件：拥有法师克星",
+      "chinese": "条件：拥有破法",
       "english": "Condition: Have Magebane",
       "kind": "identifier",
       "remaining": []
@@ -15189,7 +15189,7 @@
       "remaining": []
     },
     {
-      "chinese": "战吼狼最低威力值",
+      "chinese": "恶狼哭号最低威力值",
       "english": "Cry Wolf Minimum Power",
       "kind": "identifier",
       "remaining": []
@@ -22231,7 +22231,7 @@
   "source_sha256": {
     "Classes/CalcBreakdownControl.lua": "0b589a67bfd3cf69ca5a8e0d205b3ebd56347d78c297d34d41d200a34bebf387",
     "Localization/CalcIdentifierTerms.lua": "7881b062b79ca906470924ff473a2e15d5c234cb70ec3da6929713dbcc3d9c0c",
-    "Localization/CalcIdentifiers.lua": "fd103507e150b1d14c152aad4cd81433c87f17a29f898ca0d3b48c90849b78b5",
+    "Localization/CalcIdentifiers.lua": "ff8b44b024b91c9d51f61c6d41d9d0114d1e5dc139fd137625eff8202eb793f6",
     "Modules/CalcSections.lua": "4ab745c161cc2c1d7508308dcdd1f130fddcb224e61f799d6167c941875dfcdd",
     "Modules/Localization.lua": "1322ac66f683f55b2df748cf95ff32ecf82c80d91d1a5fc7f9121dd1b523a91c",
     "Modules/ModParser.lua": "d178a38b8aa4b365aa3c99ab31bc3ba16f301e09387ace511eefa470ef48f1f8"
