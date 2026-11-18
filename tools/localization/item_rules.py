@@ -50,6 +50,23 @@ def compose_item(text, resolve, terms):
     if completed: return completed
     completed = complete_item(text, resolve, terms)
     if completed: return completed
+    # Imported/generated item stats often omit the trailing "Skill" or append
+    # "Support" to a gem name. Resolve the complete known name first; do not
+    # guess at unknown names or partially translate a longer conditional stat.
+    match = re.fullmatch(r'Grants [Ll]evel '+AMOUNT+r' (.+?)( Skill)?', text)
+    if match:
+        level, name, skill = match.groups()
+        zh = terms.get(name.casefold())
+        if zh: return '获得 '+level+' 级'+zh+('技能' if skill else '')
+    match = re.fullmatch(r'Socketed Gems are Supported by Level '+AMOUNT+r' (.+?)( Support)?', text)
+    if match:
+        level, name, _ = match.groups()
+        zh = terms.get(name.casefold())
+        if zh: return '插槽内的技能石受到 '+level+' 级'+zh+'辅助'
+    match = re.fullmatch(r'Grants (.+)', text)
+    if match:
+        zh = terms.get(match[1].casefold())
+        if zh: return '获得'+zh
     match = re.fullmatch(r'Your (Fire|Cold|Lightning) Damage can Poison', text)
     if match: return '你的'+{'Fire':'火焰','Cold':'冰霜','Lightning':'闪电'}[match[1]]+'伤害可以造成中毒'
     match = re.fullmatch(r'(Fire|Cold|Lightning) Skills have '+AMOUNT+r'% chance to Poison on Hit', text)

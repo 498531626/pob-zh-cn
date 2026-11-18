@@ -1,4 +1,46 @@
 {
+  "Aspect of Arakaali": {
+    "zh": "阿拉卡力之势",
+    "kind": "item-granted-skill",
+    "status": "direct-translation",
+    "source": "src/Data/Skills/other.lua; existing Arakaali glossary; direct translation, pending official wording verification"
+  },
+  "Aspect of the Brine King": {
+    "zh": "惊海之王之势",
+    "kind": "item-granted-skill",
+    "status": "direct-translation",
+    "source": "src/Data/Skills/other.lua; existing Soul of the Brine King glossary; direct translation, pending official wording verification"
+  },
+  "Petrification Statue": {
+    "zh": "石化雕像",
+    "kind": "item-granted-skill",
+    "status": "direct-translation",
+    "source": "src/Data/Uniques/helmet.lua; direct translation, pending official wording verification"
+  },
+  "Witchhunter's Pyre": {
+    "zh": "猎巫者的柴堆",
+    "kind": "item-granted-skill",
+    "status": "existing-translation-name-alias",
+    "source": "Existing Witchhunter's Pyre: display heading; src/Data/Skills/other.lua"
+  },
+  "Edify": {
+    "zh": "启迪",
+    "kind": "item-granted-support",
+    "status": "direct-translation",
+    "source": "src/Data/Uniques; direct translation, pending official wording verification"
+  },
+  "Harrowing Throng": {
+    "zh": "苦痛之众",
+    "kind": "item-granted-support",
+    "status": "direct-translation",
+    "source": "src/Data/Uniques; direct translation, pending official wording verification"
+  },
+  "Magnetism": {
+    "zh": "磁力",
+    "kind": "item-granted-support",
+    "status": "direct-translation",
+    "source": "src/Data/Uniques; direct translation, pending official wording verification"
+  },
   "Miracle Band": {
     "zh": "奇迹之环",
     "kind": "rare-name",

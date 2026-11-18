@@ -299211,5 +299211,2099 @@
     "kind": "item-clause",
     "status": "reviewed-finite-clauses-known-terms",
     "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Aspect of Arakaali": {
+    "zh": "阿拉卡力之势",
+    "kind": "item-granted-skill",
+    "status": "direct-translation",
+    "source": "src/Data/Skills/other.lua; existing Arakaali glossary; direct translation, pending official wording verification"
+  },
+  "Aspect of the Brine King": {
+    "zh": "惊海之王之势",
+    "kind": "item-granted-skill",
+    "status": "direct-translation",
+    "source": "src/Data/Skills/other.lua; existing Soul of the Brine King glossary; direct translation, pending official wording verification"
+  },
+  "Petrification Statue": {
+    "zh": "石化雕像",
+    "kind": "item-granted-skill",
+    "status": "direct-translation",
+    "source": "src/Data/Uniques/helmet.lua; direct translation, pending official wording verification"
+  },
+  "Witchhunter's Pyre": {
+    "zh": "猎巫者的柴堆",
+    "kind": "item-granted-skill",
+    "status": "existing-translation-name-alias",
+    "source": "Existing Witchhunter's Pyre: display heading; src/Data/Skills/other.lua"
+  },
+  "Edify": {
+    "zh": "启迪",
+    "kind": "item-granted-support",
+    "status": "direct-translation",
+    "source": "src/Data/Uniques; direct translation, pending official wording verification"
+  },
+  "Harrowing Throng": {
+    "zh": "苦痛之众",
+    "kind": "item-granted-support",
+    "status": "direct-translation",
+    "source": "src/Data/Uniques; direct translation, pending official wording verification"
+  },
+  "Magnetism": {
+    "zh": "磁力",
+    "kind": "item-granted-support",
+    "status": "direct-translation",
+    "source": "src/Data/Uniques; direct translation, pending official wording verification"
+  },
+  "Grants Embrace Madness": {
+    "zh": "获得疯狂之拥",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Blood Sacrament": {
+    "zh": "获得 1 级赤色誓言",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Blood Sacrament Skill": {
+    "zh": "获得 1 级赤色誓言技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Convocation": {
+    "zh": "获得 1 级号召",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Convocation Skill": {
+    "zh": "获得 1 级号召技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Envy": {
+    "zh": "获得 1 级嫉妒",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Envy Skill": {
+    "zh": "获得 1 级嫉妒技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Herald of Agony": {
+    "zh": "获得 1 级苦痛之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Herald of Agony Skill": {
+    "zh": "获得 1 级苦痛之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Herald of Ash": {
+    "zh": "获得 1 级灰烬之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Herald of Ash Skill": {
+    "zh": "获得 1 级灰烬之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Herald of Ice": {
+    "zh": "获得 1 级寒冰之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Herald of Ice Skill": {
+    "zh": "获得 1 级寒冰之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Herald of Purity": {
+    "zh": "获得 1 级纯净之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Herald of Purity Skill": {
+    "zh": "获得 1 级纯净之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Herald of Thunder": {
+    "zh": "获得 1 级闪电之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Herald of Thunder Skill": {
+    "zh": "获得 1 级闪电之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Icestorm": {
+    "zh": "获得 1 级冰风暴",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Icestorm Skill": {
+    "zh": "获得 1 级冰风暴技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Lightning Warp": {
+    "zh": "获得 1 级闪电传送",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Petrification Statue": {
+    "zh": "获得 1 级石化雕像",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Petrification Statue Skill": {
+    "zh": "获得 1 级石化雕像技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Sniper's Mark": {
+    "zh": "获得 1 级狙击印记",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 1 Sniper's Mark Skill": {
+    "zh": "获得 1 级狙击印记技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Anger": {
+    "zh": "获得 10 级愤怒",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Anger Skill": {
+    "zh": "获得 10 级愤怒技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Assassin's Mark": {
+    "zh": "获得 10 级刺客印记",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Assassin's Mark Skill": {
+    "zh": "获得 10 级刺客印记技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Elemental Weakness": {
+    "zh": "获得 10 级元素要害",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Elemental Weakness Skill": {
+    "zh": "获得 10 级元素要害技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Enduring Cry": {
+    "zh": "获得 10 级坚决战吼",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Enduring Cry Skill": {
+    "zh": "获得 10 级坚决战吼技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Frostblink": {
+    "zh": "获得 10 级冰霜闪现",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Frostblink Skill": {
+    "zh": "获得 10 级冰霜闪现技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Hatred": {
+    "zh": "获得 10 级憎恨",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Hatred Skill": {
+    "zh": "获得 10 级的主动技能憎恨，且可被此道具上的技能石辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Herald of Agony": {
+    "zh": "获得 10 级苦痛之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Herald of Agony Skill": {
+    "zh": "获得 10 级苦痛之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Herald of Ash": {
+    "zh": "获得 10 级灰烬之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Herald of Ash Skill": {
+    "zh": "获得 10 级灰烬之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Herald of Ice": {
+    "zh": "获得 10 级寒冰之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Herald of Ice Skill": {
+    "zh": "获得 10 级寒冰之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Herald of Purity": {
+    "zh": "获得 10 级纯净之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Herald of Purity Skill": {
+    "zh": "获得 10 级纯净之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Herald of Thunder": {
+    "zh": "获得 10 级闪电之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Herald of Thunder Skill": {
+    "zh": "获得 10 级闪电之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Sniper's Mark": {
+    "zh": "获得 10 级狙击印记",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Sniper's Mark Skill": {
+    "zh": "获得 10 级狙击印记技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Vulnerability": {
+    "zh": "获得 10 级脆弱",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Vulnerability Skill": {
+    "zh": "获得 10 级脆弱技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 10 Wrath": {
+    "zh": "获得 10 级雷霆",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 11 Hatred": {
+    "zh": "获得 11 级憎恨",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 11 Hatred Skill": {
+    "zh": "获得 11 级的主动技能憎恨，且可被此道具上的技能石辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 12 Clarity": {
+    "zh": "获得 12 级清晰",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 12 Clarity Skill": {
+    "zh": "获得 12 级清晰技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 12 Summon Stone Golem": {
+    "zh": "获得 12 级召唤巨石魔像",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 12 Summon Stone Golem Skill": {
+    "zh": "获得 12 级召唤巨石魔像技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 14 Conductivity": {
+    "zh": "获得 14 级导电",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 14 Conductivity Skill": {
+    "zh": "获得 14 级导电技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 14 Flammability": {
+    "zh": "获得 14 级易燃",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 14 Flammability Skill": {
+    "zh": "获得 14 级易燃技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 14 Frostbite": {
+    "zh": "获得 14 级冻伤",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 14 Frostbite Skill": {
+    "zh": "获得 14 级冻伤技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 14 Haste": {
+    "zh": "获得 14 级迅捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 14 Haste Skill": {
+    "zh": "获得 14 级迅捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 14 Temporal Chains": {
+    "zh": "获得 14 级时空锁链",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 14 Temporal Chains Skill": {
+    "zh": "获得 14 级时空锁链技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Anger": {
+    "zh": "获得 15 级愤怒",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Anger Skill": {
+    "zh": "获得 15 级愤怒技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Battlemage's Cry": {
+    "zh": "获得 15 级魔武战号",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Blood Offering": {
+    "zh": "获得 15 级血脉奉献",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Blood Offering Skill": {
+    "zh": "获得 15 级血脉奉献技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Envy": {
+    "zh": "获得 15 级嫉妒",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Envy Skill": {
+    "zh": "获得 15 级嫉妒技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Hatred": {
+    "zh": "获得 15 级憎恨",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Hatred Skill": {
+    "zh": "获得 15 级的主动技能憎恨，且可被此道具上的技能石辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Manifest Dancing Dervishes": {
+    "zh": "获得 15 级召唤幻化之刃德尔维希",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Manifest Dancing Dervishes Skill": {
+    "zh": "获得 15 级召唤幻化之刃德尔维希技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Purity of Elements": {
+    "zh": "获得 15 级元素净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Purity of Elements Skill": {
+    "zh": "获得 15 级元素净化技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Purity of Fire": {
+    "zh": "获得 15 级火焰净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Purity of Fire Skill": {
+    "zh": "获得 15 级火焰净化技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Purity of Ice": {
+    "zh": "获得 15 级冰霜净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Purity of Ice Skill": {
+    "zh": "获得 15 级冰霜净化技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Purity of Lightning": {
+    "zh": "获得 15 级闪电净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Purity of Lightning Skill": {
+    "zh": "提供 15 级闪电净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Sniper's Mark": {
+    "zh": "获得 15 级狙击印记",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Sniper's Mark Skill": {
+    "zh": "获得 15 级狙击印记技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Vitality": {
+    "zh": "获得 15 级活力",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Vitality Skill": {
+    "zh": "获得 15 级活力技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 15 Wrath": {
+    "zh": "获得 15 级雷霆",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 16 Clarity": {
+    "zh": "获得 16 级清晰",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 16 Clarity Skill": {
+    "zh": "获得 16 级清晰技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 16 Determination": {
+    "zh": "获得 16 级坚定",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 16 Determination Skill": {
+    "zh": "获得 16 级坚定技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 16 Discipline": {
+    "zh": "获得 16 级纪律",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 16 Discipline Skill": {
+    "zh": "提供 16 级纪律",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 16 Grace": {
+    "zh": "获得 16 级优雅",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 16 Grace Skill": {
+    "zh": "获得 16 级优雅技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Approaching Flames": {
+    "zh": "获得 20 级烈焰之触",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Approaching Flames Skill": {
+    "zh": "获得 20 级烈焰之触技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of Arakaali": {
+    "zh": "获得 20 级阿拉卡力之势",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of Arakaali Skill": {
+    "zh": "获得 20 级阿拉卡力之势技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of Lunaris": {
+    "zh": "获得 20 级月影神之相",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of Lunaris Skill": {
+    "zh": "获得 20 级月影神之相技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of Solaris": {
+    "zh": "获得 20 级日耀神之相",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of Solaris Skill": {
+    "zh": "获得 20 级日耀神之相技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of the Avian": {
+    "zh": "获得 20 级鸟之势",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of the Avian Skill": {
+    "zh": "获得 20 级鸟之势技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of the Brine King": {
+    "zh": "获得 20 级惊海之王之势",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of the Brine King Skill": {
+    "zh": "获得 20 级惊海之王之势技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of the Cat": {
+    "zh": "获得 20 级猫之势",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of the Cat Skill": {
+    "zh": "获得 20 级猫之势技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of the Crab": {
+    "zh": "获得 20 级蟹之势",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of the Crab Skill": {
+    "zh": "获得 20 级蟹之势技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Aspect of the Spider Skill": {
+    "zh": "获得 20 级蛛之势技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Bear Trap": {
+    "zh": "获得 20 级捕熊陷阱",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Bear Trap Skill": {
+    "zh": "获得 20 级捕熊陷阱技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Blazing Glare Skill": {
+    "zh": "获得 20 级炽燃怒视技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Brandsurge": {
+    "zh": "获得 20 级烙印喷涌",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Brandsurge Skill": {
+    "zh": "获得 20 级烙印喷涌技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Caustic Retribution Skill": {
+    "zh": "获得 20 级腐汁复仇技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Death Wish": {
+    "zh": "获得 20 级死亡之愿",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Death Wish Skill": {
+    "zh": "获得 20 级死亡之愿技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Decoy Totem": {
+    "zh": "获得 20 级诱饵图腾",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Decoy Totem Skill": {
+    "zh": "获得 20 级诱饵图腾技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Doryani's Touch": {
+    "zh": "获得 20 级多里亚尼之触",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Doryani's Touch Skill": {
+    "zh": "获得 20 级多里亚尼之触技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Gluttony of Elements": {
+    "zh": "获得 20 级元素之愈",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Gluttony of Elements Skill": {
+    "zh": "获得 20 级元素之愈技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Hatred": {
+    "zh": "获得 20 级憎恨",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Herald of Agony": {
+    "zh": "获得 20 级苦痛之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Herald of Agony Skill": {
+    "zh": "获得 20 级苦痛之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Herald of Ash": {
+    "zh": "获得 20 级灰烬之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Herald of Ash Skill": {
+    "zh": "获得 20 级灰烬之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Herald of Ice": {
+    "zh": "获得 20 级寒冰之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Herald of Ice Skill": {
+    "zh": "获得 20 级寒冰之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Herald of Purity": {
+    "zh": "获得 20 级纯净之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Herald of Purity Skill": {
+    "zh": "获得 20 级纯净之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Herald of Thunder": {
+    "zh": "获得 20 级闪电之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Herald of Thunder Skill": {
+    "zh": "获得 20 级闪电之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Illusory Warp": {
+    "zh": "获得 20 级幻象传送",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Illusory Warp Skill": {
+    "zh": "获得 20 级幻象传送技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Intimidating Cry": {
+    "zh": "获得 20 级威吓战吼",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Intimidating Cry Skill": {
+    "zh": "获得 20 级威吓战吼技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Pacify": {
+    "zh": "获得 20 级宁心",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Pacify Skill": {
+    "zh": "获得 20 级宁心技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Penance Mark": {
+    "zh": "获得 20 级忏悔印记",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Penance Mark Skill": {
+    "zh": "获得 20 级忏悔印记技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Queen's Demand": {
+    "zh": "获得 20 级女王敕令",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Queen's Demand Skill": {
+    "zh": "获得 20 级女王敕令技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Ravenous": {
+    "zh": "获得 20 级贪噬",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Ravenous\nEnemies display their Monster Category": {
+    "zh": "获得 20 级贪噬\n敌人会显示怪物类型",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Ravenous Skill": {
+    "zh": "获得 20 级贪噬技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Savage Barnacle Skill": {
+    "zh": "获得 20 级野性藤壶技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Snipe": {
+    "zh": "获得 20 级狙击",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Snipe Skill": {
+    "zh": "获得 20 级狙击技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Sniper's Mark": {
+    "zh": "获得 20 级狙击印记",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Sniper's Mark Skill": {
+    "zh": "获得 20 级狙击印记技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Summon Bestial Rhoa": {
+    "zh": "获得 20 级召唤兽化恐喙鸟",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Summon Bestial Rhoa Skill": {
+    "zh": "获得 20 级召唤兽化恐喙鸟技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Summon Bestial Snake": {
+    "zh": "获得 20 级召唤兽化巨蛇",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Summon Bestial Snake Skill": {
+    "zh": "获得 20 级召唤兽化巨蛇技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Summon Bestial Ursa": {
+    "zh": "获得 20 级召唤兽化之爪",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Summon Bestial Ursa Skill": {
+    "zh": "获得 20 级召唤兽化之爪技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Summon Doedre's Effigy": {
+    "zh": "获得 20 级召唤德瑞的雕像",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Summon Shaper Memory Skill": {
+    "zh": "获得 20 级召唤塑界者的记忆技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Thirst for Blood": {
+    "zh": "获得 20 级鲜血渴求",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Thirst for Blood Skill": {
+    "zh": "获得 20 级鲜血渴求技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Unhinge": {
+    "zh": "获得 20 级精神失常",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Unhinge Skill": {
+    "zh": "获得 20 级精神失常技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Will of the Lords": {
+    "zh": "获得 20 级君主意志",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Will of the Lords Skill": {
+    "zh": "获得 20 级君主意志技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Witchhunter's Pyre": {
+    "zh": "获得 20 级猎巫者的柴堆",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 20 Witchhunter's Pyre Skill": {
+    "zh": "获得 20 级猎巫者的柴堆技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Anger": {
+    "zh": "获得 21 级愤怒",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Anger Skill": {
+    "zh": "获得 21 级愤怒技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Clarity": {
+    "zh": "获得 21 级清晰",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Clarity Skill": {
+    "zh": "获得 21 级清晰技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Haste": {
+    "zh": "获得 21 级迅捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Haste Skill": {
+    "zh": "获得 21 级迅捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Hatred": {
+    "zh": "获得 21 级憎恨",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Hatred Skill": {
+    "zh": "获得 21 级的主动技能憎恨，且可被此道具上的技能石辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Pride": {
+    "zh": "获得 21 级尊严",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Pride Skill": {
+    "zh": "获得 21 级尊严技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Purity of Elements": {
+    "zh": "获得 21 级元素净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Purity of Elements Skill": {
+    "zh": "获得 21 级元素净化技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Wrath": {
+    "zh": "获得 21 级雷霆",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 21 Wrath Skill": {
+    "zh": "提供 21 级雷霆",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Anger": {
+    "zh": "获得 22 级愤怒",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Anger Skill": {
+    "zh": "获得 22 级愤怒技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Blight": {
+    "zh": "获得 22 级枯萎",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Blight Skill": {
+    "zh": "获得 22 级枯萎技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Clarity": {
+    "zh": "获得 22 级清晰",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Clarity Skill": {
+    "zh": "获得 22 级清晰技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Determination": {
+    "zh": "获得 22 级坚定",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Determination Skill": {
+    "zh": "获得 22 级坚定技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Discipline": {
+    "zh": "获得 22 级纪律",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Discipline Skill": {
+    "zh": "提供 22 级纪律",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Enduring Cry": {
+    "zh": "获得 22 级坚决战吼",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Enduring Cry Skill": {
+    "zh": "获得 22 级坚决战吼技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Grace": {
+    "zh": "获得 22 级优雅",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Grace Skill": {
+    "zh": "获得 22 级优雅技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Haste": {
+    "zh": "获得 22 级迅捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Haste Skill": {
+    "zh": "获得 22 级迅捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Hatred": {
+    "zh": "获得 22 级憎恨",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Hatred Skill": {
+    "zh": "获得 22 级的主动技能憎恨，且可被此道具上的技能石辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Herald of Agony": {
+    "zh": "获得 22 级苦痛之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Herald of Agony Skill": {
+    "zh": "获得 22 级苦痛之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Herald of Ash": {
+    "zh": "获得 22 级灰烬之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Herald of Ash Skill": {
+    "zh": "获得 22 级灰烬之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Herald of Ice": {
+    "zh": "获得 22 级寒冰之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Herald of Ice Skill": {
+    "zh": "获得 22 级寒冰之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Herald of Purity": {
+    "zh": "获得 22 级纯净之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Herald of Purity Skill": {
+    "zh": "获得 22 级纯净之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Herald of Thunder": {
+    "zh": "获得 22 级闪电之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Herald of Thunder Skill": {
+    "zh": "获得 22 级闪电之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Intimidating Cry": {
+    "zh": "获得 22 级威吓战吼",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Intimidating Cry Skill": {
+    "zh": "获得 22 级威吓战吼技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Precision": {
+    "zh": "获得 22 级精准",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Precision Skill": {
+    "zh": "获得 22 级精准技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Rallying Cry": {
+    "zh": "获得 22 级激励战吼",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Rallying Cry Skill": {
+    "zh": "获得 22 级激励战吼技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Sniper's Mark": {
+    "zh": "获得 22 级狙击印记",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Sniper's Mark Skill": {
+    "zh": "获得 22 级狙击印记技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Vitality": {
+    "zh": "获得 22 级活力",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Vitality Skill": {
+    "zh": "获得 22 级活力技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Wintertide Brand": {
+    "zh": "获得 22 级冬潮烙印",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Wintertide Brand Skill": {
+    "zh": "获得 22 级冬潮烙印技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Wrath": {
+    "zh": "获得 22 级雷霆",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 22 Wrath Skill": {
+    "zh": "提供 22 级雷霆",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Conductivity": {
+    "zh": "获得 23 级导电",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Conductivity Skill": {
+    "zh": "获得 23 级导电技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Despair": {
+    "zh": "获得 23 级绝望",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Despair Skill": {
+    "zh": "获得 23 级绝望技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Determination": {
+    "zh": "获得 23 级坚定",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Determination Skill": {
+    "zh": "获得 23 级坚定技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Discipline": {
+    "zh": "获得 23 级纪律",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Discipline Skill": {
+    "zh": "提供 23 级纪律",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Flammability": {
+    "zh": "获得 23 级易燃",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Flammability Skill": {
+    "zh": "获得 23 级易燃技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Frostbite": {
+    "zh": "获得 23 级冻伤",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Frostbite Skill": {
+    "zh": "获得 23 级冻伤技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Grace": {
+    "zh": "获得 23 级优雅",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Grace Skill": {
+    "zh": "获得 23 级优雅技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Malevolence": {
+    "zh": "获得 23 级怨毒光环",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Malevolence Skill": {
+    "zh": "获得 23 级怨毒光环技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Purity of Fire": {
+    "zh": "获得 23 级火焰净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Purity of Fire Skill": {
+    "zh": "获得 23 级火焰净化技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Purity of Ice": {
+    "zh": "获得 23 级冰霜净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Purity of Ice Skill": {
+    "zh": "获得 23 级冰霜净化技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Purity of Lightning": {
+    "zh": "获得 23 级闪电净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Purity of Lightning Skill": {
+    "zh": "提供 23 级闪电净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Zealotry": {
+    "zh": "获得 23 级奋锐光环",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 23 Zealotry Skill": {
+    "zh": "获得 23 级奋锐光环技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Bear Trap": {
+    "zh": "获得 25 级捕熊陷阱",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Bear Trap Skill": {
+    "zh": "获得 25 级捕熊陷阱技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Blight": {
+    "zh": "获得 25 级枯萎",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Blight Skill": {
+    "zh": "获得 25 级枯萎技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Decoy Totem": {
+    "zh": "获得 25 级诱饵图腾",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Decoy Totem Skill": {
+    "zh": "获得 25 级诱饵图腾技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Envy": {
+    "zh": "获得 25 级嫉妒",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Envy Skill": {
+    "zh": "获得 25 级嫉妒技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Purity of Fire": {
+    "zh": "获得 25 级火焰净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Purity of Fire Skill": {
+    "zh": "获得 25 级火焰净化技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Purity of Ice": {
+    "zh": "获得 25 级冰霜净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Purity of Ice Skill": {
+    "zh": "获得 25 级冰霜净化技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Purity of Lightning": {
+    "zh": "获得 25 级闪电净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Purity of Lightning Skill": {
+    "zh": "提供 25 级闪电净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Scorching Ray": {
+    "zh": "获得 25 级灼热光线",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Scorching Ray Skill": {
+    "zh": "获得 25 级灼热光线技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Vaal Impurity of Fire": {
+    "zh": "获得 25 级瓦尔：不净之火",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Vaal Impurity of Fire Skill": {
+    "zh": "获得 25 级瓦尔：不净之火技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Vaal Impurity of Ice": {
+    "zh": "获得 25 级瓦尔：不净之冰",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Vaal Impurity of Ice Skill": {
+    "zh": "获得 25 级瓦尔：不净之冰技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Vaal Impurity of Lightning": {
+    "zh": "获得 25 级瓦尔：不净之雷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Vaal Impurity of Lightning Skill": {
+    "zh": "获得 25 级瓦尔：不净之雷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Wintertide Brand": {
+    "zh": "获得 25 级冬潮烙印",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 25 Wintertide Brand Skill": {
+    "zh": "获得 25 级冬潮烙印技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Aspect of the Avian": {
+    "zh": "获得 30 级鸟之势",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Aspect of the Avian Skill": {
+    "zh": "获得 30 级鸟之势技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Aspect of the Cat": {
+    "zh": "获得 30 级猫之势",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Aspect of the Cat Skill": {
+    "zh": "获得 30 级猫之势技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Aspect of the Crab": {
+    "zh": "获得 30 级蟹之势",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Aspect of the Crab Skill": {
+    "zh": "获得 30 级蟹之势技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Aspect of the Spider Skill": {
+    "zh": "获得 30 级蛛之势技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Crushing Fist": {
+    "zh": "获得 30 级粉碎重拳",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Crushing Fist Skill": {
+    "zh": "获得 30 级粉碎重拳技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Dash": {
+    "zh": "获得 30 级冲刺",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Dash Skill": {
+    "zh": "获得 30 级冲刺技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Herald of the Hive": {
+    "zh": "获得 30 级虫群之捷",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Herald of the Hive Skill": {
+    "zh": "获得 30 级虫群之捷技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Precision": {
+    "zh": "获得 30 级精准",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Precision Skill": {
+    "zh": "获得 30 级精准技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Purity of Fire": {
+    "zh": "获得 30 级火焰净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Purity of Fire Skill": {
+    "zh": "获得 30 级火焰净化技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Purity of Ice": {
+    "zh": "获得 30 级冰霜净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Purity of Ice Skill": {
+    "zh": "获得 30 级冰霜净化技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Purity of Lightning": {
+    "zh": "获得 30 级闪电净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Purity of Lightning Skill": {
+    "zh": "提供 30 级闪电净化",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Smite": {
+    "zh": "获得 30 级惩击",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Smite Skill": {
+    "zh": "获得 30 级惩击技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Snipe": {
+    "zh": "获得 30 级狙击",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Snipe Skill": {
+    "zh": "获得 30 级狙击技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Will of the Lords": {
+    "zh": "获得 30 级君主意志",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 30 Will of the Lords Skill": {
+    "zh": "获得 30 级君主意志技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 4 Clarity": {
+    "zh": "获得 4 级清晰",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 4 Clarity Skill": {
+    "zh": "获得 4 级清晰技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 5 Frostbite": {
+    "zh": "获得 5 级冻伤",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 5 Frostbite Skill": {
+    "zh": "获得 5 级冻伤技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 7 Wrath": {
+    "zh": "获得 7 级雷霆",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 7 Wrath Skill": {
+    "zh": "提供 7 级雷霆",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 8 Clarity": {
+    "zh": "获得 8 级清晰",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Level 8 Clarity Skill": {
+    "zh": "获得 8 级清晰技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Greater Harbinger of Brutality": {
+    "zh": "获得召唤高等残暴先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Greater Harbinger of Directions": {
+    "zh": "获得召唤高等射术先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Greater Harbinger of Focus": {
+    "zh": "获得召唤高等不屈先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Greater Harbinger of Storms": {
+    "zh": "获得召唤高等冰雷先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Greater Harbinger of Time": {
+    "zh": "获得召唤高等时空先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Greater Harbinger of the Arcane": {
+    "zh": "获得召唤高等秘法先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Harbinger of Brutality": {
+    "zh": "获得召唤残暴先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Harbinger of Directions": {
+    "zh": "获得召唤射术先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Harbinger of Focus": {
+    "zh": "获得召唤不屈先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Harbinger of Storms": {
+    "zh": "获得召唤冰雷先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Harbinger of Time": {
+    "zh": "获得召唤时空先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants Summon Harbinger of the Arcane": {
+    "zh": "获得召唤秘法先驱者",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Grants level 20 Affliction Skill": {
+    "zh": "获得 20 级折磨技能",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Has Consumed 1 Gem\nSocketed Gems are Supported by Level 20 Autoexertion Support": {
+    "zh": "已吞噬 1 颗宝石\n插槽内的技能石受到 20 级自动增助辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Has Consumed 1 Gem\nSocketed Gems are Supported by Level 20 Automation Support": {
+    "zh": "已吞噬 1 颗宝石\n插槽内的技能石受到 20 级自动化辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Has Consumed 1 Gem\nSocketed Gems are Supported by Level 20 Item Quantity Support": {
+    "zh": "已吞噬 1 颗宝石\n插槽内的技能石受到 20 级物品数量辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Has Consumed 1 Gem\nSocketed Gems are Supported by Level 3 Edify Support": {
+    "zh": "已吞噬 1 颗宝石\n插槽内的技能石受到 3 级启迪辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Has Consumed 1 Gem\nSocketed Gems are Supported by Level 3 Harrowing Throng Support": {
+    "zh": "已吞噬 1 颗宝石\n插槽内的技能石受到 3 级苦痛之众辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Has Consumed 1 Gem\nSocketed Gems are Supported by Level 3 Magnetism Support": {
+    "zh": "已吞噬 1 颗宝石\n插槽内的技能石受到 3 级磁力辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Has Consumed 1 Gem\nSocketed Gems are Supported by Level 3 Ward Support": {
+    "zh": "已吞噬 1 颗宝石\n插槽内的技能石受到 3 级结界辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Socketed Gems are Supported by Level 20 Autoexertion Support": {
+    "zh": "插槽内的技能石受到 20 级自动增助辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Socketed Gems are Supported by Level 20 Automation Support": {
+    "zh": "插槽内的技能石受到 20 级自动化辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Socketed Gems are Supported by Level 20 Item Quantity Support": {
+    "zh": "插槽内的技能石受到 20 级物品数量辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Socketed Gems are Supported by Level 3 Edify Support": {
+    "zh": "插槽内的技能石受到 3 级启迪辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Socketed Gems are Supported by Level 3 Harrowing Throng Support": {
+    "zh": "插槽内的技能石受到 3 级苦痛之众辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Socketed Gems are Supported by Level 3 Magnetism Support": {
+    "zh": "插槽内的技能石受到 3 级磁力辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Socketed Gems are Supported by Level 3 Ward Support": {
+    "zh": "插槽内的技能石受到 3 级结界辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
+  },
+  "Socketed Gems are Supported by Level 30 Snipe Support": {
+    "zh": "插槽内的技能石受到 30 级狙击辅助",
+    "kind": "item-clause",
+    "status": "reviewed-finite-clauses-known-terms",
+    "source": "tools/localization/item_rules.py; https://poedb.tw/cn/Modifiers"
   }
 }

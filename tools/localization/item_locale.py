@@ -251,8 +251,16 @@ def build_items(known_entries=None, known_templates=()):
         resolving.add(text)
         try: return compose_item(text, resolve, terms)
         finally: resolving.remove(text)
+    # Parser/exported stats and imported raw items differ in whether they
+    # append "Skill". Generate both complete forms for known skill names.
+    composition_text = set(local_text)
+    for text in local_text:
+        grant = re.fullmatch(r'(Grants [Ll]evel '+AMOUNT+r' )(.+?)( Skill)?', text)
+        if grant and grant[3].casefold() in terms:
+            base = grant[1] + grant[3]
+            composition_text.update((base, base + ' Skill'))
     composed = 0
-    for en in sorted(local_text):
+    for en in sorted(composition_text):
         if en in shared: continue
         zh = resolve(en)
         paired = numeric_pair(en, zh) if zh else None

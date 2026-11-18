@@ -25,6 +25,7 @@ if __name__ == '__main__':
             ('test_item_search.py',),
             ('test_gem_search.py', '--workspace', str(workspace)),
             ('test_imported_item_tooltips.py', '--workspace', str(workspace)),
+            ('test_item_skill_clauses.py',),
             ('test_viscera_locale.py', '--workspace', str(workspace)),
             ('test_spectre_locale.py', '--workspace', str(workspace)),
             ('audit_calc_breakdown.py', '--workspace', str(workspace)),

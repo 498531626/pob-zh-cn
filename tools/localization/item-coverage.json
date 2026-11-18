@@ -1,11 +1,11 @@
 {
   "counts": {
     "paired_mod_records": 103475,
-    "reviewed_legacy_entries": 31,
+    "reviewed_legacy_entries": 38,
     "reviewed_legacy_templates": 34,
-    "exact_entries": 30153,
-    "numeric_templates": 6527,
-    "composed_entries": 9952,
+    "exact_entries": 30502,
+    "numeric_templates": 6707,
+    "composed_entries": 10294,
     "ambiguous_exact_resolved": 62,
     "ambiguous_templates_resolved": 25,
     "ambiguous_exact": 62,
