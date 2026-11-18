@@ -9989,7 +9989,7 @@
     {
       "chinese": "+10 基础值",
       "english": "+10 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -10031,7 +10031,7 @@
     {
       "chinese": "+15 基础值",
       "english": "+15 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -10073,13 +10073,13 @@
     {
       "chinese": "+25 基础值",
       "english": "+25 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
       "chinese": "+3 基础值",
       "english": "+3 base",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -10229,7 +10229,7 @@
     {
       "chinese": "+54 基础值",
       "english": "+54 base",
-      "kind": "materialized Righteous Fire",
+      "kind": "materialized Righteous Fire source tooltip",
       "remaining": []
     },
     {
@@ -11003,7 +11003,7 @@
     {
       "chinese": "25% 总降",
       "english": "25% less",
-      "kind": "materialized Arc",
+      "kind": "materialized Arc source tooltip",
       "remaining": []
     },
     {
@@ -11075,7 +11075,7 @@
     {
       "chinese": "30% 总降",
       "english": "30% less",
-      "kind": "materialized Fireball",
+      "kind": "materialized Fireball source tooltip",
       "remaining": []
     },
     {
@@ -11321,7 +11321,7 @@
     {
       "chinese": "80% 总降",
       "english": "80% less",
-      "kind": "materialized Storm Brand",
+      "kind": "materialized Storm Brand source tooltip",
       "remaining": []
     },
     {
@@ -22229,18 +22229,18 @@
   ],
   "scope": "All evaluated CalcSections keys, every table from 12 skill fixtures, startup/runtime modifier constructors and their renderable notes/flags; unresolved pre-calculation constructor templates listed separately; no user builds.",
   "source_sha256": {
-    "Classes/CalcBreakdownControl.lua": "1d817f5a197b0a43aecdcce26c684ce0d530cdea80032142db8e5fda1d10bb7b",
+    "Classes/CalcBreakdownControl.lua": "0b589a67bfd3cf69ca5a8e0d205b3ebd56347d78c297d34d41d200a34bebf387",
     "Localization/CalcIdentifierTerms.lua": "7881b062b79ca906470924ff473a2e15d5c234cb70ec3da6929713dbcc3d9c0c",
     "Localization/CalcIdentifiers.lua": "fd103507e150b1d14c152aad4cd81433c87f17a29f898ca0d3b48c90849b78b5",
     "Modules/CalcSections.lua": "4ab745c161cc2c1d7508308dcdd1f130fddcb224e61f799d6167c941875dfcdd",
-    "Modules/Localization.lua": "a1aaaea21a4adccdb69f8b25110c45b28c34ed4422f7c23765c8c93242e83f8a",
+    "Modules/Localization.lua": "25af58dea61876a513391c5b41b0af5cee88dfdcb217f4cf1c51e0d272de6ff9",
     "Modules/ModParser.lua": "d178a38b8aa4b365aa3c99ab31bc3ba16f301e09387ace511eefa470ef48f1f8"
   },
   "texts": 3475,
   "unresolved_constructor_templates": [
     {
       "id": "EnableSkill",
-      "reason": "Classes/CalcBreakdownControl.lua:503: attempt to concatenate field 'skillName' (a nil value)"
+      "reason": "Classes/CalcBreakdownControl.lua:519: attempt to concatenate field 'skillName' (a nil value)"
     }
   ]
 }

@@ -20,6 +20,7 @@ if __name__ == '__main__':
             ('test_calc_identifiers.py',),
             ('test_calc_panel_locale.py',),
             ('test_calc_buff_lists.py',),
+            ('test_breakdown_lifecycle.py', '--workspace', str(workspace)),
             ('test_interface_ui.py',),
             ('test_item_search.py',),
             ('test_imported_item_tooltips.py', '--workspace', str(workspace)),
