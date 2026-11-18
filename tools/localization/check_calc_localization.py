@@ -23,6 +23,7 @@ if __name__ == '__main__':
             ('test_interface_ui.py',),
             ('test_item_search.py',),
             ('test_imported_item_tooltips.py', '--workspace', str(workspace)),
+            ('test_viscera_locale.py', '--workspace', str(workspace)),
             ('audit_calc_breakdown.py', '--workspace', str(workspace)),
             ('test_layout.py', '--workspace', str(workspace)),
         ]

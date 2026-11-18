@@ -663,6 +663,20 @@ function L:Translate(text, nodeId, displayMode)
 		local translated = self:Translate(prefix .. core, nodeId, displayMode)
 		if translated ~= prefix .. core then return translated .. whitespace end
 	end
+	-- Developer item tooltips append the parser's unrecognised remainder.
+	-- Resolve only that delimited display fragment; never modify parser input.
+	local original, remainder = body:match("^(.-)   %^1'(.-)'$")
+	if original then
+		local translated = remainder
+		for _, template in ipairs(itemTemplates) do
+			local values = {remainder:lower():match(template.pattern:lower())}
+			if #values == template.values then
+				translated = template.zh:gsub("{(%d+)}", function(i) return values[tonumber(i)+1] end)
+				break
+			end
+		end
+		return self:Translate(prefix .. original, nodeId, displayMode) .. "   ^1'" .. translated .. "'"
+	end
 	-- This suffix is added after unsupported passive/gem stats are formatted.
 	-- Resolve the original line with its node context, preserving its red colour.
 	local unsupported = " ^8(Not supported in PoB yet)"

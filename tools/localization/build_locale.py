@@ -21,6 +21,7 @@ from item_locale import build_items
 from database_locale import build_database
 from anoint_locale import write_anoint_names
 from glyph_atlas import build_atlas
+from viscera_locale import build_viscera
 from build_crafting_locale import build as build_crafting
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -189,6 +190,7 @@ def build():
                         'source': 'src/Classes/ItemsTab.lua; https://poedb.tw/cn/League'}
         )
     database_entries, database_templates, database_report = build_database()
+    entries.update(build_viscera())
     for en, meta in database_entries.items():
         entries.setdefault(en, meta)
     item_entries, item_templates, item_report = build_items(entries, gem_templates + database_templates)
