@@ -12,15 +12,16 @@ local rows={}
 local data=dofile('Data/TimelessJewelData/LegionPassives.lua')
 for _,kind in ipairs({'nodes','additions'}) do
  for _,node in ipairs(data[kind]) do
-  if node.id:match('^vaal_') or node.id:match('^karui_') or node.id:match('^maraketh_')
-   or node.id:match('^templar_') or node.id:match('^eternal_') then
-   local source='Data/TimelessJewelData/LegionPassives.lua#'..node.id
-   rows[#rows+1]={english=node.dn,kind='timeless-name',source=source}
-   for _,line in ipairs(node.sd or {}) do
-    rows[#rows+1]={english=line,kind='timeless-stat',source=source}
-   end
+  local source='Data/TimelessJewelData/LegionPassives.lua#'..node.id
+  rows[#rows+1]={english=node.dn,kind='timeless-name',source=source}
+  for _,line in ipairs(node.sd or {}) do
+   rows[#rows+1]={english=line,kind='timeless-stat',source=source}
   end
  end
+end
+-- Runtime Abyss labels replace the game's numbered placeholder names.
+for id,name in pairs(dofile('Data/TimelessJewelData/AbyssNotableNames.lua')) do
+ rows[#rows+1]={english=name,kind='timeless-name',source='Data/TimelessJewelData/AbyssNotableNames.lua#'..id}
 end
 -- Militant Faith also appends this amount to existing notable passives.
 rows[#rows+1]={english='+5 to Devotion',kind='timeless-stat',source='Classes/PassiveSpec.lua'}

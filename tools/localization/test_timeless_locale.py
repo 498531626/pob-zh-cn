@@ -46,19 +46,17 @@ local function check(text)
 end
 for _,kind in ipairs({'nodes','additions'}) do
  for _,node in ipairs(data[kind]) do
-  if node.id:match('^vaal_') or node.id:match('^karui_') or node.id:match('^maraketh_')
-   or node.id:match('^templar_') or node.id:match('^eternal_') then
-   check(node.dn)
-   for _,line in ipairs(node.sd or {}) do
-    check(line)
-    for _,side in ipairs({1,2}) do
-     local rolled=line:gsub('%((%-?%d+%.?%d*)%-(%-?%d+%.?%d*)%)',function(a,b) return side==1 and a or b end)
-     check(rolled)
-    end
+  check(node.dn)
+  for _,line in ipairs(node.sd or {}) do
+   check(line)
+   for _,side in ipairs({1,2}) do
+    local rolled=line:gsub('%((%-?%d+%.?%d*)%-(%-?%d+%.?%d*)%)',function(a,b) return side==1 and a or b end)
+    check(rolled)
    end
   end
  end
 end
+for _,name in pairs(LoadModule('Data/TimelessJewelData/AbyssNotableNames')) do check(name) end
 check('+5 to Devotion');check('+10 to Devotion')
 L.mode='zh'
 assert(L:Translate('+10 to Unverified Timeless Stat',36949)=='+10 to Unverified Timeless Stat')

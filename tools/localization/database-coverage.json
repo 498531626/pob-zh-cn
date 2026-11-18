@@ -13,22 +13,22 @@
     "Summoned Arbalist",
     "Summoned Rhoa"
   ],
-  "source_rows": 5970,
-  "matched_pairs": 11869,
-  "exact_entries": 2418,
-  "numeric_templates": 1026,
+  "source_rows": 7021,
+  "matched_pairs": 11955,
+  "exact_entries": 2649,
+  "numeric_templates": 1091,
   "ambiguous_exact": {
     "Ancient Orb": [
       "远古石",
       "古变石"
     ],
-    "Tempering Orb": [
-      "回火石",
-      "淬炼石"
-    ],
     "Tailoring Orb": [
       "裁剪石",
       "裁缝石"
+    ],
+    "Tempering Orb": [
+      "回火石",
+      "淬炼石"
     ],
     "Instilling Orb": [
       "灌顶石",
@@ -83,6 +83,10 @@
     "{0}% Chance to Block Spell Damage": [
       "{0}% 法术伤害格挡几率",
       "{0}% 格挡法术伤害几率"
+    ],
+    "{0} to Strength and Dexterity": [
+      "{0} 力量和敏捷",
+      "{0} 力量与敏捷"
     ]
   }
 }

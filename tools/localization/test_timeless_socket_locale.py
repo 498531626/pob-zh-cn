@@ -36,6 +36,13 @@ local control=assert(popup.controls.socketSelect)
 local json=require('dkjson')
 local original=json.encode(control.list)
 local L=Localization
+local function dropdownSnapshot(list)
+ local result={}
+ for i,entry in ipairs(list) do
+  result[i]=type(entry)=='table' and {label=entry.label,id=entry.id} or entry
+ end
+ return json.encode(result)
+end
 local checked=0
 for _,mode in ipairs({'zh','en','zh'}) do
  L.mode=mode
@@ -80,8 +87,23 @@ end
 local sourceNodes=snapshotNodes()
 local byId={};for _,node in pairs(nodes) do byId[node.id]=node end
 control.dropped=false
-for jewelType=1,5 do
+assert(#popup.controls.jewelSelect.list==11,'Update expected jewel families for upstream changes')
+for jewelType=1,#popup.controls.jewelSelect.list do
  popup.controls.jewelSelect:SetSel(jewelType)
+ for _,controlName in ipairs({'jewelSelect','conquerorSelect','abyssAscendancySelect','fallbackWeightsList','devotionSelect1','devotionSelect2'}) do
+  local dropdown=popup.controls[controlName]
+  local sourceList=dropdownSnapshot(dropdown.list)
+  for _,mode in ipairs({'zh','en','zh'}) do
+   L.mode=mode
+   for _,entry in ipairs(dropdown.list) do
+    local label=type(entry)=='table' and entry.label or entry
+    local translated=L:Translate(label)
+    if mode=='zh' then assert(not translated:gsub('DPS',''):match('%a'),'Untranslated '..controlName..': '..label..' -> '..translated)
+    else assert(translated==label,'English dropdown changed: '..label) end
+   end
+  end
+  assert(dropdownSnapshot(dropdown.list)==sourceList,'Dropdown source changed: '..controlName)
+ end
  local selector=popup.controls.nodeSelect
  local originalList=json.encode(selector.list)
  for _,mode in ipairs({'zh','en','zh'}) do
@@ -134,6 +156,6 @@ for _,mode in ipairs({'zh','en','zh'}) do
  trade.dropped=false
 end
 assert(json.encode(trade.list)==originalTrade,'Translation changed trade request options')
-print('Timeless details: '..nodesChecked..' node/mode cases; Chinese search, joined stats, five trade options, passive/support name separation and immutable source data passed')
+print('Timeless details: '..nodesChecked..' node/mode cases across all 11 jewel types; all node/conqueror/devotion/ascendancy/sort dropdowns, Chinese search, joined stats, trade types and immutable data passed')
 print('Timeless socket popup: '..checked..' socket/mode cases; expanded/collapsed drawing, title, IDs, allocation markers, selection, source labels and fallback passed')
 ''')

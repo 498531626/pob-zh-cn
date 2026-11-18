@@ -9147,7 +9147,7 @@
       "remaining": []
     },
     {
-      "chinese": "+1基础值感电避免应用至元素异常状态",
+      "chinese": "+1基础值避免感电应用至元素异常状态",
       "english": "+1 base Shock Avoid Applies To Elemental Ailments",
       "kind": "schema source totals source tooltip",
       "remaining": []
@@ -20367,7 +20367,7 @@
       "remaining": []
     },
     {
-      "chinese": "感电避免应用至元素异常状态",
+      "chinese": "避免感电应用至元素异常状态",
       "english": "Shock Avoid Applies To Elemental Ailments",
       "kind": "identifier",
       "remaining": []
@@ -22231,7 +22231,7 @@
   "source_sha256": {
     "Classes/CalcBreakdownControl.lua": "1d817f5a197b0a43aecdcce26c684ce0d530cdea80032142db8e5fda1d10bb7b",
     "Localization/CalcIdentifierTerms.lua": "7881b062b79ca906470924ff473a2e15d5c234cb70ec3da6929713dbcc3d9c0c",
-    "Localization/CalcIdentifiers.lua": "cc62e1aef377cd7d576e754399cd865c3e6125c8ac4c9787c6c288239178771b",
+    "Localization/CalcIdentifiers.lua": "fd103507e150b1d14c152aad4cd81433c87f17a29f898ca0d3b48c90849b78b5",
     "Modules/CalcSections.lua": "4ab745c161cc2c1d7508308dcdd1f130fddcb224e61f799d6167c941875dfcdd",
     "Modules/Localization.lua": "a1aaaea21a4adccdb69f8b25110c45b28c34ed4422f7c23765c8c93242e83f8a",
     "Modules/ModParser.lua": "d178a38b8aa4b365aa3c99ab31bc3ba16f301e09387ace511eefa470ef48f1f8"

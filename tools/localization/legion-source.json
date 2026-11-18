@@ -3,6 +3,3890 @@
     "kind":"timeless-stat",
     "source":"Classes/PassiveSpec.lua"
   },{
+    "english":"Accuracy",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#accuracy_rating"
+  },{
+    "english":"All Attributes",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#additional_all_attributes"
+  },{
+    "english":"Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#additional_dexterity"
+  },{
+    "english":"Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#additional_intelligence"
+  },{
+    "english":"Physical Damage Reduction if not Hit Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#additional_physical_damage_reduction_%_if_not_damaged_by_a_hit_recently"
+  },{
+    "english":"Strength",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#additional_strength"
+  },{
+    "english":"Attack Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#attack_speed_+%"
+  },{
+    "english":"Attack Speed if Crit Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#attack_speed_+%_if_have_crit_recently"
+  },{
+    "english":"Blind chance with Attacks",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#attacks_chance_to_blind_on_hit_%"
+  },{
+    "english":"Taunt chance with Attacks",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#attacks_chance_to_taunt_on_hit_%"
+  },{
+    "english":"Bleed Avoid",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_avoid_bleed_%"
+  },{
+    "english":"Freeze Avoid",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_avoid_freeze_%"
+  },{
+    "english":"Ignite Avoid",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_avoid_ignite_%"
+  },{
+    "english":"Poison Avoid",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_avoid_poison_%"
+  },{
+    "english":"Shock Avoid",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_avoid_shock_%"
+  },{
+    "english":"Stun Avoid",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_avoid_stun_%"
+  },{
+    "english":"Cast Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_cast_speed_+%"
+  },{
+    "english":"Chaos Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_chaos_damage_resistance_%"
+  },{
+    "english":"Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_cold_damage_resistance_%"
+  },{
+    "english":"Cooldown Recovery Rate",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_cooldown_speed_+%"
+  },{
+    "english":"Critical Strike Multiplier",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_critical_strike_multiplier_+"
+  },{
+    "english":"Evasion",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_evasion_rating"
+  },{
+    "english":"Fire Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_fire_damage_resistance_%"
+  },{
+    "english":"Life Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_life_regeneration_rate_per_minute"
+  },{
+    "english":"Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_lightning_damage_resistance_%"
+  },{
+    "english":"Mana Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_mana_regeneration_rate_per_minute"
+  },{
+    "english":"Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_maximum_life"
+  },{
+    "english":"Mana",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_maximum_mana"
+  },{
+    "english":"Armour",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_physical_damage_reduction_rating"
+  },{
+    "english":"Elemental Resistances",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#base_resist_all_elements_%"
+  },{
+    "english":"Attack Block if Hit Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#block_chance_on_damage_taken_%"
+  },{
+    "english":"Cast Speed if Crit Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#cast_speed_+%_if_have_crit_recently"
+  },{
+    "english":"Cast Speed if a Minion was Killed Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#cast_speed_+%_if_player_minion_has_been_killed_recently"
+  },{
+    "english":"Spell Block if Hit Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#chance_to_block_spells_%_if_damaged_by_a_hit_recently"
+  },{
+    "english":"Cold Ailment Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#cold_ailment_effect_+%"
+  },{
+    "english":"Critical Strike Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#critical_strike_chance_+%"
+  },{
+    "english":"Critical Strike Chance if Not Crit Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#critical_strike_chance_+%_if_have_not_crit_recently"
+  },{
+    "english":"Critical Strike Multiplier if Killed Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#critical_strike_multiplier_+_if_enemy_killed_recently"
+  },{
+    "english":"Curse Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#curse_effect_+%"
+  },{
+    "english":"Reduced Curse Effect on Consecrated Ground",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#curse_effect_on_self_+%_while_on_consecrated_ground"
+  },{
+    "english":"Damage if Killed Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#damage_+%_if_enemy_killed_recently"
+  },{
+    "english":"Damage over Time while Dual Wielding",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#damage_over_time_+%_while_dual_wielding"
+  },{
+    "english":"Damage over Time while Holding a Shield",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#damage_over_time_+%_while_holding_a_shield"
+  },{
+    "english":"Damage over Time with a Two Handed Weapon",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#damage_over_time_+%_while_wielding_two_handed_weapon"
+  },{
+    "english":"Elemental Penetration if Not Killed Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#damage_penetrates_%_elemental_resistance_if_enemy_not_killed_recently"
+  },{
+    "english":"Damage Recoup as Mana",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#damage_taken_goes_to_mana_%"
+  },{
+    "english":"Reduced Critical Strike Chance for Blinded Enemies",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#enemies_you_blind_have_critical_strike_chance_+%"
+  },{
+    "english":"Reduced Life Regeneration for Hindered Enemies",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#enemies_you_hinder_have_life_regeneration_rate_+%"
+  },{
+    "english":"Stun Duration against Intimidated Enemies",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#enemies_you_intimidate_have_stun_duration_on_self_+%"
+  },{
+    "english":"Damage over Time Taken by Maimed Enemies",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#enemies_you_maim_have_damage_taken_over_time_+%"
+  },{
+    "english":"Reduced Resistances for Withered Enemies",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#enemies_you_wither_have_all_resistances_%"
+  },{
+    "english":"Energy Shield Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#energy_shield_regeneration_rate_per_second"
+  },{
+    "english":"Evasion Rating while Moving",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#evasion_rating_+%_while_moving"
+  },{
+    "english":"Impale Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#impale_debuff_effect_+%"
+  },{
+    "english":"Life Regeneration while Moving",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#life_regeneration_rate_per_minute_%_while_moving"
+  },{
+    "english":"Lightning Ailment Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#lightning_ailment_effect_+%"
+  },{
+    "english":"Mana Regeneration while Moving",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#mana_regeneration_rate_+%_while_moving"
+  },{
+    "english":"Minion Attack and Cast Speed if Killed Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_attack_and_cast_speed_+%_if_you_or_minions_have_killed_enemy_recently"
+  },{
+    "english":"Minion Blind Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_attacks_chance_to_blind_on_hit_%"
+  },{
+    "english":"Minion Taunt Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_attacks_chance_to_taunt_on_hit_%"
+  },{
+    "english":"Minion Bleed Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_bleed_on_hit_with_attacks_%"
+  },{
+    "english":"Minion Ignite Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_chance_to_ignite_%"
+  },{
+    "english":"Minion Chaos Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_chaos_resistance_%"
+  },{
+    "english":"Minion Damage if a Minion Skill was Used Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_damage_+%_if_have_used_a_minion_skill_recently"
+  },{
+    "english":"Minion Elemental Resistances",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_elemental_resistance_%"
+  },{
+    "english":"Added Minion Chaos Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_global_maximum_added_chaos_damage"
+  },{
+    "english":"Added Minion Cold Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_global_maximum_added_cold_damage"
+  },{
+    "english":"Added Minion Fire Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_global_maximum_added_fire_damage"
+  },{
+    "english":"Added Minion Lightning Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_global_maximum_added_lightning_damage"
+  },{
+    "english":"Added Minion Physical Damage",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_global_maximum_added_physical_damage"
+  },{
+    "english":"Minion Life Leech",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_life_leech_from_any_damage_permyriad"
+  },{
+    "english":"Minion Life Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_life_regeneration_rate_per_minute_%"
+  },{
+    "english":"Minion Life Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_life_regeneration_rate_per_second"
+  },{
+    "english":"Minion Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_maximum_life_+%"
+  },{
+    "english":"Minion Movement Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_movement_speed_+%"
+  },{
+    "english":"Minion Hinder Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minion_spells_chance_to_hinder_on_hit_%"
+  },{
+    "english":"Minion Poison Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#minions_chance_to_poison_on_hit_%"
+  },{
+    "english":"Movement Speed if Not Hit Recently",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#movement_speed_+%_if_have_not_taken_damage_recently"
+  },{
+    "english":"Phasing on Kill",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#phasing_for_4_seconds_on_kill_%"
+  },{
+    "english":"Hinder chance with Spells",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/AbyssNotableNames.lua#spells_chance_to_hinder_on_hit_%"
+  },{
+    "english":"Maximum number of raised Spectres, Skeletons and Zombies is 1",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_keystone"
+  },{
+    "english":"Minions deal 10% more Damage while you have a Skeleton",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_keystone"
+  },{
+    "english":"Minions gain 10% of Non-Chaos Damage as extra Chaos Damage while you have a Spectre",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_keystone"
+  },{
+    "english":"Minions take 10% less Damage while you have a Zombie",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_keystone"
+  },{
+    "english":"The Loyal Few",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_keystone"
+  },{
+    "english":"+(12-16) to Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_1"
+  },{
+    "english":"Notable 1",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_1"
+  },{
+    "english":"Minions have 10% chance to Ignite",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_10"
+  },{
+    "english":"Notable 10",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_10"
+  },{
+    "english":"Minions have 10% chance to cause Bleeding with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_11"
+  },{
+    "english":"Notable 11",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_11"
+  },{
+    "english":"(31-40)% chance to Avoid being Poisoned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_12"
+  },{
+    "english":"Notable 12",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_12"
+  },{
+    "english":"Minions Regenerate (0.4-0.8)% of Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_13"
+  },{
+    "english":"Notable 13",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_13"
+  },{
+    "english":"Minions Leech (0.3-0.5)% of Damage as Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_14"
+  },{
+    "english":"Notable 14",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_14"
+  },{
+    "english":"Minions have (6-10)% increased Movement Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_15"
+  },{
+    "english":"Notable 15",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_15"
+  },{
+    "english":"Minions have (6-10)% increased maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_16"
+  },{
+    "english":"Notable 16",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_16"
+  },{
+    "english":"Minions have +(6-10)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_17"
+  },{
+    "english":"Notable 17",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_17"
+  },{
+    "english":"Minions have +(7-11)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_18"
+  },{
+    "english":"Notable 18",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_18"
+  },{
+    "english":"2% increased Effect of your Curses",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_19"
+  },{
+    "english":"Notable 19",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_19"
+  },{
+    "english":"+(6-8) to all Attributes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_2"
+  },{
+    "english":"Notable 2",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_2"
+  },{
+    "english":"(6-8)% increased Cast Speed if a Minion has been Killed Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_20"
+  },{
+    "english":"Notable 20",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_20"
+  },{
+    "english":"Minions deal (10-15)% increased Damage if you've used a Minion Skill Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_21"
+  },{
+    "english":"Notable 21",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_21"
+  },{
+    "english":"Minions have (6-8)% increased Attack and Cast Speed if you or your Minions have Killed Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_22"
+  },{
+    "english":"Notable 22",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_22"
+  },{
+    "english":"Minions deal (15-18) to (21-24) additional Fire Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_23"
+  },{
+    "english":"Notable 23",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_23"
+  },{
+    "english":"Minions deal (15-18) to (21-24) additional Cold Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_24"
+  },{
+    "english":"Notable 24",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_24"
+  },{
+    "english":"Minions deal (1-3) to (33-39) additional Lightning Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_25"
+  },{
+    "english":"Notable 25",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_25"
+  },{
+    "english":"Minions deal (9-12) to (15-18) additional Physical Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_26"
+  },{
+    "english":"Notable 26",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_26"
+  },{
+    "english":"Minions deal (9-12) to (15-18) additional Chaos Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_27"
+  },{
+    "english":"Notable 27",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_27"
+  },{
+    "english":"3% increased Cooldown Recovery Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_28"
+  },{
+    "english":"Notable 28",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_28"
+  },{
+    "english":"+(5-7)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_3"
+  },{
+    "english":"Notable 3",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_3"
+  },{
+    "english":"Minions Regenerate (22-40) Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_4"
+  },{
+    "english":"Notable 4",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_4"
+  },{
+    "english":"Notable 5",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_5"
+  },{
+    "english":"Regenerate (9-16) Energy Shield per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_5"
+  },{
+    "english":"Minions have (3-5)% chance to Blind on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_6"
+  },{
+    "english":"Notable 6",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_6"
+  },{
+    "english":"Minions have (3-5)% chance to Taunt on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_7"
+  },{
+    "english":"Notable 7",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_7"
+  },{
+    "english":"Minions have (3-5)% chance to Hinder Enemies on Hit with Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_8"
+  },{
+    "english":"Notable 8",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_8"
+  },{
+    "english":"Minions have 10% chance to Poison Enemies on Hit",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_9"
+  },{
+    "english":"Notable 9",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_notable_9"
+  },{
+    "english":"+(9-12) to maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute1"
+  },{
+    "english":"Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute1"
+  },{
+    "english":"+(8-10) to Strength",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute10"
+  },{
+    "english":"Strength",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute10"
+  },{
+    "english":"+(8-10) to Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute11"
+  },{
+    "english":"Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute11"
+  },{
+    "english":"+(8-10) to Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute12"
+  },{
+    "english":"Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute12"
+  },{
+    "english":"+(6-8) to Strength and Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute13"
+  },{
+    "english":"Strength and Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute13"
+  },{
+    "english":"+(6-8) to Strength and Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute14"
+  },{
+    "english":"Strength and Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute14"
+  },{
+    "english":"+(6-8) to Dexterity and Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute15"
+  },{
+    "english":"Dexterity and Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute15"
+  },{
+    "english":"+(4-6) to all Attributes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute16"
+  },{
+    "english":"Attributes",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute16"
+  },{
+    "english":"+(6-8)% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute17"
+  },{
+    "english":"Fire Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute17"
+  },{
+    "english":"+(6-8)% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute18"
+  },{
+    "english":"Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute18"
+  },{
+    "english":"+(6-8)% to Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute19"
+  },{
+    "english":"Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute19"
+  },{
+    "english":"+(8-11) to maximum Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute2"
+  },{
+    "english":"Mana ",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute2"
+  },{
+    "english":"+(4-6)% to Fire and Cold Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute20"
+  },{
+    "english":"Fire and Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute20"
+  },{
+    "english":"+(4-6)% to Fire and Lightning Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute21"
+  },{
+    "english":"Fire and Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute21"
+  },{
+    "english":"+(4-6)% to Cold and Lightning Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute22"
+  },{
+    "english":"Cold and Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute22"
+  },{
+    "english":"+(3-5)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute23"
+  },{
+    "english":"Elemental Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute23"
+  },{
+    "english":"+(4-6)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute24"
+  },{
+    "english":"Chaos Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute24"
+  },{
+    "english":"(2-3)% increased Cast Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute25"
+  },{
+    "english":"Cast Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute25"
+  },{
+    "english":"Minion Blind Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute26"
+  },{
+    "english":"Minions have (2-3)% chance to Blind on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute26"
+  },{
+    "english":"Minion Taunt Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute27"
+  },{
+    "english":"Minions have (2-3)% chance to Taunt on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute27"
+  },{
+    "english":"Minion Hinder Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute28"
+  },{
+    "english":"Minions have (2-3)% chance to Hinder Enemies on Hit with Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute28"
+  },{
+    "english":"(15-20)% chance to Avoid being Ignited",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute29"
+  },{
+    "english":"Ignite Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute29"
+  },{
+    "english":"Energy Shield Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute3"
+  },{
+    "english":"Regenerate (9-12) Energy Shield per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute3"
+  },{
+    "english":"(15-20)% chance to Avoid being Frozen",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute30"
+  },{
+    "english":"Freeze Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute30"
+  },{
+    "english":"(15-20)% chance to Avoid being Shocked",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute31"
+  },{
+    "english":"Shock Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute31"
+  },{
+    "english":"(15-20)% chance to Avoid being Poisoned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute32"
+  },{
+    "english":"Poison Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute32"
+  },{
+    "english":"(15-20)% chance to Avoid Bleeding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute33"
+  },{
+    "english":"Bleed Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute33"
+  },{
+    "english":"(15-20)% chance to Avoid being Stunned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute34"
+  },{
+    "english":"Stun Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute34"
+  },{
+    "english":"Minion Attack and Cast Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute35"
+  },{
+    "english":"Minions have (2-3)% increased Attack Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute35"
+  },{
+    "english":"Minions have (2-3)% increased Cast Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute35"
+  },{
+    "english":"Life Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute4"
+  },{
+    "english":"Regenerate (4.5-6) Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute4"
+  },{
+    "english":"Mana Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute5"
+  },{
+    "english":"Regenerate (0.6-1) Mana per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute5"
+  },{
+    "english":"+(36-60) to Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute6"
+  },{
+    "english":"Armour",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute6"
+  },{
+    "english":"+(36-60) to Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute7"
+  },{
+    "english":"Evasion Rating",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute7"
+  },{
+    "english":"+(9-12) to maximum Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute8"
+  },{
+    "english":"Energy Shield",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute8"
+  },{
+    "english":"(2-3)% of Damage taken Recouped as Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute9"
+  },{
+    "english":"Mana Recoup",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_ghastly_small_attribute9"
+  },{
+    "english":"50% less recovery from Recoup",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_keystone"
+  },{
+    "english":"Life Recoup also recovers Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_keystone"
+  },{
+    "english":"Reconstructed Essence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_keystone"
+  },{
+    "english":"+(21-30) to maximum Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_1"
+  },{
+    "english":"Notable 1",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_1"
+  },{
+    "english":"(31-40)% chance to Avoid being Shocked",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_10"
+  },{
+    "english":"Notable 10",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_10"
+  },{
+    "english":"2% of Damage taken Recouped as Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_11"
+  },{
+    "english":"Notable 11",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_11"
+  },{
+    "english":"+(3-4)% Chance to Block Spell Damage if you were Damaged by a Hit Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_12"
+  },{
+    "english":"Notable 12",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_12"
+  },{
+    "english":"Damage Penetrates 2% Elemental Resistances if you haven't Killed Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_13"
+  },{
+    "english":"Notable 13",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_13"
+  },{
+    "english":"(20-25)% increased Mana Regeneration Rate while moving",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_14"
+  },{
+    "english":"Notable 14",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_14"
+  },{
+    "english":"(5-7)% increased Cast Speed if you've dealt a Critical Strike Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_15"
+  },{
+    "english":"Notable 15",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_15"
+  },{
+    "english":"(10-15)% reduced Effect of Curses on you while on Consecrated Ground",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_16"
+  },{
+    "english":"Notable 16",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_16"
+  },{
+    "english":"Enemies Hindered by you have (15-20)% reduced Life Regeneration rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_17"
+  },{
+    "english":"Notable 17",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_17"
+  },{
+    "english":"Enemies Withered by you have -2% to all Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_18"
+  },{
+    "english":"Notable 18",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_18"
+  },{
+    "english":"(13-16) to (18-21) Added Spell Fire Damage while Dual Wielding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_19"
+  },{
+    "english":"Notable 19",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_19"
+  },{
+    "english":"(10-15)% increased Effect of Lightning Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_2"
+  },{
+    "english":"Notable 2",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_2"
+  },{
+    "english":"(12-14) to (17-19) Added Spell Cold Damage while Dual Wielding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_20"
+  },{
+    "english":"Notable 20",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_20"
+  },{
+    "english":"(1-4) to (29-34) Added Spell Lightning Damage while Dual Wielding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_21"
+  },{
+    "english":"Notable 21",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_21"
+  },{
+    "english":"(9-12) to (14-17) Added Spell Physical Damage while Dual Wielding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_22"
+  },{
+    "english":"Notable 22",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_22"
+  },{
+    "english":"(9-12) to (14-17) Added Spell Chaos Damage while Dual Wielding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_23"
+  },{
+    "english":"Notable 23",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_23"
+  },{
+    "english":"(13-16) to (18-21) Added Spell Fire Damage while wielding a Two Handed Weapon",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_24"
+  },{
+    "english":"Notable 24",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_24"
+  },{
+    "english":"(12-14) to (17-19) Added Spell Cold Damage while wielding a Two Handed Weapon",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_25"
+  },{
+    "english":"Notable 25",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_25"
+  },{
+    "english":"(1-4) to (29-34) Added Spell Lightning Damage while wielding a Two Handed Weapon",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_26"
+  },{
+    "english":"Notable 26",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_26"
+  },{
+    "english":"(9-12) to (14-17) Added Spell Physical Damage while wielding a Two Handed Weapon",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_27"
+  },{
+    "english":"Notable 27",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_27"
+  },{
+    "english":"(9-12) to (14-17) Added Spell Chaos Damage while wielding a Two Handed Weapon",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_28"
+  },{
+    "english":"Notable 28",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_28"
+  },{
+    "english":"(13-16) to (18-21) Added Spell Fire Damage while holding a Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_29"
+  },{
+    "english":"Notable 29",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_29"
+  },{
+    "english":"+(12-16) to Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_3"
+  },{
+    "english":"Notable 3",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_3"
+  },{
+    "english":"(12-14) to (17-19) Added Spell Cold Damage while holding a Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_30"
+  },{
+    "english":"Notable 30",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_30"
+  },{
+    "english":"(1-4) to (29-34) Added Spell Lightning Damage while holding a Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_31"
+  },{
+    "english":"Notable 31",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_31"
+  },{
+    "english":"(9-12) to (14-17) Added Spell Physical Damage while holding a Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_32"
+  },{
+    "english":"Notable 32",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_32"
+  },{
+    "english":"(9-12) to (14-17) Added Spell Chaos Damage while holding a Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_33"
+  },{
+    "english":"Notable 33",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_33"
+  },{
+    "english":"Adds (9-12) to (14-17) Fire Damage to Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_34"
+  },{
+    "english":"Notable 34",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_34"
+  },{
+    "english":"Adds (8-11) to (13-16) Cold Damage to Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_35"
+  },{
+    "english":"Notable 35",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_35"
+  },{
+    "english":"Adds (1-3) to (22-27) Lightning Damage to Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_36"
+  },{
+    "english":"Notable 36",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_36"
+  },{
+    "english":"Adds (4-7) to (10-13) Physical Damage to Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_37"
+  },{
+    "english":"Notable 37",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_37"
+  },{
+    "english":"Adds (4-7) to (10-13) Chaos Damage to Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_38"
+  },{
+    "english":"Notable 38",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_38"
+  },{
+    "english":"3% increased Cooldown Recovery Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_39"
+  },{
+    "english":"Notable 39",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_39"
+  },{
+    "english":"+(6-8) to all Attributes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_4"
+  },{
+    "english":"Notable 4",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_4"
+  },{
+    "english":"(8-10)% increased Damage over Time while Dual Wielding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_40"
+  },{
+    "english":"Notable 40",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_40"
+  },{
+    "english":"(8-10)% increased Damage over Time while wielding a Two Handed Weapon",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_41"
+  },{
+    "english":"Notable 41",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_41"
+  },{
+    "english":"(8-10)% increased Damage over Time while holding a Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_42"
+  },{
+    "english":"Notable 42",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_42"
+  },{
+    "english":"+(12-15)% to Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_5"
+  },{
+    "english":"Notable 5",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_5"
+  },{
+    "english":"+(6-8)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_6"
+  },{
+    "english":"Notable 6",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_6"
+  },{
+    "english":"(2-4)% increased Cast Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_7"
+  },{
+    "english":"Notable 7",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_7"
+  },{
+    "english":"Notable 8",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_8"
+  },{
+    "english":"Regenerate (1.1-3) Mana per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_8"
+  },{
+    "english":"(3-8)% chance to Hinder Enemies on Hit with Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_9"
+  },{
+    "english":"Notable 9",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_notable_9"
+  },{
+    "english":"+(9-12) to maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute1"
+  },{
+    "english":"Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute1"
+  },{
+    "english":"(10-20)% increased Effect of Cold Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute10"
+  },{
+    "english":"Cold Ailment Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute10"
+  },{
+    "english":"(10-20)% increased Effect of Lightning Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute11"
+  },{
+    "english":"Lightning Ailment Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute11"
+  },{
+    "english":"+(8-10) to Strength",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute12"
+  },{
+    "english":"Strength",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute12"
+  },{
+    "english":"+(8-10) to Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute13"
+  },{
+    "english":"Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute13"
+  },{
+    "english":"+(8-10) to Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute14"
+  },{
+    "english":"Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute14"
+  },{
+    "english":"+(6-8) to Strength and Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute15"
+  },{
+    "english":"Strength and Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute15"
+  },{
+    "english":"+(6-8) to Strength and Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute16"
+  },{
+    "english":"Strength and Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute16"
+  },{
+    "english":"+(6-8) to Dexterity and Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute17"
+  },{
+    "english":"Dexterity and Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute17"
+  },{
+    "english":"+(4-6) to all Attributes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute18"
+  },{
+    "english":"Attributes",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute18"
+  },{
+    "english":"+(6-8)% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute19"
+  },{
+    "english":"Fire Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute19"
+  },{
+    "english":"+(8-11) to maximum Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute2"
+  },{
+    "english":"Mana ",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute2"
+  },{
+    "english":"+(6-8)% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute20"
+  },{
+    "english":"Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute20"
+  },{
+    "english":"+(6-8)% to Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute21"
+  },{
+    "english":"Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute21"
+  },{
+    "english":"+(4-6)% to Fire and Cold Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute22"
+  },{
+    "english":"Fire and Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute22"
+  },{
+    "english":"+(4-6)% to Fire and Lightning Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute23"
+  },{
+    "english":"Fire and Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute23"
+  },{
+    "english":"+(4-6)% to Cold and Lightning Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute24"
+  },{
+    "english":"Cold and Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute24"
+  },{
+    "english":"+(3-5)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute25"
+  },{
+    "english":"Elemental Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute25"
+  },{
+    "english":"+(4-6)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute26"
+  },{
+    "english":"Chaos Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute26"
+  },{
+    "english":"(2-3)% increased Cast Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute27"
+  },{
+    "english":"Cast Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute27"
+  },{
+    "english":"(6-8)% increased Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute28"
+  },{
+    "english":"Critical Strike Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute28"
+  },{
+    "english":"+(7-9)% to Critical Strike Multiplier",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute29"
+  },{
+    "english":"Critical Strike Multiplier",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute29"
+  },{
+    "english":"Energy Shield Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute3"
+  },{
+    "english":"Regenerate (9-12) Energy Shield per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute3"
+  },{
+    "english":"(2-3)% chance to Hinder Enemies on Hit with Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute30"
+  },{
+    "english":"Hinder Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute30"
+  },{
+    "english":"(15-20)% chance to Avoid being Ignited",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute31"
+  },{
+    "english":"Ignite Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute31"
+  },{
+    "english":"(15-20)% chance to Avoid being Frozen",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute32"
+  },{
+    "english":"Freeze Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute32"
+  },{
+    "english":"(15-20)% chance to Avoid being Shocked",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute33"
+  },{
+    "english":"Shock Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute33"
+  },{
+    "english":"(15-20)% chance to Avoid being Poisoned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute34"
+  },{
+    "english":"Poison Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute34"
+  },{
+    "english":"(15-20)% chance to Avoid Bleeding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute35"
+  },{
+    "english":"Bleed Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute35"
+  },{
+    "english":"(15-20)% chance to Avoid being Stunned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute36"
+  },{
+    "english":"Stun Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute36"
+  },{
+    "english":"Life Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute4"
+  },{
+    "english":"Regenerate (4.5-6) Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute4"
+  },{
+    "english":"Mana Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute5"
+  },{
+    "english":"Regenerate (0.6-1) Mana per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute5"
+  },{
+    "english":"+(36-60) to Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute6"
+  },{
+    "english":"Armour",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute6"
+  },{
+    "english":"+(36-60) to Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute7"
+  },{
+    "english":"Evasion Rating",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute7"
+  },{
+    "english":"+(9-12) to maximum Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute8"
+  },{
+    "english":"Energy Shield",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute8"
+  },{
+    "english":"(2-3)% of Damage taken Recouped as Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute9"
+  },{
+    "english":"Mana Recoup",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_hypnotic_small_attribute9"
+  },{
+    "english":"20% less maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_keystone"
+  },{
+    "english":"Increases and reductions to Maximum Life also apply to Maximum Rage at 20% Value",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_keystone"
+  },{
+    "english":"Overwhelming Hate",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_keystone"
+  },{
+    "english":"+(21-30) to maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_1"
+  },{
+    "english":"Notable 1",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_1"
+  },{
+    "english":"(21-30)% chance to Avoid being Stunned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_10"
+  },{
+    "english":"Notable 10",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_10"
+  },{
+    "english":"+(61-100) to Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_11"
+  },{
+    "english":"Notable 11",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_11"
+  },{
+    "english":"(3-5)% increased Impale Effect",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_12"
+  },{
+    "english":"Notable 12",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_12"
+  },{
+    "english":"(15-20)% increased Damage if you've Killed Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_13"
+  },{
+    "english":"Notable 13",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_13"
+  },{
+    "english":"Notable 14",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_14"
+  },{
+    "english":"Regenerate (0.5-1)% of Life per second while moving",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_14"
+  },{
+    "english":"+(3-4)% Chance to Block Attack Damage if you were Damaged by a Hit Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_15"
+  },{
+    "english":"Notable 15",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_15"
+  },{
+    "english":"Enemies Maimed by you take (4-5)% increased Damage Over Time",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_16"
+  },{
+    "english":"Notable 16",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_16"
+  },{
+    "english":"Enemies Intimidated by you have 10% increased duration of stuns against them",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_17"
+  },{
+    "english":"Notable 17",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_17"
+  },{
+    "english":"(5-6) to (7-8) Added Physical Damage with Dagger Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_18"
+  },{
+    "english":"Notable 18",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_18"
+  },{
+    "english":"(5-6) to (7-8) Added Physical Damage with Claw Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_19"
+  },{
+    "english":"Notable 19",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_19"
+  },{
+    "english":"+(12-16) to Strength",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_2"
+  },{
+    "english":"Notable 2",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_2"
+  },{
+    "english":"(5-6) to (7-8) Added Physical Damage with Sword Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_20"
+  },{
+    "english":"Notable 20",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_20"
+  },{
+    "english":"(5-6) to (7-8) Added Physical Damage with Axe Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_21"
+  },{
+    "english":"Notable 21",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_21"
+  },{
+    "english":"(5-6) to (7-8) Added Physical Damage with Mace or Sceptre Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_22"
+  },{
+    "english":"Notable 22",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_22"
+  },{
+    "english":"(5-6) to (7-8) Added Physical Damage with Staff Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_23"
+  },{
+    "english":"Notable 23",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_23"
+  },{
+    "english":"(1-4) to (33-35) Added Lightning Damage with Dagger Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_24"
+  },{
+    "english":"Notable 24",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_24"
+  },{
+    "english":"(1-4) to (33-35) Added Lightning Damage with Claw Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_25"
+  },{
+    "english":"Notable 25",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_25"
+  },{
+    "english":"(1-4) to (33-35) Added Lightning Damage with Sword Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_26"
+  },{
+    "english":"Notable 26",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_26"
+  },{
+    "english":"(1-4) to (33-35) Added Lightning Damage with Axe Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_27"
+  },{
+    "english":"Notable 27",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_27"
+  },{
+    "english":"(1-4) to (33-35) Added Lightning Damage with Mace or Sceptre Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_28"
+  },{
+    "english":"Notable 28",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_28"
+  },{
+    "english":"(1-4) to (33-35) Added Lightning Damage with Staff Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_29"
+  },{
+    "english":"Notable 29",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_29"
+  },{
+    "english":"+(6-8) to all Attributes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_3"
+  },{
+    "english":"Notable 3",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_3"
+  },{
+    "english":"(12-13) to (20-22) Added Fire Damage with Dagger Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_30"
+  },{
+    "english":"Notable 30",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_30"
+  },{
+    "english":"(12-13) to (20-22) Added Fire Damage with Claw Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_31"
+  },{
+    "english":"Notable 31",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_31"
+  },{
+    "english":"(12-13) to (20-22) Added Fire Damage with Sword Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_32"
+  },{
+    "english":"Notable 32",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_32"
+  },{
+    "english":"(12-13) to (20-22) Added Fire Damage with Axe Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_33"
+  },{
+    "english":"Notable 33",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_33"
+  },{
+    "english":"(12-13) to (20-22) Added Fire Damage with Mace or Sceptre Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_34"
+  },{
+    "english":"Notable 34",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_34"
+  },{
+    "english":"(12-13) to (20-22) Added Fire Damage with Staff Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_35"
+  },{
+    "english":"Notable 35",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_35"
+  },{
+    "english":"(10-11) to (17-20) Added Cold Damage with Dagger Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_36"
+  },{
+    "english":"Notable 36",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_36"
+  },{
+    "english":"(10-11) to (17-20) Added Cold Damage with Claw Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_37"
+  },{
+    "english":"Notable 37",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_37"
+  },{
+    "english":"(10-11) to (17-20) Added Cold Damage with Sword Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_38"
+  },{
+    "english":"Notable 38",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_38"
+  },{
+    "english":"(10-11) to (17-20) Added Cold Damage with Axe Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_39"
+  },{
+    "english":"Notable 39",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_39"
+  },{
+    "english":"+(12-15)% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_4"
+  },{
+    "english":"Notable 4",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_4"
+  },{
+    "english":"(10-11) to (17-20) Added Cold Damage with Mace or Sceptre Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_40"
+  },{
+    "english":"Notable 40",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_40"
+  },{
+    "english":"(10-11) to (17-20) Added Cold Damage with Staff Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_41"
+  },{
+    "english":"Notable 41",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_41"
+  },{
+    "english":"(10-11) to (17-20) Added Chaos Damage with Dagger Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_42"
+  },{
+    "english":"Notable 42",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_42"
+  },{
+    "english":"(10-11) to (17-20) Added Chaos Damage with Claw Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_43"
+  },{
+    "english":"Notable 43",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_43"
+  },{
+    "english":"3% increased Cooldown Recovery Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_44"
+  },{
+    "english":"Notable 44",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_44"
+  },{
+    "english":"Adds (6-7) to (13-16) Fire Damage to Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_45"
+  },{
+    "english":"Notable 45",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_45"
+  },{
+    "english":"Adds (6-7) to (11-13) Cold Damage to Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_46"
+  },{
+    "english":"Notable 46",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_46"
+  },{
+    "english":"Adds (1-2) to (25-27) Lightning Damage to Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_47"
+  },{
+    "english":"Notable 47",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_47"
+  },{
+    "english":"Adds (2-3) to (4-5) Physical Damage to Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_48"
+  },{
+    "english":"Notable 48",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_48"
+  },{
+    "english":"Adds (8-9) to (14-17) Chaos Damage to Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_49"
+  },{
+    "english":"Notable 49",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_49"
+  },{
+    "english":"+(6-8)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_5"
+  },{
+    "english":"Notable 5",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_5"
+  },{
+    "english":"(8-10)% increased Damage over Time while Dual Wielding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_50"
+  },{
+    "english":"Notable 50",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_50"
+  },{
+    "english":"(8-10)% increased Damage over Time while wielding a Two Handed Weapon",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_51"
+  },{
+    "english":"Notable 51",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_51"
+  },{
+    "english":"(8-10)% increased Damage over Time while holding a Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_52"
+  },{
+    "english":"Notable 52",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_52"
+  },{
+    "english":"(3-5)% increased Attack Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_6"
+  },{
+    "english":"Notable 6",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_6"
+  },{
+    "english":"Notable 7",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_7"
+  },{
+    "english":"Regenerate (9-16) Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_7"
+  },{
+    "english":"(3-8)% chance to Taunt Enemies on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_8"
+  },{
+    "english":"Notable 8",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_8"
+  },{
+    "english":"(31-40)% chance to Avoid being Ignited",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_9"
+  },{
+    "english":"Notable 9",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_notable_9"
+  },{
+    "english":"+(9-12) to maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute1"
+  },{
+    "english":"Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute1"
+  },{
+    "english":"(2-3)% of Damage taken Recouped as Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute10"
+  },{
+    "english":"Mana Recoup",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute10"
+  },{
+    "english":"(10-20)% increased Effect of Cold Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute11"
+  },{
+    "english":"Cold Ailment Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute11"
+  },{
+    "english":"(10-20)% increased Effect of Lightning Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute12"
+  },{
+    "english":"Lightning Ailment Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute12"
+  },{
+    "english":"+(8-10) to Strength",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute13"
+  },{
+    "english":"Strength",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute13"
+  },{
+    "english":"+(8-10) to Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute14"
+  },{
+    "english":"Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute14"
+  },{
+    "english":"+(8-10) to Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute15"
+  },{
+    "english":"Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute15"
+  },{
+    "english":"+(6-8) to Strength and Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute16"
+  },{
+    "english":"Strength and Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute16"
+  },{
+    "english":"+(6-8) to Strength and Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute17"
+  },{
+    "english":"Strength and Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute17"
+  },{
+    "english":"+(6-8) to Dexterity and Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute18"
+  },{
+    "english":"Dexterity and Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute18"
+  },{
+    "english":"+(4-6) to all Attributes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute19"
+  },{
+    "english":"Attributes",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute19"
+  },{
+    "english":"+(8-11) to maximum Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute2"
+  },{
+    "english":"Mana ",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute2"
+  },{
+    "english":"+(6-8)% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute20"
+  },{
+    "english":"Fire Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute20"
+  },{
+    "english":"+(6-8)% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute21"
+  },{
+    "english":"Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute21"
+  },{
+    "english":"+(6-8)% to Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute22"
+  },{
+    "english":"Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute22"
+  },{
+    "english":"+(4-6)% to Fire and Cold Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute23"
+  },{
+    "english":"Fire and Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute23"
+  },{
+    "english":"+(4-6)% to Fire and Lightning Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute24"
+  },{
+    "english":"Fire and Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute24"
+  },{
+    "english":"+(4-6)% to Cold and Lightning Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute25"
+  },{
+    "english":"Cold and Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute25"
+  },{
+    "english":"+(3-5)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute26"
+  },{
+    "english":"Elemental Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute26"
+  },{
+    "english":"+(4-6)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute27"
+  },{
+    "english":"Chaos Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute27"
+  },{
+    "english":"(2-3)% increased Attack Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute28"
+  },{
+    "english":"Attack Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute28"
+  },{
+    "english":"(6-8)% increased Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute29"
+  },{
+    "english":"Critical Strike Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute29"
+  },{
+    "english":"Energy Shield Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute3"
+  },{
+    "english":"Regenerate (9-12) Energy Shield per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute3"
+  },{
+    "english":"+(7-9)% to Critical Strike Multiplier",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute30"
+  },{
+    "english":"Critical Strike Multiplier",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute30"
+  },{
+    "english":"(2-3)% chance to Blind Enemies on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute31"
+  },{
+    "english":"Blind Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute31"
+  },{
+    "english":"(2-3)% chance to Taunt Enemies on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute32"
+  },{
+    "english":"Taunt Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute32"
+  },{
+    "english":"(15-20)% chance to Avoid being Ignited",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute33"
+  },{
+    "english":"Ignite Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute33"
+  },{
+    "english":"(15-20)% chance to Avoid being Frozen",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute34"
+  },{
+    "english":"Freeze Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute34"
+  },{
+    "english":"(15-20)% chance to Avoid being Shocked",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute35"
+  },{
+    "english":"Shock Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute35"
+  },{
+    "english":"(15-20)% chance to Avoid being Poisoned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute36"
+  },{
+    "english":"Poison Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute36"
+  },{
+    "english":"(15-20)% chance to Avoid Bleeding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute37"
+  },{
+    "english":"Bleed Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute37"
+  },{
+    "english":"(15-20)% chance to Avoid being Stunned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute38"
+  },{
+    "english":"Stun Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute38"
+  },{
+    "english":"+(31-60) to Accuracy Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute39"
+  },{
+    "english":"Accuracy",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute39"
+  },{
+    "english":"Life Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute4"
+  },{
+    "english":"Regenerate (4.5-6) Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute4"
+  },{
+    "english":"Mana Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute5"
+  },{
+    "english":"Regenerate (0.6-1) Mana per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute5"
+  },{
+    "english":"+(36-60) to Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute6"
+  },{
+    "english":"Armour",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute6"
+  },{
+    "english":"+(36-60) to Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute7"
+  },{
+    "english":"Evasion Rating",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute7"
+  },{
+    "english":"+(9-12) to maximum Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute8"
+  },{
+    "english":"Energy Shield",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute8"
+  },{
+    "english":"(2-4)% increased Impale Effect",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute9"
+  },{
+    "english":"Impale Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_murderous_small_attribute9"
+  },{
+    "english":"Take 15% more damage from Non-Critical Strikes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_keystone"
+  },{
+    "english":"Take 30% less damage from Critical Strikes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_keystone"
+  },{
+    "english":"Weighted Exchange",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_keystone"
+  },{
+    "english":"+(21-30) to maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_1"
+  },{
+    "english":"Notable 1",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_1"
+  },{
+    "english":"(10-18)% increased Damage over Time while Dual Wielding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_10"
+  },{
+    "english":"Notable 10",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_10"
+  },{
+    "english":"(10-18)% increased Damage over Time while wielding a Two Handed Weapon",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_11"
+  },{
+    "english":"Notable 11",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_11"
+  },{
+    "english":"(10-18)% increased Damage over Time while holding a Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_12"
+  },{
+    "english":"Notable 12",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_12"
+  },{
+    "english":"(3-6)% chance to Blind Enemies on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_13"
+  },{
+    "english":"Notable 13",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_13"
+  },{
+    "english":"(31-40)% chance to Avoid being Frozen",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_14"
+  },{
+    "english":"Notable 14",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_14"
+  },{
+    "english":"(31-40)% chance to Avoid Bleeding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_15"
+  },{
+    "english":"Notable 15",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_15"
+  },{
+    "english":"+(31-120) to Accuracy Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_16"
+  },{
+    "english":"Notable 16",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_16"
+  },{
+    "english":"+(36-100) to Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_17"
+  },{
+    "english":"Notable 17",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_17"
+  },{
+    "english":"2% increased Cooldown Recovery Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_18"
+  },{
+    "english":"Notable 18",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_18"
+  },{
+    "english":"2% additional Physical Damage Reduction if you weren't Damaged by a Hit Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_19"
+  },{
+    "english":"Notable 19",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_19"
+  },{
+    "english":"10% increased Effect of Cold Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_2"
+  },{
+    "english":"Notable 2",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_2"
+  },{
+    "english":"3% increased Movement Speed if you haven't taken Damage Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_20"
+  },{
+    "english":"Notable 20",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_20"
+  },{
+    "english":"+(8-10)% to Critical Strike Multiplier if you've Killed Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_21"
+  },{
+    "english":"Notable 21",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_21"
+  },{
+    "english":"(20-30)% increased Evasion Rating while moving",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_22"
+  },{
+    "english":"Notable 22",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_22"
+  },{
+    "english":"(4-6)% increased Attack Speed if you've dealt a Critical Strike Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_23"
+  },{
+    "english":"Notable 23",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_23"
+  },{
+    "english":"(20-30)% increased Critical Strike Chance if you haven't dealt a Critical Strike Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_24"
+  },{
+    "english":"Notable 24",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_24"
+  },{
+    "english":"5% chance to gain Phasing for 4 seconds on Kill",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_25"
+  },{
+    "english":"Notable 25",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_25"
+  },{
+    "english":"Enemies Blinded by you have (15-20)% reduced Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_26"
+  },{
+    "english":"Notable 26",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_26"
+  },{
+    "english":"Adds (6-7) to (13-16) Fire Damage to Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_27"
+  },{
+    "english":"Notable 27",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_27"
+  },{
+    "english":"Adds (6-7) to (11-13) Cold Damage to Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_28"
+  },{
+    "english":"Notable 28",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_28"
+  },{
+    "english":"Adds (1-2) to (25-27) Lightning Damage to Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_29"
+  },{
+    "english":"Notable 29",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_29"
+  },{
+    "english":"+(12-16) to Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_3"
+  },{
+    "english":"Notable 3",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_3"
+  },{
+    "english":"Adds (2-3) to (4-5) Physical Damage to Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_30"
+  },{
+    "english":"Notable 30",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_30"
+  },{
+    "english":"Adds (8-9) to (14-17) Chaos Damage to Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_31"
+  },{
+    "english":"Notable 31",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_31"
+  },{
+    "english":"4 to (5-6) Added Physical Damage with Wand Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_32"
+  },{
+    "english":"Notable 32",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_32"
+  },{
+    "english":"4 to (5-6) Added Physical Damage with Bow Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_33"
+  },{
+    "english":"Notable 33",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_33"
+  },{
+    "english":"(1-3) to (28-30) Added Lightning Damage with Wand Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_34"
+  },{
+    "english":"Notable 34",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_34"
+  },{
+    "english":"(1-3) to (28-30) Added Lightning Damage with Bow Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_35"
+  },{
+    "english":"Notable 35",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_35"
+  },{
+    "english":"(9-11) to (16-19) Added Fire Damage with Wand Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_36"
+  },{
+    "english":"Notable 36",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_36"
+  },{
+    "english":"(9-11) to (16-19) Added Fire Damage with Bow Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_37"
+  },{
+    "english":"Notable 37",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_37"
+  },{
+    "english":"(8-9) to (14-16) Added Cold Damage with Wand Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_38"
+  },{
+    "english":"Notable 38",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_38"
+  },{
+    "english":"(8-9) to (14-16) Added Cold Damage with Bow Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_39"
+  },{
+    "english":"Notable 39",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_39"
+  },{
+    "english":"+(6-8) to all Attributes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_4"
+  },{
+    "english":"Notable 4",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_4"
+  },{
+    "english":"(8-9) to (14-16) Added Chaos Damage with Bow Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_40"
+  },{
+    "english":"Notable 40",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_40"
+  },{
+    "english":"3% increased Cooldown Recovery Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_41"
+  },{
+    "english":"Notable 41",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_41"
+  },{
+    "english":"(8-10)% increased Damage over Time while Dual Wielding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_42"
+  },{
+    "english":"Notable 42",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_42"
+  },{
+    "english":"(8-10)% increased Damage over Time while wielding a Two Handed Weapon",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_43"
+  },{
+    "english":"Notable 43",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_43"
+  },{
+    "english":"(8-10)% increased Damage over Time while holding a Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_44"
+  },{
+    "english":"Notable 44",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_44"
+  },{
+    "english":"+(12-15)% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_5"
+  },{
+    "english":"Notable 5",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_5"
+  },{
+    "english":"+(6-8)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_6"
+  },{
+    "english":"Notable 6",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_6"
+  },{
+    "english":"(3-5)% increased Attack Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_7"
+  },{
+    "english":"Notable 7",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_7"
+  },{
+    "english":"(8-12)% increased Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_8"
+  },{
+    "english":"Notable 8",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_8"
+  },{
+    "english":"+(4-8)% to Critical Strike Multiplier",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_9"
+  },{
+    "english":"Notable 9",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_notable_9"
+  },{
+    "english":"+(9-12) to maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute1"
+  },{
+    "english":"Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute1"
+  },{
+    "english":"(2-3)% of Damage taken Recouped as Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute10"
+  },{
+    "english":"Mana Recoup",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute10"
+  },{
+    "english":"(10-20)% increased Effect of Cold Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute11"
+  },{
+    "english":"Cold Ailment Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute11"
+  },{
+    "english":"(10-20)% increased Effect of Lightning Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute12"
+  },{
+    "english":"Lightning Ailment Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute12"
+  },{
+    "english":"+(8-10) to Strength",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute13"
+  },{
+    "english":"Strength",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute13"
+  },{
+    "english":"+(8-10) to Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute14"
+  },{
+    "english":"Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute14"
+  },{
+    "english":"+(8-10) to Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute15"
+  },{
+    "english":"Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute15"
+  },{
+    "english":"+(6-8) to Strength and Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute16"
+  },{
+    "english":"Strength and Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute16"
+  },{
+    "english":"+(6-8) to Strength and Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute17"
+  },{
+    "english":"Strength and Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute17"
+  },{
+    "english":"+(6-8) to Dexterity and Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute18"
+  },{
+    "english":"Dexterity and Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute18"
+  },{
+    "english":"+(4-6) to all Attributes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute19"
+  },{
+    "english":"Attributes",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute19"
+  },{
+    "english":"+(8-11) to maximum Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute2"
+  },{
+    "english":"Mana ",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute2"
+  },{
+    "english":"+(6-8)% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute20"
+  },{
+    "english":"Fire Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute20"
+  },{
+    "english":"+(6-8)% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute21"
+  },{
+    "english":"Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute21"
+  },{
+    "english":"+(6-8)% to Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute22"
+  },{
+    "english":"Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute22"
+  },{
+    "english":"+(4-6)% to Fire and Cold Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute23"
+  },{
+    "english":"Fire and Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute23"
+  },{
+    "english":"+(4-6)% to Fire and Lightning Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute24"
+  },{
+    "english":"Fire and Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute24"
+  },{
+    "english":"+(4-6)% to Cold and Lightning Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute25"
+  },{
+    "english":"Cold and Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute25"
+  },{
+    "english":"+(3-5)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute26"
+  },{
+    "english":"Elemental Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute26"
+  },{
+    "english":"+(4-6)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute27"
+  },{
+    "english":"Chaos Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute27"
+  },{
+    "english":"(2-3)% increased Attack Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute28"
+  },{
+    "english":"Attack Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute28"
+  },{
+    "english":"(6-8)% increased Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute29"
+  },{
+    "english":"Critical Strike Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute29"
+  },{
+    "english":"Energy Shield Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute3"
+  },{
+    "english":"Regenerate (9-12) Energy Shield per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute3"
+  },{
+    "english":"+(7-9)% to Critical Strike Multiplier",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute30"
+  },{
+    "english":"Critical Strike Multiplier",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute30"
+  },{
+    "english":"(2-3)% chance to Blind Enemies on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute31"
+  },{
+    "english":"Blind Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute31"
+  },{
+    "english":"(15-20)% chance to Avoid being Ignited",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute32"
+  },{
+    "english":"Ignite Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute32"
+  },{
+    "english":"(15-20)% chance to Avoid being Frozen",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute33"
+  },{
+    "english":"Freeze Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute33"
+  },{
+    "english":"(15-20)% chance to Avoid being Shocked",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute34"
+  },{
+    "english":"Shock Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute34"
+  },{
+    "english":"(15-20)% chance to Avoid being Poisoned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute35"
+  },{
+    "english":"Poison Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute35"
+  },{
+    "english":"(15-20)% chance to Avoid Bleeding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute36"
+  },{
+    "english":"Bleed Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute36"
+  },{
+    "english":"(15-20)% chance to Avoid being Stunned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute37"
+  },{
+    "english":"Stun Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute37"
+  },{
+    "english":"+(31-60) to Accuracy Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute38"
+  },{
+    "english":"Accuracy",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute38"
+  },{
+    "english":"Life Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute4"
+  },{
+    "english":"Regenerate (4.5-6) Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute4"
+  },{
+    "english":"Mana Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute5"
+  },{
+    "english":"Regenerate (0.6-1) Mana per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute5"
+  },{
+    "english":"+(36-60) to Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute6"
+  },{
+    "english":"Armour",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute6"
+  },{
+    "english":"+(36-60) to Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute7"
+  },{
+    "english":"Evasion Rating",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute7"
+  },{
+    "english":"+(9-12) to maximum Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute8"
+  },{
+    "english":"Energy Shield",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute8"
+  },{
+    "english":"(2-4)% increased Impale Effect",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute9"
+  },{
+    "english":"Impale Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_searching_small_attribute9"
+  },{
+    "english":"Attack Skills cost Life instead of Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_ascendancy_notable_1"
+  },{
+    "english":"Attacks gain 1% more damage for each 2% of your Maximum Life they cost if Life Cost is not higher than the maximum you could spend",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_ascendancy_notable_1"
+  },{
+    "english":"Sanguine Bargain",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_ascendancy_notable_1"
+  },{
+    "english":"40% more Projectile Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_ascendancy_notable_2"
+  },{
+    "english":"Ephemeral Bolts",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_ascendancy_notable_2"
+  },{
+    "english":"Projectiles have 5 metres maximum Direct Flight",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_ascendancy_notable_2"
+  },{
+    "english":"Cannot recover Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_ascendancy_notable_3"
+  },{
+    "english":"From Below",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_ascendancy_notable_3"
+  },{
+    "english":"Insufficient Mana doesn't prevent your Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_ascendancy_notable_3"
+  },{
+    "english":"Minions Impale on Hit",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_ascendancy_notable_4"
+  },{
+    "english":"Spiteful Allies",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_ascendancy_notable_4"
+  },{
+    "english":"+(31-120) to Accuracy Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_1"
+  },{
+    "english":"Notable 1",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_1"
+  },{
+    "english":"(3-8)% chance to Taunt Enemies on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_10"
+  },{
+    "english":"Notable 10",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_10"
+  },{
+    "english":"(31-40)% chance to Avoid Bleeding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_11"
+  },{
+    "english":"Notable 11",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_11"
+  },{
+    "english":"(31-40)% chance to Avoid being Frozen",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_12"
+  },{
+    "english":"Notable 12",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_12"
+  },{
+    "english":"(31-40)% chance to Avoid being Ignited",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_13"
+  },{
+    "english":"Notable 13",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_13"
+  },{
+    "english":"(31-40)% chance to Avoid being Poisoned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_14"
+  },{
+    "english":"Notable 14",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_14"
+  },{
+    "english":"(31-40)% chance to Avoid being Shocked",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_15"
+  },{
+    "english":"Notable 15",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_15"
+  },{
+    "english":"(21-30)% chance to Avoid being Stunned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_16"
+  },{
+    "english":"Notable 16",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_16"
+  },{
+    "english":"(2-4)% increased Cast Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_17"
+  },{
+    "english":"Notable 17",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_17"
+  },{
+    "english":"+(5-7)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_18"
+  },{
+    "english":"Notable 18",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_18"
+  },{
+    "english":"+(12-15)% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_19"
+  },{
+    "english":"Notable 19",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_19"
+  },{
+    "english":"+(6-8) to all Attributes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_2"
+  },{
+    "english":"Notable 2",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_2"
+  },{
+    "english":"3% increased Cooldown Recovery Rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_20"
+  },{
+    "english":"Notable 20",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_20"
+  },{
+    "english":"+(4-8)% to Critical Strike Multiplier",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_21"
+  },{
+    "english":"Notable 21",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_21"
+  },{
+    "english":"+(36-100) to Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_22"
+  },{
+    "english":"Notable 22",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_22"
+  },{
+    "english":"+(12-15)% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_23"
+  },{
+    "english":"Notable 23",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_23"
+  },{
+    "english":"Notable 24",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_24"
+  },{
+    "english":"Regenerate (9-16) Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_24"
+  },{
+    "english":"+(12-15)% to Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_25"
+  },{
+    "english":"Notable 25",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_25"
+  },{
+    "english":"Notable 26",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_26"
+  },{
+    "english":"Regenerate (1.1-3) Mana per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_26"
+  },{
+    "english":"+(21-30) to maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_27"
+  },{
+    "english":"Notable 27",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_27"
+  },{
+    "english":"+(21-30) to maximum Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_28"
+  },{
+    "english":"Notable 28",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_28"
+  },{
+    "english":"+(61-100) to Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_29"
+  },{
+    "english":"Notable 29",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_29"
+  },{
+    "english":"+(12-16) to Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_3"
+  },{
+    "english":"Notable 3",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_3"
+  },{
+    "english":"+(6-8)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_30"
+  },{
+    "english":"Notable 30",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_30"
+  },{
+    "english":"+(3-4)% Chance to Block Attack Damage if you were Damaged by a Hit Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_31"
+  },{
+    "english":"Notable 31",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_31"
+  },{
+    "english":"(5-7)% increased Cast Speed if you've dealt a Critical Strike Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_32"
+  },{
+    "english":"Notable 32",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_32"
+  },{
+    "english":"(6-8)% increased Cast Speed if a Minion has been Killed Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_33"
+  },{
+    "english":"Notable 33",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_33"
+  },{
+    "english":"+(3-4)% Chance to Block Spell Damage if you were Damaged by a Hit Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_34"
+  },{
+    "english":"Notable 34",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_34"
+  },{
+    "english":"10% increased Effect of Cold Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_35"
+  },{
+    "english":"Notable 35",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_35"
+  },{
+    "english":"(8-12)% increased Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_36"
+  },{
+    "english":"Notable 36",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_36"
+  },{
+    "english":"(20-30)% increased Critical Strike Chance if you haven't dealt a Critical Strike Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_37"
+  },{
+    "english":"Notable 37",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_37"
+  },{
+    "english":"+(8-10)% to Critical Strike Multiplier if you've Killed Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_38"
+  },{
+    "english":"Notable 38",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_38"
+  },{
+    "english":"2% increased Effect of your Curses",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_39"
+  },{
+    "english":"Notable 39",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_39"
+  },{
+    "english":"+(12-16) to Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_4"
+  },{
+    "english":"Notable 4",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_4"
+  },{
+    "english":"(10-15)% reduced Effect of Curses on you while on Consecrated Ground",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_40"
+  },{
+    "english":"Notable 40",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_40"
+  },{
+    "english":"(15-20)% increased Damage if you've Killed Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_41"
+  },{
+    "english":"Notable 41",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_41"
+  },{
+    "english":"(10-18)% increased Damage over Time while Dual Wielding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_42"
+  },{
+    "english":"Notable 42",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_42"
+  },{
+    "english":"(10-18)% increased Damage over Time while holding a Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_43"
+  },{
+    "english":"Notable 43",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_43"
+  },{
+    "english":"(10-18)% increased Damage over Time while wielding a Two Handed Weapon",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_44"
+  },{
+    "english":"Notable 44",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_44"
+  },{
+    "english":"Damage Penetrates 2% Elemental Resistances if you haven't Killed Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_45"
+  },{
+    "english":"Notable 45",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_45"
+  },{
+    "english":"2% of Damage taken Recouped as Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_46"
+  },{
+    "english":"Notable 46",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_46"
+  },{
+    "english":"Enemies Blinded by you have (15-20)% reduced Critical Strike Chance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_47"
+  },{
+    "english":"Notable 47",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_47"
+  },{
+    "english":"Enemies Hindered by you have (15-20)% reduced Life Regeneration rate",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_48"
+  },{
+    "english":"Notable 48",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_48"
+  },{
+    "english":"Enemies Intimidated by you have 10% increased duration of stuns against them",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_49"
+  },{
+    "english":"Notable 49",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_49"
+  },{
+    "english":"2% additional Physical Damage Reduction if you weren't Damaged by a Hit Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_5"
+  },{
+    "english":"Notable 5",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_5"
+  },{
+    "english":"Enemies Maimed by you take (4-5)% increased Damage Over Time",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_50"
+  },{
+    "english":"Notable 50",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_50"
+  },{
+    "english":"Enemies Withered by you have -2% to all Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_51"
+  },{
+    "english":"Notable 51",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_51"
+  },{
+    "english":"Notable 52",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_52"
+  },{
+    "english":"Regenerate (9-16) Energy Shield per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_52"
+  },{
+    "english":"(20-30)% increased Evasion Rating while moving",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_53"
+  },{
+    "english":"Notable 53",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_53"
+  },{
+    "english":"(3-5)% increased Impale Effect",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_54"
+  },{
+    "english":"Notable 54",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_54"
+  },{
+    "english":"Notable 55",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_55"
+  },{
+    "english":"Regenerate (0.5-1)% of Life per second while moving",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_55"
+  },{
+    "english":"(10-15)% increased Effect of Lightning Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_56"
+  },{
+    "english":"Notable 56",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_56"
+  },{
+    "english":"(20-25)% increased Mana Regeneration Rate while moving",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_57"
+  },{
+    "english":"Notable 57",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_57"
+  },{
+    "english":"Minions have (6-8)% increased Attack and Cast Speed if you or your Minions have Killed Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_58"
+  },{
+    "english":"Notable 58",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_58"
+  },{
+    "english":"Minions have (3-5)% chance to Blind on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_59"
+  },{
+    "english":"Notable 59",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_59"
+  },{
+    "english":"+(12-16) to Strength",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_6"
+  },{
+    "english":"Notable 6",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_6"
+  },{
+    "english":"Minions have (3-5)% chance to Taunt on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_60"
+  },{
+    "english":"Notable 60",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_60"
+  },{
+    "english":"Minions have 10% chance to cause Bleeding with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_61"
+  },{
+    "english":"Notable 61",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_61"
+  },{
+    "english":"Minions have 10% chance to Ignite",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_62"
+  },{
+    "english":"Notable 62",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_62"
+  },{
+    "english":"Minions have +(7-11)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_63"
+  },{
+    "english":"Notable 63",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_63"
+  },{
+    "english":"Minions deal (10-15)% increased Damage if you've used a Minion Skill Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_64"
+  },{
+    "english":"Notable 64",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_64"
+  },{
+    "english":"Minions have +(6-10)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_65"
+  },{
+    "english":"Notable 65",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_65"
+  },{
+    "english":"Minions Leech (0.3-0.5)% of Damage as Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_66"
+  },{
+    "english":"Notable 66",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_66"
+  },{
+    "english":"Minions Regenerate (0.4-0.8)% of Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_67"
+  },{
+    "english":"Notable 67",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_67"
+  },{
+    "english":"Minions Regenerate (22-40) Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_68"
+  },{
+    "english":"Notable 68",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_68"
+  },{
+    "english":"Minions have (6-10)% increased maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_69"
+  },{
+    "english":"Notable 69",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_69"
+  },{
+    "english":"(3-5)% increased Attack Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_7"
+  },{
+    "english":"Notable 7",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_7"
+  },{
+    "english":"Minions have (6-10)% increased Movement Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_70"
+  },{
+    "english":"Notable 70",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_70"
+  },{
+    "english":"Minions have (3-5)% chance to Hinder Enemies on Hit with Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_71"
+  },{
+    "english":"Notable 71",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_71"
+  },{
+    "english":"Minions have 10% chance to Poison Enemies on Hit",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_72"
+  },{
+    "english":"Notable 72",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_72"
+  },{
+    "english":"3% increased Movement Speed if you haven't taken Damage Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_73"
+  },{
+    "english":"Notable 73",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_73"
+  },{
+    "english":"5% chance to gain Phasing for 4 seconds on Kill",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_74"
+  },{
+    "english":"Notable 74",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_74"
+  },{
+    "english":"(3-8)% chance to Hinder Enemies on Hit with Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_75"
+  },{
+    "english":"Notable 75",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_75"
+  },{
+    "english":"(4-6)% increased Attack Speed if you've dealt a Critical Strike Recently",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_8"
+  },{
+    "english":"Notable 8",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_8"
+  },{
+    "english":"(3-6)% chance to Blind Enemies on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_9"
+  },{
+    "english":"Notable 9",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_notable_9"
+  },{
+    "english":"+(9-12) to maximum Life",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute1"
+  },{
+    "english":"Life",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute1"
+  },{
+    "english":"+(8-10) to Strength",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute10"
+  },{
+    "english":"Strength",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute10"
+  },{
+    "english":"+(8-10) to Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute11"
+  },{
+    "english":"Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute11"
+  },{
+    "english":"+(8-10) to Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute12"
+  },{
+    "english":"Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute12"
+  },{
+    "english":"+(6-8) to Strength and Dexterity",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute13"
+  },{
+    "english":"Strength and Dexterity",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute13"
+  },{
+    "english":"+(6-8) to Strength and Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute14"
+  },{
+    "english":"Strength and Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute14"
+  },{
+    "english":"+(6-8) to Dexterity and Intelligence",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute15"
+  },{
+    "english":"Dexterity and Intelligence",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute15"
+  },{
+    "english":"+(4-6) to all Attributes",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute16"
+  },{
+    "english":"Attributes",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute16"
+  },{
+    "english":"+(6-8)% to Fire Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute17"
+  },{
+    "english":"Fire Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute17"
+  },{
+    "english":"+(6-8)% to Cold Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute18"
+  },{
+    "english":"Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute18"
+  },{
+    "english":"+(6-8)% to Lightning Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute19"
+  },{
+    "english":"Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute19"
+  },{
+    "english":"+(8-11) to maximum Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute2"
+  },{
+    "english":"Mana ",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute2"
+  },{
+    "english":"+(4-6)% to Fire and Cold Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute20"
+  },{
+    "english":"Fire and Cold Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute20"
+  },{
+    "english":"+(4-6)% to Fire and Lightning Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute21"
+  },{
+    "english":"Fire and Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute21"
+  },{
+    "english":"+(4-6)% to Cold and Lightning Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute22"
+  },{
+    "english":"Cold and Lightning Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute22"
+  },{
+    "english":"+(3-5)% to all Elemental Resistances",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute23"
+  },{
+    "english":"Elemental Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute23"
+  },{
+    "english":"+(4-6)% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute24"
+  },{
+    "english":"Chaos Resistance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute24"
+  },{
+    "english":"(2-3)% increased Cast Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute25"
+  },{
+    "english":"Cast Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute25"
+  },{
+    "english":"Minion Blind Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute26"
+  },{
+    "english":"Minions have (2-3)% chance to Blind on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute26"
+  },{
+    "english":"Minion Taunt Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute27"
+  },{
+    "english":"Minions have (2-3)% chance to Taunt on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute27"
+  },{
+    "english":"Minion Hinder Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute28"
+  },{
+    "english":"Minions have (2-3)% chance to Hinder Enemies on Hit with Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute28"
+  },{
+    "english":"(15-20)% chance to Avoid being Ignited",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute29"
+  },{
+    "english":"Ignite Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute29"
+  },{
+    "english":"Energy Shield Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute3"
+  },{
+    "english":"Regenerate (9-12) Energy Shield per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute3"
+  },{
+    "english":"(15-20)% chance to Avoid being Frozen",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute30"
+  },{
+    "english":"Freeze Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute30"
+  },{
+    "english":"(15-20)% chance to Avoid being Shocked",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute31"
+  },{
+    "english":"Shock Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute31"
+  },{
+    "english":"(15-20)% chance to Avoid being Poisoned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute32"
+  },{
+    "english":"Poison Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute32"
+  },{
+    "english":"(15-20)% chance to Avoid Bleeding",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute33"
+  },{
+    "english":"Bleed Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute33"
+  },{
+    "english":"(15-20)% chance to Avoid being Stunned",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute34"
+  },{
+    "english":"Stun Avoidance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute34"
+  },{
+    "english":"Minion Attack and Cast Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute35"
+  },{
+    "english":"Minions have (2-3)% increased Attack Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute35"
+  },{
+    "english":"Minions have (2-3)% increased Cast Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute35"
+  },{
+    "english":"(2-3)% chance to Hinder Enemies on Hit with Spells",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute36"
+  },{
+    "english":"Hinder Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute36"
+  },{
+    "english":"(10-20)% increased Effect of Cold Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute37"
+  },{
+    "english":"Cold Ailment Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute37"
+  },{
+    "english":"(10-20)% increased Effect of Lightning Ailments",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute38"
+  },{
+    "english":"Lightning Ailment Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute38"
+  },{
+    "english":"(2-3)% chance to Blind Enemies on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute39"
+  },{
+    "english":"Blind Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute39"
+  },{
+    "english":"Life Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute4"
+  },{
+    "english":"Regenerate (4.5-6) Life per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute4"
+  },{
+    "english":"+(31-60) to Accuracy Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute40"
+  },{
+    "english":"Accuracy",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute40"
+  },{
+    "english":"(2-3)% increased Attack Speed",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute41"
+  },{
+    "english":"Attack Speed",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute41"
+  },{
+    "english":"(2-4)% increased Impale Effect",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute42"
+  },{
+    "english":"Impale Effect",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute42"
+  },{
+    "english":"(2-3)% chance to Taunt Enemies on Hit with Attacks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute43"
+  },{
+    "english":"Taunt Chance",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute43"
+  },{
+    "english":"Mana Regeneration",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute5"
+  },{
+    "english":"Regenerate (0.6-1) Mana per second",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute5"
+  },{
+    "english":"+(36-60) to Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute6"
+  },{
+    "english":"Armour",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute6"
+  },{
+    "english":"+(36-60) to Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute7"
+  },{
+    "english":"Evasion Rating",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute7"
+  },{
+    "english":"+(9-12) to maximum Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute8"
+  },{
+    "english":"Energy Shield",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute8"
+  },{
+    "english":"(2-3)% of Damage taken Recouped as Mana",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute9"
+  },{
+    "english":"Mana Recoup",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#abyss_special_small_attribute9"
+  },{
     "english":"30% less Life Recovery from Flasks",
     "kind":"timeless-stat",
     "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_keystone_1"
@@ -95,7 +3979,7 @@
     "kind":"timeless-stat",
     "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_bleed_damage_1"
   },{
-    "english":"Bleeding you inflict deals Damage 10% faster",
+    "english":"Bleeding you inflict deals Damage 10% Faster",
     "kind":"timeless-stat",
     "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_notable_bleed_damage_1"
   },{
@@ -427,6 +4311,326 @@
     "kind":"timeless-name",
     "source":"Data/TimelessJewelData/LegionPassives.lua#eternal_small_blank"
   },{
+    "english":"Black Scythe Training",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_keystone_1"
+  },{
+    "english":"Chance to Evade Hits is based off of 200% of your Ward instead of your Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_keystone_1"
+  },{
+    "english":"Physical Damage Reduction from Hits is based off of 200% of your Ward instead of your Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_keystone_1"
+  },{
+    "english":"Removes all Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_keystone_1"
+  },{
+    "english":"Celestial Mathematics",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_keystone_2"
+  },{
+    "english":"While you have Unbroken Ward, your next non-channelling Attack you Use yourself breaks your Ward to gain Added Cold Damage equal to 15% of Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_keystone_2"
+  },{
+    "english":"40% less Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_keystone_3"
+  },{
+    "english":"The Unbreaking Circle",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_keystone_3"
+  },{
+    "english":"Ward has a 60% chance to not Break",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_keystone_3"
+  },{
+    "english":"10% increased Flask Effect Duration",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_1"
+  },{
+    "english":"20% increased Ward during any Flask Effect",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_1"
+  },{
+    "english":"Warding Flasks",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_1"
+  },{
+    "english":"+4 to Ward per 10 Evasion Rating on Equipped Gloves",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_10"
+  },{
+    "english":"Grip of Kalguur",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_10"
+  },{
+    "english":"+8 to Ward per 10 Energy Shield on Equipped Boots",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_11"
+  },{
+    "english":"Stride of Kalguur",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_11"
+  },{
+    "english":"15% faster Restoration of Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_12"
+  },{
+    "english":"30% increased Damage while you have Unbroken Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_12"
+  },{
+    "english":"Persisting Drive",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_12"
+  },{
+    "english":"15% increased Elemental Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_13"
+  },{
+    "english":"Damage Penetrates 8% Elemental Resistances while your Ward is Broken",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_13"
+  },{
+    "english":"Shattered Piercing ",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_13"
+  },{
+    "english":"12% increased effect of Non-Curse Auras from your skills while your Ward is Broken",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_14"
+  },{
+    "english":"8% increased Area of Effect of Aura Skills",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_14"
+  },{
+    "english":"Vengeful Runes",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_14"
+  },{
+    "english":"10% chance to Restore Ward when you Block",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_15"
+  },{
+    "english":"5% Chance to Block Spell Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_15"
+  },{
+    "english":"Mage's Ward",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_15"
+  },{
+    "english":"10% chance to Restore Ward when you Block",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_16"
+  },{
+    "english":"5% Chance to Block Attack Damage",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_16"
+  },{
+    "english":"Warrior's Ward",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_16"
+  },{
+    "english":"25% increased Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_17"
+  },{
+    "english":"Starborn Birth",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_17"
+  },{
+    "english":"+8% to Chaos Resistance",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_18"
+  },{
+    "english":"12% increased Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_18"
+  },{
+    "english":"Pure Faith",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_18"
+  },{
+    "english":"12% increased Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_19"
+  },{
+    "english":"8% increased maximum Energy Shield",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_19"
+  },{
+    "english":"Magic Faith",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_19"
+  },{
+    "english":"10% chance for Ward to be Restored when you Use a Flask",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_2"
+  },{
+    "english":"10% increased Flask Charges gained",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_2"
+  },{
+    "english":"Starlight Swig",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_2"
+  },{
+    "english":"12% increased Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_20"
+  },{
+    "english":"16% increased Evasion Rating",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_20"
+  },{
+    "english":"Guile Faith",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_20"
+  },{
+    "english":"12% increased Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_21"
+  },{
+    "english":"16% increased Armour",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_21"
+  },{
+    "english":"Resolute Faith",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_21"
+  },{
+    "english":"20% faster Restoration of Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_22"
+  },{
+    "english":"20% faster start of Energy Shield Recharge",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_22"
+  },{
+    "english":"Starsoaked Time",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_22"
+  },{
+    "english":"12% increased Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_23"
+  },{
+    "english":"20% increased Ward from Equipped Armour Items",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_23"
+  },{
+    "english":"Etched Runes",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_23"
+  },{
+    "english":"Cleansing Runes",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_24"
+  },{
+    "english":"Remove a random Damaging Ailment when Ward is Restored",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_24"
+  },{
+    "english":"10% increased Flask Effect Duration",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_25"
+  },{
+    "english":"Iron Flasks applied to you have 20% increased Effect",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_25"
+  },{
+    "english":"Regenerative Runes",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_25"
+  },{
+    "english":"20% increased Endurance Charge Duration",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_3"
+  },{
+    "english":"Enduring Sigil",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_3"
+  },{
+    "english":"Gain 1 Endurance Charge when Ward Breaks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_3"
+  },{
+    "english":"20% increased Power Charge Duration",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_4"
+  },{
+    "english":"Gain 1 Power Charge when Ward Breaks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_4"
+  },{
+    "english":"Powering Sigil",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_4"
+  },{
+    "english":"20% increased Frenzy Charge Duration",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_5"
+  },{
+    "english":"Frenzying Sigil",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_5"
+  },{
+    "english":"Gain 1 Frenzy Charge when Ward Breaks",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_5"
+  },{
+    "english":"15% faster Restoration of Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_6"
+  },{
+    "english":"30% increased Armour while you have Unbroken Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_6"
+  },{
+    "english":"Fortified Ward",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_6"
+  },{
+    "english":"15% faster Restoration of Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_7"
+  },{
+    "english":"30% increased Evasion Rating while you have Unbroken Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_7"
+  },{
+    "english":"Elusive Ward",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_7"
+  },{
+    "english":"+2 to Ward per 10 Armour on Equipped Helmet",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_9"
+  },{
+    "english":"Crown of Kalguur",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguur_notable_9"
+  },{
+    "english":"1% increased Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguuran_attribute_ward"
+  },{
+    "english":"Ward",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguuran_attribute_ward"
+  },{
+    "english":"2% increased Ward",
+    "kind":"timeless-stat",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguuran_small_ward"
+  },{
+    "english":"Ward",
+    "kind":"timeless-name",
+    "source":"Data/TimelessJewelData/LegionPassives.lua#kalguuran_small_ward"
+  },{
     "english":"+2 to Strength",
     "kind":"timeless-stat",
     "source":"Data/TimelessJewelData/LegionPassives.lua#karui_attribute_strength"
@@ -543,7 +4747,7 @@
     "kind":"timeless-name",
     "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_faster_ignite"
   },{
-    "english":"Ignites you inflict deal Damage 10% faster",
+    "english":"Ignites you inflict deal Damage 10% Faster",
     "kind":"timeless-stat",
     "source":"Data/TimelessJewelData/LegionPassives.lua#karui_notable_add_faster_ignite"
   },{
@@ -859,7 +5063,7 @@
     "kind":"timeless-name",
     "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_faster_poison"
   },{
-    "english":"Poisons you inflict deal Damage 10% faster",
+    "english":"Poisons you inflict deal Damage 10% Faster",
     "kind":"timeless-stat",
     "source":"Data/TimelessJewelData/LegionPassives.lua#maraketh_notable_add_faster_poison"
   },{
@@ -1619,7 +5823,7 @@
     "kind":"timeless-stat",
     "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_physical_damage_3"
   },{
-    "english":"Bleeding you inflict deals Damage 10% faster",
+    "english":"Bleeding you inflict deals Damage 10% Faster",
     "kind":"timeless-stat",
     "source":"Data/TimelessJewelData/LegionPassives.lua#vaal_notable_physical_damage_3"
   },{
