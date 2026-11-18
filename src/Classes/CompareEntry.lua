@@ -392,6 +392,7 @@ function CompareEntryClass:RefreshMinionControls(controls, activeSkill, activeEf
 			t_insert(controls.mainSkillMinion.list, {
 				label = self.data.minions[minionId] and self.data.minions[minionId].name or minionId,
 				minionId = minionId,
+				spectreName = self.data.spectres[minionId] ~= nil,
 			})
 		end
 		controls.mainSkillMinion:SelByValue(activeEffect.srcInstance["skillMinion"..suffix] or (controls.mainSkillMinion.list[1] and controls.mainSkillMinion.list[1].minionId), "minionId")

@@ -2,6 +2,7 @@
 local L = { mode = "zh", suspended = 0 }
 L.credit = "简体中文汉化：拽弑"
 local dictionary = LoadModule("Localization/Dictionary")
+local spectreNames = LoadModule("Localization/SpectreNames")
 local passiveContexts = LoadModule("Localization/PassiveContexts")
 local anointNames = LoadModule("Localization/AnointNames")
 local panelLabels = LoadModule("Localization/PanelLabels")
@@ -85,6 +86,13 @@ end
 
 function L:EffectiveMode()
 	return self.mode
+end
+
+function L.SpectreName(text, forSearch)
+	if forSearch or (L.suspended == 0 and L:EffectiveMode() ~= "en") then
+		return spectreNames[text] or text
+	end
+	return text
 end
 
 -- Tree recipes use image IDs (AmberOil), while the dictionary uses item names.
@@ -506,6 +514,9 @@ local function dynamicChinese(body)
 	if variants[variant] then return version .. "（" .. variants[variant] .. "）" end
 	local field, tail = body:match("^(.-):%s*(.+)$")
 	local plainField = field and field:gsub("%^x%x%x%x%x%x%x", ""):gsub("%^%d", "")
+	if field == "Energy Shield" and tail:match("^%d+%% of base Life$") then
+		return formattedChinese(body)
+	end
 	if numericFields[plainField] and dictionary[plainField] and not gemFields[plainField] then
 		local codes = field:match("(%^x%x%x%x%x%x%x)$") or field:match("(%^%d)$") or ""
 		-- Section headers concatenate their live value after the label. Only

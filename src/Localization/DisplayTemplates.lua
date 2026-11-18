@@ -104,6 +104,7 @@ return {
 {pattern="^Base Damage: x([%+%-]?[%d%,%.]+)$",zh="基础伤害：x{0}",kinds={"number"}},
 {pattern="^Evasion Multiplier: x([%+%-]?[%d%,%.]+)$",zh="闪避值倍率：x{0}",kinds={"number"}},
 {pattern="^Life Multiplier: x([%+%-]?[%d%,%.]+)$",zh="生命倍率：x{0}",kinds={"number"}},
+{pattern="^Energy Shield: ([%+%-]?[%d%,%.]+)%% of base Life$",zh="能量护盾：基础生命的 {0}%",kinds={"number"}},
 {pattern="^Distance to start: ([%+%-]?[%d%,%.]+)$",zh="距起点：{0}",kinds={"number"}},
 {pattern="^Implicit #([%+%-]?[%d%,%.]+):$",zh="基底词缀 #{0}：",kinds={"number"}},
 {pattern="^Intangibility: ([%+%-]?[%d%,%.]+)%%$",zh="虚化程度：{0}%",kinds={"number"}},

@@ -1840,7 +1840,7 @@
     "status": "source-code-checked"
   },
   "Available Spectres": {
-    "zh": "可用幽魂",
+    "zh": "可用灵体",
     "kind": "ui-detail",
     "status": "source-code-checked"
   },
@@ -2559,7 +2559,7 @@
     "status": "source-code-checked"
   },
   "Spectres in Build": {
-    "zh": "构筑中的幽魂",
+    "zh": "构筑中的灵体",
     "kind": "ui-detail",
     "status": "source-code-checked"
   },
@@ -4724,7 +4724,7 @@
     "status": "source-code-checked"
   },
   "^7Spectres in your Library must be assigned to an active": {
-    "zh": "^7幽魂库中的幽魂必须分配给启用的",
+    "zh": "^7灵体库中的灵体必须分配给启用的",
     "kind": "ui-detail",
     "status": "source-code-checked"
   },
@@ -295021,7 +295021,7 @@
     "status": "source-code-checked"
   },
   "Spectres in your Library must be assigned to an active": {
-    "zh": "幽魂库中的幽魂必须分配给启用的",
+    "zh": "灵体库中的灵体必须分配给启用的",
     "kind": "ui-detail",
     "status": "source-code-checked"
   },
@@ -295032,6 +295032,11 @@
   },
   "GitHub page: ^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding": {
     "zh": "GitHub 项目页：^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding",
+    "kind": "ui-detail",
+    "status": "source-code-checked"
+  },
+  "<No spectres in build>": {
+    "zh": "<构筑中没有灵体>",
     "kind": "ui-detail",
     "status": "source-code-checked"
   }

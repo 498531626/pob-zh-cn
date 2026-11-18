@@ -1693,6 +1693,7 @@ function buildMode:RefreshSkillSelectControls(controls, mainGroup, suffix)
 							t_insert(controls.mainSkillMinion.list, {
 								label = self.data.minions[minionId].name,
 								minionId = minionId,
+								spectreName = self.data.spectres[minionId] ~= nil,
 							})
 						end
 						controls.mainSkillMinion:SelByValue(activeEffect.srcInstance["skillMinion"..suffix] or controls.mainSkillMinion.list[1], "minionId")

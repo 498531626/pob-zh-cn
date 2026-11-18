@@ -35,14 +35,19 @@ function MinionSearchListClass:MinionSearchListControl(anchor, rect, data, list,
 end
 
 function MinionSearchListClass:DoesEntryMatchFilters(searchStr, minionId, filterMode)
+	local minion = self.data.minions[minionId]
 	if filterMode == 1 or filterMode == 3 then
-		local err, match = PCall(string.matchOrPattern, self.data.minions[minionId].name:lower(), searchStr)
+		local err, match = PCall(string.matchOrPattern, minion.name:lower(), searchStr)
 		if not err and match then
 			return true
 		end
+		if Localization then
+			err, match = PCall(string.matchOrPattern, Localization.SpectreName(minion.name, true):lower(), searchStr)
+			if not err and match then return true end
+		end
 	end
 	if filterMode == 2 or filterMode == 3 then
-		for _, skillId in ipairs(self.data.minions[minionId].skillList) do
+		for _, skillId in ipairs(minion.skillList) do
 			if self.data.skills[skillId] then
 				local err, match = PCall(string.matchOrPattern, self.data.skills[skillId].name:lower(), searchStr)
 				if not err and match then

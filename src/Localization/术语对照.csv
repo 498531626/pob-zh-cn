@@ -18097,6 +18097,7 @@ Has no Red Sockets","外延速度词缀增幅提高 8%
 <No active skills>,<无生效技能>,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 <No matches>,<无匹配项>,ui-detail,source-code-checked,,
 <No skills added yet>,<尚未添加技能>,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
+<No spectres in build>,<构筑中没有灵体>,ui-detail,source-code-checked,,
 A Chilling Wind,一股寒风,game-term,paired-link-target,https://poedb.tw/cn/A_Chilling_Wind,https://poedb.tw/us/A_Chilling_Wind
 "A Primalist of the
 Wildwood answers
@@ -22077,7 +22078,7 @@ Autopulse (Frozen),自动脉冲（冻结）,skill-part,source-code-checked,src/D
 Autopulse (Shocked),自动脉冲（感电）,skill-part,source-code-checked,src/Data/Skills/*.lua; src/Modules/Build.lua,
 Auxium,奥术之符,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Auxium,https://poedb.tw/us/Auxium
 Available Mastery node options are:,可选的专精效果：,ui-detail,source-code-checked,,
-Available Spectres,可用幽魂,ui-detail,source-code-checked,,
+Available Spectres,可用灵体,ui-detail,source-code-checked,,
 Avalanching,雪崩的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Cobalt_Jewel,https://poedb.tw/us/Cobalt_Jewel
 Avarius (Power of Purpose),阿瓦留斯（决心之力）,ui-detail,source-code-checked,,
 Avatar of Fire,火之化身,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
@@ -40633,8 +40634,8 @@ Spectre Ally,友方灵体,pob-panel,source-code-checked,src/Modules/BuildDisplay
 Spectre Library,灵体库,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
 Spectre's,幽魂的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_dex,https://poedb.tw/us/Body_Armours_dex
 Spectres do not travel between Areas,灵体无法在区域之间转移,gem-detail,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Raise_Spectre_of_Transience,https://poedb.tw/us/Raise_Spectre_of_Transience
-Spectres in Build,构筑中的幽魂,ui-detail,source-code-checked,,
-Spectres in your Library must be assigned to an active,幽魂库中的幽魂必须分配给启用的,ui-detail,source-code-checked,,
+Spectres in Build,构筑中的灵体,ui-detail,source-code-checked,,
+Spectres in your Library must be assigned to an active,灵体库中的灵体必须分配给启用的,ui-detail,source-code-checked,,
 Speed Aura,速度光环,game-term,paired-link-target,https://poedb.tw/cn/Speed_Aura,https://poedb.tw/us/Speed_Aura
 Speed Gale,速度飓风,game-term,paired-link-target,https://poedb.tw/cn/Speed_Gale,https://poedb.tw/us/Speed_Gale
 Speed Randomisation,随机速度,game-term,paired-link-target,https://poedb.tw/cn/Speed_Randomisation,https://poedb.tw/us/Speed_Randomisation
@@ -48156,7 +48157,7 @@ Zorath,佐拉斯,ui-detail,source-code-checked,,
 ^7GitHub page: ^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding,^7GitHub 项目页：^x4040FFhttps://github.com/PathOfBuildingCommunity/PathOfBuilding,ui-detail,source-code-checked,,
 ^7Raise Spectre gem for their buffs and curses to activate,^7召唤灵体宝石，其增益效果和诅咒才会生效。,ui-detail,source-code-checked,,
 ^7Reparse all the inputs in case they have been disabled or they have changed since loading the build or importing,^7重新解析所有输入，以应用加载构筑或导入后发生的更改，或恢复被禁用的输入。,ui-detail,source-code-checked,,
-^7Spectres in your Library must be assigned to an active,^7幽魂库中的幽魂必须分配给启用的,ui-detail,source-code-checked,,
+^7Spectres in your Library must be assigned to an active,^7灵体库中的灵体必须分配给启用的,ui-detail,source-code-checked,,
 a Non-Vaal Slam or Strike Skill near an Enemy,在敌人附近使用非瓦尔猛击或打击技能,unique-reviewed,source-clause-reviewed,Data/Uniques; tools/localization/unique-extra-reviewed.tsv,
 action speed modifier,行动速度修正,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,
 active number of Totems,当前图腾数量,calculation-explanation,source-code-checked,src/Modules/CalcOffence.lua; src/Modules/CalcDefence.lua; src/Modules/CalcPerform.lua,

@@ -52,6 +52,7 @@
   "Base Damage: x%.2f": "基础伤害：x%.2f",
   "Evasion Multiplier: x%.2f": "闪避值倍率：x%.2f",
   "Life Multiplier: x%.2f": "生命倍率：x%.2f",
+  "Energy Shield: %d%% of base Life": "能量护盾：基础生命的 %d%%",
   "Distance to start: %d": "距起点：%d",
   "Implicit #%d:": "基底词缀 #%d：",
   "Intangibility: %d%%": "虚化程度：%d%%",

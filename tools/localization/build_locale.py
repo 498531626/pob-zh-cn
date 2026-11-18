@@ -22,6 +22,7 @@ from database_locale import build_database
 from anoint_locale import write_anoint_names
 from glyph_atlas import build_atlas
 from viscera_locale import build_viscera
+from spectre_locale import build_spectres
 from build_crafting_locale import build as build_crafting
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -190,6 +191,7 @@ def build():
                         'source': 'src/Classes/ItemsTab.lua; https://poedb.tw/cn/League'}
         )
     database_entries, database_templates, database_report = build_database()
+    spectre_names, spectre_report = build_spectres(database_entries)
     entries.update(build_viscera())
     for en, meta in database_entries.items():
         entries.setdefault(en, meta)
@@ -221,6 +223,8 @@ def build():
         raise ValueError('Untranslated calculation identifiers; see calc-identifier-coverage.json')
     def lua(s):
         return json.dumps(s, ensure_ascii=False)
+    (OUT / 'SpectreNames.lua').write_text('return {\n' + ''.join(
+        '[' + lua(en) + ']=' + lua(zh) + ',\n' for en, zh in spectre_names.items()) + '}\n', 'utf8')
     (OUT / 'SkillPartNames.lua').write_text('return {\n' + ''.join(
         '[' + lua(en) + ']=' + lua(zh) + ',\n' for en, zh in part_terms.items()) + '}\n', 'utf8')
     (OUT / 'ItemDisplayTerms.lua').write_text('return {\n' + ''.join(
@@ -259,6 +263,7 @@ def build():
     extra += (ROOT / 'src/Modules/Localization.lua').read_text('utf8')
     all_text = ''.join(v['zh'] for v in entries.values()) + ''.join(part_terms.values()) + ''.join(v['zh'] for v in gem_templates + item_templates) + ''.join(v['zh'] for v in formats) + ''.join(display_terms.values()) + ''.join(zh for texts in passive_contexts.values() for zh in texts.values()) + extra
     all_text += ''.join(calc_identifiers.values())
+    all_text += ''.join(spectre_names.values())
     all_text += ''.join(json.loads((HERE / 'calc-identifier-terms.json').read_text('utf8')).values())
     chars = sorted({c for c in all_text if ord(c) > 127})
     font_info = build_atlas(chars, OUT)
@@ -267,6 +272,7 @@ def build():
               'pob_version': '2.68.1', 'passive_reference_version': '3.30', 'passive_reference_retrieved': '2026-11-17', 'name_reference_retrieved': '2026-11-11', 'item_reference_retrieved': '2026-11-12',
               'passives': passive_report, 'gem_details': gem_report, 'item_details': item_report,
               'database_details': {k:v if not isinstance(v,dict)else len(v)for k,v in database_report.items()},
+              'spectre_names': spectre_report,
               'sidebar_labels': len(labels), 'sidebar_labels_translated': len(labels),
               'skill_part_labels': len(part_labels), 'skill_part_labels_translated': len(part_labels),
               'calculation_labels': len(calc_labels), 'calculation_labels_translated': len(calc_labels),
