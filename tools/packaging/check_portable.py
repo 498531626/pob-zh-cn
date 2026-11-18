@@ -42,6 +42,9 @@ def check_extracted(package):
         relative = entry.get('name')
         assert hashlib.sha1((package / relative).read_bytes()).hexdigest() == entry.get('sha1'), relative
     version = manifest.find('Version')
+    assert version.get('number') == info['version']
+    assert version.get('upstream') == info['upstream_version']
+    assert info['release_id'] == 'v' + info['version']
     assert (version.get('updates') == 'enabled') == info['automatic_updates']
     sources = manifest.findall('Source')
     if info['automatic_updates']:
@@ -102,6 +105,7 @@ dofile('Launch.lua')
 assert(loadstring(source))()
 assert(not launch.devMode, 'Release package entered developer mode')
 assert(launch.versionBranch==AUDIT_CHANNEL and launch.versionPlatform=='win32')
+assert(launch.versionNumber==require('xml').LoadXMLFile('manifest.xml')[1][1].attrib.number)
 assert(launch.updatesDisabled==not AUDIT_UPDATES and not launch.updateCheckRunning)
 assert(UPDATE_CHECKS==(AUDIT_UPDATES and 1 or 0), 'Unexpected automatic check count')
 assert(not io.open('first.run','r'), 'Installation marker not consumed')
@@ -114,6 +118,7 @@ if AUDIT_UPDATES then
  launch.updateAvailable='normal';assert(main.controls.applyUpdate.shown());launch.updateAvailable=nil
 end
 assert(not main.controls.versionLabel.label():lower():find('dev',1,true))
+assert(main.controls.versionLabel.label():find(launch.versionNumber,1,true), 'Missing Chinese patch version label')
 assert(not main.controls.devMode.shown(), 'Developer label is visible')
 for _,key in ipairs({'F5','F6','PAUSE'}) do launch:OnKeyDown(key) end
 assert(not launch.doRestart, 'Developer restart shortcut is active')

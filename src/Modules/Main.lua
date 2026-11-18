@@ -1369,7 +1369,8 @@ function main:OpenUpdatePopup()
 		for line in io.lines(changelogName) do
 			local ver, date = line:match("^VERSION%[(.+)%]%[(.+)%]$")
 			if ver then
-				if ver == launch.versionNumber then
+				-- Official changelog entries retain the three-part upstream version.
+				if ver == launch.versionNumber or ver == launch.versionNumber:match("^(%d+%.%d+%.%d+)%.%d+$") then
 					break
 				end
 				if #changeList > 0 then

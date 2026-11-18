@@ -1,11 +1,11 @@
 name: Publish Chinese portable release
-run-name: Publish ${{ inputs.release_id }}
+run-name: Publish ${{ inputs.release_id || 'next Chinese patch' }}
 on:
   workflow_dispatch:
     inputs:
       release_id:
-        description: Unique immutable release ID
-        required: true
+        description: Optional vX.Y.Z.N (blank automatically increments the Chinese patch)
+        required: false
         type: string
 permissions:
   contents: write
@@ -26,4 +26,9 @@ jobs:
           fetch-depth: 0
       - name: Build, verify and publish
         shell: pwsh
-        run: python tools/packaging/publish_github.py --release-id $env:RELEASE_ID
+        run: |
+          if ($env:RELEASE_ID) {
+            python tools/packaging/publish_github.py --release-id $env:RELEASE_ID
+          } else {
+            python tools/packaging/publish_github.py
+          }

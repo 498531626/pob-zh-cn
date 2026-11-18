@@ -6,9 +6,8 @@ from pathlib import Path
 import shutil
 import subprocess
 import zipfile
-import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
-from release_support import github_urls, write_manifest, write_update_site
+from release_support import github_urls, release_version, source_versions, write_manifest, write_update_site
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -22,18 +21,19 @@ def main():
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--github-repository', help='Public GitHub HTTPS URL; omit for an offline-only package')
     parser.add_argument('--channel', default='release-stable')
-    parser.add_argument('--release-id', help='Unique immutable release tag; defaults to date and source commit')
+    parser.add_argument('--release-id', help='vX.Y.Z.N; defaults to the source manifest version')
     args = parser.parse_args()
     if git('status', '--porcelain', '--untracked-files=no').strip():
         raise SystemExit('Commit or isolate tracked changes before packaging.')
     revision = git('rev-parse', 'HEAD').strip()
     date = datetime.now(timezone.utc).strftime('%Y%m%d')
-    upstream = ET.parse(ROOT / 'manifest.xml').getroot().find('Version').get('number')
-    release = args.release_id or f'zh-{upstream}-{date}-{revision[:9]}'
+    upstream, version = source_versions(ROOT)
+    release = args.release_id or 'v' + version
+    version = release_version(upstream, release)
     channel_url = payload_url = None
     if args.github_repository:
         channel_url, payload_url = github_urls(args.github_repository, args.channel, release)
-    name = f'PoB-ZH-CN-{upstream}-{date}-{revision[:9]}-Windows-Portable'
+    name = f'PoB-ZH-CN-{version}-{date}-{revision[:9]}-Windows-Portable'
     output = args.output.resolve()
     folder = output / name
     archive = output / (name + '.zip')
@@ -62,7 +62,7 @@ def main():
         hashes[target.relative_to(folder).as_posix()] = hashlib.sha256(target.read_bytes()).hexdigest()
     (folder / 'Start-PoB.cmd').write_bytes(
         b'@echo off\r\ncd /d "%~dp0"\r\nstart "" "Path of Building.exe"\r\n')
-    (folder / '使用说明.txt').write_text(f'''Path of Building 简体中文便携版 {upstream}
+    (folder / '使用说明.txt').write_text(f'''Path of Building 简体中文便携版 v{version}（原版 v{upstream}）
 
 使用方法：
 1. 先把整个 ZIP 解压到有写入权限的文件夹，例如 D:\\Games\\PoB。
@@ -88,7 +88,7 @@ src/Localization/language.cfg，再分别复制到新包的上述对应位置。
 ''', encoding='utf-8-sig')
     for generated in ('Start-PoB.cmd', '使用说明.txt'):
         hashes[generated] = hashlib.sha256((folder / generated).read_bytes()).hexdigest()
-    info = {'name': name, 'upstream_version': upstream, 'source_commit': revision,
+    info = {'name': name, 'version': version, 'upstream_version': upstream, 'source_commit': revision,
             'created_utc': datetime.now(timezone.utc).isoformat(),
             'entry_point': 'Start-PoB.cmd', 'automatic_updates': bool(channel_url),
             'release_id': release, 'update_channel': args.channel,
@@ -96,7 +96,7 @@ src/Localization/language.cfg，再分别复制到新包的上述对应位置。
             'developer_mode': False,
             'personal_data_included': False, 'sha256': hashes}
     (folder / 'package-info.json').write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding='utf-8')
-    write_manifest(folder, upstream, release, args.channel, channel_url, payload_url)
+    write_manifest(folder, version, release, args.channel, channel_url, payload_url, upstream=upstream)
     if channel_url:
         write_update_site(folder, output / (name + '-update-site'))
     with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as bundle:
@@ -111,6 +111,7 @@ src/Localization/language.cfg，再分别复制到新包的上述对应位置。
         digest = hashlib.file_digest(handle, 'sha256').hexdigest()
     archive.with_suffix('.zip.sha256').write_text(f'{digest}  {archive.name}\n', encoding='ascii')
     plan = {'source_commit': revision, 'source_branch': 'localization', 'release_id': release,
+            'version': version, 'upstream_version': upstream,
             'github_assets': [archive.name, archive.name + '.sha256'],
             'github_repository': args.github_repository, 'channel': args.channel,
             'update_site_directory': name + '-update-site' if channel_url else None,
@@ -119,6 +120,7 @@ src/Localization/language.cfg，再分别复制到新包的上述对应位置。
     print(json.dumps({'folder': str(folder), 'archive': str(archive),
                       'size_mib': round(archive.stat().st_size / 1048576, 1),
                       'sha256': digest, 'crc': 'passed', 'release_id': release,
+                      'version': version, 'upstream_version': upstream,
                       'update_manifest_url': info['update_manifest_url']}, ensure_ascii=False, indent=2))
 
 

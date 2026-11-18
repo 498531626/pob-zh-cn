@@ -9,7 +9,7 @@ import sys
 import tempfile
 
 from probe_update_site import probe
-from release_support import github_urls
+from release_support import github_urls, next_release_id, source_versions
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -22,11 +22,18 @@ def run(*args, cwd=ROOT, capture=False):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--release-id', required=True)
+    parser.add_argument('--release-id', help='Optional vX.Y.Z.N; must equal the next patch release')
     args = parser.parse_args()
     if os.environ.get('GITHUB_ACTIONS') != 'true' or os.environ.get('GITHUB_REF') != 'refs/heads/localization':
         raise SystemExit('Run this publisher through the manual GitHub Actions workflow on localization.')
     repository = os.environ['GITHUB_REPOSITORY']
+    upstream, _ = source_versions(ROOT)
+    remote_tags = run('git', 'ls-remote', '--tags', '--refs', 'origin', capture=True)
+    tags = [line.split('\t', 1)[1].removeprefix('refs/tags/') for line in remote_tags.splitlines()]
+    release = next_release_id(upstream, tags)
+    if args.release_id and args.release_id != release:
+        raise SystemExit('Next Chinese patch release must be ' + release)
+    args.release_id = release
     channel_url, _ = github_urls('https://github.com/' + repository, 'release-stable', args.release_id)
     source = run('git', 'rev-parse', 'HEAD', capture=True)
     if run('git', 'ls-remote', 'origin', 'refs/tags/' + args.release_id, capture=True):

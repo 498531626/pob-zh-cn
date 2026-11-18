@@ -13,7 +13,8 @@ import threading
 import unittest
 import xml.etree.ElementTree as ET
 
-from release_support import github_urls, write_manifest, write_update_site
+from release_support import (github_urls, localized_version, next_release_id,
+                             release_version, source_versions, write_manifest, write_update_site)
 from sync_sources import sync
 from probe_update_site import probe
 
@@ -139,6 +140,30 @@ class UpdateTests(unittest.TestCase):
         self.update(mode='basic')
         self.assertEqual((self.old / 'Path of Building.exe').read_text(), 'MZ updated fixture')
 
+    def test_patch_version_only_update_and_repeat_check(self):
+        write_manifest(self.old, '2.68.1.2', 'v2.68.1.2', 'release-stable',
+                       self.url + 'published/', self.url + 'redirect/', upstream='2.68.1')
+        write_update_site(self.old, self.site / 'published')
+        tree = ET.parse(self.old / 'manifest.xml')
+        tree.getroot().find('Version').set('number', '2.68.1.1')
+        tree.getroot().find('Version').set('release', 'v2.68.1.1')
+        tree.write(self.old / 'manifest.xml', encoding='utf-8')
+        (self.old / 'Update').mkdir()
+        self.update()
+        version = ET.parse(self.old / 'manifest.xml').getroot().find('Version')
+        self.assertEqual(version.get('number'), '2.68.1.2')
+        self.assertEqual(version.get('upstream'), '2.68.1')
+        self.update(mode='none', apply=False)
+
+    def test_legacy_three_part_client_receives_patch_version(self):
+        self.publish()
+        tree = ET.parse(self.site / 'published/manifest.xml')
+        tree.getroot().find('Version').set('number', '2.67.2.1')
+        tree.write(self.site / 'published/manifest.xml', encoding='utf-8')
+        self.update()
+        version = ET.parse(self.old / 'manifest.xml').getroot().find('Version')
+        self.assertEqual(version.get('number'), '2.67.2.1')
+
     def test_corruption_does_not_apply(self):
         self.publish()
         (self.site / 'published/files/changed.txt').write_text('corrupt')
@@ -181,6 +206,26 @@ class UpdateTests(unittest.TestCase):
 
 
 class ReleaseTests(unittest.TestCase):
+    def test_patch_release_selection(self):
+        self.assertEqual(localized_version('2.68.1', 1), '2.68.1.1')
+        tags = ['v2.68.1', 'v2.68.1.2', 'v2.68.1.9', 'v2.68.1.10',
+                'v2.68.0.99', 'v2.68.1.01', 'zh-2.68.1-20261118']
+        self.assertEqual(next_release_id('2.68.1', tags), 'v2.68.1.11')
+        self.assertEqual(next_release_id('2.68.2', tags), 'v2.68.2.1')
+        for tag in ('v2.68.0.1', 'v2.68.1', 'v2.68.1.0', 'v2.68.1.01', 'zh-2.68.1.1'):
+            with self.subTest(tag=tag), self.assertRaises(ValueError):
+                release_version('2.68.1', tag)
+
+    def test_source_manifest_matches_official_base(self):
+        upstream, version = source_versions(ROOT)
+        self.assertEqual(release_version(upstream, 'v' + version), version)
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / 'upstream-base.json').write_text('{"tag":"v2.68.2"}')
+            (root / 'manifest.xml').write_text('<PoBVersion><Version number="2.68.1.1"/></PoBVersion>')
+            with self.assertRaises(ValueError):
+                source_versions(root)
+
     def test_update_site_preserves_crlf_bytes_in_git(self):
         with tempfile.TemporaryDirectory(prefix='PoB publish bytes QA ') as directory:
             root = Path(directory)

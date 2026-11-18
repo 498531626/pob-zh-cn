@@ -1,9 +1,44 @@
 """Portable release metadata and immutable GitHub update payloads."""
 import hashlib
+import json
 import re
 import shutil
 from urllib.parse import urlsplit
 import xml.etree.ElementTree as ET
+
+
+def localized_version(upstream, patch):
+    if not re.fullmatch(r'(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)', upstream):
+        raise ValueError('Official version must have three numeric components.')
+    if type(patch) is not int or patch < 1:
+        raise ValueError('Chinese patch number must be a positive integer.')
+    return f'{upstream}.{patch}'
+
+
+def release_version(upstream, release):
+    """Require a canonical vX.Y.Z.N tag belonging to this official version."""
+    prefix = f'v{upstream}.'
+    suffix = release.removeprefix(prefix)
+    if not release.startswith(prefix) or not re.fullmatch(r'[1-9][0-9]*', suffix):
+        raise ValueError(f'Release tag must be v{upstream}.N (N >= 1).')
+    return localized_version(upstream, int(suffix))
+
+
+def source_versions(root):
+    upstream = json.loads((root / 'upstream-base.json').read_text('utf-8'))['tag'].removeprefix('v')
+    version = ET.parse(root / 'manifest.xml').getroot().find('Version').get('number')
+    release_version(upstream, 'v' + version)
+    return upstream, version
+
+
+def next_release_id(upstream, tags):
+    patches = []
+    for tag in tags:
+        try:
+            patches.append(int(release_version(upstream, tag).rsplit('.', 1)[1]))
+        except ValueError:
+            continue  # Official tags, old date-based tags and other upstream versions.
+    return 'v' + localized_version(upstream, max(patches, default=0) + 1)
 
 
 def github_urls(repository, channel, release):
@@ -18,10 +53,13 @@ def github_urls(repository, channel, release):
     return base + channel + '/', base + release + '/files/'
 
 
-def write_manifest(folder, upstream, release, channel, channel_url=None, payload_url=None):
+def write_manifest(folder, version, release, channel, channel_url=None, payload_url=None, upstream=None):
     root = ET.Element('PoBVersion')
-    ET.SubElement(root, 'Version', number=upstream, branch=channel, platform='win32',
-                  release=release, updates='enabled' if channel_url else 'disabled')
+    attributes = dict(number=version, branch=channel, platform='win32',
+                      release=release, updates='enabled' if channel_url else 'disabled')
+    if upstream:
+        attributes['upstream'] = upstream
+    ET.SubElement(root, 'Version', **attributes)
     if channel_url:
         ET.SubElement(root, 'Source', part='default', url=channel_url)
         for part in ('program', 'runtime'):
