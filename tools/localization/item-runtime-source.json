@@ -21683,10 +21683,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+1% to maximum Fire Resistance",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+1.3 Hit DPS (+2134.9%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -21755,6 +21751,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+100 Phys Max Hit (+166.7%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+100 Strength Requirement",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -21799,6 +21799,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+101 Fire Max Hit (+273.0%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+11% to Chaos Resistance",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -21827,15 +21831,23 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+127 Cold Max Hit (+343.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+127 Elemental Max Hit (+343.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+127 Lightning Max Hit (+343.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+13 Effective Hit Pool (+33.4%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+131 Dexterity Required",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+131 Phys Max Hit (+218.3%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+146 Elemental Max Hit (+394.6%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -21875,11 +21887,11 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+154 Intelligence Required",
+    "english":"+151 Effective Hit Pool (+395.0%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+158 Effective Hit Pool (+413.3%)",
+    "english":"+154 Intelligence Required",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -21904,6 +21916,10 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+190 to Accuracy Rating",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+193 Fire Max Hit (+521.6%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22039,6 +22055,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+20 Fire Max Hit (+54.1%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+20 to Dexterity",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -22127,6 +22147,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+207 Phys Max Hit (+345.0%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+212 Dexterity Required",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -22143,27 +22167,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+23 Chaos Max Hit (+60.5%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+23 Elemental Max Hit (+62.2%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+23 to maximum Life",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+238 Phys Max Hit (+396.7%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+24 Effective Hit Pool (+63.9%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+25 Effective Hit Pool (+64.3%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22220,6 +22224,22 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+278 Armour",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+3 Chaos Max Hit (+7.9%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+3 Cold Max Hit (+8.1%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+3 Elemental Max Hit (+8.1%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+3 Lightning Max Hit (+8.1%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22379,14 +22399,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+32 Effective Hit Pool (+83.9%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+33 to maximum Life",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+330 to Accuracy Rating",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -22416,14 +22428,6 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+360 to Accuracy Rating",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+37 Phys Max Hit (+61.7%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+37 Total Life (+61.7%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22499,11 +22503,23 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+41 Phys Max Hit (+68.3%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+45% to Global Critical Strike Multiplier",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+460 to Accuracy Rating",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+47% Fire Resistance",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+47% to Fire Resistance",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22651,7 +22667,19 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+6 Phys Max Hit (+10.0%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+6 Total Life (+10.0%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+6 to Maximum Life per Elder Item Equipped",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+6 to maximum Life",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22691,6 +22719,26 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+61 Cold Max Hit (+164.9%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+61 Elemental Max Hit (+164.9%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+61 Lightning Max Hit (+164.9%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+7 Effective Hit Pool (+18.3%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+7 Effective Hit Pool (+18.9%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+7% Crit Chance",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -22707,6 +22755,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+74 Effective Hit Pool (+194.7%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+75% to Cold Resistance",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -22715,23 +22767,11 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+76 Phys Max Hit (+126.7%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+8% Chance to Block Attack Damage while Dual Wielding",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+8% to all Elemental Resistances",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+80 Elemental Max Hit (+216.2%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+87 Effective Hit Pool (+227.5%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -23016,6 +23056,10 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"0.4% of Chaos Damage Leeched as Life",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"0.4% of Fire Damage Leeched by Enemy as Life",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
