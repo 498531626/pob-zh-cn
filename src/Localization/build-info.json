@@ -94,6 +94,11 @@
     "ambiguous_exact": 11,
     "ambiguous_templates": 6
   },
+  "spectre_names": {
+    "names": 260,
+    "paired": 197,
+    "literal_pending_review": 63
+  },
   "sidebar_labels": 177,
   "sidebar_labels_translated": 177,
   "skill_part_labels": 179,
@@ -103,10 +108,5 @@
   "calculation_identifiers": 2302,
   "configuration_labels": 754,
   "configuration_labels_translated": 754,
-  "scope": "Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.30 passives, paired item names/bases/modifiers, essence/currency/monster/pantheon/tattoo/enchantment/cluster/boss preset display fields and finite display clauses. Item/database audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged.",
-  "spectre_names": {
-    "names": 260,
-    "paired": 197,
-    "literal_pending_review": 63
-  }
+  "scope": "Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.30 passives, paired item names/bases/modifiers, essence/currency/monster/pantheon/tattoo/enchantment/cluster/boss preset display fields and finite display clauses. Item/database audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged."
 }

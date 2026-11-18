@@ -9989,7 +9989,7 @@
     {
       "chinese": "+10 基础值",
       "english": "+10 base",
-      "kind": "materialized Fireball source tooltip",
+      "kind": "materialized Fireball",
       "remaining": []
     },
     {
@@ -10031,7 +10031,7 @@
     {
       "chinese": "+15 基础值",
       "english": "+15 base",
-      "kind": "materialized Fireball source tooltip",
+      "kind": "materialized Fireball",
       "remaining": []
     },
     {
@@ -10073,13 +10073,13 @@
     {
       "chinese": "+25 基础值",
       "english": "+25 base",
-      "kind": "materialized Fireball source tooltip",
+      "kind": "materialized Fireball",
       "remaining": []
     },
     {
       "chinese": "+3 基础值",
       "english": "+3 base",
-      "kind": "materialized Fireball source tooltip",
+      "kind": "materialized Fireball",
       "remaining": []
     },
     {
@@ -10229,7 +10229,7 @@
     {
       "chinese": "+54 基础值",
       "english": "+54 base",
-      "kind": "materialized Righteous Fire source tooltip",
+      "kind": "materialized Righteous Fire",
       "remaining": []
     },
     {
@@ -11003,7 +11003,7 @@
     {
       "chinese": "25% 总降",
       "english": "25% less",
-      "kind": "materialized Arc source tooltip",
+      "kind": "materialized Arc",
       "remaining": []
     },
     {
@@ -11075,7 +11075,7 @@
     {
       "chinese": "30% 总降",
       "english": "30% less",
-      "kind": "materialized Fireball source tooltip",
+      "kind": "materialized Fireball",
       "remaining": []
     },
     {
@@ -11321,7 +11321,7 @@
     {
       "chinese": "80% 总降",
       "english": "80% less",
-      "kind": "materialized Storm Brand source tooltip",
+      "kind": "materialized Storm Brand",
       "remaining": []
     },
     {
@@ -22233,7 +22233,7 @@
     "Localization/CalcIdentifierTerms.lua": "7881b062b79ca906470924ff473a2e15d5c234cb70ec3da6929713dbcc3d9c0c",
     "Localization/CalcIdentifiers.lua": "fd103507e150b1d14c152aad4cd81433c87f17a29f898ca0d3b48c90849b78b5",
     "Modules/CalcSections.lua": "4ab745c161cc2c1d7508308dcdd1f130fddcb224e61f799d6167c941875dfcdd",
-    "Modules/Localization.lua": "25af58dea61876a513391c5b41b0af5cee88dfdcb217f4cf1c51e0d272de6ff9",
+    "Modules/Localization.lua": "1322ac66f683f55b2df748cf95ff32ecf82c80d91d1a5fc7f9121dd1b523a91c",
     "Modules/ModParser.lua": "d178a38b8aa4b365aa3c99ab31bc3ba16f301e09387ace511eefa470ef48f1f8"
   },
   "texts": 3475,
