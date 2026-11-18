@@ -1,4 +1,22 @@
 {
+  "Corruption Claw": {
+    "zh": "腐化之爪",
+    "kind": "rare-name",
+    "status": "direct-translation",
+    "source": "Imported rare equipment display title"
+  },
+  "Fate Wrap": {
+    "zh": "命运之裹",
+    "kind": "rare-name",
+    "status": "direct-translation",
+    "source": "Imported rare equipment display title"
+  },
+  "Rage Horn": {
+    "zh": "怒火之角",
+    "kind": "rare-name",
+    "status": "direct-translation",
+    "source": "Imported rare equipment display title"
+  },
   "{0}% to Item Rarity": {
     "zh": "物品掉落稀有度 {0}%",
     "kind": "item-reviewed",

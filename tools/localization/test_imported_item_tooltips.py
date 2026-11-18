@@ -1,4 +1,4 @@
-"""Exercise parsed imported magic items in a disposable PoB copy, never user builds."""
+"""Exercise parsed imported items in a disposable PoB copy, never user builds."""
 import argparse
 import json
 import os
@@ -61,6 +61,36 @@ L.mode='zh'
 assert(L:Translate('^x8888FF+(21-26)% to Item Rarity')=='^x8888FF物品掉落稀有度 +(21-26)%')
 assert(L:Translate('+26% to Unknown Item Rarity')=='+26% to Unknown Item Rarity')
 print('Imported item rarity: mixed/upper case, signed values, ranges, colour, language switching and raw item preservation passed')
+local rareRows={}
+for _,parts in ipairs({
+ {'Rage Horn','Divine Crown','怒火之角','神启头冠','Helmet'},
+ {'Fate Wrap','Sacred Chainmail','命运之裹','神圣锁甲','Body Armour'},
+ {'Corruption Claw','Zealot Gloves','腐化之爪','狂热者手套','Gloves'},
+ {'My custom name','Divine Crown','My custom name','神启头冠','Helmet'},
+})do
+ local item=new('Item'):Item('Rarity: RARE\n'..parts[1]..'\n'..parts[2]..'\nItem Level: 85')
+ assert(item.title==parts[1] and item.baseName==parts[2], 'Rare name import failed: '..parts[1])
+ build.itemsTab:AddItem(item,true)
+ rareRows[#rareRows+1]={item=item, parts=parts, raw=item:BuildRaw()}
+end
+for _,row in ipairs(rareRows)do
+ local item,parts=row.item,row.parts
+ local slot=assert(build.itemsTab.slots[parts[5]])
+ slot:SetSelItemId(item.id)
+ build.itemsTab:PopulateSlots()
+ local saved=build:SaveDB('fixture')
+ for _,mode in ipairs({'zh','en','zh'})do
+  L.mode=mode;tip:Clear();build.itemsTab:AddItemTooltip(tip,item,slot)
+  local title,base=parts[mode=='en' and 1 or 3],parts[mode=='en' and 2 or 4]
+  local label=title..', '..base
+  assert(L:ItemListName(item)==label,L:ItemListName(item))
+  assert(L:Translate(slot.list[slot.selIndex])==colorCodes.RARE..label,L:Translate(slot.list[slot.selIndex]))
+  assert(tip.lines[1].text==colorCodes.RARE..title,tip.lines[1].text)
+  assert(tip.lines[2].text==colorCodes.RARE..base,tip.lines[2].text)
+  assert(item:BuildRaw()==row.raw and build:SaveDB('fixture')==saved,'Rare name display changed saved data')
+ end
+end
+print('Imported rare names: equipped slots, item list, tooltip titles and bases, custom names and saved data passed')
 for i,parts in ipairs(fixtures)do
  local name=parts[1]..' '..parts[2]..' '..parts[3]
  local item=new('Item'):Item('Rarity: MAGIC\n'..name..'\nQuality: 20\nItem Level: 85\n'..parts[4])

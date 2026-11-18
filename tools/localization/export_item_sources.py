@@ -28,7 +28,7 @@ local function add(text,kind,source)
  if not seen[key]then seen[key]=true;rows[#rows+1]={english=text,kind=kind,source=source}end
 end
 local bases={}
-for _,p in ipairs(paths.Bases)do assert(loadfile(p..'.lua'))(bases)end
+for _,p in ipairs(paths.Bases)do assert(loadfile(p..'.lua'))()(bases)end
 for name,base in pairs(bases)do
  add(name:gsub(' %(.+%)',''),'base-name');add(base.type,'item-type');add(base.subType,'item-type')
  for line in (base.implicit or ''):gmatch('[^\n]+')do add(line,'base-stat')end
