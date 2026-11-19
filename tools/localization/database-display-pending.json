@@ -269,12 +269,6 @@
     "remaining_english_words":["chance","to","Block","Projectile","Spell","Damage"],
     "source":"Data/Crucible.lua"
   },{
-    "chinese":"10% chance to Poison on Hit with Spell Damage",
-    "english":"10% chance to Poison on Hit with Spell Damage",
-    "kind":"craft-extra-stat",
-    "remaining_english_words":["chance","to","Poison","on","Hit","with","Spell","Damage"],
-    "source":"Data/Crucible.lua"
-  },{
     "chinese":"10% chance to deal Double Damage if Strength is below 100",
     "english":"10% chance to deal Double Damage if Strength is below 100",
     "kind":"craft-extra-stat",
@@ -525,12 +519,6 @@
     "english":"16% chance to deal Double Damage if Strength is below 100",
     "kind":"craft-extra-stat",
     "remaining_english_words":["chance","to","deal","Double","Damage","if","Strength","is","below"],
-    "source":"Data/Crucible.lua"
-  },{
-    "chinese":"20% chance to Poison on Hit with Spell Damage",
-    "english":"20% chance to Poison on Hit with Spell Damage",
-    "kind":"craft-extra-stat",
-    "remaining_english_words":["chance","to","Poison","on","Hit","with","Spell","Damage"],
     "source":"Data/Crucible.lua"
   },{
     "chinese":"20% chance to Sap Enemies when you Block their Damage",
@@ -785,12 +773,6 @@
     "remaining_english_words":["chance","to","be","inflicted","with","random","Exposure","when","you","take","Elemental","Damage","from","Hit"],
     "source":"Data/Crucible.lua"
   },{
-    "chinese":"25% increased Area of Effect if you've Killed at least 5 Enemies Recently",
-    "english":"25% increased Area of Effect if you've Killed at least 5 Enemies Recently",
-    "kind":"craft-extra-stat",
-    "remaining_english_words":["increased","Area","of","Effect","if","you","ve","Killed","at","least","Enemies","Recently"],
-    "source":"Data/Crucible.lua"
-  },{
     "chinese":"25% increased Cost of Arc and Crackling Lance",
     "english":"25% increased Cost of Arc and Crackling Lance",
     "kind":"craft-extra-stat",
@@ -861,12 +843,6 @@
     "english":"30% chance for Blade Vortex and Blade Blast to Impale Enemies on Hit",
     "kind":"craft-extra-stat",
     "remaining_english_words":["chance","for","Blade","Vortex","and","Blade","Blast","to","Impale","Enemies","on","Hit"],
-    "source":"Data/Crucible.lua"
-  },{
-    "chinese":"30% increased Area of Effect if you've Killed at least 5 Enemies Recently",
-    "english":"30% increased Area of Effect if you've Killed at least 5 Enemies Recently",
-    "kind":"craft-extra-stat",
-    "remaining_english_words":["increased","Area","of","Effect","if","you","ve","Killed","at","least","Enemies","Recently"],
     "source":"Data/Crucible.lua"
   },{
     "chinese":"30% increased Bleed Duration on you",
@@ -983,12 +959,6 @@
     "remaining_english_words":["chance","to","gain","Soul","Eater","for","seconds","on","Killing","Blow","against","Rare","and","Unique","Enemies","with","Double","Strike","or","Dual","Strike"],
     "source":"Data/Crucible.lua"
   },{
-    "chinese":"50% increased Area of Effect if you've Killed at least 5 Enemies Recently",
-    "english":"50% increased Area of Effect if you've Killed at least 5 Enemies Recently",
-    "kind":"craft-extra-stat",
-    "remaining_english_words":["increased","Area","of","Effect","if","you","ve","Killed","at","least","Enemies","Recently"],
-    "source":"Data/Crucible.lua"
-  },{
     "chinese":"50% increased Bleed Duration on you",
     "english":"50% increased Bleed Duration on you",
     "kind":"craft-extra-stat",
@@ -1071,12 +1041,6 @@
     "english":"60% chance for Blade Vortex and Blade Blast to Impale Enemies on Hit",
     "kind":"craft-extra-stat",
     "remaining_english_words":["chance","for","Blade","Vortex","and","Blade","Blast","to","Impale","Enemies","on","Hit"],
-    "source":"Data/Crucible.lua"
-  },{
-    "chinese":"60% increased Area of Effect if you've Killed at least 5 Enemies Recently",
-    "english":"60% increased Area of Effect if you've Killed at least 5 Enemies Recently",
-    "kind":"craft-extra-stat",
-    "remaining_english_words":["increased","Area","of","Effect","if","you","ve","Killed","at","least","Enemies","Recently"],
     "source":"Data/Crucible.lua"
   },{
     "chinese":"60% increased Chaining range",
@@ -1665,30 +1629,6 @@
     "english":"Brand Recall has 60% reduced Cooldown Recovery Rate",
     "kind":"craft-extra-stat",
     "remaining_english_words":["Brand","Recall","has","reduced","Cooldown","Recovery","Rate"],
-    "source":"Data/Crucible.lua"
-  },{
-    "chinese":"Brands have 25% increased Area of Effect if 50% of Attached Duration expired",
-    "english":"Brands have 25% increased Area of Effect if 50% of Attached Duration expired",
-    "kind":"craft-extra-stat",
-    "remaining_english_words":["Brands","have","increased","Area","of","Effect","if","of","Attached","Duration","expired"],
-    "source":"Data/Crucible.lua"
-  },{
-    "chinese":"Brands have 40% increased Area of Effect if 50% of Attached Duration expired",
-    "english":"Brands have 40% increased Area of Effect if 50% of Attached Duration expired",
-    "kind":"craft-extra-stat",
-    "remaining_english_words":["Brands","have","increased","Area","of","Effect","if","of","Attached","Duration","expired"],
-    "source":"Data/Crucible.lua"
-  },{
-    "chinese":"Brands have 45% increased Area of Effect if 50% of Attached Duration expired",
-    "english":"Brands have 45% increased Area of Effect if 50% of Attached Duration expired",
-    "kind":"craft-extra-stat",
-    "remaining_english_words":["Brands","have","increased","Area","of","Effect","if","of","Attached","Duration","expired"],
-    "source":"Data/Crucible.lua"
-  },{
-    "chinese":"Brands have 60% increased Area of Effect if 50% of Attached Duration expired",
-    "english":"Brands have 60% increased Area of Effect if 50% of Attached Duration expired",
-    "kind":"craft-extra-stat",
-    "remaining_english_words":["Brands","have","increased","Area","of","Effect","if","of","Attached","Duration","expired"],
     "source":"Data/Crucible.lua"
   },{
     "chinese":"Buffs on you expire 10% faster",
@@ -3435,12 +3375,6 @@
     "english":"Trigger a Socketed Spell every second while Channelling Blade Flurry or Charged Dash",
     "kind":"craft-extra-stat",
     "remaining_english_words":["Trigger","Socketed","Spell","every","second","while","Channelling","Blade","Flurry","or","Charged","Dash"],
-    "source":"Data/Crucible.lua"
-  },{
-    "chinese":"Unaffected by Chill while Channelling",
-    "english":"Unaffected by Chill while Channelling",
-    "kind":"craft-extra-stat",
-    "remaining_english_words":["Unaffected","by","Chill","while","Channelling"],
     "source":"Data/Crucible.lua"
   },{
     "chinese":"Vaal Volcanic Fissure and Vaal Molten Strike have 40% reduced Soul Gain Prevention Duration",

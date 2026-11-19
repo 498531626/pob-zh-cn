@@ -1,0 +1,164 @@
+{
+  "(Attacks made against Enemies affected by Hallowing Flame gain 25% of Physical Damage as Extra Fire Damage.": {
+    "zh": "（攻击受圣化之焰影响的敌人时，获得等同于物理伤害 25% 的额外火焰伤害。",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "(Cold Exposure applies -10% to Cold Resistance for 4 seconds)": {
+    "zh": "（冰霜曝露使冰霜抗性 -10%，持续 4 秒）",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "(Fire Exposure applies -10% to Fire Resistance for 4 seconds)": {
+    "zh": "（火焰曝露使火焰抗性 -10%，持续 4 秒）",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "(Lightning Exposure applies -10% to Lightning Resistance for 4 seconds)": {
+    "zh": "（闪电曝露使闪电抗性 -10%，持续 4 秒）",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "10% chance to Blind Enemies within 6 metres when you use an Elemental Skill": {
+    "zh": "使用元素技能时，有 10% 的几率使 6 米内的敌人致盲",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "10% chance to double Stun Duration": {
+    "zh": "有 10% 的几率使晕眩持续时间翻倍",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "20% chance to double Stun Duration": {
+    "zh": "有 20% 的几率使晕眩持续时间翻倍",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "25% chance to Intimidate Enemies within 4 metres for 4 seconds on Melee Kill": {
+    "zh": "近战击败敌人时，有 25% 的几率威吓 4 米内的敌人，持续 4 秒",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Attack Skills fire an additional Projectile while wielding a Claw or Dagger": {
+    "zh": "持握爪或匕首时，攻击技能额外发射一个投射物",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Auras from your Skills have 8% increased Effect on you for\neach Herald affecting you, up to a maximum of 40%": {
+    "zh": "每个影响你的捷都会使你的技能所产生的光环对你的效果提高 8%，最多提高 40%",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。",
+    "line_translations": [
+      "你的技能所产生的光环对你的效果提高 8%，",
+      "每个影响你的捷均生效，最多提高 40%"
+    ]
+  },
+  "Damaging Ailments deal damage 5% Faster": {
+    "zh": "伤害型异常状态的伤害生效速度加快 5%",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Enemies within 3 metres are Chilled": {
+    "zh": "3 米内的敌人受到冰缓",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Enemies within 3 metres have Cold Exposure while you are affected by Herald of Ice": {
+    "zh": "受到寒冰之捷影响时，3 米内的敌人受到冰霜曝露",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Enemies within 3 metres have Fire Exposure": {
+    "zh": "3 米内的敌人受到火焰曝露",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Enemies within 3 metres have Fire Exposure while you are affected by Herald of Ash": {
+    "zh": "受到灰烬之捷影响时，3 米内的敌人受到火焰曝露",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Enemies within 3 metres have Lightning Exposure while you are affected by Herald of Thunder": {
+    "zh": "受到闪电之捷影响时，3 米内的敌人受到闪电曝露",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Gain 1 Endurance Charge every second if you've been Hit Recently": {
+    "zh": "近期内被击中时，每秒获得 1 个耐力球",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Hallowing Flame is removed once an Attack that benefits from this Damage as Extra is successfully made.": {
+    "zh": "成功发动受益于此额外伤害的攻击后，圣化之焰会被移除。",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Hallowing Flame lasts for six seconds and cannot benefit the one who inflicted it)": {
+    "zh": "圣化之焰持续六秒，且无法使其施加者受益）",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Ignites you inflict deal Damage 8% Faster": {
+    "zh": "你施加的点燃的伤害生效速度加快 8%",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Impales you inflict last 1 additional Hit": {
+    "zh": "你施加的穿刺可额外持续 1 次击中",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Life Flasks gain 1 Charge every 3 seconds": {
+    "zh": "生命药剂每 3 秒获得 1 次充能",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Projectiles Pierce an additional Target": {
+    "zh": "投射物额外穿透一个目标",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Projectiles deal 20% increased Damage with Hits and Ailments for\neach remaining Chain, up to a maximum of 100%": {
+    "zh": "投射物每次剩余连锁都会使击中和异常状态的伤害提高 20%，最多提高 100%",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。",
+    "line_translations": [
+      "投射物的击中和异常状态伤害提高 20%，",
+      "每次剩余连锁均生效，最多提高 100%"
+    ]
+  },
+  "Projectiles deal 35% increased Damage with Hits against Enemies within 3 metres": {
+    "zh": "投射物对 3 米内敌人的击中伤害提高 35%",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Regenerate 3.00% of Energy Shield per second while stationary": {
+    "zh": "静止时每秒再生 3.00% 能量护盾",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Remove a Curse after Channelling for 2 seconds": {
+    "zh": "持续吟唱 2 秒后移除一个诅咒",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Totems Hinder Enemies within 3 metres of them when Summoned": {
+    "zh": "图腾被召唤时使其 3 米内的敌人受到干扰",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  },
+  "Unattached Brands gain 20% increased Brand Attachment Range per\nsecond, up to a maximum of 100%": {
+    "zh": "未附着的烙印每秒使烙印附着范围扩大 20%，最多扩大 100%",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "当前 PoB 将此句拆为两行；完整句及拆分行按原文直译，待核对。",
+    "line_translations": [
+      "未附着的烙印的烙印附着范围扩大 20%，",
+      "每秒叠加，最多扩大 100%"
+    ]
+  },
+  "You and nearby Allies Regenerate 1.00% of Life per second": {
+    "zh": "你和周围友军每秒再生 1.00% 生命",
+    "status": "direct-translation-numeric-checked",
+    "review_note": "按当前 PoB 英文直译，待核对；保留当前版本距离、时间和数值。"
+  }
+}

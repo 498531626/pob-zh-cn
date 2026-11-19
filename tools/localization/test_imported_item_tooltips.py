@@ -90,6 +90,118 @@ for _,mode in ipairs({'zh','en','zh'})do
 end
 assert(L:Translate('1 Added Passive Skill is Unknown Passive')=='1 Added Passive Skill is Unknown Passive')
 print('All '..clusterCount..' cluster notable names/clauses and imported Rapture Glisten tooltip: colours, counts, language switching and raw data passed')
+-- Check every live cluster notable/keystone, including effects and reminder
+-- text. Runtime subgraph nodes use generated IDs, so also test context-free
+-- translation rather than only the original tree node ID.
+local json=require('dkjson')
+local function plain(text)return text:gsub('%^x%x%x%x%x%x%x',''):gsub('%^%d','')end
+local function contains(text,part)
+ return plain(text):gsub('%s',''):find(plain(part):gsub('%s',''),1,true)
+end
+local function numbers(text)
+ local normalized=plain(text):gsub('%f[%a]six%f[%A]','6'):gsub('六','6')
+ local result={};for n in normalized:gmatch('[%+%-]?%d+%.?%d*')do result[#result+1]=tonumber(n)end
+ table.sort(result);return table.concat(result,',')
+end
+local function tooltipText()
+ local result={};for _,line in ipairs(tip.lines)do result[#result+1]=line.text or ''end
+ return table.concat(result,'\n')
+end
+local effectCount,reminderCount,nodeCount=0,0,0
+local treeView=build.treeTab.viewer
+for name,node in pairs(build.spec.tree.clusterNodeMap)do
+ nodeCount=nodeCount+1
+ local original=json.encode({name=node.dn,sd=node.sd,reminders=node.reminderText,mods=node.mods})
+ for _,mode in ipairs({'zh','en','zh'})do
+  L.mode=mode;tip:Clear();treeView:AddNodeTooltip(tip,node,build,true)
+  local text=tooltipText()
+  for _,field in ipairs({'sd','reminderText'})do
+   for _,en in ipairs(node[field]or{})do
+    local translated=L:Translate(en)
+    assert(L:Translate('^x8888FF'..en)=='^x8888FF'..translated,'Cluster colour changed: '..en)
+    if mode=='zh' then
+     assert(not plain(translated):match('%a%a'),'Untranslated cluster effect: '..name..': '..en..' => '..translated)
+     assert(numbers(en)==numbers(translated),'Cluster numeric change: '..name..': '..en)
+     assert(L:Translate(en,node.id)==translated,'Cluster context differs from generated node: '..en)
+    else assert(translated==en,'English cluster effect changed: '..en)end
+    if field=='reminderText'then assert(contains(text,translated),'Cluster tooltip omitted reminder: '..name..': '..en..'\n'..text)end
+   end
+  end
+  for _,group in ipairs(L:PassiveLineGroups(node.id,node.sd))do
+   local expected=L:Translate(group.text,node.id)
+   assert(contains(text,expected),'Cluster tooltip omitted effect group: '..name..': '..group.text..'\n'..text)
+  end
+ end
+ effectCount=effectCount+#node.sd;reminderCount=reminderCount+#(node.reminderText or{})
+ assert(json.encode({name=node.dn,sd=node.sd,reminders=node.reminderText,mods=node.mods})==original,'Cluster parser data changed')
+end
+-- Reproduce the equipped socket tooltip, then inspect every generated node
+-- in the 8-passive subgraph. This is the actual tree hover path in the report.
+local equippedCluster=new('Item'):Item([[Rarity: RARE
+8 Passive Only! Not 9!
+Large Cluster Jewel
+Item Level: 75
+Adds 8 Passive Skills (enchant)
+2 Added Passive Skills are Jewel Sockets (enchant)
+Added Small Passive Skills grant: 10% increased Spell Damage (enchant)
+1 Added Passive Skill is Arcane Adept
+1 Added Passive Skill is Burden Projection
+1 Added Passive Skill is Essence Rush]])
+local outerSocket
+for id in pairs(build.spec.tree.sockets)do
+ local node=build.spec.nodes[id]
+ if node and node.expansionJewel and node.expansionJewel.size==2 then outerSocket=node;break end
+end
+assert(outerSocket,'No outer cluster socket')
+build.itemsTab:AddItem(equippedCluster,true)
+build.spec:AllocNode(outerSocket)
+build.spec.jewels[outerSocket.id]=equippedCluster.id
+build.spec:BuildClusterJewelGraphs()
+build.itemsTab:PopulateSlots()
+build.buildFlag=true;runCallback('OnFrame')
+local equippedRaw=equippedCluster:BuildRaw()
+local equippedSaved=build:SaveDB('fixture')
+local outputLife=build.calcsTab.mainOutput.Life
+local screenshotStats={
+ {'5% increased Attack and Cast Speed while Channelling','持续吟唱时，攻击和施法速度加快 5%'},
+ {'Gain Arcane Surge after Channelling for 1 second','吟唱 1 秒后，获得秘术增强'},
+ {'8% chance to Knock Enemies Back on Hit with Spell Damage','法术伤害击中有 8% 的几率击退敌人'},
+ {'40% increased Damage while Leeching Energy Shield','偷取能量护盾时，伤害提高 40%'},
+ {'5% increased Attack and Cast Speed while Leeching Energy Shield','偷取能量护盾时攻击和施法速度加快 5%'},
+}
+for _,mode in ipairs({'zh','en','zh'})do
+ L.mode=mode;tip:Clear();treeView:AddNodeTooltip(tip,outerSocket,build)
+ local text=tooltipText()
+ for _,row in ipairs(screenshotStats)do
+  local expected=mode=='en' and row[1]or L:Translate(row[1])
+  assert(contains(text,expected),'Equipped socket missing: '..row[1]..'\n'..text)
+  if mode=='zh'then
+   assert(not text:find(row[1],1,true),'Equipped socket English leak: '..row[1])
+   if row[2]~=''then assert(expected==row[2],expected)end
+  end
+ end
+ local notableSeen={}
+ for _,graph in pairs(build.spec.subGraphs)do
+  for _,node in ipairs(graph.nodes)do
+   if node.type=='Notable'then notableSeen[node.dn]=true end
+   if node.type~='Socket'and node.type~='Mastery'then
+    tip:Clear();treeView:AddNodeTooltip(tip,node,build,true)
+    local rendered=tooltipText()
+    for _,stat in ipairs(node.sd)do
+     local expected=L:Translate(stat)
+     assert(contains(rendered,expected),'Generated cluster node missing: '..stat)
+     if mode=='zh'then assert(not plain(expected):match('%a%a'),'Generated cluster node untranslated: '..stat)end
+    end
+   end
+  end
+ end
+ for _,name in ipairs({'Arcane Adept','Burden Projection','Essence Rush'})do assert(notableSeen[name],'Equipped graph missing notable: '..name)end
+ assert(equippedCluster:BuildRaw()==equippedRaw and build:SaveDB('fixture')==equippedSaved,'Equipped cluster display changed saved data')
+ assert(build.calcsTab.mainOutput.Life==outputLife,'Equipped cluster display changed calculation output')
+end
+print('Cluster effects: '..nodeCount..' live nodes, '..effectCount..' effect occurrences, '..reminderCount..' reminders; actual equipped socket/generated node tooltips, language switching, numbers and unchanged raw/mod/save data passed')
+-- Restore a fresh build so equipped fixture allocations cannot affect later tests.
+newBuild();L.mode='zh';tip=new('Tooltip'):Tooltip()
 -- Imported rarity affixes must translate in actual item tooltips without
 -- changing the parser input, its signed value, or the saved item.
 for _,stat in ipairs({'+26% to Item Rarity', '+26% TO ITEM RARITY', '-10% to Item Rarity'})do

@@ -44,7 +44,6 @@
 兽园及熔炉工艺属性,+30% chance to Block Projectile Spell Damage,+30% chance to Block Projectile Spell Damage,Data/Crucible.lua
 兽园及熔炉工艺属性,"-1 to Maximum Endurance, Frenzy and Power Charges","-1 to Maximum Endurance, Frenzy and Power Charges",Data/Crucible.lua
 兽园及熔炉工艺属性,-20% chance to Block Projectile Spell Damage,-20% chance to Block Projectile Spell Damage,Data/Crucible.lua
-兽园及熔炉工艺属性,10% chance to Poison on Hit with Spell Damage,10% chance to Poison on Hit with Spell Damage,Data/Crucible.lua
 兽园及熔炉工艺属性,10% chance to deal Double Damage if Strength is below 100,10% chance to deal Double Damage if Strength is below 100,Data/Crucible.lua
 兽园及熔炉工艺属性,10% increased Damage taken from Damage Over Time,10% increased Damage taken from Damage Over Time,Data/Crucible.lua
 兽园及熔炉工艺属性,10% less Global Damage,10% less Global Damage,Data/Crucible.lua
@@ -87,7 +86,6 @@
 兽园及熔炉工艺属性,15% reduced Mana Reservation Efficiency of Skills that throw Mines,15% reduced Mana Reservation Efficiency of Skills that throw Mines,Data/Crucible.lua
 兽园及熔炉工艺属性,15% reduced effect of Non-Curse Auras from your Skills on your Minions,15% reduced effect of Non-Curse Auras from your Skills on your Minions,Data/Crucible.lua
 兽园及熔炉工艺属性,16% chance to deal Double Damage if Strength is below 100,16% chance to deal Double Damage if Strength is below 100,Data/Crucible.lua
-兽园及熔炉工艺属性,20% chance to Poison on Hit with Spell Damage,20% chance to Poison on Hit with Spell Damage,Data/Crucible.lua
 兽园及熔炉工艺属性,20% chance to Sap Enemies when you Block their Damage,20% chance to Sap Enemies when you Block their Damage,Data/Crucible.lua
 兽园及熔炉工艺属性,20% chance to Scorch Enemies when you Block their Damage,20% chance to Scorch Enemies when you Block their Damage,Data/Crucible.lua
 兽园及熔炉工艺属性,20% chance to gain a Frenzy Charge when you Hit your Marked Enemy,20% chance to gain a Frenzy Charge when you Hit your Marked Enemy,Data/Crucible.lua
@@ -130,7 +128,6 @@
 兽园及熔炉工艺属性,25% chance to be inflicted with Fire Exposure when you take Fire Damage from a Hit,25% chance to be inflicted with Fire Exposure when you take Fire Damage from a Hit,Data/Crucible.lua
 兽园及熔炉工艺属性,25% chance to be inflicted with Lightning Exposure when you take Lightning Damage from a Hit,25% chance to be inflicted with Lightning Exposure when you take Lightning Damage from a Hit,Data/Crucible.lua
 兽园及熔炉工艺属性,25% chance to be inflicted with a random Exposure when you take Elemental Damage from a Hit,25% chance to be inflicted with a random Exposure when you take Elemental Damage from a Hit,Data/Crucible.lua
-兽园及熔炉工艺属性,25% increased Area of Effect if you've Killed at least 5 Enemies Recently,25% increased Area of Effect if you've Killed at least 5 Enemies Recently,Data/Crucible.lua
 兽园及熔炉工艺属性,25% increased Cost of Arc and Crackling Lance,25% increased Cost of Arc and Crackling Lance,Data/Crucible.lua
 兽园及熔炉工艺属性,25% increased Damage for each time you've Warcried Recently,25% increased Damage for each time you've Warcried Recently,Data/Crucible.lua
 兽园及熔炉工艺属性,"25% increased Damage per Endurance, Frenzy or Power Charge","25% increased Damage per Endurance, 狂怒球或暴击球",Data/Crucible.lua
@@ -143,7 +140,6 @@
 兽园及熔炉工艺属性,25% reduced chance to catch Boots,25% reduced chance to catch Boots,Data/Crucible.lua
 兽园及熔炉工艺属性,25% reduced effect of Non-Curse Auras from your Skills on your Minions,25% reduced effect of Non-Curse Auras from your Skills on your Minions,Data/Crucible.lua
 兽园及熔炉工艺属性,30% chance for Blade Vortex and Blade Blast to Impale Enemies on Hit,30% chance for Blade Vortex and Blade Blast to Impale Enemies on Hit,Data/Crucible.lua
-兽园及熔炉工艺属性,30% increased Area of Effect if you've Killed at least 5 Enemies Recently,30% increased Area of Effect if you've Killed at least 5 Enemies Recently,Data/Crucible.lua
 兽园及熔炉工艺属性,30% increased Bleed Duration on you,30% increased Bleed Duration on you,Data/Crucible.lua
 兽园及熔炉工艺属性,30% increased Effect of Shock on you,30% increased Effect of Shock on you,Data/Crucible.lua
 兽园及熔炉工艺属性,30% increased Poison Duration on you,30% increased Poison Duration on you,Data/Crucible.lua
@@ -163,7 +159,6 @@
 兽园及熔炉工艺属性,50% chance for Cold Snap and Creeping Frost to Sap Enemies in Chilling Areas,50% chance for Cold Snap and Creeping Frost to Sap Enemies in Chilling Areas,Data/Crucible.lua
 兽园及熔炉工艺属性,50% chance to be Withered for 2 seconds when you take Chaos Damage from a Hit,50% chance to be Withered for 2 seconds when you take Chaos Damage from a Hit,Data/Crucible.lua
 兽园及熔炉工艺属性,50% chance to gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies with Double Strike or Dual Strike,50% chance to gain Soul Eater for 20 seconds on Killing Blow against Rare and Unique Enemies with Double Strike or Dual Strike,Data/Crucible.lua
-兽园及熔炉工艺属性,50% increased Area of Effect if you've Killed at least 5 Enemies Recently,50% increased Area of Effect if you've Killed at least 5 Enemies Recently,Data/Crucible.lua
 兽园及熔炉工艺属性,50% increased Bleed Duration on you,50% increased Bleed Duration on you,Data/Crucible.lua
 兽园及熔炉工艺属性,50% increased Effect of Exposure on you,50% increased Effect of Exposure on you,Data/Crucible.lua
 兽园及熔炉工艺属性,50% increased Effect of Link Buffs on Animated Guardian,50% increased Effect of Link Buffs on Animated Guardian,Data/Crucible.lua
@@ -178,7 +173,6 @@
 兽园及熔炉工艺属性,6% chance to deal Double Damage if Strength is below 100,6% chance to deal Double Damage if Strength is below 100,Data/Crucible.lua
 兽园及熔炉工艺属性,6% chance to gain a Frenzy Charge when you Hit your Marked Enemy,6% chance to gain a Frenzy Charge when you Hit your Marked Enemy,Data/Crucible.lua
 兽园及熔炉工艺属性,60% chance for Blade Vortex and Blade Blast to Impale Enemies on Hit,60% chance for Blade Vortex and Blade Blast to Impale Enemies on Hit,Data/Crucible.lua
-兽园及熔炉工艺属性,60% increased Area of Effect if you've Killed at least 5 Enemies Recently,60% increased Area of Effect if you've Killed at least 5 Enemies Recently,Data/Crucible.lua
 兽园及熔炉工艺属性,60% increased Chaining range,60% increased Chaining range,Data/Crucible.lua
 兽园及熔炉工艺属性,60% increased Damage for each time you've Warcried Recently,60% increased Damage for each time you've Warcried Recently,Data/Crucible.lua
 兽园及熔炉工艺属性,60% increased total Recovery per second from Energy Shield Leech,60% increased total Recovery per second from Energy Shield Leech,Data/Crucible.lua
@@ -277,10 +271,6 @@
 兽园及熔炉工艺属性,"Blight has 80% increased Area of Effect per second you have been Channelling, up to a maximum of 200%","Blight has 80% increased Area of Effect per second you have been Channelling, up to a maximum of 200%",Data/Crucible.lua
 兽园及熔炉工艺属性,Brand Recall has 40% reduced Cooldown Recovery Rate,Brand Recall has 40% reduced Cooldown Recovery Rate,Data/Crucible.lua
 兽园及熔炉工艺属性,Brand Recall has 60% reduced Cooldown Recovery Rate,Brand Recall has 60% reduced Cooldown Recovery Rate,Data/Crucible.lua
-兽园及熔炉工艺属性,Brands have 25% increased Area of Effect if 50% of Attached Duration expired,Brands have 25% increased Area of Effect if 50% of Attached Duration expired,Data/Crucible.lua
-兽园及熔炉工艺属性,Brands have 40% increased Area of Effect if 50% of Attached Duration expired,Brands have 40% increased Area of Effect if 50% of Attached Duration expired,Data/Crucible.lua
-兽园及熔炉工艺属性,Brands have 45% increased Area of Effect if 50% of Attached Duration expired,Brands have 45% increased Area of Effect if 50% of Attached Duration expired,Data/Crucible.lua
-兽园及熔炉工艺属性,Brands have 60% increased Area of Effect if 50% of Attached Duration expired,Brands have 60% increased Area of Effect if 50% of Attached Duration expired,Data/Crucible.lua
 兽园及熔炉工艺属性,Buffs on you expire 10% faster,Buffs on you expire 10% faster,Data/Crucible.lua
 兽园及熔炉工艺属性,Buffs on you expire 20% faster,Buffs on you expire 20% faster,Data/Crucible.lua
 兽园及熔炉工艺属性,Can use Bestiary Lures at Fishing Holes,Can use Bestiary Lures at Fishing Holes,Data/Crucible.lua
@@ -572,7 +562,6 @@
 兽园及熔炉工艺属性,Trigger Level 20 Summon Spectral Wolf on Critical Strike with Cleave or Reave,Trigger Level 20 Summon Spectral Wolf on Critical Strike with Cleave or Reave,Data/Crucible.lua
 兽园及熔炉工艺属性,Trigger Level 20 Tornado when you Attack with Split Arrow or Tornado Shot,Trigger Level 20 Tornado when you Attack with Split Arrow or Tornado Shot,Data/Crucible.lua
 兽园及熔炉工艺属性,Trigger a Socketed Spell every second while Channelling Blade Flurry or Charged Dash,Trigger a Socketed Spell every second while Channelling Blade Flurry or Charged Dash,Data/Crucible.lua
-兽园及熔炉工艺属性,Unaffected by Chill while Channelling,Unaffected by Chill while Channelling,Data/Crucible.lua
 兽园及熔炉工艺属性,Vaal Volcanic Fissure and Vaal Molten Strike have 40% reduced Soul Gain Prevention Duration,Vaal Volcanic Fissure and Vaal Molten Strike have 40% reduced Soul Gain Prevention Duration,Data/Crucible.lua
 兽园及熔炉工艺属性,Vaal Volcanic Fissure and Vaal Molten Strike have 80% reduced Soul Gain Prevention Duration,Vaal Volcanic Fissure and Vaal Molten Strike have 80% reduced Soul Gain Prevention Duration,Data/Crucible.lua
 兽园及熔炉工艺属性,Viper Strike and Pestilent Strike deal 25% increased Attack Damage per Frenzy Charge,Viper Strike and Pestilent Strike deal 25% increased Attack Damage per Frenzy Charge,Data/Crucible.lua

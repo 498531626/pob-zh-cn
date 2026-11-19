@@ -1,5 +1,5 @@
 {
-  "entries": 45054,
+  "entries": 45522,
   "gem_names": 1040,
   "glyphs": 2520,
   "font": "Noto Sans SC Medium (installed on local PC)",
@@ -64,13 +64,23 @@
     "paired_mod_records": 103475,
     "reviewed_legacy_entries": 38,
     "reviewed_legacy_templates": 34,
-    "exact_entries": 30502,
-    "numeric_templates": 6707,
-    "composed_entries": 10294,
+    "exact_entries": 30499,
+    "numeric_templates": 6715,
+    "composed_entries": 10291,
     "ambiguous_exact_resolved": 62,
     "ambiguous_templates_resolved": 25,
     "ambiguous_exact": 62,
     "ambiguous_templates": 25
+  },
+  "cluster_details": {
+    "counts": {
+      "nodes": 309,
+      "cluster-passive-name_occurrences": 309,
+      "cluster-passive-stats_occurrences": 700,
+      "cluster-passive-reminders_occurrences": 169
+    },
+    "pending": 0,
+    "reference_retrieved": "2026-11-19"
   },
   "database_details": {
     "obsolete_reviewed": [

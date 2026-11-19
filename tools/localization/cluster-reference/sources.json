@@ -1,0 +1,3702 @@
+{
+  "retrieved": "2026-11-19",
+  "tree_version": "3_30",
+  "sources": {
+    "Adrenaline": {
+      "us": {
+        "name": "Adrenaline",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e3ac92f2dbed9de6cdc2c864aa81bbfefe9e8614c7a65422fbe6d9ec7b01d838",
+        "sha256": "e3ac92f2dbed9de6cdc2c864aa81bbfefe9e8614c7a65422fbe6d9ec7b01d838"
+      },
+      "cn": {
+        "name": "肾上腺素",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/b8a556e2c4b0f52075af24628d16a27c9c1e6474fc6c1ac8199e5764e482f36b",
+        "sha256": "b8a556e2c4b0f52075af24628d16a27c9c1e6474fc6c1ac8199e5764e482f36b"
+      }
+    },
+    "Advance_Guard": {
+      "us": {
+        "name": "Advance Guard",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/2da7d54699bd945ce48ea0e79b4eca4cbe4cd7ce63cbbfd719e36f5bf43f5078",
+        "sha256": "2da7d54699bd945ce48ea0e79b4eca4cbe4cd7ce63cbbfd719e36f5bf43f5078"
+      },
+      "cn": {
+        "name": "先遣卫士",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/aa56daa5afb36b886f441bc1ce5957ea1af7ba5cae720f3ac60dbd50bf0c6cf3",
+        "sha256": "aa56daa5afb36b886f441bc1ce5957ea1af7ba5cae720f3ac60dbd50bf0c6cf3"
+      }
+    },
+    "Aerialist": {
+      "us": {
+        "name": "Aerialist",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/de7611ce1bfd6f52a7b2ff129074d3670ac276200dde35c22c2c971b3b3790f4",
+        "sha256": "de7611ce1bfd6f52a7b2ff129074d3670ac276200dde35c22c2c971b3b3790f4"
+      },
+      "cn": {
+        "name": "高空钢丝",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/2f9f8a16fced657e49e1d58edcd2779e3cd3d32f20e2d00bc9db06d12ec6cf3b",
+        "sha256": "2f9f8a16fced657e49e1d58edcd2779e3cd3d32f20e2d00bc9db06d12ec6cf3b"
+      }
+    },
+    "Aerodynamics": {
+      "us": {
+        "name": "Aerodynamics",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9aa927e73f77ac408e5680e7fd7862e7012468bae186095f4e6b3f33ac4c6456",
+        "sha256": "9aa927e73f77ac408e5680e7fd7862e7012468bae186095f4e6b3f33ac4c6456"
+      },
+      "cn": {
+        "name": "空气力学",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a6c91a8d90f677eb936e8a9730d0a2f5db0e2e58ca4eee595fde75a20dee8122",
+        "sha256": "a6c91a8d90f677eb936e8a9730d0a2f5db0e2e58ca4eee595fde75a20dee8122"
+      }
+    },
+    "Agent_of_Destruction": {
+      "us": {
+        "name": "Agent of Destruction",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/4926d6a621926cb52b6532c27f2bce3f1c8c79e8538bb5a409bcfe7428e145a1",
+        "sha256": "4926d6a621926cb52b6532c27f2bce3f1c8c79e8538bb5a409bcfe7428e145a1"
+      },
+      "cn": {
+        "name": "毁灭使徒",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7247017811e0c0dc76e991c2fdd8bda5b704eb0df246370fa99392125f7e7bc5",
+        "sha256": "7247017811e0c0dc76e991c2fdd8bda5b704eb0df246370fa99392125f7e7bc5"
+      }
+    },
+    "Aggressive_Defence": {
+      "us": {
+        "name": "Aggressive Defence",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/09a2377825e85aadd0c31f558893b11b77cb8d1f0d02d58a12e79e20f8394337",
+        "sha256": "09a2377825e85aadd0c31f558893b11b77cb8d1f0d02d58a12e79e20f8394337"
+      },
+      "cn": {
+        "name": "以攻为守",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/70d8a90c267a2bf724dcb24eb690d3718590f64932af505497003c79ad0688b8",
+        "sha256": "70d8a90c267a2bf724dcb24eb690d3718590f64932af505497003c79ad0688b8"
+      }
+    },
+    "Alchemist": {
+      "us": {
+        "name": "Alchemist",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/091ad255fba9edbcc20ab740acdeb18d038d9ad4f9f4e16b431c974501387ae9",
+        "sha256": "091ad255fba9edbcc20ab740acdeb18d038d9ad4f9f4e16b431c974501387ae9"
+      },
+      "cn": {
+        "name": "炼金师",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/de1e5e94f82ff31cafaa9d6396c074dde9a5643984df3b609f7d5b710a91c294",
+        "sha256": "de1e5e94f82ff31cafaa9d6396c074dde9a5643984df3b609f7d5b710a91c294"
+      }
+    },
+    "Ancestral_Echo": {
+      "us": {
+        "name": "Ancestral Echo",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/7cd4b6d0120737e3af695261728b555e8709e8950903f7947d662c7166c0ba03",
+        "sha256": "7cd4b6d0120737e3af695261728b555e8709e8950903f7947d662c7166c0ba03"
+      },
+      "cn": {
+        "name": "先祖回音",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/b55e74f8d76f7469e24bd07f4baab28a4d7bdba3f355bbd96dd9d7c629117e6f",
+        "sha256": "b55e74f8d76f7469e24bd07f4baab28a4d7bdba3f355bbd96dd9d7c629117e6f"
+      }
+    },
+    "Ancestral_Guidance": {
+      "us": {
+        "name": "Ancestral Guidance",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/42ed2dac6bb1dbab5734f03547d86612f63d2e8575877bbeff1cabbfcab47aa1",
+        "sha256": "42ed2dac6bb1dbab5734f03547d86612f63d2e8575877bbeff1cabbfcab47aa1"
+      },
+      "cn": {
+        "name": "先祖指引",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/5ebd202870162c6c4611df961de3ce77f181515e70918b1fa5d93c6f67ab6e7e",
+        "sha256": "5ebd202870162c6c4611df961de3ce77f181515e70918b1fa5d93c6f67ab6e7e"
+      }
+    },
+    "Ancestral_Inspiration": {
+      "us": {
+        "name": "Ancestral Inspiration",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/21eb631d1cad2daf7d9d3d00643e05453e239e8315f25fd9a77f40b271357d8a",
+        "sha256": "21eb631d1cad2daf7d9d3d00643e05453e239e8315f25fd9a77f40b271357d8a"
+      },
+      "cn": {
+        "name": "先祖教化",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/2db42ed3575c7d202b3b58fd4a9068a197e6d0ac4601db491c4625570714849c",
+        "sha256": "2db42ed3575c7d202b3b58fd4a9068a197e6d0ac4601db491c4625570714849c"
+      }
+    },
+    "Ancestral_Might": {
+      "us": {
+        "name": "Ancestral Might",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8a9b6c061c664db14711fd0d5b9dc32024573b00c2d12f113a0a44a3c3da2467",
+        "sha256": "8a9b6c061c664db14711fd0d5b9dc32024573b00c2d12f113a0a44a3c3da2467"
+      },
+      "cn": {
+        "name": "先祖之力",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/ac8c728227b41d7fc4212443015613c0088e13194b06ce077a1751868126eb8e",
+        "sha256": "ac8c728227b41d7fc4212443015613c0088e13194b06ce077a1751868126eb8e"
+      }
+    },
+    "Ancestral_Preservation": {
+      "us": {
+        "name": "Ancestral Preservation",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/5dba1b424326e709cd5d79c7ea0cc560e2fe645cd3a54f7503d59f9205b2012e",
+        "sha256": "5dba1b424326e709cd5d79c7ea0cc560e2fe645cd3a54f7503d59f9205b2012e"
+      },
+      "cn": {
+        "name": "先祖护佑",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/2b252ea8324055243c98a955edcc15c781d1707a73ef5aa9c04fdef67dc6d8c9",
+        "sha256": "2b252ea8324055243c98a955edcc15c781d1707a73ef5aa9c04fdef67dc6d8c9"
+      }
+    },
+    "Ancestral_Reach": {
+      "us": {
+        "name": "Ancestral Reach",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/57f9b85db5e67a1f23b45066e446e9ff9aa4c46b9dce3fe268113efeb1b1a032",
+        "sha256": "57f9b85db5e67a1f23b45066e446e9ff9aa4c46b9dce3fe268113efeb1b1a032"
+      },
+      "cn": {
+        "name": "先祖降临",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/684071463d4eeeed21780d10cae8da1341b1cf353380b586d8f84aa533e19680",
+        "sha256": "684071463d4eeeed21780d10cae8da1341b1cf353380b586d8f84aa533e19680"
+      }
+    },
+    "Antifreeze": {
+      "us": {
+        "name": "Antifreeze",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/0e178adf715f874720bcd54d877672f8714eec68fb5f4502c33679e19ae7d063",
+        "sha256": "0e178adf715f874720bcd54d877672f8714eec68fb5f4502c33679e19ae7d063"
+      },
+      "cn": {
+        "name": "防护冻结",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/208869068e118d01b20331eee04d687a4ae21abfa070896630a0ce5e4c7236b3",
+        "sha256": "208869068e118d01b20331eee04d687a4ae21abfa070896630a0ce5e4c7236b3"
+      }
+    },
+    "Antivenom": {
+      "us": {
+        "name": "Antivenom",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/6ab5480f00b14fb4f77f4b43761a3c465b5b946c56f713695771e0f3881e5cb9",
+        "sha256": "6ab5480f00b14fb4f77f4b43761a3c465b5b946c56f713695771e0f3881e5cb9"
+      },
+      "cn": {
+        "name": "防护毒素",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/59b18c2c813ef4869c5e8e78d0fe3f3b4a33e27d7922215c64af6248cb7878b7",
+        "sha256": "59b18c2c813ef4869c5e8e78d0fe3f3b4a33e27d7922215c64af6248cb7878b7"
+      }
+    },
+    "Arcane_Adept": {
+      "us": {
+        "name": "Arcane Adept",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/4c407ee574c4ed5eb54e06a14a6a744d39c492c79f26f3090cc047c3fcd8b5ef",
+        "sha256": "4c407ee574c4ed5eb54e06a14a6a744d39c492c79f26f3090cc047c3fcd8b5ef"
+      },
+      "cn": {
+        "name": "奥术专家",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c95dbaaea673cb67403a847c64e0632459a5ed6a199043a3bf2f7d58d2d51079",
+        "sha256": "c95dbaaea673cb67403a847c64e0632459a5ed6a199043a3bf2f7d58d2d51079"
+      }
+    },
+    "Arcane_Heroism": {
+      "us": {
+        "name": "Arcane Heroism",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b2b35531f91f9f65ddaf9192deedae548fb22557eb0af1ef81f9895ecd27eb06",
+        "sha256": "b2b35531f91f9f65ddaf9192deedae548fb22557eb0af1ef81f9895ecd27eb06"
+      },
+      "cn": {
+        "name": "奥术英姿",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/1f41ccd2d75f0f070c357f6054637bdfaadde2c269e0c7d33bf1e126673c6b79",
+        "sha256": "1f41ccd2d75f0f070c357f6054637bdfaadde2c269e0c7d33bf1e126673c6b79"
+      }
+    },
+    "Arcane_Pyrotechnics": {
+      "us": {
+        "name": "Arcane Pyrotechnics",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/c0e951a67b78ed32b8b03f4e3388e352674ad462d3eaaa8634846cff85291d4d",
+        "sha256": "c0e951a67b78ed32b8b03f4e3388e352674ad462d3eaaa8634846cff85291d4d"
+      },
+      "cn": {
+        "name": "奥术烟花",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f9b18be3fe36a88167e525e21aad155ade345a8de22a7fec394203c50e238ba8",
+        "sha256": "f9b18be3fe36a88167e525e21aad155ade345a8de22a7fec394203c50e238ba8"
+      }
+    },
+    "Arcing_Shot": {
+      "us": {
+        "name": "Arcing Shot",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/33d417e04b6c192362ab6549706506e1920c8a46f9d2d728b46e546065c13e00",
+        "sha256": "33d417e04b6c192362ab6549706506e1920c8a46f9d2d728b46e546065c13e00"
+      },
+      "cn": {
+        "name": "弧光箭",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/47c502566c1b4dc36fafc43eee07c6ba8e7ef15ed60cc6bf6575d85bbe0dbe57",
+        "sha256": "47c502566c1b4dc36fafc43eee07c6ba8e7ef15ed60cc6bf6575d85bbe0dbe57"
+      }
+    },
+    "Assert_Dominance": {
+      "us": {
+        "name": "Assert Dominance",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/2cbe8bcf5bd8275e95ccf870c51a06a6705d5dcfae87dc2d2e5800a20ad5a153",
+        "sha256": "2cbe8bcf5bd8275e95ccf870c51a06a6705d5dcfae87dc2d2e5800a20ad5a153"
+      },
+      "cn": {
+        "name": "独断宣言",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/fca4b2db057315d2c20b4977b2481fec1f196de9ab658b9ddbdcf6a39744ebc6",
+        "sha256": "fca4b2db057315d2c20b4977b2481fec1f196de9ab658b9ddbdcf6a39744ebc6"
+      }
+    },
+    "Astonishing_Affliction": {
+      "us": {
+        "name": "Astonishing Affliction",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b314506977083bd0c763833130ef4ac6dec1c3a4df4d422ed5d8d5231b049afa",
+        "sha256": "b314506977083bd0c763833130ef4ac6dec1c3a4df4d422ed5d8d5231b049afa"
+      },
+      "cn": {
+        "name": "惊怖酷刑",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/aa90ccf97e47ca5d0b2c5791b5e376a1cb857317801e56eebf2d718ae545396d",
+        "sha256": "aa90ccf97e47ca5d0b2c5791b5e376a1cb857317801e56eebf2d718ae545396d"
+      }
+    },
+    "Basics_of_Pain": {
+      "us": {
+        "name": "Basics of Pain",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/7301b4db685ee93970f8e9f4b0ea7b3e837a4b9359137d9e547f88c591f9cfb0",
+        "sha256": "7301b4db685ee93970f8e9f4b0ea7b3e837a4b9359137d9e547f88c591f9cfb0"
+      },
+      "cn": {
+        "name": "苦难根基",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/ef7eeb9bea8e77d64c105937f1c065d38d5435f334aa2737ca5c5c17a91edc7e",
+        "sha256": "ef7eeb9bea8e77d64c105937f1c065d38d5435f334aa2737ca5c5c17a91edc7e"
+      }
+    },
+    "Battle-Hardened": {
+      "us": {
+        "name": "Battle-Hardened",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/139167617f63dd62ead381b429680e6bb8b76fd91d2717e8d0932cc53527949a",
+        "sha256": "139167617f63dd62ead381b429680e6bb8b76fd91d2717e8d0932cc53527949a"
+      },
+      "cn": {
+        "name": "坚守战场",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/9bb51c2bc48d5e71a2bf3df1144b1c543f97e7ba498d319d57ceb45afe33761c",
+        "sha256": "9bb51c2bc48d5e71a2bf3df1144b1c543f97e7ba498d319d57ceb45afe33761c"
+      }
+    },
+    "Battlefield_Dominator": {
+      "us": {
+        "name": "Battlefield Dominator",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/c613147d7f8c6799440978f714adb876a3b7d3a1e5950a3fb4ceb9c96bba1ae1",
+        "sha256": "c613147d7f8c6799440978f714adb876a3b7d3a1e5950a3fb4ceb9c96bba1ae1"
+      },
+      "cn": {
+        "name": "战场主宰",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c0c06957ef02b8d5d99cefff9fe1ad01825d8c73f0f5e08a2351c8840b9fd325",
+        "sha256": "c0c06957ef02b8d5d99cefff9fe1ad01825d8c73f0f5e08a2351c8840b9fd325"
+      }
+    },
+    "Blacksmith": {
+      "us": {
+        "name": "Blacksmith",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/4ad7cfe0bacecb79e8dc427a4b4ffe569cd9c2d8c6c8b1326195bb8507481144",
+        "sha256": "4ad7cfe0bacecb79e8dc427a4b4ffe569cd9c2d8c6c8b1326195bb8507481144"
+      },
+      "cn": {
+        "name": "铁匠",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/987a963b68be3c40ca84b621485de0392823882717982686b5b9d35fb8b90029",
+        "sha256": "987a963b68be3c40ca84b621485de0392823882717982686b5b9d35fb8b90029"
+      }
+    },
+    "Blanketed_Snow": {
+      "us": {
+        "name": "Blanketed Snow",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/35b006a448a55fa2d6c7fc7134b4028032db95dfbee51d93e5ac3d68964de464",
+        "sha256": "35b006a448a55fa2d6c7fc7134b4028032db95dfbee51d93e5ac3d68964de464"
+      },
+      "cn": {
+        "name": "大雪漫天",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7432ec96f3630e0e21e6ab84a2f56fa063a3e0355984187134aaaa957819d540",
+        "sha256": "7432ec96f3630e0e21e6ab84a2f56fa063a3e0355984187134aaaa957819d540"
+      }
+    },
+    "Blast-Freeze": {
+      "us": {
+        "name": "Blast-Freeze",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8ceb2cfa83e438fe879fea41a21b30f173822e26bdf9379996db64c9e155bfb3",
+        "sha256": "8ceb2cfa83e438fe879fea41a21b30f173822e26bdf9379996db64c9e155bfb3"
+      },
+      "cn": {
+        "name": "千里冰封",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e7261bfca8acfd4d7b80f5359c4975b42178c358d1ca6e50f7e77e8df28b3f51",
+        "sha256": "e7261bfca8acfd4d7b80f5359c4975b42178c358d1ca6e50f7e77e8df28b3f51"
+      }
+    },
+    "Blessed": {
+      "us": {
+        "name": "Blessed",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8d30662915952db502ee19625f781fdac93b87efa213a95fe22c074e351f52ae",
+        "sha256": "8d30662915952db502ee19625f781fdac93b87efa213a95fe22c074e351f52ae"
+      },
+      "cn": {
+        "name": "受福",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/41ee5c5e28e28d01fd1a831fa7a5f9f631df1d87f39b9b0412a6c2b734ca21d5",
+        "sha256": "41ee5c5e28e28d01fd1a831fa7a5f9f631df1d87f39b9b0412a6c2b734ca21d5"
+      }
+    },
+    "Blessed_Rebirth": {
+      "us": {
+        "name": "Blessed Rebirth",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/4bc5ea3632457bc82af7923d293606e27669a14e7ed233f88a7e02609458285c",
+        "sha256": "4bc5ea3632457bc82af7923d293606e27669a14e7ed233f88a7e02609458285c"
+      },
+      "cn": {
+        "name": "受福重生",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/6e5453d20b16d71a582c06432c9c7982a872b78ef26e0b6e2cff67b321d22c6c",
+        "sha256": "6e5453d20b16d71a582c06432c9c7982a872b78ef26e0b6e2cff67b321d22c6c"
+      }
+    },
+    "Blizzard_Caller": {
+      "us": {
+        "name": "Blizzard Caller",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f34532d240fa9eb0dec8fb7e21f80c25cf1540c94e526eb1f3e18ba1af737dc8",
+        "sha256": "f34532d240fa9eb0dec8fb7e21f80c25cf1540c94e526eb1f3e18ba1af737dc8"
+      },
+      "cn": {
+        "name": "呼风唤雪",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/35f8b777f35652d4796509e339b21de3f731309d30be140dc484723a39db9b97",
+        "sha256": "35f8b777f35652d4796509e339b21de3f731309d30be140dc484723a39db9b97"
+      }
+    },
+    "Blood_Artist": {
+      "us": {
+        "name": "Blood Artist",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b16bded6319ec5860711940b969fb0b2ccb09f425d96e2e94a2f8403796bb3c9",
+        "sha256": "b16bded6319ec5860711940b969fb0b2ccb09f425d96e2e94a2f8403796bb3c9"
+      },
+      "cn": {
+        "name": "赤血造诣",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7d0b244e4a6ffc8d88ef67e2126f03a4fe3f8d4f0be59e314797e70337f75668",
+        "sha256": "7d0b244e4a6ffc8d88ef67e2126f03a4fe3f8d4f0be59e314797e70337f75668"
+      }
+    },
+    "Bloodscent": {
+      "us": {
+        "name": "Bloodscent",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d9914dbbcee8fd72e3daf2dd48fdeec192a57e3d7a2a9abc4f0796adadcb1ad0",
+        "sha256": "d9914dbbcee8fd72e3daf2dd48fdeec192a57e3d7a2a9abc4f0796adadcb1ad0"
+      },
+      "cn": {
+        "name": "鲜血之腥",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/16b591db3e6a51c581943c9e8d74570ff9556eaddcf14765c5a2b17ff455b4f1",
+        "sha256": "16b591db3e6a51c581943c9e8d74570ff9556eaddcf14765c5a2b17ff455b4f1"
+      }
+    },
+    "Blowback": {
+      "us": {
+        "name": "Blowback",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/a60d72dbe54a81852c053b41fe1be43e341e58f696f5773d2b998f986a6589bb",
+        "sha256": "a60d72dbe54a81852c053b41fe1be43e341e58f696f5773d2b998f986a6589bb"
+      },
+      "cn": {
+        "name": "还击",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/ae044b64fe6c3ae30091228d1292e90bd1128ff80ba9bac26c7e3ecec594edc2",
+        "sha256": "ae044b64fe6c3ae30091228d1292e90bd1128ff80ba9bac26c7e3ecec594edc2"
+      }
+    },
+    "Bodyguards": {
+      "us": {
+        "name": "Bodyguards",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/750fae7d6a08ee4504dbba11736ee35730d4ed1f9a31e4458919949ce93b6841",
+        "sha256": "750fae7d6a08ee4504dbba11736ee35730d4ed1f9a31e4458919949ce93b6841"
+      },
+      "cn": {
+        "name": "保镖",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/002e15e5ea64808e4f5805f04ebf971f7d7084bbb0e7dfae0eb66b8fe023699f",
+        "sha256": "002e15e5ea64808e4f5805f04ebf971f7d7084bbb0e7dfae0eb66b8fe023699f"
+      }
+    },
+    "Born_of_Chaos": {
+      "us": {
+        "name": "Born of Chaos",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e9e5522070d56d53b3c9fe869b6e0da5207d34c0d72cf70bfe661ea2186df558",
+        "sha256": "e9e5522070d56d53b3c9fe869b6e0da5207d34c0d72cf70bfe661ea2186df558"
+      },
+      "cn": {
+        "name": "混沌降生",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/74b875c5e9f685b3fb4bd7eda04e0726f649c202c1c3af44a3418fb9272d4584",
+        "sha256": "74b875c5e9f685b3fb4bd7eda04e0726f649c202c1c3af44a3418fb9272d4584"
+      }
+    },
+    "Brand_Loyalty": {
+      "us": {
+        "name": "Brand Loyalty",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/5e2ad21880d670d04bf6d604de66f3535b1197371ad1b8ae1ed946e57c49812b",
+        "sha256": "5e2ad21880d670d04bf6d604de66f3535b1197371ad1b8ae1ed946e57c49812b"
+      },
+      "cn": {
+        "name": "忠诚钢印",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/1ae63f697a4f5189110909ae96a96026d02f8412df5516e5c0ecdbd2d69bc3a8",
+        "sha256": "1ae63f697a4f5189110909ae96a96026d02f8412df5516e5c0ecdbd2d69bc3a8"
+      }
+    },
+    "Brewed_for_Potency": {
+      "us": {
+        "name": "Brewed for Potency",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/2bb53618ece065344ff3c6a48b5aa7fa767c7a8e9bf5710cabd2b4ebf3cb0906",
+        "sha256": "2bb53618ece065344ff3c6a48b5aa7fa767c7a8e9bf5710cabd2b4ebf3cb0906"
+      },
+      "cn": {
+        "name": "力量萃取",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/21d7dd4abd65892e2b4e152e7468c24c52d97c20eb49520015f899a289b2406a",
+        "sha256": "21d7dd4abd65892e2b4e152e7468c24c52d97c20eb49520015f899a289b2406a"
+      }
+    },
+    "Broadside": {
+      "us": {
+        "name": "Broadside",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/fe4188b4caa739eeccb52bdc530f0c3743dd40136765124399a6c2b8c4f2df2b",
+        "sha256": "fe4188b4caa739eeccb52bdc530f0c3743dd40136765124399a6c2b8c4f2df2b"
+      },
+      "cn": {
+        "name": "侧舷炮",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7fe416fc86001973df10e31b8b9f5f135b12712fcabc4fe43a539856809ba25f",
+        "sha256": "7fe416fc86001973df10e31b8b9f5f135b12712fcabc4fe43a539856809ba25f"
+      }
+    },
+    "Brush_with_Death": {
+      "us": {
+        "name": "Brush with Death",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b78bf88ec6dafb15ca4af4b356027dbd6f3034b69b8a68d88ce3e770a3799b54",
+        "sha256": "b78bf88ec6dafb15ca4af4b356027dbd6f3034b69b8a68d88ce3e770a3799b54"
+      },
+      "cn": {
+        "name": "梳洗之刑",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f6f912ee1bcc78772e9e451fa5ac519a1b3cbd0188a583028db8aa07ad39f528",
+        "sha256": "f6f912ee1bcc78772e9e451fa5ac519a1b3cbd0188a583028db8aa07ad39f528"
+      }
+    },
+    "Brutal_Infamy": {
+      "us": {
+        "name": "Brutal Infamy",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/dc1f180322c44bcc44a835872232807fbaa13fa931c35acd4125855f4dc4f074",
+        "sha256": "dc1f180322c44bcc44a835872232807fbaa13fa931c35acd4125855f4dc4f074"
+      },
+      "cn": {
+        "name": "恶名昭著",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/0f9d7dd6b6032aa17d8cc23a91bf0f02ca0542292039b6292ac2b63851e0d989",
+        "sha256": "0f9d7dd6b6032aa17d8cc23a91bf0f02ca0542292039b6292ac2b63851e0d989"
+      }
+    },
+    "Burden_Projection": {
+      "us": {
+        "name": "Burden Projection",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d9e83c933e9f002b9d5688303f34f5f1791e67c12b46c8303e341e0b85374565",
+        "sha256": "d9e83c933e9f002b9d5688303f34f5f1791e67c12b46c8303e341e0b85374565"
+      },
+      "cn": {
+        "name": "掷象功",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f88380ffba0cd179891720d3f28c36761523bf34357a2bb6175dbfff37aef303",
+        "sha256": "f88380ffba0cd179891720d3f28c36761523bf34357a2bb6175dbfff37aef303"
+      }
+    },
+    "Burning_Bright": {
+      "us": {
+        "name": "Burning Bright",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/af0f98fb0ab73b7f4c660a697bef0068352bbbe048aeea8016f3c529d876571c",
+        "sha256": "af0f98fb0ab73b7f4c660a697bef0068352bbbe048aeea8016f3c529d876571c"
+      },
+      "cn": {
+        "name": "熊熊燃烧",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e7d264ea4dc8be2c19cbdac18486df99ea27b89f702607c34a7abef19d7a4810",
+        "sha256": "e7d264ea4dc8be2c19cbdac18486df99ea27b89f702607c34a7abef19d7a4810"
+      }
+    },
+    "Calamitous": {
+      "us": {
+        "name": "Calamitous",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8588147d9baa75446e0d179109bbdb89362bce025593a71081647ae97c44ef01",
+        "sha256": "8588147d9baa75446e0d179109bbdb89362bce025593a71081647ae97c44ef01"
+      },
+      "cn": {
+        "name": "灾殃",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7c12ca119cac99cecbfc497c9b353737cf04cede770a529e34b83577810b1025",
+        "sha256": "7c12ca119cac99cecbfc497c9b353737cf04cede770a529e34b83577810b1025"
+      }
+    },
+    "Call_to_the_Slaughter": {
+      "us": {
+        "name": "Call to the Slaughter",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f58b00a03b6bc8b7139395f61f7eddac333cba152cd501e9fd9212f4d59b1952",
+        "sha256": "f58b00a03b6bc8b7139395f61f7eddac333cba152cd501e9fd9212f4d59b1952"
+      },
+      "cn": {
+        "name": "屠夫呼唤",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/af5ce6703d871083c59aa76e9f4f51b960aff8cf981d8882180ba1e7cb424f75",
+        "sha256": "af5ce6703d871083c59aa76e9f4f51b960aff8cf981d8882180ba1e7cb424f75"
+      }
+    },
+    "Capacitor": {
+      "us": {
+        "name": "Capacitor",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f082392483891131af3ddd0c7c2e46b8c7c62255c8360c3192765c6f07c41dd8",
+        "sha256": "f082392483891131af3ddd0c7c2e46b8c7c62255c8360c3192765c6f07c41dd8"
+      },
+      "cn": {
+        "name": "充能器",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/97bcdf5183b32b337d4f6f36d7ae7b8a6d6a77a7276424ca202cfdd89a0571f4",
+        "sha256": "97bcdf5183b32b337d4f6f36d7ae7b8a6d6a77a7276424ca202cfdd89a0571f4"
+      }
+    },
+    "Careful_Handling": {
+      "us": {
+        "name": "Careful Handling",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/ceed1a91cc59c3db91969821354eac324bff3f6169625eb8fce8c411b3682c14",
+        "sha256": "ceed1a91cc59c3db91969821354eac324bff3f6169625eb8fce8c411b3682c14"
+      },
+      "cn": {
+        "name": "谨慎操纵",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/6596399fb8069baa802429650e4be49364ae1882a0d68c742dfb6fde5a55b038",
+        "sha256": "6596399fb8069baa802429650e4be49364ae1882a0d68c742dfb6fde5a55b038"
+      }
+    },
+    "Chilling_Presence": {
+      "us": {
+        "name": "Chilling Presence",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/ad98431b4ff4778501f1a66bba82d065e037df89085640e95657d2993be8fc40",
+        "sha256": "ad98431b4ff4778501f1a66bba82d065e037df89085640e95657d2993be8fc40"
+      },
+      "cn": {
+        "name": "惊寒降临",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/15b9b1f05dbb07ba3f7286ee7f77402fe3162db2ef164fea61a9b8e12f5ddc92",
+        "sha256": "15b9b1f05dbb07ba3f7286ee7f77402fe3162db2ef164fea61a9b8e12f5ddc92"
+      }
+    },
+    "Chip_Away": {
+      "us": {
+        "name": "Chip Away",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/cca24bcf0e60840314321fb4eecc0f4127673ff20d57cf6d6b31c6ef93d65ac7",
+        "sha256": "cca24bcf0e60840314321fb4eecc0f4127673ff20d57cf6d6b31c6ef93d65ac7"
+      },
+      "cn": {
+        "name": "开凿",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/1829e3efe33451a56c587bfa9c79b7876a99c6f888d6d64d23d3105e8632e918",
+        "sha256": "1829e3efe33451a56c587bfa9c79b7876a99c6f888d6d64d23d3105e8632e918"
+      }
+    },
+    "Circling_Oblivion": {
+      "us": {
+        "name": "Circling Oblivion",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/4c690f448e4a19eb0ef08c7682ec2a497c9d586bb2024282b3de17f1676746ec",
+        "sha256": "4c690f448e4a19eb0ef08c7682ec2a497c9d586bb2024282b3de17f1676746ec"
+      },
+      "cn": {
+        "name": "循环湮灭",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/273a105e4c03f7d04f8318e51a37865667623bc5f33c11067dcd78903585292e",
+        "sha256": "273a105e4c03f7d04f8318e51a37865667623bc5f33c11067dcd78903585292e"
+      }
+    },
+    "Clarity_of_Purpose": {
+      "us": {
+        "name": "Clarity of Purpose",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/0076dc12e0542740c38c163a56dff5d35ee3266534e97305275c0c870d7fbe73",
+        "sha256": "0076dc12e0542740c38c163a56dff5d35ee3266534e97305275c0c870d7fbe73"
+      },
+      "cn": {
+        "name": "心意已决",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/65e471631b224fc913e0bf7960e999c4f7658e9156d90a38fc73e26d4a28d348",
+        "sha256": "65e471631b224fc913e0bf7960e999c4f7658e9156d90a38fc73e26d4a28d348"
+      }
+    },
+    "Cold-Blooded_Killer": {
+      "us": {
+        "name": "Cold-Blooded Killer",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/35444c9b8bbda0825ed74c51156bfca80ab96308840453aeb59b6ddef1a4fa4f",
+        "sha256": "35444c9b8bbda0825ed74c51156bfca80ab96308840453aeb59b6ddef1a4fa4f"
+      },
+      "cn": {
+        "name": "冷血杀手",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a7ce0e47d9b38eb8246d449eae2c683a99126220e662bc109bb6fbdf70b24e83",
+        "sha256": "a7ce0e47d9b38eb8246d449eae2c683a99126220e662bc109bb6fbdf70b24e83"
+      }
+    },
+    "Cold_Conduction": {
+      "us": {
+        "name": "Cold Conduction",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/c2c2b6ed7bf26beb7997afd8532e4ee4a9acac19aef4127264ccd0e7734b9823",
+        "sha256": "c2c2b6ed7bf26beb7997afd8532e4ee4a9acac19aef4127264ccd0e7734b9823"
+      },
+      "cn": {
+        "name": "寒冰导体",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7939d0ce5af8506286be30d4fe58dca7434070553e468c84d45cd3ff58fff582",
+        "sha256": "7939d0ce5af8506286be30d4fe58dca7434070553e468c84d45cd3ff58fff582"
+      }
+    },
+    "Cold_to_the_Core": {
+      "us": {
+        "name": "Cold to the Core",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9bbbffe9b62e4ceb221f72e31fbc00d11fc78998c82e8951bbab0d0ea181952d",
+        "sha256": "9bbbffe9b62e4ceb221f72e31fbc00d11fc78998c82e8951bbab0d0ea181952d"
+      },
+      "cn": {
+        "name": "冻彻心扉",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a4709d5f292a4dd221cf4bd3a886ac7e7132315f7e0bdc192d58084cc90c6a9f",
+        "sha256": "a4709d5f292a4dd221cf4bd3a886ac7e7132315f7e0bdc192d58084cc90c6a9f"
+      }
+    },
+    "Combat_Rhythm": {
+      "us": {
+        "name": "Combat Rhythm",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/c659530ba7e5c180ff2da567f2b9d74f6fa20e5dd3011f10bbce07bb970e3eb4",
+        "sha256": "c659530ba7e5c180ff2da567f2b9d74f6fa20e5dd3011f10bbce07bb970e3eb4"
+      },
+      "cn": {
+        "name": "韵律战法",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/76293e2dfc4441c7f95eb378ec60dc0916c94f642c5ee8127b517d3b66187972",
+        "sha256": "76293e2dfc4441c7f95eb378ec60dc0916c94f642c5ee8127b517d3b66187972"
+      }
+    },
+    "Compound_Injury": {
+      "us": {
+        "name": "Compound Injury",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/94c7e336049cfdb1aab6a211e64d22391adcee23871d9fbd876e058e56743ace",
+        "sha256": "94c7e336049cfdb1aab6a211e64d22391adcee23871d9fbd876e058e56743ace"
+      },
+      "cn": {
+        "name": "老痕新伤",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/361765a38a2ce17e019c2ab3fa3fef47da370b8317abfc45dddec221c54fe5c6",
+        "sha256": "361765a38a2ce17e019c2ab3fa3fef47da370b8317abfc45dddec221c54fe5c6"
+      }
+    },
+    "Confident_Combatant": {
+      "us": {
+        "name": "Confident Combatant",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d56b5356e2076f5b3bd3ac79b8f73df9b77a29e18b32b1a960cdf61f14a2d938",
+        "sha256": "d56b5356e2076f5b3bd3ac79b8f73df9b77a29e18b32b1a960cdf61f14a2d938"
+      },
+      "cn": {
+        "name": "自信斗士",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/56df2209dc67eea48876466747e52b2a09521928c00490dc6a9b4d3be666ca5f",
+        "sha256": "56df2209dc67eea48876466747e52b2a09521928c00490dc6a9b4d3be666ca5f"
+      }
+    },
+    "Conjured_Wall": {
+      "us": {
+        "name": "Conjured Wall",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/48d38e774a57e4adf13b3590c4fae423a20ab36be0f26605d40878d0aa116917",
+        "sha256": "48d38e774a57e4adf13b3590c4fae423a20ab36be0f26605d40878d0aa116917"
+      },
+      "cn": {
+        "name": "咒法之墙",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a09d3730caf56cfcac0a45e75a2851986b5d27d7c97fa5e5486c0c8adf9056de",
+        "sha256": "a09d3730caf56cfcac0a45e75a2851986b5d27d7c97fa5e5486c0c8adf9056de"
+      }
+    },
+    "Conservation_of_Energy": {
+      "us": {
+        "name": "Conservation of Energy",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8b0b8d434b87fca100a5e250e792ee797452caa36f014507572aa3a0f12c8433",
+        "sha256": "8b0b8d434b87fca100a5e250e792ee797452caa36f014507572aa3a0f12c8433"
+      },
+      "cn": {
+        "name": "能量留存",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/65e8174991184af80b31ad5284c68e2247a3419b2ac416ee2a1c0fb38c3f1eb9",
+        "sha256": "65e8174991184af80b31ad5284c68e2247a3419b2ac416ee2a1c0fb38c3f1eb9"
+      }
+    },
+    "Cooked_Alive": {
+      "us": {
+        "name": "Cooked Alive",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/be805a8e419d1241501acf84c5d1c207da3e0e0e438cf534a9a2325f47dc0c9b",
+        "sha256": "be805a8e419d1241501acf84c5d1c207da3e0e0e438cf534a9a2325f47dc0c9b"
+      },
+      "cn": {
+        "name": "汤镬",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/d0f06ef8b3f5a929ebe54994ac9b91f4173ea95a8966cf2316de730f2c9539c4",
+        "sha256": "d0f06ef8b3f5a929ebe54994ac9b91f4173ea95a8966cf2316de730f2c9539c4"
+      }
+    },
+    "Corrosive_Elements": {
+      "us": {
+        "name": "Corrosive Elements",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/97f2f9ae12d95707bbadb6afad28c5cddddc9d29d49f7c4464d5e1e24af415e1",
+        "sha256": "97f2f9ae12d95707bbadb6afad28c5cddddc9d29d49f7c4464d5e1e24af415e1"
+      },
+      "cn": {
+        "name": "腐蚀元素",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/18949cb6c5611828f34ade74150e6dc3bd8fa96d1b7cc89b4bcddf9cc503fba1",
+        "sha256": "18949cb6c5611828f34ade74150e6dc3bd8fa96d1b7cc89b4bcddf9cc503fba1"
+      }
+    },
+    "Cremator": {
+      "us": {
+        "name": "Cremator",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/2304e2e80cf7224422cc83bdf45f99c3c3696cfcb20434bf223bf1c5d4e76910",
+        "sha256": "2304e2e80cf7224422cc83bdf45f99c3c3696cfcb20434bf223bf1c5d4e76910"
+      },
+      "cn": {
+        "name": "焚化炉",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7297691bd817e1feea93e4f6746fac8d2dcd51704bcfbb9d25214b69e0771bc2",
+        "sha256": "7297691bd817e1feea93e4f6746fac8d2dcd51704bcfbb9d25214b69e0771bc2"
+      }
+    },
+    "Cry_Wolf": {
+      "us": {
+        "name": "Cry Wolf",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/c40947f2f4d873480e38422716ff0a3b5ffcde33e16ddf74cb64bacd657ac524",
+        "sha256": "c40947f2f4d873480e38422716ff0a3b5ffcde33e16ddf74cb64bacd657ac524"
+      },
+      "cn": {
+        "name": "恶狼哭号",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/46e5f282aae52e342422789532da91b9dc9497052e820e4b24e63e707d888c3d",
+        "sha256": "46e5f282aae52e342422789532da91b9dc9497052e820e4b24e63e707d888c3d"
+      }
+    },
+    "Cult-Leader": {
+      "us": {
+        "name": "Cult-Leader",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/756c52acc7123ea50fbdc3fb53de2aa883895bf316c1914ba07cd19112b3ce8d",
+        "sha256": "756c52acc7123ea50fbdc3fb53de2aa883895bf316c1914ba07cd19112b3ce8d"
+      },
+      "cn": {
+        "name": "祭仪领袖",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a919eada9dcc2fc0546113dccb5684057c5ef881eebb665d89d1ad0d6a18ce08",
+        "sha256": "a919eada9dcc2fc0546113dccb5684057c5ef881eebb665d89d1ad0d6a18ce08"
+      }
+    },
+    "Daring_Ideas": {
+      "us": {
+        "name": "Daring Ideas",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/55cf4076e99dc7674c5fce8ee327879f368b42be98c709e23a18683ff2dfd8fc",
+        "sha256": "55cf4076e99dc7674c5fce8ee327879f368b42be98c709e23a18683ff2dfd8fc"
+      },
+      "cn": {
+        "name": "激进理念",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7c45d7e799d1719b59d57f8defcd3680d448cdac75a4e0c0ffd66d27c8cf5efe",
+        "sha256": "7c45d7e799d1719b59d57f8defcd3680d448cdac75a4e0c0ffd66d27c8cf5efe"
+      }
+    },
+    "Dark_Ideation": {
+      "us": {
+        "name": "Dark Ideation",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/982f2be7f78c2f1206d235575621b3b6334e0a546a8f3fa28290de936f91f043",
+        "sha256": "982f2be7f78c2f1206d235575621b3b6334e0a546a8f3fa28290de936f91f043"
+      },
+      "cn": {
+        "name": "黑暗构想",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f3e9f4617deb9b7ebf0c593d98b4c0063bb368a7bd59088bd7056a50c0146ff4",
+        "sha256": "f3e9f4617deb9b7ebf0c593d98b4c0063bb368a7bd59088bd7056a50c0146ff4"
+      }
+    },
+    "Dark_Messenger": {
+      "us": {
+        "name": "Dark Messenger",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/94cdd91c872bfe5990dd0b65b3017588228622a40c7e6194c23595c6c8499997",
+        "sha256": "94cdd91c872bfe5990dd0b65b3017588228622a40c7e6194c23595c6c8499997"
+      },
+      "cn": {
+        "name": "黑暗使者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/8c6ba0a6c8fef6583286430a0437840807759f59f939f8bcc6a785da38170905",
+        "sha256": "8c6ba0a6c8fef6583286430a0437840807759f59f939f8bcc6a785da38170905"
+      }
+    },
+    "Darting_Movements": {
+      "us": {
+        "name": "Darting Movements",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d6a4c1ecd922ef9e151af0e9fb135b4c2adebb7bab5ff5910f7d9e5849f965cd",
+        "sha256": "d6a4c1ecd922ef9e151af0e9fb135b4c2adebb7bab5ff5910f7d9e5849f965cd"
+      },
+      "cn": {
+        "name": "突进时刻",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/cd729bbfd771d08b79058aaaf498bc2adf97a9e0ae1764359e446e4edf86efcb",
+        "sha256": "cd729bbfd771d08b79058aaaf498bc2adf97a9e0ae1764359e446e4edf86efcb"
+      }
+    },
+    "Deadly_Repartee": {
+      "us": {
+        "name": "Deadly Repartee",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/35894c9990b594a2e625231c84fd58965020dee15a166d1f5e62902878435bf1",
+        "sha256": "35894c9990b594a2e625231c84fd58965020dee15a166d1f5e62902878435bf1"
+      },
+      "cn": {
+        "name": "疾雨摧花",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/00ebb2f358f1db07a8f42c399b8d8e2114fb45eee285eb500a7c53b7448fcbcf",
+        "sha256": "00ebb2f358f1db07a8f42c399b8d8e2114fb45eee285eb500a7c53b7448fcbcf"
+      }
+    },
+    "Deep_Chill": {
+      "us": {
+        "name": "Deep Chill",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/36e1ca4d0e0786283181c0494f5fedfbacffdbfd7d8bd4482817529a3baf1fa8",
+        "sha256": "36e1ca4d0e0786283181c0494f5fedfbacffdbfd7d8bd4482817529a3baf1fa8"
+      },
+      "cn": {
+        "name": "深寒",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/21eec517155e89b085269c44450c7680a318caac3698e0c57c059776d2637e50",
+        "sha256": "21eec517155e89b085269c44450c7680a318caac3698e0c57c059776d2637e50"
+      }
+    },
+    "Deep_Cuts": {
+      "us": {
+        "name": "Deep Cuts",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/5e8ccfbfbcd16ce96cfb74d6a8750832b19f1e16bb8882114de9539c4dff9d38",
+        "sha256": "5e8ccfbfbcd16ce96cfb74d6a8750832b19f1e16bb8882114de9539c4dff9d38"
+      },
+      "cn": {
+        "name": "凌迟",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/4846a13c5457db3abb443ed8fdad6feaf1a0100af2809f225a95e7ad4e9d22cb",
+        "sha256": "4846a13c5457db3abb443ed8fdad6feaf1a0100af2809f225a95e7ad4e9d22cb"
+      }
+    },
+    "Destructive_Aspect": {
+      "us": {
+        "name": "Destructive Aspect",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/7e3f5b5140a7d93e9caae3ab3dc26dcf8fb6503e00ff062b5de339888ffa56b5",
+        "sha256": "7e3f5b5140a7d93e9caae3ab3dc26dcf8fb6503e00ff062b5de339888ffa56b5"
+      },
+      "cn": {
+        "name": "毁灭之相",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/07658dbeeeed405abb3854081aabb861226a7ba239f9f4e8b4fd41e003760095",
+        "sha256": "07658dbeeeed405abb3854081aabb861226a7ba239f9f4e8b4fd41e003760095"
+      }
+    },
+    "Devastator": {
+      "us": {
+        "name": "Devastator",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/05259633a1c8bd83ad94d4d454f2dca28074e69051f4d450ec46a0cf3a76fd95",
+        "sha256": "05259633a1c8bd83ad94d4d454f2dca28074e69051f4d450ec46a0cf3a76fd95"
+      },
+      "cn": {
+        "name": "破坏者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f4bf7a9e8e3e417b8839cd09a6b0ccb19e301b7ad9504e692ac1b55d0f9f6f58",
+        "sha256": "f4bf7a9e8e3e417b8839cd09a6b0ccb19e301b7ad9504e692ac1b55d0f9f6f58"
+      }
+    },
+    "Disciple_of_Kitava": {
+      "us": {
+        "name": "Disciple of Kitava",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/28f6c15496349c7ed3853e8cfba42f575a25651216122270784cc33b053da903",
+        "sha256": "28f6c15496349c7ed3853e8cfba42f575a25651216122270784cc33b053da903"
+      },
+      "cn": {
+        "name": "奇塔弗门徒",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7cfb8cae0856f6536e90600cef1245c9beb4c71e8a6de1e51703b8190b7b7f92",
+        "sha256": "7cfb8cae0856f6536e90600cef1245c9beb4c71e8a6de1e51703b8190b7b7f92"
+      }
+    },
+    "Disciples": {
+      "us": {
+        "name": "Disciples",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b86bbbd018864ccddcf690c7178291c1c0e13ee9c6816e1818871879f30148fc",
+        "sha256": "b86bbbd018864ccddcf690c7178291c1c0e13ee9c6816e1818871879f30148fc"
+      },
+      "cn": {
+        "name": "门徒",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/3dd4dfee2061f4e8449503a5b8c79f5214db260fd12455c991c90dcec28df4b1",
+        "sha256": "3dd4dfee2061f4e8449503a5b8c79f5214db260fd12455c991c90dcec28df4b1"
+      }
+    },
+    "Disease_Vector": {
+      "us": {
+        "name": "Disease Vector",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/aa41bc19b8bbf43f9bfce2c1fe59e7949123cfd535c91c2c782a30d6878d421a",
+        "sha256": "aa41bc19b8bbf43f9bfce2c1fe59e7949123cfd535c91c2c782a30d6878d421a"
+      },
+      "cn": {
+        "name": "疫病弥漫",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/85449db3010a116f07d7a4e151124d2c5dc04db67f82ee8877670e1924425b6a",
+        "sha256": "85449db3010a116f07d7a4e151124d2c5dc04db67f82ee8877670e1924425b6a"
+      }
+    },
+    "Disorienting_Display": {
+      "us": {
+        "name": "Disorienting Display",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9d85d5fcdfd9f81f214a5e30c8d55015ba733fd963a8313b3cd1107aeaaa84d5",
+        "sha256": "9d85d5fcdfd9f81f214a5e30c8d55015ba733fd963a8313b3cd1107aeaaa84d5"
+      },
+      "cn": {
+        "name": "心神错乱",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/b0e97f09180f8ad258566fb8d754ce0446cd2ae27f4b80f5f83673dca279bc59",
+        "sha256": "b0e97f09180f8ad258566fb8d754ce0446cd2ae27f4b80f5f83673dca279bc59"
+      }
+    },
+    "Disorienting_Wounds": {
+      "us": {
+        "name": "Disorienting Wounds",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/64467575f83f5d513d66dce4640c9ebace8c49e58c81935d19a8f15c3bedf3ca",
+        "sha256": "64467575f83f5d513d66dce4640c9ebace8c49e58c81935d19a8f15c3bedf3ca"
+      },
+      "cn": {
+        "name": "累累伤痕",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/1b62aeb5e62603ebef067a772c368650f849bacaca81235d6cbd6964e4cccd1f",
+        "sha256": "1b62aeb5e62603ebef067a772c368650f849bacaca81235d6cbd6964e4cccd1f"
+      }
+    },
+    "Distilled_Perfection": {
+      "us": {
+        "name": "Distilled Perfection",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/68fc4e839c750e674835850c49fdf7d88be6135d8a524bde7dedec667756bd1b",
+        "sha256": "68fc4e839c750e674835850c49fdf7d88be6135d8a524bde7dedec667756bd1b"
+      },
+      "cn": {
+        "name": "完美无暇",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/16aeb89fd8cf65d3be0fd606df002a0cab492dfd6a5bc14135a9ff820baa4b6a",
+        "sha256": "16aeb89fd8cf65d3be0fd606df002a0cab492dfd6a5bc14135a9ff820baa4b6a"
+      }
+    },
+    "Doedres_Apathy": {
+      "us": {
+        "name": "Doedre's Apathy",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/3207739b2fef9601f2a43f6aac5377b5427beafeb211e79d275e348f02c7f9f3",
+        "sha256": "3207739b2fef9601f2a43f6aac5377b5427beafeb211e79d275e348f02c7f9f3"
+      },
+      "cn": {
+        "name": "德瑞的冷漠",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a952b233d7e7829b274cd0ef355a4f22fb7cab95f4f7243d55444a87df2271b7",
+        "sha256": "a952b233d7e7829b274cd0ef355a4f22fb7cab95f4f7243d55444a87df2271b7"
+      }
+    },
+    "Doedres_Gluttony": {
+      "us": {
+        "name": "Doedre's Gluttony",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/0724ad74a8f9f5f4659e89c15cea3be50d12af44ae030ae4f984d8ebb5db860f",
+        "sha256": "0724ad74a8f9f5f4659e89c15cea3be50d12af44ae030ae4f984d8ebb5db860f"
+      },
+      "cn": {
+        "name": "德瑞的饕餮",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7be05131a79406fd507d03e3a6ab47a28fa90772a97cdd10c5ed31d75533c943",
+        "sha256": "7be05131a79406fd507d03e3a6ab47a28fa90772a97cdd10c5ed31d75533c943"
+      }
+    },
+    "Doedres_Spite": {
+      "us": {
+        "name": "Doedre's Spite",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/40ef76661bc9c3cf0aaec2bcf031ec319a93d3f666fece0b6af63c399b4b5ee1",
+        "sha256": "40ef76661bc9c3cf0aaec2bcf031ec319a93d3f666fece0b6af63c399b4b5ee1"
+      },
+      "cn": {
+        "name": "德瑞的怨恨",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e3733102ac1ceeab3bb02311a4c98f7432d6af8aa8fd4b3b5af8031c35b8df2b",
+        "sha256": "e3733102ac1ceeab3bb02311a4c98f7432d6af8aa8fd4b3b5af8031c35b8df2b"
+      }
+    },
+    "Doryanis_Lesson": {
+      "us": {
+        "name": "Doryani's Lesson",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/36aebabb36fa0266a02531ea2be8234ad3f7e2d6dbe52cf9ec580fea5c7c6394",
+        "sha256": "36aebabb36fa0266a02531ea2be8234ad3f7e2d6dbe52cf9ec580fea5c7c6394"
+      },
+      "cn": {
+        "name": "多里亚尼之训",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/3fa0c7d0dd0424311fa657017c6626726ef603c06d9cf8875f3e50e94e7b78e3",
+        "sha256": "3fa0c7d0dd0424311fa657017c6626726ef603c06d9cf8875f3e50e94e7b78e3"
+      }
+    },
+    "Dragon_Hunter": {
+      "us": {
+        "name": "Dragon Hunter",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/02c2808b5608a6daef2405ec225f416f572c282ff0131caf7d0f75f3485ae06b",
+        "sha256": "02c2808b5608a6daef2405ec225f416f572c282ff0131caf7d0f75f3485ae06b"
+      },
+      "cn": {
+        "name": "屠龙猎手",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/81c3a88d2050ae12ec83d05ba18001005e19e1a946c1be45ddc9a7af356cfa58",
+        "sha256": "81c3a88d2050ae12ec83d05ba18001005e19e1a946c1be45ddc9a7af356cfa58"
+      }
+    },
+    "Dread_March": {
+      "us": {
+        "name": "Dread March",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/038223e4f6f3a5442ab23eca4ed57bc924dcc09cae90e06ad4317f94230bf2bc",
+        "sha256": "038223e4f6f3a5442ab23eca4ed57bc924dcc09cae90e06ad4317f94230bf2bc"
+      },
+      "cn": {
+        "name": "致命行军",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/fd46793b3829d96f8563ebacc8eec7f00865ff5a6758d71581e76ddfce2d8614",
+        "sha256": "fd46793b3829d96f8563ebacc8eec7f00865ff5a6758d71581e76ddfce2d8614"
+      }
+    },
+    "Drive_the_Destruction": {
+      "us": {
+        "name": "Drive the Destruction",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/3cf4fbafb18829e8599ace5c8daf561170ceb59d6b15dd3947410592ed69253d",
+        "sha256": "3cf4fbafb18829e8599ace5c8daf561170ceb59d6b15dd3947410592ed69253d"
+      },
+      "cn": {
+        "name": "毁灭引擎",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/df2f2f920aafa95e8ae1407060b2758575812a3dafc13200acd30468ecc127a4",
+        "sha256": "df2f2f920aafa95e8ae1407060b2758575812a3dafc13200acd30468ecc127a4"
+      }
+    },
+    "Eldritch_Inspiration": {
+      "us": {
+        "name": "Eldritch Inspiration",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/aab8890a757faec2c5cc135e6a560680301aa90bd1c39a1f4c5d65bb39ab2f51",
+        "sha256": "aab8890a757faec2c5cc135e6a560680301aa90bd1c39a1f4c5d65bb39ab2f51"
+      },
+      "cn": {
+        "name": "旧神启迪",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/32e5749835621e1de210afd251ca181861359c70e746047d8e0ac61c93d91899",
+        "sha256": "32e5749835621e1de210afd251ca181861359c70e746047d8e0ac61c93d91899"
+      }
+    },
+    "Electric_Presence": {
+      "us": {
+        "name": "Electric Presence",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d7a1fbc1d5d6f661b5d4bf754fefceedfc8af62b617a028b4abd4e7315049834",
+        "sha256": "d7a1fbc1d5d6f661b5d4bf754fefceedfc8af62b617a028b4abd4e7315049834"
+      },
+      "cn": {
+        "name": "电震姿态",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7da5c613efefd8479a6cfa192eb5bf00413fea77d1b7042d97a90d1351864c25",
+        "sha256": "7da5c613efefd8479a6cfa192eb5bf00413fea77d1b7042d97a90d1351864c25"
+      }
+    },
+    "Elegant_Form": {
+      "us": {
+        "name": "Elegant Form",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b26b32d78688fc956c1183198bbab102b17f711c31de1a0163416cedaf79e8b9",
+        "sha256": "b26b32d78688fc956c1183198bbab102b17f711c31de1a0163416cedaf79e8b9"
+      },
+      "cn": {
+        "name": "优雅形体",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/3be355c4171f67ceeacb891ca6cb8d9c5889d259cb61b6d4875899f97866127a",
+        "sha256": "3be355c4171f67ceeacb891ca6cb8d9c5889d259cb61b6d4875899f97866127a"
+      }
+    },
+    "Empowered_Envoy": {
+      "us": {
+        "name": "Empowered Envoy",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/bde46d39ac7bbd1d8a2fb3e666a0bd861877498a2ea4b802a35b599669e5be9b",
+        "sha256": "bde46d39ac7bbd1d8a2fb3e666a0bd861877498a2ea4b802a35b599669e5be9b"
+      },
+      "cn": {
+        "name": "赋能使者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f55f94ccfa535ce0f8825fd4a994628da1add61f4760d47e0005275ca6e4318a",
+        "sha256": "f55f94ccfa535ce0f8825fd4a994628da1add61f4760d47e0005275ca6e4318a"
+      }
+    },
+    "Endbringer": {
+      "us": {
+        "name": "Endbringer",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/ec1ff5b314dd1bc4a7a8f0a3512c2699b3b65ca767946be996c5ab48d2ea8441",
+        "sha256": "ec1ff5b314dd1bc4a7a8f0a3512c2699b3b65ca767946be996c5ab48d2ea8441"
+      },
+      "cn": {
+        "name": "末日使者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/eb327ec56cbe4049609cb2aecd2804dca7db3f71df25da7b4cb2e1ee82b96d8f",
+        "sha256": "eb327ec56cbe4049609cb2aecd2804dca7db3f71df25da7b4cb2e1ee82b96d8f"
+      }
+    },
+    "Enduring_Composure": {
+      "us": {
+        "name": "Enduring Composure",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/2339e041fa3fb950fadd56439ce1009b3bbd841c106a52a8ce898c609f20488d",
+        "sha256": "2339e041fa3fb950fadd56439ce1009b3bbd841c106a52a8ce898c609f20488d"
+      },
+      "cn": {
+        "name": "持久冷静",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c0095e90ee275672affd3f8e52a921ffba56fbdb8143e5c1b28e00aa7249990c",
+        "sha256": "c0095e90ee275672affd3f8e52a921ffba56fbdb8143e5c1b28e00aa7249990c"
+      }
+    },
+    "Enduring_Focus": {
+      "us": {
+        "name": "Enduring Focus",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8818239b21fa2230cee9b55f2d9487d60fb64a1cdcd84998db85fefe23515fbc",
+        "sha256": "8818239b21fa2230cee9b55f2d9487d60fb64a1cdcd84998db85fefe23515fbc"
+      },
+      "cn": {
+        "name": "持久专注",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a631425de0aa1795fb571455e6d1c5bf3f0d2bf10a5ca3f83cee3b250897567a",
+        "sha256": "a631425de0aa1795fb571455e6d1c5bf3f0d2bf10a5ca3f83cee3b250897567a"
+      }
+    },
+    "Enduring_Ward": {
+      "us": {
+        "name": "Enduring Ward",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/2686ce9b8e38d95d0cfd229fa53a6afe98d19b92ce9d3610b22c1e3afab5dd10",
+        "sha256": "2686ce9b8e38d95d0cfd229fa53a6afe98d19b92ce9d3610b22c1e3afab5dd10"
+      },
+      "cn": {
+        "name": "持久结界",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/5f3bba90646d0203ae19aef4821df51a1515b912500b40166d34aa7bb48a3e91",
+        "sha256": "5f3bba90646d0203ae19aef4821df51a1515b912500b40166d34aa7bb48a3e91"
+      }
+    },
+    "Energy_From_Naught": {
+      "us": {
+        "name": "Energy From Naught",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/a9645a8238635cb9f7876373962e6a1058ffdbcb193020462e6c38e90a4bf930",
+        "sha256": "a9645a8238635cb9f7876373962e6a1058ffdbcb193020462e6c38e90a4bf930"
+      },
+      "cn": {
+        "name": "无中生有",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/0d2bd936c59ed99d11b015edf16c8d959c56831ea267558e3abb29e6afb2b241",
+        "sha256": "0d2bd936c59ed99d11b015edf16c8d959c56831ea267558e3abb29e6afb2b241"
+      }
+    },
+    "Essence_Rush": {
+      "us": {
+        "name": "Essence Rush",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/645745e0fa9028b9505fd98a074986e010afff2953235ea93b0c05b70778ff92",
+        "sha256": "645745e0fa9028b9505fd98a074986e010afff2953235ea93b0c05b70778ff92"
+      },
+      "cn": {
+        "name": "精华疾攻",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/6ed730c58bf4eccffc0fe4f79fcd6f710fecb5be2946b74ce9eb4d776dc948c4",
+        "sha256": "6ed730c58bf4eccffc0fe4f79fcd6f710fecb5be2946b74ce9eb4d776dc948c4"
+      }
+    },
+    "Eternal_Suffering": {
+      "us": {
+        "name": "Eternal Suffering",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/1c5b72965b1169cfdc8b4a6b4da1fb2c6e5b715eb54dfdfa77dad50c0f5a721d",
+        "sha256": "1c5b72965b1169cfdc8b4a6b4da1fb2c6e5b715eb54dfdfa77dad50c0f5a721d"
+      },
+      "cn": {
+        "name": "永恒苦难",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/6859e99832b4d7ed2eeeb015f62fd31cf6f23209f841163f480fc2da4774d72b",
+        "sha256": "6859e99832b4d7ed2eeeb015f62fd31cf6f23209f841163f480fc2da4774d72b"
+      }
+    },
+    "Evil_Eye": {
+      "us": {
+        "name": "Evil Eye",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d116ae5d8605bb1f76536c353808cecbd5eee52765768af9b83c815d51276e33",
+        "sha256": "d116ae5d8605bb1f76536c353808cecbd5eee52765768af9b83c815d51276e33"
+      },
+      "cn": {
+        "name": "邪恶之眼",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/cbc64a6e1e463500b9c4b59867c36de2c5aa806d0062c2208d6148c22f1f7786",
+        "sha256": "cbc64a6e1e463500b9c4b59867c36de2c5aa806d0062c2208d6148c22f1f7786"
+      }
+    },
+    "Expansive_Might": {
+      "us": {
+        "name": "Expansive Might",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f7ce248bdc3ccc7f788a7c9f44d1bc860cdebc52a3179543203ff6118767a882",
+        "sha256": "f7ce248bdc3ccc7f788a7c9f44d1bc860cdebc52a3179543203ff6118767a882"
+      },
+      "cn": {
+        "name": "万象之力",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/4222723997e4da2ea88af7034b88b2faa07462339a7fc8b2057e83812f7769e7",
+        "sha256": "4222723997e4da2ea88af7034b88b2faa07462339a7fc8b2057e83812f7769e7"
+      }
+    },
+    "Expendability": {
+      "us": {
+        "name": "Expendability",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9a0091daaad281d85df368553d7d6cb1d5141c24aeb93acd49569752e131eb90",
+        "sha256": "9a0091daaad281d85df368553d7d6cb1d5141c24aeb93acd49569752e131eb90"
+      },
+      "cn": {
+        "name": "扩张",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/1198667ccd84ffbecd60ccad891fb6183a0c68ee54fb21f806ffda094950b956",
+        "sha256": "1198667ccd84ffbecd60ccad891fb6183a0c68ee54fb21f806ffda094950b956"
+      }
+    },
+    "Expert_Sabotage": {
+      "us": {
+        "name": "Expert Sabotage",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/22fcb0ac94501f9d1637a3a1578e7b6605a097ee539f3ba74fb2b089efa194f4",
+        "sha256": "22fcb0ac94501f9d1637a3a1578e7b6605a097ee539f3ba74fb2b089efa194f4"
+      },
+      "cn": {
+        "name": "破坏专家",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/bddbde2949dfbe7f71a2bcf4ba2c978c39bf1ad4b9f89af40e2937e30c45b565",
+        "sha256": "bddbde2949dfbe7f71a2bcf4ba2c978c39bf1ad4b9f89af40e2937e30c45b565"
+      }
+    },
+    "Exploit_Weakness": {
+      "us": {
+        "name": "Exploit Weakness",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/ba797b5791d3e7894cd746bf5c6d3d40fa7d22371f5737dc13e5ab76b820e175",
+        "sha256": "ba797b5791d3e7894cd746bf5c6d3d40fa7d22371f5737dc13e5ab76b820e175"
+      },
+      "cn": {
+        "name": "开发要害",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7235f00063b88bc6e7fd25b8bedccb1f1001350ffa1fe1b297dac044df09d4ae",
+        "sha256": "7235f00063b88bc6e7fd25b8bedccb1f1001350ffa1fe1b297dac044df09d4ae"
+      }
+    },
+    "Explosive_Force": {
+      "us": {
+        "name": "Explosive Force",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/52a611616077549bfeece6d9935941d9ab6e6402cd06cbd1e7a423b9b51cbfb3",
+        "sha256": "52a611616077549bfeece6d9935941d9ab6e6402cd06cbd1e7a423b9b51cbfb3"
+      },
+      "cn": {
+        "name": "混元震天",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e80c4fb51b5b7c75e321bd4616ba48b24e26495f92fece411c9240dbfb067420",
+        "sha256": "e80c4fb51b5b7c75e321bd4616ba48b24e26495f92fece411c9240dbfb067420"
+      }
+    },
+    "Exposure_Therapy": {
+      "us": {
+        "name": "Exposure Therapy",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/24b0c6298d73c6ea672818ffd49d1c784d5b607c6e28f1d9e97bf99d4d39700d",
+        "sha256": "24b0c6298d73c6ea672818ffd49d1c784d5b607c6e28f1d9e97bf99d4d39700d"
+      },
+      "cn": {
+        "name": "解剖疗法",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/8bca8a5545574bf1f2c9d416f39a8312f6cc619bf44b124207ad4f19e436c21a",
+        "sha256": "8bca8a5545574bf1f2c9d416f39a8312f6cc619bf44b124207ad4f19e436c21a"
+      }
+    },
+    "Eye_of_the_Storm": {
+      "us": {
+        "name": "Eye of the Storm",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/1a3c766131fb386ba7454cca18bfaeb5db4e2249a3e2a39d2c4505e4923fee3c",
+        "sha256": "1a3c766131fb386ba7454cca18bfaeb5db4e2249a3e2a39d2c4505e4923fee3c"
+      },
+      "cn": {
+        "name": "风暴之眼",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/ea7d2871f0acbfa08d551c45e7fe1f253c59c49836718db046835b5521bcfc42",
+        "sha256": "ea7d2871f0acbfa08d551c45e7fe1f253c59c49836718db046835b5521bcfc42"
+      }
+    },
+    "Eye_to_Eye": {
+      "us": {
+        "name": "Eye to Eye",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/4ba98e7caac213841cb6ce4d1846f40bda3cf41f828dc5ca0a2ec40579c8d9be",
+        "sha256": "4ba98e7caac213841cb6ce4d1846f40bda3cf41f828dc5ca0a2ec40579c8d9be"
+      },
+      "cn": {
+        "name": "以眼还眼",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f344f8edb4cfff7c50d97224f42d201b91f79546a8710120bcc44664e77e37ac",
+        "sha256": "f344f8edb4cfff7c50d97224f42d201b91f79546a8710120bcc44664e77e37ac"
+      }
+    },
+    "Fan_of_Blades": {
+      "us": {
+        "name": "Fan of Blades",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/aafc5d7a58576223dc55ae7ba88d653cadd0d272a5d1283c19e97422764ca384",
+        "sha256": "aafc5d7a58576223dc55ae7ba88d653cadd0d272a5d1283c19e97422764ca384"
+      },
+      "cn": {
+        "name": "回风之剑",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/51b4df72cb404b1abbfd546f95276156b694296f05fe39fcae343557b7db0844",
+        "sha256": "51b4df72cb404b1abbfd546f95276156b694296f05fe39fcae343557b7db0844"
+      }
+    },
+    "Fan_the_Flames": {
+      "us": {
+        "name": "Fan the Flames",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e11dabc3a735ae3f3fa924b9589c8493ce56ffe5fc10d002365c8573b101a8ae",
+        "sha256": "e11dabc3a735ae3f3fa924b9589c8493ce56ffe5fc10d002365c8573b101a8ae"
+      },
+      "cn": {
+        "name": "煽风点火",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7d21100c7676b059a59867c74f4dfef7d044892f37d3dd969867e643f4e09aa0",
+        "sha256": "7d21100c7676b059a59867c74f4dfef7d044892f37d3dd969867e643f4e09aa0"
+      }
+    },
+    "Fasting": {
+      "us": {
+        "name": "Fasting",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/a86efabd67f36a7e67f1b92499779c759c424cacfd24ed398a0fc277800c158e",
+        "sha256": "a86efabd67f36a7e67f1b92499779c759c424cacfd24ed398a0fc277800c158e"
+      },
+      "cn": {
+        "name": "斋戒",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/b5f21045ae717f014b39d76d2b278718e2b2f24691ed9b7ace8873f02f4712e6",
+        "sha256": "b5f21045ae717f014b39d76d2b278718e2b2f24691ed9b7ace8873f02f4712e6"
+      }
+    },
+    "Fearsome_Warrior": {
+      "us": {
+        "name": "Fearsome Warrior",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f89d208b42b0fbca0cdd7d066cb33be7025ab57db0568809606ea5e6b7531411",
+        "sha256": "f89d208b42b0fbca0cdd7d066cb33be7025ab57db0568809606ea5e6b7531411"
+      },
+      "cn": {
+        "name": "凶骇武士",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/9cb3efd460cc6019f7bd0628c966a9ec38d1998894b5040532f6b86e114470a3",
+        "sha256": "9cb3efd460cc6019f7bd0628c966a9ec38d1998894b5040532f6b86e114470a3"
+      }
+    },
+    "Feast_of_Flesh": {
+      "us": {
+        "name": "Feast of Flesh",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/142f4e5040bb18829e4080710ee194080ed4bf5ce47890bc0128aa2f4732ec57",
+        "sha256": "142f4e5040bb18829e4080710ee194080ed4bf5ce47890bc0128aa2f4732ec57"
+      },
+      "cn": {
+        "name": "血肉盛宴",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a6f5774f8dfbf060c6441dfc81acd05fe9be5c748c41ac1592a75a38b7c40c5d",
+        "sha256": "a6f5774f8dfbf060c6441dfc81acd05fe9be5c748c41ac1592a75a38b7c40c5d"
+      }
+    },
+    "Feasting_Fiends": {
+      "us": {
+        "name": "Feasting Fiends",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/46887e2340ab951dadeac5a43fa77767b64f40d75183d4e00aa642b843ee7dfd",
+        "sha256": "46887e2340ab951dadeac5a43fa77767b64f40d75183d4e00aa642b843ee7dfd"
+      },
+      "cn": {
+        "name": "饕餮群魔",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/8e1996ecd306242e217bef5faf6f8516f000fdce8d32ebc723fc2178fead4694",
+        "sha256": "8e1996ecd306242e217bef5faf6f8516f000fdce8d32ebc723fc2178fead4694"
+      }
+    },
+    "Feed_the_Fury": {
+      "us": {
+        "name": "Feed the Fury",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/28f98b441724cf2f156d19d6a30a781cc6038f1796f021a9933c897eb3f8913a",
+        "sha256": "28f98b441724cf2f156d19d6a30a781cc6038f1796f021a9933c897eb3f8913a"
+      },
+      "cn": {
+        "name": "怒火盛宴",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/4a031dc38de1a79f3132250377efb4139289a8ba84fa43d7c53f094b6e1328c9",
+        "sha256": "4a031dc38de1a79f3132250377efb4139289a8ba84fa43d7c53f094b6e1328c9"
+      }
+    },
+    "Fettle": {
+      "us": {
+        "name": "Fettle",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e4235bb3a0454e653edf15d0cb163435b01369c6c6dfe7200b8ea06f713d2226",
+        "sha256": "e4235bb3a0454e653edf15d0cb163435b01369c6c6dfe7200b8ea06f713d2226"
+      },
+      "cn": {
+        "name": "整顿",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/276086bfb225cc6aecf4593cb67f9577f8d03adabed818c93aeb405c6275453e",
+        "sha256": "276086bfb225cc6aecf4593cb67f9577f8d03adabed818c93aeb405c6275453e"
+      }
+    },
+    "Fiery_Aegis": {
+      "us": {
+        "name": "Fiery Aegis",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/5033fe2bafe15ef890b485c4416325a3e08e2f8e455dda18dbfcf4c082cb0888",
+        "sha256": "5033fe2bafe15ef890b485c4416325a3e08e2f8e455dda18dbfcf4c082cb0888"
+      },
+      "cn": {
+        "name": "烈焰圣护",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/8f548029d0a71933add02f1ed561641759a2c3dfa72d175c41247c79c9114827",
+        "sha256": "8f548029d0a71933add02f1ed561641759a2c3dfa72d175c41247c79c9114827"
+      }
+    },
+    "Fire_Attunement": {
+      "us": {
+        "name": "Fire Attunement",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/fe56c3ecc4a8ca0bbc9c2c89dbb1b94fd0c02654da7616d4ff0dba86089fbfea",
+        "sha256": "fe56c3ecc4a8ca0bbc9c2c89dbb1b94fd0c02654da7616d4ff0dba86089fbfea"
+      },
+      "cn": {
+        "name": "火冥功",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/270713bd7add81694bd4a60d009fa40051d2c574ffeee31c7c3337021d8ff8aa",
+        "sha256": "270713bd7add81694bd4a60d009fa40051d2c574ffeee31c7c3337021d8ff8aa"
+      }
+    },
+    "Flexible_Sentry": {
+      "us": {
+        "name": "Flexible Sentry",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/66ac587fd65f7f45d05d0a54cd4ce8f43ac9f525df9c7c8815f0c76841b3afbe",
+        "sha256": "66ac587fd65f7f45d05d0a54cd4ce8f43ac9f525df9c7c8815f0c76841b3afbe"
+      },
+      "cn": {
+        "name": "灵活哨兵",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/4f242808000bb266a420306562ba3230d4b8b3b8e98c5a11cd2eeca49e9343a4",
+        "sha256": "4f242808000bb266a420306562ba3230d4b8b3b8e98c5a11cd2eeca49e9343a4"
+      }
+    },
+    "Flow_of_Life": {
+      "us": {
+        "name": "Flow of Life",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/231c8e689cd09fe220084a051a289455c7e98a7e372571e5e70ed648235c5397",
+        "sha256": "231c8e689cd09fe220084a051a289455c7e98a7e372571e5e70ed648235c5397"
+      },
+      "cn": {
+        "name": "放血",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/309ad06f0a5ad151ef2e594cc22d47f4dc5b34d27ba7c74026020d901b944ac0",
+        "sha256": "309ad06f0a5ad151ef2e594cc22d47f4dc5b34d27ba7c74026020d901b944ac0"
+      }
+    },
+    "Follow-Through": {
+      "us": {
+        "name": "Follow-Through",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b3a21958b573c3d30d08fdff06cb88c0a92cfb0efa987e5a8d635da69c4f9a5d",
+        "sha256": "b3a21958b573c3d30d08fdff06cb88c0a92cfb0efa987e5a8d635da69c4f9a5d"
+      },
+      "cn": {
+        "name": "追随",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/1b2dbd3695cc04402f76f744369cac4c23e3f6413ffd121f9722d65e21896e27",
+        "sha256": "1b2dbd3695cc04402f76f744369cac4c23e3f6413ffd121f9722d65e21896e27"
+      }
+    },
+    "Forbidden_Words": {
+      "us": {
+        "name": "Forbidden Words",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/0433235e68bf49beb0393bc072357f2c364623bf34d27400ab52fcf961590d68",
+        "sha256": "0433235e68bf49beb0393bc072357f2c364623bf34d27400ab52fcf961590d68"
+      },
+      "cn": {
+        "name": "禁断之言",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/fa1bc4397af593e8c6cbd209b90549ba55910888550d29c16b5fbad5c031fd63",
+        "sha256": "fa1bc4397af593e8c6cbd209b90549ba55910888550d29c16b5fbad5c031fd63"
+      }
+    },
+    "Force_Multiplier": {
+      "us": {
+        "name": "Force Multiplier",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e10cc710d8e5871013a6a63e332556fe5ae94cf9da18ab20bbcb3a798fe4fd81",
+        "sha256": "e10cc710d8e5871013a6a63e332556fe5ae94cf9da18ab20bbcb3a798fe4fd81"
+      },
+      "cn": {
+        "name": "力量倍增",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/8aa00a3db07ee0ba0d1590ec40c788e65ffa079d4e560022d83998de91c3e5ae",
+        "sha256": "8aa00a3db07ee0ba0d1590ec40c788e65ffa079d4e560022d83998de91c3e5ae"
+      }
+    },
+    "Frantic_Aspect": {
+      "us": {
+        "name": "Frantic Aspect",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/1bea5e34a405b4b156b149bd8d2ed5f5ddf924c451f1ad361ae57696c7692120",
+        "sha256": "1bea5e34a405b4b156b149bd8d2ed5f5ddf924c451f1ad361ae57696c7692120"
+      },
+      "cn": {
+        "name": "狂乱之相",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e554fbdf93aa084b759366b6745d7eb80f225e6093285bf07625582fd75116a0",
+        "sha256": "e554fbdf93aa084b759366b6745d7eb80f225e6093285bf07625582fd75116a0"
+      }
+    },
+    "Fuel_the_Fight": {
+      "us": {
+        "name": "Fuel the Fight",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f8dfe66936a6d73129cbb0eb80e475f9115c6844d6ded260791729c6ec2bff4a",
+        "sha256": "f8dfe66936a6d73129cbb0eb80e475f9115c6844d6ded260791729c6ec2bff4a"
+      },
+      "cn": {
+        "name": "充能备战",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/3308b2cdd60666850a042e3b8562fd1569452b2934200e119b3d5aa8d5ba5230",
+        "sha256": "3308b2cdd60666850a042e3b8562fd1569452b2934200e119b3d5aa8d5ba5230"
+      }
+    },
+    "Furious_Assault": {
+      "us": {
+        "name": "Furious Assault",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/79e11c993e3257acc4e11397a7de752cd04bcdab8af9bbe65d08ad87290d059d",
+        "sha256": "79e11c993e3257acc4e11397a7de752cd04bcdab8af9bbe65d08ad87290d059d"
+      },
+      "cn": {
+        "name": "狂风扫荡",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/9e26956b83fff4338e683308d6e72ce016213619b793a7fdd746791005cfac51",
+        "sha256": "9e26956b83fff4338e683308d6e72ce016213619b793a7fdd746791005cfac51"
+      }
+    },
+    "Genius": {
+      "us": {
+        "name": "Genius",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/768b2af60bfe36e2750ac9769c8500eddc6c16e3afe16ba152fbaf2f0de0f4d0",
+        "sha256": "768b2af60bfe36e2750ac9769c8500eddc6c16e3afe16ba152fbaf2f0de0f4d0"
+      },
+      "cn": {
+        "name": "天才",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a5afa0eaa5c9f05343fe83108e8a499bf30a0cf5c0bb6c3833a75e0b47e521fd",
+        "sha256": "a5afa0eaa5c9f05343fe83108e8a499bf30a0cf5c0bb6c3833a75e0b47e521fd"
+      }
+    },
+    "Gladiatorial_Combat": {
+      "us": {
+        "name": "Gladiatorial Combat",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e6e35c84a1cddf8e2ef5afadc862f0e10342f74663ad20b36b9b4a7897183fc6",
+        "sha256": "e6e35c84a1cddf8e2ef5afadc862f0e10342f74663ad20b36b9b4a7897183fc6"
+      },
+      "cn": {
+        "name": "角斗战法",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c419e1240803728efb59a2679d7c89bb58ecded662c227ebb95f5fa0fd5b09ee",
+        "sha256": "c419e1240803728efb59a2679d7c89bb58ecded662c227ebb95f5fa0fd5b09ee"
+      }
+    },
+    "Gladiators_Fortitude": {
+      "us": {
+        "name": "Gladiator's Fortitude",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/44a38173139fe45bd2e6f2da9ded5d9fdca776c880195eab2bed4683df4ff250",
+        "sha256": "44a38173139fe45bd2e6f2da9ded5d9fdca776c880195eab2bed4683df4ff250"
+      },
+      "cn": {
+        "name": "勇毅斗士",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/123016541ff77e2c6955e2cf76ee8bf61e1c1878df4ca5d49ad679d2174c96ef",
+        "sha256": "123016541ff77e2c6955e2cf76ee8bf61e1c1878df4ca5d49ad679d2174c96ef"
+      }
+    },
+    "Graceful_Execution": {
+      "us": {
+        "name": "Graceful Execution",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/de2ba011ddcf2501390df22e1a448add311077a7ac2e07010480a53451409270",
+        "sha256": "de2ba011ddcf2501390df22e1a448add311077a7ac2e07010480a53451409270"
+      },
+      "cn": {
+        "name": "优雅处刑",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/863f5c2f3e215746eabbcbd47153333125d29327b9574f071f004e9b702e2840",
+        "sha256": "863f5c2f3e215746eabbcbd47153333125d29327b9574f071f004e9b702e2840"
+      }
+    },
+    "Grand_Design": {
+      "us": {
+        "name": "Grand Design",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/69360934fea87f7d15da52afb218cda1e2d0aa76821ef3b186e998bca8919388",
+        "sha256": "69360934fea87f7d15da52afb218cda1e2d0aa76821ef3b186e998bca8919388"
+      },
+      "cn": {
+        "name": "宏伟计划",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/078fdc0fe12b3d7241ee79489cdd32326d2155a2b3335c693e5f3efabd120bf2",
+        "sha256": "078fdc0fe12b3d7241ee79489cdd32326d2155a2b3335c693e5f3efabd120bf2"
+      }
+    },
+    "Grim_Oath": {
+      "us": {
+        "name": "Grim Oath",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/10b56b446b6557ac1c94111e9b756ee8bdfb8f175c8ac5c51e2fd70e6c2c6419",
+        "sha256": "10b56b446b6557ac1c94111e9b756ee8bdfb8f175c8ac5c51e2fd70e6c2c6419"
+      },
+      "cn": {
+        "name": "阴冷誓言",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/d80367a760bcf4defe45796a0229dc6b535f16265c3d9ec2b3d8ff3293ab69e0",
+        "sha256": "d80367a760bcf4defe45796a0229dc6b535f16265c3d9ec2b3d8ff3293ab69e0"
+      }
+    },
+    "Guerilla_Tactics": {
+      "us": {
+        "name": "Guerilla Tactics",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/ab36494c50d8a6ba38cc470b504b63308a5ac6b20773f76797b295f81e0aed52",
+        "sha256": "ab36494c50d8a6ba38cc470b504b63308a5ac6b20773f76797b295f81e0aed52"
+      },
+      "cn": {
+        "name": "游击战",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/18596042c518f129e3772edcff962d5637605daf0aa206999b7de9265389f52f",
+        "sha256": "18596042c518f129e3772edcff962d5637605daf0aa206999b7de9265389f52f"
+      }
+    },
+    "Haemorrhage": {
+      "us": {
+        "name": "Haemorrhage",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/fda9c53a0ab0437915ca3c2253a8a45638cdd00936c4da39661d4df0bd692dc9",
+        "sha256": "fda9c53a0ab0437915ca3c2253a8a45638cdd00936c4da39661d4df0bd692dc9"
+      },
+      "cn": {
+        "name": "大出血",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/35bb112fa92c10df6a064e68af51826f29793d96818060851e9ecde280629b77",
+        "sha256": "35bb112fa92c10df6a064e68af51826f29793d96818060851e9ecde280629b77"
+      }
+    },
+    "Haunting_Shout": {
+      "us": {
+        "name": "Haunting Shout",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/a7b3abbc1c9b90f978cae13c450c6a43b165857b09ff9cc29b6c1de56f78261c",
+        "sha256": "a7b3abbc1c9b90f978cae13c450c6a43b165857b09ff9cc29b6c1de56f78261c"
+      },
+      "cn": {
+        "name": "恶灵之嚎",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/666711cdeca6f149dda8f8eb4f1a063085c9cd45dc9be14b752e1e24aaab6a73",
+        "sha256": "666711cdeca6f149dda8f8eb4f1a063085c9cd45dc9be14b752e1e24aaab6a73"
+      }
+    },
+    "Heart_of_Iron": {
+      "us": {
+        "name": "Heart of Iron",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d282317756c3951416e7689a49ddd88005e6fcfaca34ab742c459849d0a08482",
+        "sha256": "d282317756c3951416e7689a49ddd88005e6fcfaca34ab742c459849d0a08482"
+      },
+      "cn": {
+        "name": "钢铁之心",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/0842dad25584510bc2fd6c6be7fe38828dad69f8e8b65468bec33abc8b5f75cb",
+        "sha256": "0842dad25584510bc2fd6c6be7fe38828dad69f8e8b65468bec33abc8b5f75cb"
+      }
+    },
+    "Heavy_Hitter": {
+      "us": {
+        "name": "Heavy Hitter",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/1d846012794cd4219f78ccc073f1fe9bd5583f8899dbae615ef37807938a2db4",
+        "sha256": "1d846012794cd4219f78ccc073f1fe9bd5583f8899dbae615ef37807938a2db4"
+      },
+      "cn": {
+        "name": "金刚拳",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/5f7dc7cdbcbb7c2fd0e0d02700b269cbecd88c797241a8ca4257820785ae09a0",
+        "sha256": "5f7dc7cdbcbb7c2fd0e0d02700b269cbecd88c797241a8ca4257820785ae09a0"
+      }
+    },
+    "Heraldry": {
+      "us": {
+        "name": "Heraldry",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8f9d83aef3c388a24365ef9b402f1a3126944922b2d547c633d08bfebe2ca6bc",
+        "sha256": "8f9d83aef3c388a24365ef9b402f1a3126944922b2d547c633d08bfebe2ca6bc"
+      },
+      "cn": {
+        "name": "传令者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/53b87ef8fe00d51a771ffcc5879a318c8200f8706c2c696aac674fdee93f0c56",
+        "sha256": "53b87ef8fe00d51a771ffcc5879a318c8200f8706c2c696aac674fdee93f0c56"
+      }
+    },
+    "Hex_Breaker": {
+      "us": {
+        "name": "Hex Breaker",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9d554c620ec157e675ae1d38cc0432b102494319cf203cd1be26ff6229277a45",
+        "sha256": "9d554c620ec157e675ae1d38cc0432b102494319cf203cd1be26ff6229277a45"
+      },
+      "cn": {
+        "name": "巫灵斗士",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c1a6441c71bfba53659eb975170eea9b1d35a24cba815f56558d875f815b425b",
+        "sha256": "c1a6441c71bfba53659eb975170eea9b1d35a24cba815f56558d875f815b425b"
+      }
+    },
+    "Hibernator": {
+      "us": {
+        "name": "Hibernator",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/453c62aa55d1e58854c5bd98934f4dd5bb822dbc136f153f16453cabf07e18b1",
+        "sha256": "453c62aa55d1e58854c5bd98934f4dd5bb822dbc136f153f16453cabf07e18b1"
+      },
+      "cn": {
+        "name": "冬眠者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c636b9720eb82272caf01b3dc83a2c74db586b8e1983d6c90c8343a83efb6a92",
+        "sha256": "c636b9720eb82272caf01b3dc83a2c74db586b8e1983d6c90c8343a83efb6a92"
+      }
+    },
+    "Hit_and_Run": {
+      "us": {
+        "name": "Hit and Run",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e00725258e8cf2f4e0fe50965324a07d1d3871af9ad147371a37d3cf90c64df7",
+        "sha256": "e00725258e8cf2f4e0fe50965324a07d1d3871af9ad147371a37d3cf90c64df7"
+      },
+      "cn": {
+        "name": "连打带跑",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7b6b767d253735b1b13daa006e1007aaa10a639a38dcf22e9cbd7f8fcce6e874",
+        "sha256": "7b6b767d253735b1b13daa006e1007aaa10a639a38dcf22e9cbd7f8fcce6e874"
+      }
+    },
+    "Holistic_Health": {
+      "us": {
+        "name": "Holistic Health",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f122d9c72c3b3761cabc30f7f3e5873ccaa11c11fc977529a34544defd46d2e9",
+        "sha256": "f122d9c72c3b3761cabc30f7f3e5873ccaa11c11fc977529a34544defd46d2e9"
+      },
+      "cn": {
+        "name": "天人化生",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/1966d2eec1dba7e27f698fa4226c9e760b30ed074b21cc97e7340341bf8e43a4",
+        "sha256": "1966d2eec1dba7e27f698fa4226c9e760b30ed074b21cc97e7340341bf8e43a4"
+      }
+    },
+    "Hollow_Palm_Technique": {
+      "us": {
+        "name": "Hollow Palm Technique",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e750a98c8dff3881f87bf739910db123a0cd16afb900d193b4eb742b980e6ce0",
+        "sha256": "e750a98c8dff3881f87bf739910db123a0cd16afb900d193b4eb742b980e6ce0"
+      },
+      "cn": {
+        "name": "空明之掌",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c185900196fcd64960a2506b5ba12cc84a2c0e01072a42e08bb40885a678d668",
+        "sha256": "c185900196fcd64960a2506b5ba12cc84a2c0e01072a42e08bb40885a678d668"
+      }
+    },
+    "Holy_Conquest": {
+      "us": {
+        "name": "Holy Conquest",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/188598284eed7d241896c4849f86eb375616f3acec3d51ff0247ebc7ec6c4947",
+        "sha256": "188598284eed7d241896c4849f86eb375616f3acec3d51ff0247ebc7ec6c4947"
+      },
+      "cn": {
+        "name": "神圣征服",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/362abfa3559ad2752eccaf57d083e55be56d4ce09f8c035276d29edb864852fb",
+        "sha256": "362abfa3559ad2752eccaf57d083e55be56d4ce09f8c035276d29edb864852fb"
+      }
+    },
+    "Holy_Word": {
+      "us": {
+        "name": "Holy Word",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/ec39e0ce7fc3ec2f7cb2c841ead9a88185583ac87a9f1c14c9ca18d5394ace98",
+        "sha256": "ec39e0ce7fc3ec2f7cb2c841ead9a88185583ac87a9f1c14c9ca18d5394ace98"
+      },
+      "cn": {
+        "name": "圣言",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/63625ce9aaab1dc2c59f51d57928ff50a83de185e7817b3a8c8529f317643fa9",
+        "sha256": "63625ce9aaab1dc2c59f51d57928ff50a83de185e7817b3a8c8529f317643fa9"
+      }
+    },
+    "Hounds_Mark": {
+      "us": {
+        "name": "Hound's Mark",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/4bc735b34bbdf32d6a8e026a50a59fda5ac9a46a4ed3df844f04716b7f4660eb",
+        "sha256": "4bc735b34bbdf32d6a8e026a50a59fda5ac9a46a4ed3df844f04716b7f4660eb"
+      },
+      "cn": {
+        "name": "猎犬面具",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f33e6c544031c6fd22d61ffb6978a827e563e71e9ee661ccab4d85ecc324dd13",
+        "sha256": "f33e6c544031c6fd22d61ffb6978a827e563e71e9ee661ccab4d85ecc324dd13"
+      }
+    },
+    "Hulking_Corpses": {
+      "us": {
+        "name": "Hulking Corpses",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/744fd27c03e59c03a430012327b3f4ffbec6f88fcb88357e9636660af90d28f0",
+        "sha256": "744fd27c03e59c03a430012327b3f4ffbec6f88fcb88357e9636660af90d28f0"
+      },
+      "cn": {
+        "name": "肿胀灵柩",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/6bbd0e95ce9f5ac744a6cea886e4d4a3722f88fba86484d1a70413c1f0711a6d",
+        "sha256": "6bbd0e95ce9f5ac744a6cea886e4d4a3722f88fba86484d1a70413c1f0711a6d"
+      }
+    },
+    "Improvisor": {
+      "us": {
+        "name": "Improvisor",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e9f88115f8affdbd9d41f3bc281f98d272814c3ce2cad3cab17fc35ba6ca8787",
+        "sha256": "e9f88115f8affdbd9d41f3bc281f98d272814c3ce2cad3cab17fc35ba6ca8787"
+      },
+      "cn": {
+        "name": "即兴演出",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e2a27f55e9bef9c79641ac4e61b913a59eda4bba95f8a1b385d29d18508879e9",
+        "sha256": "e2a27f55e9bef9c79641ac4e61b913a59eda4bba95f8a1b385d29d18508879e9"
+      }
+    },
+    "Insatiable_Killer": {
+      "us": {
+        "name": "Insatiable Killer",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/eff4e3b5f5175240f594a572b8ee9a3ac7e3c96ecf874b4239fac89d27352b7f",
+        "sha256": "eff4e3b5f5175240f594a572b8ee9a3ac7e3c96ecf874b4239fac89d27352b7f"
+      },
+      "cn": {
+        "name": "无尽杀戮",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/8b075dc94d9aabd6c450edc22b30478f772957cb855482f364f34fc1adda5836",
+        "sha256": "8b075dc94d9aabd6c450edc22b30478f772957cb855482f364f34fc1adda5836"
+      }
+    },
+    "Inspired_Oppression": {
+      "us": {
+        "name": "Inspired Oppression",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/6d853796cdd222d3cb36ca91f0351a81000558eb544e1687048a664f7a63b266",
+        "sha256": "6d853796cdd222d3cb36ca91f0351a81000558eb544e1687048a664f7a63b266"
+      },
+      "cn": {
+        "name": "绝妙镇压",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/d232b4bf04e25c1a3a3ba51efd0494ec76b563895f90502d63a73a6ee1cfbd10",
+        "sha256": "d232b4bf04e25c1a3a3ba51efd0494ec76b563895f90502d63a73a6ee1cfbd10"
+      }
+    },
+    "Insulated": {
+      "us": {
+        "name": "Insulated",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/bccdbafeb0cf13f25c495f2a680daa8244372e57ee0960f892e711c4a80d14d8",
+        "sha256": "bccdbafeb0cf13f25c495f2a680daa8244372e57ee0960f892e711c4a80d14d8"
+      },
+      "cn": {
+        "name": "绝缘",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e6c8bfe9e7fd6beaad0158f05a93165f09d9c237576888b1b9aa47e38d930ac2",
+        "sha256": "e6c8bfe9e7fd6beaad0158f05a93165f09d9c237576888b1b9aa47e38d930ac2"
+      }
+    },
+    "Intensity": {
+      "us": {
+        "name": "Intensity",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/66d2b5562f8f8a69e0b64daf35ad2d8bfeec07be8088e83ac3f31c0bd02d29fb",
+        "sha256": "66d2b5562f8f8a69e0b64daf35ad2d8bfeec07be8088e83ac3f31c0bd02d29fb"
+      },
+      "cn": {
+        "name": "凝聚",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/402493c9715cb20140c681ffc76f37026bf337ccb82ae31358b4b8531db6aaee",
+        "sha256": "402493c9715cb20140c681ffc76f37026bf337ccb82ae31358b4b8531db6aaee"
+      }
+    },
+    "Introspection": {
+      "us": {
+        "name": "Introspection",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b054141c3c71c3529e21ad176f41600cec2f55014927c6f143fbbb1c6f3b2e93",
+        "sha256": "b054141c3c71c3529e21ad176f41600cec2f55014927c6f143fbbb1c6f3b2e93"
+      },
+      "cn": {
+        "name": "内省",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7743ee965b34a7492c13a78a3ee154d6b0a2538a957161ada61355c9c042ec71",
+        "sha256": "7743ee965b34a7492c13a78a3ee154d6b0a2538a957161ada61355c9c042ec71"
+      }
+    },
+    "Invigorating_Portents": {
+      "us": {
+        "name": "Invigorating Portents",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/aa93d393ca5337137332e0c8780570536fe27b3e7bde6fef4da291052a481f9e",
+        "sha256": "aa93d393ca5337137332e0c8780570536fe27b3e7bde6fef4da291052a481f9e"
+      },
+      "cn": {
+        "name": "欢欣预兆",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/3764af7e7b6cd92e2612c67df924b2eb33f6878cc9e8b9ddace6d15cc2063e47",
+        "sha256": "3764af7e7b6cd92e2612c67df924b2eb33f6878cc9e8b9ddace6d15cc2063e47"
+      }
+    },
+    "Iron_Breaker": {
+      "us": {
+        "name": "Iron Breaker",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/993f21bca3990687128ea5a5555e2a3a91abe263782ed51aa25e6ae7a4a3661a",
+        "sha256": "993f21bca3990687128ea5a5555e2a3a91abe263782ed51aa25e6ae7a4a3661a"
+      },
+      "cn": {
+        "name": "钢铁斗士",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/cb6ad241184ece8e113c86398b048d9c5cb37e3c1576270b10e26ab735c330ca",
+        "sha256": "cb6ad241184ece8e113c86398b048d9c5cb37e3c1576270b10e26ab735c330ca"
+      }
+    },
+    "Kineticism": {
+      "us": {
+        "name": "Kineticism",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/130f99eda4e0fb099a96c944485c72d4e0399b3fde9b53511842d26b99c01324",
+        "sha256": "130f99eda4e0fb099a96c944485c72d4e0399b3fde9b53511842d26b99c01324"
+      },
+      "cn": {
+        "name": "万物皆动",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/401ef6f4100f45712f0d8f489c56b25da15f652b19675b72ecd8985a781ad113",
+        "sha256": "401ef6f4100f45712f0d8f489c56b25da15f652b19675b72ecd8985a781ad113"
+      }
+    },
+    "Lasting_Impression": {
+      "us": {
+        "name": "Lasting Impression",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/a73b61fe7a53e97a119a459a4b69860804df0ce1047a3f67d2a0dd128aa37f65",
+        "sha256": "a73b61fe7a53e97a119a459a4b69860804df0ce1047a3f67d2a0dd128aa37f65"
+      },
+      "cn": {
+        "name": "持久印象",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/be2d3f02c638534a893e36a01e8d115c470a3e43e5121bfc90d9f7c55554acd0",
+        "sha256": "be2d3f02c638534a893e36a01e8d115c470a3e43e5121bfc90d9f7c55554acd0"
+      }
+    },
+    "Lead_By_Example": {
+      "us": {
+        "name": "Lead By Example",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/2e90422c4136c4f0b42de7a2fb6b60cdd268f0a3b86266507690bfd18bd67b35",
+        "sha256": "2e90422c4136c4f0b42de7a2fb6b60cdd268f0a3b86266507690bfd18bd67b35"
+      },
+      "cn": {
+        "name": "按图索骥",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a3cb37ce519382a2f0d6177f16b5d8a38789efe813e62e7ea520646a96092042",
+        "sha256": "a3cb37ce519382a2f0d6177f16b5d8a38789efe813e62e7ea520646a96092042"
+      }
+    },
+    "Life_from_Death": {
+      "us": {
+        "name": "Life from Death",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e65b75e0fa10679ddffe757afc93173704e8e9d3396e24e050717982ef85918e",
+        "sha256": "e65b75e0fa10679ddffe757afc93173704e8e9d3396e24e050717982ef85918e"
+      },
+      "cn": {
+        "name": "由死复生",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c0d06398d5c33ae5a0a659caf4b75ccfa5eb5f4d6819a794b4f57045081563c2",
+        "sha256": "c0d06398d5c33ae5a0a659caf4b75ccfa5eb5f4d6819a794b4f57045081563c2"
+      }
+    },
+    "Liquid_Inspiration": {
+      "us": {
+        "name": "Liquid Inspiration",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/389d017e11623cd155e5a9b6fa1c677b448d5b7f8f7876bf87503c9c330be79a",
+        "sha256": "389d017e11623cd155e5a9b6fa1c677b448d5b7f8f7876bf87503c9c330be79a"
+      },
+      "cn": {
+        "name": "液化启迪",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/89cd5aa1ff3823fbcd2a5dd34f3febcacfacf2d25ebdeefd09b4b879ef53ea74",
+        "sha256": "89cd5aa1ff3823fbcd2a5dd34f3febcacfacf2d25ebdeefd09b4b879ef53ea74"
+      }
+    },
+    "Lone_Messenger": {
+      "us": {
+        "name": "Lone Messenger",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e48759cec16e7a34f17c98f519fb9b90d85ee92a766d71121949aa11a75bd07d",
+        "sha256": "e48759cec16e7a34f17c98f519fb9b90d85ee92a766d71121949aa11a75bd07d"
+      },
+      "cn": {
+        "name": "独行使者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/50dab8c0800fd18f9d94307dde17522a82f51495fa593c05eea3656524176172",
+        "sha256": "50dab8c0800fd18f9d94307dde17522a82f51495fa593c05eea3656524176172"
+      }
+    },
+    "Lord_of_Drought": {
+      "us": {
+        "name": "Lord of Drought",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d341441bb512e9e8f587a729fa2def3797245196a2e463eddb9d035b48e79df9",
+        "sha256": "d341441bb512e9e8f587a729fa2def3797245196a2e463eddb9d035b48e79df9"
+      },
+      "cn": {
+        "name": "旱魃",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/6a65586d49d84d5aef233b10ab4f30576d6ef1992d0bdf813a7a6eafcb113cd5",
+        "sha256": "6a65586d49d84d5aef233b10ab4f30576d6ef1992d0bdf813a7a6eafcb113cd5"
+      }
+    },
+    "Low_Tolerance": {
+      "us": {
+        "name": "Low Tolerance",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/95c2b9100051e6322a1eaba772597ee55f75f8061bbb6ace1f4388a72b839090",
+        "sha256": "95c2b9100051e6322a1eaba772597ee55f75f8061bbb6ace1f4388a72b839090"
+      },
+      "cn": {
+        "name": "低容忍",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/ec1c4b77c39337f332b45c2bede50db8cb29a4fb32637b20736800173859ac1d",
+        "sha256": "ec1c4b77c39337f332b45c2bede50db8cb29a4fb32637b20736800173859ac1d"
+      }
+    },
+    "Mage_Bane": {
+      "us": {
+        "name": "Mage Bane",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/5286b0bdb090d8df2a75f13a160724c2173567b302a69e4dae8a33ad628b9f3b",
+        "sha256": "5286b0bdb090d8df2a75f13a160724c2173567b302a69e4dae8a33ad628b9f3b"
+      },
+      "cn": {
+        "name": "破法",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/404202128f43f95e0bdca35026b7db21dc6a630b839eb5b035a97f53019de3c5",
+        "sha256": "404202128f43f95e0bdca35026b7db21dc6a630b839eb5b035a97f53019de3c5"
+      }
+    },
+    "Mage_Hunter": {
+      "us": {
+        "name": "Mage Hunter",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/560ebc2c62ff29cd5e7d2d1ccd1451c4619c41f30b27ca778a39f925d1c7ad55",
+        "sha256": "560ebc2c62ff29cd5e7d2d1ccd1451c4619c41f30b27ca778a39f925d1c7ad55"
+      },
+      "cn": {
+        "name": "法师猎人",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e7af66d8edabcba57865a68e9a40a12c456d9ac7ca223fd93a051b8d9b019af9",
+        "sha256": "e7af66d8edabcba57865a68e9a40a12c456d9ac7ca223fd93a051b8d9b019af9"
+      }
+    },
+    "Magnifier": {
+      "us": {
+        "name": "Magnifier",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/826ed0a63e6a891f07308344c1f485353623916607e5a91fdc38b0754ccdb8f9",
+        "sha256": "826ed0a63e6a891f07308344c1f485353623916607e5a91fdc38b0754ccdb8f9"
+      },
+      "cn": {
+        "name": "放大器",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/0b1d660845cc1501a313272a7ffacdc2952a234a50db7195c074b681134fd151",
+        "sha256": "0b1d660845cc1501a313272a7ffacdc2952a234a50db7195c074b681134fd151"
+      }
+    },
+    "Martial_Mastery": {
+      "us": {
+        "name": "Martial Mastery",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/7b744437fe9562795688c0a8145e1c037b8b39b8df167d6bcbbef2ddaeab6b4e",
+        "sha256": "7b744437fe9562795688c0a8145e1c037b8b39b8df167d6bcbbef2ddaeab6b4e"
+      },
+      "cn": {
+        "name": "武艺专精",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e8d56a1bb36ba55c6662276fc59e7a7f0eda0323ce5869e57078d6b67476885a",
+        "sha256": "e8d56a1bb36ba55c6662276fc59e7a7f0eda0323ce5869e57078d6b67476885a"
+      }
+    },
+    "Martial_Momentum": {
+      "us": {
+        "name": "Martial Momentum",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/0881e12c0198cc027445e1b7f70df424954a128469926fe9eb7d01b1b4684088",
+        "sha256": "0881e12c0198cc027445e1b7f70df424954a128469926fe9eb7d01b1b4684088"
+      },
+      "cn": {
+        "name": "技如长虹",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a3197a7bd903679a6b823109193f234edc73cecb301a8ce99ea109a0520e7642",
+        "sha256": "a3197a7bd903679a6b823109193f234edc73cecb301a8ce99ea109a0520e7642"
+      }
+    },
+    "Martial_Prowess": {
+      "us": {
+        "name": "Martial Prowess",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9446610d578650ce864eb7f4a497f30752b1f1cd7a7b8b51cb2da4e912015152",
+        "sha256": "9446610d578650ce864eb7f4a497f30752b1f1cd7a7b8b51cb2da4e912015152"
+      },
+      "cn": {
+        "name": "武艺精湛",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/9dc7f2f5748cbf717f957879710bd7fc2b82bc2e02697c446d8035522196dbfa",
+        "sha256": "9dc7f2f5748cbf717f957879710bd7fc2b82bc2e02697c446d8035522196dbfa"
+      }
+    },
+    "Master_of_Command": {
+      "us": {
+        "name": "Master of Command",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/6256bfab36d43672b8e63b12ce3fc8bcbfbe8b7096cf8272d3e8c2e93ab290f0",
+        "sha256": "6256bfab36d43672b8e63b12ce3fc8bcbfbe8b7096cf8272d3e8c2e93ab290f0"
+      },
+      "cn": {
+        "name": "统御之主",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/163e93bde828c5a484a6be2026a7d812bb406aa1370b5e60c54608aed63e7c4a",
+        "sha256": "163e93bde828c5a484a6be2026a7d812bb406aa1370b5e60c54608aed63e7c4a"
+      }
+    },
+    "Master_of_Fear": {
+      "us": {
+        "name": "Master of Fear",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/57141014b29d30ee433abe44f075767003c4c3cf88e22d8c43167dc57811e1e2",
+        "sha256": "57141014b29d30ee433abe44f075767003c4c3cf88e22d8c43167dc57811e1e2"
+      },
+      "cn": {
+        "name": "恐惧之主",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/65917fabcdbb2d4ea12a3d5fa31981ad953503aca5f110910ed919908a123102",
+        "sha256": "65917fabcdbb2d4ea12a3d5fa31981ad953503aca5f110910ed919908a123102"
+      }
+    },
+    "Master_of_Fire": {
+      "us": {
+        "name": "Master of Fire",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d51aa279edea5493e69aa4c11dd497a760d75aa5911884b104f1a4101c420ce2",
+        "sha256": "d51aa279edea5493e69aa4c11dd497a760d75aa5911884b104f1a4101c420ce2"
+      },
+      "cn": {
+        "name": "火焰之主",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/2ff5fae4b747bfbe7c37909710e5d555537149b4b8f700c8a8d5611a37116ddf",
+        "sha256": "2ff5fae4b747bfbe7c37909710e5d555537149b4b8f700c8a8d5611a37116ddf"
+      }
+    },
+    "Master_of_the_Maelstrom": {
+      "us": {
+        "name": "Master of the Maelstrom",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/1c6e23e6c3dce030d36c3bb5da25a1e8a6ee965c4aab4286885a2d7c95456a9d",
+        "sha256": "1c6e23e6c3dce030d36c3bb5da25a1e8a6ee965c4aab4286885a2d7c95456a9d"
+      },
+      "cn": {
+        "name": "大漩涡之主",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/538e71f76c3fc18d9d030b86ccf67d89530c8bb4e0d6d48cff10182805310118",
+        "sha256": "538e71f76c3fc18d9d030b86ccf67d89530c8bb4e0d6d48cff10182805310118"
+      }
+    },
+    "Master_the_Fundamentals": {
+      "us": {
+        "name": "Master the Fundamentals",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/3041a30d9985ec4649a8979774dc9e3df328fdbe891b6f9c7409fe77954e51ae",
+        "sha256": "3041a30d9985ec4649a8979774dc9e3df328fdbe891b6f9c7409fe77954e51ae"
+      },
+      "cn": {
+        "name": "规律主宰",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/bc0e0e3231cd63eced96639a8786dcc748b12bcf6eebd266a5ae6af7b55b589f",
+        "sha256": "bc0e0e3231cd63eced96639a8786dcc748b12bcf6eebd266a5ae6af7b55b589f"
+      }
+    },
+    "Menders_Wellspring": {
+      "us": {
+        "name": "Mender's Wellspring",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/59dc07715a4814f563db9c6556422c6ac99054b2db5e564f62417f82a09b569f",
+        "sha256": "59dc07715a4814f563db9c6556422c6ac99054b2db5e564f62417f82a09b569f"
+      },
+      "cn": {
+        "name": "弥补之源",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/fe715177cfdb8d10a6b88d9a9a02cf2d0b02fe80bc5d627a8f35e3d81c04759d",
+        "sha256": "fe715177cfdb8d10a6b88d9a9a02cf2d0b02fe80bc5d627a8f35e3d81c04759d"
+      }
+    },
+    "Militarism": {
+      "us": {
+        "name": "Militarism",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9e1240234701d57dd41efa8d513cf3f917971b6951a4d7df90f5a0c76b31a389",
+        "sha256": "9e1240234701d57dd41efa8d513cf3f917971b6951a4d7df90f5a0c76b31a389"
+      },
+      "cn": {
+        "name": "穷兵黩武",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c1502d5239d67a026e5909f5b7bbd2d2568ac4fb93323e050ed693f37278886b",
+        "sha256": "c1502d5239d67a026e5909f5b7bbd2d2568ac4fb93323e050ed693f37278886b"
+      }
+    },
+    "Mindfulness": {
+      "us": {
+        "name": "Mindfulness",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/46c6d66cad9cfba19088dbae41cfcaa5db5bfc65b73533b0680a1887b3f1cb29",
+        "sha256": "46c6d66cad9cfba19088dbae41cfcaa5db5bfc65b73533b0680a1887b3f1cb29"
+      },
+      "cn": {
+        "name": "正念",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/ba13e876349d66188cde22e3fd37ff844e343a26f1fb08a636d306c9b401e8e8",
+        "sha256": "ba13e876349d66188cde22e3fd37ff844e343a26f1fb08a636d306c9b401e8e8"
+      }
+    },
+    "Misery_Everlasting": {
+      "us": {
+        "name": "Misery Everlasting",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/47ab376442dfc606070b7dffda6dd692f2fcd5d2600f219752ac6dafdaecca15",
+        "sha256": "47ab376442dfc606070b7dffda6dd692f2fcd5d2600f219752ac6dafdaecca15"
+      },
+      "cn": {
+        "name": "苦痛永存",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/139559a6cda24ebaaf5d395539a9a1d2809ac8aa6003b0d93101f76adea8d8ff",
+        "sha256": "139559a6cda24ebaaf5d395539a9a1d2809ac8aa6003b0d93101f76adea8d8ff"
+      }
+    },
+    "Mob_Mentality": {
+      "us": {
+        "name": "Mob Mentality",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/68a04cf4c84ca8ff1e9a6e210a1a08474f79319ea131392d773a4f158d2d139d",
+        "sha256": "68a04cf4c84ca8ff1e9a6e210a1a08474f79319ea131392d773a4f158d2d139d"
+      },
+      "cn": {
+        "name": "暴民思维",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/db446af8a0325012c7185d676dac23583554fd12573a0a2a03b431a2de39407e",
+        "sha256": "db446af8a0325012c7185d676dac23583554fd12573a0a2a03b431a2de39407e"
+      }
+    },
+    "Molten_Ones_Mark": {
+      "us": {
+        "name": "Molten One's Mark",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/20dcd2a56575411f077518fcf55c1819f8da849d9d9872d51ef96626b649d4df",
+        "sha256": "20dcd2a56575411f077518fcf55c1819f8da849d9d9872d51ef96626b649d4df"
+      },
+      "cn": {
+        "name": "熔岩者印记",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/553ac33814d1af39530a3b749d5325ddf8800e143add06f1d86daba3830909dd",
+        "sha256": "553ac33814d1af39530a3b749d5325ddf8800e143add06f1d86daba3830909dd"
+      }
+    },
+    "Mortifying_Aspect": {
+      "us": {
+        "name": "Mortifying Aspect",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/1da8f5d392c6f17862a6dd3a14ed8d6d9dc41bc9fb3e62abf4eaae7914daa777",
+        "sha256": "1da8f5d392c6f17862a6dd3a14ed8d6d9dc41bc9fb3e62abf4eaae7914daa777"
+      },
+      "cn": {
+        "name": "禁欲之相",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/bfcf8a50bfef2c0b580d292654100ccddede42fb107360399b1c9319984b3dcc",
+        "sha256": "bfcf8a50bfef2c0b580d292654100ccddede42fb107360399b1c9319984b3dcc"
+      }
+    },
+    "Mystical_Ward": {
+      "us": {
+        "name": "Mystical Ward",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/47f8faafb890e07e72b817550c380d5ec9f19318edfa0c1c9bc2311b810a1409",
+        "sha256": "47f8faafb890e07e72b817550c380d5ec9f19318edfa0c1c9bc2311b810a1409"
+      },
+      "cn": {
+        "name": "秘法结界",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a3df5bc70b1505bb9f7122c4ffd7b2a6c097f4fa4f43edf7833c1a6a3581a466",
+        "sha256": "a3df5bc70b1505bb9f7122c4ffd7b2a6c097f4fa4f43edf7833c1a6a3581a466"
+      }
+    },
+    "Natural_Vigour": {
+      "us": {
+        "name": "Natural Vigour",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/40f993ad1ac31d1e2a7eedd7d8372349c98d84e66ab91d54fb7ff1f0e50985ee",
+        "sha256": "40f993ad1ac31d1e2a7eedd7d8372349c98d84e66ab91d54fb7ff1f0e50985ee"
+      },
+      "cn": {
+        "name": "万物滋生",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/733df10423e5639e3f2cd593aa005ff211e2900bc8c506a7caf95b82581d0e4e",
+        "sha256": "733df10423e5639e3f2cd593aa005ff211e2900bc8c506a7caf95b82581d0e4e"
+      }
+    },
+    "Natures_Patience": {
+      "us": {
+        "name": "Nature's Patience",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/5531fbedb1bd2e87160ee82881070e33eb8ece28ce2d775d9b50c9abbc6035f2",
+        "sha256": "5531fbedb1bd2e87160ee82881070e33eb8ece28ce2d775d9b50c9abbc6035f2"
+      },
+      "cn": {
+        "name": "造化自然",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/d3d627f2e7aa5d5c7e5a9d4f40baab2c45d16b89307814b4455870a7b88b0f0c",
+        "sha256": "d3d627f2e7aa5d5c7e5a9d4f40baab2c45d16b89307814b4455870a7b88b0f0c"
+      }
+    },
+    "No_Witnesses": {
+      "us": {
+        "name": "No Witnesses",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/a73ea143af4edbb81a8011a28a50618bc03708089244fe3e214d1da183b3d163",
+        "sha256": "a73ea143af4edbb81a8011a28a50618bc03708089244fe3e214d1da183b3d163"
+      },
+      "cn": {
+        "name": "遁入虚无",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7146b80fd680c15311e381212b7f77a8515268585cabcc9cf49575e4e66f9bff",
+        "sha256": "7146b80fd680c15311e381212b7f77a8515268585cabcc9cf49575e4e66f9bff"
+      }
+    },
+    "Non-Flammable": {
+      "us": {
+        "name": "Non-Flammable",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/eab4e8fd76383302b9968beee7d0a7d073b60996dc71ffae8982ce93939f2570",
+        "sha256": "eab4e8fd76383302b9968beee7d0a7d073b60996dc71ffae8982ce93939f2570"
+      },
+      "cn": {
+        "name": "不可燃烧",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/3ead23f49458a1362eaf37cf86c8a919de542c44b89dd51005af36384d29c9a8",
+        "sha256": "3ead23f49458a1362eaf37cf86c8a919de542c44b89dd51005af36384d29c9a8"
+      }
+    },
+    "Numbing_Elixir": {
+      "us": {
+        "name": "Numbing Elixir",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/3c81d8ad9728096f7acea284a2b9b6029133818682695bde0a5b2e0d93fdc39a",
+        "sha256": "3c81d8ad9728096f7acea284a2b9b6029133818682695bde0a5b2e0d93fdc39a"
+      },
+      "cn": {
+        "name": "僵化灵药",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/9b3b76a0efee0d18293d6125314e856275b82e89a8fdad962fe350d8d0cb344c",
+        "sha256": "9b3b76a0efee0d18293d6125314e856275b82e89a8fdad962fe350d8d0cb344c"
+      }
+    },
+    "One_with_the_Shield": {
+      "us": {
+        "name": "One with the Shield",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/056d9cff65b22f6de67398d83eddfbffa3410da2dff5afb2ff2f10d2b9c0ee2f",
+        "sha256": "056d9cff65b22f6de67398d83eddfbffa3410da2dff5afb2ff2f10d2b9c0ee2f"
+      },
+      "cn": {
+        "name": "顽强壁垒",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/062a8b3350be70c8c2540f96b879d733b19cc17bb1532ef0fbd87132e243fffa",
+        "sha256": "062a8b3350be70c8c2540f96b879d733b19cc17bb1532ef0fbd87132e243fffa"
+      }
+    },
+    "Openness": {
+      "us": {
+        "name": "Openness",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/3e26d9e267dd19a3d08142e7f2a0170fda6c6f52b702a1f37bdbc59d81d8594e",
+        "sha256": "3e26d9e267dd19a3d08142e7f2a0170fda6c6f52b702a1f37bdbc59d81d8594e"
+      },
+      "cn": {
+        "name": "坦率",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/3de9a5faa73fabba05d7bb47debfa1522096a20ce581cdb9e493f54d24755224",
+        "sha256": "3de9a5faa73fabba05d7bb47debfa1522096a20ce581cdb9e493f54d24755224"
+      }
+    },
+    "Opportunistic_Fusilade": {
+      "us": {
+        "name": "Opportunistic Fusilade",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e9cdcfe0c9737fb8933ad5126800dc792aeebab8216a3cafd1f41008c630713e",
+        "sha256": "e9cdcfe0c9737fb8933ad5126800dc792aeebab8216a3cafd1f41008c630713e"
+      },
+      "cn": {
+        "name": "趁机发难",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/0de508d5225c68bfab485751979f8c99fbb6273685d85a76a06d65a09adaba0e",
+        "sha256": "0de508d5225c68bfab485751979f8c99fbb6273685d85a76a06d65a09adaba0e"
+      }
+    },
+    "Overlord": {
+      "us": {
+        "name": "Overlord",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/bab26be8f2e91353465f03ca6df3e8385babd95ce84ea2e4560b5fa36be70d7b",
+        "sha256": "bab26be8f2e91353465f03ca6df3e8385babd95ce84ea2e4560b5fa36be70d7b"
+      },
+      "cn": {
+        "name": "霸主",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/5c2990900fbfbe229608a8544b4f5bfb8c56eb770f3b6055485e4c926170bd0f",
+        "sha256": "5c2990900fbfbe229608a8544b4f5bfb8c56eb770f3b6055485e4c926170bd0f"
+      }
+    },
+    "Overshock": {
+      "us": {
+        "name": "Overshock",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/98b6143e67489a7933f591ef9ddde9de68659493557b15e6d7a170f7a8bb2116",
+        "sha256": "98b6143e67489a7933f591ef9ddde9de68659493557b15e6d7a170f7a8bb2116"
+      },
+      "cn": {
+        "name": "霹雳雷震",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a64fb247bd6b182714bb8fe8c0914f838dad6eedf1b0c9e8b7d2bb5bc9476c37",
+        "sha256": "a64fb247bd6b182714bb8fe8c0914f838dad6eedf1b0c9e8b7d2bb5bc9476c37"
+      }
+    },
+    "Overwhelming_Malice": {
+      "us": {
+        "name": "Overwhelming Malice",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/5e3e41bf75dbbd9ed7a140080df8c66d590de8334fbf46daa0e54c5c95c27b00",
+        "sha256": "5e3e41bf75dbbd9ed7a140080df8c66d590de8334fbf46daa0e54c5c95c27b00"
+      },
+      "cn": {
+        "name": "罪恶滔天",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/4d81be9dc3030b5d779dd8547ee8721cdc31b062fb724946116df607c98e7782",
+        "sha256": "4d81be9dc3030b5d779dd8547ee8721cdc31b062fb724946116df607c98e7782"
+      }
+    },
+    "Paralysis": {
+      "us": {
+        "name": "Paralysis",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b812dfe0f90160a018a6758811f80ed3c60567f6f54a984fb17775de7a81fede",
+        "sha256": "b812dfe0f90160a018a6758811f80ed3c60567f6f54a984fb17775de7a81fede"
+      },
+      "cn": {
+        "name": "瘫痪",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/b258685f6042f6225474ae688240c00d40309fbae95e690d9cae5f9523de32ff",
+        "sha256": "b258685f6042f6225474ae688240c00d40309fbae95e690d9cae5f9523de32ff"
+      }
+    },
+    "Peace_Amidst_Chaos": {
+      "us": {
+        "name": "Peace Amidst Chaos",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/7d4d251d49d0d439a9de0db7248d4ba602e1a4d4bbbcd8ec4114058f011e09f0",
+        "sha256": "7d4d251d49d0d439a9de0db7248d4ba602e1a4d4bbbcd8ec4114058f011e09f0"
+      },
+      "cn": {
+        "name": "乱中有静",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/450c54618ac6e23102c5940c72027e5ee4ec073f028c5246f6e7c8536dc5144c",
+        "sha256": "450c54618ac6e23102c5940c72027e5ee4ec073f028c5246f6e7c8536dc5144c"
+      }
+    },
+    "Peak_Vigour": {
+      "us": {
+        "name": "Peak Vigour",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/633cc49a174375b25243bc07dc0956a1ada08bb13092233ad4a007314ee2743b",
+        "sha256": "633cc49a174375b25243bc07dc0956a1ada08bb13092233ad4a007314ee2743b"
+      },
+      "cn": {
+        "name": "巅峰状态",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f3bf88a11a8c6f2dbcff06301797973bbedd1808d444b7dab7769b61fe318e9f",
+        "sha256": "f3bf88a11a8c6f2dbcff06301797973bbedd1808d444b7dab7769b61fe318e9f"
+      }
+    },
+    "Phlebotomist": {
+      "us": {
+        "name": "Phlebotomist",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/88ba75d2ae4b98df0277471cdb52f5ea2da6ce86122147686681cf0cfcd93f99",
+        "sha256": "88ba75d2ae4b98df0277471cdb52f5ea2da6ce86122147686681cf0cfcd93f99"
+      },
+      "cn": {
+        "name": "赤血医师",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/63547c509ed3b6d03e62ac1f0db747674e001a2176c18213a4fdec078215768d",
+        "sha256": "63547c509ed3b6d03e62ac1f0db747674e001a2176c18213a4fdec078215768d"
+      }
+    },
+    "Pitfighter": {
+      "us": {
+        "name": "Pitfighter",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/6e952cbbb8dec22608521539b15c8026a21c92ceff04e1f6325d834b54311d70",
+        "sha256": "6e952cbbb8dec22608521539b15c8026a21c92ceff04e1f6325d834b54311d70"
+      },
+      "cn": {
+        "name": "深渊斗士",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/146e48921b833e03d47295d477204dbf1ab704157b585dd59e76c831695ad5cc",
+        "sha256": "146e48921b833e03d47295d477204dbf1ab704157b585dd59e76c831695ad5cc"
+      }
+    },
+    "Powerful_Assault": {
+      "us": {
+        "name": "Powerful Assault",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/77af1d9c3824205cb8e7193e6c6fa8e2ad79864c69be82163b7a0353ce40435e",
+        "sha256": "77af1d9c3824205cb8e7193e6c6fa8e2ad79864c69be82163b7a0353ce40435e"
+      },
+      "cn": {
+        "name": "横扫千军",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/0ed4706c132456cbe10d46c3e96c05ba8aed677acf5d945c2f018a132cd38460",
+        "sha256": "0ed4706c132456cbe10d46c3e96c05ba8aed677acf5d945c2f018a132cd38460"
+      }
+    },
+    "Powerful_Ward": {
+      "us": {
+        "name": "Powerful Ward",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/1708cc825e54d05e7451c40ec236a33de802fff63b3f7718887f70361b47d1a6",
+        "sha256": "1708cc825e54d05e7451c40ec236a33de802fff63b3f7718887f70361b47d1a6"
+      },
+      "cn": {
+        "name": "威力结界",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f5188fb8da21de11cc2db9a1235af5e4e45298b9cca3318b5feeb689dd590a64",
+        "sha256": "f5188fb8da21de11cc2db9a1235af5e4e45298b9cca3318b5feeb689dd590a64"
+      }
+    },
+    "Practiced_Caster": {
+      "us": {
+        "name": "Practiced Caster",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/42f05eb53ed4e7243b8dcb41987942357e986f4a633fe94cd31cc8faaeaf0c6d",
+        "sha256": "42f05eb53ed4e7243b8dcb41987942357e986f4a633fe94cd31cc8faaeaf0c6d"
+      },
+      "cn": {
+        "name": "施法熟手",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a10cac6eca7ea132589004208d4066deb68c5413353d0c1c5659007034fec518",
+        "sha256": "a10cac6eca7ea132589004208d4066deb68c5413353d0c1c5659007034fec518"
+      }
+    },
+    "Precise_Focus": {
+      "us": {
+        "name": "Precise Focus",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/11de577d1b58685c4b6276bd2360c7d5ab2f18df1a5b6987b8955c0059b454d3",
+        "sha256": "11de577d1b58685c4b6276bd2360c7d5ab2f18df1a5b6987b8955c0059b454d3"
+      },
+      "cn": {
+        "name": "精确专注",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/acf1423de81123edbc40b5fce84c899fbed48b8a2a654bd36a1768e99bc64e13",
+        "sha256": "acf1423de81123edbc40b5fce84c899fbed48b8a2a654bd36a1768e99bc64e13"
+      }
+    },
+    "Precise_Retaliation": {
+      "us": {
+        "name": "Precise Retaliation",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/81c4520f26b555a0bc4365ed28d3df12ef0a3c3eeec66de2c523e4de9afc36ed",
+        "sha256": "81c4520f26b555a0bc4365ed28d3df12ef0a3c3eeec66de2c523e4de9afc36ed"
+      },
+      "cn": {
+        "name": "睚眦必报",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/82b4cde5282340695bc17c20f1d1e485938393a3a962b8d643c3a7ff1b4ee4b4",
+        "sha256": "82b4cde5282340695bc17c20f1d1e485938393a3a962b8d643c3a7ff1b4ee4b4"
+      }
+    },
+    "Pressure_Points": {
+      "us": {
+        "name": "Pressure Points",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9bbb45b30c800b81ca5b61c01eb890794dcc5d1aa7968fd16e5c734940d254e9",
+        "sha256": "9bbb45b30c800b81ca5b61c01eb890794dcc5d1aa7968fd16e5c734940d254e9"
+      },
+      "cn": {
+        "name": "直攻要害",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/04130437f37b6499ef8cc7725b846dcc525451f490298ab8d43b9915a0512a9e",
+        "sha256": "04130437f37b6499ef8cc7725b846dcc525451f490298ab8d43b9915a0512a9e"
+      }
+    },
+    "Primordial_Bond": {
+      "us": {
+        "name": "Primordial Bond",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/36f55381b35fdabcd800543d3b820e6f5223795ec8dabaa500dd02780220dda2",
+        "sha256": "36f55381b35fdabcd800543d3b820e6f5223795ec8dabaa500dd02780220dda2"
+      },
+      "cn": {
+        "name": "原初之缚",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e2f87b3668a42338e5eb2dd66dcd099e8187b1e19289cb7711fb6faedc7c31b3",
+        "sha256": "e2f87b3668a42338e5eb2dd66dcd099e8187b1e19289cb7711fb6faedc7c31b3"
+      }
+    },
+    "Prismatic_Carapace": {
+      "us": {
+        "name": "Prismatic Carapace",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/7bb273f547d5916ca7588e5d63b2303f6ca62f6353073055d940144a476ff163",
+        "sha256": "7bb273f547d5916ca7588e5d63b2303f6ca62f6353073055d940144a476ff163"
+      },
+      "cn": {
+        "name": "棱光之壳",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a6fb951712fa1ab322e6ba6de48bc73ea61664c7ad18f788c945f176c87b5e5d",
+        "sha256": "a6fb951712fa1ab322e6ba6de48bc73ea61664c7ad18f788c945f176c87b5e5d"
+      }
+    },
+    "Prismatic_Dance": {
+      "us": {
+        "name": "Prismatic Dance",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f226591ab7ae3bad2dbaea6438a775bc5b46a163d708c8466a970a87af1c2506",
+        "sha256": "f226591ab7ae3bad2dbaea6438a775bc5b46a163d708c8466a970a87af1c2506"
+      },
+      "cn": {
+        "name": "棱光之舞",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/bdb5cab03b91d9578f588c611088437d11cb3a54593b015837c9544d49a69d17",
+        "sha256": "bdb5cab03b91d9578f588c611088437d11cb3a54593b015837c9544d49a69d17"
+      }
+    },
+    "Prismatic_Heart": {
+      "us": {
+        "name": "Prismatic Heart",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/793a6b89d042e4085f6cab5b51fa04381d6c5c955f35d7ce3c5331da31b06ed2",
+        "sha256": "793a6b89d042e4085f6cab5b51fa04381d6c5c955f35d7ce3c5331da31b06ed2"
+      },
+      "cn": {
+        "name": "棱光之心",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/cc80018c8a90e22ec163d7b6666f1ffa290b3cb9e647798b8aeddbca5fbf70bd",
+        "sha256": "cc80018c8a90e22ec163d7b6666f1ffa290b3cb9e647798b8aeddbca5fbf70bd"
+      }
+    },
+    "Prodigious_Defence": {
+      "us": {
+        "name": "Prodigious Defence",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/acf11bf8ed338ee803e956691548becedf6bd03f70a1477082e9fa8a66d9647b",
+        "sha256": "acf11bf8ed338ee803e956691548becedf6bd03f70a1477082e9fa8a66d9647b"
+      },
+      "cn": {
+        "name": "恢宏壁垒",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e99240569f1bec9909f701682564b72418c187ce1dbbbadcb236d024ded2b93b",
+        "sha256": "e99240569f1bec9909f701682564b72418c187ce1dbbbadcb236d024ded2b93b"
+      }
+    },
+    "Provocateur": {
+      "us": {
+        "name": "Provocateur",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9ca671fe2fe0cdd6d7e163ee0753f996f97c1b26ffad937a075e237cae5d7443",
+        "sha256": "9ca671fe2fe0cdd6d7e163ee0753f996f97c1b26ffad937a075e237cae5d7443"
+      },
+      "cn": {
+        "name": "内奸",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/2051388fdf6d61ef64c3c155e43c30d69c4f3b0de0c2aa150c495664cbadc52e",
+        "sha256": "2051388fdf6d61ef64c3c155e43c30d69c4f3b0de0c2aa150c495664cbadc52e"
+      }
+    },
+    "Pure_Agony": {
+      "us": {
+        "name": "Pure Agony",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/0086e696e5c108f60c1c3f1ddebf1cb78c817a0eaa0e6344bc5c5dfb99c3ecc2",
+        "sha256": "0086e696e5c108f60c1c3f1ddebf1cb78c817a0eaa0e6344bc5c5dfb99c3ecc2"
+      },
+      "cn": {
+        "name": "纯粹苦痛",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f0d38adbf6390e84c6f534c5ce31bc68f003d5c55aff09487a550cf5d5e656c3",
+        "sha256": "f0d38adbf6390e84c6f534c5ce31bc68f003d5c55aff09487a550cf5d5e656c3"
+      }
+    },
+    "Pure_Aptitude": {
+      "us": {
+        "name": "Pure Aptitude",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/67d99550290cc974328dfd774bffffef16c797bdc27cf8a636097633ca36ca66",
+        "sha256": "67d99550290cc974328dfd774bffffef16c797bdc27cf8a636097633ca36ca66"
+      },
+      "cn": {
+        "name": "天赋禀异",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/8716f4eb729774a4411db6d2cf0b79a332369215a49e38f29226481236c8cd61",
+        "sha256": "8716f4eb729774a4411db6d2cf0b79a332369215a49e38f29226481236c8cd61"
+      }
+    },
+    "Pure_Guile": {
+      "us": {
+        "name": "Pure Guile",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d13da8c50c8c04e7911fa106c2afe223ef687a8332d3cc5a885d6caad1e8de00",
+        "sha256": "d13da8c50c8c04e7911fa106c2afe223ef687a8332d3cc5a885d6caad1e8de00"
+      },
+      "cn": {
+        "name": "天生狡诈",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a1ff5386100cfbacc8276a6340b6088a8697cf9890de330a963eac308768f896",
+        "sha256": "a1ff5386100cfbacc8276a6340b6088a8697cf9890de330a963eac308768f896"
+      }
+    },
+    "Pure_Might": {
+      "us": {
+        "name": "Pure Might",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/25cec2cfc33f5643531488e58000b87315393ac7c5ee0ef00cb8daea8faadc1c",
+        "sha256": "25cec2cfc33f5643531488e58000b87315393ac7c5ee0ef00cb8daea8faadc1c"
+      },
+      "cn": {
+        "name": "纯粹之力",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/edf654e8c1517632d7794d5e3a0eebfb435fdd92984d1c44eb1790b347845e54",
+        "sha256": "edf654e8c1517632d7794d5e3a0eebfb435fdd92984d1c44eb1790b347845e54"
+      }
+    },
+    "Purposeful_Harbinger": {
+      "us": {
+        "name": "Purposeful Harbinger",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e87f0524e7b78199611fcee2897d0e8fa41a048cf5ad068517483543c24fe0b2",
+        "sha256": "e87f0524e7b78199611fcee2897d0e8fa41a048cf5ad068517483543c24fe0b2"
+      },
+      "cn": {
+        "name": "勇毅先驱",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/3e9a677f91feb55b8ea666a46b701f23a7c6e4f9a0c2bec26f22d33cd95deb3c",
+        "sha256": "3e9a677f91feb55b8ea666a46b701f23a7c6e4f9a0c2bec26f22d33cd95deb3c"
+      }
+    },
+    "Quick_Getaway": {
+      "us": {
+        "name": "Quick Getaway",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/3ab1c917a6b82b6172baf1abf3f75f05757da98449c2f193a032da364fde935a",
+        "sha256": "3ab1c917a6b82b6172baf1abf3f75f05757da98449c2f193a032da364fde935a"
+      },
+      "cn": {
+        "name": "逃之夭夭",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/d1cdfbb93f4b6d7bd814860b522e6fe7c09933e37e4e75bfd922f8ab6ffeccd6",
+        "sha256": "d1cdfbb93f4b6d7bd814860b522e6fe7c09933e37e4e75bfd922f8ab6ffeccd6"
+      }
+    },
+    "Quick_and_Deadly": {
+      "us": {
+        "name": "Quick and Deadly",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/70382160e652694117382ff1bd9cd8af5903fa40eb4c7c28a40be2ae2a62b20c",
+        "sha256": "70382160e652694117382ff1bd9cd8af5903fa40eb4c7c28a40be2ae2a62b20c"
+      },
+      "cn": {
+        "name": "又快又狠",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/5a54909be7a97583e7b2e86773ffe6ae27f035f5791cca03e0c4804594cf3741",
+        "sha256": "5a54909be7a97583e7b2e86773ffe6ae27f035f5791cca03e0c4804594cf3741"
+      }
+    },
+    "Rattling_Bellow": {
+      "us": {
+        "name": "Rattling Bellow",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/c1f48d6bc6df790604eb9916767e4b757e3ed4adc177ed5758fc943c18ebceaa",
+        "sha256": "c1f48d6bc6df790604eb9916767e4b757e3ed4adc177ed5758fc943c18ebceaa"
+      },
+      "cn": {
+        "name": "野蛮嚎叫",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/d6ae828f2706dd6907392f130bdb41fb6b04f36d1bbbd5a73966845be49507a7",
+        "sha256": "d6ae828f2706dd6907392f130bdb41fb6b04f36d1bbbd5a73966845be49507a7"
+      }
+    },
+    "Raze_and_Pillage": {
+      "us": {
+        "name": "Raze and Pillage",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/88dc2f8c84a2a33a0bf1e3e386bae7dfd1994229ecc4b7aa601ae343d9e88c61",
+        "sha256": "88dc2f8c84a2a33a0bf1e3e386bae7dfd1994229ecc4b7aa601ae343d9e88c61"
+      },
+      "cn": {
+        "name": "寸草不生",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/9ac1f359bdb04c643d13422a150027a03cd36761fac608eef35553ff20d73810",
+        "sha256": "9ac1f359bdb04c643d13422a150027a03cd36761fac608eef35553ff20d73810"
+      }
+    },
+    "Readiness": {
+      "us": {
+        "name": "Readiness",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/15133d1a82541a8f22cb0f830c3dff465fb338663a0d7b4c14dbbf78dfeae35d",
+        "sha256": "15133d1a82541a8f22cb0f830c3dff465fb338663a0d7b4c14dbbf78dfeae35d"
+      },
+      "cn": {
+        "name": "准备就绪",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/08f4f1e40a82a01b86b5efa58782d8ba9aa0cde0e59f2db318605a1eb9a95ef3",
+        "sha256": "08f4f1e40a82a01b86b5efa58782d8ba9aa0cde0e59f2db318605a1eb9a95ef3"
+      }
+    },
+    "Remarkable": {
+      "us": {
+        "name": "Remarkable",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9833757e25ae25a50dc6e8c04c2ea74099ff6d558e02d853935758fb713640bd",
+        "sha256": "9833757e25ae25a50dc6e8c04c2ea74099ff6d558e02d853935758fb713640bd"
+      },
+      "cn": {
+        "name": "非凡瞩目",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/1ac0eee07a0fde7128b0121010844ba1853733a1e877e6e5ecb07173bb73b7bb",
+        "sha256": "1ac0eee07a0fde7128b0121010844ba1853733a1e877e6e5ecb07173bb73b7bb"
+      }
+    },
+    "Rend": {
+      "us": {
+        "name": "Rend",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/06117e45af52d988f7f9b61f0c3f4a0659df9bc0ee572c65f9eed43f885aa424",
+        "sha256": "06117e45af52d988f7f9b61f0c3f4a0659df9bc0ee572c65f9eed43f885aa424"
+      },
+      "cn": {
+        "name": "撕裂",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/82cdc6bf7a3301215a1e9de88e3a02818979c98f7af19197626a5cafd25af290",
+        "sha256": "82cdc6bf7a3301215a1e9de88e3a02818979c98f7af19197626a5cafd25af290"
+      }
+    },
+    "Renewal": {
+      "us": {
+        "name": "Renewal",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/3c0244b97532ab24e25e19b1eeac3628f983fc43cdc5c8fa9b99787246a865ca",
+        "sha256": "3c0244b97532ab24e25e19b1eeac3628f983fc43cdc5c8fa9b99787246a865ca"
+      },
+      "cn": {
+        "name": "复兴",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/9b5ebe59756570da2e464f3231b4dbf994124b1d58f31ed06e1a800538d01f52",
+        "sha256": "9b5ebe59756570da2e464f3231b4dbf994124b1d58f31ed06e1a800538d01f52"
+      }
+    },
+    "Repeater": {
+      "us": {
+        "name": "Repeater",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/3da76510ecc1392eeb507f0a0d250b6fa3184f51fd589cfc9aab3537de2c38d2",
+        "sha256": "3da76510ecc1392eeb507f0a0d250b6fa3184f51fd589cfc9aab3537de2c38d2"
+      },
+      "cn": {
+        "name": "连发",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/20b6903f948833f684d9808fa5586546da9d421d04624b076a8b511cbd20ddc3",
+        "sha256": "20b6903f948833f684d9808fa5586546da9d421d04624b076a8b511cbd20ddc3"
+      }
+    },
+    "Replenishing_Presence": {
+      "us": {
+        "name": "Replenishing Presence",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/5ad1f219c60dd9a84e89f33ec6e465b4822ebb6740c7fd50d6da09bfe2e11118",
+        "sha256": "5ad1f219c60dd9a84e89f33ec6e465b4822ebb6740c7fd50d6da09bfe2e11118"
+      },
+      "cn": {
+        "name": "重装上阵",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/b8fad9fc7a4edec0afb7b8cbfe03fe5a2534680cd7e26e67f2621349811ae28c",
+        "sha256": "b8fad9fc7a4edec0afb7b8cbfe03fe5a2534680cd7e26e67f2621349811ae28c"
+      }
+    },
+    "Righteous_Path": {
+      "us": {
+        "name": "Righteous Path",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b85e63cddef6e02ab6186d72732591606987522cc277670466bcf88c33dbec80",
+        "sha256": "b85e63cddef6e02ab6186d72732591606987522cc277670466bcf88c33dbec80"
+      },
+      "cn": {
+        "name": "正义之路",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f6b8f38c84b0108567b57730dba40ba2728d5f0ebcdb92d6d6cd654e04875760",
+        "sha256": "f6b8f38c84b0108567b57730dba40ba2728d5f0ebcdb92d6d6cd654e04875760"
+      }
+    },
+    "Riot_Queller": {
+      "us": {
+        "name": "Riot Queller",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b9f9663eddcdc0bdd100646310b12c8af41814b860f847168873b6a53797ba82",
+        "sha256": "b9f9663eddcdc0bdd100646310b12c8af41814b860f847168873b6a53797ba82"
+      },
+      "cn": {
+        "name": "骚乱平息",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/88ca6ba9a88248f45d55d0b6e22dff0a27b4a13e3bb9c450a1245e0af4281604",
+        "sha256": "88ca6ba9a88248f45d55d0b6e22dff0a27b4a13e3bb9c450a1245e0af4281604"
+      }
+    },
+    "Rot-Resistant": {
+      "us": {
+        "name": "Rot-Resistant",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/970ea498b0f074fb632beff5931d37385f2bfee070003504967ce82d69f08aa1",
+        "sha256": "970ea498b0f074fb632beff5931d37385f2bfee070003504967ce82d69f08aa1"
+      },
+      "cn": {
+        "name": "腐烂抗力",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/243194bf3b4d6767742c327638a5258f2fcad9bcbf56a2fd3e270272e80bb100",
+        "sha256": "243194bf3b4d6767742c327638a5258f2fcad9bcbf56a2fd3e270272e80bb100"
+      }
+    },
+    "Rote_Reinforcement": {
+      "us": {
+        "name": "Rote Reinforcement",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/455dbe65def1241219c763dde7d81e96340fcdd596158e75d5f027d095c32bd5",
+        "sha256": "455dbe65def1241219c763dde7d81e96340fcdd596158e75d5f027d095c32bd5"
+      },
+      "cn": {
+        "name": "刻板援军",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/449e7ecfccc50e11777f3a8f59febe5b53358ca48b508601d699b659a15ff2f4",
+        "sha256": "449e7ecfccc50e11777f3a8f59febe5b53358ca48b508601d699b659a15ff2f4"
+      }
+    },
+    "Rotten_Claws": {
+      "us": {
+        "name": "Rotten Claws",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9cb6f1719b4e64d2caf55cb6cbd2a486a6b2cbd16ff21fa5057bf09df7ebe82c",
+        "sha256": "9cb6f1719b4e64d2caf55cb6cbd2a486a6b2cbd16ff21fa5057bf09df7ebe82c"
+      },
+      "cn": {
+        "name": "腐烂之爪",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/bd3875cb0a4f6d39c8c9c121c820e3dd9aa1b67c504191b71003551b4e4e5aa6",
+        "sha256": "bd3875cb0a4f6d39c8c9c121c820e3dd9aa1b67c504191b71003551b4e4e5aa6"
+      }
+    },
+    "Run_Through": {
+      "us": {
+        "name": "Run Through",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/42bac31fbd0103e08942acfdfb07dd14bd16cd8a88b268a9e72ac2550d221638",
+        "sha256": "42bac31fbd0103e08942acfdfb07dd14bd16cd8a88b268a9e72ac2550d221638"
+      },
+      "cn": {
+        "name": "飘雪穿云",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/977180b9f991a9bfeb67af6319e43b2ec6cf4bd20bbeb3e0afa1c8e418c9cdfd",
+        "sha256": "977180b9f991a9bfeb67af6319e43b2ec6cf4bd20bbeb3e0afa1c8e418c9cdfd"
+      }
+    },
+    "Sadist": {
+      "us": {
+        "name": "Sadist",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b8346c4c3a0ced6ada94508cbdb7dbc566a07708d8732e6b348cbd0f09ab52e7",
+        "sha256": "b8346c4c3a0ced6ada94508cbdb7dbc566a07708d8732e6b348cbd0f09ab52e7"
+      },
+      "cn": {
+        "name": "狂虐者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/4aab526b73cd3a9d2ace8025dac94657b83268e962e20d95c82dfd50e2132cd3",
+        "sha256": "4aab526b73cd3a9d2ace8025dac94657b83268e962e20d95c82dfd50e2132cd3"
+      }
+    },
+    "Sage": {
+      "us": {
+        "name": "Sage",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e30b701c355892440d7af97e313fb91310d90d535d582340ced3ee7c10fbe079",
+        "sha256": "e30b701c355892440d7af97e313fb91310d90d535d582340ced3ee7c10fbe079"
+      },
+      "cn": {
+        "name": "贤者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a6ac87869198099d3a99e882cf205f38f2a43833c910dc8b09dda64008842c31",
+        "sha256": "a6ac87869198099d3a99e882cf205f38f2a43833c910dc8b09dda64008842c31"
+      }
+    },
+    "Sap_Psyche": {
+      "us": {
+        "name": "Sap Psyche",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8401df7ed186d282c488dbc41aeaf4abafae786ab874dbb5a2484a77abf5d635",
+        "sha256": "8401df7ed186d282c488dbc41aeaf4abafae786ab874dbb5a2484a77abf5d635"
+      },
+      "cn": {
+        "name": "心灵枯竭",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/d5f5440f1cdc6e987d591e124f8b9b609846bb0bcfae1951852b5cd2a171131c",
+        "sha256": "d5f5440f1cdc6e987d591e124f8b9b609846bb0bcfae1951852b5cd2a171131c"
+      }
+    },
+    "Savage_Response": {
+      "us": {
+        "name": "Savage Response",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/41451809659f90a03bc5a9d7bbf020da8553d99ac29a33c50c9b1ed645a7c61e",
+        "sha256": "41451809659f90a03bc5a9d7bbf020da8553d99ac29a33c50c9b1ed645a7c61e"
+      },
+      "cn": {
+        "name": "凶蛮回荡",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/d40c6a95cc49dc72172bdccca840cd7d50a26378f1d3e02336ed9ea17ae27864",
+        "sha256": "d40c6a95cc49dc72172bdccca840cd7d50a26378f1d3e02336ed9ea17ae27864"
+      }
+    },
+    "Savour_the_Moment": {
+      "us": {
+        "name": "Savour the Moment",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/66a3dd6b721bb12d32ed76db165ff985c05dcce5fcf26827976bed85f23e253f",
+        "sha256": "66a3dd6b721bb12d32ed76db165ff985c05dcce5fcf26827976bed85f23e253f"
+      },
+      "cn": {
+        "name": "品味片刻",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/cd3b426cb6750feca6c6dfdecad545c79c605dd7343dc0cbdd60ac5c022b144a",
+        "sha256": "cd3b426cb6750feca6c6dfdecad545c79c605dd7343dc0cbdd60ac5c022b144a"
+      }
+    },
+    "Scintillating_Idea": {
+      "us": {
+        "name": "Scintillating Idea",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/6a3d1c49c190b96c17bc009f84e73a627d3caa62d4cd1c52f88c9c9a064b3dec",
+        "sha256": "6a3d1c49c190b96c17bc009f84e73a627d3caa62d4cd1c52f88c9c9a064b3dec"
+      },
+      "cn": {
+        "name": "闪光理念",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/1a024a5957035a0548acd361c6366cf9e2d2378f8e58c2a296ea8a79dcc832de",
+        "sha256": "1a024a5957035a0548acd361c6366cf9e2d2378f8e58c2a296ea8a79dcc832de"
+      }
+    },
+    "Seal_Mender": {
+      "us": {
+        "name": "Seal Mender",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/5e4d558ed365b52dfdd14e4b8806cf48b26de7a8006ca047b18d1b08cf4fc04e",
+        "sha256": "5e4d558ed365b52dfdd14e4b8806cf48b26de7a8006ca047b18d1b08cf4fc04e"
+      },
+      "cn": {
+        "name": "弥补之印",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/28938809c1addbf90b3d661ea95130eaf71c1f2510020aa268f312ba88c291b4",
+        "sha256": "28938809c1addbf90b3d661ea95130eaf71c1f2510020aa268f312ba88c291b4"
+      }
+    },
+    "Second_Skin": {
+      "us": {
+        "name": "Second Skin",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b941c030a32f1432adab6af4cf0622b7d803ce0a2e321b42ff544bd6580a39a9",
+        "sha256": "b941c030a32f1432adab6af4cf0622b7d803ce0a2e321b42ff544bd6580a39a9"
+      },
+      "cn": {
+        "name": "天衣无缝",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/18bc30e0574656ac4c5c611ab2821f7fa1ce526eee2889b7369e42bd81b3e318",
+        "sha256": "18bc30e0574656ac4c5c611ab2821f7fa1ce526eee2889b7369e42bd81b3e318"
+      }
+    },
+    "Secrets_of_Suffering": {
+      "us": {
+        "name": "Secrets of Suffering",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/155885273141ade42e8b7e35815d5ada0c6c3c48d95836beed272ebc525d717c",
+        "sha256": "155885273141ade42e8b7e35815d5ada0c6c3c48d95836beed272ebc525d717c"
+      },
+      "cn": {
+        "name": "苦难秘辛",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a770a2bd97e54bcfcca59a8f4f79c05e332c07dc7623eac0fd41220e9bd833ab",
+        "sha256": "a770a2bd97e54bcfcca59a8f4f79c05e332c07dc7623eac0fd41220e9bd833ab"
+      }
+    },
+    "Seeker_Runes": {
+      "us": {
+        "name": "Seeker Runes",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/3bbc84193c1617725ce6a61e67b96c184148865cbf03f9e98e6841249de4b83b",
+        "sha256": "3bbc84193c1617725ce6a61e67b96c184148865cbf03f9e98e6841249de4b83b"
+      },
+      "cn": {
+        "name": "探索符文",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/8033b19704017b876a158852b223d77f3cc3a7c630d6f35c2b87267c5b4015a7",
+        "sha256": "8033b19704017b876a158852b223d77f3cc3a7c630d6f35c2b87267c5b4015a7"
+      }
+    },
+    "Self-Control": {
+      "us": {
+        "name": "Self-Control",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d2709cb04ae277ebf931979ede9b18d5fe0ac0a8f34d0d9a1bdfbff20f0c090d",
+        "sha256": "d2709cb04ae277ebf931979ede9b18d5fe0ac0a8f34d0d9a1bdfbff20f0c090d"
+      },
+      "cn": {
+        "name": "自制",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a6ca6db0a3a8d64649e3183d553cf08e04e1155b5f309013fb0e8630b11af2f0",
+        "sha256": "a6ca6db0a3a8d64649e3183d553cf08e04e1155b5f309013fb0e8630b11af2f0"
+      }
+    },
+    "Self-Fulfilling_Prophecy": {
+      "us": {
+        "name": "Self-Fulfilling Prophecy",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e248403aaa8728513979153a307990f6f347ba0c283010db764c5d55c938cf3a",
+        "sha256": "e248403aaa8728513979153a307990f6f347ba0c283010db764c5d55c938cf3a"
+      },
+      "cn": {
+        "name": "自圆其说",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f3f7f3526c2bb128edcfda4b84aea8bb95a7348d69517b2cc9fa6e65c7477fed",
+        "sha256": "f3f7f3526c2bb128edcfda4b84aea8bb95a7348d69517b2cc9fa6e65c7477fed"
+      }
+    },
+    "Septic_Spells": {
+      "us": {
+        "name": "Septic Spells",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/db168c9f1d05fe5a412fece220136c2219f75d7413d679c9733e5b147680b9da",
+        "sha256": "db168c9f1d05fe5a412fece220136c2219f75d7413d679c9733e5b147680b9da"
+      },
+      "cn": {
+        "name": "降蛊",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7183a16c6f09e78431924a7547bdc4b082c5327beae86995845c36e50c262242",
+        "sha256": "7183a16c6f09e78431924a7547bdc4b082c5327beae86995845c36e50c262242"
+      }
+    },
+    "Set_and_Forget": {
+      "us": {
+        "name": "Set and Forget",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/82222456b1ffbd5a5c0598cde3d6af2e54f935d1bd66b5e782a4d68e9f67fd9b",
+        "sha256": "82222456b1ffbd5a5c0598cde3d6af2e54f935d1bd66b5e782a4d68e9f67fd9b"
+      },
+      "cn": {
+        "name": "高枕无忧",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/20ec54fc8f4130bd494b69492f9b011ea788c8e35ba9e40411860850cda94bfe",
+        "sha256": "20ec54fc8f4130bd494b69492f9b011ea788c8e35ba9e40411860850cda94bfe"
+      }
+    },
+    "Shifting_Shadow": {
+      "us": {
+        "name": "Shifting Shadow",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/146d3acdf0b9dd85b1dac27d984898384d8f23e373239f46bfad2527538857a9",
+        "sha256": "146d3acdf0b9dd85b1dac27d984898384d8f23e373239f46bfad2527538857a9"
+      },
+      "cn": {
+        "name": "变换之影",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/aaea2a1e97b6d8fb241224cd3fed7e735f6c9e44daeb467ff16e5f3986bc2aeb",
+        "sha256": "aaea2a1e97b6d8fb241224cd3fed7e735f6c9e44daeb467ff16e5f3986bc2aeb"
+      }
+    },
+    "Shrieking_Bolts": {
+      "us": {
+        "name": "Shrieking Bolts",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/a15decb0e60f07d4c0598a148a14ea7b94f9677ffd217b93cbfd672adc72f994",
+        "sha256": "a15decb0e60f07d4c0598a148a14ea7b94f9677ffd217b93cbfd672adc72f994"
+      },
+      "cn": {
+        "name": "呼啸飞箭",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/197cd1357d27fe08caea1da430c5dfde9bd281992a69503639c5b67598e5c11f",
+        "sha256": "197cd1357d27fe08caea1da430c5dfde9bd281992a69503639c5b67598e5c11f"
+      }
+    },
+    "Skeletal_Atrophy": {
+      "us": {
+        "name": "Skeletal Atrophy",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8076bdd7a8c38de916da134da1bb409082b3385cb1177694112d8665161d4134",
+        "sha256": "8076bdd7a8c38de916da134da1bb409082b3385cb1177694112d8665161d4134"
+      },
+      "cn": {
+        "name": "魔侍凋零",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/f8f403989f5f570ef05b2e3b966b2d53d27ef1ac4f5de0d245a526d57ace879d",
+        "sha256": "f8f403989f5f570ef05b2e3b966b2d53d27ef1ac4f5de0d245a526d57ace879d"
+      }
+    },
+    "Skullbreaker": {
+      "us": {
+        "name": "Skullbreaker",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f248e70f84d7ba0634b5d45022d3b75963984ec5b28cef2f1aadb56c04fd1759",
+        "sha256": "f248e70f84d7ba0634b5d45022d3b75963984ec5b28cef2f1aadb56c04fd1759"
+      },
+      "cn": {
+        "name": "碎颅斗士",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/8c3ba6ab03fc3d9d555064872e7ff72bb0fe79d47e7947ee4c24bc9f2c709259",
+        "sha256": "8c3ba6ab03fc3d9d555064872e7ff72bb0fe79d47e7947ee4c24bc9f2c709259"
+      }
+    },
+    "Sleepless_Sentries": {
+      "us": {
+        "name": "Sleepless Sentries",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/3c515068506fcc9d4ab7aeb0a80191866bd3f2fab16d60eada92d8cdaf7c6202",
+        "sha256": "3c515068506fcc9d4ab7aeb0a80191866bd3f2fab16d60eada92d8cdaf7c6202"
+      },
+      "cn": {
+        "name": "不眠哨卫",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/95bc3644491b7edf798983881506b91f1dd768c29bb4de6b6e7f200d950ee5d5",
+        "sha256": "95bc3644491b7edf798983881506b91f1dd768c29bb4de6b6e7f200d950ee5d5"
+      }
+    },
+    "Smite_the_Weak": {
+      "us": {
+        "name": "Smite the Weak",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/b4471676b2bd6daef6a7bb167c31b37e19c8e286fcff417ab5394490b7bef4f1",
+        "sha256": "b4471676b2bd6daef6a7bb167c31b37e19c8e286fcff417ab5394490b7bef4f1"
+      },
+      "cn": {
+        "name": "截心击",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/dce4bbd49ee7f3665b27b2cf3669928fbfa57f124ea7091f792f44eee45ec194",
+        "sha256": "dce4bbd49ee7f3665b27b2cf3669928fbfa57f124ea7091f792f44eee45ec194"
+      }
+    },
+    "Smoking_Remains": {
+      "us": {
+        "name": "Smoking Remains",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/0c0c266524db1c57479ecc0d6e12b51e78327ef27fb32f41f0cb1e49f5cfeb3c",
+        "sha256": "0c0c266524db1c57479ecc0d6e12b51e78327ef27fb32f41f0cb1e49f5cfeb3c"
+      },
+      "cn": {
+        "name": "燃烬之烟",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7680318debbfa4c6266e2ecf2bb2e71f4d0f747a8c5940332126c6ab1b8db8eb",
+        "sha256": "7680318debbfa4c6266e2ecf2bb2e71f4d0f747a8c5940332126c6ab1b8db8eb"
+      }
+    },
+    "Snaring_Spirits": {
+      "us": {
+        "name": "Snaring Spirits",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/29c567295d0064f263e21a0f29831406566461ebaed4fda818b9f01c682e0a5c",
+        "sha256": "29c567295d0064f263e21a0f29831406566461ebaed4fda818b9f01c682e0a5c"
+      },
+      "cn": {
+        "name": "激荡狂灵",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/748625b3b2af0a670eaedfa155be02ac1fcf33b0ad4118f57f699039be69bca1",
+        "sha256": "748625b3b2af0a670eaedfa155be02ac1fcf33b0ad4118f57f699039be69bca1"
+      }
+    },
+    "Snowstorm": {
+      "us": {
+        "name": "Snowstorm",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/6797dbe62801e7c25f1da0d006339de0f2f20cab8bcbfa9d6e52230d1ceee143",
+        "sha256": "6797dbe62801e7c25f1da0d006339de0f2f20cab8bcbfa9d6e52230d1ceee143"
+      },
+      "cn": {
+        "name": "暴风雪",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/440fab2c7b6b799fdff2c42ce7ff5e04a0460e34aa029c15042232211f711c90",
+        "sha256": "440fab2c7b6b799fdff2c42ce7ff5e04a0460e34aa029c15042232211f711c90"
+      }
+    },
+    "Special_Reserve": {
+      "us": {
+        "name": "Special Reserve",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/4ca941966a13002f575075d7da32e1d9cb3178750e2efaccb09c9af2740e66a2",
+        "sha256": "4ca941966a13002f575075d7da32e1d9cb3178750e2efaccb09c9af2740e66a2"
+      },
+      "cn": {
+        "name": "特别预备",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/03dd4bcb4ac28c99588ffb2ba30a90dc575117e82dda797dd71e3aadb42c6a47",
+        "sha256": "03dd4bcb4ac28c99588ffb2ba30a90dc575117e82dda797dd71e3aadb42c6a47"
+      }
+    },
+    "Spiked_Concoction": {
+      "us": {
+        "name": "Spiked Concoction",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/39d80a473f0677afb1c09461b4f5546e97be230ee1e6baf9391b8c5038c2c66b",
+        "sha256": "39d80a473f0677afb1c09461b4f5546e97be230ee1e6baf9391b8c5038c2c66b"
+      },
+      "cn": {
+        "name": "钉刺调和",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/0277a8a1cfdd9bfd2e717a8cf002f99e9396592e0046d721c9d987d7f6999fae",
+        "sha256": "0277a8a1cfdd9bfd2e717a8cf002f99e9396592e0046d721c9d987d7f6999fae"
+      }
+    },
+    "Spiteful_Presence": {
+      "us": {
+        "name": "Spiteful Presence",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/122538e7992da7905f45d807446b56989f3f09e24837c782bd41cabcae3c35b0",
+        "sha256": "122538e7992da7905f45d807446b56989f3f09e24837c782bd41cabcae3c35b0"
+      },
+      "cn": {
+        "name": "怨恨姿态",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/3dfaee84687ef059f32562d66d3fd294a75f02b6be46c351286c286cdfe31e86",
+        "sha256": "3dfaee84687ef059f32562d66d3fd294a75f02b6be46c351286c286cdfe31e86"
+      }
+    },
+    "Spring_Back": {
+      "us": {
+        "name": "Spring Back",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/915a0fe55d4048c12dfd8d2c65ab42f195a110278d3b545db53e8a63f9096c6f",
+        "sha256": "915a0fe55d4048c12dfd8d2c65ab42f195a110278d3b545db53e8a63f9096c6f"
+      },
+      "cn": {
+        "name": "折回冲刺",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7e24c7b90ca20ec249f1d0d0bcbcb55a42b8660a3a029ceb532bdc80cc44b1ba",
+        "sha256": "7e24c7b90ca20ec249f1d0d0bcbcb55a42b8660a3a029ceb532bdc80cc44b1ba"
+      }
+    },
+    "Steady_Torment": {
+      "us": {
+        "name": "Steady Torment",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/a70d8fd14b10d4c497f356843137dc26a54a83c7b52f4a3584a006965e5066b9",
+        "sha256": "a70d8fd14b10d4c497f356843137dc26a54a83c7b52f4a3584a006965e5066b9"
+      },
+      "cn": {
+        "name": "缓慢折磨",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/181703641a0225ddc10a61d4bbf737f53575a33db8ec78a44634f8e3301f7b65",
+        "sha256": "181703641a0225ddc10a61d4bbf737f53575a33db8ec78a44634f8e3301f7b65"
+      }
+    },
+    "Stoic_Focus": {
+      "us": {
+        "name": "Stoic Focus",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/1b594123dfe88d1936088f2dfcf31b3cb3ece12126d3d8e97fc63823bb896245",
+        "sha256": "1b594123dfe88d1936088f2dfcf31b3cb3ece12126d3d8e97fc63823bb896245"
+      },
+      "cn": {
+        "name": "坚忍专注",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c70e88245a90f8da3dfd41660f8ac039722eab667c7218cea4d8a06d7c8d7fcc",
+        "sha256": "c70e88245a90f8da3dfd41660f8ac039722eab667c7218cea4d8a06d7c8d7fcc"
+      }
+    },
+    "Storm_Drinker": {
+      "us": {
+        "name": "Storm Drinker",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/4786219fcb9b6fc6f61d774087f83d4b996d20f7f20c8e59a832f484c87104b2",
+        "sha256": "4786219fcb9b6fc6f61d774087f83d4b996d20f7f20c8e59a832f484c87104b2"
+      },
+      "cn": {
+        "name": "风暴痛饮",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/30aa91bd42bae4c59c7bb5f771c89418f80d886076d52756b14d870666cb56ec",
+        "sha256": "30aa91bd42bae4c59c7bb5f771c89418f80d886076d52756b14d870666cb56ec"
+      }
+    },
+    "Stormrider": {
+      "us": {
+        "name": "Stormrider",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/cdcfa0ddd2add9c51fd79884b83f45397e5ae8c7dff740e9b31cd22186e9dc2d",
+        "sha256": "cdcfa0ddd2add9c51fd79884b83f45397e5ae8c7dff740e9b31cd22186e9dc2d"
+      },
+      "cn": {
+        "name": "风暴骑手",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/7767935bdbaed8c53649e41573488db86d57ec4be94dba913a1181f031416f17",
+        "sha256": "7767935bdbaed8c53649e41573488db86d57ec4be94dba913a1181f031416f17"
+      }
+    },
+    "Storms_Hand": {
+      "us": {
+        "name": "Storm's Hand",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/a3476cadfa3496bcaa67fade3fb772b2c3def3e6d2c45045b828aa4e759a33f6",
+        "sha256": "a3476cadfa3496bcaa67fade3fb772b2c3def3e6d2c45045b828aa4e759a33f6"
+      },
+      "cn": {
+        "name": "风暴之手",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/8ce2cb781aee97503307044d1160eb3642e9cca9f7f9d6b2c473519d81263ed2",
+        "sha256": "8ce2cb781aee97503307044d1160eb3642e9cca9f7f9d6b2c473519d81263ed2"
+      }
+    },
+    "Streamlined": {
+      "us": {
+        "name": "Streamlined",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9bb3e96edfa0e3181cd1103528d05899e43649524fe2ea3fcec9f3a929bfba94",
+        "sha256": "9bb3e96edfa0e3181cd1103528d05899e43649524fe2ea3fcec9f3a929bfba94"
+      },
+      "cn": {
+        "name": "流线作业",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e56481900b48b996a68230477bbe11667bc18f67109df68c605f196d17d5fb7a",
+        "sha256": "e56481900b48b996a68230477bbe11667bc18f67109df68c605f196d17d5fb7a"
+      }
+    },
+    "Strike_Leader": {
+      "us": {
+        "name": "Strike Leader",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/cab23df74c27c1e96bf13c1a35897b75120946109af9bccd82dbcec713a910c6",
+        "sha256": "cab23df74c27c1e96bf13c1a35897b75120946109af9bccd82dbcec713a910c6"
+      },
+      "cn": {
+        "name": "领军之将",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/4056c25f9db1f3ebbb1a1e0513b6e6e4e40dbff0d8985d095f64321c8b42d089",
+        "sha256": "4056c25f9db1f3ebbb1a1e0513b6e6e4e40dbff0d8985d095f64321c8b42d089"
+      }
+    },
+    "Stubborn_Student": {
+      "us": {
+        "name": "Stubborn Student",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f012abe80b1e0d1c52b37267869d625b19ca52d32839df06a43a4739d59827db",
+        "sha256": "f012abe80b1e0d1c52b37267869d625b19ca52d32839df06a43a4739d59827db"
+      },
+      "cn": {
+        "name": "倔强学徒",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a8670ff14de4aa6c4a3179c99a3a5b475b5e1a9167ae34cf54153f335ac0e022",
+        "sha256": "a8670ff14de4aa6c4a3179c99a3a5b475b5e1a9167ae34cf54153f335ac0e022"
+      }
+    },
+    "Student_of_Decay": {
+      "us": {
+        "name": "Student of Decay",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/33a88400711cfcdf223d65ab95d60533d07113f455514e00232caccbe51a268d",
+        "sha256": "33a88400711cfcdf223d65ab95d60533d07113f455514e00232caccbe51a268d"
+      },
+      "cn": {
+        "name": "腐朽学徒",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c06bbbe9aed6ff650e65ffde0bbfe3e3ca11aa2cd6314c4241be97621afb7590",
+        "sha256": "c06bbbe9aed6ff650e65ffde0bbfe3e3ca11aa2cd6314c4241be97621afb7590"
+      }
+    },
+    "Sublime_Form": {
+      "us": {
+        "name": "Sublime Form",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/2b57a5202a2fb50d292c4229c24feaba035ba6511e419af63375100fa40c86e9",
+        "sha256": "2b57a5202a2fb50d292c4229c24feaba035ba6511e419af63375100fa40c86e9"
+      },
+      "cn": {
+        "name": "崇高之形",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/8911129659d90fbe8537c1a7cf2b147915fa1be9fbc6e52659b0627ffe139889",
+        "sha256": "8911129659d90fbe8537c1a7cf2b147915fa1be9fbc6e52659b0627ffe139889"
+      }
+    },
+    "Sublime_Sensation": {
+      "us": {
+        "name": "Sublime Sensation",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/0af927764e7f829f77954656d7e0f3387992eb332b159a1287a422c30c5b35e5",
+        "sha256": "0af927764e7f829f77954656d7e0f3387992eb332b159a1287a422c30c5b35e5"
+      },
+      "cn": {
+        "name": "崇高感",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/4c115353ea05205a627498826a5ffb4a121d0fed58a47e444cebf05a3159af55",
+        "sha256": "4c115353ea05205a627498826a5ffb4a121d0fed58a47e444cebf05a3159af55"
+      }
+    },
+    "Supercharge": {
+      "us": {
+        "name": "Supercharge",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/bc9128bd62a72d73764b781ca4e80b5697d8268de23406ecb8708b38eb4b5173",
+        "sha256": "bc9128bd62a72d73764b781ca4e80b5697d8268de23406ecb8708b38eb4b5173"
+      },
+      "cn": {
+        "name": "超级聚能",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/754dd4d205af2d13ed41d729338dacbe5d8364b2689b5ad980ed97097da23d1b",
+        "sha256": "754dd4d205af2d13ed41d729338dacbe5d8364b2689b5ad980ed97097da23d1b"
+      }
+    },
+    "Surefooted_Striker": {
+      "us": {
+        "name": "Surefooted Striker",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/0ece445d35194b17756f7963c7bcafebf59fb01245389317c354a14618e08de4",
+        "sha256": "0ece445d35194b17756f7963c7bcafebf59fb01245389317c354a14618e08de4"
+      },
+      "cn": {
+        "name": "好整以暇",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/96f77ff14a54a29f548a3b4733edff28e777022150eb18b301dfc66c9160a0b7",
+        "sha256": "96f77ff14a54a29f548a3b4733edff28e777022150eb18b301dfc66c9160a0b7"
+      }
+    },
+    "Surging_Vitality": {
+      "us": {
+        "name": "Surging Vitality",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/a5c06f89cd259920b8952c0e6b31a1f431c6b50d5e74ba65b90aec05141168a3",
+        "sha256": "a5c06f89cd259920b8952c0e6b31a1f431c6b50d5e74ba65b90aec05141168a3"
+      },
+      "cn": {
+        "name": "活力振奋",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/4c9a293eedd0712983896c7c406c37d169180526761614aa606c39067600f950",
+        "sha256": "4c9a293eedd0712983896c7c406c37d169180526761614aa606c39067600f950"
+      }
+    },
+    "Surprise_Sabotage": {
+      "us": {
+        "name": "Surprise Sabotage",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/c1c66b33114a0d42751f82ca41d1d12656a2792b8023da3d40cfd670e8f4934f",
+        "sha256": "c1c66b33114a0d42751f82ca41d1d12656a2792b8023da3d40cfd670e8f4934f"
+      },
+      "cn": {
+        "name": "惊奇破坏",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/da7628000d811d3a0a53b11b9b82b03bfa8f9cd933695594a495c65dd9369732",
+        "sha256": "da7628000d811d3a0a53b11b9b82b03bfa8f9cd933695594a495c65dd9369732"
+      }
+    },
+    "Tempered_Arrowheads": {
+      "us": {
+        "name": "Tempered Arrowheads",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/7492f1f9d1ba1ea353a8be652c555dfa08a7609d5110bd435e5eb30dd5666bc3",
+        "sha256": "7492f1f9d1ba1ea353a8be652c555dfa08a7609d5110bd435e5eb30dd5666bc3"
+      },
+      "cn": {
+        "name": "淬火箭头",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/93ebdbe22faf1eea8c548e701411c21cd001dec6de30cce9923da33f8c6e2fe2",
+        "sha256": "93ebdbe22faf1eea8c548e701411c21cd001dec6de30cce9923da33f8c6e2fe2"
+      }
+    },
+    "Tempt_the_Storm": {
+      "us": {
+        "name": "Tempt the Storm",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/fa314870d22223cbdac6e50c9628c699a2782499d6369d9e8b9b0d95083a2068",
+        "sha256": "fa314870d22223cbdac6e50c9628c699a2782499d6369d9e8b9b0d95083a2068"
+      },
+      "cn": {
+        "name": "风暴之诱",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c246f6c7ee824971068edddc936c14daea120dbdec36291acbf386bc1b298941",
+        "sha256": "c246f6c7ee824971068edddc936c14daea120dbdec36291acbf386bc1b298941"
+      }
+    },
+    "Thaumophage": {
+      "us": {
+        "name": "Thaumophage",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/96a7cd4fced843720554f8bbdcf82ed7e125bafb03964c5b8b01bc635f7ed9e5",
+        "sha256": "96a7cd4fced843720554f8bbdcf82ed7e125bafb03964c5b8b01bc635f7ed9e5"
+      },
+      "cn": {
+        "name": "奥法蠕虫",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/eab5a0552c5b949b1281d3859ffa3c952d0cc3aafd71b5f9460866cb124df91f",
+        "sha256": "eab5a0552c5b949b1281d3859ffa3c952d0cc3aafd71b5f9460866cb124df91f"
+      }
+    },
+    "Thunderstruck": {
+      "us": {
+        "name": "Thunderstruck",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/c672d7856a89420560e8a8db6daa16b8a9f3f96f6aba1f9aaa1b99528316e183",
+        "sha256": "c672d7856a89420560e8a8db6daa16b8a9f3f96f6aba1f9aaa1b99528316e183"
+      },
+      "cn": {
+        "name": "天雷轰顶",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/aa38bb9c791f2b5b6ea88984914bd2b298cfaa4e13b6773cbd7f4a2c0a4ed630",
+        "sha256": "aa38bb9c791f2b5b6ea88984914bd2b298cfaa4e13b6773cbd7f4a2c0a4ed630"
+      }
+    },
+    "Titanic_Swings": {
+      "us": {
+        "name": "Titanic Swings",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/a45ed82e3fb1ae056fdf0819b3717716d91f69e9f3b85f7fef7d1a31cee7d7f1",
+        "sha256": "a45ed82e3fb1ae056fdf0819b3717716d91f69e9f3b85f7fef7d1a31cee7d7f1"
+      },
+      "cn": {
+        "name": "翻天横扫",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/4aa68e269dcc01e89471294352b193af783dc4de995bb59190ac68ec0ca288e0",
+        "sha256": "4aa68e269dcc01e89471294352b193af783dc4de995bb59190ac68ec0ca288e0"
+      }
+    },
+    "Touch_of_Cruelty": {
+      "us": {
+        "name": "Touch of Cruelty",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/aca2bae480f13cff6c4859ba131bdf273c8b5ddfcc2ea208e939b03de41e9e13",
+        "sha256": "aca2bae480f13cff6c4859ba131bdf273c8b5ddfcc2ea208e939b03de41e9e13"
+      },
+      "cn": {
+        "name": "残酷之触",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/98c963b25cf8524239e4c8a35f208e2dd310d6a6d58ff52d16f66e1e3cb371df",
+        "sha256": "98c963b25cf8524239e4c8a35f208e2dd310d6a6d58ff52d16f66e1e3cb371df"
+      }
+    },
+    "Towering_Threat": {
+      "us": {
+        "name": "Towering Threat",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9e62b644551be2796f94a7d91d90d5073e79e219a921cfcc09ceda071a7aed54",
+        "sha256": "9e62b644551be2796f94a7d91d90d5073e79e219a921cfcc09ceda071a7aed54"
+      },
+      "cn": {
+        "name": "胁迫如山",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/add3fbd746130dc4066aeb561147226ff2a0961d7a3f61f93120565a01e70be7",
+        "sha256": "add3fbd746130dc4066aeb561147226ff2a0961d7a3f61f93120565a01e70be7"
+      }
+    },
+    "Uncompromising": {
+      "us": {
+        "name": "Uncompromising",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9cd4f94977902494f091579c9a73baa5743ecc06f55b652596d11f83b3bd18b9",
+        "sha256": "9cd4f94977902494f091579c9a73baa5743ecc06f55b652596d11f83b3bd18b9"
+      },
+      "cn": {
+        "name": "决不妥协",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/73975444b9c258ae76f83b5095f0cf8ddc77f775264e043a2c16ddefd819eb62",
+        "sha256": "73975444b9c258ae76f83b5095f0cf8ddc77f775264e043a2c16ddefd819eb62"
+      }
+    },
+    "Unholy_Grace": {
+      "us": {
+        "name": "Unholy Grace",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/3a438ee32253e44e1469701c4735c3106710adede40c57dc474425c273097b3c",
+        "sha256": "3a438ee32253e44e1469701c4735c3106710adede40c57dc474425c273097b3c"
+      },
+      "cn": {
+        "name": "渎神雅量",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e8cb29aac91e2665e35b9080039bbf3b1e1d9d15ca9841003a44cfefc40a187d",
+        "sha256": "e8cb29aac91e2665e35b9080039bbf3b1e1d9d15ca9841003a44cfefc40a187d"
+      }
+    },
+    "Unrestrained_Focus": {
+      "us": {
+        "name": "Unrestrained Focus",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/24ba9e3d40d1cdfd10899da6e5b1218e68a50d09844479641d3cdf203651863c",
+        "sha256": "24ba9e3d40d1cdfd10899da6e5b1218e68a50d09844479641d3cdf203651863c"
+      },
+      "cn": {
+        "name": "不羁专注",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/bbff72091dc822e8c840d16f30c32416189af4d4dd5e9dffe148397773b64646",
+        "sha256": "bbff72091dc822e8c840d16f30c32416189af4d4dd5e9dffe148397773b64646"
+      }
+    },
+    "Unspeakable_Gifts": {
+      "us": {
+        "name": "Unspeakable Gifts",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/870b5fd628e94ca6244ea6cc55eb4e71aa37f5fe8c8a3e0293d4af9b5a42b192",
+        "sha256": "870b5fd628e94ca6244ea6cc55eb4e71aa37f5fe8c8a3e0293d4af9b5a42b192"
+      },
+      "cn": {
+        "name": "莫名之赐",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/3ea30feb8dcb4d46286b923809df8f6d3f27d2bfefc739d8904edf1a1e51b78e",
+        "sha256": "3ea30feb8dcb4d46286b923809df8f6d3f27d2bfefc739d8904edf1a1e51b78e"
+      }
+    },
+    "Untouchable": {
+      "us": {
+        "name": "Untouchable",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/591549dfd87594f0e9f911856de53df5ae68f05bbf3d2825d10e682fc657f3c0",
+        "sha256": "591549dfd87594f0e9f911856de53df5ae68f05bbf3d2825d10e682fc657f3c0"
+      },
+      "cn": {
+        "name": "不可触及",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/55e78033554d182e101346fc38fdd4b1b00c2230a76b41ccdfd5e9776164a95c",
+        "sha256": "55e78033554d182e101346fc38fdd4b1b00c2230a76b41ccdfd5e9776164a95c"
+      }
+    },
+    "Unwavering_Focus": {
+      "us": {
+        "name": "Unwavering Focus",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/bfae424677447aa5ead8c88e7fe1c6d618a56f37e39e2e6d02171ff67eec0b90",
+        "sha256": "bfae424677447aa5ead8c88e7fe1c6d618a56f37e39e2e6d02171ff67eec0b90"
+      },
+      "cn": {
+        "name": "不动专注",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/0635bd31bf81c8a005fed83d6cc2003723b81145ef3f616e61a47a5ee5ae498d",
+        "sha256": "0635bd31bf81c8a005fed83d6cc2003723b81145ef3f616e61a47a5ee5ae498d"
+      }
+    },
+    "Unwaveringly_Evil": {
+      "us": {
+        "name": "Unwaveringly Evil",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/df4fe93199774a8092bba231bc8a07e878cc2951f7040cfd47c12b19368362b7",
+        "sha256": "df4fe93199774a8092bba231bc8a07e878cc2951f7040cfd47c12b19368362b7"
+      },
+      "cn": {
+        "name": "不动之恶",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/adbf85e462ebae2deb5db9ed4db73c4e68efdd32aab361eeeb296bad3fb6e82e",
+        "sha256": "adbf85e462ebae2deb5db9ed4db73c4e68efdd32aab361eeeb296bad3fb6e82e"
+      }
+    },
+    "Vast_Power": {
+      "us": {
+        "name": "Vast Power",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/446df3ad9603ddf25afeba1ff3a6a050d35da444f4b2cb3b4075e0aef0399f90",
+        "sha256": "446df3ad9603ddf25afeba1ff3a6a050d35da444f4b2cb3b4075e0aef0399f90"
+      },
+      "cn": {
+        "name": "无垠之力",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/3c506d1ee0987179e1b837beee7f082e6f52bc4254cafe6f528d69a47fec2e73",
+        "sha256": "3c506d1ee0987179e1b837beee7f082e6f52bc4254cafe6f528d69a47fec2e73"
+      }
+    },
+    "Veteran_Defender": {
+      "us": {
+        "name": "Veteran Defender",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/46df76211ee2a29258d2255d3eeb6cd4cf4512d672bcad90cfc559796634d13d",
+        "sha256": "46df76211ee2a29258d2255d3eeb6cd4cf4512d672bcad90cfc559796634d13d"
+      },
+      "cn": {
+        "name": "防御老手",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/ae4f85553a3fcd7e7156d68ad60178139a5b59ba9ef458c4de3ef654b6af0489",
+        "sha256": "ae4f85553a3fcd7e7156d68ad60178139a5b59ba9ef458c4de3ef654b6af0489"
+      }
+    },
+    "Veterans_Awareness": {
+      "us": {
+        "name": "Veteran's Awareness",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f72ab968ac036f1e9fac659c6310ec0447570e50968f59e74b06fdb31bdcc9af",
+        "sha256": "f72ab968ac036f1e9fac659c6310ec0447570e50968f59e74b06fdb31bdcc9af"
+      },
+      "cn": {
+        "name": "百战老兵",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/0b950ade86b92c023d5a8035fa11360582791cd6a1bcecea1747e16837a36306",
+        "sha256": "0b950ade86b92c023d5a8035fa11360582791cd6a1bcecea1747e16837a36306"
+      }
+    },
+    "Vicious_Bite": {
+      "us": {
+        "name": "Vicious Bite",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8045f662d88283cb27f320e361b80c4c10e49a1ca1c4612536dde280991fc334",
+        "sha256": "8045f662d88283cb27f320e361b80c4c10e49a1ca1c4612536dde280991fc334"
+      },
+      "cn": {
+        "name": "恶毒撕咬",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/0c39f7e591ea5a5d1525819c7b0f44dc51e9809c249244fbbec3e8953744fa2e",
+        "sha256": "0c39f7e591ea5a5d1525819c7b0f44dc51e9809c249244fbbec3e8953744fa2e"
+      }
+    },
+    "Vicious_Guard": {
+      "us": {
+        "name": "Vicious Guard",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8d1925077ba01cd801fefa39bb86b6efc61cdaa35b312c453b527e9954cb861b",
+        "sha256": "8d1925077ba01cd801fefa39bb86b6efc61cdaa35b312c453b527e9954cb861b"
+      },
+      "cn": {
+        "name": "恶毒守卫",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e7b966aee5d659fa2f73ff83ca296ff3e7ebb491964b89f6d78213c454b85b66",
+        "sha256": "e7b966aee5d659fa2f73ff83ca296ff3e7ebb491964b89f6d78213c454b85b66"
+      }
+    },
+    "Vicious_Skewering": {
+      "us": {
+        "name": "Vicious Skewering",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/55fd3e18dbcf2265552dde419077dc0c6c9c13865841254165d9950ba64fe431",
+        "sha256": "55fd3e18dbcf2265552dde419077dc0c6c9c13865841254165d9950ba64fe431"
+      },
+      "cn": {
+        "name": "恶毒穿刺",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a5817098a99539a1fe90ce42d550ba4a7c8ef7e2b90ea2520a0aa3a0cc76fddb",
+        "sha256": "a5817098a99539a1fe90ce42d550ba4a7c8ef7e2b90ea2520a0aa3a0cc76fddb"
+      }
+    },
+    "Victim_Maker": {
+      "us": {
+        "name": "Victim Maker",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/1803ff1121c599853a4d86d2d22f39726a51e9c68c940259b30deab337ced9fe",
+        "sha256": "1803ff1121c599853a4d86d2d22f39726a51e9c68c940259b30deab337ced9fe"
+      },
+      "cn": {
+        "name": "牺牲制造者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/b49c2e10050269db40e55f883c07f3399e62ffe9d8cacc566e4237d2659a6bf2",
+        "sha256": "b49c2e10050269db40e55f883c07f3399e62ffe9d8cacc566e4237d2659a6bf2"
+      }
+    },
+    "Vile_Reinvigoration": {
+      "us": {
+        "name": "Vile Reinvigoration",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/08e7f19b11d824bd9301aa07a1232a72f56c60c80e3ea7d03bb5f9689ccfa327",
+        "sha256": "08e7f19b11d824bd9301aa07a1232a72f56c60c80e3ea7d03bb5f9689ccfa327"
+      },
+      "cn": {
+        "name": "邪恶复兴",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/e1b3176ddee5be1d13a46fe4314fd19a06651abb941d22659ac3d56c67822619",
+        "sha256": "e1b3176ddee5be1d13a46fe4314fd19a06651abb941d22659ac3d56c67822619"
+      }
+    },
+    "Vital_Focus": {
+      "us": {
+        "name": "Vital Focus",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/2167c7df04b819c62a68fdf2228402ae224a3e8384733b85cfface2e49cce624",
+        "sha256": "2167c7df04b819c62a68fdf2228402ae224a3e8384733b85cfface2e49cce624"
+      },
+      "cn": {
+        "name": "活力专注",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c717e2665e871c5d9f8d3924ae415c3e37c388e13a519c49ecd75217687bd84f",
+        "sha256": "c717e2665e871c5d9f8d3924ae415c3e37c388e13a519c49ecd75217687bd84f"
+      }
+    },
+    "Vivid_Hues": {
+      "us": {
+        "name": "Vivid Hues",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9dedc728762602ff881a770e1320808cf3dee324201336b0b9f052da9f43feb5",
+        "sha256": "9dedc728762602ff881a770e1320808cf3dee324201336b0b9f052da9f43feb5"
+      },
+      "cn": {
+        "name": "多彩之色",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/6e12adb9db914006cb918bfb0c5852d217816767faa56da2bce128fdf92fafdf",
+        "sha256": "6e12adb9db914006cb918bfb0c5852d217816767faa56da2bce128fdf92fafdf"
+      }
+    },
+    "Volatile_Presence": {
+      "us": {
+        "name": "Volatile Presence",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/e89e9ef0b81318bb3f39e645119ca280bb97847e7d5b4f94e08793c2da03c180",
+        "sha256": "e89e9ef0b81318bb3f39e645119ca280bb97847e7d5b4f94e08793c2da03c180"
+      },
+      "cn": {
+        "name": "无常姿态",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/1e13d6401ed9e133740985a7cd03e4576b57bf6971c94dba0e07b7171b674bab",
+        "sha256": "1e13d6401ed9e133740985a7cd03e4576b57bf6971c94dba0e07b7171b674bab"
+      }
+    },
+    "Wall_of_Muscle": {
+      "us": {
+        "name": "Wall of Muscle",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/7ba0d1cbc3a58717b794a8a742754310924f5859b043fb149a1dfa84ac68f4f7",
+        "sha256": "7ba0d1cbc3a58717b794a8a742754310924f5859b043fb149a1dfa84ac68f4f7"
+      },
+      "cn": {
+        "name": "肌肉之墙",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/2267cf69f07a3ef06fe8a1bb4e9d169fe74cd1bac72c1d6c54651330217170de",
+        "sha256": "2267cf69f07a3ef06fe8a1bb4e9d169fe74cd1bac72c1d6c54651330217170de"
+      }
+    },
+    "Warning_Call": {
+      "us": {
+        "name": "Warning Call",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/196958490ffff2be1c889d144b55d0781e3efceb70973257fdf85eae832d19c5",
+        "sha256": "196958490ffff2be1c889d144b55d0781e3efceb70973257fdf85eae832d19c5"
+      },
+      "cn": {
+        "name": "警戒之号",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/34703c1c12c1de26f1a4b47519adf679f58c6ba3f8a8907817733525db0d63c0",
+        "sha256": "34703c1c12c1de26f1a4b47519adf679f58c6ba3f8a8907817733525db0d63c0"
+      }
+    },
+    "Wasting_Affliction": {
+      "us": {
+        "name": "Wasting Affliction",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/dd39ac192a680fabd60a99f0ffdce88eff504487da4433c9bb568d49bd0b2ec9",
+        "sha256": "dd39ac192a680fabd60a99f0ffdce88eff504487da4433c9bb568d49bd0b2ec9"
+      },
+      "cn": {
+        "name": "凌虐酷刑",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/2ff2f23ddb2fc13f2a9cba422e23d59ef5324b22ca27258cae5197082c2204ff",
+        "sha256": "2ff2f23ddb2fc13f2a9cba422e23d59ef5324b22ca27258cae5197082c2204ff"
+      }
+    },
+    "Weight_Advantage": {
+      "us": {
+        "name": "Weight Advantage",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/c28ce576bb2b657d4d7a9c7cf836dbc74254b4df376a8f0d62b97c66ea9281ce",
+        "sha256": "c28ce576bb2b657d4d7a9c7cf836dbc74254b4df376a8f0d62b97c66ea9281ce"
+      },
+      "cn": {
+        "name": "千斤坠",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/594c7c0d03fbdf5c3fd5f7faed4c57674d7e762fcc4957a5c2a3fb2d63a45efb",
+        "sha256": "594c7c0d03fbdf5c3fd5f7faed4c57674d7e762fcc4957a5c2a3fb2d63a45efb"
+      }
+    },
+    "Wicked_Pall": {
+      "us": {
+        "name": "Wicked Pall",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/9e7055ed7c55a81439eafffe271c53e98098f8f51473c22148531fac9a8a8ee4",
+        "sha256": "9e7055ed7c55a81439eafffe271c53e98098f8f51473c22148531fac9a8a8ee4"
+      },
+      "cn": {
+        "name": "邪恶烟云",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/5e6fc65b5272eae43e51589fe7897a6beb1fcd2e13db64cc62f75b6732bac92e",
+        "sha256": "5e6fc65b5272eae43e51589fe7897a6beb1fcd2e13db64cc62f75b6732bac92e"
+      }
+    },
+    "Widespread_Destruction": {
+      "us": {
+        "name": "Widespread Destruction",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f833dcac61bef6411f3ad1afc27695ba6c3466fd994472e3482825ee48407fdf",
+        "sha256": "f833dcac61bef6411f3ad1afc27695ba6c3466fd994472e3482825ee48407fdf"
+      },
+      "cn": {
+        "name": "毁天灭地",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/6cbcad5562dc718746b533426d1c146cff9ead1b0ff00564a7748be50819c8a1",
+        "sha256": "6cbcad5562dc718746b533426d1c146cff9ead1b0ff00564a7748be50819c8a1"
+      }
+    },
+    "Will_Shaper": {
+      "us": {
+        "name": "Will Shaper",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/2372e87492e0bcf1ed67b182a1535385593346d012e6c22dd8e7e5dde3d8bd4e",
+        "sha256": "2372e87492e0bcf1ed67b182a1535385593346d012e6c22dd8e7e5dde3d8bd4e"
+      },
+      "cn": {
+        "name": "勇毅者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/c82b173b4b2fbb9f29809905094f8e9df3f7a7041ecb48e250d951a1d24d3066",
+        "sha256": "c82b173b4b2fbb9f29809905094f8e9df3f7a7041ecb48e250d951a1d24d3066"
+      }
+    },
+    "Wind-up": {
+      "us": {
+        "name": "Wind-up",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/d10ca8c957d062339c0894074e267fd8c34a23416dd99e5d711ebc5819f73adf",
+        "sha256": "d10ca8c957d062339c0894074e267fd8c34a23416dd99e5d711ebc5819f73adf"
+      },
+      "cn": {
+        "name": "螺旋之风",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/67b1b0a88a93332af1b18677a13475c986d1bb7b4ac8032cc1772c26fd30f2ac",
+        "sha256": "67b1b0a88a93332af1b18677a13475c986d1bb7b4ac8032cc1772c26fd30f2ac"
+      }
+    },
+    "Winter_Prowler": {
+      "us": {
+        "name": "Winter Prowler",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/7f510698330926ad7c8c210e7439aaeae301f30cdcea69d7d999ade658a8881b",
+        "sha256": "7f510698330926ad7c8c210e7439aaeae301f30cdcea69d7d999ade658a8881b"
+      },
+      "cn": {
+        "name": "深冬潜者",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/a88f71404472f1e5d3f42a756b88f255a5f1f4fafbf1810cd8284dd3f2d8098a",
+        "sha256": "a88f71404472f1e5d3f42a756b88f255a5f1f4fafbf1810cd8284dd3f2d8098a"
+      }
+    },
+    "Wish_for_Death": {
+      "us": {
+        "name": "Wish for Death",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/8c29c747f6e2e6df6eaf166d299b98ad7b44268e48ec6a4c5ad7a06438a5735b",
+        "sha256": "8c29c747f6e2e6df6eaf166d299b98ad7b44268e48ec6a4c5ad7a06438a5735b"
+      },
+      "cn": {
+        "name": "死亡之愿",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/13deed0318bc4402362d4ca364e66547bc3d1f36aa8e93f6a3058fdedad9ba7e",
+        "sha256": "13deed0318bc4402362d4ca364e66547bc3d1f36aa8e93f6a3058fdedad9ba7e"
+      }
+    },
+    "Wizardry": {
+      "us": {
+        "name": "Wizardry",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/f6eb73c5a1e15a82af69d7c4c7ea6bb6bdba2ebfb76f75b36c81fdb7c10a7008",
+        "sha256": "f6eb73c5a1e15a82af69d7c4c7ea6bb6bdba2ebfb76f75b36c81fdb7c10a7008"
+      },
+      "cn": {
+        "name": "非凡才能",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/129691212b6801f755f2babbf481fb1935512c99021746faf683bb0a25a3b742",
+        "sha256": "129691212b6801f755f2babbf481fb1935512c99021746faf683bb0a25a3b742"
+      }
+    },
+    "Wound_Aggravation": {
+      "us": {
+        "name": "Wound Aggravation",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/42edc95ebb41ba9a62f41419ed817e55b512ebc5feeca5fcfc37da6372386abb",
+        "sha256": "42edc95ebb41ba9a62f41419ed817e55b512ebc5feeca5fcfc37da6372386abb"
+      },
+      "cn": {
+        "name": "恶化创伤",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/ff5198ea6cbd3eb091e689ccfbf31e6b6705ba65fe77c68e5b3562b9baffec1c",
+        "sha256": "ff5198ea6cbd3eb091e689ccfbf31e6b6705ba65fe77c68e5b3562b9baffec1c"
+      }
+    },
+    "Wrapped_in_Flame": {
+      "us": {
+        "name": "Wrapped in Flame",
+        "url": "https://cdn.poedb.tw/cache1/us/Poe_Data_PassiveSkills_hover/69f9d14ad6db5b56a474067f5ddd1774e14f2c75744a49e7a44b00bda2a16a71",
+        "sha256": "69f9d14ad6db5b56a474067f5ddd1774e14f2c75744a49e7a44b00bda2a16a71"
+      },
+      "cn": {
+        "name": "火焰缠身",
+        "url": "https://cdn.poedb.tw/cache1/cn/Poe_Data_PassiveSkills_hover/bcdb9d2d5a016956cebafd7696026c7f194630aed526df7f240b88fd53c10fb0",
+        "sha256": "bcdb9d2d5a016956cebafd7696026c7f194630aed526df7f240b88fd53c10fb0"
+      }
+    }
+  }
+}

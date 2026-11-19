@@ -1,0 +1,14 @@
+{
+  "tree_version": "3_30",
+  "reference_retrieved": "2026-11-19",
+  "source_sha256": "f657075f34405904cd3c6a5f98eedf761954f24437e214e634f0d9814982b7bd",
+  "counts": {
+    "nodes": 309,
+    "cluster-passive-name_occurrences": 309,
+    "cluster-passive-stats_occurrences": 700,
+    "cluster-passive-reminders_occurrences": 169
+  },
+  "exact_entries": 958,
+  "pending": [],
+  "conflicts": {}
+}

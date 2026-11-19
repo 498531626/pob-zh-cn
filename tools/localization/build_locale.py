@@ -9,6 +9,7 @@ import html
 import json
 import re
 from passive_locale import build_passives
+from cluster_locale import build_clusters
 from calc_rules import compose
 from calc_identifier_locale import build as build_calc_identifiers
 from gem_locale import build_gems, hybrid_gem_names
@@ -101,6 +102,11 @@ def build():
     names = set(re.findall(r'\bname = "([^"]+)"', (ROOT / 'src/Data/Gems.lua').read_text('utf-8')))
     passive_entries, passive_report, passive_contexts = build_passives()
     entries.update(passive_entries)
+    cluster_entries, cluster_templates, cluster_contexts, cluster_report = build_clusters()
+    for en, meta in cluster_entries.items():
+        entries.setdefault(en, meta)
+    for node_id, context in cluster_contexts.items():
+        passive_contexts.setdefault(node_id, {}).update(context)
     # Select by the actual link target, including unusual gem CSS classes.
     # Regexes for gem colour classes miss Portal and several utility gems.
     for slug, pair in gem_sources().items():
@@ -191,6 +197,7 @@ def build():
                         'source': 'src/Classes/ItemsTab.lua; https://poedb.tw/cn/League'}
         )
     database_entries, database_templates, database_report = build_database()
+    database_templates += cluster_templates
     spectre_names, spectre_report = build_spectres(database_entries)
     entries.update(build_viscera())
     for en, meta in database_entries.items():
@@ -215,6 +222,12 @@ def build():
     missing_calc = calc_labels - entries.keys()
     if missing_calc:
         raise ValueError(f'Untranslated calculation labels: {sorted(missing_calc)}')
+    # Generated cluster nodes have synthetic IDs; keep effect translations
+    # identical to their canonical exact entries used by equipped item tips.
+    for node_id, context in cluster_contexts.items():
+        for en in context:
+            if cluster_entries[en]['kind'] != 'cluster-passive-name' and en in entries:
+                passive_contexts[node_id][en] = entries[en]['zh']
     OUT.mkdir(exist_ok=True)
     write_anoint_names(passive_contexts, OUT / 'AnointNames.lua')
     write_dictionary(entries)
@@ -271,6 +284,8 @@ def build():
               'glyphs': len(chars), **font_info,
               'pob_version': '2.68.1', 'passive_reference_version': '3.30', 'passive_reference_retrieved': '2026-11-17', 'name_reference_retrieved': '2026-11-11', 'item_reference_retrieved': '2026-11-12',
               'passives': passive_report, 'gem_details': gem_report, 'item_details': item_report,
+              'cluster_details': {'counts': cluster_report['counts'], 'pending': len(cluster_report['pending']),
+                                  'reference_retrieved': cluster_report['reference_retrieved']},
               'database_details': {k:v if not isinstance(v,dict)else len(v)for k,v in database_report.items()},
               'spectre_names': spectre_report,
               'sidebar_labels': len(labels), 'sidebar_labels_translated': len(labels),

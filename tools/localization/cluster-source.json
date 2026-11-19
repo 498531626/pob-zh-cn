@@ -1,0 +1,3164 @@
+{
+  "nodes": [
+    {
+      "id": "10355",
+      "name": "Circling Oblivion",
+      "reminders": [
+        "(Ailments are Bleeding, Ignited, Scorched, Chilled, Frozen, Brittle, Shocked, Sapped, and Poisoned)"
+      ],
+      "stats": [
+        "25% increased Damage over Time",
+        "15% increased Duration of Ailments on Enemies"
+      ]
+    },
+    {
+      "id": "10409",
+      "name": "Sage",
+      "reminders": [],
+      "stats": [
+        "20% increased Mana Regeneration Rate",
+        "+20% to Lightning Resistance",
+        "Regenerate 1.5% of Life per second"
+      ]
+    },
+    {
+      "id": "1066",
+      "name": "Seal Mender",
+      "reminders": [],
+      "stats": [
+        "Skills Supported by Unleash have 30% increased Seal gain frequency"
+      ]
+    },
+    {
+      "id": "1067",
+      "name": "Wind-up",
+      "reminders": [],
+      "stats": [
+        "+15% to Critical Strike Multiplier with Claws or Daggers",
+        "10% chance to gain a Power Charge on Non-Critical Strike with a Claw or Dagger"
+      ]
+    },
+    {
+      "id": "10952",
+      "name": "Wrapped in Flame",
+      "reminders": [
+        "(Being Covered in Ash applies 20% less Movement Speed and 20% increased Fire Damage Taken, for 4 seconds)"
+      ],
+      "stats": [
+        "20% increased Fire Damage",
+        "Cannot be Chilled while Burning",
+        "5% chance to Cover Enemies in Ash on Hit while you are Burning"
+      ]
+    },
+    {
+      "id": "11011",
+      "name": "Rote Reinforcement",
+      "reminders": [],
+      "stats": [
+        "+20 to maximum Life",
+        "20% chance to gain an Endurance Charge when you Block",
+        "+6% Chance to Block Attack Damage"
+      ]
+    },
+    {
+      "id": "11199",
+      "name": "Bodyguards",
+      "reminders": [],
+      "stats": [
+        "Minions have 10% increased maximum Life",
+        "Minions have 10% chance to Knock Enemies Back on Hit with Attacks"
+      ]
+    },
+    {
+      "id": "11318",
+      "name": "Confident Combatant",
+      "reminders": [],
+      "stats": [
+        "1% increased Damage per 1% Chance to Block Attack Damage"
+      ]
+    },
+    {
+      "id": "11513",
+      "name": "Conservation of Energy",
+      "reminders": [
+        "(Leeched Energy Shield is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "10% increased maximum Energy Shield",
+        "0.3% of Spell Damage Leeched as Energy Shield"
+      ]
+    },
+    {
+      "id": "11535",
+      "name": "Skeletal Atrophy",
+      "reminders": [],
+      "stats": [
+        "Summoned Skeletons have 10% chance to Wither Enemies for 2 seconds on Hit",
+        "Summoned Skeletons have 30% of Physical Damage Converted to Chaos Damage"
+      ]
+    },
+    {
+      "id": "11661",
+      "name": "Powerful Assault",
+      "reminders": [
+        "(Knockback pushes Enemies away when Hit)"
+      ],
+      "stats": [
+        "20% increased Area Damage",
+        "Area Skills have 10% chance to Knock Enemies Back on Hit"
+      ]
+    },
+    {
+      "id": "11995",
+      "name": "Eternal Suffering",
+      "reminders": [
+        "(Withered applies 6% increased Chaos Damage Taken, and can be inflicted up to 15 times)"
+      ],
+      "stats": [
+        "25% increased Chaos Damage",
+        "50% chance to inflict Withered for two seconds on Hit if there are 5 or fewer Withered Debuffs on Enemy"
+      ]
+    },
+    {
+      "id": "12149",
+      "name": "Assert Dominance",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "25% increased Area of Effect if you've Killed at least 5 Enemies Recently"
+      ]
+    },
+    {
+      "id": "12400",
+      "name": "Shrieking Bolts",
+      "reminders": [
+        "(Enemies you Taunt can only target you, and deal 10% less damage to anyone else. Taunt lasts for 3 seconds)"
+      ],
+      "stats": [
+        "35% increased Projectile Damage",
+        "10% chance to Taunt Enemies on Projectile Hit"
+      ]
+    },
+    {
+      "id": "12806",
+      "name": "Strike Leader",
+      "reminders": [
+        "(Affects Melee Strikes, including the Default Attack. Does not apply to Areas of Effect)"
+      ],
+      "stats": [
+        "Attack Skills deal 30% increased Damage while holding a Shield",
+        "+4% Chance to Block Attack Damage",
+        "+0.2 metres to Melee Strike Range while Holding a Shield"
+      ]
+    },
+    {
+      "id": "12867",
+      "name": "Mindfulness",
+      "reminders": [],
+      "stats": [
+        "15% increased maximum Mana",
+        "80% increased Mana Regeneration Rate while stationary"
+      ]
+    },
+    {
+      "id": "12953",
+      "name": "Disciple of Kitava",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "Every second, Consume a nearby Corpse to Recover 5% of Life and Mana\n10% more Damage taken if you haven't Consumed a Corpse Recently"
+      ]
+    },
+    {
+      "id": "13054",
+      "name": "Overlord",
+      "reminders": [
+        "(Warstaves are considered Staves)"
+      ],
+      "stats": [
+        "30% increased Damage with Maces, Sceptres or Staves",
+        "Melee Hits with Maces, Sceptres or Staves Fortify for 6 seconds"
+      ]
+    },
+    {
+      "id": "13392",
+      "name": "Grand Design",
+      "reminders": [
+        "(Brand Damage is any Damage dealt by Brand Skills or by Skills Triggered by a Brand)"
+      ],
+      "stats": [
+        "20% increased Brand Damage",
+        "Brand Skills have 10% increased Duration",
+        "10% increased Brand Attachment range"
+      ]
+    },
+    {
+      "id": "13549",
+      "name": "Blacksmith",
+      "reminders": [
+        "(Leeched Life is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "25% increased Armour",
+        "+20% to Fire Resistance",
+        "0.4% of Fire Damage Leeched as Life"
+      ]
+    },
+    {
+      "id": "13790",
+      "name": "Smoking Remains",
+      "reminders": [],
+      "stats": [
+        "35% increased Fire Damage",
+        "10% chance to create a Smoke Cloud on Kill"
+      ]
+    },
+    {
+      "id": "13812",
+      "name": "Aerodynamics",
+      "reminders": [],
+      "stats": [
+        "Projectiles Pierce an additional Target",
+        "10% increased Projectile Speed",
+        "10% increased Projectile Damage"
+      ]
+    },
+    {
+      "id": "13950",
+      "name": "Ancestral Inspiration",
+      "reminders": [
+        "(Arcane Surge grants 20% increased Cast Speed and 30% increased Mana Regeneration rate, for 4 seconds)"
+      ],
+      "stats": [
+        "Gain Arcane Surge when you Summon a Totem",
+        "Spells cast by Totems deal 25% increased Damage"
+      ]
+    },
+    {
+      "id": "14061",
+      "name": "Misery Everlasting",
+      "reminders": [],
+      "stats": [
+        "Despair can affect Hexproof Enemies",
+        "Recover 2% of Energy Shield when you Kill a Cursed Enemy"
+      ]
+    },
+    {
+      "id": "14085",
+      "name": "Thaumophage",
+      "reminders": [
+        "(Leeched Energy Shield is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)",
+        "(Hinder reduces movement speed by 30% for 4 seconds)"
+      ],
+      "stats": [
+        "0.6% of Spell Damage Leeched as Energy Shield",
+        "25% increased Spell Damage while on Full Energy Shield",
+        "10% chance to Hinder Enemies on Hit with Spells"
+      ]
+    },
+    {
+      "id": "14412",
+      "name": "Dragon Hunter",
+      "reminders": [
+        "(Armour is treated as this percentage of its actual value, only for calculating damage mitigation)"
+      ],
+      "stats": [
+        "30% increased Armour",
+        "+20% to Fire Resistance",
+        "15% chance to Defend with 200% of Armour"
+      ]
+    },
+    {
+      "id": "14418",
+      "name": "Master of Fear",
+      "reminders": [
+        "(Unnerved enemies take 10% increased Spell Damage)"
+      ],
+      "stats": [
+        "Enemies you Curse are Unnerved"
+      ]
+    },
+    {
+      "id": "14431",
+      "name": "Martial Mastery",
+      "reminders": [],
+      "stats": [
+        "10% increased Attack Speed with Two Handed Melee Weapons",
+        "10% increased Attack Speed if you have at least 600 Strength",
+        "+20 to Strength"
+      ]
+    },
+    {
+      "id": "14518",
+      "name": "Fuel the Fight",
+      "reminders": [
+        "(Leeched Mana is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "8% increased Attack Speed",
+        "0.4% of Attack Damage Leeched as Mana",
+        "20% increased Damage while Leeching"
+      ]
+    },
+    {
+      "id": "1478",
+      "name": "Deadly Repartee",
+      "reminders": [],
+      "stats": [
+        "+6% Chance to Block Attack Damage while Dual Wielding",
+        "Attack Skills deal 25% increased Damage while Dual Wielding",
+        "30% increased Attack Critical Strike Chance while Dual Wielding"
+      ]
+    },
+    {
+      "id": "1494",
+      "name": "Unspeakable Gifts",
+      "reminders": [],
+      "stats": [
+        "Enemies you Kill have a 10% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage"
+      ]
+    },
+    {
+      "id": "15175",
+      "name": "Daring Ideas",
+      "reminders": [
+        "(Leeched Mana is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "18% increased maximum Mana",
+        "0.4% of Attack Damage Leeched as Mana",
+        "25% increased Cost Efficiency of Attacks"
+      ]
+    },
+    {
+      "id": "15538",
+      "name": "Feast of Flesh",
+      "reminders": [
+        "(Leeched Life is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "8% increased maximum Life",
+        "0.4% of Attack Damage Leeched as Life",
+        "Gain 10 Life per Enemy Hit with Attacks"
+      ]
+    },
+    {
+      "id": "1581",
+      "name": "Non-Flammable",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)"
+      ],
+      "stats": [
+        "+1% to maximum Fire Resistance",
+        "+20% to Fire Resistance",
+        "30% chance to Avoid being Ignited"
+      ]
+    },
+    {
+      "id": "15990",
+      "name": "Arcane Adept",
+      "reminders": [
+        "(Arcane Surge grants 20% increased Cast Speed and 30% increased Mana Regeneration rate, for 4 seconds)"
+      ],
+      "stats": [
+        "5% increased Attack and Cast Speed while Channelling",
+        "Channelling Skills deal 20% increased Damage",
+        "Gain Arcane Surge after Channelling for 1 second"
+      ]
+    },
+    {
+      "id": "16540",
+      "name": "Doedre's Apathy",
+      "reminders": [
+        "(Unnerved enemies take 10% increased Spell Damage)"
+      ],
+      "stats": [
+        "Temporal Chains can affect Hexproof Enemies",
+        "Enemies you Curse are Unnerved"
+      ]
+    },
+    {
+      "id": "16650",
+      "name": "Rotten Claws",
+      "reminders": [],
+      "stats": [
+        "Minions have a 12% chance to Impale on Hit with Attacks"
+      ]
+    },
+    {
+      "id": "16952",
+      "name": "Cult-Leader",
+      "reminders": [],
+      "stats": [
+        "Minions deal 35% increased Damage while you are affected by a Herald"
+      ]
+    },
+    {
+      "id": "17050",
+      "name": "Prismatic Heart",
+      "reminders": [],
+      "stats": [
+        "+10% to all Elemental Resistances",
+        "30% increased Elemental Damage"
+      ]
+    },
+    {
+      "id": "17066",
+      "name": "Empowered Envoy",
+      "reminders": [],
+      "stats": [
+        "Herald Skills deal 40% increased Damage",
+        "20% increased Effect of Herald Buffs on you"
+      ]
+    },
+    {
+      "id": "17255",
+      "name": "Disorienting Display",
+      "reminders": [],
+      "stats": [
+        "25% increased Elemental Damage",
+        "10% chance to Blind Enemies within 6 metres when you use an Elemental Skill"
+      ]
+    },
+    {
+      "id": "17662",
+      "name": "Tempt the Storm",
+      "reminders": [],
+      "stats": [
+        "Conductivity can affect Hexproof Enemies",
+        "30% increased Effect of Shocks you inflict on Cursed Enemies"
+      ]
+    },
+    {
+      "id": "17769",
+      "name": "Pure Might",
+      "reminders": [],
+      "stats": [
+        "40% increased Stun and Block Recovery",
+        "Purity of Fire has 80% increased Mana Reservation Efficiency",
+        "+20 to Strength"
+      ]
+    },
+    {
+      "id": "17816",
+      "name": "Cry Wolf",
+      "reminders": [],
+      "stats": [
+        "Exerted Attacks deal 30% increased Damage",
+        "20% increased total Power counted by Warcries"
+      ]
+    },
+    {
+      "id": "17905",
+      "name": "Lasting Impression",
+      "reminders": [],
+      "stats": [
+        "30% increased Damage over Time while affected by a Herald",
+        "Herald Skills deal 50% increased Damage over Time"
+      ]
+    },
+    {
+      "id": "18155",
+      "name": "No Witnesses",
+      "reminders": [
+        "(Elusive initially grants 15% chance to Avoid All Damage from Hits, and 30% increased Movement Speed. The buff reduces its effect over time, removing itself at 0% effect. If you already have an Elusive buff, you cannot gain Elusive)"
+      ],
+      "stats": [
+        "10% chance to gain Elusive on Kill",
+        "25% increased Elusive Effect"
+      ]
+    },
+    {
+      "id": "18412",
+      "name": "Phlebotomist",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "+6% to Physical Damage over Time Multiplier if you've dealt a Critical Strike Recently",
+        "20% increased Critical Strike Chance"
+      ]
+    },
+    {
+      "id": "18463",
+      "name": "Battlefield Dominator",
+      "reminders": [
+        "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)",
+        "(The Stun Threshold determines how much Damage can Stun something)",
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "Attacks with Two Handed Weapons deal 25% increased Damage with Hits and Ailments",
+        "10% reduced Enemy Stun Threshold",
+        "15% increased Area of Effect if you've Stunned an Enemy with a Two Handed Melee Weapon Recently"
+      ]
+    },
+    {
+      "id": "18624",
+      "name": "Doedre's Spite",
+      "reminders": [],
+      "stats": [
+        "Enfeeble can affect Hexproof Enemies",
+        "35% increased Critical Strike Chance against Cursed Enemies"
+      ]
+    },
+    {
+      "id": "18861",
+      "name": "Deep Chill",
+      "reminders": [
+        "(Cold Ailments are Chilled, Frozen and Brittle)"
+      ],
+      "stats": [
+        "+5% to Cold Damage over Time Multiplier",
+        "30% increased Effect of Cold Ailments"
+      ]
+    },
+    {
+      "id": "19508",
+      "name": "Hibernator",
+      "reminders": [
+        "(Chill reduces Action Speed by up to 30%)",
+        "(Recently refers to the past 4 seconds)",
+        "(Debuffs you are Unaffected by can still be placed on you, but will not actually apply their effect)"
+      ],
+      "stats": [
+        "30% reduced Effect of Chill on you",
+        "30% reduced Freeze Duration on you",
+        "You cannot be Frozen if you've been Frozen Recently",
+        "Unaffected by Chilled Ground"
+      ]
+    },
+    {
+      "id": "19686",
+      "name": "Wasting Affliction",
+      "reminders": [
+        "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
+      ],
+      "stats": [
+        "20% increased Damage with Ailments",
+        "Damaging Ailments deal damage 5% Faster"
+      ]
+    },
+    {
+      "id": "19723",
+      "name": "Surging Vitality",
+      "reminders": [],
+      "stats": [
+        "8% increased maximum Life",
+        "Every 4 seconds, Regenerate 10% of Life over one second"
+      ]
+    },
+    {
+      "id": "2004",
+      "name": "Snaring Spirits",
+      "reminders": [
+        "(Hinder reduces movement speed by 30% for 4 seconds)"
+      ],
+      "stats": [
+        "30% increased Totem Damage",
+        "Totems Hinder Enemies within 3 metres of them when Summoned"
+      ]
+    },
+    {
+      "id": "20241",
+      "name": "Energy From Naught",
+      "reminders": [],
+      "stats": [
+        "+70 to maximum Energy Shield",
+        "15% increased Energy Shield Recharge Rate"
+      ]
+    },
+    {
+      "id": "20343",
+      "name": "Inspired Oppression",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)",
+        "(Ailments that do not deal Damage are Scorched, Chilled, Frozen, Brittle, Shocked, and Sapped)"
+      ],
+      "stats": [
+        "20% increased Elemental Damage",
+        "30% increased Mana Regeneration Rate if you have Frozen an Enemy Recently",
+        "30% increased Mana Regeneration Rate if you have Shocked an Enemy Recently",
+        "10% increased Effect of Non-Damaging Ailments"
+      ]
+    },
+    {
+      "id": "20383",
+      "name": "Careful Handling",
+      "reminders": [],
+      "stats": [
+        "15% increased Trap Damage",
+        "15% increased Mine Damage",
+        "4% increased maximum Life",
+        "6% increased maximum Mana"
+      ]
+    },
+    {
+      "id": "20533",
+      "name": "Arcane Heroism",
+      "reminders": [
+        "(Arcane Surge grants 20% increased Cast Speed and 30% increased Mana Regeneration rate, for 4 seconds)"
+      ],
+      "stats": [
+        "30% increased Effect of Arcane Surge on you",
+        "10% chance to gain Arcane Surge when you Hit a Unique enemy"
+      ]
+    },
+    {
+      "id": "20834",
+      "name": "Broadside",
+      "reminders": [],
+      "stats": [
+        "Bow Skills have 25% increased Area of Effect"
+      ]
+    },
+    {
+      "id": "20968",
+      "name": "Openness",
+      "reminders": [],
+      "stats": [
+        "+30 to maximum Mana",
+        "20% increased maximum Mana",
+        "15% increased Mana Cost Efficiency"
+      ]
+    },
+    {
+      "id": "20996",
+      "name": "Fearsome Warrior",
+      "reminders": [
+        "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)",
+        "(Intimidated enemies take 10% increased Attack Damage)"
+      ],
+      "stats": [
+        "Attacks with Two Handed Melee Weapons deal 25% increased Damage with Hits and Ailments",
+        "8% increased Area of Effect",
+        "25% chance to Intimidate Enemies within 4 metres for 4 seconds on Melee Kill"
+      ]
+    },
+    {
+      "id": "21688",
+      "name": "Antivenom",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)"
+      ],
+      "stats": [
+        "+1% to maximum Chaos Resistance",
+        "+23% to Chaos Resistance",
+        "30% chance to Avoid being Poisoned"
+      ]
+    },
+    {
+      "id": "21907",
+      "name": "Uncompromising",
+      "reminders": [
+        "(The Stun Threshold determines how much Damage can Stun something)"
+      ],
+      "stats": [
+        "20% increased Stun Threshold",
+        "Determination has 50% increased Mana Reservation Efficiency"
+      ]
+    },
+    {
+      "id": "22002",
+      "name": "Capacitor",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)",
+        "(Shock increases Damage taken by up to 50%)",
+        "(Debuffs you are Unaffected by can still be placed on you, but will not actually apply their effect)"
+      ],
+      "stats": [
+        "You cannot be Shocked if you've been Shocked Recently",
+        "30% reduced Effect of Shock on you",
+        "Unaffected by Shocked Ground"
+      ]
+    },
+    {
+      "id": "2220",
+      "name": "Clarity of Purpose",
+      "reminders": [],
+      "stats": [
+        "15% increased maximum Mana",
+        "30% increased Mana Regeneration Rate"
+      ]
+    },
+    {
+      "id": "22434",
+      "name": "Surprise Sabotage",
+      "reminders": [],
+      "stats": [
+        "+8% to Critical Strike Multiplier with Traps",
+        "+8% to Critical Strike Multiplier with Mines",
+        "Trap Damage Penetrates 4% Elemental Resistances",
+        "Mine Damage Penetrates 4% Elemental Resistances"
+      ]
+    },
+    {
+      "id": "22540",
+      "name": "Feasting Fiends",
+      "reminders": [
+        "(Leeched Life is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "Minions have 10% increased maximum Life",
+        "Minions deal 10% increased Damage",
+        "Minions Leech 0.4% of Damage as Life"
+      ]
+    },
+    {
+      "id": "22581",
+      "name": "Devastator",
+      "reminders": [
+        "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
+      ],
+      "stats": [
+        "20% increased Attack Damage",
+        "20% increased Damage with Ailments from Attack Skills",
+        "Enemies Killed with Attack Hits have a 15% chance to Explode, dealing a tenth of their Life as Physical Damage"
+      ]
+    },
+    {
+      "id": "22607",
+      "name": "Storm Drinker",
+      "reminders": [
+        "(Leeched Energy Shield is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "Damage Penetrates 8% Lightning Resistance",
+        "0.5% of Lightning Damage Leeched as Energy Shield"
+      ]
+    },
+    {
+      "id": "2264",
+      "name": "Unholy Grace",
+      "reminders": [],
+      "stats": [
+        "30% increased Chaos Damage",
+        "10% increased Attack and Cast Speed"
+      ]
+    },
+    {
+      "id": "22704",
+      "name": "Untouchable",
+      "reminders": [
+        "(40% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
+      ],
+      "stats": [
+        "+10% chance to Suppress Spell Damage",
+        "30% increased Evasion Rating"
+      ]
+    },
+    {
+      "id": "23042",
+      "name": "Aerialist",
+      "reminders": [
+        "(40% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
+      ],
+      "stats": [
+        "+10% chance to Suppress Spell Damage",
+        "5% increased Dexterity"
+      ]
+    },
+    {
+      "id": "2306",
+      "name": "Corrosive Elements",
+      "reminders": [
+        "(Cold Exposure applies -10% to Cold Resistance for 4 seconds)",
+        "(Fire Exposure applies -10% to Fire Resistance for 4 seconds)",
+        "(Lightning Exposure applies -10% to Lightning Resistance for 4 seconds)"
+      ],
+      "stats": [
+        "15% increased Elemental Damage",
+        "Cold Skills have a 25% chance to apply Cold Exposure on Hit",
+        "Fire Skills have a 25% chance to apply Fire Exposure on Hit",
+        "Lightning Skills have a 25% chance to apply Lightning Exposure on Hit"
+      ]
+    },
+    {
+      "id": "23113",
+      "name": "Cold-Blooded Killer",
+      "reminders": [],
+      "stats": [
+        "+5% to Cold Damage over Time Multiplier",
+        "Recover 2% of Life on Killing a Chilled Enemy"
+      ]
+    },
+    {
+      "id": "23232",
+      "name": "Insatiable Killer",
+      "reminders": [],
+      "stats": [
+        "Attack Skills deal 20% increased Damage while Dual Wielding",
+        "5% increased Attack Speed while Dual Wielding",
+        "5% chance to gain a Frenzy Charge on Kill while Dual Wielding"
+      ]
+    },
+    {
+      "id": "23238",
+      "name": "Quick Getaway",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "5% increased Attack and Cast Speed",
+        "5% increased Movement Speed if you've dealt a Critical Strike Recently",
+        "25% increased Critical Strike Chance"
+      ]
+    },
+    {
+      "id": "23335",
+      "name": "Grim Oath",
+      "reminders": [],
+      "stats": [
+        "Gain 10% of Physical Damage as Extra Chaos Damage"
+      ]
+    },
+    {
+      "id": "23884",
+      "name": "Holistic Health",
+      "reminders": [],
+      "stats": [
+        "8% increased maximum Life",
+        "10% increased maximum Mana"
+      ]
+    },
+    {
+      "id": "23989",
+      "name": "Veteran Defender",
+      "reminders": [
+        "(Attributes are Strength, Dexterity, and Intelligence)",
+        "(Armour, Evasion Rating and Energy Shield are the standard Defences)"
+      ],
+      "stats": [
+        "+15 to all Attributes",
+        "+15% Elemental Resistances while holding a Shield",
+        "60% increased Defences from Equipped Shield"
+      ]
+    },
+    {
+      "id": "24038",
+      "name": "Endbringer",
+      "reminders": [],
+      "stats": [
+        "5% increased Damage for each Herald affecting you",
+        "20% increased Damage while affected by a Herald"
+      ]
+    },
+    {
+      "id": "24357",
+      "name": "Disciples",
+      "reminders": [],
+      "stats": [
+        "Minions deal 20% increased Damage while you are affected by a Herald",
+        "Summoned Sentinels have 25% increased Cooldown Recovery Rate"
+      ]
+    },
+    {
+      "id": "24484",
+      "name": "Combat Rhythm",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "10% increased Attack Speed if you've Hit with your Main Hand Weapon Recently",
+        "10% increased Movement Speed if you've Hit with your Off Hand Weapon Recently"
+      ]
+    },
+    {
+      "id": "24645",
+      "name": "Guerilla Tactics",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "20% increased Trap Damage",
+        "20% increased Mine Damage",
+        "10% increased Trap Throwing Speed",
+        "10% increased Mine Throwing Speed",
+        "5% increased Movement Speed if you've thrown a Trap or Mine Recently"
+      ]
+    },
+    {
+      "id": "24889",
+      "name": "Mage Bane",
+      "reminders": [],
+      "stats": [
+        "+6% Chance to Block Spell Damage while Dual Wielding",
+        "Attack Skills deal 20% increased Damage while Dual Wielding",
+        "20% chance to gain a Power Charge when you Block"
+      ]
+    },
+    {
+      "id": "25282",
+      "name": "Spiked Concoction",
+      "reminders": [
+        "(Alchemist's Genius increases Flask Charges gained by 20% and effect of Flasks by 10%, for 4 seconds)"
+      ],
+      "stats": [
+        "5% increased Attack and Cast Speed during any Flask Effect",
+        "Gain Alchemist's Genius when you use a Flask"
+      ]
+    },
+    {
+      "id": "25450",
+      "name": "Mage Hunter",
+      "reminders": [],
+      "stats": [
+        "6% Chance to Block Spell Damage",
+        "20% increased Spell Damage",
+        "20% chance to gain a Power Charge when you Block"
+      ]
+    },
+    {
+      "id": "25563",
+      "name": "Cold Conduction",
+      "reminders": [
+        "(Cold Ailments are Chilled, Frozen and Brittle)",
+        "(Lightning Ailments are Shocked and Sapped)"
+      ],
+      "stats": [
+        "25% increased Effect of Cold Ailments you inflict on Shocked Enemies",
+        "25% increased Effect of Lightning Ailments you inflict on Chilled Enemies"
+      ]
+    },
+    {
+      "id": "25938",
+      "name": "Blizzard Caller",
+      "reminders": [],
+      "stats": [
+        "Frostbite can affect Hexproof Enemies",
+        "30% increased Duration of Freezes you inflict on Cursed Enemies"
+      ]
+    },
+    {
+      "id": "25966",
+      "name": "Savage Response",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "+30% to Critical Strike Multiplier if you've taken a Savage Hit Recently",
+        "30% increased Critical Strike Chance"
+      ]
+    },
+    {
+      "id": "26179",
+      "name": "Student of Decay",
+      "reminders": [],
+      "stats": [
+        "25% increased Damage over Time",
+        "+13% to Chaos Resistance"
+      ]
+    },
+    {
+      "id": "26197",
+      "name": "Feed the Fury",
+      "reminders": [
+        "(Leeched Life is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "0.4% of Attack Damage Leeched as Life",
+        "30% increased Damage while Leeching",
+        "15% increased Attack Speed while Leeching"
+      ]
+    },
+    {
+      "id": "26322",
+      "name": "Pure Guile",
+      "reminders": [],
+      "stats": [
+        "Purity of Ice has 80% increased Mana Reservation Efficiency",
+        "+20 to Dexterity",
+        "5% chance to Blind Enemies on Hit"
+      ]
+    },
+    {
+      "id": "2655",
+      "name": "Martial Momentum",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "8% increased Attack Speed while Dual Wielding",
+        "16% increased Accuracy Rating while Dual Wielding",
+        "32% increased Damage if you've used a Travel Skill Recently"
+      ]
+    },
+    {
+      "id": "26839",
+      "name": "Chip Away",
+      "reminders": [],
+      "stats": [
+        "Brand Recall grants 20% increased Brand Attachment range to recalled Brands",
+        "Brand Recall has 4% increased Cooldown Recovery Rate per Brand, up to a maximum of 40%"
+      ]
+    },
+    {
+      "id": "2796",
+      "name": "Master the Fundamentals",
+      "reminders": [],
+      "stats": [
+        "+10% to all Elemental Resistances",
+        "35% reduced Elemental Damage",
+        "35% increased Physical Damage"
+      ]
+    },
+    {
+      "id": "28015",
+      "name": "Iron Breaker",
+      "reminders": [],
+      "stats": [
+        "Hits have 50% chance to ignore Enemy Physical Damage Reduction",
+        "30% increased Physical Damage"
+      ]
+    },
+    {
+      "id": "28146",
+      "name": "Brush with Death",
+      "reminders": [],
+      "stats": [
+        "+5% to Damage over Time Multiplier",
+        "Recover 1% of Life on Kill",
+        "Recover 1% of Energy Shield on Kill"
+      ]
+    },
+    {
+      "id": "28338",
+      "name": "Righteous Path",
+      "reminders": [],
+      "stats": [
+        "10% increased Effect of Consecrated Ground you create",
+        "Zealotry has 50% increased Mana Reservation Efficiency"
+      ]
+    },
+    {
+      "id": "28384",
+      "name": "Powerful Ward",
+      "reminders": [],
+      "stats": [
+        "20% chance to gain a Power Charge when you Block",
+        "+10% Chance to Block Spell Damage while at Maximum Power Charges"
+      ]
+    },
+    {
+      "id": "28398",
+      "name": "Precise Retaliation",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "60% increased Critical Strike Chance if you haven't Blocked Recently",
+        "+30% to Critical Strike Multiplier if you have Blocked Recently"
+      ]
+    },
+    {
+      "id": "28551",
+      "name": "Heraldry",
+      "reminders": [
+        "(Cold Exposure applies -10% to Cold Resistance for 4 seconds)",
+        "(Fire Exposure applies -10% to Fire Resistance for 4 seconds)",
+        "(Lightning Exposure applies -10% to Lightning Resistance for 4 seconds)"
+      ],
+      "stats": [
+        "Enemies within 3 metres have Cold Exposure while you are affected by Herald of Ice",
+        "Enemies within 3 metres have Fire Exposure while you are affected by Herald of Ash",
+        "Enemies within 3 metres have Lightning Exposure while you are affected by Herald of Thunder"
+      ]
+    },
+    {
+      "id": "28635",
+      "name": "Vicious Skewering",
+      "reminders": [
+        "(Bleeding deals Physical Damage over time, based on the base Physical Damage of the Skill. Damage is 200% higher while moving)",
+        "(When an Impaled enemy is hit, the Impale reflects 10% of the physical damage of the Impaling hit to that enemy. Impale lasts for 5 hits or 8 seconds)"
+      ],
+      "stats": [
+        "Attacks have 10% chance to cause Bleeding",
+        "10% chance to Impale Enemies on Hit with Attacks",
+        "15% increased Effect of Impales inflicted by Hits that also inflict Bleeding"
+      ]
+    },
+    {
+      "id": "28682",
+      "name": "Overshock",
+      "reminders": [
+        "(Lightning Ailments are Shocked and Sapped)"
+      ],
+      "stats": [
+        "30% increased Lightning Damage",
+        "40% increased Effect of Lightning Ailments"
+      ]
+    },
+    {
+      "id": "28744",
+      "name": "Mob Mentality",
+      "reminders": [
+        "(Normal Monsters have 1 Power, Magic Monsters 2, Rare Monsters 10, Unique Monsters 20, and Players 5)"
+      ],
+      "stats": [
+        "Exerted Attacks deal 25% increased Damage",
+        "Warcries have 5% Chance to grant an Endurance, Frenzy or Power Charge per Power"
+      ]
+    },
+    {
+      "id": "29096",
+      "name": "Rot-Resistant",
+      "reminders": [],
+      "stats": [
+        "+13% to Chaos Resistance",
+        "Regenerate 1.2% of Life per second",
+        "Regenerate 0.6% of Energy Shield per second",
+        "Regenerate 0.3% of Mana per second"
+      ]
+    },
+    {
+      "id": "29193",
+      "name": "Set and Forget",
+      "reminders": [],
+      "stats": [
+        "25% increased Trap Damage",
+        "40% increased Trap Trigger Area of Effect",
+        "Skills used by Traps have 15% increased Area of Effect"
+      ]
+    },
+    {
+      "id": "29450",
+      "name": "Rattling Bellow",
+      "reminders": [],
+      "stats": [
+        "Exerted Attacks have 8% chance to deal Double Damage",
+        "+20 to Strength"
+      ]
+    },
+    {
+      "id": "29540",
+      "name": "Master of Command",
+      "reminders": [],
+      "stats": [
+        "Banner Skills have 10% increased Aura Effect",
+        "Banner Skills have 20% increased Area of Effect"
+      ]
+    },
+    {
+      "id": "29748",
+      "name": "Blowback",
+      "reminders": [
+        "(Ignite deals Fire Damage over time, based on the base Fire Damage of the Skill, for 4 seconds)"
+      ],
+      "stats": [
+        "10% chance to Ignite",
+        "Ignites you inflict deal Damage 8% Faster"
+      ]
+    },
+    {
+      "id": "29764",
+      "name": "Aggressive Defence",
+      "reminders": [
+        "(Fortifying grants an amount of Fortification based on the Damage of the Hit)"
+      ],
+      "stats": [
+        "30% increased Fortification Duration",
+        "20% increased Damage with Attack Skills while Fortified",
+        "Fortifying Hits grant 60% increased Fortification"
+      ]
+    },
+    {
+      "id": "2977",
+      "name": "Overwhelming Malice",
+      "reminders": [
+        "(Unholy Might grants 100% of Physical Damage converted to Chaos Damage and 25% chance to apply Withered on Hit)"
+      ],
+      "stats": [
+        "10% chance to gain Unholy Might for 4 seconds on Critical Strike"
+      ]
+    },
+    {
+      "id": "30622",
+      "name": "Storm's Hand",
+      "reminders": [],
+      "stats": [
+        "Gain 10% of Wand Physical Damage as Extra Lightning Damage",
+        "25% of Wand Physical Damage converted to Lightning Damage"
+      ]
+    },
+    {
+      "id": "30847",
+      "name": "Nature's Patience",
+      "reminders": [
+        "(Up to 10 Vines can grasp you, inflicting 8% less Movement Speed per Vine. Broken by moving)"
+      ],
+      "stats": [
+        "Gain 2 Grasping Vines each second while stationary\n2% chance to deal Double Damage per Grasping Vine\n1% less Damage taken per Grasping Vine"
+      ]
+    },
+    {
+      "id": "31333",
+      "name": "Frantic Aspect",
+      "reminders": [],
+      "stats": [
+        "Debuffs on you expire 10% faster",
+        "Haste has 50% increased Mana Reservation Efficiency"
+      ]
+    },
+    {
+      "id": "31440",
+      "name": "Ancestral Echo",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "20% increased Totem Placement speed",
+        "10% increased Attack and Cast Speed if you've summoned a Totem Recently"
+      ]
+    },
+    {
+      "id": "31825",
+      "name": "Paralysis",
+      "reminders": [
+        "(The Stun Threshold determines how much Damage can Stun something)"
+      ],
+      "stats": [
+        "30% increased Lightning Damage",
+        "10% chance to double Stun Duration",
+        "Lightning Skills have 10% reduced Enemy Stun Threshold"
+      ]
+    },
+    {
+      "id": "32031",
+      "name": "Stubborn Student",
+      "reminders": [],
+      "stats": [
+        "20% increased Armour",
+        "15% increased maximum Mana",
+        "+1 Armour per 10 Unreserved Maximum Mana"
+      ]
+    },
+    {
+      "id": "32118",
+      "name": "Veteran's Awareness",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)",
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "+10% to all Elemental Resistances and maximum Elemental Resistances while affected by a Non-Vaal Guard Skill\n20% additional Physical Damage Reduction while affected by a Non-Vaal Guard Skill\n20% more Damage taken if a Non-Vaal Guard Buff was lost Recently"
+      ]
+    },
+    {
+      "id": "32259",
+      "name": "Mortifying Aspect",
+      "reminders": [],
+      "stats": [
+        "+11% to Chaos Resistance",
+        "Malevolence has 50% increased Mana Reservation Efficiency"
+      ]
+    },
+    {
+      "id": "32415",
+      "name": "Essence Rush",
+      "reminders": [
+        "(Leeched Energy Shield is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "40% increased Damage while Leeching Energy Shield",
+        "0.3% of Spell Damage Leeched as Energy Shield",
+        "5% increased Attack and Cast Speed while Leeching Energy Shield"
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Lord of Drought",
+      "reminders": [],
+      "stats": [
+        "Flammability can affect Hexproof Enemies",
+        "30% increased Damage with Ignites inflicted on Cursed Enemies"
+      ]
+    },
+    {
+      "id": "33002",
+      "name": "Explosive Force",
+      "reminders": [],
+      "stats": [
+        "Enemies Killed with Wand Hits have a 10% chance to Explode, dealing a quarter of their Life as Chaos Damage",
+        "Gain 10% of Wand Physical Damage as Extra Chaos Damage"
+      ]
+    },
+    {
+      "id": "33182",
+      "name": "Provocateur",
+      "reminders": [],
+      "stats": [
+        "40% increased Critical Strike Chance against Taunted Enemies",
+        "+10% to Critical Strike Multiplier against Taunted Enemies"
+      ]
+    },
+    {
+      "id": "33232",
+      "name": "Self-Control",
+      "reminders": [],
+      "stats": [
+        "25% increased Mana Regeneration Rate",
+        "Discipline has 80% increased Mana Reservation Efficiency"
+      ]
+    },
+    {
+      "id": "33482",
+      "name": "Master of Fire",
+      "reminders": [
+        "(Fire Exposure applies -10% to Fire Resistance for 4 seconds)"
+      ],
+      "stats": [
+        "Enemies within 3 metres have Fire Exposure"
+      ]
+    },
+    {
+      "id": "3354",
+      "name": "Lone Messenger",
+      "reminders": [],
+      "stats": [
+        "You can only have one Herald\n50% more Effect of Herald Buffs on you\n100% more Damage with Hits from Herald Skills\n50% more Damage Over Time with Herald Skills\nMinions from Herald Skills deal 25% more Damage\nYour Aura Skills are Disabled"
+      ]
+    },
+    {
+      "id": "33676",
+      "name": "Antifreeze",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)"
+      ],
+      "stats": [
+        "+1% to maximum Cold Resistance",
+        "+20% to Cold Resistance",
+        "30% chance to Avoid being Frozen"
+      ]
+    },
+    {
+      "id": "33698",
+      "name": "Will Shaper",
+      "reminders": [],
+      "stats": [
+        "Gain 5% of Maximum Mana as Extra Maximum Energy Shield"
+      ]
+    },
+    {
+      "id": "34108",
+      "name": "Mystical Ward",
+      "reminders": [
+        "(Leeched Energy Shield is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "6% Chance to Block Spell Damage",
+        "0.3% of Spell Damage Leeched as Energy Shield",
+        "Regenerate 1.5% of Energy Shield per second"
+      ]
+    },
+    {
+      "id": "34205",
+      "name": "Practiced Caster",
+      "reminders": [],
+      "stats": [
+        "20% increased Spell Damage",
+        "5% increased Cast Speed",
+        "35% chance to Ignore Stuns while Casting"
+      ]
+    },
+    {
+      "id": "34581",
+      "name": "Flow of Life",
+      "reminders": [],
+      "stats": [
+        "24% increased Damage over Time",
+        "4% increased maximum Life",
+        "Regenerate 0.6% of Life per second"
+      ]
+    },
+    {
+      "id": "34595",
+      "name": "Wicked Pall",
+      "reminders": [],
+      "stats": [
+        "30% increased Chaos Damage",
+        "5% increased Skill Effect Duration"
+      ]
+    },
+    {
+      "id": "35363",
+      "name": "Stoic Focus",
+      "reminders": [],
+      "stats": [
+        "+5% Chance to Block Attack Damage while Channelling",
+        "+5% Chance to Block Spell Damage while Channelling",
+        "Channelling Skills deal 25% increased Damage"
+      ]
+    },
+    {
+      "id": "35430",
+      "name": "Thunderstruck",
+      "reminders": [],
+      "stats": [
+        "20% increased Lightning Damage",
+        "Your Critical Strikes Knock Back Shocked Enemies",
+        "30% increased Critical Strike Chance"
+      ]
+    },
+    {
+      "id": "35790",
+      "name": "Advance Guard",
+      "reminders": [],
+      "stats": [
+        "Attack Skills deal 30% increased Damage while holding a Shield",
+        "Ignore all Movement Penalties from Armour",
+        "5% increased Movement Speed while holding a Shield"
+      ]
+    },
+    {
+      "id": "36276",
+      "name": "Brand Loyalty",
+      "reminders": [],
+      "stats": [
+        "Enemies take 3% increased Damage for each of your Brands Attached to them"
+      ]
+    },
+    {
+      "id": "36370",
+      "name": "Low Tolerance",
+      "reminders": [],
+      "stats": [
+        "Poisons you inflict on non-Poisoned Enemies deal 300% increased Damage"
+      ]
+    },
+    {
+      "id": "36455",
+      "name": "Gladiatorial Combat",
+      "reminders": [],
+      "stats": [
+        "2% increased Attack Damage per 75 Armour or Evasion Rating on Shield",
+        "+1% to Critical Strike Multiplier per 10 Maximum Energy Shield on Shield"
+      ]
+    },
+    {
+      "id": "36645",
+      "name": "Streamlined",
+      "reminders": [],
+      "stats": [
+        "20% increased Projectile Speed",
+        "20% increased Projectile Damage"
+      ]
+    },
+    {
+      "id": "36655",
+      "name": "Lead By Example",
+      "reminders": [],
+      "stats": [
+        "When you Warcry, you and nearby Allies gain Onslaught for 4 seconds",
+        "+10 to Strength and Dexterity"
+      ]
+    },
+    {
+      "id": "36776",
+      "name": "Widespread Destruction",
+      "reminders": [],
+      "stats": [
+        "6% increased Area of Effect",
+        "20% increased Elemental Damage"
+      ]
+    },
+    {
+      "id": "36807",
+      "name": "Gladiator's Fortitude",
+      "reminders": [],
+      "stats": [
+        "Attack Skills deal 25% increased Damage while holding a Shield",
+        "5% increased maximum Life"
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Martial Prowess",
+      "reminders": [
+        "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
+      ],
+      "stats": [
+        "20% increased Attack Damage",
+        "6% increased Attack Speed",
+        "20% increased Damage with Ailments from Attack Skills",
+        "15% increased Accuracy Rating"
+      ]
+    },
+    {
+      "id": "37081",
+      "name": "Pitfighter",
+      "reminders": [],
+      "stats": [
+        "1% increased Fishing Line Strength"
+      ]
+    },
+    {
+      "id": "3723",
+      "name": "Wall of Muscle",
+      "reminders": [],
+      "stats": [
+        "6% increased maximum Life",
+        "5% increased Strength"
+      ]
+    },
+    {
+      "id": "37358",
+      "name": "Seeker Runes",
+      "reminders": [
+        "(Brand Damage is any Damage dealt by Brand Skills or by Skills Triggered by a Brand)"
+      ],
+      "stats": [
+        "25% increased Brand Damage",
+        "Unattached Brands gain 20% increased Brand Attachment Range per\nsecond, up to a maximum of 100%"
+      ]
+    },
+    {
+      "id": "37384",
+      "name": "Compound Injury",
+      "reminders": [],
+      "stats": [
+        "35% increased Damage with Bleeding you inflict on Maimed Enemies"
+      ]
+    },
+    {
+      "id": "37478",
+      "name": "Stormrider",
+      "reminders": [],
+      "stats": [
+        "10% chance to gain a Power Charge when you Shock a Chilled Enemy",
+        "25% increased Cold Damage with Hits against Shocked Enemies",
+        "25% increased Lightning Damage with Hits against Chilled Enemies"
+      ]
+    },
+    {
+      "id": "37882",
+      "name": "Doedre's Gluttony",
+      "reminders": [
+        "(Culling Strike means enemies that are on 10% or lower life after your Hit are Killed)"
+      ],
+      "stats": [
+        "Punishment can affect Hexproof Enemies",
+        "You have Culling Strike against Cursed Enemies"
+      ]
+    },
+    {
+      "id": "3805",
+      "name": "Force Multiplier",
+      "reminders": [],
+      "stats": [
+        "5% chance to deal Double Damage",
+        "25% increased Physical Damage"
+      ]
+    },
+    {
+      "id": "38275",
+      "name": "Unwavering Focus",
+      "reminders": [],
+      "stats": [
+        "50% chance to Avoid being Stunned while Channelling",
+        "Channelling Skills deal 30% increased Damage"
+      ]
+    },
+    {
+      "id": "38399",
+      "name": "Septic Spells",
+      "reminders": [
+        "(Poison deals Chaos Damage over time, based on the base Physical and Chaos Damage of the Skill. Multiple instances of Poison stack)"
+      ],
+      "stats": [
+        "5% increased Cast Speed",
+        "Spell Skills have +5% to Damage over Time Multiplier for Poison",
+        "20% chance to Poison on Hit with Spell Damage"
+      ]
+    },
+    {
+      "id": "38563",
+      "name": "Tempered Arrowheads",
+      "reminders": [
+        "(Ailments are Bleeding, Ignited, Scorched, Chilled, Frozen, Brittle, Shocked, Sapped, and Poisoned)"
+      ],
+      "stats": [
+        "Bow Skills have +6% to Damage over Time Multiplier",
+        "Bow Skills have 10% increased Skill Effect Duration",
+        "10% increased Duration of Ailments inflicted while wielding a Bow"
+      ]
+    },
+    {
+      "id": "38592",
+      "name": "Unwaveringly Evil",
+      "reminders": [],
+      "stats": [
+        "30% increased Chaos Damage",
+        "Chaos Skills ignore interruption from Stuns"
+      ]
+    },
+    {
+      "id": "38633",
+      "name": "Pressure Points",
+      "reminders": [],
+      "stats": [
+        "Your Critical Strikes have a 5% chance to deal Double Damage",
+        "30% increased Critical Strike Chance"
+      ]
+    },
+    {
+      "id": "38683",
+      "name": "Winter Prowler",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)"
+      ],
+      "stats": [
+        "+2% to maximum Cold Resistance",
+        "10% increased Life Recovery from Flasks"
+      ]
+    },
+    {
+      "id": "38790",
+      "name": "Heavy Hitter",
+      "reminders": [
+        "(The Stun Threshold determines how much Damage can Stun something)",
+        "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
+      ],
+      "stats": [
+        "30% increased Attack Damage",
+        "10% reduced Enemy Stun Threshold",
+        "20% chance to double Stun Duration",
+        "30% increased Damage with Ailments from Attack Skills"
+      ]
+    },
+    {
+      "id": "39006",
+      "name": "Bloodscent",
+      "reminders": [
+        "(Every Rage grants 1% more Attack Damage. Maximum Rage is 30. Lose 10 Rage per second if you have not been Hit or gained Rage in the last 2 seconds)",
+        "(Only one Hit every 0.5 seconds can cause you to gain Rage)"
+      ],
+      "stats": [
+        "Gain 2 Rage on Hit with Axes or Swords"
+      ]
+    },
+    {
+      "id": "39058",
+      "name": "Quick and Deadly",
+      "reminders": [],
+      "stats": [
+        "60% increased Main Hand Attack Damage while wielding two different Weapon Types",
+        "30% increased Off Hand Attack Speed while wielding two different Weapon Types"
+      ]
+    },
+    {
+      "id": "39331",
+      "name": "Heart of Iron",
+      "reminders": [],
+      "stats": [
+        "Gain 10% of Maximum Life as Extra Armour"
+      ]
+    },
+    {
+      "id": "39738",
+      "name": "Fan of Blades",
+      "reminders": [],
+      "stats": [
+        "Attack Skills fire an additional Projectile while wielding a Claw or Dagger",
+        "20% increased Projectile Attack Damage with Claws or Daggers"
+      ]
+    },
+    {
+      "id": "39874",
+      "name": "Blast-Freeze",
+      "reminders": [],
+      "stats": [
+        "20% increased Cold Damage",
+        "Freezes you inflict spread to other Enemies within 1.2 metres"
+      ]
+    },
+    {
+      "id": "40181",
+      "name": "Elegant Form",
+      "reminders": [
+        "(40% of Damage from Suppressed Hits and Ailments they inflict is prevented)",
+        "(Elemental Ailments are Ignited, Scorched, Chilled, Frozen, Brittle, Shocked, and Sapped)"
+      ],
+      "stats": [
+        "+10% chance to Suppress Spell Damage",
+        "20% chance to Avoid Elemental Ailments"
+      ]
+    },
+    {
+      "id": "40402",
+      "name": "Invigorating Portents",
+      "reminders": [],
+      "stats": [
+        "Minions deal 20% increased Damage while you are affected by a Herald",
+        "Minions have 10% increased Movement Speed for each Herald affecting you"
+      ]
+    },
+    {
+      "id": "40561",
+      "name": "Kineticism",
+      "reminders": [
+        "(Bleeding deals Physical Damage over time, based on the base Physical Damage of the Skill. Damage is 200% higher while moving)",
+        "(Maimed enemies have 30% reduced Movement Speed)"
+      ],
+      "stats": [
+        "Attack Projectiles always inflict Bleeding and Maim, and Knock Back Enemies\nProjectiles cannot Pierce, Fork or Chain"
+      ]
+    },
+    {
+      "id": "408",
+      "name": "Cooked Alive",
+      "reminders": [
+        "(Ignite deals Fire Damage over time, based on the base Fire Damage of the Skill, for 4 seconds)"
+      ],
+      "stats": [
+        "15% chance to Ignite",
+        "Enemies Ignited by you have -5% to Fire Resistance"
+      ]
+    },
+    {
+      "id": "40828",
+      "name": "Dark Ideation",
+      "reminders": [],
+      "stats": [
+        "2% increased Chaos Damage per 100 maximum Mana, up to a maximum of 80%"
+      ]
+    },
+    {
+      "id": "40858",
+      "name": "Adrenaline",
+      "reminders": [],
+      "stats": [
+        "8% increased maximum Life",
+        "6% increased Attack Speed while Leeching"
+      ]
+    },
+    {
+      "id": "40870",
+      "name": "Snowstorm",
+      "reminders": [],
+      "stats": [
+        "Gain 8% of Lightning Damage as Extra Cold Damage against Chilled Enemies"
+      ]
+    },
+    {
+      "id": "4094",
+      "name": "Brewed for Potency",
+      "reminders": [],
+      "stats": [
+        "24% increased Damage over Time",
+        "10% increased Flask Charges gained",
+        "20% increased Life and Mana Recovery from Flasks"
+      ]
+    },
+    {
+      "id": "41056",
+      "name": "Opportunistic Fusilade",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "50% increased Critical Strike Chance with Wands",
+        "35% increased Damage with Wands if you've dealt a Critical Strike Recently"
+      ]
+    },
+    {
+      "id": "41284",
+      "name": "Drive the Destruction",
+      "reminders": [
+        "(Leeched Life is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)",
+        "(Maimed enemies have 30% reduced Movement Speed)"
+      ],
+      "stats": [
+        "0.8% of Attack Damage Leeched as Life",
+        "25% increased Attack Damage when on Full Life",
+        "Attacks have 10% chance to Maim on Hit"
+      ]
+    },
+    {
+      "id": "41509",
+      "name": "Mender's Wellspring",
+      "reminders": [],
+      "stats": [
+        "25% increased Life Recovery from Flasks",
+        "Life Flasks gain 1 Charge every 3 seconds",
+        "Remove Bleeding when you use a Life Flask"
+      ]
+    },
+    {
+      "id": "41594",
+      "name": "Calamitous",
+      "reminders": [
+        "(Freeze lowers Enemy Action Speed to zero, preventing them from acting. Duration is based on the Cold Damage of the Hit)",
+        "(Shock increases Damage taken by up to 50%, depending on the amount of Lightning Damage in the hit, for 2 seconds)",
+        "(Ignite deals Fire Damage over time, based on the base Fire Damage of the Skill, for 4 seconds)",
+        "(Ailments that do not deal Damage are Scorched, Chilled, Frozen, Brittle, Shocked, and Sapped)"
+      ],
+      "stats": [
+        "10% chance to Freeze, Shock and Ignite",
+        "30% increased Elemental Damage with Attack Skills",
+        "15% increased Effect of Non-Damaging Ailments"
+      ]
+    },
+    {
+      "id": "41983",
+      "name": "Vicious Bite",
+      "reminders": [],
+      "stats": [
+        "Minions have 30% increased Critical Strike Chance",
+        "Minions have +15% to Critical Strike Multiplier"
+      ]
+    },
+    {
+      "id": "42024",
+      "name": "Improvisor",
+      "reminders": [],
+      "stats": [
+        "6% increased Attack Speed",
+        "10% increased maximum Mana",
+        "Gain 3 Mana per Enemy Hit with Attacks"
+      ]
+    },
+    {
+      "id": "4205",
+      "name": "Weight Advantage",
+      "reminders": [
+        "(Warstaves are considered Staves)",
+        "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
+      ],
+      "stats": [
+        "Mace, Sceptre or Staff Attacks deal 30% increased Damage with Hits and Ailments",
+        "4% chance to deal Double Damage while wielding a Mace, Sceptre or Staff",
+        "+20 to Strength"
+      ]
+    },
+    {
+      "id": "42068",
+      "name": "Follow-Through",
+      "reminders": [],
+      "stats": [
+        "Projectiles deal 20% increased Damage with Hits and Ailments for\neach remaining Chain, up to a maximum of 100%"
+      ]
+    },
+    {
+      "id": "42117",
+      "name": "Sadist",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "15% increased Elemental Damage if you've Chilled an Enemy Recently",
+        "20% increased Elemental Damage if you've Ignited an Enemy Recently",
+        "25% increased Elemental Damage if you've Shocked an Enemy Recently"
+      ]
+    },
+    {
+      "id": "42126",
+      "name": "Blessed Rebirth",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "Minions have 20% increased maximum Life",
+        "Minions created Recently cannot be Damaged"
+      ]
+    },
+    {
+      "id": "42145",
+      "name": "Intensity",
+      "reminders": [],
+      "stats": [
+        "10% increased Area Damage",
+        "Spells which can gain Intensity have +1 to maximum Intensity"
+      ]
+    },
+    {
+      "id": "42305",
+      "name": "Evil Eye",
+      "reminders": [],
+      "stats": [
+        "Enemies you Curse take 6% increased Damage"
+      ]
+    },
+    {
+      "id": "42313",
+      "name": "Prismatic Dance",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)"
+      ],
+      "stats": [
+        "30% increased Evasion Rating",
+        "+1% to all maximum Elemental Resistances"
+      ]
+    },
+    {
+      "id": "42338",
+      "name": "Disorienting Wounds",
+      "reminders": [],
+      "stats": [
+        "25% increased Damage with Bleeding",
+        "25% chance to Blind with Hits against Bleeding Enemies"
+      ]
+    },
+    {
+      "id": "42530",
+      "name": "Fire Attunement",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)",
+        "(Debuffs you are Unaffected by can still be placed on you, but will not actually apply their effect)"
+      ],
+      "stats": [
+        "30% reduced Ignite Duration on you",
+        "You cannot be Ignited if you've been Ignited Recently",
+        "Unaffected by Burning Ground"
+      ]
+    },
+    {
+      "id": "42601",
+      "name": "Exploit Weakness",
+      "reminders": [],
+      "stats": [
+        "Vulnerability can affect Hexproof Enemies",
+        "Recover 2% of Life when you Kill a Cursed Enemy"
+      ]
+    },
+    {
+      "id": "42636",
+      "name": "Holy Conquest",
+      "reminders": [
+        "(Brand Damage is any Damage dealt by Brand Skills or by Skills Triggered by a Brand)"
+      ],
+      "stats": [
+        "Brands have 25% increased Area of Effect if 50% of Attached Duration expired",
+        "25% increased Brand Damage"
+      ]
+    },
+    {
+      "id": "42648",
+      "name": "Sap Psyche",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "20% increased Spell Damage",
+        "30% increased Mana Regeneration Rate",
+        "Regenerate 1% of Energy Shield per second if you've Cursed an Enemy Recently"
+      ]
+    },
+    {
+      "id": "42687",
+      "name": "Graceful Execution",
+      "reminders": [],
+      "stats": [
+        "5% increased Attack Speed with Two Handed Melee Weapons",
+        "15% increased Accuracy Rating with Two Handed Melee Weapons",
+        "25% increased Critical Strike Chance with Two Handed Melee Weapons",
+        "+15 to Dexterity and Intelligence"
+      ]
+    },
+    {
+      "id": "42929",
+      "name": "Victim Maker",
+      "reminders": [
+        "(Malediction causes 10% reduced Damage dealt and 10% increased Damage taken)"
+      ],
+      "stats": [
+        "Curse Skills have 8% increased Cast Speed",
+        "Enemies Cursed by you have Malediction if 33% of Curse Duration expired"
+      ]
+    },
+    {
+      "id": "43834",
+      "name": "Scintillating Idea",
+      "reminders": [],
+      "stats": [
+        "20% increased maximum Mana",
+        "Damage Penetrates 5% Lightning Resistance"
+      ]
+    },
+    {
+      "id": "44203",
+      "name": "Wizardry",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)"
+      ],
+      "stats": [
+        "8% increased maximum Mana",
+        "+2% to maximum Lightning Resistance"
+      ]
+    },
+    {
+      "id": "44237",
+      "name": "Prodigious Defence",
+      "reminders": [],
+      "stats": [
+        "4% Chance to Block Spell Damage",
+        "30% increased Attack Damage while holding a Shield",
+        "+4% Chance to Block Attack Damage"
+      ]
+    },
+    {
+      "id": "44435",
+      "name": "Holy Word",
+      "reminders": [
+        "(Attacks made against Enemies affected by Hallowing Flame gain 25% of Physical Damage as Extra Fire Damage.",
+        "Hallowing Flame is removed once an Attack that benefits from this Damage as Extra is successfully made.",
+        "Hallowing Flame lasts for six seconds and cannot benefit the one who inflicted it)"
+      ],
+      "stats": [
+        "Your Warcries inflict Hallowing Flame"
+      ]
+    },
+    {
+      "id": "44544",
+      "name": "Basics of Pain",
+      "reminders": [],
+      "stats": [
+        "20% increased Damage",
+        "30% increased Critical Strike Chance"
+      ]
+    },
+    {
+      "id": "44670",
+      "name": "Smite the Weak",
+      "reminders": [
+        "(Maimed enemies have 30% reduced Movement Speed)"
+      ],
+      "stats": [
+        "40% increased Attack Damage against Maimed Enemies",
+        "Attacks have 10% chance to Maim on Hit"
+      ]
+    },
+    {
+      "id": "44731",
+      "name": "Master of the Maelstrom",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)"
+      ],
+      "stats": [
+        "Elemental Weakness can affect Hexproof Enemies",
+        "+1% to all maximum Elemental Resistances if you have Killed a Cursed Enemy Recently"
+      ]
+    },
+    {
+      "id": "45128",
+      "name": "Fan the Flames",
+      "reminders": [],
+      "stats": [
+        "Ignites you inflict spread to other Enemies within a Radius of 1.5 metres"
+      ]
+    },
+    {
+      "id": "45935",
+      "name": "Unrestrained Focus",
+      "reminders": [],
+      "stats": [
+        "Channelling Skills have 8% increased Attack and Cast Speed",
+        "Unaffected by Chill while Channelling"
+      ]
+    },
+    {
+      "id": "46074",
+      "name": "Shifting Shadow",
+      "reminders": [],
+      "stats": [
+        "20% increased Evasion Rating",
+        "+20 to Dexterity",
+        "10% chance to Blind Enemies on Hit"
+      ]
+    },
+    {
+      "id": "46264",
+      "name": "Enduring Focus",
+      "reminders": [],
+      "stats": [
+        "Channelling Skills deal 25% increased Damage",
+        "25% chance to gain an Endurance Charge each second while Channelling"
+      ]
+    },
+    {
+      "id": "4641",
+      "name": "Flexible Sentry",
+      "reminders": [
+        "(Elemental Ailments are Ignited, Scorched, Chilled, Frozen, Brittle, Shocked, and Sapped)"
+      ],
+      "stats": [
+        "4% Chance to Block Spell Damage",
+        "25% reduced Elemental Ailment Duration on you",
+        "+4% Chance to Block Attack Damage",
+        "25% reduced Effect of Chill and Shock on you"
+      ]
+    },
+    {
+      "id": "47393",
+      "name": "Spiteful Presence",
+      "reminders": [
+        "(Cold Ailments are Chilled, Frozen and Brittle)"
+      ],
+      "stats": [
+        "20% increased Effect of Cold Ailments",
+        "Hatred has 50% increased Mana Reservation Efficiency"
+      ]
+    },
+    {
+      "id": "47424",
+      "name": "Steady Torment",
+      "reminders": [],
+      "stats": [
+        "15% increased Poison Duration",
+        "15% increased Bleeding Duration",
+        "+6% to Damage over Time Multiplier for Bleeding you inflict on Poisoned Enemies",
+        "+6% to Damage over Time Multiplier for Poison you inflict on Bleeding Enemies"
+      ]
+    },
+    {
+      "id": "47584",
+      "name": "Special Reserve",
+      "reminders": [],
+      "stats": [
+        "20% increased Damage during any Flask Effect",
+        "Regenerate 2% of Life per second during any Flask Effect"
+      ]
+    },
+    {
+      "id": "48550",
+      "name": "Titanic Swings",
+      "reminders": [],
+      "stats": [
+        "20% increased Area Damage while wielding a Two Handed Melee Weapon",
+        "15% increased Area of Effect while wielding a Two Handed Melee Weapon"
+      ]
+    },
+    {
+      "id": "48803",
+      "name": "Molten One's Mark",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)"
+      ],
+      "stats": [
+        "+2% to maximum Fire Resistance",
+        "Regenerate 1% of Life per second"
+      ]
+    },
+    {
+      "id": "48925",
+      "name": "Expansive Might",
+      "reminders": [
+        "(Warstaves are considered Staves)",
+        "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
+      ],
+      "stats": [
+        "Mace, Sceptre or Staff Attacks deal 20% increased Damage with Hits and Ailments",
+        "10% increased Area of Effect per second you've been stationary, up to a maximum of 50%"
+      ]
+    },
+    {
+      "id": "49273",
+      "name": "Touch of Cruelty",
+      "reminders": [
+        "(Hinder reduces movement speed by 30% for 4 seconds)"
+      ],
+      "stats": [
+        "Chaos Spells have 10% chance to Hinder Enemies on Hit",
+        "Enemies Hindered by you take 10% increased Chaos Damage"
+      ]
+    },
+    {
+      "id": "4942",
+      "name": "Vivid Hues",
+      "reminders": [
+        "(Leeched Life is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "2% of Attack Damage Leeched as Life against Bleeding Enemies",
+        "20% increased total Recovery per second from Life Leech",
+        "20% increased Damage with Bleeding"
+      ]
+    },
+    {
+      "id": "4958",
+      "name": "Liquid Inspiration",
+      "reminders": [],
+      "stats": [
+        "15% increased maximum Mana",
+        "20% increased Mana Recovery from Flasks",
+        "25% chance to gain a Power Charge when you use a Mana Flask"
+      ]
+    },
+    {
+      "id": "49694",
+      "name": "Peace Amidst Chaos",
+      "reminders": [],
+      "stats": [
+        "8% increased maximum Life",
+        "20% increased Armour while stationary",
+        "Regenerate 2% of Life per second while stationary"
+      ]
+    },
+    {
+      "id": "5075",
+      "name": "Fasting",
+      "reminders": [],
+      "stats": [
+        "20% increased Flask Charges gained",
+        "10% increased Movement Speed while under no Flask Effects"
+      ]
+    },
+    {
+      "id": "50820",
+      "name": "Militarism",
+      "reminders": [],
+      "stats": [
+        "30% increased Armour",
+        "8% increased maximum Life"
+      ]
+    },
+    {
+      "id": "51421",
+      "name": "Pure Aptitude",
+      "reminders": [],
+      "stats": [
+        "15% increased Energy Shield Recharge Rate",
+        "Purity of Lightning has 80% increased Mana Reservation Efficiency",
+        "+20 to Intelligence"
+      ]
+    },
+    {
+      "id": "51467",
+      "name": "Astonishing Affliction",
+      "reminders": [
+        "(Elemental Ailments are Ignited, Scorched, Chilled, Frozen, Brittle, Shocked, and Sapped)",
+        "(Ailments are Bleeding, Ignited, Scorched, Chilled, Frozen, Brittle, Shocked, Sapped, and Poisoned)",
+        "(Ailments that do not deal Damage are Scorched, Chilled, Frozen, Brittle, Shocked, and Sapped)"
+      ],
+      "stats": [
+        "20% increased Duration of Elemental Ailments on Enemies",
+        "20% increased Damage with Hits and Ailments against Enemies affected by Ailments",
+        "20% increased Effect of Non-Damaging Ailments"
+      ]
+    },
+    {
+      "id": "51523",
+      "name": "Born of Chaos",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)"
+      ],
+      "stats": [
+        "+3% to maximum Chaos Resistance"
+      ]
+    },
+    {
+      "id": "51541",
+      "name": "Eye of the Storm",
+      "reminders": [
+        "(Ailments that do not deal Damage are Scorched, Chilled, Frozen, Brittle, Shocked, and Sapped)"
+      ],
+      "stats": [
+        "+10% to Damage over Time Multiplier for Ignite from Critical Strikes",
+        "20% increased Effect of non-Damaging Ailments you inflict with Critical Strikes",
+        "40% increased Critical Strike Chance"
+      ]
+    },
+    {
+      "id": "51870",
+      "name": "Purposeful Harbinger",
+      "reminders": [],
+      "stats": [
+        "Auras from your Skills have 8% increased Effect on you for\neach Herald affecting you, up to a maximum of 40%"
+      ]
+    },
+    {
+      "id": "5190",
+      "name": "Burden Projection",
+      "reminders": [],
+      "stats": [
+        "30% increased Spell Damage",
+        "8% chance to Knock Enemies Back on Hit with Spell Damage"
+      ]
+    },
+    {
+      "id": "52058",
+      "name": "Arcane Pyrotechnics",
+      "reminders": [
+        "(Arcane Surge grants 20% increased Cast Speed and 30% increased Mana Regeneration rate, for 4 seconds)"
+      ],
+      "stats": [
+        "20% increased Trap Damage",
+        "20% increased Mine Damage",
+        "Gain Arcane Surge when your Mine is Detonated targeting an Enemy",
+        "Gain Arcane Surge when your Trap is Triggered by an Enemy"
+      ]
+    },
+    {
+      "id": "52544",
+      "name": "Savour the Moment",
+      "reminders": [],
+      "stats": [
+        "10% increased maximum Energy Shield",
+        "Regenerate 3.00% of Energy Shield per second while stationary"
+      ]
+    },
+    {
+      "id": "52844",
+      "name": "Fettle",
+      "reminders": [],
+      "stats": [
+        "+20 to maximum Life",
+        "10% increased maximum Life"
+      ]
+    },
+    {
+      "id": "53067",
+      "name": "One with the Shield",
+      "reminders": [
+        "(Armour, Evasion Rating and Energy Shield are the standard Defences)"
+      ],
+      "stats": [
+        "+6% Chance to Block Attack Damage while holding a Shield",
+        "Recover 50 Life when you Block",
+        "50% increased Defences from Equipped Shield"
+      ]
+    },
+    {
+      "id": "53285",
+      "name": "Repeater",
+      "reminders": [],
+      "stats": [
+        "30% increased Projectile Damage",
+        "8% increased Attack and Cast Speed"
+      ]
+    },
+    {
+      "id": "53318",
+      "name": "Battle-Hardened",
+      "reminders": [],
+      "stats": [
+        "30% increased Evasion Rating and Armour",
+        "35% increased Physical Damage"
+      ]
+    },
+    {
+      "id": "54170",
+      "name": "Eye to Eye",
+      "reminders": [],
+      "stats": [
+        "25% increased Projectile Damage",
+        "Projectiles deal 35% increased Damage with Hits against Enemies within 3 metres"
+      ]
+    },
+    {
+      "id": "54209",
+      "name": "Ancestral Guidance",
+      "reminders": [],
+      "stats": [
+        "Totems' Action Speed cannot be modified to below Base Value",
+        "Totems Regenerate 2% of Life per second"
+      ]
+    },
+    {
+      "id": "54382",
+      "name": "Vital Focus",
+      "reminders": [],
+      "stats": [
+        "Channelling Skills deal 30% increased Damage",
+        "Regenerate 1.5% of Life per second while Channelling"
+      ]
+    },
+    {
+      "id": "54436",
+      "name": "Cold to the Core",
+      "reminders": [],
+      "stats": [
+        "1% increased Cold Damage per 25 Dexterity",
+        "1% increased Cold Damage per 25 Intelligence",
+        "1% increased Cold Damage per 25 Strength"
+      ]
+    },
+    {
+      "id": "54760",
+      "name": "Expert Sabotage",
+      "reminders": [],
+      "stats": [
+        "Mines have 20% increased Detonation Speed",
+        "Mines have a 10% chance to be Detonated an Additional Time"
+      ]
+    },
+    {
+      "id": "54766",
+      "name": "Prismatic Carapace",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)"
+      ],
+      "stats": [
+        "30% increased Armour",
+        "+1% to all maximum Elemental Resistances"
+      ]
+    },
+    {
+      "id": "54798",
+      "name": "Insulated",
+      "reminders": [
+        "(Maximum Resistances cannot be raised above 90%)"
+      ],
+      "stats": [
+        "+1% to maximum Lightning Resistance",
+        "+20% to Lightning Resistance",
+        "30% chance to Avoid being Shocked"
+      ]
+    },
+    {
+      "id": "55022",
+      "name": "Call to the Slaughter",
+      "reminders": [],
+      "stats": [
+        "Minions deal 15% increased Damage",
+        "Minions created Recently have 10% increased Attack and Cast Speed",
+        "Minions created Recently have 30% increased Movement Speed"
+      ]
+    },
+    {
+      "id": "55171",
+      "name": "Dread March",
+      "reminders": [],
+      "stats": [
+        "Minions have 10% increased maximum Life",
+        "Minions have 10% increased Movement Speed",
+        "Minions have 10% additional Physical Damage Reduction",
+        "Minions have +10% to Chaos Resistance"
+      ]
+    },
+    {
+      "id": "55714",
+      "name": "Precise Focus",
+      "reminders": [],
+      "stats": [
+        "30% increased Critical Strike Chance while Channelling",
+        "+20% to Critical Strike Multiplier if you've been Channelling for at least 1 second"
+      ]
+    },
+    {
+      "id": "56065",
+      "name": "Burning Bright",
+      "reminders": [],
+      "stats": [
+        "25% increased Burning Damage",
+        "8% increased Area of Effect"
+      ]
+    },
+    {
+      "id": "56070",
+      "name": "Exposure Therapy",
+      "reminders": [],
+      "stats": [
+        "+5% to Damage over Time Multiplier",
+        "+30% Chaos Resistance against Damage Over Time"
+      ]
+    },
+    {
+      "id": "56686",
+      "name": "Ancestral Preservation",
+      "reminders": [],
+      "stats": [
+        "Totems gain +20% to all Elemental Resistances",
+        "Totems have 15% additional Physical Damage Reduction",
+        "Totems gain +25% to Chaos Resistance"
+      ]
+    },
+    {
+      "id": "56696",
+      "name": "Cremator",
+      "reminders": [],
+      "stats": [
+        "30% increased Fire Damage",
+        "Ignited Enemies Killed by your Hits are destroyed"
+      ]
+    },
+    {
+      "id": "56760",
+      "name": "Deep Cuts",
+      "reminders": [
+        "(When an Impaled enemy is hit, the Impale reflects 10% of the physical damage of the Impaling hit to that enemy. Impale lasts for 5 hits or 8 seconds)"
+      ],
+      "stats": [
+        "15% chance to Impale Enemies on Hit with Attacks",
+        "Impales you inflict last 1 additional Hit"
+      ]
+    },
+    {
+      "id": "56879",
+      "name": "Haemorrhage",
+      "reminders": [],
+      "stats": [
+        "+10% to Damage over Time Multiplier for Ailments from Critical Strikes",
+        "30% increased Critical Strike Chance"
+      ]
+    },
+    {
+      "id": "56886",
+      "name": "Distilled Perfection",
+      "reminders": [],
+      "stats": [
+        "25% increased Life Recovery from Flasks",
+        "25% increased Mana Recovery from Flasks",
+        "10% increased Flask Effect Duration"
+      ]
+    },
+    {
+      "id": "57104",
+      "name": "Evil Eye",
+      "reminders": [],
+      "stats": [
+        "Enemies you Curse take 6% increased Damage"
+      ]
+    },
+    {
+      "id": "57141",
+      "name": "Disease Vector",
+      "reminders": [],
+      "stats": [
+        "Enemies Poisoned by you cannot Regenerate Life",
+        "+6% to Damage over Time Multiplier for Poison while wielding a Claw or Dagger"
+      ]
+    },
+    {
+      "id": "57212",
+      "name": "Ancestral Reach",
+      "reminders": [],
+      "stats": [
+        "25% increased Totem Damage",
+        "25% increased Totem Placement speed",
+        "25% increased Totem Placement range"
+      ]
+    },
+    {
+      "id": "57280",
+      "name": "Secrets of Suffering",
+      "reminders": [
+        "(Scorched Enemies have their Elemental Resistances lowered by up to 30%, based on the Fire Damage of the Hit, for 4 seconds)",
+        "(Hits have up to +6% Critical Strike Chance against Brittle Enemies, based on the Cold Damage of the Hit which inflicted Brittle, for 4 seconds)",
+        "(Sapped Enemies deal up to 20% less Damage, based on the Lightning Damage of the Hit, for 4 seconds)"
+      ],
+      "stats": [
+        "Cannot Ignite, Chill, Freeze or Shock\nCritical Strikes inflict Scorch, Brittle and Sapped"
+      ]
+    },
+    {
+      "id": "57383",
+      "name": "Sleepless Sentries",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "20% increased Totem Duration",
+        "You have Onslaught if you've Summoned a Totem Recently"
+      ]
+    },
+    {
+      "id": "57572",
+      "name": "Enduring Composure",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "30% increased Armour",
+        "Gain 1 Endurance Charge every second if you've been Hit Recently"
+      ]
+    },
+    {
+      "id": "5781",
+      "name": "Pure Agony",
+      "reminders": [],
+      "stats": [
+        "+5 to Maximum Virulence",
+        "Minions deal 20% increased Damage while you are affected by a Herald"
+      ]
+    },
+    {
+      "id": "57892",
+      "name": "Primordial Bond",
+      "reminders": [],
+      "stats": [
+        "10% increased Damage per Summoned Golem",
+        "20% increased Effect of Buffs granted by your Golems",
+        "Golems have 25% increased Maximum Life"
+      ]
+    },
+    {
+      "id": "58189",
+      "name": "Run Through",
+      "reminders": [
+        "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
+      ],
+      "stats": [
+        "Axe or Sword Attacks deal 15% increased Damage with Ailments",
+        "10% increased Impale Effect",
+        "10% chance to Impale Enemies on Hit with Axes or Swords",
+        "15% increased Physical Damage with Axes or Swords"
+      ]
+    },
+    {
+      "id": "58221",
+      "name": "Destructive Aspect",
+      "reminders": [],
+      "stats": [
+        "12% increased Area of Effect of Aura Skills",
+        "Pride has 50% increased Mana Reservation Efficiency"
+      ]
+    },
+    {
+      "id": "58248",
+      "name": "Chilling Presence",
+      "reminders": [
+        "(Chill reduces Enemy Action Speed by 10%)"
+      ],
+      "stats": [
+        "Enemies within 3 metres are Chilled"
+      ]
+    },
+    {
+      "id": "58904",
+      "name": "Alchemist",
+      "reminders": [],
+      "stats": [
+        "+20% to Cold Resistance",
+        "8% increased Attack and Cast Speed",
+        "20% increased Life Recovery from Flasks"
+      ]
+    },
+    {
+      "id": "58944",
+      "name": "Vicious Guard",
+      "reminders": [
+        "(Leeched Life is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "0.4% of Attack Damage Leeched as Life",
+        "Regenerate 1.5% of Life per second",
+        "+6% Chance to Block Attack Damage"
+      ]
+    },
+    {
+      "id": "58949",
+      "name": "Renewal",
+      "reminders": [],
+      "stats": [
+        "Minions Regenerate 1% of Life per second",
+        "Minions have 5% chance to deal Double Damage while they are on Full Life"
+      ]
+    },
+    {
+      "id": "59307",
+      "name": "Remarkable",
+      "reminders": [],
+      "stats": [
+        "8% increased Cast Speed with Brand Skills",
+        "Skills which create Brands have 35% chance to create an additional Brand"
+      ]
+    },
+    {
+      "id": "59350",
+      "name": "Electric Presence",
+      "reminders": [
+        "(Lightning Ailments are Shocked and Sapped)"
+      ],
+      "stats": [
+        "20% increased Effect of Lightning Ailments",
+        "Wrath has 50% increased Mana Reservation Efficiency"
+      ]
+    },
+    {
+      "id": "59646",
+      "name": "Supercharge",
+      "reminders": [],
+      "stats": [
+        "Lightning Damage with Non-Critical Strikes is Lucky"
+      ]
+    },
+    {
+      "id": "60069",
+      "name": "Hollow Palm Technique",
+      "reminders": [
+        "(You are Unencumbered while you have no Gloves, no Main Hand Item, and no Off Hand Item Equipped)"
+      ],
+      "stats": [
+        "You count as Dual Wielding while you are Unencumbered\n40% more Attack Speed with Melee Skills while you are Unencumbered\nAdds 14 to 20 Attack Physical Damage to Melee Skills per 10 Dexterity while you are Unencumbered"
+      ]
+    },
+    {
+      "id": "60617",
+      "name": "Magnifier",
+      "reminders": [],
+      "stats": [
+        "10% increased Area of Effect",
+        "+10% to Critical Strike Multiplier"
+      ]
+    },
+    {
+      "id": "60647",
+      "name": "Second Skin",
+      "reminders": [],
+      "stats": [
+        "4% Chance to Block Spell Damage",
+        "30% increased Armour",
+        "+4% Chance to Block Attack Damage"
+      ]
+    },
+    {
+      "id": "60690",
+      "name": "Sublime Form",
+      "reminders": [],
+      "stats": [
+        "+10% to all Elemental Resistances",
+        "Grace has 50% increased Mana Reservation Efficiency"
+      ]
+    },
+    {
+      "id": "60864",
+      "name": "Ancestral Might",
+      "reminders": [],
+      "stats": [
+        "15% increased Totem Life",
+        "30% increased Totem Duration",
+        "30% increased Totem Damage if you haven't Summoned a Totem in the past 2 seconds"
+      ]
+    },
+    {
+      "id": "60894",
+      "name": "Wound Aggravation",
+      "reminders": [
+        "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
+      ],
+      "stats": [
+        "Axe or Sword Attacks deal 20% increased Damage with Ailments",
+        "20% increased Physical Damage with Axes or Swords",
+        "+5% to Physical Damage over Time Multiplier while wielding an Axe or Sword"
+      ]
+    },
+    {
+      "id": "61043",
+      "name": "Eldritch Inspiration",
+      "reminders": [],
+      "stats": [
+        "20% increased Chaos Damage",
+        "16% increased maximum Mana",
+        "20% increased Mana Regeneration Rate"
+      ]
+    },
+    {
+      "id": "61474",
+      "name": "Surefooted Striker",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "40% increased Critical Strike Chance with Two Handed Melee Weapons",
+        "5% chance to deal Double Damage if you've dealt a Critical Strike with a Two Handed Melee Weapon Recently"
+      ]
+    },
+    {
+      "id": "61549",
+      "name": "Forbidden Words",
+      "reminders": [],
+      "stats": [
+        "25% increased Area of Effect of Curse Aura Skills",
+        "15% increased Mana Reservation Efficiency of Curse Aura Skills"
+      ]
+    },
+    {
+      "id": "61616",
+      "name": "Volatile Presence",
+      "reminders": [
+        "(Fire Ailments are Ignited and Scorched)"
+      ],
+      "stats": [
+        "Anger has 50% increased Mana Reservation Efficiency",
+        "20% increased Duration of Fire Ailments"
+      ]
+    },
+    {
+      "id": "61998",
+      "name": "Agent of Destruction",
+      "reminders": [],
+      "stats": [
+        "10% chance to Freeze, Shock and Ignite while affected by a Herald",
+        "25% increased Elemental Damage while affected by a Herald"
+      ]
+    },
+    {
+      "id": "62160",
+      "name": "Genius",
+      "reminders": [],
+      "stats": [
+        "8% increased maximum Mana",
+        "5% increased Intelligence"
+      ]
+    },
+    {
+      "id": "62318",
+      "name": "Life from Death",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "Minions have 15% increased maximum Life",
+        "Regenerate 2% of Life per second if a Minion has Died Recently",
+        "Minions Recover 4% of Life on Minion Death"
+      ]
+    },
+    {
+      "id": "6258",
+      "name": "Blanketed Snow",
+      "reminders": [],
+      "stats": [
+        "Damage Penetrates 10% Cold Resistance against Chilled Enemies"
+      ]
+    },
+    {
+      "id": "62618",
+      "name": "Hit and Run",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)",
+        "(40% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
+      ],
+      "stats": [
+        "Attack Skills deal 25% increased Damage while Dual Wielding",
+        "+10% chance to Suppress Spell Damage if you've Hit an Enemy Recently"
+      ]
+    },
+    {
+      "id": "62634",
+      "name": "Replenishing Presence",
+      "reminders": [],
+      "stats": [
+        "Non-Curse Aura Skills have 20% increased Duration",
+        "You and nearby Allies Regenerate 1.00% of Life per second"
+      ]
+    },
+    {
+      "id": "62706",
+      "name": "Sublime Sensation",
+      "reminders": [],
+      "stats": [
+        "10% increased maximum Energy Shield",
+        "8% increased maximum Life"
+      ]
+    },
+    {
+      "id": "62707",
+      "name": "Numbing Elixir",
+      "reminders": [],
+      "stats": [
+        "40% reduced Effect of Curses on you during Effect of any Mana Flask",
+        "40% reduced Effect of Non-Damaging Ailments on you during Effect of any Life Flask"
+      ]
+    },
+    {
+      "id": "63142",
+      "name": "Skullbreaker",
+      "reminders": [
+        "(The Stun Threshold determines how much Damage can Stun something)"
+      ],
+      "stats": [
+        "8% reduced Enemy Stun Threshold",
+        "+15% to Critical Strike Multiplier"
+      ]
+    },
+    {
+      "id": "63607",
+      "name": "Towering Threat",
+      "reminders": [],
+      "stats": [
+        "8% increased maximum Life",
+        "10% increased Area of Effect"
+      ]
+    },
+    {
+      "id": "63969",
+      "name": "Vast Power",
+      "reminders": [],
+      "stats": [
+        "20% increased Area Damage",
+        "3% increased Area of Effect per Power Charge, up to a maximum of 50%"
+      ]
+    },
+    {
+      "id": "64259",
+      "name": "Natural Vigour",
+      "reminders": [],
+      "stats": [
+        "30% increased Evasion Rating",
+        "8% increased maximum Life"
+      ]
+    },
+    {
+      "id": "64407",
+      "name": "Riot Queller",
+      "reminders": [],
+      "stats": [
+        "+6% Chance to Block Attack Damage",
+        "Enemies Taunted by you take 6% increased Damage"
+      ]
+    },
+    {
+      "id": "64717",
+      "name": "Blessed",
+      "reminders": [],
+      "stats": [
+        "6% increased maximum Life",
+        "10% increased maximum Mana",
+        "+13% to Chaos Resistance"
+      ]
+    },
+    {
+      "id": "64782",
+      "name": "Spring Back",
+      "reminders": [],
+      "stats": [
+        "10% increased maximum Energy Shield",
+        "5% faster start of Energy Shield Recharge"
+      ]
+    },
+    {
+      "id": "65110",
+      "name": "Vile Reinvigoration",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "24% increased Damage over Time",
+        "6% increased maximum Energy Shield",
+        "Regenerate 2% of Energy Shield per second if you've Killed an Enemy Recently"
+      ]
+    },
+    {
+      "id": "65117",
+      "name": "Hex Breaker",
+      "reminders": [],
+      "stats": [
+        "8% increased Attack and Cast Speed while Channelling",
+        "Remove a Curse after Channelling for 2 seconds"
+      ]
+    },
+    {
+      "id": "65138",
+      "name": "Expendability",
+      "reminders": [
+        "(Throwing Mines takes 10% more time for each additional Mine thrown)"
+      ],
+      "stats": [
+        "10% chance to throw up to 1 additional Trap or Mine"
+      ]
+    },
+    {
+      "id": "65521",
+      "name": "Self-Fulfilling Prophecy",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "+1% to Critical Strike Chance of Herald Skills",
+        "+15% to Critical Strike Multiplier if you dealt a Critical Strike with a Herald Skill Recently"
+      ]
+    },
+    {
+      "id": "6553",
+      "name": "Brutal Infamy",
+      "reminders": [
+        "(Ailments that deal Damage are Bleeding, Ignited, and Poisoned)"
+      ],
+      "stats": [
+        "Attacks with Two Handed Melee Weapons deal 20% increased Damage with Hits and Ailments",
+        "40% increased Damage with Hits and Ailments against Unique Enemies"
+      ]
+    },
+    {
+      "id": "6696",
+      "name": "Haunting Shout",
+      "reminders": [
+        "(Intimidated enemies take 10% increased Attack Damage)"
+      ],
+      "stats": [
+        "Enemies Taunted by your Warcries are Intimidated"
+      ]
+    },
+    {
+      "id": "6703",
+      "name": "Raze and Pillage",
+      "reminders": [],
+      "stats": [
+        "Minions have 20% chance to Ignite",
+        "Minions deal 20% increased Damage with Hits and Ailments against Ignited Enemies",
+        "Minions gain 6% of Physical Damage as Extra Fire Damage"
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Hulking Corpses",
+      "reminders": [],
+      "stats": [
+        "Minions have 25% increased maximum Life",
+        "Raised Zombies have 5% chance to Taunt Enemies on Hit"
+      ]
+    },
+    {
+      "id": "7039",
+      "name": "Doryani's Lesson",
+      "reminders": [
+        "(Leeched Life is recovered over time. Multiple Leeches can occur simultaneously, up to a maximum rate)"
+      ],
+      "stats": [
+        "0.2% of Elemental Damage Leeched as Life",
+        "25% increased Elemental Damage"
+      ]
+    },
+    {
+      "id": "7107",
+      "name": "Warning Call",
+      "reminders": [
+        "(Normal Monsters have 1 Power, Magic Monsters 2, Rare Monsters 10, Unique Monsters 20, and Players 5)"
+      ],
+      "stats": [
+        "Gain 25% increased Armour per 5 Power for 8 seconds when you Warcry, up to a maximum of 100%"
+      ]
+    },
+    {
+      "id": "7279",
+      "name": "Wish for Death",
+      "reminders": [
+        "(Culling Strike means enemies that are on 10% or lower life after your Hit are Killed)"
+      ],
+      "stats": [
+        "You have Culling Strike against Cursed Enemies"
+      ]
+    },
+    {
+      "id": "7343",
+      "name": "Arcing Shot",
+      "reminders": [],
+      "stats": [
+        "Arrows gain Critical Strike Chance as they travel farther, up to 100% increased Critical Strike Chance",
+        "Arrows gain Damage as they travel farther, dealing up to 50% increased Damage with Hits to targets"
+      ]
+    },
+    {
+      "id": "7431",
+      "name": "Fiery Aegis",
+      "reminders": [
+        "(Attacks made against Enemies affected by Hallowing Flame gain 25% of Physical Damage as Extra Fire Damage.",
+        "Hallowing Flame is removed once an Attack that benefits from this Damage as Extra is successfully made.",
+        "Hallowing Flame lasts for six seconds and cannot benefit the one who inflicted it)"
+      ],
+      "stats": [
+        "+5% Chance to Block Attack Damage",
+        "Hallowing Flame you inflict has 1% increased magnitude per 2% Attack Block chance"
+      ]
+    },
+    {
+      "id": "784",
+      "name": "Conjured Wall",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "25% increased Spell Damage",
+        "+8% Chance to Block Spell Damage if you've Cast a Spell Recently"
+      ]
+    },
+    {
+      "id": "8258",
+      "name": "Rend",
+      "reminders": [],
+      "stats": [
+        "+5% to Physical Damage over Time Multiplier",
+        "20% increased Bleeding Duration"
+      ]
+    },
+    {
+      "id": "8897",
+      "name": "Dark Messenger",
+      "reminders": [],
+      "stats": [
+        "Herald Skills have 25% increased Area of Effect",
+        "Herald Skills deal 20% increased Damage"
+      ]
+    },
+    {
+      "id": "8949",
+      "name": "Peak Vigour",
+      "reminders": [],
+      "stats": [
+        "8% increased maximum Life",
+        "20% increased Life Recovery from Flasks"
+      ]
+    },
+    {
+      "id": "9042",
+      "name": "Enduring Ward",
+      "reminders": [],
+      "stats": [
+        "20% chance to gain an Endurance Charge when you Block",
+        "+10% Chance to Block Attack Damage while at Maximum Endurance Charges"
+      ]
+    },
+    {
+      "id": "907",
+      "name": "Introspection",
+      "reminders": [],
+      "stats": [
+        "Auras from your Skills have 10% increased Effect on you"
+      ]
+    },
+    {
+      "id": "9245",
+      "name": "Readiness",
+      "reminders": [],
+      "stats": [
+        "30% chance to Avoid Bleeding",
+        "30% chance to Avoid being Impaled",
+        "30% increased Evasion Rating if you haven't been Hit Recently"
+      ]
+    },
+    {
+      "id": "9276",
+      "name": "Darting Movements",
+      "reminders": [
+        "(40% of Damage from Suppressed Hits and Ailments they inflict is prevented)"
+      ],
+      "stats": [
+        "3% increased Movement Speed",
+        "+12% chance to Suppress Spell Damage while moving"
+      ]
+    },
+    {
+      "id": "9372",
+      "name": "Blood Artist",
+      "reminders": [
+        "(Recently refers to the past 4 seconds)"
+      ],
+      "stats": [
+        "+6% to Physical Damage over Time Multiplier if you've Spent Life Recently",
+        "+20 to Strength"
+      ]
+    },
+    {
+      "id": "9495",
+      "name": "Hound's Mark",
+      "reminders": [],
+      "stats": [
+        "20% increased Effect of your Marks",
+        "20% increased Damage with Hits and Ailments against Marked Enemy"
+      ]
+    },
+    {
+      "id": "981",
+      "name": "Furious Assault",
+      "reminders": [],
+      "stats": [
+        "8% increased Attack and Cast Speed",
+        "25% increased Physical Damage"
+      ]
+    }
+  ],
+  "tree_version": "3_30",
+  "tree_sha256": "a6c770cedd4a486f209ce9ad1b952d413ad95802d9ca033c68fe210d88f5a499"
+}
