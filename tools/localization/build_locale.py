@@ -43,6 +43,12 @@ def write_term_csv(entries):
 
 
 def write_dictionary(entries):
+    # Keep existing catalog rows in place when adding clauses. Several source
+    # collectors iterate sets; their ordering must not shuffle the whole file.
+    catalog = OUT / 'catalog.json'
+    previous = json.loads(catalog.read_text('utf8')) if catalog.exists() else {}
+    order = [key for key in previous if key in entries] + sorted(entries.keys() - previous.keys())
+    entries = {key: entries[key] for key in order}
     (OUT / 'catalog.json').write_text(json.dumps(entries, ensure_ascii=False, indent=2) + '\n', 'utf8')
     (OUT / 'Dictionary.lua').write_text('return {\n' + ''.join(
         '\t[' + json.dumps(en, ensure_ascii=False) + '] = ' + json.dumps(meta['zh'], ensure_ascii=False) + ',\n'

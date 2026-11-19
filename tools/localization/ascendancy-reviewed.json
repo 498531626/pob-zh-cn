@@ -1,0 +1,386 @@
+{
+  "20% chance to gain a Power Charge on Non-Critical Strike": {
+    "zh": "非暴击时有 20% 的几率获得一个暴击球",
+    "node_id": "4242",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Attack Damage Penetrates 5% of Enemy Elemental Resistances": {
+    "zh": "攻击伤害穿透敌人 5% 的元素抗性",
+    "node_id": "8656",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "(Maximum Chance to Block Attack Damage cannot be raised above 90%)": {
+    "zh": "（攻击伤害格挡几率上限不能超过 90%）",
+    "node_id": "2598",
+    "kind": "passive-reminder",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "(Maximum Chance to Block Spell Damage cannot be raised above 90%)": {
+    "zh": "（法术伤害格挡几率上限不能超过 90%）",
+    "node_id": "2598",
+    "kind": "passive-reminder",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "25% less Mana Cost of Skills": {
+    "zh": "技能的魔力消耗总降 25%",
+    "node_id": "29026",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "You have 20 Fortification": {
+    "zh": "你拥有 20 层护体",
+    "node_id": "31700",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Enemy Monsters within 6 metres have no Fire Resistance against\nDamage over Time while you are Stationary": {
+    "zh": "静止时，6 米范围内的敌方怪物对持续伤害没有火焰抗性",
+    "node_id": "61355",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "40% less Damage with Triggered Spells": {
+    "zh": "触发的法术的伤害总降 40%",
+    "node_id": "28535",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "For each corpse within 6 metres, you and nearby Allies deal 1% more Damage, up to a maximum of 10%": {
+    "zh": "6 米范围内每有一具灵柩，你和周围友军的伤害总增 1%，最多 10%",
+    "node_id": "11490",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Enemies within 6 metres are Chilled and Shocked while you are near a corpse": {
+    "zh": "你处于灵柩附近时，6 米范围内的敌人受到冰缓和感电",
+    "node_id": "23572",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "1% more Damage for each different type of Mastery you have Allocated": {
+    "zh": "每配置一种不同类型的专精，伤害总增 1%",
+    "node_id": "6778",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Skills from Equipped Body Armour are Supported by Level 20 Ancestral Call": {
+    "zh": "装备的胸甲上的技能受到 20 级的先祖呼唤辅助",
+    "node_id": "53095",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Skills from Equipped Body Armour are Supported by Level 1 Fist of War": {
+    "zh": "装备的胸甲上的技能受到 1 级的战争之拳辅助",
+    "node_id": "53095",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "1% of Physical Damage prevented from Hits in the past\n10 seconds is Regenerated as Life per second": {
+    "zh": "每秒再生生命，等同于过去 10 秒内阻挡的击中物理伤害的 1%",
+    "node_id": "61072",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Gain 40% Chance to Block from Equipped Shield instead of the Shield's value": {
+    "zh": "装备盾牌的格挡几率为 40%，不使用盾牌的数值",
+    "node_id": "34774",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Utility Flasks can gain Charges During their Flask Effect": {
+    "zh": "功能药剂可以在其药剂效果持续期间获得充能",
+    "node_id": "61805",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "+5 to Maximum Fanatic Charges": {
+    "zh": "狂热球数量上限 +5",
+    "node_id": "13851",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Nearby Enemies take 8% increased Elemental Damage": {
+    "zh": "周围敌人受到的元素伤害提高 8%",
+    "node_id": "40059",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "If Bismuth Flask Charges are consumed, Penetrate 20% Elemental Resistances": {
+    "zh": "如果消耗灰岩药剂充能次数，穿透 20% 的元素抗性",
+    "node_id": "6038",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Modifiers to Fire Resistance also apply to Cold and Lightning Resistances at 25% of their Value": {
+    "zh": "火焰抗性修正的 25% 也作用于冰霜和闪电抗性",
+    "node_id": "48480",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Your Mercenary has 30% increased effect of Non-Curse Auras from Skills": {
+    "zh": "你的佣兵来自技能的非诅咒光环效果提高 30%",
+    "node_id": "56292",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Projectiles have 30% chance to Return to you": {
+    "zh": "投射物有 30% 的几率返回你身边",
+    "node_id": "57175",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "50% more Elemental Damage while Unbound": {
+    "zh": "不羁期间，元素伤害总增 50%",
+    "node_id": "55509",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "10% of Damage from Hits is taken from your Sentinel of Radiance's Life before you": {
+    "zh": "击中伤害的 10% 在你承受之前，由你的光辉哨兵的生命承受",
+    "node_id": "4494",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Your Mercenary and their Minions deal 4% more Damage for\neach Unique item they have equipped": {
+    "zh": "你的佣兵每装备一件传奇物品，其自身及其召唤生物的伤害总增 4%",
+    "node_id": "25944",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "10% more Damage taken from other Enemies near your Marked Enemy": {
+    "zh": "受到来自被你施加印记的敌人附近其他敌人的伤害总增 10%",
+    "node_id": "5443",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "20% less Damage taken from Marked Enemy": {
+    "zh": "受到来自被你施加印记的敌人的伤害总降 20%",
+    "node_id": "5443",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "10% more Accuracy Rating while wielding a Sword": {
+    "zh": "装备剑类武器时，命中值总增 10%",
+    "node_id": "52575",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "10% more Area of Effect while wielding a Mace or Sceptre": {
+    "zh": "装备锤或短杖时，效果区域总增 10%",
+    "node_id": "52575",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "10% more Critical Strike Chance while wielding a Dagger": {
+    "zh": "装备匕首时，暴击几率总增 10%",
+    "node_id": "52575",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "10% of Leech is Instant while wielding a Claw": {
+    "zh": "装备爪类武器时，10% 的偷取立即生效",
+    "node_id": "52575",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "20% more Damage with Hits and Ailments against Enemies that are on Low Life while you are wielding an Axe": {
+    "zh": "装备斧类武器时，对低血敌人造成的击中和异常状态伤害总增 20%",
+    "node_id": "52575",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Damage taken Recouped as Life is also Recouped as Energy Shield": {
+    "zh": "受到伤害吸纳为生命的效果也会吸纳为能量护盾",
+    "node_id": "37492",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Your Action Speed is at least 90% of base value": {
+    "zh": "你的行动速度至少为基础值的 90%",
+    "node_id": "23225",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "+1 to maximum number of Summoned Mirage Archers": {
+    "zh": "召唤幻影射手的数量上限 +1",
+    "node_id": "2872",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "If your Mercenary's Life is higher than your own, 15% of Damage from Hits is\ntaken from your Mercenary's Life before you": {
+    "zh": "若你佣兵的生命高于你自身，击中伤害的 15% 先从你佣兵的生命扣除",
+    "node_id": "1564",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "If your Mercenary's Life is lower than your own, 30% of Damage they take is Recouped as Life": {
+    "zh": "若你佣兵的生命低于你自身，其受到伤害的 30% 吸纳为生命",
+    "node_id": "1564",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Arcane Surge also grants 8% more Spell Damage to you": {
+    "zh": "秘术增强也使你的法术伤害总增 8%",
+    "node_id": "40510",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "If you've Attacked Recently, you and Allies within 6 metres have +15% Chance to Block Attack Damage": {
+    "zh": "若你近期进行过攻击，你和 6 米范围内友军的攻击伤害格挡几率 +15%",
+    "node_id": "39728",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "If you've Cast a Spell Recently, you and Allies within 6 metres have +15% Chance to Block Spell Damage": {
+    "zh": "若你近期施放过法术，你和 6 米范围内友军的法术伤害格挡几率 +15%",
+    "node_id": "39728",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Gain 1 Gale Force when you use a Skill\n5% increased Effect of Tailwind on you per Gale Force": {
+    "zh": "你使用技能时获得 1 个飓风之力；每个飓风之力使你身上的提速尾流效果提高 5%",
+    "node_id": "24848",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Nearby Enemies have -15% to Cold Resistance": {
+    "zh": "周围敌人的冰霜抗性 -15%",
+    "node_id": "27096",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Nearby Enemies have -15% to Chaos Resistance": {
+    "zh": "周围敌人的混沌抗性 -15%",
+    "node_id": "27096",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "You and Allies within 6 metres have +20% to Elemental Resistances": {
+    "zh": "你和 6 米范围内友军的元素抗性 +20%",
+    "node_id": "36017",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "If you've Attacked Recently, you and Allies within 6 metres have +7% Chance to Block Attack Damage": {
+    "zh": "若你近期进行过攻击，你和 6 米范围内友军的攻击伤害格挡几率 +7%",
+    "node_id": "30919",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "If you've Cast a Spell Recently, you and Allies within 6 metres have +7% Chance to Block Spell Damage": {
+    "zh": "若你近期施放过法术，你和 6 米范围内友军的法术伤害格挡几率 +7%",
+    "node_id": "30919",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "20% more Damage while there is at most one Rare or Unique Enemy within 6 metres": {
+    "zh": "6 米范围内至多有一个稀有或传奇敌人时，伤害总增 20%",
+    "node_id": "19083",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "20% less Damage taken while there are at least two Rare or Unique Enemies within 6 metres": {
+    "zh": "6 米范围内至少有两个稀有或传奇敌人时，受到的伤害总降 20%",
+    "node_id": "19083",
+    "kind": "passive-stat",
+    "tree_version": "3_30_ruthless",
+    "source": "src/TreeData/3_30_ruthless/tree.lua",
+    "status": "direct-translation-local-semantics-reviewed"
+  }
+}

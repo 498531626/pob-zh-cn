@@ -1,6 +1,7 @@
 """Match PoEDB 3.30 text by stable node/effect ID, never by list position alone."""
 import collections
 import html
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -68,6 +69,9 @@ def build_passives():
                 lines(effect['stats'], ee[effect_id]['stats'], ze[effect_id]['stats'], node_id, 'mastery-stat')
     reviewed = json.loads((HERE / 'passive-reviewed.json').read_text('utf8'))
     for english, meta in reviewed.items():
+        if meta.get('status') in ('direct-translation-local-semantics-reviewed', 'paired-node-reference-clause-semantics-reviewed'):
+            if sorted(re.findall(r'-?\d+(?:\.\d+)?', english)) != sorted(re.findall(r'-?\d+(?:\.\d+)?', meta['zh'])):
+                raise ValueError('Reviewed passive number mismatch: ' + english)
         matched = 0
         for node_id, node in pob['nodes'].items():
             texts = [node.get('name', ''), *node.get('stats', []), *node.get('reminderText', [])]
@@ -81,6 +85,26 @@ def build_passives():
         candidates[english] = {meta['zh']: meta}
     misses = [m for m in misses if m.get('english') not in reviewed]
     counts['reviewed_translations'] = len(reviewed) - counts['reviewed_not_in_current_tree']
+    # Ruthless has different clauses and numbers under the same node IDs.
+    # Admit only exact clauses in a fresh export of the actual bundled trees.
+    ascendancies_source = json.loads((HERE / 'pob-ascendancies-en.json').read_text('utf8'))
+    for version, digest in ascendancies_source['source_sha256'].items():
+        source = HERE.parents[1] / 'src/TreeData' / version / 'tree.lua'
+        if hashlib.sha256(source.read_bytes()).hexdigest() != digest:
+            raise ValueError('Stale ascendancy sources; run export_ascendancy_sources.py')
+    for english, meta in json.loads((HERE / 'ascendancy-reviewed.json').read_text('utf8')).items():
+        nodes = ascendancies_source['trees'][meta['tree_version']]
+        matched = 0
+        if sorted(re.findall(r'-?\d+(?:\.\d+)?', english)) != sorted(re.findall(r'-?\d+(?:\.\d+)?', meta['zh'])):
+            raise ValueError('Ascendancy number mismatch: ' + english)
+        for node_id, node in nodes.items():
+            if english in [node.get('name', ''), *node.get('stats', []), *node.get('reminderText', []), *node.get('flavourText', [])]:
+                contexts[node_id][english] = meta['zh']
+                matched += 1
+        if not matched:
+            raise ValueError('Reviewed ascendancy clause missing from source: ' + english)
+        candidates[english] = {meta['zh']: meta}
+        counts['reviewed_variant_translations'] += 1
     entries = {}
     conflicts = []
     for english, options in candidates.items():

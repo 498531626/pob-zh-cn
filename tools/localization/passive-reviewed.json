@@ -545,5 +545,2541 @@
     "english_source": "https://poedb.tw/data/passive-skill-tree/3.29/data_us.json?5",
     "status": "paired-id-local-semantics-reviewed",
     "review_note": "English six and Chinese 6 denote the same duration."
+  },
+  "If your Mercenary's Life is higher than your own, 20% of Damage from Hits is\ntaken from your Mercenary's Life before you": {
+    "zh": "若你佣兵的生命高于你自身，击中伤害的 20% 先从你佣兵的生命扣除",
+    "kind": "passive-stat",
+    "node_id": "1564",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "If your Mercenary's Life is lower than your own, 40% of Damage they take is Recouped as Life": {
+    "zh": "若你佣兵的生命低于你自身，其受到伤害的 40% 回收为生命",
+    "kind": "passive-stat",
+    "node_id": "1564",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Only Damage from Hits can be Recouped, over 4 seconds following the Hit)": {
+    "zh": "（仅能吸纳击中伤害，在该次击中后的 4 秒内回复）",
+    "kind": "passive-reminder",
+    "node_id": "1564",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "30% chance to gain an Endurance Charge when you are Hit": {
+    "zh": "被击中时有 30% 的几率获得耐力球",
+    "kind": "passive-stat",
+    "node_id": "1734",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "25% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges": {
+    "zh": "若你可以获得耐力球，则有 25% 的几率直接获得最大数量的耐力球",
+    "kind": "passive-stat",
+    "node_id": "1734",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Chance to Block Attack or Spell Damage is Lucky if you've Blocked Recently": {
+    "zh": "若近期格挡过，格挡攻击或法术伤害的几率特别幸运",
+    "kind": "passive-stat",
+    "node_id": "2598",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Regenerate 12 Mana per second": {
+    "zh": "每秒再生 12 魔力",
+    "kind": "passive-stat",
+    "node_id": "2768",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "-8 to Total Mana Cost of Skills": {
+    "zh": "技能的总魔力消耗 -8",
+    "kind": "passive-stat",
+    "node_id": "2768",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "16% of Damage taken Recouped as Mana": {
+    "zh": "将所受伤害的16%吸纳为魔力",
+    "kind": "passive-stat",
+    "node_id": "2768",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "50% increased Mana Cost Efficiency": {
+    "zh": "魔力消耗效率提高 50%",
+    "kind": "passive-stat",
+    "node_id": "2768",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Inflict Hallowing Flame on Melee Hit": {
+    "zh": "近战击中时施加崇敬烈焰",
+    "kind": "passive-stat",
+    "node_id": "3458",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You can inflict +1 Hallowing Flame on Enemies": {
+    "zh": "你可以对敌人施加 +1 层崇敬烈焰",
+    "kind": "passive-stat",
+    "node_id": "3458",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "15% more Damage": {
+    "zh": "伤害总增 15%",
+    "kind": "passive-stat",
+    "node_id": "4194",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Inherent Rage Loss starts 1 second later": {
+    "zh": "固有的怒火损失延迟 1 秒开始",
+    "kind": "passive-stat",
+    "node_id": "4194",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(This only affects the inherent loss of Rage when you haven't been Hit or gained Rage Recently)": {
+    "zh": "（只影响近期内没有被击中或没有获得怒火时，怒火的固有损耗）",
+    "kind": "passive-reminder",
+    "node_id": "4194",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(You can only take one of the three Marauder Ascendancy passives)": {
+    "zh": "( 你只能在野蛮人的三个升华职业中选择一个 )",
+    "kind": "passive-reminder",
+    "node_id": "4194",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Base Maximum Rage is 30)": {
+    "zh": "（基础怒气上限为 30 点）",
+    "kind": "passive-reminder",
+    "node_id": "4194",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(You lose 10 Rage per second if you have not been Hit or gained Rage in the last 2 seconds)": {
+    "zh": "（由于过去 2 秒内你没有被击中或获得怒火，正在以每秒 10 点的速度失去怒火）",
+    "kind": "passive-reminder",
+    "node_id": "4194",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Grants Level 20 Summon Sentinel of Radiance": {
+    "zh": "获得 20 级的召唤光辉哨兵技能",
+    "kind": "passive-stat",
+    "node_id": "4494",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "20% of Damage from Hits is taken from your Sentinel of Radiance's Life before you": {
+    "zh": "击中伤害的 20% 在你承受之前，由你的光辉哨兵的生命承受",
+    "kind": "passive-stat",
+    "node_id": "4494",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Grants Level 20 Barkskin": {
+    "zh": "获得 20 级的树皮御体技能",
+    "kind": "passive-stat",
+    "node_id": "4849",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Grants Primal Aegis": {
+    "zh": "获得原能护盾",
+    "kind": "passive-stat",
+    "node_id": "4917",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Triggers Level 20 Primal Aegis when Allocated\nPrimal Aegis can take 75 Elemental Damage per Allocated Notable Passive Skill": {
+    "zh": "配置时触发 20 级原能护盾\n每个配置的核心天赋都使原能护盾可以承受 75 点元素伤害",
+    "kind": "passive-stat",
+    "node_id": "4917",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Other Aegis Skills are Disabled": {
+    "zh": "禁用其它护盾技能",
+    "kind": "passive-stat",
+    "node_id": "4917",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "15% reduced Damage taken from Blinded Enemies": {
+    "zh": "承受来自致盲敌人的伤害降低 15%",
+    "kind": "passive-stat",
+    "node_id": "5087",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Enemies within 3.5 metres are Blinded": {
+    "zh": "3.5 米范围内的敌人被致盲",
+    "kind": "passive-stat",
+    "node_id": "5087",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Blind Enemies on Hit": {
+    "zh": "击中后使敌人致盲",
+    "kind": "passive-stat",
+    "node_id": "5087",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "20% increased magnitude of Hallowing Flame you inflict": {
+    "zh": "你施加的崇敬烈焰幅度提高 20%",
+    "kind": "passive-stat",
+    "node_id": "5929",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "If Diamond Flask Charges are consumed, +100% to Critical Strike Multiplier": {
+    "zh": "如果消耗宝钻药剂充能次数，暴击伤害加成 +100%",
+    "kind": "passive-stat",
+    "node_id": "6038",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Prevent +6% of Suppressed Spell Damage while on Full Energy Shield": {
+    "zh": "能量护盾全满状态下防止+6%的被压制法术伤害",
+    "kind": "passive-stat",
+    "node_id": "6778",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "2% of Damage Leeched as Energy Shield": {
+    "zh": "伤害的 2% 转化为能量护盾偷取",
+    "kind": "passive-stat",
+    "node_id": "6778",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Raised Beast Spectres have Farrul's Fertile Presence": {
+    "zh": "复苏的野兽灵体拥有法瑞尔的丰沃之灵",
+    "kind": "passive-stat",
+    "node_id": "7442",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Raised Beast Spectres have 3 additional modifiers randomly chosen in each Area": {
+    "zh": "复苏的野兽灵体在每个区域中随机获得 3 个额外词缀",
+    "kind": "passive-stat",
+    "node_id": "7442",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Farrul's Fertile Presence is an Aura which grants 100% increased Damage, Regenerate 3% of Life per second and Cannot be Stunned)": {
+    "zh": "（法瑞尔的丰沃之灵为光环效果，伤害提升100% 、每秒回复 3% 生命，并免疫晕眩。）",
+    "kind": "passive-reminder",
+    "node_id": "7442",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Shocks from your Hits always increase Damage taken by at least 10%": {
+    "zh": "你击中造成的感电效果始终使受到的伤害提高至少 10%",
+    "kind": "passive-stat",
+    "node_id": "8281",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Exposure you inflict applies an extra -20% to the affected Resistance": {
+    "zh": "你施加的曝露效果会使受影响的抗性额外 -20%",
+    "kind": "passive-stat",
+    "node_id": "8281",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Gain 50% Chance to Block from Equipped Shield instead of the Shield's value": {
+    "zh": "装备盾牌的格挡几率为 50%，不使用盾牌的数值",
+    "kind": "passive-stat",
+    "node_id": "8419",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Inherent Bonuses from Dual Wielding are doubled": {
+    "zh": "双持的固有加成翻倍",
+    "kind": "passive-stat",
+    "node_id": "8419",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Dual Wielding inherently grants +20% chance to Block Attack Damage and 10% more Attack Speed)": {
+    "zh": "（双持本使格挡攻击伤害几率 +20%，攻击速度总增 10%）",
+    "kind": "passive-reminder",
+    "node_id": "8419",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Attack Damage Penetrates 8% of Enemy Elemental Resistances": {
+    "zh": "攻击伤害穿透敌人 8% 的元素抗性",
+    "kind": "passive-stat",
+    "node_id": "8656",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You can have an additional Tincture active": {
+    "zh": "你可以额外激活一个酊剂",
+    "kind": "passive-stat",
+    "node_id": "8656",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "10% increased Attack Speed during any Flask Effect": {
+    "zh": "药剂持续期间，攻击速度加快 10%",
+    "kind": "passive-stat",
+    "node_id": "9327",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "25% chance for Flasks you use to not consume Charges": {
+    "zh": "你使用药剂时有 25% 的几率不消耗次数",
+    "kind": "passive-stat",
+    "node_id": "9327",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Action Speed cannot be modified to below Base Value if you have Equipped Boots with no Socketed Gems": {
+    "zh": "若已装备的鞋子上没有镶嵌宝石，则行动速度无法被减速至基础值以下",
+    "kind": "passive-stat",
+    "node_id": "9437",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Cannot be Stunned if you have an Equipped Helmet with no Socketed Gems": {
+    "zh": "若已装备的头盔没有镶嵌宝石，则免疫晕眩",
+    "kind": "passive-stat",
+    "node_id": "9437",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Elemental Ailments cannot be inflicted on you if you have an Equipped Body Armour with no Socketed Gems": {
+    "zh": "若已装备的胸甲没有镶嵌宝石，则免疫元素异常状态",
+    "kind": "passive-stat",
+    "node_id": "9437",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Take no Extra Damage from Critical Strikes if you have Equipped Gloves with no Socketed Gems": {
+    "zh": "若已装备的手套没有镶嵌宝石，则免疫暴击的额外伤害",
+    "kind": "passive-stat",
+    "node_id": "9437",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Auras from your Skills grant 2% increased Attack and Cast\nSpeed to you and Allies": {
+    "zh": "你技能的光环可使你和周围友军的攻击和施法\n速度加快 2%",
+    "kind": "passive-stat",
+    "node_id": "10099",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Auras can only grant bonuses to things they affect)": {
+    "zh": "（光环只能给受影响的事物提供加成）",
+    "kind": "passive-reminder",
+    "node_id": "10099",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Grants Level 20 Ward Shatter": {
+    "zh": "获得 20 级的结界碎击技能",
+    "kind": "passive-stat",
+    "node_id": "10916",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Trigger Level 20 Ward Shatter when your Ward Breaks": {
+    "zh": "你的结界被打破时，触发 20 级结界碎击",
+    "kind": "passive-stat",
+    "node_id": "10916",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Explodes when your Ward is broken, dealing Physical Spell Damage around you equal to a percentage of your Ward and inflicting Enervation on Hit, a debuff that lowers Movement Speed by 20% and prevents Life and Energy Shield Recovery for 4 seconds)": {
+    "zh": "（你的结界被打破时产生爆炸，对周围敌人造成等同于你结界一定百分比的物理法术伤害，并且在击中时施加衰退，该减益效果在 4 秒内降低 20% 移动速度并阻止生命值和能量护盾回复）",
+    "kind": "passive-reminder",
+    "node_id": "10916",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "With at least one corpse within 6 metres, you and Allies within 6 metres deal 10% more Damage": {
+    "zh": "当 6 米范围内至少有一个灵柩时，你和 6 米范围内的友军造成的伤害总增 10%",
+    "kind": "passive-stat",
+    "node_id": "11490",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "With at least one corpse within 6 metres, Enemies within 6 metres deal 10% reduced Damage": {
+    "zh": "当 6 米范围内至少有一个灵柩时，6 米范围内的敌人造成的伤害降低 10%",
+    "kind": "passive-stat",
+    "node_id": "11490",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "-40 Damage taken of each Damage Type from Spell Hits per Bark": {
+    "zh": "每层树皮使受到的各种伤害类型的法术击中伤害 -40",
+    "kind": "passive-stat",
+    "node_id": "11597",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Prevent +3% of Suppressed Spell Damage per Bark below maximum": {
+    "zh": "低于上限的每层树皮御体使被压制的法术伤害阻挡量 +3%",
+    "kind": "passive-stat",
+    "node_id": "11597",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Lose 1 Bark when Hit by Enemy Spell Damage": {
+    "zh": "受到敌人的法术击中伤害时失去 1 层树皮御体",
+    "kind": "passive-stat",
+    "node_id": "11597",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(The Damage Types are Physical, Fire, Cold, Lightning, and Chaos)": {
+    "zh": "( 伤害种类分为物理, 火焰, 冰霜, 闪电, 和混沌 )",
+    "kind": "passive-reminder",
+    "node_id": "11597",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Can't use Amulets": {
+    "zh": "无法使用项链",
+    "kind": "passive-stat",
+    "node_id": "12354",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Inflict Barnacles on Enemies within 5 metres every second": {
+    "zh": "每秒对 5 米范围内的敌人施加藤壶",
+    "kind": "passive-stat",
+    "node_id": "13362",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Enemies affected by Barnacles Convert 5% of Physical Damage to Cold and have 5% increased duration of Chill and Freeze on them. Each instance of Barnacles lasts 30 seconds and can be inflicted up to 10 times)": {
+    "zh": "（受藤壶影响的敌人会将 5% 的物理伤害转化为冰霜伤害，且身上冰缓和冻结状态的持续时间延长 5%。每层藤壶持续 30 秒，最多可叠加 10 层）",
+    "kind": "passive-reminder",
+    "node_id": "13362",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Gain Fanaticism for 5 seconds on reaching Maximum Fanatic Charges": {
+    "zh": "抵达狂热球数量上限时，获得 5 秒欣喜若狂效果",
+    "kind": "passive-stat",
+    "node_id": "13851",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Gain 1 Fanatic Charge every second if you've Attacked in the past second": {
+    "zh": "若你上一秒发动过攻击，则每秒获得 1 个狂热球",
+    "kind": "passive-stat",
+    "node_id": "13851",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Lose all Fanatic Charges on reaching Maximum Fanatic Charges": {
+    "zh": "抵达狂热球数量上限时失去所有狂热球",
+    "kind": "passive-stat",
+    "node_id": "13851",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "+3 to Maximum Fanatic Charges": {
+    "zh": "狂热球数量上限 +3",
+    "kind": "passive-stat",
+    "node_id": "13851",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Fanaticism grants Spells you Cast yourself 75% more Cast Speed, 75% less Cost and 75% increased Area of Effect)": {
+    "zh": "（欣喜若狂使你自身施放的法术的施法速度总增 75%，消耗总降 75%，效果区域扩大 75%）",
+    "kind": "passive-reminder",
+    "node_id": "13851",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Damage of Enemies Hitting you is Unlucky": {
+    "zh": "敌人击中你的伤害特别不幸",
+    "kind": "passive-stat",
+    "node_id": "14103",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "While you have at least 3 Hypnotic Eye Jewels socketed:": {
+    "zh": "当你插上至少 3 颗安睡之凝珠宝时：",
+    "kind": "passive-stat",
+    "node_id": "14588",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Arcane Surge also grants 20% of Damage taken Recouped as Mana to you": {
+    "zh": "秘术增强还使你将所受伤害的 20% 回收为魔力",
+    "kind": "passive-stat",
+    "node_id": "14588",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Arcane Surge also grants 20% increased Mana Cost Efficiency to you": {
+    "zh": "秘术增强还使你的魔力消耗效率提高 20%",
+    "kind": "passive-stat",
+    "node_id": "14588",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Bleeding you inflict is Aggravated": {
+    "zh": "你造成的流血为恶性",
+    "kind": "passive-stat",
+    "node_id": "15616",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Bleeding which has been Aggravated always deals higher Damage as though the target was moving)": {
+    "zh": "（恶性流血将目标视作正在移动，始终造成较高的伤害）",
+    "kind": "passive-reminder",
+    "node_id": "15616",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Grants Level 20 Summon Bone Feeders": {
+    "zh": "获得 20 级的召唤噬骨者技能",
+    "kind": "passive-stat",
+    "node_id": "16287",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Triggers Level 20 Summon Bone Feeders when Allocated": {
+    "zh": "分配时触发 20 级召唤噬骨者",
+    "kind": "passive-stat",
+    "node_id": "16287",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Enemies you Freeze remain Frozen for at least 2 seconds": {
+    "zh": "被你冻结的敌人至少维持冻结状态 2 秒",
+    "kind": "passive-stat",
+    "node_id": "16848",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Hits that fail to Freeze due to insufficient Freeze Duration inflict Hoarfrost": {
+    "zh": "冻结时间不足而未能造成冻结的击中会造成白霜",
+    "kind": "passive-stat",
+    "node_id": "16848",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Freezes that would have a duration of 0.3 seconds or below are not inflicted)": {
+    "zh": "（持续时间不超过 0.3 秒的冻结不会施加）",
+    "kind": "passive-reminder",
+    "node_id": "16848",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Hoarfrost lasts 10 seconds and can be inflicted multiple times, each refreshing the duration of existing Hoarfrost on the target. Each Hoarfost increases Freeze Duration on the target by 20%. All Hoarfrost is removed if the target is Frozen)": {
+    "zh": "（白霜持续 10 秒，可以施加多次，每次都会刷新目标身上的白霜的持续时间。每层白霜使目标受到的冻结持续时间延长 20%。目标被冻结时移除所有白霜层数）",
+    "kind": "passive-reminder",
+    "node_id": "16848",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Immune to Ignite and Shock": {
+    "zh": "免疫点燃和感电",
+    "kind": "passive-stat",
+    "node_id": "16940",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Regenerate 2% of Life per second for each Mine Detonated Recently, up to 10% per second": {
+    "zh": "近期每个引爆的地雷使你每秒再生 2% 生命，最多 10%",
+    "kind": "passive-stat",
+    "node_id": "16940",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Regenerate 2% of Life per Second for each Trap Triggered Recently, up to 10% per second": {
+    "zh": "近期每个触发的陷阱使你每秒再生 2% 生命，最多 10%",
+    "kind": "passive-stat",
+    "node_id": "16940",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Grants Level 20 Surging Torrent": {
+    "zh": "获得 20 级的汹涌洪流技能",
+    "kind": "passive-stat",
+    "node_id": "17080",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Trigger Level 20 Surging Torrent when you cast an Elemental Spell": {
+    "zh": "当你施放元素法术时触发 20 级汹涌洪流",
+    "kind": "passive-stat",
+    "node_id": "17080",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Drop Brine Ground while moving, lasting 4 seconds": {
+    "zh": "移动时留下盐水地面，持续 4 秒",
+    "kind": "passive-stat",
+    "node_id": "17080",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(A torrent rushes upwards after a short delay, dealing damage in an area while leaving Brine Ground)": {
+    "zh": "（短暂延迟后，一股激流向上喷涌，造成范围伤害并留下海蚀地面）",
+    "kind": "passive-reminder",
+    "node_id": "17080",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Enemies on your Brine Ground have 30% increased effect of Lightning and Cold Ailments on them and have 25% reduced Armour and Evasion Rating. Allies on your Brine Ground gain 10% of Physical Damage as extra Cold Damage and as extra Lightning Damage)": {
+    "zh": "（处于你海蚀地面上的敌人，身上的闪电与冰霜异常状态效果提高 30%，且护甲与闪避值降低 25%。处于你海蚀地面上的队友获得 10% 物理伤害作为额外冰霜伤害与额外闪电伤害）",
+    "kind": "passive-reminder",
+    "node_id": "17080",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Minions deal 20% more Damage while they are on Low Life": {
+    "zh": "召唤生物处于濒血状态时造成的伤害总增 20%",
+    "kind": "passive-stat",
+    "node_id": "17309",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Minions cannot be Killed, but die 6 seconds after being reduced to 1 Life": {
+    "zh": "召唤物不会被消灭，但在生命降至 1 点后 6 秒死亡",
+    "kind": "passive-stat",
+    "node_id": "17309",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(You are on Low Life if you have 50% of your Maximum Life or less)": {
+    "zh": "（生命不超过最大生命的 50% 时处于低血状态）",
+    "kind": "passive-reminder",
+    "node_id": "17309",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "40% increased Life Regeneration rate": {
+    "zh": "生命再生速度提高 40%",
+    "kind": "passive-stat",
+    "node_id": "17988",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "1.5% of Physical Damage prevented from Hits in the past\n10 seconds is Regenerated as Life per second": {
+    "zh": "每秒再生生命，等同过去 10 秒内阻挡的击中物理伤害的 1.5%",
+    "kind": "passive-stat",
+    "node_id": "17988",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "+100% to Critical Strike Multiplier against Enemies that are not on Low Life": {
+    "zh": "对非低血状态敌人的暴击伤害加成 +100%",
+    "kind": "passive-stat",
+    "node_id": "18335",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "100% more Critical Strike Chance against Enemies that are on Low Life": {
+    "zh": "对低血敌人的暴击率总增 100%",
+    "kind": "passive-stat",
+    "node_id": "18335",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Lose all Rage on reaching Maximum Rage and gain Wild Savagery\nfor 1 second per 10 Rage lost this way": {
+    "zh": "达到怒火上限时失去所有怒火，每因此失去 10 点怒火，\n获得 1 秒狂野兽性",
+    "kind": "passive-stat",
+    "node_id": "18519",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Wild Savagery grants 100% increased Physical Damage, 10% increased Action Speed, Hits ignore Enemy Physical Damage Reduction and Cannot be Stunned)": {
+    "zh": "（狂野兽性使物理伤害提高 100%，行动速度提高 10%，击中无视敌人的物理伤害减免，并免疫晕眩）",
+    "kind": "passive-reminder",
+    "node_id": "18519",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "+10% to Cold Resistance": {
+    "zh": "+10% 冰霜抗性",
+    "kind": "passive-stat",
+    "node_id": "19078",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "While you have at least 3 Murderous Eye Jewels socketed:": {
+    "zh": "当你插上至少 3 颗凶残之凝珠宝时：",
+    "kind": "passive-stat",
+    "node_id": "19208",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Intimidate you inflict applies an extra +15% increased Attack Damage taken": {
+    "zh": "你施加的威吓使受到的攻击伤害额外提高 +15%",
+    "kind": "passive-stat",
+    "node_id": "19208",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Intimidate you inflict causes targets to deal 10% less Damage": {
+    "zh": "你施加的威吓使目标造成的伤害总降 10%",
+    "kind": "passive-stat",
+    "node_id": "19208",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "10% more Attack Damage for each Non-Instant Spell you've Cast in the past 8 seconds, up to a maximum of 30%": {
+    "zh": "你在过去 8 秒内施放的每个非立即施放法术都使攻击伤害总增 10%，最多 30%",
+    "kind": "passive-stat",
+    "node_id": "19417",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Gain Added Spell Damage equal to the Damage of your Main Hand Weapon)": {
+    "zh": "（获得等于你主手武器伤害的附加法术伤害）",
+    "kind": "passive-reminder",
+    "node_id": "19417",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Poison you inflict with Critical Strikes deals 20% more Damage": {
+    "zh": "你暴击造成的中毒伤害总增 20%",
+    "kind": "passive-stat",
+    "node_id": "19598",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "5% increased Poison Duration for each Poison you have inflicted Recently, up\nto a maximum of 100%": {
+    "zh": "近期内你施加的每层中毒效果都使中毒持续时间延长 5%，最多可延长 100%",
+    "kind": "passive-stat",
+    "node_id": "19598",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Recover 0.5% of Life per Poison affecting Enemies you Kill": {
+    "zh": "你击败的敌人身上每层中毒效果，使你回复 0.5% 生命",
+    "kind": "passive-stat",
+    "node_id": "19598",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Grants Level 20 Summon Elemental Relic": {
+    "zh": "获得 20 级的召唤元素遗物技能",
+    "kind": "passive-stat",
+    "node_id": "19641",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "25% chance to Trigger Level 20 Summon Elemental Relic when you or Allies within 6 metres Kill an Enemy, or Hit a Rare or Unique Enemy": {
+    "zh": "你或 6 米范围内的友军击败敌人时，或击中稀有或传奇敌人时，有 25% 的几率触发 20 级的召唤元素遗物",
+    "kind": "passive-stat",
+    "node_id": "19641",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "-6 Maximum Life per Level": {
+    "zh": "每级 -6 最大生命",
+    "kind": "passive-stat",
+    "node_id": "20931",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "100% more Critical Strike Chance against Enemies that are not on Low Life": {
+    "zh": "对非低血状态敌人的暴击率总增 100%",
+    "kind": "passive-stat",
+    "node_id": "21264",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "+100% to Critical Strike Multiplier against Enemies that are on Low Life": {
+    "zh": "对低血状态敌人的暴击伤害加成 +100%",
+    "kind": "passive-stat",
+    "node_id": "21264",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "4% increased Attack and Cast Speed for each corpse Consumed Recently, up to a maximum of 200%": {
+    "zh": "近期内每消耗一具灵柩，都使攻击和施法速度加快 4%，最多 200%",
+    "kind": "passive-stat",
+    "node_id": "23572",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Enemies near corpses you Spawned Recently are Chilled and Shocked": {
+    "zh": "敌人若位于你近期所生成的灵柩周围，则使其受到冰缓和感电",
+    "kind": "passive-stat",
+    "node_id": "23572",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Killing an Enemy is not Spawning a corpse)": {
+    "zh": "（击败敌人不会唤起灵柩）",
+    "kind": "passive-reminder",
+    "node_id": "23572",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Shock increases Damage taken by 15%)": {
+    "zh": "（感电使敌人受到的伤害提高 15%）",
+    "kind": "passive-reminder",
+    "node_id": "23572",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Every Rage also grants 1% increased Attack Speed": {
+    "zh": "每一点怒火还会使攻击速度加快 1%",
+    "kind": "passive-stat",
+    "node_id": "24528",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Inherent Rage Loss starts 2 seconds later": {
+    "zh": "固有的怒火损失延迟 2 秒开始",
+    "kind": "passive-stat",
+    "node_id": "24528",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Gain 1 Gale Force when you use a Skill\n10% increased Effect of Tailwind on you per Gale Force": {
+    "zh": "你使用技能时获得 1 个飓风之力\n每个飓风之力使你身上的提速尾流效果提高 10%",
+    "kind": "passive-stat",
+    "node_id": "24848",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You and nearby Allies have Tailwind": {
+    "zh": "你和周围友军具有提速尾流效果",
+    "kind": "passive-stat",
+    "node_id": "24848",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Each instance of Gale Force lasts 4 seconds. Maximum 10 Gale Force)": {
+    "zh": "（每个飓风之力都持续 4 秒。最多 10 个飓风之力）",
+    "kind": "passive-reminder",
+    "node_id": "24848",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Tailwind increases Action Speed by 8%)": {
+    "zh": "（提速尾流使行动速度加快 8%）",
+    "kind": "passive-reminder",
+    "node_id": "24848",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "15% more Chaos Damage": {
+    "zh": "总混沌伤害总增 15%",
+    "kind": "passive-stat",
+    "node_id": "25309",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Every second, inflict Withered on Enemies within 6 metres for 15 seconds": {
+    "zh": "每秒对 6 米范围内的敌人施加死亡凋零，持续 15 秒",
+    "kind": "passive-stat",
+    "node_id": "25309",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Nearby Hindered Enemies deal 15% reduced Damage over Time": {
+    "zh": "周围被干扰的敌人的持续伤害降低 15%",
+    "kind": "passive-stat",
+    "node_id": "25309",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You can have 2 additional Tinctures active": {
+    "zh": "你可以额外激活 2 个酊剂",
+    "kind": "passive-stat",
+    "node_id": "25795",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Mana Burn causes you to lose 1% of your maximum Mana per stack per second)": {
+    "zh": "（魔力燃烧每层使你每秒失去 1% 的最大魔力）",
+    "kind": "passive-reminder",
+    "node_id": "25795",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Hits always Shock": {
+    "zh": "你的击中始终具有感电效果",
+    "kind": "passive-stat",
+    "node_id": "27038",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Shocks from your Hits always increase Damage taken by at least 25%": {
+    "zh": "你击中造成的感电效果始终使受到的伤害提高至少 25%",
+    "kind": "passive-stat",
+    "node_id": "27038",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "All Damage can Shock": {
+    "zh": "所有伤害均可感电",
+    "kind": "passive-stat",
+    "node_id": "27038",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Gain an Endurance Charge when you Stun an Enemy with a Melee Hit": {
+    "zh": "近战击中晕眩敌人时获得一个耐力球",
+    "kind": "passive-stat",
+    "node_id": "27054",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Raised Beast Spectres have Farrul's Farric Presence": {
+    "zh": "复苏的野兽灵体拥有法瑞尔的法里克之灵",
+    "kind": "passive-stat",
+    "node_id": "27121",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Farrul's Farric Presence is an Aura which grants 80% increased Accuracy Rating, 120% increased Critical Strike Chance and Take no Extra Damage from Critical Hits)": {
+    "zh": "（法瑞尔的法里克之灵是一种光环，使命中值提高 80%，暴击几率提高 120%，并且不会受到暴击的额外伤害）",
+    "kind": "passive-reminder",
+    "node_id": "27121",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Your Hits permanently Intimidate Enemies that are on Full Life": {
+    "zh": "击中满血敌人时，将使他们永久受到威吓",
+    "kind": "passive-stat",
+    "node_id": "27604",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Gain Adrenaline for 20 seconds when you reach Low Life": {
+    "zh": "进入低血状态时获得肾上腺素，持续 20 秒",
+    "kind": "passive-stat",
+    "node_id": "27604",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Recover 25% of Life when you gain Adrenaline": {
+    "zh": "当你获得肾上腺素时回复 25% 生命",
+    "kind": "passive-stat",
+    "node_id": "27604",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Remove all Ailments and Burning when you gain Adrenaline": {
+    "zh": "你获得肾上腺素时移除所有异常状态和燃烧状态",
+    "kind": "passive-stat",
+    "node_id": "27604",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Adrenaline grants 100% increased Damage, 25% increased Attack, Cast and Movement Speed and 10% additional Physical Damage Reduction. You cannot gain Adrenaline if you already have it)": {
+    "zh": "（肾上腺素会增加100%伤害，提高25%攻击速度、施法速度和移动速度，并且获得10%额外物理伤害减免。如果你已经有肾上腺素就不能再获得肾上腺素。）",
+    "kind": "passive-reminder",
+    "node_id": "27604",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Profane Ground you create inflicts Malediction on Enemies": {
+    "zh": "你产生的渎神地面会对敌人施加恶语术",
+    "kind": "passive-stat",
+    "node_id": "27869",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Profane Ground you create also affects you and your Allies, granting Chaotic Might": {
+    "zh": "你创造的亵渎地面也会影响你和友军，赋予混沌之力",
+    "kind": "passive-stat",
+    "node_id": "27869",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Hits against Enemies on Profane Ground have 100% increased Critical Strike Chance, and Curses have 10% increased Effect on them)": {
+    "zh": "（击中对渎神地面上的敌人的暴击几率提高 100%，诅咒对其的效果提高 10%）",
+    "kind": "passive-reminder",
+    "node_id": "27869",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Chaotic Might grants 30% of Physical Damage as extra Chaos Damage)": {
+    "zh": "（混沌之力使你获得等同于物理伤害 30% 的额外混沌伤害）",
+    "kind": "passive-reminder",
+    "node_id": "27869",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Triggers Level 20 Summon Triggerbots when Allocated": {
+    "zh": "分配时触发 20 级召唤触发机器人",
+    "kind": "passive-stat",
+    "node_id": "28535",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "30% less Damage with Triggered Spells": {
+    "zh": "触发的法术的伤害总降 30%",
+    "kind": "passive-stat",
+    "node_id": "28535",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "100% increased Elusive Effect": {
+    "zh": "灵巧效果提高 100%",
+    "kind": "passive-stat",
+    "node_id": "28782",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Every 10 seconds:\nTake 50% less Damage from Hits for 5 seconds\nTake 75% less Damage over Time for 5 seconds": {
+    "zh": "每 10 秒：\n受到的击中伤害总降 50%，持续 5 秒\n受到的持续伤害总降 75%，持续 5 秒",
+    "kind": "passive-stat",
+    "node_id": "28884",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "(These are consecutive)": {
+    "zh": "(这些都是连续的)",
+    "kind": "passive-reminder",
+    "node_id": "28884",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "40% of Physical Damage taken Recouped as Life": {
+    "zh": "将受到的物理伤害的 40% 吸纳为生命",
+    "kind": "passive-stat",
+    "node_id": "29844",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "While affected by Glorious Madness, inflict Mania on Enemies within 6 metres every second": {
+    "zh": "受到疯狂荣光影响时，每秒对 6 米范围内的敌方施加狂躁",
+    "kind": "passive-stat",
+    "node_id": "30061",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Mania applies 4% increased Damage taken, 2% reduced Action Speed and 10% reduced Life and Energy Shield Recovery Rate for 15 seconds, and can be inflicted up to 15 times)": {
+    "zh": "（狂躁状态在 15 秒内会使目标承受的伤害提高4%，行动速度降低 2% ，生命与能量护盾回复速度降低 10% 。该效果最多可叠加 15 次。）",
+    "kind": "passive-reminder",
+    "node_id": "30061",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "25% increased Reservation Efficiency of Skills": {
+    "zh": "技能的保留效能提高 25%",
+    "kind": "passive-stat",
+    "node_id": "30919",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Every 4 seconds, Regenerate 50% of Life over one second": {
+    "zh": "每隔 4 秒便在一秒内再生 50% 生命",
+    "kind": "passive-stat",
+    "node_id": "30919",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "If you've Attacked Recently, you and Allies within 6 metres have +10% Chance to Block Attack Damage": {
+    "zh": "若你近期内有进行攻击，你和 6 米范围内友军的格挡攻击伤害几率 +10%",
+    "kind": "passive-stat",
+    "node_id": "30919",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "If you've Cast a Spell Recently, you and Allies within 6 metres have +10% Chance to Block Spell Damage": {
+    "zh": "若你近期内有施放法术，你和 6 米范围内友军的格挡法术伤害几率 +10%",
+    "kind": "passive-stat",
+    "node_id": "30919",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(You can only take one of the three Templar Ascendancy passives)": {
+    "zh": "( 你只能在圣堂武僧的三个升华职业中选择一个 )",
+    "kind": "passive-reminder",
+    "node_id": "30919",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Increases and Reductions to Light Radius also apply to Effect of\nyour Link Skill Buffs on your Mercenary at 50% of their value": {
+    "zh": "照亮范围的提高和降低也以其数值的 50% 作用于\n你的链接技能对佣兵施加的增益效果",
+    "kind": "passive-stat",
+    "node_id": "31517",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Allies within 6 metres count as having Fortification equal to yours": {
+    "zh": "6 米范围内的友军视作拥有与你相等的护体",
+    "kind": "passive-stat",
+    "node_id": "31700",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You have your maximum Fortification": {
+    "zh": "你具有最大护体层数",
+    "kind": "passive-stat",
+    "node_id": "31700",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Take 1% less Damage from Hits per Fortification. Maximum 20 Fortification)": {
+    "zh": "（受到的击中伤害按照每层护体效果总降 1%。最多 20 层护体）",
+    "kind": "passive-reminder",
+    "node_id": "31700",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Maximum number of Raised Spectres is 1": {
+    "zh": "复苏的灵体最大数量为 1",
+    "kind": "passive-stat",
+    "node_id": "31878",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Elusive has 50% chance to be removed from you at 100% effect": {
+    "zh": "灵巧效果降低到 100% 时，有 50% 几率从你身上移除",
+    "kind": "passive-stat",
+    "node_id": "32216",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "50% increased Effect of your Marks while Elusive": {
+    "zh": "拥有灵巧时，你施加的印记效果提高 50%",
+    "kind": "passive-stat",
+    "node_id": "32216",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Consecrated Ground you create causes Life Regeneration to\nalso Recover Energy Shield for you and Allies": {
+    "zh": "你产生的奉献地面使你和友军再生生命的同时回复能量护盾",
+    "kind": "passive-stat",
+    "node_id": "32816",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(The effects of the ground still apply to you, allies or enemies after leaving its area)": {
+    "zh": "（离开此区域，地面的效果也会附加于你、友军或敌人）",
+    "kind": "passive-reminder",
+    "node_id": "32816",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Hits that would Ignite instead Scorch": {
+    "zh": "击中造成的点燃改为造成烧灼",
+    "kind": "passive-stat",
+    "node_id": "33645",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You can inflict an additional Scorch on each Enemy": {
+    "zh": "你可以对敌人额外施加一层烧灼",
+    "kind": "passive-stat",
+    "node_id": "33645",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Grants Level 20 Misty Reflection": {
+    "zh": "获得 20 级的迷雾映像技能",
+    "kind": "passive-stat",
+    "node_id": "33670",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "20% of Overkill Damage is Leeched as Life": {
+    "zh": "溢出伤害的 20% 转为生命偷取",
+    "kind": "passive-stat",
+    "node_id": "34484",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "20% increased Attack Speed while Leeching": {
+    "zh": "生命偷取时攻击速度加快 20%",
+    "kind": "passive-stat",
+    "node_id": "34484",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Overkill Damage is any Damage from a Hit in excess of the Enemy's remaining Life)": {
+    "zh": "(溢出伤害是造成的伤害超出怪物剩余生命的部分)",
+    "kind": "passive-reminder",
+    "node_id": "34484",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Gain a Frenzy Charge every 3 seconds while Moving": {
+    "zh": "移动时每 3 秒获得一个狂怒球",
+    "kind": "passive-stat",
+    "node_id": "34567",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Skills fire an additional Projectile": {
+    "zh": "技能额外发射一个投射物",
+    "kind": "passive-stat",
+    "node_id": "34567",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Flasks adjacent to active Tinctures gain 3 charges when you Hit an\nEnemy with a Melee Weapon, no more than once every second": {
+    "zh": "用近战武器击中敌人时，与激活酊剂\n邻接的药水获得 3 层充能，每秒最多触发一次",
+    "kind": "passive-stat",
+    "node_id": "34637",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Flasks adjacent to applied Tincture have 30% increased Effect when\nused if you've Hit an enemy with a Weapon Recently": {
+    "zh": "若近期用武器击中过敌人，与生效酊剂邻接的药水效果提高 30%",
+    "kind": "passive-stat",
+    "node_id": "34637",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Deal 1% more Damage with Hits and Ailments to Rare and Unique Enemies for every 2 seconds they've ever been in your Presence, up to a maximum of 50%": {
+    "zh": "稀有和传奇怪物每在场 2 秒，对其造成的击中和异常状态伤害总增 1%，最多 50%",
+    "kind": "passive-stat",
+    "node_id": "34774",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(You can only take one of the three Duelist Ascendancy passives)": {
+    "zh": "( 你只能在决斗者的三个升华职业中选择一个 )",
+    "kind": "passive-reminder",
+    "node_id": "34774",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "10% chance to Avoid non-Damaging Ailments on you per Bark below maximum": {
+    "zh": "低于上限的每层树皮御体使你有 10% 的几率避免非伤害异常状态",
+    "kind": "passive-stat",
+    "node_id": "34814",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "10% reduced Duration of Damaging Ailments on you per Bark": {
+    "zh": "每层树皮御体使你受到的伤害异常状态持续时间缩短 10%",
+    "kind": "passive-stat",
+    "node_id": "34814",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Trigger Level 20 Summon Spectral Tiger on Critical Strike": {
+    "zh": "暴击时触发 20 级召唤幻影猛虎",
+    "kind": "passive-stat",
+    "node_id": "35011",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Summons a spectral tiger companion that attacks nearby enemies and dies after a duration. Each spectral tiger grants you a buff that increases Critical Strike Chance, and increases Attack and Cast Speed. If you have the maximum number of them, refreshes the duration and life of an existing one instead)": {
+    "zh": "（召唤一头幽虎同伴攻击周围的敌人，持续一段时间后消失。每头幽虎都会给你提供增益效果，可以增加暴击几率，并提升攻击和施法速度。达到召唤上限时使用会刷新其中一头幽虎的生命和持续时间。）",
+    "kind": "passive-reminder",
+    "node_id": "35011",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "While you have at least 3 Ghastly Eye Jewels socketed:": {
+    "zh": "当你插上至少 3 颗苍白之凝珠宝时：",
+    "kind": "passive-stat",
+    "node_id": "35380",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Unholy Might you grant also causes target's Damage to Penetrate 10% Chaos Resistance": {
+    "zh": "你赋予的不洁之力也使目标的伤害穿透 10% 混沌抗性",
+    "kind": "passive-stat",
+    "node_id": "35380",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Unholy Might you grant also applies 20% Increased Effect of Withered": {
+    "zh": "你赋予的不洁之力也使死亡凋零效果提高 20%",
+    "kind": "passive-stat",
+    "node_id": "35380",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "20% increased maximum Life, Mana and Global Energy Shield": {
+    "zh": "最大生命和最大魔力，以及全局能量护盾提高 20%",
+    "kind": "passive-stat",
+    "node_id": "35448",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Auras from your Skills grant 3% increased Attack and Cast\nSpeed to you and Allies": {
+    "zh": "你技能的光环可使你和周围友军的攻击和施法\n速度加快 3%",
+    "kind": "passive-stat",
+    "node_id": "36017",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You and Allies within 6 metres deal 30% increased Damage": {
+    "zh": "你和 6 米范围内的友军造成的伤害提高 30%",
+    "kind": "passive-stat",
+    "node_id": "36017",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You and Allies within 6 metres have +30% to Elemental Resistances": {
+    "zh": "你和 6 米范围内友军的元素抗性 +30%",
+    "kind": "passive-stat",
+    "node_id": "36017",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Grants Level 30 Lightning Bolt": {
+    "zh": "获得 30 级的雷霆万钧技能",
+    "kind": "passive-stat",
+    "node_id": "36072",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "(Overcapped Resistance is the amount by whch Uncapped Resistance is higher than Maximum Resistance)": {
+    "zh": "（当无上限抗性超过抗性上限时，其数值称为超量抗性）",
+    "kind": "passive-reminder",
+    "node_id": "36072",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Uncapped Resistance is the value Resistance would have if ignoring Maximum Resistance)": {
+    "zh": "(绝对抗性指假设无视抗性上限时的抗性数值)",
+    "kind": "passive-reminder",
+    "node_id": "36072",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "50% increased Projectile Speed while you have an active Tincture": {
+    "zh": "有激活的酊剂时，投射物速度提高 50%",
+    "kind": "passive-stat",
+    "node_id": "36958",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Raised Beast Spectres have Farrul's Wild Presence": {
+    "zh": "复苏的野兽灵体拥有法瑞尔的狂野之灵",
+    "kind": "passive-stat",
+    "node_id": "37670",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Farrul's Wild Presence is an Aura which grants 20% increased Attack, Cast and Movement Speed and prevents Action Speed from being lowered below the Base Value)": {
+    "zh": "（法瑞尔的狂野之灵为光环效果，攻击、施法和移动速度提升 20% ，并防止行动速度被降至基础值以下。）",
+    "kind": "passive-reminder",
+    "node_id": "37670",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "5% increased Area of Effect per Enemy killed recently, up to 50%": {
+    "zh": "近期每击败一个敌人，效果区域扩大 5%，最多 50%",
+    "kind": "passive-stat",
+    "node_id": "38180",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Deal up to 15% more Melee Damage to Enemies, based on proximity": {
+    "zh": "基于距离对敌人的总近战伤害最多总增 15%",
+    "kind": "passive-stat",
+    "node_id": "38180",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "50% increased Accuracy Rating": {
+    "zh": "命中值提高 50%",
+    "kind": "passive-stat",
+    "node_id": "38180",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "14% increased Brand Damage": {
+    "zh": "烙印伤害提高 14%",
+    "kind": "passive-stat",
+    "node_id": "38387",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Melee Hits have 50% chance to Fortify": {
+    "zh": "近战击中有 50% 的几率提供护体状态",
+    "kind": "passive-stat",
+    "node_id": "39598",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Taunt on Hit": {
+    "zh": "击中时嘲讽敌人",
+    "kind": "passive-stat",
+    "node_id": "39598",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "15% increased effect of Non-Curse Auras from your Skills": {
+    "zh": "你技能的非诅咒类光环效果提高 15%",
+    "kind": "passive-stat",
+    "node_id": "39598",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Take 1% less Damage from Hits per Fortification. Maximum 20 Fortification. Fortification lasts 6 seconds)": {
+    "zh": "（受到的击中伤害按照每层护体效果总降1%。最多20层护体。护身持续6秒）",
+    "kind": "passive-reminder",
+    "node_id": "39598",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "If you've Attacked Recently, you and Allies within 6 metres have +25% Chance to Block Attack Damage": {
+    "zh": "若你近期内有进行攻击，你和 6 米范围内友军的格挡攻击伤害几率 +25%",
+    "kind": "passive-stat",
+    "node_id": "39728",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "If you've Cast a Spell Recently, you and Allies within 6 metres have +25% Chance to Block Spell Damage": {
+    "zh": "若你近期内有施放法术，你和 6 米范围内友军的格挡法术伤害几率 +25%",
+    "kind": "passive-stat",
+    "node_id": "39728",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Consecrated Ground you create applies 15% increased Damage taken to Enemies": {
+    "zh": "你创造的奉献地面可以使敌人受到的伤害提高 15%",
+    "kind": "passive-stat",
+    "node_id": "39790",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Allies on your Consecrated Ground Regenerate a percentage of their Maximum Life per second, and Curses have 50% reduced effect on them)": {
+    "zh": "（友军在你产生的奉献地面上按照生命上限百分比每秒再生生命，并且他们身上的诅咒效果降低 50%）",
+    "kind": "passive-reminder",
+    "node_id": "39790",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "150% increased Effect of Auras from Mines": {
+    "zh": "地雷的光环效果提高 150%",
+    "kind": "passive-stat",
+    "node_id": "39834",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Mines Hinder Enemies within 3 metres for 2 seconds when they Land": {
+    "zh": "地雷落地时使 3 米范围内的敌人缓速 2 秒",
+    "kind": "passive-stat",
+    "node_id": "39834",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Hinder reduces movement speed by 30%)": {
+    "zh": "(缓速使移动速度降低 30%)",
+    "kind": "passive-reminder",
+    "node_id": "39834",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Nearby Enemies take 16% increased Elemental Damage": {
+    "zh": "周围敌人受到的元素伤害提高 16%",
+    "kind": "passive-stat",
+    "node_id": "40059",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Nearby Enemies deal 8% less Elemental Damage": {
+    "zh": "周围敌人造成的元素伤害总降 8%",
+    "kind": "passive-stat",
+    "node_id": "40059",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Tincture Effects Linger on you for 0.5 seconds per Mana Burn on you when the Tincture was deactivated, up to a maximum of 6 seconds": {
+    "zh": "酊剂失效后，每层魔力燃烧使其效果在你身上持续 0.5 秒，最多 6 秒",
+    "kind": "passive-stat",
+    "node_id": "40104",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Tinctures applied to you have 50% less Mana Burn rate": {
+    "zh": "对你生效的酊剂的魔力燃烧速度总降 50%",
+    "kind": "passive-stat",
+    "node_id": "40104",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Tinctures periodically inflict Mana Burn on you while active)": {
+    "zh": "（酊剂激活时会周期性地对你造成魔力燃烧）",
+    "kind": "passive-reminder",
+    "node_id": "40104",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Arcane Surge also grants 20% more Spell Damage to you": {
+    "zh": "秘术增强也会使你的法术伤害总增 20%",
+    "kind": "passive-stat",
+    "node_id": "40510",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Your Chills can reduce Action Speed by up to a maximum of 40%": {
+    "zh": "你的冰缓效果可以降低行动速度，最多降低 40%",
+    "kind": "passive-stat",
+    "node_id": "40810",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Chill reduces Enemy Action Speed by up to 30%, depending on the amount of Cold Damage in the hit, for 2 seconds)": {
+    "zh": "(取决于造成的冰霜伤害量, 冰缓能至多使敌人减速30%并持续2秒)",
+    "kind": "passive-reminder",
+    "node_id": "40810",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "50% increased Effect of Withered": {
+    "zh": "死亡凋零效果提高 50%",
+    "kind": "passive-stat",
+    "node_id": "40813",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "15% increased Defences": {
+    "zh": "防御提高 15%",
+    "kind": "passive-stat",
+    "node_id": "41464",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Prevent +20% of Suppressed Spell Damage while on Full Energy Shield": {
+    "zh": "能量护盾全满状态下防止+20%的被压制法术伤害",
+    "kind": "passive-stat",
+    "node_id": "41891",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "50% chance for Energy Shield Recharge to start when you Suppress Spell Damage": {
+    "zh": "你在压制法术伤害时，有50%几率给能量护盾充能",
+    "kind": "passive-stat",
+    "node_id": "41891",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Arcane Surge also grants 10% more Spell Damage to you": {
+    "zh": "秘术增强也会使你的法术伤害总增 10%",
+    "kind": "passive-stat",
+    "node_id": "42144",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "+0.75% to Critical Strike Chance": {
+    "zh": "暴击几率提高 +0.75%",
+    "kind": "passive-stat",
+    "node_id": "43122",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "10% chance to gain Elusive on Critical Strike": {
+    "zh": "暴击时有 10% 的几率获得灵巧",
+    "kind": "passive-stat",
+    "node_id": "43122",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "30% increased Area of Effect if you've Killed Recently": {
+    "zh": "若你近期内有击败敌人，则效果区域扩大 30%",
+    "kind": "passive-stat",
+    "node_id": "43195",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "10% increased Elusive Effect": {
+    "zh": "灵巧效果提高 10%",
+    "kind": "passive-stat",
+    "node_id": "43215",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Damage Penetrates 8% of Enemy Elemental Resistances": {
+    "zh": "伤害穿透敌人 8% 的元素抗性",
+    "kind": "passive-stat",
+    "node_id": "43962",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "10% chance to create Consecrated Ground when you Hit a Rare or Unique Enemy, lasting 8 seconds": {
+    "zh": "你击中稀有或传奇敌人时，有 10% 的几率创造奉献地面，持续 8 秒",
+    "kind": "passive-stat",
+    "node_id": "43962",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Nearby Enemies take 10% increased Elemental Damage": {
+    "zh": "周围敌人受到的元素伤害提高 10%",
+    "kind": "passive-stat",
+    "node_id": "43962",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Gain a Frenzy Charge each second while Moving": {
+    "zh": "移动时每秒获得一个狂怒球",
+    "kind": "passive-stat",
+    "node_id": "44482",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Utility Flasks are Disabled": {
+    "zh": "功能药剂被禁用",
+    "kind": "passive-stat",
+    "node_id": "44903",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Grants Level 20 Summon Dark Effigy": {
+    "zh": "获得 20 级的召唤黑暗雕像技能",
+    "kind": "passive-stat",
+    "node_id": "45727",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "You can hire a Mercenary permanently": {
+    "zh": "你可以永久雇佣一名佣兵",
+    "kind": "passive-stat",
+    "node_id": "46479",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(While you have this passive allocated, you will have the option to permanently hire Mercenaries found in the wild. Permanently hired Mercenaries and their Minions deal less Damage than temporarily hired Mercenaries, but you can change what gear they have equipped. Passives that affect your Mercenary do not affect temporarily hired Mercenaries. Permanently hired Mercenaries will only follow Luminaries with this passive allocated)": {
+    "zh": "（当你分配此天赋后，你将可以选择永久雇佣在野外遭遇的佣兵。永久雇佣的佣兵及其召唤生物造成的伤害低于临时佣兵，但你可以更换他们的装备。影响佣兵的天赋不会影响临时佣兵。永久佣兵只会跟随分配了此天赋的光明使者）",
+    "kind": "passive-reminder",
+    "node_id": "46479",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Unaffected by Bleeding": {
+    "zh": "不受流血影响",
+    "kind": "passive-stat",
+    "node_id": "46649",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Can't use Belts": {
+    "zh": "无法使用腰带",
+    "kind": "passive-stat",
+    "node_id": "46649",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "15% more Cold Damage": {
+    "zh": "总冰霜伤害总增 15%",
+    "kind": "passive-stat",
+    "node_id": "47630",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Every 4 seconds, 50% chance to Freeze Non-Frozen Enemies within 6 metres for 0.4 seconds": {
+    "zh": "每 4 秒有 50% 的几率冻结 6 米范围内未被冻结的敌人，并使其持续冻结 0.4 秒",
+    "kind": "passive-stat",
+    "node_id": "47630",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Nearby Chilled Enemies deal 10% reduced Damage with Hits": {
+    "zh": "周围被冰缓敌人打出的击中伤害降低 10%",
+    "kind": "passive-stat",
+    "node_id": "47630",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Critical Strikes ignore Enemy Monster Elemental Resistances": {
+    "zh": "造成暴击时无视目标的元素抗性",
+    "kind": "passive-stat",
+    "node_id": "48214",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Non-Critical Strikes Penetrate 10% of Enemy Elemental Resistances": {
+    "zh": "非暴击伤害穿透敌人 10% 的元素抗性",
+    "kind": "passive-stat",
+    "node_id": "48214",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Grants Level 30 Assassin's Mark": {
+    "zh": "获得 30 级的刺客印记技能",
+    "kind": "passive-stat",
+    "node_id": "48239",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Trigger Level 30 Assassin's Mark on Attack Critical Strike against\na Rare or Unique Enemy and you have no Mark": {
+    "zh": "当你没有咒印且对稀有或传奇敌人造成攻击暴击时\n触发 30 级刺客印记",
+    "kind": "passive-stat",
+    "node_id": "48239",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Mark Skills Cost no Mana": {
+    "zh": "咒印技能不消耗魔力",
+    "kind": "passive-stat",
+    "node_id": "48239",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "10% increased Effect of your Marks per maximum Power Charge": {
+    "zh": "每个最大暴击球使你的印记效果提高 10%",
+    "kind": "passive-stat",
+    "node_id": "48239",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "3% of Leech is Instant per maximum Power Charge": {
+    "zh": "每个最大暴击球使 3% 的偷取立即生效",
+    "kind": "passive-stat",
+    "node_id": "48239",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Modifiers to Fire Resistance also apply to Cold and Lightning Resistances at 50% of their Value": {
+    "zh": "火焰抗性修正的 50% 也作用于冰霜和闪电抗性",
+    "kind": "passive-stat",
+    "node_id": "48480",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "30% faster Restoration of Ward per Enemy Hit taken Recently": {
+    "zh": "近期每次被敌人击中，结界回复速度加快 30%",
+    "kind": "passive-stat",
+    "node_id": "48816",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Energy Shield Leech effects are not removed when Energy Shield is Filled": {
+    "zh": "能量护盾充满时，能量护盾偷取效果不会被移除",
+    "kind": "passive-stat",
+    "node_id": "48999",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Non-Unique Jewels cause Increases and Reductions to other Damage Types in a Large Radius to be Transformed to apply to Fire Damage": {
+    "zh": "非传奇珠宝使大范围内其他伤害类型的提高和降低转换为作用于火焰伤害",
+    "kind": "passive-stat",
+    "node_id": "50692",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Non-Unique Jewels cause Small and Notable Passive Skills in a Large Radius to\nalso grant +4 to Strength": {
+    "zh": "非传奇珠宝使大范围内的小型和核心天赋\n同时提供 +4 力量",
+    "kind": "passive-stat",
+    "node_id": "50692",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Passive Skills that are not Notable, Masteries, Keystones, or Jewel Sockets are Small)": {
+    "zh": "（小天赋指天赋树上所有非核心天赋、非专精天赋、非基石天赋，以及非珠宝插槽）",
+    "kind": "passive-reminder",
+    "node_id": "50692",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Triggers Drowning Domain when Allocated": {
+    "zh": "配置时触发溺亡领域",
+    "kind": "passive-stat",
+    "node_id": "51685",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(30% of Damage over Time taken by Enemies within the Drowning Domain is inflicted as Brine Rot. Enemies lose life equal to stored Brine Rot when they leave the Drowning Domain)": {
+    "zh": "（处于溺水光环内的敌人，其承受的持续伤害中有 30% 会转化为海蚀腐化。当敌人离开溺水光环时，会失去等同于所积累海蚀腐化的生命值）",
+    "kind": "passive-reminder",
+    "node_id": "51685",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Take 40% less Damage from Hits": {
+    "zh": "受到的击中伤害总降 40%",
+    "kind": "passive-stat",
+    "node_id": "52408",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Four seconds after each Hit you take, lose Life equal to 40% of the Damage taken from that Hit": {
+    "zh": "每次你被击中后的四秒，损失生命，数值等于该次击中伤害的 40%",
+    "kind": "passive-stat",
+    "node_id": "52408",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Non-Cluster, Non-Passage, Non-Mycelium Jewels Socketed in your Passive Skill Tree have no effect": {
+    "zh": "镶嵌在天赋树中的非星团、非通道、非菌丝珠宝没有效果",
+    "kind": "passive-stat",
+    "node_id": "52408",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Grants Level 20 Affliction": {
+    "zh": "获得 20 级的苦痛技能",
+    "kind": "passive-stat",
+    "node_id": "52417",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "25% more Accuracy Rating while wielding a Sword": {
+    "zh": "装备剑类武器时，命中值总增 25%",
+    "kind": "passive-stat",
+    "node_id": "52575",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "20% more Area of Effect while wielding a Mace or Sceptre": {
+    "zh": "装备锤或短杖时，效果范围总增 20%",
+    "kind": "passive-stat",
+    "node_id": "52575",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "20% more Critical Strike Chance while wielding a Dagger": {
+    "zh": "装备匕首时，暴击几率总增 20%",
+    "kind": "passive-stat",
+    "node_id": "52575",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "20% of Leech is Instant while wielding a Claw": {
+    "zh": "装备爪类武器时，20% 的偷取立即生效",
+    "kind": "passive-stat",
+    "node_id": "52575",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "30% more Damage with Hits and Ailments against Enemies that are on Low Life while you are wielding an Axe": {
+    "zh": "装备斧类武器时，对低血敌人造成的击中和异常状态伤害总增 30%",
+    "kind": "passive-stat",
+    "node_id": "52575",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Rune Daggers are considered Daggers)": {
+    "zh": "（符文匕首视为匕首）",
+    "kind": "passive-reminder",
+    "node_id": "52575",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You gain Added Cold Damage instead of Added Damage of other types if Dexterity exceeds both other Attributes": {
+    "zh": "如果敏捷高于其他两项属性，你获得的附加其他类型伤害将转为获得附加冰霜伤害",
+    "kind": "passive-stat",
+    "node_id": "52855",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You gain Added Lightning Damage instead of Added Damage of other types if Intelligence exceeds both other Attributes": {
+    "zh": "如果智力高于其他两项属性，你获得的附加其他类型伤害将转为获得附加闪电伤害",
+    "kind": "passive-stat",
+    "node_id": "52855",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Elemental Hit's Added Damage cannot be replaced this way": {
+    "zh": "元素打击的附加伤害无法通过该方式被替换",
+    "kind": "passive-stat",
+    "node_id": "52855",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Local Modifiers on Weapons that add damage to that Weapon do not grant you Added Damage, so are unchanged by this)": {
+    "zh": "（武器上增加该武器伤害的局部词缀，并不会为你提供附加伤害，因此不受此影响。）",
+    "kind": "passive-reminder",
+    "node_id": "52855",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Hits always Ignite": {
+    "zh": "你的击中始终具有点燃效果",
+    "kind": "passive-stat",
+    "node_id": "53123",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Enemies Ignited by you have 40% of Physical Damage they deal converted to Fire": {
+    "zh": "被你点燃的敌人将它们物理伤害的 40% 转化为火焰伤害",
+    "kind": "passive-stat",
+    "node_id": "53123",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "100% increased Effect of Non-Damaging Ailments inflicted by Summoned Skitterbots": {
+    "zh": "召唤飞掠者造成的非伤害异常状态效果提高 100%",
+    "kind": "passive-stat",
+    "node_id": "54569",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Grants Level 20 Starfall": {
+    "zh": "获得 20 级的星辰坠落技能",
+    "kind": "passive-stat",
+    "node_id": "54928",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Every 4 seconds, Regenerate 100% of Life over one second": {
+    "zh": "每 4 秒在一秒内再生 100% 生命",
+    "kind": "passive-stat",
+    "node_id": "55146",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Grants Level 20 Unbound Avatar": {
+    "zh": "获得 20 级的不羁化身技能",
+    "kind": "passive-stat",
+    "node_id": "55509",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Your Hits always inflict Freeze, Shock and Ignite while Unbound": {
+    "zh": "不羁期间，你的击中始终造成冻结、感电和点燃",
+    "kind": "passive-stat",
+    "node_id": "55509",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "100% more Elemental Damage while Unbound": {
+    "zh": "不羁期间，元素伤害总增 100%",
+    "kind": "passive-stat",
+    "node_id": "55509",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Your Mercenary Taunts on Hit": {
+    "zh": "你的佣兵击中时嘲讽",
+    "kind": "passive-stat",
+    "node_id": "56292",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Your Mercenary has 50% increased effect of Non-Curse Auras from Skills": {
+    "zh": "你的佣兵来自技能的非诅咒光环效果提高 50%",
+    "kind": "passive-stat",
+    "node_id": "56292",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "+5% to all maximum Elemental Resistances": {
+    "zh": "+5% 元素抗性上限",
+    "kind": "passive-stat",
+    "node_id": "56940",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Enemies Taunted by you take 15% increased Damage": {
+    "zh": "被你嘲讽的敌人受到的伤害提高 15%",
+    "kind": "passive-stat",
+    "node_id": "56967",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Enemies Taunted by you cannot Evade Attacks": {
+    "zh": "被你嘲讽的敌人无法闪避攻击",
+    "kind": "passive-stat",
+    "node_id": "56967",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "20% chance to Cover Rare or Unique Enemies in Ash for 10 Seconds on Hit": {
+    "zh": "击中时有 20% 的几率使稀有或传奇敌人灰烬缠身 10 秒",
+    "kind": "passive-stat",
+    "node_id": "57052",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Being Covered in Ash applies 20% less Movement Speed and 20% increased Fire Damage Taken)": {
+    "zh": "（处于灰烬缠身状态的敌人移动速度总降 20%，受到的火焰伤害额外提高 20%）",
+    "kind": "passive-reminder",
+    "node_id": "57052",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Gain Convergence when you Hit a Unique Enemy, no more than once every 8 seconds": {
+    "zh": "你击中传奇敌人时获得汇聚效果，每 8 秒触发一次",
+    "kind": "passive-stat",
+    "node_id": "57197",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "60% increased Area of Effect while you don't have Convergence": {
+    "zh": "你没有汇聚效果时，效果区域扩大 60%",
+    "kind": "passive-stat",
+    "node_id": "57197",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Convergence grants 30% more Elemental Damage and lasts 4 seconds)": {
+    "zh": "（汇聚使总元素伤害总增 30%，并持续 4 秒）",
+    "kind": "passive-reminder",
+    "node_id": "57197",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Lose 0.1% of Life per second per Rage while you are not losing Rage": {
+    "zh": "不损失怒火时，每一点怒火就会每秒失去 0.1% 生命",
+    "kind": "passive-stat",
+    "node_id": "57560",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "50% increased Rage Effect": {
+    "zh": "怒火效果提高 50%",
+    "kind": "passive-stat",
+    "node_id": "57560",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Every Rage has an inherent effect of 1% more Attack Damage, and modifiers can add extra effects to Rage)": {
+    "zh": "（每一点怒火的固有效果使攻击伤害总增 1%，词缀可以为怒火提供额外效果）",
+    "kind": "passive-reminder",
+    "node_id": "57560",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Hits have 20% chance to deal 50% more Area Damage": {
+    "zh": "击中有 20% 的几率造成总增 50% 的范围伤害",
+    "kind": "passive-stat",
+    "node_id": "58827",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "25% chance to Blind Enemies on Hit": {
+    "zh": "击中敌人后有 25% 的几率使其致盲",
+    "kind": "passive-stat",
+    "node_id": "58827",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "10% increased Effect of Lightning Ailments": {
+    "zh": "闪电异常状态效果提高 10%",
+    "kind": "passive-stat",
+    "node_id": "58998",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Non-Damaging Ailments have 50% reduced Effect on you while you have Arcane Surge": {
+    "zh": "你有秘术增强效果时，你身上的非伤害型异常状态效果降低 50%",
+    "kind": "passive-stat",
+    "node_id": "60462",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "30% increased Area of Effect while you have Arcane Surge": {
+    "zh": "拥有秘术增强时效果区域扩大 30%",
+    "kind": "passive-stat",
+    "node_id": "60462",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "0.5% of Spell Damage Leeched as Life while you have Arcane Surge": {
+    "zh": "拥有秘术增强效果时，法术伤害的 0.5% 转化为生命偷取",
+    "kind": "passive-stat",
+    "node_id": "60462",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You have Shepherd of Souls if at least 4 Corrupted Items are Equipped": {
+    "zh": "若至少装备了 4 件腐化物品，你将拥有灵魂牧者",
+    "kind": "passive-stat",
+    "node_id": "61092",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You have Everlasting Sacrifice if at least 6 Corrupted Items are Equipped": {
+    "zh": "若至少装备了 6 件腐化物品，你将拥有永恒献祭",
+    "kind": "passive-stat",
+    "node_id": "61092",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "You have Sacrifice of Blood if at least 8 Corrupted Items are Equipped": {
+    "zh": "若至少装备了 8 件腐化物品，你将拥有鲜血祭品",
+    "kind": "passive-stat",
+    "node_id": "61092",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Vaal Non-Aura Skills require 80% less Souls. Vaal Non-Aura Skills require 100% increased Souls per Vaal Skill used in the past 8 seconds)": {
+    "zh": "（非光环瓦尔技能的灵魂消耗总降 80%。你在过去 8 秒内每使用一个瓦尔技能，非光环瓦尔技能的灵魂消耗提高 100%。）",
+    "kind": "passive-reminder",
+    "node_id": "61092",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(When you reach full Energy Shield, Sacrifice all Energy Shield to gain +5% to all Maximum Resistances for 4 seconds)": {
+    "zh": "（能量护盾回满时，献祭所有能量护盾，使抗性上限在 4 秒内 +5%）",
+    "kind": "passive-reminder",
+    "node_id": "61092",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Life Recovery from Regeneration grants Blood Barrier while on Full Life. Maximum Blood Barrier is equal to 30% of your Maximum Life. Damage from Hits is taken from Blood Barrier before your Life or Energy Shield. 50% less Life Regeneration Rate)": {
+    "zh": "（满血时，来自再生的生命回复会提供鲜血屏障。鲜血屏障上限等于最大生命的 30%。击中伤害先从鲜血屏障扣除，再从生命或能量护盾扣除。生命再生速度总降 50%）",
+    "kind": "passive-reminder",
+    "node_id": "61092",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Exposure you inflict applies an extra -25% to the affected Resistance": {
+    "zh": "你施加的曝露效果会使受影响的抗性额外 -25%",
+    "kind": "passive-stat",
+    "node_id": "61259",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Regenerate 1% of Mana per second if you've inflicted Exposure Recently": {
+    "zh": "近期造成曝露使你每秒再生 1% 魔力",
+    "kind": "passive-stat",
+    "node_id": "61259",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Enemy Monsters within 6 metres have Fire Resistance against\nDamage over Time is -20% while you are Stationary": {
+    "zh": "静止时 6 米范围内的敌方怪物对\n持续伤害的火焰抗性为 -20%",
+    "kind": "passive-stat",
+    "node_id": "61355",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Gain a random Shrine buff every 10 seconds": {
+    "zh": "每 10 秒获得一个随机神龛增益",
+    "kind": "passive-stat",
+    "node_id": "61372",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(Random Shrine buffs have a base duration of 20 seconds)": {
+    "zh": "（随机神龛增益效果的基础持续时间为 20 秒）",
+    "kind": "passive-reminder",
+    "node_id": "61372",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Removes Ailments when you use a Flask": {
+    "zh": "使用药剂时移除异常状态",
+    "kind": "passive-stat",
+    "node_id": "61805",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "50% chance for Flasks you use to not consume Charges": {
+    "zh": "你使用药剂时有 50% 的几率不消耗次数",
+    "kind": "passive-stat",
+    "node_id": "61805",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "6% increased Area of Effect per Power Charge": {
+    "zh": "每个暴击球使效果区域扩大 6%",
+    "kind": "passive-stat",
+    "node_id": "62504",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "10% more Damage if you've Killed Recently": {
+    "zh": "若你近期内有击败敌人，则伤害总增 10%",
+    "kind": "passive-stat",
+    "node_id": "62817",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "20% more Damage with Hits and Ailments against Unique Enemies": {
+    "zh": "对抗传奇敌人时，击中和异常状态伤害总增 20%",
+    "kind": "passive-stat",
+    "node_id": "62817",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "50% less Flask Life Recovery rate": {
+    "zh": "药剂的生命回复速度总降 50%",
+    "kind": "passive-stat",
+    "node_id": "63293",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "direct-translation-local-semantics-reviewed"
+  },
+  "Retaliation Skills become Usable for an additional 2 seconds": {
+    "zh": "反击技能的可使用时间额外延长 2 秒",
+    "kind": "passive-stat",
+    "node_id": "63490",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "50% chance for used Retaliation Skills to remain Usable and not consume a Cooldown Use": {
+    "zh": "使用的反击技能有 50% 的几率仍可使用，并且不消耗冷却使用次数",
+    "kind": "passive-stat",
+    "node_id": "63490",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "(They will also not be put on cooldown if they remain Usable)": {
+    "zh": "（维持可用状态时，技能不会进入冷却）",
+    "kind": "passive-reminder",
+    "node_id": "63490",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "20% increased Elusive Effect": {
+    "zh": "灵巧效果提高 20%",
+    "kind": "passive-stat",
+    "node_id": "63834",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "15% increased Blind Effect": {
+    "zh": "致盲效果提高15%",
+    "kind": "passive-stat",
+    "node_id": "64842",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "While you have at least 3 Searching Eye Jewels socketed:": {
+    "zh": "当你插上至少 3 颗锐利之凝珠宝时：",
+    "kind": "passive-stat",
+    "node_id": "64963",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Targets affected by Maim you inflict cannot deal Critical Strikes": {
+    "zh": "受到你施加的残废影响的目标无法造成暴击",
+    "kind": "passive-stat",
+    "node_id": "64963",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Maim you inflict causes Hits against the target to have 20% more Critical Strike Chance": {
+    "zh": "你施加的残废使击中该目标的暴击几率总增 20%",
+    "kind": "passive-stat",
+    "node_id": "64963",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "Minions have Unholy Might": {
+    "zh": "召唤生物拥有不洁之力",
+    "kind": "passive-stat",
+    "node_id": "65153",
+    "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
+    "english_source": "tools/localization/pob-tree-en.json (3.30)",
+    "status": "paired-node-reference-clause-semantics-reviewed"
   }
 }

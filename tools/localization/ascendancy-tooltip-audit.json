@@ -1,0 +1,18 @@
+{
+  "pending":[],
+  "scope":"All 3.30 standard/Ruthless ascendancy sources, including bloodlines and inactive nodes; actual grouped-node tooltips with unsupported warnings on/off; English identity checked. No desktop interaction.",
+  "versions":{
+    "3_30":{
+      "source_lines":1868,
+      "source_nodes":565,
+      "tooltip_lines":4545,
+      "tooltip_nodes":1042
+    },
+    "3_30_ruthless":{
+      "source_lines":1769,
+      "source_nodes":565,
+      "tooltip_lines":4339,
+      "tooltip_nodes":1042
+    }
+  }
+}
