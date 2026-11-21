@@ -24537,6 +24537,7 @@ Chimerascale Boots,奇美拉鳞长靴,base-name,paired-record-local-english-numb
 Chimerascale Gauntlets,奇美拉鳞手套,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Chimerascale_Gauntlets,https://poedb.tw/us/Chimerascale_Gauntlets
 Chiming Spirit Shield,魂相魔盾,base-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/The_Eternal_Apple,https://poedb.tw/us/The_Eternal_Apple
 Chin Sol,乱矢之弦,unique-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Chin_Sol,https://poedb.tw/us/Chin_Sol
+China,国服,ui,editorial-ui,,
 Chip Away,开凿,cluster-passive-name,paired-cluster-card-local-english-numbers-checked,https://poedb.tw/cn/Chip_Away,https://poedb.tw/us/Chip_Away
 Chiropteran Procession,诡蝠加护,game-term,paired-link-target,https://poedb.tw/cn/Chiropteran_Procession,https://poedb.tw/us/Chiropteran_Procession
 Chiseled,凿光的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Runic_Crown,https://poedb.tw/us/Runic_Crown
@@ -32937,6 +32938,7 @@ Intensify,法术凝聚（辅）,gem,paired-name,https://poedb.tw/cn/Intensify_Su
 Intensify Support,法术凝聚（辅）,gem,paired-slug-name-local-english-numeric-spans-checked,https://poedb.tw/cn/Intensify_Support,https://poedb.tw/us/Intensify_Support
 Intensifying Suffusion,增幅弥散,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 Intensity,凝聚,cluster-passive-name,paired-cluster-card-local-english-numbers-checked,https://poedb.tw/cn/Intensity,https://poedb.tw/us/Intensity
+International,国际服,ui,editorial-ui,,
 Interpermeated,渗入的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_str_int,https://poedb.tw/us/Body_Armours_str_int
 Interpolated,窜改的,affix-name,paired-record-local-english-numbers-checked,https://poedb.tw/cn/Body_Armours_str_int,https://poedb.tw/us/Body_Armours_str_int
 Interrupt Avoid Ch.,打断避免几率,pob-panel,source-code-checked,src/Modules/BuildDisplayStats.lua; src/Modules/Build.lua; src/Classes/PassiveTreeView.lua,
@@ -45027,6 +45029,7 @@ Toxic Rain of Withering,凋零之毒雨,gem,paired-slug-name-local-english-numer
 Toxic Spines,剧毒棘刺,game-term,paired-link-target,https://poedb.tw/cn/Toxic_Spines,https://poedb.tw/us/Toxic_Spines
 Toxic Strikes,涂毒攻击,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5
 Toxic Vines,剧毒蔓藤,game-term,paired-link-target,https://poedb.tw/cn/Toxic_Vines,https://poedb.tw/us/Toxic_Vines
+Trade Site:,交易区服：,ui,editorial-ui,,
 Trade for these items,交易这些物品,ui-detail,source-code-checked,,
 Trader,交易工具,ui-detail,source-code-checked,,
 Tranquility,宁静,passive-name,paired-id-english-and-numbers-checked,https://poedb.tw/data/passive-skill-tree/3.30/data_cn.json?5,https://poedb.tw/data/passive-skill-tree/3.30/data_us.json?5

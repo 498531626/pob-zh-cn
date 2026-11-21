@@ -2222,6 +2222,21 @@ function TreeTabClass:FindTimelessJewel()
 	controls.searchResults = new("TimelessJewelListControl"):TimelessJewelListControl({ "BOTTOMLEFT", nil, "BOTTOMLEFT" },
 		{ edgePadding*2 + listWidth, -(buttonHeight + edgePadding * 2), listWidth, listHeight }, self.build)
 	self.tradeQueryRequests = new("TradeQueryRequests"):TradeQueryRequests()
+	local tradeRegions = {
+		{ id = "cn", label = "China", host = "https://poe.game.qq.com/", fallback = { "永久", "永久（专家）" } },
+		{ id = "global", label = "International", host = "https://www.pathofexile.com/", fallback = { "Standard", "Hardcore", "Ruthless", "Hardcore Ruthless" } },
+	}
+	local selectedTradeRegion
+	local leagueSelections = self.timelessJewelLeagueSelections or {}
+	self.timelessJewelLeagueSelections = leagueSelections
+	local function leagueCacheKey()
+		local realm = selectedTradeRegion.id == "cn" and "pc" or controls.realmSelection:GetSelValue():lower()
+		return selectedTradeRegion.id == "cn" and "cn:pc" or realm, realm
+	end
+	local function resetTradeSearch()
+		controls.searchTradeButton.lastSearch = nil
+		controls.searchTradeButton.label = "Open Trade URL"
+	end
 	controls.msg = new("LabelControl"):LabelControl(nil, { -280, 5, 0, 20 }, "")
 	controls.searchTradeButton = new("ButtonControl"):ButtonControl({ "BOTTOMRIGHT", controls.searchResults, "TOPRIGHT" }, { 0, -rowSpacing, 170, buttonHeight }, "Open Trade URL", function()
 		local seedTrades = {}
@@ -2317,8 +2332,9 @@ function TreeTabClass:FindTimelessJewel()
 			end
 		end
 
-		local url = self.tradeQueryRequests:buildUrl("https://www.pathofexile.com/trade/search",
-			controls.realmSelection:GetSelValue():lower(), controls.searchTradeLeagueSelect:GetSelValue(),
+		local _, realm = leagueCacheKey()
+		local url = self.tradeQueryRequests:buildUrl(selectedTradeRegion.host .. "trade/search",
+			realm, controls.searchTradeLeagueSelect:GetSelValue(),
 			tradeHelpers.B64GzipEncode(dkjson.encode(search)))
 		OpenURL(url)
 		Copy(url)
@@ -2337,8 +2353,10 @@ function TreeTabClass:FindTimelessJewel()
 
 	controls.searchTradeLeagueSelect = new("DropDownControl"):DropDownControl({ "RIGHT", controls.searchTradeButton, "LEFT" },
 		{ -labelSpacing, 0, 140, buttonHeight }, nil, function(idx, val)
-		self.timelessJewelLeagueSelect = val
+		leagueSelections[leagueCacheKey()] = val
+		resetTradeSearch()
 	end)
+	controls.searchTradeLeagueSelect.enableDroppedWidth = true
 	controls.searchTradeLeagueLabel = new("LabelControl"):LabelControl({ "TOPRIGHT", controls.searchTradeLeagueSelect, "TOPLEFT" },
 		{ -labelSpacing, 0, 0, labelHeight }, "^7League:")
 	-- Realm selection
@@ -2348,45 +2366,52 @@ function TreeTabClass:FindTimelessJewel()
 	controls.realmSelection = new("DropDownControl"):DropDownControl({ "BOTTOMLEFT", controls.searchTradeLeagueSelect, "TOPLEFT" },
 		{ 0, -rowSpacing, 50, buttonHeight }, self.realmList, nil)
 	local function updateLeagues()
-		local currentRealmId = controls.realmSelection:GetSelValue():lower()
-		if self.tradeLeaguesList[currentRealmId] == nil then self.tradeLeaguesList[currentRealmId] = {} end
-		local leagueList = self.tradeLeaguesList[currentRealmId]
-		if leagueList and #leagueList > 0 then
-			controls.searchTradeLeagueSelect:SetList(leagueList)
-			-- restore the last league selected
+		local cacheKey, currentRealmId = leagueCacheKey()
+		local region = selectedTradeRegion
+		local function showLeagues(leagueList)
+			-- A request for a previously selected region/platform may finish late.
+			if leagueCacheKey() ~= cacheKey then return end
+			controls.searchTradeLeagueSelect:SetList(copyTable(leagueList))
+			controls.searchTradeLeagueSelect:SetSel(1, true)
 			for i, league in ipairs(leagueList) do
-				if league == self.timelessJewelLeagueSelect then
-					controls.searchTradeLeagueSelect:SetSel(i)
+				if league == leagueSelections[cacheKey] then
+					controls.searchTradeLeagueSelect:SetSel(i, true)
 					break
 				end
 			end
+			resetTradeSearch()
+		end
+		controls.msg.label = ""
+		resetTradeSearch()
+		local leagueList = self.tradeLeaguesList[cacheKey]
+		if leagueList and #leagueList > 0 then
+			showLeagues(leagueList)
 		else
+			-- Always provide a valid league, even while loading or after an error.
+			showLeagues(region.fallback)
 			self.tradeQueryRequests:FetchLeagues(currentRealmId, function(leagues, errMsg)
 				if errMsg then
-					controls.msg.label = "^1Error fetching league list, default league will be used\n" .. errMsg .. "^7"
+					if leagueCacheKey() == cacheKey then
+						controls.msg.label = "^1Error fetching league list, default league will be used\n" .. errMsg .. "^7"
+					end
 					return
 				end
-				local tempLeagueTable = {}
+				local normal, special, permanent = {}, {}, {}
 				for _, league in ipairs(leagues) do
-					if league ~= "Standard" and league ~= "Ruthless" and league ~= "Hardcore" and league ~= "Hardcore Ruthless" then
-						if not (league:find("Hardcore") or league:find("Ruthless")) then
-							-- set the dynamic, base league name to index 1 to sync league shown in dropdown on load with default/old behavior of open trade url
-							t_insert(tempLeagueTable, league)
-							for _, val in ipairs(leagueList) do
-								t_insert(tempLeagueTable, val)
-							end
-							leagueList = copyTable(tempLeagueTable)
-							self.tradeLeaguesList[currentRealmId] = leagueList
-						else
-							t_insert(leagueList, league)
-						end
+					if league:find("永久", 1, true) or league == "Standard" or league == "Hardcore" or league == "Ruthless" or league == "Hardcore Ruthless" then
+						t_insert(permanent, league)
+					elseif league:find("Hardcore", 1, true) or league:find("Ruthless", 1, true) or league:find("专家", 1, true) or league:find("无情", 1, true) then
+						t_insert(special, league)
+					else
+						t_insert(normal, league)
 					end
 				end
-				t_insert(leagueList, "Standard")
-				t_insert(leagueList, "Hardcore")
-				t_insert(leagueList, "Ruthless")
-				t_insert(leagueList, "Hardcore Ruthless")
-				controls.searchTradeLeagueSelect:SetList(leagueList)
+				for _, list in ipairs({ special, permanent }) do
+					for _, league in ipairs(list) do t_insert(normal, league) end
+				end
+				if #normal == 0 then return end
+				self.tradeLeaguesList[cacheKey] = normal
+				showLeagues(normal)
 			end)
 		end
 	end
@@ -2395,12 +2420,22 @@ function TreeTabClass:FindTimelessJewel()
 		updateLeagues()
 	end
 	-- remember previous choice
-	controls.realmSelection:SetSel(self.selectedRealmIndex or 1)
-	-- manually call the function because when initialising, because the
-	-- function does not get called when the selection index stays the same
-	controls.realmSelection.selFunc(controls.realmSelection.selIndex) 
+	controls.realmSelection:SetSel(self.selectedRealmIndex or 1, true)
 	controls.realmLabel = new("LabelControl"):LabelControl({ "TOPRIGHT", controls.realmSelection, "TOPLEFT" },
 		{ -labelSpacing, 0, 0, labelHeight }, "^7Realm:")
+	controls.tradeRegionSelection = new("DropDownControl"):DropDownControl({ "BOTTOMLEFT", controls.realmSelection, "TOPLEFT" },
+		{ 0, -(rowSpacing * 2 + buttonHeight), 140, buttonHeight }, tradeRegions, function(_, region)
+			selectedTradeRegion = region
+			main.timelessJewelTradeRegion = region.id
+			self.tradeQueryRequests.hostName = region.host
+			controls.realmSelection.enabled = region.id ~= "cn"
+			controls.realmSelection:SetSel(region.id == "cn" and 1 or (self.selectedRealmIndex or 1), true)
+			updateLeagues()
+		end)
+	controls.tradeRegionLabel = new("LabelControl"):LabelControl({ "TOPRIGHT", controls.tradeRegionSelection, "TOPLEFT" },
+		{ -labelSpacing, 0, 0, labelHeight }, "^7Trade Site:")
+	controls.tradeRegionSelection.selIndex = main.timelessJewelTradeRegion == "global" and 2 or 1
+	controls.tradeRegionSelection.selFunc(controls.tradeRegionSelection.selIndex, controls.tradeRegionSelection:GetSelValue())
 
 	-- Buyout selection
 	local tradeTypes = {
@@ -2877,6 +2912,7 @@ function TreeTabClass:FindTimelessJewel()
 
 	-- the settings column is top anchored and the results/trade block bottom anchored,
 	-- so the panel grows by a row for every row the settings column gains
-	local panelHeight = 565 + rowSpacing + rowHeight
+	-- Leave room for the trade site row below the weight settings.
+	local panelHeight = 565 + 2 * (rowSpacing + rowHeight) + rowSpacing + buttonHeight
 	main:OpenPopup(panelWidth, panelHeight, "Find a Timeless Jewel", controls)
 end

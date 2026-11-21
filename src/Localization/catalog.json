@@ -307571,5 +307571,20 @@
     "source": "tools/localization/poedb-tree-cn.json (3.30); local English clause for direct translations",
     "english_source": "tools/localization/pob-tree-en.json (3.30)",
     "status": "paired-node-reference-clause-semantics-reviewed"
+  },
+  "China": {
+    "zh": "国服",
+    "kind": "ui",
+    "status": "editorial-ui"
+  },
+  "International": {
+    "zh": "国际服",
+    "kind": "ui",
+    "status": "editorial-ui"
+  },
+  "Trade Site:": {
+    "zh": "交易区服：",
+    "kind": "ui",
+    "status": "editorial-ui"
   }
 }

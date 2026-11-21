@@ -108,6 +108,7 @@ function main:Init()
 	self.colorNegative = defaultColorCodes.NEGATIVE
 	self.colorHighlight = defaultColorCodes.HIGHLIGHT
 	self.showThousandsSeparators = true
+	self.timelessJewelTradeRegion = "cn"
 	self.useCompactValues = false
 	self.edgeSearchHighlight = true
 	self.thousandsSeparator = ","
@@ -634,6 +635,9 @@ function main:LoadSettings(ignoreBuild)
 				if node.attrib.showThousandsSeparators then
 					self.showThousandsSeparators = node.attrib.showThousandsSeparators == "true"
 				end
+				if node.attrib.timelessJewelTradeRegion == "cn" or node.attrib.timelessJewelTradeRegion == "global" then
+					self.timelessJewelTradeRegion = node.attrib.timelessJewelTradeRegion
+				end
 				if node.attrib.thousandsSeparator then
 					self.thousandsSeparator = node.attrib.thousandsSeparator
 				end
@@ -812,6 +816,7 @@ function main:SaveSettings()
 		colorNegative = self.colorNegative,
 		colorHighlight = self.colorHighlight,
 		showThousandsSeparators = tostring(self.showThousandsSeparators),
+		timelessJewelTradeRegion = self.timelessJewelTradeRegion,
 		thousandsSeparator = self.thousandsSeparator,
 		useCompactValues = tostring(self.useCompactValues),
 		decimalSeparator = self.decimalSeparator,

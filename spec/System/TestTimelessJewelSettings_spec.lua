@@ -5,10 +5,11 @@ describe("TestTimelessJewelSettings", function()
 
 	describe("trade search", function()
 		local tradeHelpers = require "Classes.TradeHelpers"
-		local originalEncode, originalCopy, originalOpenURL
+		local originalEncode, originalCopy, originalOpenURL, originalRegion
 		local query, copiedUrl, openedUrl
 
 		before_each(function()
+			originalRegion = main.timelessJewelTradeRegion
 			originalEncode, originalCopy, originalOpenURL = tradeHelpers.B64GzipEncode, _G.Copy, _G.OpenURL
 			tradeHelpers.B64GzipEncode = function(json)
 				query = require("dkjson").decode(json)
@@ -19,11 +20,13 @@ describe("TestTimelessJewelSettings", function()
 		end)
 
 		after_each(function()
+			main.timelessJewelTradeRegion = originalRegion
 			tradeHelpers.B64GzipEncode, _G.Copy, _G.OpenURL = originalEncode, originalCopy, originalOpenURL
 			main:ClosePopup()
 		end)
 
 		it("includes seed and devotion constraints in a console trade link", function()
+			main.timelessJewelTradeRegion = "global"
 			build.timelessData.jewelType = { id = 4 }
 			build.treeTab.tradeLeaguesList = { pc = { "Standard" }, xbox = { "Hardcore Test" } }
 			build.treeTab:FindTimelessJewel()
