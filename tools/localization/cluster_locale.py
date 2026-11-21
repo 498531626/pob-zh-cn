@@ -19,7 +19,7 @@ def text(element):
 
 
 def card(path):
-    soup = BeautifulSoup(gzip.decompress(path.read_bytes()), 'html.parser')
+    soup = BeautifulSoup(gzip.decompress(path.read_bytes()).decode('utf8'), 'html.parser')
     name = text(soup.select_one('.itemName'))
     stats, reminders = [], []
     for element in soup.select('.Stats > .implicitMod'):
