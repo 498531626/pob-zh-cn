@@ -26,7 +26,7 @@ local GemSelectClass = newClass("GemSelectControl", "EditControl")
 ---@param forceTooltip boolean
 ---@param imbued boolean
 function GemSelectClass:GemSelectControl(anchor, rect, skillsTab, index, changeFunc, forceTooltip, imbued)
-	self:EditControl(anchor, rect, nil, nil, "^ %a':-")
+	self:EditControl(anchor, rect, nil, nil, main.unicode and "^ %a':\128-\255-" or "^ %a':-")
 	self.translateInactive = true
 	self.controls.scrollBar = new("ScrollBarControl"):ScrollBarControl({ "TOPRIGHT", self, "TOPRIGHT" }, {-1, 0, 18, 0}, (self.height - 4) * 4)
 	self.controls.scrollBar.y = function()
@@ -182,6 +182,7 @@ function GemSelectClass:BuildList(buf)
 
 		-- Search for gem name using increasingly broad search patterns
 		local lowerSearch = searchTerm:lower()
+		local searchChinese = Localization and searchTerm:find("[\128-\255]")
 		local patternList = {
 			"^ " .. lowerSearch.."$", -- Exact match
 			"^" .. lowerSearch:gsub("%a", " %0%%l+") .. "$", -- Simple abbreviation ("CtF" -> "Cold to Fire")
@@ -191,7 +192,9 @@ function GemSelectClass:BuildList(buf)
 		for i, pattern in ipairs(patternList) do
 			local matchList = { }
 			for gemId, gemData in pairs(self.gems) do
-				if self:FilterSupport(gemId, gemData) and not added[gemId] and ((" "..gemData.name:lower()):match(pattern)) then
+				local chineseName = searchChinese and Localization:TranslateForSearch(gemData.name)
+				if self:FilterSupport(gemId, gemData) and not added[gemId] and
+					((" "..gemData.name:lower()):match(pattern) or (chineseName and (" "..chineseName):match(pattern))) then
 					addThisGem = true
 					if #tagsList > 0 then
 						for _, tag in ipairs(tagsList) do

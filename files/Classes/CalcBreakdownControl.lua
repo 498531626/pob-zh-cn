@@ -48,6 +48,9 @@ end
 
 function CalcBreakdownClass:GetActor()
 	local env = self.calcsTab[self.envName or "calcsEnv"]
+	if not env then
+		return nil, env
+	end
 	local actor = self.calcsTab.input.showMinion and env.minion or env.player
 	if self.forceActor then
 		actor = env[self.forceActor]
@@ -72,6 +75,19 @@ function CalcBreakdownClass:SetBreakdownData(displayData, pinned, forceActor)
 	-- Build list of sections
 	local actor, env = self:GetActor()
 	self.sectionList = wipeTable(self.sectionList)
+	-- A recalculation can remove the minion while a sidebar row or pinned
+	-- breakdown still refers to it. Clear the stale selection so it can be
+	-- rebuilt later, rather than showing the player's numbers for that minion.
+	if not actor then
+		self.sourceData = nil
+		self.pinned = false
+		if self.clearDisplayFunc then
+			self.clearDisplayFunc()
+		else
+			self.calcsTab:ClearDisplayStat()
+		end
+		return
+	end
 	for _, sectionData in ipairs(displayData) do
 		if self.calcsTab:CheckFlag(sectionData, actor, env.player) then
 			if sectionData.breakdown then

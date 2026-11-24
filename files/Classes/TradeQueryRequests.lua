@@ -468,7 +468,8 @@ end
 ---@param realm string
 ---@param callback fun(query:table, errMsg:string)
 function TradeQueryRequestsClass:FetchLeagues(realm, callback)
-	local header = "Authorization: Bearer " .. (main.api.authToken or "")
+	-- Trade league data is public. In particular, never send the international
+	-- OAuth token to a different trade site's host.
 	launch:DownloadPage(
 			self.hostName .. "api/trade/data/leagues",
 			function(response, errMsg)
@@ -476,8 +477,8 @@ function TradeQueryRequestsClass:FetchLeagues(realm, callback)
 					return callback({"Standard", "Hardcore"}, errMsg)
 				end
 				local json_data = dkjson.decode(response.body)
-				if not json_data or json_data.error then
-					local apiError = json_data and json_data.error
+				if type(json_data) ~= "table" or json_data.error or type(json_data.result) ~= "table" then
+					local apiError = type(json_data) == "table" and json_data.error
 					errMsg = apiError or "Failed to parse trade leagues JSON"
 					if type(apiError) == "table" then
 						errMsg = apiError.message or (apiError.code and tostring(apiError.code)) or "Failed to parse trade leagues JSON"
@@ -485,14 +486,13 @@ function TradeQueryRequestsClass:FetchLeagues(realm, callback)
 					return callback({"Standard", "Hardcore"}, errMsg)
 				end
 				local leagues = {}
-				for _, value in pairs(json_data.result) do
-					if value.realm == realm then
+				for _, value in ipairs(json_data.result) do
+					if type(value) == "table" and value.realm == realm and type(value.id) == "string" then
 						table.insert(leagues, value.id)
 					end
 				end
 				callback(leagues, errMsg)
-			end,
-			{header = header}
+			end
 	)
 end
 

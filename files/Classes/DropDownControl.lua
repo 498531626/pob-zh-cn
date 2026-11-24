@@ -17,6 +17,17 @@ end
 ---@class DropDownControl: Control, ControlHost, TooltipHost, SearchHost
 local DropDownClass = newClass("DropDownControl", "Control", "ControlHost", "TooltipHost", "SearchHost")
 
+function DropDownClass:GetDisplayLabel(value)
+	local entry = type(value) == "table" and value or nil
+	local label = value
+	if entry then label = entry.label end
+	if Localization then
+		if entry and entry.spectreName then return Localization.SpectreName(label) end
+		if self.skillPartNames then return Localization:TranslateSkillPart(label) end
+	end
+	return label
+end
+
 function DropDownClass:DropDownControl(anchor, rect, list, selFunc, tooltipText, ignoreSearchOrder)
 	self:Control(anchor, rect)
 	self:ControlHost()
@@ -321,15 +332,12 @@ function DropDownClass:Draw(viewPort, noTooltip)
 		selLabel = "Search: " .. self:GetSearchTermPretty()
 	else
 		local selItem = self.list[self.selIndex]
+		selLabel = self:GetDisplayLabel(selItem)
 		if type(selItem) == "table" then
-			selLabel = selItem.label
 			selDetail = selItem.detail
 			selStrikethrough = selItem.strikethrough
-		else
-			selLabel = selItem
 		end
 	end
-	if self.skillPartNames and Localization and not self:IsSearchActive() then selLabel = Localization:TranslateSkillPart(selLabel) end
 	SetViewport(x + 2, y + 2, width - height, lineHeight)
 	if Localization then
 		Localization:BoundedText(0, 0, "LEFT", lineHeight, "VAR", selLabel or "", width - height - (selDetail and DrawStringWidth(lineHeight, "VAR", selDetail) + 4 or 0))
@@ -404,15 +412,11 @@ function DropDownClass:Draw(viewPort, noTooltip)
 					SetDrawColor(0.66, 0.66, 0.66)
 				end
 				-- draw actual item label with search match highlight if available
-				local label = nil
+				local label = self:GetDisplayLabel(listVal)
 				local detail = nil
 				if type(listVal) == "table" then
-					label = listVal.label
 					detail = listVal.detail
-				else 
-					label = listVal
 				end
-				if self.skillPartNames and Localization then label = Localization:TranslateSkillPart(label) end
 				if Localization then
 					Localization:BoundedText(0, y, "LEFT", lineHeight, "VAR", label, (scrollBar.enabled and width - 22 or width - 4) - (detail and DrawStringWidth(lineHeight, "VAR", detail) + 4 or 0))
 				else
@@ -584,20 +588,15 @@ function DropDownClass:CheckDroppedWidth(enable)
 					-- plus spacing between it and the label.
 					detailWidth = DrawStringWidth(lineHeight, "VAR", line.detail) + 26
 				end
-				line = line.label or ""
 			end
-			if self.skillPartNames and Localization then line = Localization:TranslateSkillPart(line) end
+			line = self:GetDisplayLabel(line)
 			  -- +10 to stop clipping
 			dWidth = m_max(dWidth, DrawStringWidth(lineHeight, "VAR", line or "") + detailWidth + 10)
 		end
 		  -- no greater than self.maxDroppedWidth
 		self.droppedWidth = m_min(dWidth + scrollWidth, self.maxDroppedWidth)
 		if self.enableChangeBoxWidth then
-			local line = self.list[self.selIndex]
-			if type(line) == "table" then
-				line = line.label
-			end
-			if self.skillPartNames and Localization then line = Localization:TranslateSkillPart(line) end
+			local line = self:GetDisplayLabel(self.list[self.selIndex])
 			-- add 20 to account for the 'down arrow' in the box
 			local boxWidth
 			boxWidth = DrawStringWidth(lineHeight, "VAR", line or "") + 20

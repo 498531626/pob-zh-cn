@@ -45,14 +45,14 @@ end
 function MinionListClass:GetRowValue(column, index, minionId)
 	local minion = self.data.minions[minionId]
 	if column == 1 then
-		return minion.name
+		return Localization and Localization.SpectreName(minion.name) or minion.name
 	end
 end
 
 function MinionListClass:AddValueTooltip(tooltip, index, minionId)
 	if tooltip:CheckForUpdate(minionId) then
 		local minion = self.data.minions[minionId]
-		tooltip:AddLine(18, "^7"..minion.name)
+		tooltip:AddLine(18, "^7"..self:GetRowValue(1, index, minionId))
 		tooltip:AddLine(14, s_format("^7Life Multiplier: x%.2f", minion.life))
 		if minion.energyShield then
 			tooltip:AddLine(14, s_format("^7Energy Shield: %d%% of base Life", minion.energyShield * 100))
