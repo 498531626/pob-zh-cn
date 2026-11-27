@@ -3,6 +3,7 @@ local L = { mode = "zh", suspended = 0 }
 L.credit = "简体中文汉化：拽弑"
 local dictionary = LoadModule("Localization/Dictionary")
 local spectreNames = LoadModule("Localization/SpectreNames")
+local spectreAreas = LoadModule("Localization/SpectreAreas")
 local passiveContexts = LoadModule("Localization/PassiveContexts")
 local anointNames = LoadModule("Localization/AnointNames")
 local panelLabels = LoadModule("Localization/PanelLabels")
@@ -95,6 +96,16 @@ function L.SpectreName(text, forSearch)
 	return text
 end
 
+function L.SpectreLocation(text)
+	if L.suspended > 0 or L:EffectiveMode() == "en" then return text end
+	local name, suffix = text:match("^(.-) (%b())$")
+	if not name then return spectreAreas[text] or text end
+	local act = suffix:match("^%(Act (%d+)%)$")
+	if act then suffix = "（第 " .. act .. " 章）"
+	elseif suffix == "(Map)" then suffix = "（地图）" end
+	return (spectreAreas[name] or name) .. " " .. suffix
+end
+
 -- Tree recipes use image IDs (AmberOil), while the dictionary uses item names.
 -- Resolve only the displayed label; recipe IDs must remain unchanged.
 function L:RecipeName(recipeName)
@@ -172,6 +183,21 @@ local function interfaceChinese(body, nodeId)
 		return (context and context[value]) or anointNames[value] or dictionary[value]
 			or (base and dictionary[base] and dictionary[base] .. seed) or value
 	end
+	local setName, setClass, setPoints, setCurrent = body:match("^(.-) %(([^,]+), (%d+) points%)(.*)$")
+	if setName and (setCurrent == "" or setCurrent == "  ^9(Current)") then
+		return setName .. "（" .. nameChinese(setClass) .. "，" .. setPoints .. " 点）"
+			.. (setCurrent ~= "" and "  ^9（当前）" or "")
+	end
+	local equipped = body:match("^(.-) %(equipped%)$")
+	if equipped then return L:Translate(equipped, nil, "zh") .. "（已装备）" end
+	local spawn = body:match("^Spawn: (.+)$")
+	if spawn then return "出现地点：" .. spawn end
+	local skill = body:match("^Skill: (.+)$")
+	if skill then return "技能：" .. L:Translate(skill, nil, "zh") end
+	local gemLevels = body:match("^(%d+) Levels from Gems?$")
+	if gemLevels then return "来自宝石的 " .. gemLevels .. " 级" end
+	local socketTarget = body:match("^It will be socketed into (.+)$")
+	if socketTarget then return "将镶嵌到 " .. socketTarget end
 	local class, startingClass = body:match("^Changing class to (.-) will reset your passive tree%.\nThis can be avoided by connecting one of the (.-) starting nodes to your tree%.$")
 	if class then return "切换为" .. nameChinese(class) .. "将重置天赋树。\n将一个" .. nameChinese(startingClass) .. "起始天赋连接到当前天赋树，可避免重置。" end
 	local required, act, quests, extra, lab = body:match("^Required Level: (%d+)\nEstimated Progress:\nAct: ([^\n]+)\nQuestpoints: (%d+)\nExtra Skillpoints: (%d+)(.*)$")

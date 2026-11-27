@@ -1,4 +1,4 @@
-﻿Path of Building 简体中文便携版 v2.68.1.2（原版 v2.68.1）
+﻿Path of Building 简体中文便携版 v2.69.0.1（原版 v2.69.0）
 
 使用方法：
 1. 先把整个 ZIP 解压到有写入权限的文件夹，例如 D:\Games\PoB。

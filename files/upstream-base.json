@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/PathOfBuildingCommunity/PathOfBuilding.git",
-  "tag": "v2.68.1",
-  "commit": "a41fec6c20f822a658ae5df1273e8c69d5969bac",
+  "tag": "v2.69.0",
+  "commit": "5606cc64fa9f15694e69001a52b90aa968d01a86",
   "integration_branch": "localization",
   "original_archive_baseline": "52a02f1",
   "note": "Advance tag and commit only after upstream merge, localization adaptation and validation."

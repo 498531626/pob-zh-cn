@@ -465,6 +465,7 @@ return {
 	"Recovery modifiers",
 	"Reflect taken",
 	"Repeat Count",
+	"Reservation Eff.",
 	"Reserve Duration",
 	"Reserve Uptime",
 	"Reserved",

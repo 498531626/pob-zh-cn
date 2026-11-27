@@ -350,4 +350,10 @@ return {
 {pattern="^Totems Summoned: ([%+%-]?[%d%,%.]+) %(can be overridden in the Configuration tab%)$",zh="已召唤图腾：{0}（可在配置页覆盖）",kinds={"number"}},
 {pattern="^= ([%+%-]?[%d%,%.]+)%% over ([%+%-]?[%d%,%.]+) seconds$",zh="= {0}%，在 {1} 秒内",kinds={"number","number"}},
 {pattern="^Limited to Level ([%+%-]?[%d%,%.]+)$",zh="等级上限 {0}",kinds={"number"}},
+{pattern="^Base Movement Speed: ([%+%-]?[%d%,%.]+)$",zh="基础移动速度：{0}",kinds={"number"}},
+{pattern="^Resistances: (.-)([%+%-]?[%d%,%.]+) / (.-)([%+%-]?[%d%,%.]+) / (.-)([%+%-]?[%d%,%.]+) / (.-)([%+%-]?[%d%,%.]+)$",zh="抗性：{0}{1} / {2}{3} / {4}{5} / {6}{7}",kinds={"term","number","term","number","term","number","term","number"}},
+{pattern="^([%+%-]?[%d%,%.]+)%% %(inverted hit after penetration(.-)%)$",zh="{0}%（穿透后的反转击中{1}）",kinds={"number","term"}},
+{pattern="^/([%+%-]?[%d%,%.]+) %(repeated attacks/casts do not count%)$",zh="/{0}（重复的攻击/施法不计入）",kinds={"number"}},
+{pattern="^  (.-)(.-): ([%+%-]?[%d%,%.]+)%% %(weight: ([%+%-]?[%d%,%.]+)%)$",zh="  {0}{1}：{2}%（权重：{3}）",kinds={"term","term","number","number"}},
+{pattern="^  (.-)Overall: ([%+%-]?[%d%,%.]+)%%$",zh="  {0}总体：{1}%",kinds={"term","number"}},
 }
