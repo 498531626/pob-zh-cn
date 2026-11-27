@@ -1,0 +1,1760 @@
+{
+  "Acid Caverns": {
+    "zh": "强酸洞穴",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsAcidLakes"
+    ],
+    "english_source": "https://poedb.tw/us/Acid_Caverns",
+    "source": "https://poedb.tw/cn/Acid_Caverns",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Acid_Caverns",
+        "names": [
+          "Acid Caverns"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Acid_Caverns",
+        "names": [
+          "强酸洞穴"
+        ]
+      }
+    ]
+  },
+  "Alleyways": {
+    "zh": "危城巷弄",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsAlleyways"
+    ],
+    "english_source": "https://poedb.tw/us/Alleyways",
+    "source": "https://poedb.tw/cn/Alleyways",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Alleyways",
+        "names": [
+          "Alleyways"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Alleyways",
+        "names": [
+          "危城巷弄"
+        ]
+      }
+    ]
+  },
+  "Arachnid Tomb": {
+    "zh": "灵虫墓穴",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsArachnidTomb"
+    ],
+    "english_source": "https://poedb.tw/us/Arachnid_Tomb",
+    "source": "https://poedb.tw/cn/Arachnid_Tomb",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Arachnid_Tomb",
+        "names": [
+          "Arachnid Tomb"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Arachnid_Tomb",
+        "names": [
+          "灵虫墓穴"
+        ]
+      }
+    ]
+  },
+  "Arena": {
+    "zh": "竞技场",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsArena"
+    ],
+    "english_source": "https://poedb.tw/us/Arena",
+    "source": "https://poedb.tw/cn/Arena",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Arena",
+        "names": [
+          "Arena"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Arena",
+        "names": [
+          "竞技场"
+        ]
+      }
+    ]
+  },
+  "Arsenal": {
+    "zh": "古兵工厂",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsArsenal"
+    ],
+    "english_source": "https://poedb.tw/us/Arsenal",
+    "source": "https://poedb.tw/cn/Arsenal",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Arsenal",
+        "names": [
+          "Arsenal"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Arsenal",
+        "names": [
+          "古兵工厂"
+        ]
+      }
+    ]
+  },
+  "Ashen Wood": {
+    "zh": "旱木林地",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsAshenWood"
+    ],
+    "english_source": "https://poedb.tw/us/Ashen_Wood",
+    "source": "https://poedb.tw/cn/Ashen_Wood",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Ashen_Wood",
+        "names": [
+          "Ashen Wood"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Ashen_Wood",
+        "names": [
+          "旱木林地"
+        ]
+      }
+    ]
+  },
+  "Atoll": {
+    "zh": "滨海山丘",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsAtoll"
+    ],
+    "english_source": "https://poedb.tw/us/Atoll",
+    "source": "https://poedb.tw/cn/Atoll",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Atoll",
+        "names": [
+          "Atoll"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Atoll",
+        "names": [
+          "滨海山丘"
+        ]
+      }
+    ]
+  },
+  "Bazaar": {
+    "zh": "远古市集",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsBazaar"
+    ],
+    "english_source": "https://poedb.tw/us/Bazaar",
+    "source": "https://poedb.tw/cn/Bazaar",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Bazaar",
+        "names": [
+          "Bazaar"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Bazaar",
+        "names": [
+          "远古市集"
+        ]
+      }
+    ]
+  },
+  "Beach": {
+    "zh": "危岩海滩",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsBeach"
+    ],
+    "english_source": "https://poedb.tw/us/Beach",
+    "source": "https://poedb.tw/cn/Beach",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Beach",
+        "names": [
+          "Beach"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Beach",
+        "names": [
+          "危岩海滩"
+        ]
+      }
+    ]
+  },
+  "Blackguard Salute": {
+    "status": "reference-search-unmatched",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Blackguard_Salute",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Bog": {
+    "zh": "瘴气泥沼",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsBog"
+    ],
+    "english_source": "https://poedb.tw/us/Bog",
+    "source": "https://poedb.tw/cn/Bog",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Bog",
+        "names": [
+          "Bog"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Bog",
+        "names": [
+          "瘴气泥沼"
+        ]
+      }
+    ]
+  },
+  "Bramble Valley": {
+    "zh": "黑棘谷地",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsBrambleValley"
+    ],
+    "english_source": "https://poedb.tw/us/Bramble_Valley",
+    "source": "https://poedb.tw/cn/Bramble_Valley",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Bramble_Valley",
+        "names": [
+          "Bramble Valley"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Bramble_Valley",
+        "names": [
+          "黑棘谷地"
+        ]
+      }
+    ]
+  },
+  "Canyon": {
+    "zh": "炙阳峡谷",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsCanyon"
+    ],
+    "english_source": "https://poedb.tw/us/Canyon",
+    "source": "https://poedb.tw/cn/Canyon",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Canyon",
+        "names": [
+          "Canyon"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Canyon",
+        "names": [
+          "炙阳峡谷"
+        ]
+      }
+    ]
+  },
+  "Cells": {
+    "zh": "幽魂监牢",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsCells"
+    ],
+    "english_source": "https://poedb.tw/us/Cells",
+    "source": "https://poedb.tw/cn/Cells",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Cells",
+        "names": [
+          "Cells"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Cells",
+        "names": [
+          "幽魂监牢"
+        ]
+      }
+    ]
+  },
+  "Chambers of Impurity": {
+    "zh": "不净之殿",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsChambersOfImpurity"
+    ],
+    "english_source": "https://poedb.tw/us/Chambers_of_Impurity",
+    "source": "https://poedb.tw/cn/Chambers_of_Impurity",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Chambers_of_Impurity",
+        "names": [
+          "Chambers of Impurity"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Chambers_of_Impurity",
+        "names": [
+          "不净之殿"
+        ]
+      }
+    ]
+  },
+  "Chateau": {
+    "zh": "古堡",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsChateau"
+    ],
+    "english_source": "https://poedb.tw/us/Chateau",
+    "source": "https://poedb.tw/cn/Chateau",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Chateau",
+        "names": [
+          "Chateau"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Chateau",
+        "names": [
+          "古堡"
+        ]
+      }
+    ]
+  },
+  "Chayula's Domain": {
+    "zh": "夏乌拉之域",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "BreachBossChaos5"
+    ],
+    "english_source": "https://poedb.tw/us/Chayulas_Domain",
+    "source": "https://poedb.tw/cn/Chayulas_Domain",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Chayula%27s_Domain",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/us/Chayulas_Domain",
+        "names": [
+          "Chayula's Domain"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Chayulas_Domain",
+        "names": [
+          "夏乌拉之域",
+          "夏乌拉领域"
+        ]
+      }
+    ]
+  },
+  "Coral Forest": {
+    "zh": "珊瑚密林",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "DeepwaterCoralForest"
+    ],
+    "english_source": "https://poedb.tw/us/Coral_Forest",
+    "source": "https://poedb.tw/cn/Coral_Forest",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Coral_Forest",
+        "names": [
+          "Coral Forest"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Coral_Forest",
+        "names": [
+          "珊瑚密林"
+        ]
+      }
+    ]
+  },
+  "Coral Reef": {
+    "zh": "珊瑚暗礁",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "DeepwaterCoralReef"
+    ],
+    "english_source": "https://poedb.tw/us/Coral_Reef",
+    "source": "https://poedb.tw/cn/Coral_Reef",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Coral_Reef",
+        "names": [
+          "Coral Reef"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Coral_Reef",
+        "names": [
+          "珊瑚暗礁"
+        ]
+      }
+    ]
+  },
+  "Courthouse": {
+    "zh": "失序教院",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsCourthouse"
+    ],
+    "english_source": "https://poedb.tw/us/Courthouse",
+    "source": "https://poedb.tw/cn/Courthouse",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Courthouse",
+        "names": [
+          "Courthouse"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Courthouse",
+        "names": [
+          "失序教院"
+        ]
+      }
+    ]
+  },
+  "Courtyard": {
+    "zh": "奇术之庭",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsCourtyard"
+    ],
+    "english_source": "https://poedb.tw/us/Courtyard",
+    "source": "https://poedb.tw/cn/Courtyard",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Courtyard",
+        "names": [
+          "Courtyard"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Courtyard",
+        "names": [
+          "奇术之庭"
+        ]
+      }
+    ]
+  },
+  "Courtyard of Wasting": {
+    "zh": "荒废之庭",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsCourtyardOfWasting"
+    ],
+    "english_source": "https://poedb.tw/us/Courtyard_of_Wasting",
+    "source": "https://poedb.tw/cn/Courtyard_of_Wasting",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Courtyard_of_Wasting",
+        "names": [
+          "Courtyard of Wasting"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Courtyard_of_Wasting",
+        "names": [
+          "荒废之庭"
+        ]
+      }
+    ]
+  },
+  "Crimson Township": {
+    "zh": "绯红小镇",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsCrimsonTownship"
+    ],
+    "english_source": "https://poedb.tw/us/Crimson_Township",
+    "source": "https://poedb.tw/cn/Crimson_Township",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Crimson_Township",
+        "names": [
+          "Crimson Township"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Crimson_Township",
+        "names": [
+          "绯红小镇"
+        ]
+      }
+    ]
+  },
+  "Dark Forest": {
+    "zh": "夜语幽林",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsDarkForest"
+    ],
+    "english_source": "https://poedb.tw/us/Dark_Forest",
+    "source": "https://poedb.tw/cn/Dark_Forest",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Dark_Forest",
+        "names": [
+          "Dark Forest"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Dark_Forest",
+        "names": [
+          "夜语幽林"
+        ]
+      }
+    ]
+  },
+  "Distant Memory": {
+    "zh": "遥远回忆",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "Synthesis_Guardian1",
+      "Synthesis_Guardian2",
+      "Synthesis_Guardian3",
+      "Synthesis_Guardian4"
+    ],
+    "english_source": "https://poedb.tw/us/Distant_Memory",
+    "source": "https://poedb.tw/cn/Distant_Memory",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Distant_Memory",
+        "names": [
+          "Distant Memory"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Distant_Memory",
+        "names": [
+          "遥远回忆"
+        ]
+      }
+    ]
+  },
+  "Dry Sea": {
+    "zh": "干枯之海",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsDrySea"
+    ],
+    "english_source": "https://poedb.tw/us/Dry_Sea",
+    "source": "https://poedb.tw/cn/Dry_Sea",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Dry_Sea",
+        "names": [
+          "Dry Sea"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Dry_Sea",
+        "names": [
+          "干枯之海"
+        ]
+      }
+    ]
+  },
+  "Esh's Domain": {
+    "zh": "艾许之域",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "BreachBossLightning5"
+    ],
+    "english_source": "https://poedb.tw/us/Eshs_Domain",
+    "source": "https://poedb.tw/cn/Eshs_Domain",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Esh%27s_Domain",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/us/Eshs_Domain",
+        "names": [
+          "Esh's Domain"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Eshs_Domain",
+        "names": [
+          "艾许之域",
+          "艾许领域"
+        ]
+      }
+    ]
+  },
+  "Estuary": {
+    "zh": "赤寒河岸",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsEstuary"
+    ],
+    "english_source": "https://poedb.tw/us/Estuary",
+    "source": "https://poedb.tw/cn/Estuary",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Estuary",
+        "names": [
+          "Estuary"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Estuary",
+        "names": [
+          "赤寒河岸"
+        ]
+      }
+    ]
+  },
+  "Flooded Mine": {
+    "zh": "积水矿坑",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsFloodedMine"
+    ],
+    "english_source": "https://poedb.tw/us/Flooded_Mine",
+    "source": "https://poedb.tw/cn/Flooded_Mine",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Flooded_Mine",
+        "names": [
+          "Flooded Mine"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Flooded_Mine",
+        "names": [
+          "积水矿坑"
+        ]
+      }
+    ]
+  },
+  "Forbidden Woods": {
+    "zh": "禁断之林",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsForbiddenWoods"
+    ],
+    "english_source": "https://poedb.tw/us/Forbidden_Woods",
+    "source": "https://poedb.tw/cn/Forbidden_Woods",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Forbidden_Woods",
+        "names": [
+          "Forbidden Woods"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Forbidden_Woods",
+        "names": [
+          "禁断之林"
+        ]
+      }
+    ]
+  },
+  "Foundry": {
+    "zh": "锻晶车间",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsFoundry"
+    ],
+    "english_source": "https://poedb.tw/us/Foundry",
+    "source": "https://poedb.tw/cn/Foundry",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Foundry",
+        "names": [
+          "Foundry"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Foundry",
+        "names": [
+          "锻晶车间"
+        ]
+      }
+    ]
+  },
+  "Fractured Laboratory": {
+    "zh": "分裂的实验室",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "Synthesis_Boss"
+    ],
+    "english_source": "https://poedb.tw/us/Fractured_Laboratory",
+    "source": "https://poedb.tw/cn/Fractured_Laboratory",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Fractured_Laboratory",
+        "names": [
+          "Fractured Laboratory"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Fractured_Laboratory",
+        "names": [
+          "分裂的实验室"
+        ]
+      }
+    ]
+  },
+  "Fragmented Memory": {
+    "zh": "回忆碎片",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "Synthesis_Single",
+      "Synthesis_Single10",
+      "Synthesis_Single11",
+      "Synthesis_Single12",
+      "Synthesis_Single2",
+      "Synthesis_Single3",
+      "Synthesis_Single4",
+      "Synthesis_Single5",
+      "Synthesis_Single6",
+      "Synthesis_Single7",
+      "Synthesis_Single8",
+      "Synthesis_Single9"
+    ],
+    "english_source": "https://poedb.tw/us/Fragmented_Memory",
+    "source": "https://poedb.tw/cn/Fragmented_Memory",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Fragmented_Memory",
+        "names": [
+          "Fragmented Memory"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Fragmented_Memory",
+        "names": [
+          "回忆碎片"
+        ]
+      }
+    ]
+  },
+  "Frozen Cabins": {
+    "zh": "冻结之舱",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsFrozenCabins"
+    ],
+    "english_source": "https://poedb.tw/us/Frozen_Cabins",
+    "source": "https://poedb.tw/cn/Frozen_Cabins",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Frozen_Cabins",
+        "names": [
+          "Frozen Cabins"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Frozen_Cabins",
+        "names": [
+          "冻结之舱"
+        ]
+      }
+    ]
+  },
+  "Gardens": {
+    "zh": "花园迷宫",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsGardens"
+    ],
+    "english_source": "https://poedb.tw/us/Gardens",
+    "source": "https://poedb.tw/cn/Gardens",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Gardens",
+        "names": [
+          "Gardens"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Gardens",
+        "names": [
+          "花园迷宫"
+        ]
+      }
+    ]
+  },
+  "Ghetto": {
+    "zh": "赤贫居所",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsGhetto"
+    ],
+    "english_source": "https://poedb.tw/us/Ghetto",
+    "source": "https://poedb.tw/cn/Ghetto",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Ghetto",
+        "names": [
+          "Ghetto"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Ghetto",
+        "names": [
+          "赤贫居所"
+        ]
+      }
+    ]
+  },
+  "Glacier": {
+    "zh": "冰川",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsGorge"
+    ],
+    "english_source": "https://poedb.tw/us/Glacier",
+    "source": "https://poedb.tw/cn/Glacier",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Glacier",
+        "names": [
+          "Glacier"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Glacier",
+        "names": [
+          "冰川"
+        ]
+      }
+    ]
+  },
+  "Hive Fortress": {
+    "zh": "裂隙巢穴堡垒",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "ChayulaLeagueTower"
+    ],
+    "english_source": "https://poedb.tw/us/Hive_Fortress",
+    "source": "https://poedb.tw/cn/Hive_Fortress",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Hive_Fortress",
+        "names": [
+          "Hive Fortress"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Hive_Fortress",
+        "names": [
+          "裂隙巢穴堡垒"
+        ]
+      }
+    ]
+  },
+  "Infused Beachhead": {
+    "zh": "灌注的降临之地",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsHarbingerUber"
+    ],
+    "english_source": "https://poedb.tw/us/Infused_Beachhead",
+    "source": "https://poedb.tw/cn/Infused_Beachhead",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Infused_Beachhead",
+        "names": [
+          "Harbinger Map",
+          "Infused Beachhead"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Infused_Beachhead",
+        "names": [
+          "Harbinger Map",
+          "灌注的降临之地"
+        ]
+      }
+    ]
+  },
+  "Ivory Temple": {
+    "zh": "白玉神庙",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsIvoryTemple"
+    ],
+    "english_source": "https://poedb.tw/us/Ivory_Temple",
+    "source": "https://poedb.tw/cn/Ivory_Temple",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Ivory_Temple",
+        "names": [
+          "Ivory Temple"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Ivory_Temple",
+        "names": [
+          "白玉神庙"
+        ]
+      }
+    ]
+  },
+  "Laboratory": {
+    "zh": "实验密室",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsLaboratory"
+    ],
+    "english_source": "https://poedb.tw/us/Laboratory",
+    "source": "https://poedb.tw/cn/Laboratory",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Laboratory",
+        "names": [
+          "Laboratory"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Laboratory",
+        "names": [
+          "实验室",
+          "实验密室"
+        ]
+      }
+    ]
+  },
+  "Lair": {
+    "zh": "巢穴",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsLair"
+    ],
+    "english_source": "https://poedb.tw/us/Lair",
+    "source": "https://poedb.tw/cn/Lair",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Lair",
+        "names": [
+          "Lair"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Lair",
+        "names": [
+          "巢穴"
+        ]
+      }
+    ]
+  },
+  "Lava Chamber": {
+    "zh": "熔岩之殿",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsLavaChamber"
+    ],
+    "english_source": "https://poedb.tw/us/Lava_Chamber",
+    "source": "https://poedb.tw/cn/Lava_Chamber",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Lava_Chamber",
+        "names": [
+          "Lava Chamber"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Lava_Chamber",
+        "names": [
+          "熔岩之殿"
+        ]
+      }
+    ]
+  },
+  "Leyline": {
+    "zh": "荒凉原野",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsLeyline"
+    ],
+    "english_source": "https://poedb.tw/us/Leyline",
+    "source": "https://poedb.tw/cn/Leyline",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Leyline",
+        "names": [
+          "Leyline"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Leyline",
+        "names": [
+          "荒凉原野"
+        ]
+      }
+    ]
+  },
+  "Lighthouse": {
+    "zh": "孤岛灯塔",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsLighthouse"
+    ],
+    "english_source": "https://poedb.tw/us/Lighthouse",
+    "source": "https://poedb.tw/cn/Lighthouse",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Lighthouse",
+        "names": [
+          "Lighthouse"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Lighthouse",
+        "names": [
+          "孤岛灯塔"
+        ]
+      }
+    ]
+  },
+  "Orchard": {
+    "zh": "密林果园",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsOrchard"
+    ],
+    "english_source": "https://poedb.tw/us/Orchard",
+    "source": "https://poedb.tw/cn/Orchard",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Orchard",
+        "names": [
+          "Orchard"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Orchard",
+        "names": [
+          "密林果园"
+        ]
+      }
+    ]
+  },
+  "Perandus Manor": {
+    "zh": "普兰德斯庄园",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsChateauUnique"
+    ],
+    "english_source": "https://poedb.tw/us/Perandus_Manor",
+    "source": "https://poedb.tw/cn/Perandus_Manor",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Perandus_Manor",
+        "names": [
+          "Perandus Manor"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Perandus_Manor",
+        "names": [
+          "普兰德斯庄园"
+        ]
+      }
+    ]
+  },
+  "Pier": {
+    "zh": "怒浪之港",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsPier"
+    ],
+    "english_source": "https://poedb.tw/us/Pier",
+    "source": "https://poedb.tw/cn/Pier",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Pier",
+        "names": [
+          "Pier"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Pier",
+        "names": [
+          "怒浪之港"
+        ]
+      }
+    ]
+  },
+  "Plaza": {
+    "zh": "广场",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsPlaza"
+    ],
+    "english_source": "https://poedb.tw/us/Plaza",
+    "source": "https://poedb.tw/cn/Plaza",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Plaza",
+        "names": [
+          "Plaza"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Plaza",
+        "names": [
+          "广场"
+        ]
+      }
+    ]
+  },
+  "Precinct": {
+    "zh": "苦行之域",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsPrecinct"
+    ],
+    "english_source": "https://poedb.tw/us/Precinct",
+    "source": "https://poedb.tw/cn/Precinct",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Precinct",
+        "names": [
+          "Precinct"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Precinct",
+        "names": [
+          "苦行之域"
+        ]
+      }
+    ]
+  },
+  "Primordial Blocks": {
+    "zh": "远古街区",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsTortureChamber"
+    ],
+    "english_source": "https://poedb.tw/us/Primordial_Blocks",
+    "source": "https://poedb.tw/cn/Primordial_Blocks",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Primordial_Blocks",
+        "names": [
+          "Primordial Blocks"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Primordial_Blocks",
+        "names": [
+          "远古街区"
+        ]
+      }
+    ]
+  },
+  "Sandy Seabed": {
+    "zh": "金沙海床",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "DeepwaterSandy"
+    ],
+    "english_source": "https://poedb.tw/us/Sandy_Seabed",
+    "source": "https://poedb.tw/cn/Sandy_Seabed",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Sandy_Seabed",
+        "names": [
+          "Sandy Seabed"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Sandy_Seabed",
+        "names": [
+          "金沙海床"
+        ]
+      }
+    ]
+  },
+  "Secluded Cove": {
+    "zh": "幽寂湾谷",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "Master_TH_Shipgraveyard"
+    ],
+    "english_source": "https://poedb.tw/us/Secluded_Cove",
+    "source": "https://poedb.tw/cn/Secluded_Cove",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Secluded_Cove",
+        "names": [
+          "Secluded Cove"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Secluded_Cove",
+        "names": [
+          "幽寂湾谷"
+        ]
+      }
+    ]
+  },
+  "Shipyard": {
+    "zh": "炽炎船坞",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsShipyard"
+    ],
+    "english_source": "https://poedb.tw/us/Shipyard",
+    "source": "https://poedb.tw/cn/Shipyard",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Shipyard",
+        "names": [
+          "Shipyard"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Shipyard",
+        "names": [
+          "炽炎船坞"
+        ]
+      }
+    ]
+  },
+  "Stagnation": {
+    "zh": "停滞区",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsStagnation"
+    ],
+    "english_source": "https://poedb.tw/us/Stagnation",
+    "source": "https://poedb.tw/cn/Stagnation",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Stagnation",
+        "names": [
+          "Stagnation"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Stagnation",
+        "names": [
+          "停滞区"
+        ]
+      }
+    ]
+  },
+  "Synthesised World": {
+    "zh": "塑合世界",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsSynthesisedWorld"
+    ],
+    "english_source": "https://poedb.tw/us/Synthesised_World",
+    "source": "https://poedb.tw/cn/Synthesised_World",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Synthesised_World",
+        "names": [
+          "Synthesised World"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Synthesised_World",
+        "names": [
+          "塑合世界"
+        ]
+      }
+    ]
+  },
+  "The Alluring Abyss": {
+    "zh": "诱人的深渊",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapAtziri2"
+    ],
+    "english_source": "https://poedb.tw/us/The_Alluring_Abyss",
+    "source": "https://poedb.tw/cn/The_Alluring_Abyss",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/The_Alluring_Abyss",
+        "names": [
+          "The Alluring Abyss"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/The_Alluring_Abyss",
+        "names": [
+          "诱人的深渊"
+        ]
+      }
+    ]
+  },
+  "The Apex of Sacrifice": {
+    "zh": "生贽之尖",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapAtziri1"
+    ],
+    "english_source": "https://poedb.tw/us/The_Apex_of_Sacrifice",
+    "source": "https://poedb.tw/cn/The_Apex_of_Sacrifice",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/The_Apex_of_Sacrifice",
+        "names": [
+          "The Apex of Sacrifice"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/The_Apex_of_Sacrifice",
+        "names": [
+          "生贽之尖"
+        ]
+      }
+    ]
+  },
+  "The Beachhead": {
+    "zh": "降临之地",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsHarbingerHigh"
+    ],
+    "english_source": "https://poedb.tw/us/The_Beachhead",
+    "source": "https://poedb.tw/cn/The_Beachhead",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/The_Beachhead",
+        "names": [
+          "Map (Tier 1)",
+          "The Beachhead"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/The_Beachhead",
+        "names": [
+          "地图（1 阶）",
+          "降临之地"
+        ]
+      }
+    ]
+  },
+  "The Fetid Fleshpit": {
+    "zh": "恶臭肉坑",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "BeyondRealmGhorr"
+    ],
+    "english_source": "https://poedb.tw/us/The_Fetid_Fleshpit",
+    "source": "https://poedb.tw/cn/The_Fetid_Fleshpit",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/The_Fetid_Fleshpit",
+        "names": [
+          "The Fetid Fleshpit"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/The_Fetid_Fleshpit",
+        "names": [
+          "恶臭肉坑"
+        ]
+      }
+    ]
+  },
+  "The Hidden Underbelly": {
+    "zh": "隐藏的薄弱之地",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "2_8_14"
+    ],
+    "english_source": "https://poedb.tw/us/The_Hidden_Underbelly",
+    "source": "https://poedb.tw/cn/The_Hidden_Underbelly",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/The_Hidden_Underbelly",
+        "names": [
+          "The Hidden Underbelly"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/The_Hidden_Underbelly",
+        "names": [
+          "隐藏的薄弱之地"
+        ]
+      }
+    ]
+  },
+  "The Pale": {
+    "zh": "苍白之境",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "BeyondRealmBeidat"
+    ],
+    "english_source": "https://poedb.tw/us/The_Pale",
+    "source": "https://poedb.tw/cn/The_Pale",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/The_Pale",
+        "names": [
+          "The Pale"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/The_Pale",
+        "names": [
+          "苍白之境"
+        ]
+      }
+    ]
+  },
+  "The Swarmforge": {
+    "zh": "虫群熔炉",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "BeyondRealmKtash"
+    ],
+    "english_source": "https://poedb.tw/us/The_Swarmforge",
+    "source": "https://poedb.tw/cn/The_Swarmforge",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/The_Swarmforge",
+        "names": [
+          "The Swarmforge"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/The_Swarmforge",
+        "names": [
+          "虫群熔炉"
+        ]
+      }
+    ]
+  },
+  "The Viridian Wildwood": {
+    "zh": "维里迪安荒林",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "AzmeriLeagueArea"
+    ],
+    "english_source": "https://poedb.tw/us/The_Viridian_Wildwood",
+    "source": "https://poedb.tw/cn/The_Viridian_Wildwood",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/The_Viridian_Wildwood",
+        "names": [
+          "The Viridian Wildwood"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/The_Viridian_Wildwood",
+        "names": [
+          "维里迪安荒林"
+        ]
+      }
+    ]
+  },
+  "Theatre of Lies": {
+    "zh": "谎言剧院",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsTheatreOfLies"
+    ],
+    "english_source": "https://poedb.tw/us/Theatre_of_Lies",
+    "source": "https://poedb.tw/cn/Theatre_of_Lies",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Theatre_of_Lies",
+        "names": [
+          "Theatre of Lies"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Theatre_of_Lies",
+        "names": [
+          "谎言剧院"
+        ]
+      }
+    ]
+  },
+  "Toxic Sewer": {
+    "zh": "剧毒水道",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsToxicSewer"
+    ],
+    "english_source": "https://poedb.tw/us/Toxic_Sewer",
+    "source": "https://poedb.tw/cn/Toxic_Sewer",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Toxic_Sewer",
+        "names": [
+          "Toxic Sewer"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Toxic_Sewer",
+        "names": [
+          "剧毒水道"
+        ]
+      }
+    ]
+  },
+  "Tul's Domain": {
+    "zh": "托沃之域",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "BreachBossCold5"
+    ],
+    "english_source": "https://poedb.tw/us/Tuls_Domain",
+    "source": "https://poedb.tw/cn/Tuls_Domain",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Tul%27s_Domain",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/us/Tuls_Domain",
+        "names": [
+          "Tul's Domain"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Tuls_Domain",
+        "names": [
+          "托沃之域",
+          "托沃领域"
+        ]
+      }
+    ]
+  },
+  "Uul-Netol's Domain": {
+    "zh": "乌尔尼多之域",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "BreachBossPhysical5"
+    ],
+    "english_source": "https://poedb.tw/us/Uul-Netols_Domain",
+    "source": "https://poedb.tw/cn/Uul-Netols_Domain",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Uul-Netol%27s_Domain",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/us/Uul-Netols_Domain",
+        "names": [
+          "Uul-Netol's Domain"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Uul-Netols_Domain",
+        "names": [
+          "乌尔尼多之域",
+          "乌尔尼多领域"
+        ]
+      }
+    ]
+  },
+  "Vault": {
+    "zh": "机关宝库",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsVault"
+    ],
+    "english_source": "https://poedb.tw/us/Vault",
+    "source": "https://poedb.tw/cn/Vault",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Vault",
+        "names": [
+          "Vault"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Vault",
+        "names": [
+          "宝库",
+          "机关宝库"
+        ]
+      }
+    ]
+  },
+  "Waterways": {
+    "zh": "危机水道",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsWaterways"
+    ],
+    "english_source": "https://poedb.tw/us/Waterways",
+    "source": "https://poedb.tw/cn/Waterways",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Waterways",
+        "names": [
+          "Waterways"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Waterways",
+        "names": [
+          "危机水道"
+        ]
+      }
+    ]
+  },
+  "Wharf": {
+    "zh": "毒牙海港",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "MapWorldsWharf"
+    ],
+    "english_source": "https://poedb.tw/us/Wharf",
+    "source": "https://poedb.tw/cn/Wharf",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Wharf",
+        "names": [
+          "Wharf"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Wharf",
+        "names": [
+          "毒牙海港"
+        ]
+      }
+    ]
+  },
+  "Xoph's Domain": {
+    "zh": "索伏之域",
+    "status": "paired-poedb-area-id-name",
+    "matched_ids": [
+      "BreachBossFire5"
+    ],
+    "english_source": "https://poedb.tw/us/Xophs_Domain",
+    "source": "https://poedb.tw/cn/Xophs_Domain",
+    "retrieved": "2026-11-27",
+    "attempts": [
+      {
+        "url": "https://poedb.tw/us/Xoph%27s_Domain",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/us/Xophs_Domain",
+        "names": [
+          "Xoph's Domain"
+        ]
+      },
+      {
+        "url": "https://poedb.tw/cn/Xophs_Domain",
+        "names": [
+          "索伏之域",
+          "索伏领域"
+        ]
+      }
+    ]
+  }
+}

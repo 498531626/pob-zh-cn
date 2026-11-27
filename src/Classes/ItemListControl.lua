@@ -19,6 +19,7 @@ function ItemListClass:ItemListControl(anchor, rect, itemsTab, forceTooltip)
 	self.itemsTab = itemsTab
 	self.defaultText = "^x7F7F7FThis is the list of items that have been added to this build.\nYou can add items to this list by dragging them from\none of the other lists, or by clicking 'Add to build' when\nviewing an item."
 	self.dragTargetList = { }
+	self.reserveIconSpace = true
 	self.controls.loadoutFilter = new("DropDownControl"):DropDownControl({"BOTTOMLEFT",self,"TOPLEFT"}, {0, -2, 110, 18}, nil, function()
 		self:UpdateList()
 	end)
@@ -88,7 +89,7 @@ function ItemListClass:UpdateLoadoutList()
 	local build = self.itemsTab.build
 	if build and build.controls and build.controls.buildLoadouts then
 		for _, val in ipairs(build.controls.buildLoadouts.list) do
-			if val ~= "^7^7Loadouts:" and val ~= "^7^7-----" and val ~= "^7^7New Loadout" and val ~= "^7^7Sync" and val ~= "^7^7Help >>" then
+			if val ~= "^7^7Loadouts:" and val ~= "^7^7-----" and val ~= "^7^7New Loadout" and val ~= "^7^7Manage" and val ~= "^7^7Sync" and val ~= "^7^7Help >>" then
 				if not listValues[val] then
 					t_insert(list, val)
 					listValues[val] = true
@@ -273,6 +274,10 @@ function ItemListClass:GetRowValue(column, index, itemId)
 		end
 		return colorCodes[item.rarity] .. name .. used
 	end
+end
+
+function ItemListClass:GetRowIcon(column, index, itemId)
+	return self.itemsTab:GetItemIcon(self.itemsTab.items[itemId])
 end
 
 function ItemListClass:AddValueTooltip(tooltip, index, itemId)

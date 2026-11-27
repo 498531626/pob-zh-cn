@@ -140,5 +140,15 @@
   "Balance of Terror Curse Disable": "恐惧之平衡：禁用诅咒",
   "Ignite Stack Potential override": "点燃叠层潜力覆盖值",
   "Igniting": "点燃",
-  "Scorch Stacks": "烧灼层数"
+  "Scorch Stacks": "烧灼层数",
+  "Pact of Ghorr:": "咕尔契约：",
+  "# of Fleshrend stacks on enemy:": "敌人身上的血肉撕裂层数：",
+  "Hunger of Ghorr periodically triggers Fleshrend, whose debuff stacks up to 3 times.\nEach stack causes the enemy to take 25% increased Damage over Time.\nThe debuff is short, so 3 stacks is a peak rather than a sustained value.": "戈尔之饥会周期性触发血肉撕裂，其减益最多叠加 3 层。\n每层使敌人受到的持续伤害提高 25%。\n减益持续时间较短，因此 3 层代表峰值，而非可持续维持的数值。",
+  "Do you use Brine Charges?": "是否使用盐水球？",
+  "# of Brine Charges (if not maximum):": "盐水球数量（未达到上限时）：",
+  "Have you used a Retaliation Skill Recently?": "近期是否使用过反击技能？",
+  "Recently refers to the past 4 seconds.": "近期指过去 4 秒内。",
+  "Hunger of Ghorr periodically triggers Fleshrend, whose debuff stacks up to 3 times.": "戈尔之饥会周期性触发血肉撕裂，其减益最多叠加 3 层。",
+  "Each stack causes the enemy to take 25% increased Damage over Time.": "每层使敌人受到的持续伤害提高 25%。",
+  "The debuff is short, so 3 stacks is a peak rather than a sustained value.": "减益持续时间较短，因此 3 层代表峰值，而非可持续维持的数值。"
 }

@@ -297,5 +297,11 @@
   "Totem level: %d": "图腾等级：%d",
   "Totems Summoned: %d (can be overridden in the Configuration tab)": "已召唤图腾：%d（可在配置页覆盖）",
   "= %.1f%% over %d seconds": "= %.1f%%，在 %d 秒内",
-  "Limited to Level %d": "等级上限 %d"
+  "Limited to Level %d": "等级上限 %d",
+  "Base Movement Speed: %.2f": "基础移动速度：%.2f",
+  "Resistances: %s%d / %s%d / %s%d / %s%d": "抗性：%s%d / %s%d / %s%d / %s%d",
+  "%g%% (inverted hit after penetration%s)": "%g%%（穿透后的反转击中%s）",
+  "/%d (repeated attacks/casts do not count)": "/%d（重复的攻击/施法不计入）",
+  "  %s%s: %+.1f%%^7 (weight: %.2f)": "  %s%s：%+.1f%%^7（权重：%.2f）",
+  "  %sOverall: %+.1f%%": "  %s总体：%+.1f%%"
 }

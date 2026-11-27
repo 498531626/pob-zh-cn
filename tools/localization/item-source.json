@@ -11801,16 +11801,10 @@
     "english":"(1-2)% increased Trap Throwing Speed",
     "kind":"craft-stat"
   },{
-    "english":"(1-2)% of Attack Damage Leeched as Life",
-    "kind":"craft-stat"
-  },{
     "english":"(1-2)% of Damage from Hits is taken from your nearest Totem's Life before you",
     "kind":"craft-stat"
   },{
     "english":"(1-2)% of Damage is taken from Mana before Life",
-    "kind":"craft-stat"
-  },{
-    "english":"(1-2)% of Fire Damage Leeched as Life while Ignited",
     "kind":"craft-stat"
   },{
     "english":"(1-2)% of Physical Attack Damage Leeched as Life",
@@ -12137,9 +12131,6 @@
     "english":"(10-12)% increased Attack Speed",
     "kind":"craft-stat"
   },{
-    "english":"(10-12)% increased Attack Speed while Dual Wielding",
-    "kind":"craft-stat"
-  },{
     "english":"(10-12)% increased Attack Speed while Fortified",
     "kind":"craft-stat"
   },{
@@ -12147,9 +12138,6 @@
     "kind":"craft-stat"
   },{
     "english":"(10-12)% increased Attack and Cast Speed during Onslaught",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-12)% increased Attack and Cast Speed if you've used a Movement Skill Recently",
     "kind":"craft-stat"
   },{
     "english":"(10-12)% increased Attributes",
@@ -12261,12 +12249,6 @@
     "kind":"craft-stat"
   },{
     "english":"(10-12)% increased maximum Life",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-12)% more Maximum Lightning Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-12)% more Maximum Physical Attack Damage",
     "kind":"craft-stat"
   },{
     "english":"(10-12)% of Damage taken Recouped as Life",
@@ -12419,16 +12401,7 @@
     "english":"(10-15)% chance to Avoid Elemental Ailments while Phasing",
     "kind":"craft-stat"
   },{
-    "english":"(10-15)% chance to Avoid Physical Damage from Hits",
-    "kind":"craft-stat"
-  },{
     "english":"(10-15)% chance to Avoid being Poisoned",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% chance to Avoid being Stunned",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% chance to Cause Monsters to Flee",
     "kind":"craft-stat"
   },{
     "english":"(10-15)% chance to Cover Enemies in Ash on Hit",
@@ -12449,12 +12422,6 @@
     "english":"(10-15)% chance to Impale on Spell Hit",
     "kind":"craft-stat"
   },{
-    "english":"(10-15)% chance to Knock Enemies Back on hit",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% chance to Poison on Hit",
-    "kind":"craft-stat"
-  },{
     "english":"(10-15)% chance to Shock",
     "kind":"craft-stat"
   },{
@@ -12471,12 +12438,6 @@
     "kind":"craft-stat"
   },{
     "english":"(10-15)% chance to gain Unholy Might for 3 seconds on Kill",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% chance to gain a Brine Charge instead of an Endurance Charge",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% chance to gain a Frenzy Charge for each Enemy you hit with a Critical Strike",
     "kind":"craft-stat"
   },{
     "english":"(10-15)% chance to gain a Frenzy Charge on Hit if 4 Redeemer Items are Equipped",
@@ -12521,9 +12482,6 @@
     "english":"(10-15)% increased Cast Speed",
     "kind":"craft-stat"
   },{
-    "english":"(10-15)% increased Chaos Damage",
-    "kind":"craft-stat"
-  },{
     "english":"(10-15)% increased Chaos Damage for each Corrupted Item Equipped",
     "kind":"craft-stat"
   },{
@@ -12539,9 +12497,6 @@
     "english":"(10-15)% increased Cooldown Recovery Rate for throwing Traps",
     "kind":"craft-stat"
   },{
-    "english":"(10-15)% increased Damage if you have Consumed a corpse Recently",
-    "kind":"craft-stat"
-  },{
     "english":"(10-15)% increased Dexterity",
     "kind":"craft-stat"
   },{
@@ -12549,12 +12504,6 @@
     "kind":"craft-stat"
   },{
     "english":"(10-15)% increased Duration of Elemental Ailments on Enemies",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% increased Effect of Cold Ailments",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% increased Effect of Consecrated Ground you create",
     "kind":"craft-stat"
   },{
     "english":"(10-15)% increased Effect of your Curses",
@@ -12605,9 +12554,6 @@
     "english":"(10-15)% increased Life Recovery rate",
     "kind":"craft-stat"
   },{
-    "english":"(10-15)% increased Life Recovery rate while Recouping Life",
-    "kind":"craft-stat"
-  },{
     "english":"(10-15)% increased Life Regeneration rate",
     "kind":"craft-stat"
   },{
@@ -12623,9 +12569,6 @@
     "english":"(10-15)% increased Mana Recovery rate",
     "kind":"craft-stat"
   },{
-    "english":"(10-15)% increased Maximum Recovery per Life Leech",
-    "kind":"craft-stat"
-  },{
     "english":"(10-15)% increased Minion Damage per Raised Spectre",
     "kind":"craft-stat"
   },{
@@ -12639,9 +12582,6 @@
     "kind":"craft-stat"
   },{
     "english":"(10-15)% increased Physical Damage with Ranged Weapons",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% increased Projectile Damage",
     "kind":"craft-stat"
   },{
     "english":"(10-15)% increased Quantity of Items found",
@@ -12668,12 +12608,6 @@
     "english":"(10-15)% increased Stun and Block Recovery",
     "kind":"craft-stat"
   },{
-    "english":"(10-15)% increased Totem Placement speed",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% increased Warcry Speed",
-    "kind":"craft-stat"
-  },{
     "english":"(10-15)% increased effect of Non-Curse Auras from your Skills",
     "kind":"craft-stat"
   },{
@@ -12692,40 +12626,13 @@
     "english":"(10-15)% increased total Recovery per second from Mana Leech",
     "kind":"craft-stat"
   },{
-    "english":"(10-15)% of Cold Damage from Hits taken as Fire Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% of Damage taken Recouped as Energy Shield",
-    "kind":"craft-stat"
-  },{
     "english":"(10-15)% of Damage taken Recouped as Life",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% of Damage taken from Stunning Hits is Recovered as Life",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% of Fire Damage from Hits taken as Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% of Lightning Damage from Hits taken as Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% of Lightning Damage from Hits taken as Fire Damage",
     "kind":"craft-stat"
   },{
     "english":"(10-15)% of Maximum Life Converted to Energy Shield",
     "kind":"craft-stat"
   },{
     "english":"(10-15)% of Physical Damage Converted to Chaos Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% of Physical Damage Converted to Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% of Physical Damage Converted to Fire Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-15)% of Physical Damage Converted to Lightning Damage",
     "kind":"craft-stat"
   },{
     "english":"(10-15)% of Physical Damage from Hits taken as Cold Damage during Effect",
@@ -12842,22 +12749,13 @@
     "english":"(10-20)% chance to gain a Frenzy Charge on Hit while Blinded",
     "kind":"craft-stat"
   },{
-    "english":"(10-20)% chance to gain a Frenzy Charge when you Block",
-    "kind":"craft-stat"
-  },{
     "english":"(10-20)% chance to gain a Power Charge when you Cast a Curse Spell",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-20)% chance to gain an Endurance Charge when you Block",
     "kind":"craft-stat"
   },{
     "english":"(10-20)% chance to gain an Endurance Charge when you are Hit",
     "kind":"craft-stat"
   },{
     "english":"(10-20)% chance to inflict Corrosion on Hit with Spells",
-    "kind":"craft-stat"
-  },{
-    "english":"(10-20)% chance to inflict an additional Poison on the same Target when you inflict Poison",
     "kind":"craft-stat"
   },{
     "english":"(10-20)% increased Area Damage",
@@ -14006,9 +13904,6 @@
     "english":"(12-15)% increased Mana Regeneration Rate",
     "kind":"craft-stat"
   },{
-    "english":"(12-15)% increased Movement Speed while on Burning Ground",
-    "kind":"craft-stat"
-  },{
     "english":"(12-15)% increased Power Charge Duration",
     "kind":"craft-stat"
   },{
@@ -14022,12 +13917,6 @@
     "kind":"craft-stat"
   },{
     "english":"(12-15)% increased maximum Mana",
-    "kind":"craft-stat"
-  },{
-    "english":"(12-15)% more Damage against Undead Monsters",
-    "kind":"craft-stat"
-  },{
-    "english":"(12-16)% chance to Defend with 200% of Armour",
     "kind":"craft-stat"
   },{
     "english":"(12-16)% increased Attack Speed",
@@ -15512,13 +15401,7 @@
     "english":"(15-20)% chance to Defend with 200% of Armour",
     "kind":"craft-stat"
   },{
-    "english":"(15-20)% chance to Hinder Enemies on Hit with Spells",
-    "kind":"craft-stat"
-  },{
     "english":"(15-20)% chance to Ignore Stuns while Casting",
-    "kind":"craft-stat"
-  },{
-    "english":"(15-20)% chance to Impale Enemies on Hit with Attacks",
     "kind":"craft-stat"
   },{
     "english":"(15-20)% chance to Knock Enemies Back on hit",
@@ -15536,16 +15419,7 @@
     "english":"(15-20)% chance to gain Onslaught when you use a Flask",
     "kind":"craft-stat"
   },{
-    "english":"(15-20)% chance to gain Phasing for 4 seconds on Kill",
-    "kind":"craft-stat"
-  },{
     "english":"(15-20)% chance to gain a Frenzy Charge when Hit",
-    "kind":"craft-stat"
-  },{
-    "english":"(15-20)% chance to gain a Power Charge on Kill",
-    "kind":"craft-stat"
-  },{
-    "english":"(15-20)% chance to inflict Fire Exposure on Hit",
     "kind":"craft-stat"
   },{
     "english":"(15-20)% chance to inflict Withered for 2 seconds on Hit against Cursed Enemies",
@@ -15555,9 +15429,6 @@
     "kind":"craft-stat"
   },{
     "english":"(15-20)% increased Area of Effect",
-    "kind":"craft-stat"
-  },{
-    "english":"(15-20)% increased Area of Effect for Attacks",
     "kind":"craft-stat"
   },{
     "english":"(15-20)% increased Armour",
@@ -15582,9 +15453,6 @@
     "kind":"craft-stat"
   },{
     "english":"(15-20)% increased Cooldown Recovery Rate",
-    "kind":"craft-stat"
-  },{
-    "english":"(15-20)% increased Cooldown Recovery Rate of Travel Skills",
     "kind":"craft-stat"
   },{
     "english":"(15-20)% increased Critical Strike Chance",
@@ -15620,9 +15488,6 @@
     "english":"(15-20)% increased Effect of Shrine Buffs on you",
     "kind":"craft-stat"
   },{
-    "english":"(15-20)% increased Effect of Withered",
-    "kind":"craft-stat"
-  },{
     "english":"(15-20)% increased Effect of your Curses",
     "kind":"craft-stat"
   },{
@@ -15636,15 +15501,6 @@
     "kind":"craft-stat"
   },{
     "english":"(15-20)% increased Global Defences",
-    "kind":"craft-stat"
-  },{
-    "english":"(15-20)% increased Ignite Duration on Enemies",
-    "kind":"craft-stat"
-  },{
-    "english":"(15-20)% increased Impale Effect",
-    "kind":"craft-stat"
-  },{
-    "english":"(15-20)% increased Life Regeneration rate",
     "kind":"craft-stat"
   },{
     "english":"(15-20)% increased Light Radius",
@@ -15684,12 +15540,6 @@
     "kind":"craft-stat"
   },{
     "english":"(15-20)% increased maximum Mana",
-    "kind":"craft-stat"
-  },{
-    "english":"(15-20)% of Chaos Damage taken does not bypass Energy Shield",
-    "kind":"craft-stat"
-  },{
-    "english":"(15-20)% of Damage taken Recouped as Mana",
     "kind":"craft-stat"
   },{
     "english":"(15-20)% of Life Regeneration also applies to Energy Shield if no Equipped Items are Corrupted",
@@ -16418,9 +16268,6 @@
     "english":"(16-24)% increased Attack Speed if you've used an Attack Movement Skill Recently",
     "kind":"craft-stat"
   },{
-    "english":"(16-24)% increased Damage if you have Consumed a corpse Recently",
-    "kind":"craft-stat"
-  },{
     "english":"(16-24)% increased Reservation Efficiency of Skills while affected by a Unique Abyss Jewel",
     "kind":"craft-stat"
   },{
@@ -17078,9 +16925,6 @@
     "english":"(18-24) Mana gained when you Block",
     "kind":"craft-stat"
   },{
-    "english":"(18-24)% chance to Avoid Bleeding",
-    "kind":"craft-stat"
-  },{
     "english":"(18-24)% chance to Freeze",
     "kind":"craft-stat"
   },{
@@ -17088,12 +16932,6 @@
     "kind":"craft-stat"
   },{
     "english":"(18-24)% chance to Shock",
-    "kind":"craft-stat"
-  },{
-    "english":"(18-24)% increased Damage with Skills that Cost Life",
-    "kind":"craft-stat"
-  },{
-    "english":"(18-24)% increased Stun Threshold",
     "kind":"craft-stat"
   },{
     "english":"(18-24)% reduced Mana Reservation Efficiency of Skills",
@@ -17348,9 +17186,6 @@
     "english":"(2-3)% additional Physical Damage Reduction against Abyssal Monsters",
     "kind":"craft-stat"
   },{
-    "english":"(2-3)% chance for Slain monsters to drop an additional Scroll of Wisdom",
-    "kind":"craft-stat"
-  },{
     "english":"(2-3)% chance to Freeze",
     "kind":"craft-stat"
   },{
@@ -17361,15 +17196,6 @@
     "kind":"craft-stat"
   },{
     "english":"(2-3)% chance to Shock",
-    "kind":"craft-stat"
-  },{
-    "english":"(2-3)% chance to gain a Frenzy Charge on Hit",
-    "kind":"craft-stat"
-  },{
-    "english":"(2-3)% chance to gain a Power Charge on Hit",
-    "kind":"craft-stat"
-  },{
-    "english":"(2-3)% chance to gain an Endurance Charge on Hit",
     "kind":"craft-stat"
   },{
     "english":"(2-3)% chance to gain an additional Vaal Soul on Kill",
@@ -17879,16 +17705,10 @@
     "english":"(20-25)% increased Damage with Poison",
     "kind":"craft-stat"
   },{
-    "english":"(20-25)% increased Effect of Impales inflicted with Spells",
-    "kind":"craft-stat"
-  },{
     "english":"(20-25)% increased Elemental Damage with Attack Skills",
     "kind":"craft-stat"
   },{
     "english":"(20-25)% increased Elemental Damage with Attack Skills per Power Charge",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-25)% increased Elusive Effect",
     "kind":"craft-stat"
   },{
     "english":"(20-25)% increased Global Accuracy Rating",
@@ -18029,16 +17849,7 @@
     "english":"(20-30)% chance on Melee Hit for the Strongest Impale on target to last for 1 additional Hit",
     "kind":"craft-stat"
   },{
-    "english":"(20-30)% chance to Avoid Elemental Ailments",
-    "kind":"craft-stat"
-  },{
     "english":"(20-30)% chance to Avoid being Chilled",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% chance to Avoid being Stunned",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% chance to Cause Monsters to Flee",
     "kind":"craft-stat"
   },{
     "english":"(20-30)% chance to Curse Enemies with Elemental Weakness on Hit",
@@ -18053,22 +17864,10 @@
     "english":"(20-30)% chance to Hinder Enemies on Hit with Spells",
     "kind":"craft-stat"
   },{
-    "english":"(20-30)% chance to Ignite",
-    "kind":"craft-stat"
-  },{
     "english":"(20-30)% chance to Ignite during any Flask Effect",
     "kind":"craft-stat"
   },{
-    "english":"(20-30)% chance to Knock Enemies Back on hit",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% chance to Poison on Hit",
-    "kind":"craft-stat"
-  },{
     "english":"(20-30)% chance to Sap Enemies in Chilling Areas",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% chance to Shock",
     "kind":"craft-stat"
   },{
     "english":"(20-30)% chance to Shock during any Flask Effect",
@@ -18134,9 +17933,6 @@
     "english":"(20-30)% increased Armour from Equipped Boots and Gloves",
     "kind":"craft-stat"
   },{
-    "english":"(20-30)% increased Armour from Equipped Helmet and Gloves",
-    "kind":"craft-stat"
-  },{
     "english":"(20-30)% increased Armour if you haven't Killed Recently",
     "kind":"craft-stat"
   },{
@@ -18194,19 +17990,10 @@
     "english":"(20-30)% increased Critical Strike Chance with Bows",
     "kind":"craft-stat"
   },{
-    "english":"(20-30)% increased Damage if you have Consumed a corpse Recently",
-    "kind":"craft-stat"
-  },{
     "english":"(20-30)% increased Damage over Time",
     "kind":"craft-stat"
   },{
     "english":"(20-30)% increased Damage per Frenzy Charge with Hits against Enemies on Low Life",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% increased Damage while Bleeding",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% increased Damage while Blind",
     "kind":"craft-stat"
   },{
     "english":"(20-30)% increased Damage while Dead",
@@ -18227,15 +18014,6 @@
     "english":"(20-30)% increased Effect of Auras from Mines",
     "kind":"craft-stat"
   },{
-    "english":"(20-30)% increased Effect of Chill",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% increased Effect of Cold Ailments",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% increased Effect of Consecrated Ground you create",
-    "kind":"craft-stat"
-  },{
     "english":"(20-30)% increased Effect of Non-Damaging Ailments you inflict during Effect",
     "kind":"craft-stat"
   },{
@@ -18252,9 +18030,6 @@
     "kind":"craft-stat"
   },{
     "english":"(20-30)% increased Energy Shield from Equipped Body Armour",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% increased Evasion Rating from Equipped Helmet and Boots",
     "kind":"craft-stat"
   },{
     "english":"(20-30)% increased Fire Damage",
@@ -18320,9 +18095,6 @@
     "english":"(20-30)% increased Movement Speed if you've Cast Dash recently",
     "kind":"craft-stat"
   },{
-    "english":"(20-30)% increased Projectile Damage",
-    "kind":"craft-stat"
-  },{
     "english":"(20-30)% increased Projectile Speed",
     "kind":"craft-stat"
   },{
@@ -18347,9 +18119,6 @@
     "english":"(20-30)% increased Stun Duration on Enemies",
     "kind":"craft-stat"
   },{
-    "english":"(20-30)% increased Stun and Block Recovery",
-    "kind":"craft-stat"
-  },{
     "english":"(20-30)% increased Temporal Chains Curse Effect",
     "kind":"craft-stat"
   },{
@@ -18360,12 +18129,6 @@
     "kind":"craft-stat"
   },{
     "english":"(20-30)% increased Vulnerability Curse Effect",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% increased Warcry Speed",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% increased bonuses gained from Equipped Gloves",
     "kind":"craft-stat"
   },{
     "english":"(20-30)% increased maximum Mana",
@@ -18401,15 +18164,6 @@
     "english":"(20-30)% of Fire and Lightning Damage from Hits taken as Cold Damage during Effect",
     "kind":"craft-stat"
   },{
-    "english":"(20-30)% of Physical Damage Converted to Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% of Physical Damage Converted to Fire Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% of Physical Damage Converted to Lightning Damage",
-    "kind":"craft-stat"
-  },{
     "english":"(20-30)% reduced Attack Speed",
     "kind":"craft-stat"
   },{
@@ -18417,12 +18171,6 @@
     "kind":"craft-stat"
   },{
     "english":"(20-30)% reduced Cast Speed",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% reduced Effect of Chill on you",
-    "kind":"craft-stat"
-  },{
-    "english":"(20-30)% reduced Effect of Curses on you",
     "kind":"craft-stat"
   },{
     "english":"(20-30)% reduced Elemental Ailment Duration on you",
@@ -19931,9 +19679,6 @@
     "english":"(25-40)% increased Cast Speed while Ignited",
     "kind":"craft-stat"
   },{
-    "english":"(25-40)% increased Damage with Hits against Chilled Enemies",
-    "kind":"craft-stat"
-  },{
     "english":"(25-40)% increased Damage with Hits and Ailments against Blinded Enemies",
     "kind":"craft-stat"
   },{
@@ -20771,9 +20516,6 @@
     "english":"(3-4)% chance to lose an Endurance Charge on Kill",
     "kind":"craft-stat"
   },{
-    "english":"(3-4)% increased Action Speed",
-    "kind":"craft-stat"
-  },{
     "english":"(3-4)% increased Area of Effect per Endurance Charge",
     "kind":"craft-stat"
   },{
@@ -20840,9 +20582,6 @@
     "english":"(3-4)% increased Minion Accuracy Rating",
     "kind":"craft-stat"
   },{
-    "english":"(3-4)% increased Movement Speed",
-    "kind":"craft-stat"
-  },{
     "english":"(3-4)% increased Movement Speed if you haven't taken Damage Recently",
     "kind":"craft-stat"
   },{
@@ -20892,12 +20631,6 @@
     "kind":"craft-stat"
   },{
     "english":"(3-4)% of Physical Attack Damage Leeched as Mana",
-    "kind":"craft-stat"
-  },{
-    "english":"(3-4)% of Physical Damage from Hits taken as Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(3-4)% of Physical Damage from Hits taken as Fire Damage",
     "kind":"craft-stat"
   },{
     "english":"(3-5) Mana gained when you Block",
@@ -21042,9 +20775,6 @@
     "kind":"craft-stat"
   },{
     "english":"(3-5)% increased maximum Life",
-    "kind":"craft-stat"
-  },{
-    "english":"(3-5)% of Damage from Hits is taken from your Damagable Minions' Life before you",
     "kind":"craft-stat"
   },{
     "english":"(3-5)% of Damage from Hits is taken from your nearest Totem's Life before you",
@@ -21239,9 +20969,6 @@
     "english":"(30-35)% increased Duration of Ailments on Enemies",
     "kind":"craft-stat"
   },{
-    "english":"(30-35)% increased Energy Shield from Equipped Body Armour",
-    "kind":"craft-stat"
-  },{
     "english":"(30-35)% increased Evasion Rating",
     "kind":"craft-stat"
   },{
@@ -21305,9 +21032,6 @@
     "english":"(30-40)% chance for Elemental Resistances to count as being 90% against Enemy Hits",
     "kind":"craft-stat"
   },{
-    "english":"(30-40)% chance to Avoid Bleeding",
-    "kind":"craft-stat"
-  },{
     "english":"(30-40)% chance to Avoid Blind",
     "kind":"craft-stat"
   },{
@@ -21356,9 +21080,6 @@
     "english":"(30-40)% increased Damage while Leeching",
     "kind":"craft-stat"
   },{
-    "english":"(30-40)% increased Damage while in Blood Stance",
-    "kind":"craft-stat"
-  },{
     "english":"(30-40)% increased Damage with Ailments",
     "kind":"craft-stat"
   },{
@@ -21369,9 +21090,6 @@
     "kind":"craft-stat"
   },{
     "english":"(30-40)% increased Damage with Non-Vaal Skills during Soul Gain Prevention",
-    "kind":"craft-stat"
-  },{
-    "english":"(30-40)% increased Damage with Skills that Cost Life",
     "kind":"craft-stat"
   },{
     "english":"(30-40)% increased Effect of Arcane Surge on you",
@@ -21437,9 +21155,6 @@
     "english":"(30-40)% increased Spell Damage",
     "kind":"craft-stat"
   },{
-    "english":"(30-40)% increased Stun Threshold",
-    "kind":"craft-stat"
-  },{
     "english":"(30-40)% increased Stun and Block Recovery",
     "kind":"craft-stat"
   },{
@@ -21494,9 +21209,6 @@
     "english":"(30-50)% chance to Aggravate Bleeding on targets you Hit with Attacks",
     "kind":"craft-stat"
   },{
-    "english":"(30-50)% chance to avoid Corrupted Blood",
-    "kind":"craft-stat"
-  },{
     "english":"(30-50)% faster start of Energy Shield Recharge",
     "kind":"craft-stat"
   },{
@@ -21525,9 +21237,6 @@
     "kind":"craft-stat"
   },{
     "english":"(30-50)% increased Damage with Hits and Ailments against Marked Enemy",
-    "kind":"craft-stat"
-  },{
-    "english":"(30-50)% increased Damage with Vaal Skills",
     "kind":"craft-stat"
   },{
     "english":"(30-50)% increased Duration",
@@ -21648,9 +21357,6 @@
     "kind":"craft-stat"
   },{
     "english":"(300-400)% increased Global Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(300-400)% of Melee Cold Damage taken reflected to Attacker",
     "kind":"craft-stat"
   },{
     "english":"(31-32)% increased Mana Cost Efficiency",
@@ -22373,43 +22079,13 @@
     "english":"(35-50)% increased Area of Effect",
     "kind":"craft-stat"
   },{
-    "english":"(35-50)% increased Armour from Equipped Helmet and Gloves",
-    "kind":"craft-stat"
-  },{
-    "english":"(35-50)% increased Armour from Equipped Helmet, Body Armour, Gloves, and Boots",
-    "kind":"craft-stat"
-  },{
     "english":"(35-50)% increased Chill Duration on Enemies",
-    "kind":"craft-stat"
-  },{
-    "english":"(35-50)% increased Damage while Bleeding",
-    "kind":"craft-stat"
-  },{
-    "english":"(35-50)% increased Damage while Blind",
-    "kind":"craft-stat"
-  },{
-    "english":"(35-50)% increased Damage with Hits against Rare monsters",
-    "kind":"craft-stat"
-  },{
-    "english":"(35-50)% increased Evasion Rating from Equipped Helmet and Boots",
-    "kind":"craft-stat"
-  },{
-    "english":"(35-50)% increased Evasion Rating from Equipped Helmet, Body Armour Gloves and Boots",
     "kind":"craft-stat"
   },{
     "english":"(35-50)% increased Physical Damage",
     "kind":"craft-stat"
   },{
     "english":"(35-50)% increased Quantity of Items Dropped by Slain Normal Enemies",
-    "kind":"craft-stat"
-  },{
-    "english":"(35-50)% reduced Effect of Chill on you",
-    "kind":"craft-stat"
-  },{
-    "english":"(35-50)% reduced Effect of Curses on you",
-    "kind":"craft-stat"
-  },{
-    "english":"(35-50)% reduced Ignite Duration on you",
     "kind":"craft-stat"
   },{
     "english":"(35-50)% reduced Recovery rate",
@@ -23018,16 +22694,7 @@
     "english":"(4-5)% of Physical Damage is taken from Mana before Life",
     "kind":"craft-stat"
   },{
-    "english":"(4-5)% reduced Burning Damage taken",
-    "kind":"craft-stat"
-  },{
-    "english":"(4-5)% reduced Chaos Damage taken over time",
-    "kind":"craft-stat"
-  },{
     "english":"(4-5)% reduced Mana Cost of Skills",
-    "kind":"craft-stat"
-  },{
-    "english":"(4-5)% reduced Physical Damage taken over time",
     "kind":"craft-stat"
   },{
     "english":"(4-6) Life gained when you Block",
@@ -23066,9 +22733,6 @@
     "english":"(4-6)% chance to deal Double Damage",
     "kind":"craft-stat"
   },{
-    "english":"(4-6)% chance to gain Phasing on Hit",
-    "kind":"craft-stat"
-  },{
     "english":"(4-6)% chance to gain a Frenzy Charge on Kill",
     "kind":"craft-stat"
   },{
@@ -23096,13 +22760,7 @@
     "english":"(4-6)% increased Attack Speed while holding a Shield",
     "kind":"craft-stat"
   },{
-    "english":"(4-6)% increased Attack Speed with Claws",
-    "kind":"craft-stat"
-  },{
     "english":"(4-6)% increased Attack Speed with One Handed Melee Weapons",
-    "kind":"craft-stat"
-  },{
-    "english":"(4-6)% increased Attack Speed with Swords",
     "kind":"craft-stat"
   },{
     "english":"(4-6)% increased Attack Speed with Two Handed Melee Weapons",
@@ -23135,9 +22793,6 @@
     "english":"(4-6)% increased Movement Speed if you've Hit an Enemy Recently",
     "kind":"craft-stat"
   },{
-    "english":"(4-6)% increased Movement Speed while Ignited",
-    "kind":"craft-stat"
-  },{
     "english":"(4-6)% increased Strength",
     "kind":"craft-stat"
   },{
@@ -23153,16 +22808,10 @@
     "english":"(4-6)% increased maximum Mana",
     "kind":"craft-stat"
   },{
-    "english":"(4-6)% of Cold Damage taken as Fire Damage",
-    "kind":"craft-stat"
-  },{
     "english":"(4-6)% of Damage from Hits is taken from Void Spawns' Life before you per Void Spawn",
     "kind":"craft-stat"
   },{
     "english":"(4-6)% of Damage taken Recouped as Life",
-    "kind":"craft-stat"
-  },{
-    "english":"(4-6)% of Lightning Damage taken as Fire Damage",
     "kind":"craft-stat"
   },{
     "english":"(4-6)% of Physical Damage from Hits taken as Cold Damage",
@@ -23172,9 +22821,6 @@
     "kind":"craft-stat"
   },{
     "english":"(4-6)% of Physical Damage from Hits taken as Lightning Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(4-6)% of Physical Damage taken as Fire Damage",
     "kind":"craft-stat"
   },{
     "english":"(4-6)% reduced Area Damage taken from Hits",
@@ -23468,9 +23114,6 @@
     "english":"(40-50)% reduced Quantity of Fish Caught",
     "kind":"craft-stat"
   },{
-    "english":"(40-50)% reduced bonuses gained from Equipped Boots",
-    "kind":"craft-stat"
-  },{
     "english":"(40-50)% reduced maximum Energy Shield",
     "kind":"craft-stat"
   },{
@@ -23528,12 +23171,6 @@
     "english":"(40-60)% increased Critical Strike Chance during Effect",
     "kind":"craft-stat"
   },{
-    "english":"(40-60)% increased Damage against Beasts",
-    "kind":"craft-stat"
-  },{
-    "english":"(40-60)% increased Damage on Burning Ground",
-    "kind":"craft-stat"
-  },{
     "english":"(40-60)% increased Damage per Raised Zombie",
     "kind":"craft-stat"
   },{
@@ -23547,9 +23184,6 @@
     "kind":"craft-stat"
   },{
     "english":"(40-60)% increased Damage with Hits and Ailments against Enemies affected by 3 Spider's Webs",
-    "kind":"craft-stat"
-  },{
-    "english":"(40-60)% increased Damage with Hits and Ailments against Enemies that are on Full Life",
     "kind":"craft-stat"
   },{
     "english":"(40-60)% increased Damage with Poison",
@@ -24704,9 +24338,6 @@
     "english":"(5-6)% chance to take 50% less Area Damage from Hits",
     "kind":"craft-stat"
   },{
-    "english":"(5-6)% increased Action Speed while Ignited",
-    "kind":"craft-stat"
-  },{
     "english":"(5-6)% increased Area of Effect",
     "kind":"craft-stat"
   },{
@@ -24830,9 +24461,6 @@
     "english":"(5-6)% increased Spell Damage while wielding a Staff",
     "kind":"craft-stat"
   },{
-    "english":"(5-6)% increased bonuses gained from Equipped Gloves",
-    "kind":"craft-stat"
-  },{
     "english":"(5-6)% increased maximum Life",
     "kind":"craft-stat"
   },{
@@ -24842,25 +24470,13 @@
     "english":"(5-6)% of Physical Attack Damage Leeched as Life",
     "kind":"craft-stat"
   },{
-    "english":"(5-6)% of Physical Damage from Hits taken as Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(5-6)% of Physical Damage from Hits taken as Fire Damage",
-    "kind":"craft-stat"
-  },{
     "english":"(5-6)% reduced Enemy Stun Threshold",
-    "kind":"craft-stat"
-  },{
-    "english":"(5-6)% reduced Fire Damage taken",
     "kind":"craft-stat"
   },{
     "english":"(5-7) to (10-14) Added Physical Damage with Bow Attacks",
     "kind":"craft-stat"
   },{
     "english":"(5-7)% Chance to Block Attack Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(5-7)% chance to Aggravate Bleeding on targets you Hit with Attacks",
     "kind":"craft-stat"
   },{
     "english":"(5-7)% chance to Avoid Cold Damage from Hits",
@@ -24884,16 +24500,7 @@
     "english":"(5-7)% chance to Impale Enemies on Hit with Attacks",
     "kind":"craft-stat"
   },{
-    "english":"(5-7)% chance to Impale on Spell Hit",
-    "kind":"craft-stat"
-  },{
-    "english":"(5-7)% chance to Recover all Life when you Kill an Enemy",
-    "kind":"craft-stat"
-  },{
     "english":"(5-7)% chance to deal Double Damage if you have Stunned an Enemy Recently",
-    "kind":"craft-stat"
-  },{
-    "english":"(5-7)% chance to gain Elusive on Kill",
     "kind":"craft-stat"
   },{
     "english":"(5-7)% chance to gain Onslaught for 4 seconds on Kill",
@@ -24915,9 +24522,6 @@
     "kind":"craft-stat"
   },{
     "english":"(5-7)% increased Attack and Cast Speed if Corrupted",
-    "kind":"craft-stat"
-  },{
-    "english":"(5-7)% increased Attack and Cast Speed if you've used a Movement Skill Recently",
     "kind":"craft-stat"
   },{
     "english":"(5-7)% increased Attributes",
@@ -24944,9 +24548,6 @@
     "english":"(5-7)% increased Effect of Non-Damaging Ailments",
     "kind":"craft-stat"
   },{
-    "english":"(5-7)% increased Effect of your Curses",
-    "kind":"craft-stat"
-  },{
     "english":"(5-7)% increased Global Defences",
     "kind":"craft-stat"
   },{
@@ -24957,9 +24558,6 @@
     "kind":"craft-stat"
   },{
     "english":"(5-7)% increased Movement Speed if you've Hit an Enemy Recently",
-    "kind":"craft-stat"
-  },{
-    "english":"(5-7)% increased Quantity of Gold Dropped by Slain Enemies",
     "kind":"craft-stat"
   },{
     "english":"(5-7)% increased Quantity of Items found",
@@ -24975,12 +24573,6 @@
     "kind":"craft-stat"
   },{
     "english":"(5-7)% increased maximum Life",
-    "kind":"craft-stat"
-  },{
-    "english":"(5-7)% more Maximum Life",
-    "kind":"craft-stat"
-  },{
-    "english":"(5-7)% of Damage taken Recouped as Life",
     "kind":"craft-stat"
   },{
     "english":"(5-7)% of Fire Damage Leeched as Life",
@@ -25928,12 +25520,6 @@
     "english":"(6-7)% increased maximum Energy Shield",
     "kind":"craft-stat"
   },{
-    "english":"(6-7)% reduced Burning Damage taken",
-    "kind":"craft-stat"
-  },{
-    "english":"(6-7)% reduced Chaos Damage taken over time",
-    "kind":"craft-stat"
-  },{
     "english":"(6-7)% reduced Enemy Stun Threshold",
     "kind":"craft-stat"
   },{
@@ -25941,9 +25527,6 @@
     "kind":"craft-stat"
   },{
     "english":"(6-7)% reduced Movement Speed",
-    "kind":"craft-stat"
-  },{
-    "english":"(6-7)% reduced Physical Damage taken over time",
     "kind":"craft-stat"
   },{
     "english":"(6-8) to (12-13) Added Cold Damage per Frenzy Charge",
@@ -26099,9 +25682,6 @@
     "english":"(6-8)% increased maximum Life if Corrupted",
     "kind":"craft-stat"
   },{
-    "english":"(6-8)% more Damage against Undead Monsters",
-    "kind":"craft-stat"
-  },{
     "english":"(6-8)% of Leech is Instant",
     "kind":"craft-stat"
   },{
@@ -26240,13 +25820,7 @@
     "english":"(60-69)% increased Spell Damage",
     "kind":"craft-stat"
   },{
-    "english":"(60-70)% increased Armour from Equipped Body Armour",
-    "kind":"craft-stat"
-  },{
     "english":"(60-70)% increased Attack Damage if Corrupted",
-    "kind":"craft-stat"
-  },{
-    "english":"(60-70)% increased Evasion Rating from Equipped Body Armour",
     "kind":"craft-stat"
   },{
     "english":"(60-70)% increased Spell Damage",
@@ -26265,9 +25839,6 @@
     "kind":"craft-stat"
   },{
     "english":"(60-79)% increased Physical Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(60-80)% chance to avoid Corrupted Blood",
     "kind":"craft-stat"
   },{
     "english":"(60-80)% increased Armour",
@@ -26556,9 +26127,6 @@
     "kind":"craft-stat"
   },{
     "english":"(7-10)% Chance to Block Spell Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"(7-10)% chance to Defend with 200% of Armour",
     "kind":"craft-stat"
   },{
     "english":"(7-10)% chance to Freeze",
@@ -27203,12 +26771,6 @@
     "english":"(74-88)% increased Spell Damage",
     "kind":"craft-stat"
   },{
-    "english":"(75-100)% chance to gain an Endurance Charge when you Stun an Enemy with a Melee Hit",
-    "kind":"craft-stat"
-  },{
-    "english":"(75-100)% increased Damage with Hits and Ailments against Enemies that are on Full Life",
-    "kind":"craft-stat"
-  },{
     "english":"(75-100)% increased Damage with Poison if you have at least 300 Dexterity",
     "kind":"craft-stat"
   },{
@@ -27228,9 +26790,6 @@
     "kind":"craft-stat"
   },{
     "english":"(75-100)% increased Spell Critical Strike Chance",
-    "kind":"craft-stat"
-  },{
-    "english":"(75-100)% increased Stun Duration against Enemies that are on Full Life",
     "kind":"craft-stat"
   },{
     "english":"(75-150)% increased Melee Fire Damage",
@@ -27350,12 +26909,6 @@
     "english":"(8-10)% increased Attack Speed",
     "kind":"craft-stat"
   },{
-    "english":"(8-10)% increased Attack Speed with Claws",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-10)% increased Attack Speed with Swords",
-    "kind":"craft-stat"
-  },{
     "english":"(8-10)% increased Attack and Cast Speed",
     "kind":"craft-stat"
   },{
@@ -27392,9 +26945,6 @@
     "english":"(8-10)% increased Ignite Duration on Enemies",
     "kind":"craft-stat"
   },{
-    "english":"(8-10)% increased Life Regeneration rate",
-    "kind":"craft-stat"
-  },{
     "english":"(8-10)% increased Mana Reservation Efficiency of Skills",
     "kind":"craft-stat"
   },{
@@ -27407,19 +26957,10 @@
     "english":"(8-10)% increased Movement Speed if you've Hit an Enemy Recently",
     "kind":"craft-stat"
   },{
-    "english":"(8-10)% increased Movement Speed while Ignited",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-10)% increased Movement Speed while on Burning Ground",
-    "kind":"craft-stat"
-  },{
     "english":"(8-10)% increased Quantity of Items found",
     "kind":"craft-stat"
   },{
     "english":"(8-10)% increased Shock Duration on Enemies",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-10)% increased bonuses gained from Equipped Gloves",
     "kind":"craft-stat"
   },{
     "english":"(8-10)% increased effect of Non-Curse Auras from your Skills",
@@ -27438,9 +26979,6 @@
     "kind":"craft-stat"
   },{
     "english":"(8-10)% increased total Recovery per second from Life Leech",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-10)% of Physical Damage over Time taken as Chaos Damage",
     "kind":"craft-stat"
   },{
     "english":"(8-10)% reduced Elemental Ailment Duration on you",
@@ -27494,34 +27032,7 @@
     "english":"(8-12)% Chance to Block Spell Damage",
     "kind":"craft-stat"
   },{
-    "english":"(8-12)% chance that if you would gain Power Charges, you instead gain up to",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% chance to Aggravate Bleeding on targets you Hit with Attacks",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% chance to Hinder Enemies on Hit with Spells",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% chance to Impale Enemies on Hit with Attacks",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% chance to Impale on Spell Hit",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% chance to gain Elusive on Kill",
-    "kind":"craft-stat"
-  },{
     "english":"(8-12)% chance to gain Onslaught for 4 seconds on Kill",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% chance to gain Phasing for 4 seconds on Kill",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% chance to gain a Power Charge on Kill",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% chance to inflict Fire Exposure on Hit",
     "kind":"craft-stat"
   },{
     "english":"(8-12)% increased Area of Effect",
@@ -27563,22 +27074,13 @@
     "english":"(8-12)% increased Cooldown Recovery Rate",
     "kind":"craft-stat"
   },{
-    "english":"(8-12)% increased Cooldown Recovery Rate of Travel Skills",
-    "kind":"craft-stat"
-  },{
     "english":"(8-12)% increased Critical Strike Chance",
     "kind":"craft-stat"
   },{
     "english":"(8-12)% increased Damage over Time",
     "kind":"craft-stat"
   },{
-    "english":"(8-12)% increased Damage per Curse on you",
-    "kind":"craft-stat"
-  },{
     "english":"(8-12)% increased Damage with Bleeding",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% increased Damage with Hits and Ailments per Curse on Enemy",
     "kind":"craft-stat"
   },{
     "english":"(8-12)% increased Damage with Poison",
@@ -27614,9 +27116,6 @@
     "english":"(8-12)% increased Intelligence",
     "kind":"craft-stat"
   },{
-    "english":"(8-12)% increased Light Radius",
-    "kind":"craft-stat"
-  },{
     "english":"(8-12)% increased Mana Recovery rate",
     "kind":"craft-stat"
   },{
@@ -27633,12 +27132,6 @@
     "kind":"craft-stat"
   },{
     "english":"(8-12)% increased Poison Duration",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% increased Projectile Speed",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% increased Quantity of Gold Dropped by Slain Enemies",
     "kind":"craft-stat"
   },{
     "english":"(8-12)% increased Quantity of Items found during Effect",
@@ -27659,22 +27152,10 @@
     "english":"(8-12)% increased Trap Throwing Speed",
     "kind":"craft-stat"
   },{
-    "english":"(8-12)% increased bonuses gained from Equipped Boots",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% increased maximum Energy Shield",
-    "kind":"craft-stat"
-  },{
     "english":"(8-12)% increased maximum Life",
     "kind":"craft-stat"
   },{
     "english":"(8-12)% of Armour applies to Fire, Cold and Lightning Damage taken from Hits if you have Blocked Recently",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% of Chaos Damage taken does not bypass Energy Shield",
-    "kind":"craft-stat"
-  },{
-    "english":"(8-12)% of Damage taken Recouped as Life",
     "kind":"craft-stat"
   },{
     "english":"(8-12)% of Leech is Instant",
@@ -27921,9 +27402,6 @@
     "kind":"craft-stat"
   },{
     "english":"(80-120)% increased Armour and Evasion",
-    "kind":"craft-stat"
-  },{
-    "english":"(80-120)% increased Armour from Equipped Helmet",
     "kind":"craft-stat"
   },{
     "english":"(80-120)% increased Chaos Damage",
@@ -28721,9 +28199,6 @@
     "english":"+(0.1-0.7) metres to Melee Strike Range with Unarmed Attacks",
     "kind":"craft-stat"
   },{
-    "english":"+(0.2-0.3) metres to Melee Strike Range",
-    "kind":"craft-stat"
-  },{
     "english":"+(0.2-0.3) metres to Melee Strike Range per White Socket",
     "kind":"craft-stat"
   },{
@@ -28740,9 +28215,6 @@
     "kind":"craft-stat"
   },{
     "english":"+(0.3-0.5)% to Off Hand Critical Strike Chance while Dual Wielding",
-    "kind":"craft-stat"
-  },{
-    "english":"+(0.4-0.5) metres to Melee Strike Range",
     "kind":"craft-stat"
   },{
     "english":"+(0.4-0.6)% Critical Strike Chance while at maximum Power Charges",
@@ -28955,19 +28427,10 @@
     "english":"+(10-13)% to Chaos Resistance",
     "kind":"craft-stat"
   },{
-    "english":"+(10-14)% to Chaos Damage over Time Multiplier",
-    "kind":"craft-stat"
-  },{
     "english":"+(10-14)% to Damage over Time Multiplier",
     "kind":"craft-stat"
   },{
-    "english":"+(10-14)% to Fire Damage over Time Multiplier",
-    "kind":"craft-stat"
-  },{
     "english":"+(10-14)% to Global Critical Strike Multiplier",
-    "kind":"craft-stat"
-  },{
-    "english":"+(10-14)% to Physical Damage over Time Multiplier",
     "kind":"craft-stat"
   },{
     "english":"+(10-15) to Dexterity",
@@ -29468,9 +28931,6 @@
     "english":"+(12-16)% to Cold and Lightning Resistances",
     "kind":"craft-stat"
   },{
-    "english":"+(12-16)% to Fire Damage over Time Multiplier with Attack Skills",
-    "kind":"craft-stat"
-  },{
     "english":"+(12-16)% to Fire and Cold Resistances",
     "kind":"craft-stat"
   },{
@@ -29768,9 +29228,6 @@
     "english":"+(14-18)% to Cold Damage over Time Multiplier",
     "kind":"craft-stat"
   },{
-    "english":"+(14-18)% to Cold Resistance",
-    "kind":"craft-stat"
-  },{
     "english":"+(14-18)% to Damage over Time Multiplier",
     "kind":"craft-stat"
   },{
@@ -29778,12 +29235,6 @@
     "kind":"craft-stat"
   },{
     "english":"+(14-18)% to Fire Damage over Time Multiplier",
-    "kind":"craft-stat"
-  },{
-    "english":"+(14-18)% to Fire Resistance",
-    "kind":"craft-stat"
-  },{
-    "english":"+(14-18)% to Lightning Resistance",
     "kind":"craft-stat"
   },{
     "english":"+(14-18)% to Melee Weapon Critical Strike Multiplier",
@@ -29934,9 +29385,6 @@
     "kind":"craft-stat"
   },{
     "english":"+(15-20) to maximum Mana",
-    "kind":"craft-stat"
-  },{
-    "english":"+(15-20)% chance to Block Projectile Attack Damage",
     "kind":"craft-stat"
   },{
     "english":"+(15-20)% chance to Suppress Spell Damage",
@@ -30371,9 +29819,6 @@
     "english":"+(17-19)% chance to Suppress Spell Damage",
     "kind":"craft-stat"
   },{
-    "english":"+(17-19)% to Chaos Resistance",
-    "kind":"craft-stat"
-  },{
     "english":"+(17-19)% to Critical Strike Multiplier with Bows",
     "kind":"craft-stat"
   },{
@@ -30752,25 +30197,13 @@
     "english":"+(2-3)% to Quality of Socketed Support Gems",
     "kind":"craft-stat"
   },{
-    "english":"+(2-3)% to maximum Chaos Resistance",
-    "kind":"craft-stat"
-  },{
     "english":"+(2-3)% to maximum Chaos Resistance if 4 Hunter Items are Equipped",
-    "kind":"craft-stat"
-  },{
-    "english":"+(2-3)% to maximum Cold Resistance",
     "kind":"craft-stat"
   },{
     "english":"+(2-3)% to maximum Cold Resistance if 4 Redeemer Items are Equipped",
     "kind":"craft-stat"
   },{
-    "english":"+(2-3)% to maximum Fire Resistance",
-    "kind":"craft-stat"
-  },{
     "english":"+(2-3)% to maximum Fire Resistance if 4 Warlord Items are Equipped",
-    "kind":"craft-stat"
-  },{
-    "english":"+(2-3)% to maximum Lightning Resistance",
     "kind":"craft-stat"
   },{
     "english":"+(2-3)% to maximum Lightning Resistance if 4 Crusader Items are Equipped",
@@ -30956,9 +30389,6 @@
     "english":"+(20-30)% chance to Suppress Spell Damage if you've Suppressed Spell Damage Recently",
     "kind":"craft-stat"
   },{
-    "english":"+(20-30)% to Chaos Damage over Time Multiplier while Poisoned",
-    "kind":"craft-stat"
-  },{
     "english":"+(20-30)% to Chaos Resistance",
     "kind":"craft-stat"
   },{
@@ -30966,9 +30396,6 @@
     "kind":"craft-stat"
   },{
     "english":"+(20-30)% to Damage over Time Multiplier for Poison from Critical Strikes during Effect",
-    "kind":"craft-stat"
-  },{
-    "english":"+(20-30)% to Fire Damage over Time Multiplier while Ignited",
     "kind":"craft-stat"
   },{
     "english":"+(20-30)% to Fire Resistance",
@@ -30990,9 +30417,6 @@
     "kind":"craft-stat"
   },{
     "english":"+(20-30)% to Lightning Resistance",
-    "kind":"craft-stat"
-  },{
-    "english":"+(20-30)% to Physical Damage over Time Multiplier while Bleeding",
     "kind":"craft-stat"
   },{
     "english":"+(20-30)% to Quality of Socketed Gems",
@@ -31299,15 +30723,6 @@
     "kind":"craft-stat"
   },{
     "english":"+(22-25)% to Global Critical Strike Multiplier",
-    "kind":"craft-stat"
-  },{
-    "english":"+(22-28)% to Cold Resistance",
-    "kind":"craft-stat"
-  },{
-    "english":"+(22-28)% to Fire Resistance",
-    "kind":"craft-stat"
-  },{
-    "english":"+(22-28)% to Lightning Resistance",
     "kind":"craft-stat"
   },{
     "english":"+(22-30)% to Vaal Skill Critical Strike Multiplier",
@@ -33134,9 +32549,6 @@
     "english":"+(5-10)% to Quality of Socketed Support Gems",
     "kind":"craft-stat"
   },{
-    "english":"+(5-10)% to Quality of all Skill Gems",
-    "kind":"craft-stat"
-  },{
     "english":"+(5-10)% to Unarmed Melee Attack Critical Strike Chance",
     "kind":"craft-stat"
   },{
@@ -33225,9 +32637,6 @@
     "kind":"craft-stat"
   },{
     "english":"+(5-6)% to all Elemental Resistances",
-    "kind":"craft-stat"
-  },{
-    "english":"+(5-7) to Maximum Rage",
     "kind":"craft-stat"
   },{
     "english":"+(5-7)% Chance to Block Attack Damage while Dual Wielding",
@@ -33800,9 +33209,6 @@
     "english":"+(7-10)% chance to Suppress Spell Damage while Channelling",
     "kind":"craft-stat"
   },{
-    "english":"+(7-10)% to Fire Damage over Time Multiplier with Attack Skills",
-    "kind":"craft-stat"
-  },{
     "english":"+(7-11)% to Chaos Resistance",
     "kind":"craft-stat"
   },{
@@ -34065,9 +33471,6 @@
     "kind":"craft-stat"
   },{
     "english":"+(8-12)% Chance to Block Attack Damage while Dual Wielding",
-    "kind":"craft-stat"
-  },{
-    "english":"+(8-12)% chance to Block Projectile Attack Damage",
     "kind":"craft-stat"
   },{
     "english":"+(8-12)% chance to Suppress Spell Damage",
@@ -34539,9 +33942,6 @@
     "kind":"craft-stat"
   },{
     "english":"+1 to Level of all Minion Skill Gems",
-    "kind":"craft-stat"
-  },{
-    "english":"+1 to Level of all Movement Skill Gems",
     "kind":"craft-stat"
   },{
     "english":"+1 to Level of all Physical Skill Gems",
@@ -35615,9 +35015,6 @@
     "english":"+4 to Level of all Physical Spell Skill Gems",
     "kind":"craft-stat"
   },{
-    "english":"+4 to Minimum Rage",
-    "kind":"craft-stat"
-  },{
     "english":"+4 to level of Skills used by this Graft",
     "kind":"craft-stat"
   },{
@@ -35808,9 +35205,6 @@
     "kind":"craft-stat"
   },{
     "english":"+5% to Damage over Time Multiplier for Poison per Frenzy Charge",
-    "kind":"craft-stat"
-  },{
-    "english":"+5% to Maximum Effect of Chill",
     "kind":"craft-stat"
   },{
     "english":"+5% to maximum Cold Resistance",
@@ -36152,12 +35546,6 @@
     "english":"-(27-24)% to Item Rarity",
     "kind":"craft-stat"
   },{
-    "english":"-(30-20) Physical Damage taken from Attack Hits",
-    "kind":"craft-stat"
-  },{
-    "english":"-(30-20) Physical Damage taken from Hits by Animals",
-    "kind":"craft-stat"
-  },{
     "english":"-(30-20)% to Fire Resistance",
     "kind":"craft-stat"
   },{
@@ -36303,9 +35691,6 @@
     "kind":"craft-stat"
   },{
     "english":"-1 Intelligence per 1 Intelligence on Allocated Passives in Radius",
-    "kind":"craft-stat"
-  },{
-    "english":"-1 Physical Damage taken from Hits per Level",
     "kind":"craft-stat"
   },{
     "english":"-1 Prefix Modifier allowed",
@@ -38939,9 +38324,6 @@
     "english":"100% reduced Dexterity",
     "kind":"craft-stat"
   },{
-    "english":"100% reduced Enemy Chance to Block Sword Attacks",
-    "kind":"craft-stat"
-  },{
     "english":"100% reduced Global Accuracy Rating",
     "kind":"craft-stat"
   },{
@@ -39297,9 +38679,6 @@
     "kind":"craft-stat"
   },{
     "english":"15% Chance to Block Spell Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"15% Global chance to Blind Enemies on hit",
     "kind":"craft-stat"
   },{
     "english":"15% chance that if you would gain Endurance Charges, you instead gain up to maximum Endurance Charges",
@@ -39785,9 +39164,6 @@
     "english":"2% additional Physical Damage Reduction if you weren't Damaged by a Hit Recently",
     "kind":"craft-stat"
   },{
-    "english":"2% chance for a Coin Shower on Kill",
-    "kind":"craft-stat"
-  },{
     "english":"2% chance to Avoid Damage of each Element from Hits per Frenzy Charge",
     "kind":"craft-stat"
   },{
@@ -39869,9 +39245,6 @@
     "english":"2% increased Damage per Frenzy Charge",
     "kind":"craft-stat"
   },{
-    "english":"2% increased Damage per Minion, up to a maximum of 40%",
-    "kind":"craft-stat"
-  },{
     "english":"2% increased Damage per Power Charge",
     "kind":"craft-stat"
   },{
@@ -39906,9 +39279,6 @@
     "kind":"craft-stat"
   },{
     "english":"2% increased Life Recovery Rate per 10 Strength on Allocated Passives in Radius",
-    "kind":"craft-stat"
-  },{
-    "english":"2% increased Life Recovery rate per 5% missing Unreserved Life",
     "kind":"craft-stat"
   },{
     "english":"2% increased Mana Recovery Rate per 10 Intelligence on Allocated Passives in Radius",
@@ -41027,9 +40397,6 @@
     "english":"3% increased Damage per Crab Barrier",
     "kind":"craft-stat"
   },{
-    "english":"3% increased Damage per Minion, up to a maximum of 40%",
-    "kind":"craft-stat"
-  },{
     "english":"3% increased Damage per Power Charge",
     "kind":"craft-stat"
   },{
@@ -41093,9 +40460,6 @@
     "english":"3% increased Spell Damage per 100 Player Maximum Life",
     "kind":"craft-stat"
   },{
-    "english":"3% increased Spell Damage per Power Charge",
-    "kind":"craft-stat"
-  },{
     "english":"3% increased Totem Life per 10 Strength Allocated in Radius",
     "kind":"craft-stat"
   },{
@@ -41148,9 +40512,6 @@
     "kind":"craft-stat"
   },{
     "english":"30% Chance to cause Bleeding Enemies to Flee on hit",
-    "kind":"craft-stat"
-  },{
-    "english":"30% Global chance to Blind Enemies on hit",
     "kind":"craft-stat"
   },{
     "english":"30% chance to Aggravate Bleeding on targets you Hit with Attacks",
@@ -41726,9 +41087,6 @@
     "english":"4% increased Skill Effect Duration",
     "kind":"craft-stat"
   },{
-    "english":"4% increased Spell Damage per Power Charge",
-    "kind":"craft-stat"
-  },{
     "english":"4% increased Strength",
     "kind":"craft-stat"
   },{
@@ -41805,9 +41163,6 @@
     "kind":"craft-stat"
   },{
     "english":"40% increased Damage with Hits against Shocked Enemies",
-    "kind":"craft-stat"
-  },{
-    "english":"40% increased Damage with Hits and Ailments against Blinded Enemies",
     "kind":"craft-stat"
   },{
     "english":"40% increased Damage with Hits and Ailments against Ignited Enemies",
@@ -44012,9 +43367,6 @@
     "english":"Adds (1-3) to (40-45) Lightning Damage",
     "kind":"craft-stat"
   },{
-    "english":"Adds (1-3) to (40-60) Lightning Damage to Unarmed Melee Hits",
-    "kind":"craft-stat"
-  },{
     "english":"Adds (1-3) to (41-55) Lightning Damage",
     "kind":"craft-stat"
   },{
@@ -44097,9 +43449,6 @@
     "kind":"craft-stat"
   },{
     "english":"Adds (1-5) to (66-71) Lightning Damage to Spells",
-    "kind":"craft-stat"
-  },{
-    "english":"Adds (1-5) to (80-120) Lightning Damage to Unarmed Melee Hits",
     "kind":"craft-stat"
   },{
     "english":"Adds (1-7) to (39-42) Lightning Damage to Spells",
@@ -44241,9 +43590,6 @@
     "kind":"craft-stat"
   },{
     "english":"Adds (10-15) to (25-30) Physical Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Adds (10-15) to (25-35) Cold Damage to Unarmed Attacks",
     "kind":"craft-stat"
   },{
     "english":"Adds (10-15) to (55-65) Lightning Damage to Attacks during Effect",
@@ -45161,9 +44507,6 @@
     "english":"Adds (2-4) to (47-58) Lightning Damage to Spells",
     "kind":"craft-stat"
   },{
-    "english":"Adds (2-4) to (5-7) Physical Damage to Attacks",
-    "kind":"craft-stat"
-  },{
     "english":"Adds (2-4) to (5-9) Cold Damage to Spells and Attacks",
     "kind":"craft-stat"
   },{
@@ -45588,9 +44931,6 @@
     "kind":"craft-stat"
   },{
     "english":"Adds (25-35) to (50-65) Physical Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Adds (25-35) to (50-75) Cold Damage to Unarmed Attacks",
     "kind":"craft-stat"
   },{
     "english":"Adds (25-50) to (85-125) Physical Damage",
@@ -46907,9 +46247,6 @@
     "english":"Adds (8-12) to (14-20) Physical Damage",
     "kind":"craft-stat"
   },{
-    "english":"Adds (8-12) to (15-18) Physical Damage to Attacks",
-    "kind":"craft-stat"
-  },{
     "english":"Adds (8-12) to (15-20) Physical Damage to Attacks",
     "kind":"craft-stat"
   },{
@@ -47885,9 +47222,6 @@
     "english":"Arctic Armour has no Reservation",
     "kind":"craft-stat"
   },{
-    "english":"Area Skills have (6-8)% chance to deal Double Damage",
-    "kind":"craft-stat"
-  },{
     "english":"Area is inhabited by an additional Invasion Boss",
     "kind":"craft-stat"
   },{
@@ -48089,9 +47423,6 @@
     "english":"Attacks have (10-14)% chance to cause Bleeding",
     "kind":"craft-stat"
   },{
-    "english":"Attacks have (10-15)% chance to cause Bleeding",
-    "kind":"craft-stat"
-  },{
     "english":"Attacks have (11-12)% chance to Maim on Hit",
     "kind":"craft-stat"
   },{
@@ -48108,12 +47439,6 @@
     "kind":"craft-stat"
   },{
     "english":"Attacks have (20-24)% chance to cause Bleeding",
-    "kind":"craft-stat"
-  },{
-    "english":"Attacks have (20-30)% chance to cause Bleeding",
-    "kind":"craft-stat"
-  },{
-    "english":"Attacks have (20-30)% increased Ignite Duration",
     "kind":"craft-stat"
   },{
     "english":"Attacks have (25-30)% chance to cause Bleeding",
@@ -48386,12 +47711,6 @@
     "english":"Banner Skills have no Reservation",
     "kind":"craft-stat"
   },{
-    "english":"Banners also grant 1% of Physical Damage gained as Extra Cold Damage to you and Allies",
-    "kind":"craft-stat"
-  },{
-    "english":"Banners also grant 1% of Physical Damage gained as Extra Fire Damage to you and Allies",
-    "kind":"craft-stat"
-  },{
     "english":"Base Spell Critical Strike Chance of Spells is equal to that of Main Hand Weapon",
     "kind":"craft-stat"
   },{
@@ -48426,9 +47745,6 @@
     "kind":"craft-stat"
   },{
     "english":"Bleeding you inflict deals Damage (10-12)% Faster",
-    "kind":"craft-stat"
-  },{
-    "english":"Bleeding you inflict deals Damage (10-15)% Faster",
     "kind":"craft-stat"
   },{
     "english":"Bleeding you inflict deals Damage (11-15)% Faster",
@@ -48956,9 +48272,6 @@
     "english":"Causes Bleeding on Hit",
     "kind":"craft-stat"
   },{
-    "english":"Causes Bleeding on Melee Critical Strike",
-    "kind":"craft-stat"
-  },{
     "english":"Causes Bleeding when you Stun",
     "kind":"craft-stat"
   },{
@@ -48966,9 +48279,6 @@
     "kind":"craft-stat"
   },{
     "english":"Chance to Block Attack Damage is Unlucky",
-    "kind":"craft-stat"
-  },{
-    "english":"Chance to Block Projectile Attack Damage is Lucky",
     "kind":"craft-stat"
   },{
     "english":"Chance to Block Spell Damage is Unlucky",
@@ -49157,12 +48467,6 @@
     "english":"Consecrated Ground you create applies (7-10)% increased Damage taken to Enemies",
     "kind":"craft-stat"
   },{
-    "english":"Consecrated Ground you create applies (8-10)% increased Damage taken to Enemies",
-    "kind":"craft-stat"
-  },{
-    "english":"Consecrated Ground you create grants (4-6)% reduced damage taken to you and Allies",
-    "kind":"craft-stat"
-  },{
     "english":"Consecrated Ground you create grants +(1-3)% maximum Chaos Resistance to you and Allies",
     "kind":"craft-stat"
   },{
@@ -49187,13 +48491,7 @@
     "english":"Corpses you Spawn have (11-20)% increased Maximum Life",
     "kind":"craft-stat"
   },{
-    "english":"Corpses you Spawn have (4-6)% increased Maximum Life",
-    "kind":"craft-stat"
-  },{
     "english":"Corpses you Spawn have (5-10)% increased Maximum Life",
-    "kind":"craft-stat"
-  },{
-    "english":"Corpses you Spawn have (8-10)% increased Maximum Life",
     "kind":"craft-stat"
   },{
     "english":"Corpses you Spawn have 20% increased Maximum Life",
@@ -49334,13 +48632,7 @@
     "english":"Curse Enemies with Conductivity on Hit",
     "kind":"craft-stat"
   },{
-    "english":"Curse Enemies with Conductivity on Hit if 5 Crusader Items are Equipped",
-    "kind":"craft-stat"
-  },{
     "english":"Curse Enemies with Despair on Hit",
-    "kind":"craft-stat"
-  },{
-    "english":"Curse Enemies with Despair on Hit if 5 Hunter Items are Equipped",
     "kind":"craft-stat"
   },{
     "english":"Curse Enemies with Elemental Weakness on Hit",
@@ -49358,13 +48650,7 @@
     "english":"Curse Enemies with Flammability on Hit",
     "kind":"craft-stat"
   },{
-    "english":"Curse Enemies with Flammability on Hit if 5 Warlord Items are Equipped",
-    "kind":"craft-stat"
-  },{
     "english":"Curse Enemies with Frostbite on Hit",
-    "kind":"craft-stat"
-  },{
-    "english":"Curse Enemies with Frostbite on Hit if 5 Redeemer Items are Equipped",
     "kind":"craft-stat"
   },{
     "english":"Curse Enemies with Punishment on Hit",
@@ -49508,16 +48794,7 @@
     "english":"Damage Penetrates (2-3)% of Enemy Elemental Resistances",
     "kind":"craft-stat"
   },{
-    "english":"Damage Penetrates (3-4)% Cold Resistance",
-    "kind":"craft-stat"
-  },{
     "english":"Damage Penetrates (3-4)% Elemental Resistances",
-    "kind":"craft-stat"
-  },{
-    "english":"Damage Penetrates (3-4)% Fire Resistance",
-    "kind":"craft-stat"
-  },{
-    "english":"Damage Penetrates (3-4)% Lightning Resistance",
     "kind":"craft-stat"
   },{
     "english":"Damage Penetrates (3-4)% of Enemy Elemental Resistances",
@@ -49572,15 +48849,6 @@
     "kind":"craft-stat"
   },{
     "english":"Damage Penetrates (6-10)% Lightning Resistance",
-    "kind":"craft-stat"
-  },{
-    "english":"Damage Penetrates (6-8)% Cold Resistance",
-    "kind":"craft-stat"
-  },{
-    "english":"Damage Penetrates (6-8)% Fire Resistance",
-    "kind":"craft-stat"
-  },{
-    "english":"Damage Penetrates (6-8)% Lightning Resistance",
     "kind":"craft-stat"
   },{
     "english":"Damage Penetrates (7-8)% Cold Resistance",
@@ -49841,9 +49109,6 @@
     "english":"Damaging Ailments deal damage (9-11)% Faster",
     "kind":"craft-stat"
   },{
-    "english":"Damaging Ailments inflicted by Minions deal damage (15-20)% Faster",
-    "kind":"craft-stat"
-  },{
     "english":"Damaging Ailments inflicted by Skills used by this Graft deal Damage (15-21)% Faster",
     "kind":"craft-stat"
   },{
@@ -49923,9 +49188,6 @@
     "kind":"craft-stat"
   },{
     "english":"Debilitate Enemies within 3 metres for 2 Seconds when Effect ends",
-    "kind":"craft-stat"
-  },{
-    "english":"Debilitate Enemies you Hit that are on Full Life for 4 seconds",
     "kind":"craft-stat"
   },{
     "english":"Debuffs on you expire (-20-20)% slower",
@@ -50129,9 +49391,6 @@
     "english":"Eat (2-4) Souls when you Kill a Rare or Unique Enemy with this Weapon",
     "kind":"craft-stat"
   },{
-    "english":"Eat a Soul when you Consume the corpse of a Rare Monster",
-    "kind":"craft-stat"
-  },{
     "english":"Eat a Soul when you Hit a Rare or Unique Enemy, no more than once every 0.25 seconds",
     "kind":"craft-stat"
   },{
@@ -50252,9 +49511,6 @@
     "english":"Enemies Cursed by you are Hindered if 25% of Curse Duration expired",
     "kind":"craft-stat"
   },{
-    "english":"Enemies Cursed by you cannot deal Critical Strikes",
-    "kind":"craft-stat"
-  },{
     "english":"Enemies Cursed by you take 35% increased Damage if 75% of Curse Duration expired",
     "kind":"craft-stat"
   },{
@@ -50321,9 +49577,6 @@
     "english":"Enemies Taunted by your Warcries Explode on death, dealing 8% of their maximum Life as Chaos Damage",
     "kind":"craft-stat"
   },{
-    "english":"Enemies Taunted by your Warcries have 4% reduced Action Speed",
-    "kind":"craft-stat"
-  },{
     "english":"Enemies Taunted by your Warcries take (10-15)% increased Damage",
     "kind":"craft-stat"
   },{
@@ -50363,25 +49616,10 @@
     "english":"Enemies near corpses affected by your Curses are Blinded",
     "kind":"craft-stat"
   },{
-    "english":"Enemies near your Banner take (4-5)% increased Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Enemies near your Banner take (4-5)% increased Fire Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Enemies near your Banner take (6-8)% increased Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Enemies near your Banner take (6-8)% increased Fire Damage",
-    "kind":"craft-stat"
-  },{
     "english":"Enemies on Fungal Ground you Kill Explode, dealing 10% of their Life as Chaos Damage",
     "kind":"craft-stat"
   },{
     "english":"Enemies slain by Socketed Gems drop 10% increased item quantity",
-    "kind":"craft-stat"
-  },{
-    "english":"Enemies take (2-3)% increased Damage for each type of Ailment you have inflicted on them",
     "kind":"craft-stat"
   },{
     "english":"Enemies take (5-10)% increased Damage for each type of Ailment you have inflicted on them",
@@ -50531,9 +49769,6 @@
     "english":"Enemies within 6 metres have Lightning Resistance equal to yours",
     "kind":"craft-stat"
   },{
-    "english":"Enemies within 6 metres of corpses you spawned Recently",
-    "kind":"craft-stat"
-  },{
     "english":"Enemies within 6 metres take 1% increased Physical Damage per two Fortification on you",
     "kind":"craft-stat"
   },{
@@ -50567,9 +49802,6 @@
     "english":"Enemies you Attack have 20% chance to Reflect 35 to 50 Chaos Damage to you",
     "kind":"craft-stat"
   },{
-    "english":"Enemies you Blind while in Sand Stance take (6-8)% increased Damage",
-    "kind":"craft-stat"
-  },{
     "english":"Enemies you Kill Explode, dealing 3% of their Life as Physical Damage",
     "kind":"craft-stat"
   },{
@@ -50595,9 +49827,6 @@
     "kind":"craft-stat"
   },{
     "english":"Enemies you Kill have a (31-35)% chance to Explode, dealing a tenth of their maximum Life as Physical Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Enemies you Kill have a (5-10)% chance to Explode, dealing a tenth of their maximum Life as Damage of a Random Element",
     "kind":"craft-stat"
   },{
     "english":"Enemies you Kill have a 15% chance to Explode, dealing a tenth of their maximum Life as Physical Damage",
@@ -50705,18 +49934,6 @@
     "english":"Every 16 seconds you gain Iron Reflexes for 8 seconds",
     "kind":"craft-stat"
   },{
-    "english":"Every 3 seconds, Consume a Corpse within 5 metres to Recover (2-3)% of Life",
-    "kind":"craft-stat"
-  },{
-    "english":"Every 3 seconds, Consume a Corpse within 5 metres to Recover (2-3)% of Mana",
-    "kind":"craft-stat"
-  },{
-    "english":"Every 3 seconds, Consume a Corpse within 5 metres to Recover (4-5)% of Life",
-    "kind":"craft-stat"
-  },{
-    "english":"Every 3 seconds, Consume a Corpse within 5 metres to Recover (4-5)% of Mana",
-    "kind":"craft-stat"
-  },{
     "english":"Every 3 seconds, Consume a Corpse within 5 metres to Recover (7-10)% of Life",
     "kind":"craft-stat"
   },{
@@ -50751,9 +49968,6 @@
     "kind":"craft-stat"
   },{
     "english":"Every second time you cast each Spell, gain Mana equal to its Upfront Cost",
-    "kind":"craft-stat"
-  },{
-    "english":"Every second, inflict Withered on Enemies within 6 metres for 5 seconds",
     "kind":"craft-stat"
   },{
     "english":"Every sixth time you cast each Spell, All Hits are Critically Strikes",
@@ -50829,9 +50043,6 @@
     "kind":"craft-stat"
   },{
     "english":"Fire Damage with Hits is Lucky if you've Blocked an Attack Recently",
-    "kind":"craft-stat"
-  },{
-    "english":"Fire Exposure you inflict applies an extra -(6-4)% to Fire Resistance",
     "kind":"craft-stat"
   },{
     "english":"Fire Resistance is 70%",
@@ -51105,9 +50316,6 @@
     "kind":"craft-stat"
   },{
     "english":"Gain (10-15)% of Physical Damage as Extra Damage of each Element if",
-    "kind":"craft-stat"
-  },{
-    "english":"Gain (10-15)% of Physical Damage as Extra Fire Damage",
     "kind":"craft-stat"
   },{
     "english":"Gain (10-15)% of Physical Damage as Extra Lightning Damage",
@@ -51434,12 +50642,6 @@
     "english":"Gain (3-4)% of Non-Chaos Damage as extra Chaos Damage",
     "kind":"craft-stat"
   },{
-    "english":"Gain (3-4)% of Physical Damage as Extra Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Gain (3-4)% of Physical Damage as Extra Lightning Damage",
-    "kind":"craft-stat"
-  },{
     "english":"Gain (3-5) Mana per Enemy Hit with Attacks",
     "kind":"craft-stat"
   },{
@@ -51512,15 +50714,6 @@
     "english":"Gain (4-5)% of Maximum Mana as Extra Maximum Energy Shield",
     "kind":"craft-stat"
   },{
-    "english":"Gain (4-5)% of Physical Damage as Extra Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Gain (4-5)% of Physical Damage as Extra Damage of a random Element",
-    "kind":"craft-stat"
-  },{
-    "english":"Gain (4-5)% of Physical Damage as Extra Lightning Damage",
-    "kind":"craft-stat"
-  },{
     "english":"Gain (4-6) Charges when you are Hit by an Enemy",
     "kind":"craft-stat"
   },{
@@ -51546,15 +50739,6 @@
     "kind":"craft-stat"
   },{
     "english":"Gain (4-6)% of Physical Damage as Extra Chaos Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Gain (4-6)% of Physical Damage as Extra Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Gain (4-6)% of Physical Damage as Extra Fire Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Gain (4-6)% of Physical Damage as Extra Lightning Damage",
     "kind":"craft-stat"
   },{
     "english":"Gain (4-7)% increased Attack Speed for 20 seconds when you Kill a Rare or Unique Enemy",
@@ -51899,9 +51083,6 @@
     "english":"Gain 1 Rage on Hit with Attacks",
     "kind":"craft-stat"
   },{
-    "english":"Gain 1 Rage on Melee Hit",
-    "kind":"craft-stat"
-  },{
     "english":"Gain 1 Remembrance when you spend a total of 200 Energy",
     "kind":"craft-stat"
   },{
@@ -52002,9 +51183,6 @@
     "kind":"craft-stat"
   },{
     "english":"Gain 2 Rage on Attack Hit",
-    "kind":"craft-stat"
-  },{
-    "english":"Gain 2 Rage on Melee Hit",
     "kind":"craft-stat"
   },{
     "english":"Gain 2 Vaal Souls Per Second during effect",
@@ -52434,9 +51612,6 @@
     "kind":"craft-stat"
   },{
     "english":"Gain a random Blood Shrine buff every 10 seconds",
-    "kind":"craft-stat"
-  },{
-    "english":"Gain a random Shrine Buff for (1-4) seconds when you Kill a Rare or Unique Enemy",
     "kind":"craft-stat"
   },{
     "english":"Gain a random Shrine Buff for 15 seconds when you Blind a",
@@ -53043,6 +52218,9 @@
     "kind":"craft-stat"
   },{
     "english":"Grants Level 10 Herald of Thunder",
+    "kind":"craft-stat"
+  },{
+    "english":"Grants Level 10 Purity of Elements",
     "kind":"craft-stat"
   },{
     "english":"Grants Level 10 Sniper's Mark",
@@ -53906,15 +53084,6 @@
     "english":"Hits have (10-15)% chance to ignore Enemy Physical Damage Reduction",
     "kind":"craft-stat"
   },{
-    "english":"Hits have (10-15)% chance to treat Enemy Monster Cold Resistance values as inverted",
-    "kind":"craft-stat"
-  },{
-    "english":"Hits have (10-15)% chance to treat Enemy Monster Fire Resistance values as inverted",
-    "kind":"craft-stat"
-  },{
-    "english":"Hits have (10-15)% chance to treat Enemy Monster Lightning Resistance values as inverted",
-    "kind":"craft-stat"
-  },{
     "english":"Hits have (140-200)% increased Critical Strike Chance against you",
     "kind":"craft-stat"
   },{
@@ -53931,9 +53100,6 @@
     "kind":"craft-stat"
   },{
     "english":"Hits have (30-39)% chance to ignore Enemy Physical Damage Reduction",
-    "kind":"craft-stat"
-  },{
-    "english":"Hits have (30-50)% chance to ignore Enemy Physical Damage Reduction",
     "kind":"craft-stat"
   },{
     "english":"Hits have (35-38)% chance to ignore Enemy Physical Damage Reduction",
@@ -54212,9 +53378,6 @@
     "english":"Ignites you inflict spread to other Enemies within 2.8 metres",
     "kind":"craft-stat"
   },{
-    "english":"Ignites you inflict spread to other Enemies within a Radius of 1.5 metres",
-    "kind":"craft-stat"
-  },{
     "english":"Ignites you inflict with Attacks deal Damage 35% Faster",
     "kind":"craft-stat"
   },{
@@ -54267,9 +53430,6 @@
     "kind":"craft-stat"
   },{
     "english":"Immune to Freeze and Chill while Ignited",
-    "kind":"craft-stat"
-  },{
-    "english":"Immune to Hinder",
     "kind":"craft-stat"
   },{
     "english":"Immune to Reflected Damage if you've cast Punishment in the past 10 seconds",
@@ -54356,13 +53516,7 @@
     "english":"Increases and Reductions to Light Radius also apply to Damage",
     "kind":"craft-stat"
   },{
-    "english":"Increases and Reductions to Light Radius also apply to Life Regeneration Rate at (8-12)% value",
-    "kind":"craft-stat"
-  },{
     "english":"Increases and Reductions to Lightning Damage also apply to Effect of",
-    "kind":"craft-stat"
-  },{
-    "english":"Increases and Reductions to Mana Regeneration Rate also apply to Energy",
     "kind":"craft-stat"
   },{
     "english":"Increases and Reductions to Maximum Energy Shield instead apply to Ward",
@@ -54587,9 +53741,6 @@
     "english":"Intimidating Cry has (30-32)% increased Cooldown Recovery Rate",
     "kind":"craft-stat"
   },{
-    "english":"Iron Flasks applied to you have (20-25)% increased Effect",
-    "kind":"craft-stat"
-  },{
     "english":"Iron Grip",
     "kind":"craft-stat"
   },{
@@ -54614,13 +53765,7 @@
     "english":"Items and Gems have (11-15)% reduced Attribute Requirements",
     "kind":"craft-stat"
   },{
-    "english":"Items and Gems have (4-6)% reduced Attribute Requirements",
-    "kind":"craft-stat"
-  },{
     "english":"Items and Gems have (5-10)% reduced Attribute Requirements",
-    "kind":"craft-stat"
-  },{
-    "english":"Items and Gems have (7-10)% reduced Attribute Requirements",
     "kind":"craft-stat"
   },{
     "english":"Items and Gems have 10% increased Attribute Requirements",
@@ -54675,18 +53820,6 @@
     "kind":"craft-stat"
   },{
     "english":"Kill Enemies that have 15% or lower Life on Hit if The Searing Exarch is dominant",
-    "kind":"craft-stat"
-  },{
-    "english":"Kill Undead Enemies that have 15% or lower Life when Hit by your Skills",
-    "kind":"craft-stat"
-  },{
-    "english":"Killing Blows Consume corpses to Recover (3-4)% of Mana",
-    "kind":"craft-stat"
-  },{
-    "english":"Killing Blows Consume corpses to Recover (40-60) Life and (20-30) Mana",
-    "kind":"craft-stat"
-  },{
-    "english":"Killing Blows Consume corpses to Recover (80-120) Life and (40-60) Mana",
     "kind":"craft-stat"
   },{
     "english":"Killing a Burning Enemy has a (25-30)% chance to create an Allflame Soul",
@@ -55367,9 +54500,6 @@
     "english":"Minions Leech 5% of Elemental Damage as Energy Shield",
     "kind":"craft-stat"
   },{
-    "english":"Minions Recover (3-5)% of Life on Killing a Poisoned Enemy",
-    "kind":"craft-stat"
-  },{
     "english":"Minions Recover 10% of Life on Killing a Poisoned Enemy",
     "kind":"craft-stat"
   },{
@@ -55385,16 +54515,10 @@
     "english":"Minions Regenerate (0.4-0.8)% of Life per second",
     "kind":"craft-stat"
   },{
-    "english":"Minions Regenerate (0.8-1)% of Life per second",
-    "kind":"craft-stat"
-  },{
     "english":"Minions Regenerate (1-1.5)% of Life per second",
     "kind":"craft-stat"
   },{
     "english":"Minions Regenerate (1.5-2.5)% of Life per second",
-    "kind":"craft-stat"
-  },{
-    "english":"Minions Regenerate (1.6-2)% of Life per second",
     "kind":"craft-stat"
   },{
     "english":"Minions Regenerate (22-30) Life per second",
@@ -55428,9 +54552,6 @@
     "kind":"craft-stat"
   },{
     "english":"Minions are Aggressive",
-    "kind":"craft-stat"
-  },{
-    "english":"Minions are Aggressive if you've used a Minion Skill Recently",
     "kind":"craft-stat"
   },{
     "english":"Minions can hear the whispers for 5 seconds after they deal a Critical Strike",
@@ -55481,16 +54602,7 @@
     "english":"Minions count as having the same number of",
     "kind":"craft-stat"
   },{
-    "english":"Minions created Recently have (5-7)% increased Attack and Cast Speed",
-    "kind":"craft-stat"
-  },{
     "english":"Minions created Recently have (60-100)% increased Critical Hit Chance",
-    "kind":"craft-stat"
-  },{
-    "english":"Minions created Recently have (8-12)% increased Attack and Cast Speed",
-    "kind":"craft-stat"
-  },{
-    "english":"Minions created Recently have Onslaught",
     "kind":"craft-stat"
   },{
     "english":"Minions deal (1-2) to (26-32) additional Lightning Damage",
@@ -55817,9 +54929,6 @@
     "english":"Minions deal (35-45)% increased Damage",
     "kind":"craft-stat"
   },{
-    "english":"Minions deal (35-50)% increased Damage if you've Hit Recently",
-    "kind":"craft-stat"
-  },{
     "english":"Minions deal (36-39)% reduced Damage",
     "kind":"craft-stat"
   },{
@@ -56013,9 +55122,6 @@
     "kind":"craft-stat"
   },{
     "english":"Minions gain Unholy Might for 10 seconds on Kill",
-    "kind":"craft-stat"
-  },{
-    "english":"Minions gain added Resistances equal to (20-30)% of your Resistances",
     "kind":"craft-stat"
   },{
     "english":"Minions gain added Resistances equal to 50% of your Resistances",
@@ -56216,9 +55322,6 @@
     "english":"Minions have (18-22)% increased maximum Life",
     "kind":"craft-stat"
   },{
-    "english":"Minions have (18-24)% increased Movement Speed if you've used a Minion Skill Recently",
-    "kind":"craft-stat"
-  },{
     "english":"Minions have (19-20)% increased Movement Speed",
     "kind":"craft-stat"
   },{
@@ -56324,9 +55427,6 @@
     "english":"Minions have (25-28)% increased maximum Life",
     "kind":"craft-stat"
   },{
-    "english":"Minions have (25-40)% increased Critical Strike Chance",
-    "kind":"craft-stat"
-  },{
     "english":"Minions have (25-40)% reduced Flask Charges used",
     "kind":"craft-stat"
   },{
@@ -56376,9 +55476,6 @@
     "kind":"craft-stat"
   },{
     "english":"Minions have (30-33)% reduced maximum Life",
-    "kind":"craft-stat"
-  },{
-    "english":"Minions have (30-40)% increased Movement Speed if you've used a Minion Skill Recently",
     "kind":"craft-stat"
   },{
     "english":"Minions have (30-40)% increased maximum Life",
@@ -56513,9 +55610,6 @@
     "english":"Minions have (8-10)% increased maximum Life",
     "kind":"craft-stat"
   },{
-    "english":"Minions have (8-12)% chance to deal Double Damage",
-    "kind":"craft-stat"
-  },{
     "english":"Minions have (8-12)% increased maximum Life",
     "kind":"craft-stat"
   },{
@@ -56553,9 +55647,6 @@
     "kind":"craft-stat"
   },{
     "english":"Minions have +(10-14)% to Critical Strike Multiplier",
-    "kind":"craft-stat"
-  },{
-    "english":"Minions have +(10-14)% to Damage over Time Multiplier",
     "kind":"craft-stat"
   },{
     "english":"Minions have +(10-15)% to all Elemental Resistances",
@@ -56682,9 +55773,6 @@
     "kind":"craft-stat"
   },{
     "english":"Minions have +(6-10)% to all Elemental Resistances",
-    "kind":"craft-stat"
-  },{
-    "english":"Minions have +(6-8)% to Damage over Time Multiplier",
     "kind":"craft-stat"
   },{
     "english":"Minions have +(7-10)% to all Elemental Resistances",
@@ -57134,19 +56222,10 @@
     "english":"Offering Skills Triggered this way also affect you",
     "kind":"craft-stat"
   },{
-    "english":"Offering Skills have (10-15)% increased Duration",
-    "kind":"craft-stat"
-  },{
-    "english":"Offering Skills have (20-30)% increased Duration",
-    "kind":"craft-stat"
-  },{
     "english":"Offering Skills have 20% increased Duration",
     "kind":"craft-stat"
   },{
     "english":"Offering Skills have 50% reduced Duration",
-    "kind":"craft-stat"
-  },{
-    "english":"Offerings you create also grant (15-20)% increased Damage",
     "kind":"craft-stat"
   },{
     "english":"On Killing a Poisoned Enemy, Enemies within 3 metres are Poisoned, and you and",
@@ -57183,9 +56262,6 @@
     "kind":"craft-stat"
   },{
     "english":"Pact Skills grant Boons instead of Afflictions",
-    "kind":"craft-stat"
-  },{
-    "english":"Pact Skills have (25-40)% increased Cooldown Recovery Rate",
     "kind":"craft-stat"
   },{
     "english":"Pact Skills have (30-50)% increased Cast Speed",
@@ -57296,12 +56372,6 @@
     "english":"Permanently Intimidate Enemies on Block",
     "kind":"craft-stat"
   },{
-    "english":"Petrification on you expires (150-200)% faster",
-    "kind":"craft-stat"
-  },{
-    "english":"Petrification on you expires (80-120)% faster",
-    "kind":"craft-stat"
-  },{
     "english":"Petrified during Effect",
     "kind":"craft-stat"
   },{
@@ -57404,9 +56474,6 @@
     "english":"Poisons you inflict deal Damage (10-12)% Faster",
     "kind":"craft-stat"
   },{
-    "english":"Poisons you inflict deal Damage (10-15)% Faster",
-    "kind":"craft-stat"
-  },{
     "english":"Poisons you inflict deal Damage (11-15)% Faster",
     "kind":"craft-stat"
   },{
@@ -57471,12 +56538,6 @@
     "kind":"craft-stat"
   },{
     "english":"Poisons you inflict deal Damage 9% Faster",
-    "kind":"craft-stat"
-  },{
-    "english":"Poisons you inflict on non-Poisoned Enemies deal (40-60)% increased Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Poisons you inflict on non-Poisoned Enemies deal (75-100)% increased Damage",
     "kind":"craft-stat"
   },{
     "english":"Precise Technique",
@@ -57647,9 +56708,6 @@
     "english":"Projectiles Pierce an additional Target",
     "kind":"craft-stat"
   },{
-    "english":"Projectiles Pierce, Fork or Chain an additional time at random",
-    "kind":"craft-stat"
-  },{
     "english":"Projectiles Return to you",
     "kind":"craft-stat"
   },{
@@ -57690,9 +56748,6 @@
     "kind":"craft-stat"
   },{
     "english":"Projectiles deal (8-10)% increased Damage with Hits and Ailments for each Enemy Pierced",
-    "kind":"craft-stat"
-  },{
-    "english":"Projectiles deal (8-12)% increased Damage with Hits and Ailments for each Enemy Pierced",
     "kind":"craft-stat"
   },{
     "english":"Projectiles from Attacks Fork",
@@ -57744,9 +56799,6 @@
     "kind":"craft-stat"
   },{
     "english":"Projectiles that have Chained gain (20-35)% of Non-Chaos Damage as extra Chaos Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Projectiles that have Chained gain (8-12)% of Non-Chaos Damage as extra Chaos Damage",
     "kind":"craft-stat"
   },{
     "english":"Properties are doubled while in a Breach",
@@ -57935,19 +56987,7 @@
     "english":"Raised Zombies deal (100-125)% more Physical Damage",
     "kind":"craft-stat"
   },{
-    "english":"Raised Zombies deal (20-30)% increased Damage",
-    "kind":"craft-stat"
-  },{
     "english":"Raised Zombies deal (30-35)% increased Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Raised Zombies deal (35-50)% increased Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Raised Zombies have (18-24)% increased maximum Life",
-    "kind":"craft-stat"
-  },{
-    "english":"Raised Zombies have (30-40)% increased maximum Life",
     "kind":"craft-stat"
   },{
     "english":"Raised Zombies have (80-100)% increased maximum Life",
@@ -58019,9 +57059,6 @@
     "english":"Recover (2-3)% of Energy Shield when you lose a Spirit Charge",
     "kind":"craft-stat"
   },{
-    "english":"Recover (2-3)% of Life on Kill",
-    "kind":"craft-stat"
-  },{
     "english":"Recover (2-3)% of Life when you lose a Spirit Charge",
     "kind":"craft-stat"
   },{
@@ -58071,9 +57108,6 @@
     "kind":"craft-stat"
   },{
     "english":"Recover (37-40)% of Mana and Energy Shield when you Focus",
-    "kind":"craft-stat"
-  },{
-    "english":"Recover (4-5)% of Life on Kill",
     "kind":"craft-stat"
   },{
     "english":"Recover (4-5)% of Life when you use a Flask",
@@ -58247,9 +57281,6 @@
     "english":"Reflects (20-40) Physical Damage to Melee Attackers",
     "kind":"craft-stat"
   },{
-    "english":"Reflects (200-250) Cold Damage to Melee Attackers",
-    "kind":"craft-stat"
-  },{
     "english":"Reflects (200-300) Physical Damage to Melee Attackers",
     "kind":"craft-stat"
   },{
@@ -58275,9 +57306,6 @@
     "kind":"craft-stat"
   },{
     "english":"Reflects (36-50) Physical Damage to Melee Attackers",
-    "kind":"craft-stat"
-  },{
-    "english":"Reflects (400-500) Cold Damage to Melee Attackers",
     "kind":"craft-stat"
   },{
     "english":"Reflects (41-60) Physical Damage to Melee Attackers",
@@ -58367,9 +57395,6 @@
     "english":"Regenerate (0.5-0.7) Mana per second while wielding a Staff",
     "kind":"craft-stat"
   },{
-    "english":"Regenerate (0.5-0.8)% of Life per second for each Raised Zombie",
-    "kind":"craft-stat"
-  },{
     "english":"Regenerate (0.5-1)% of Life per Second if you've Detonated a Mine Recently",
     "kind":"craft-stat"
   },{
@@ -58400,13 +57425,7 @@
     "english":"Regenerate (0.8-1) Mana per second while wielding a Staff",
     "kind":"craft-stat"
   },{
-    "english":"Regenerate (0.8-1)% of Life per second",
-    "kind":"craft-stat"
-  },{
     "english":"Regenerate (0.8-1)% of Life per second for each Raised Zombie",
-    "kind":"craft-stat"
-  },{
-    "english":"Regenerate (0.8-1)% of Mana per second if you've Consumed a corpse Recently",
     "kind":"craft-stat"
   },{
     "english":"Regenerate (0.8-1.2)% of Life per second",
@@ -58452,9 +57471,6 @@
     "kind":"craft-stat"
   },{
     "english":"Regenerate (1.6-2)% of Life per second",
-    "kind":"craft-stat"
-  },{
-    "english":"Regenerate (1.6-2)% of Life per second if you've Consumed a corpse Recently",
     "kind":"craft-stat"
   },{
     "english":"Regenerate (1.7-2.7) Life per second",
@@ -58601,9 +57617,6 @@
     "english":"Regenerate (3-4) Mana per second",
     "kind":"craft-stat"
   },{
-    "english":"Regenerate (3-4)% of Life per second if you have been Hit Recently",
-    "kind":"craft-stat"
-  },{
     "english":"Regenerate (3-5) Mana per second",
     "kind":"craft-stat"
   },{
@@ -58632,9 +57645,6 @@
     "kind":"craft-stat"
   },{
     "english":"Regenerate (4-5)% of Mana over 2 seconds when you Consume a corpse",
-    "kind":"craft-stat"
-  },{
-    "english":"Regenerate (4-6) Mana per second",
     "kind":"craft-stat"
   },{
     "english":"Regenerate (48.1-64) Life per second",
@@ -59174,9 +58184,6 @@
     "english":"Shepherd of Souls",
     "kind":"craft-stat"
   },{
-    "english":"Shield Recharge Rate at (10-15)% of their value",
-    "kind":"craft-stat"
-  },{
     "english":"Shield per 1% Chaos Resistance they have",
     "kind":"craft-stat"
   },{
@@ -59255,13 +58262,7 @@
     "english":"Siren Worm Bait",
     "kind":"craft-stat"
   },{
-    "english":"Skeletons deal (20-30)% increased Damage",
-    "kind":"craft-stat"
-  },{
     "english":"Skeletons deal (30-35)% increased Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Skeletons deal (35-50)% increased Damage",
     "kind":"craft-stat"
   },{
     "english":"Skeletons gain Added Chaos Damage equal to (20-30)% of Maximum Energy Shield on your Equipped Shield",
@@ -59297,19 +58298,10 @@
     "english":"Skills Socketed in your Helmet are Supported by level 20 (2-164)",
     "kind":"craft-stat"
   },{
-    "english":"Skills Supported by Unleash have (15-20)% increased Seal gain frequency",
-    "kind":"craft-stat"
-  },{
     "english":"Skills Supported by Unleash have (30-50)% increased Seal gain frequency",
     "kind":"craft-stat"
   },{
-    "english":"Skills Supported by Unleash have (8-12)% increased Seal gain frequency",
-    "kind":"craft-stat"
-  },{
     "english":"Skills deal (10-15)% more Damage for each Warcry Exerting them",
-    "kind":"craft-stat"
-  },{
-    "english":"Skills deal (4-5)% increased Projectile damage per Projectile created",
     "kind":"craft-stat"
   },{
     "english":"Skills fire (2-3) additional Projectiles",
@@ -59333,12 +58325,6 @@
     "english":"Skills fire an additional Projectile if 6 Hunter Items are Equipped",
     "kind":"craft-stat"
   },{
-    "english":"Skills fire an additional Projectile if you've been Hit Recently",
-    "kind":"craft-stat"
-  },{
-    "english":"Skills fire an additional Projectile if you've used a Movement Skill Recently",
-    "kind":"craft-stat"
-  },{
     "english":"Skills gain Added Chaos Damage equal to (20-25)% of Mana Cost, if Mana Cost is not higher than the maximum you could spend",
     "kind":"craft-stat"
   },{
@@ -59351,19 +58337,7 @@
     "english":"Skills have +(2-3)% to Critical Strike Chance for each Warcry Exerting them",
     "kind":"craft-stat"
   },{
-    "english":"Skills socketed in Equipped Boots have (10-14)% increased Mana Cost Efficiency",
-    "kind":"craft-stat"
-  },{
-    "english":"Skills socketed in Equipped Boots have (6-8)% increased Mana Cost Efficiency",
-    "kind":"craft-stat"
-  },{
     "english":"Skills supported by Unleash have +1 to maximum number of Seals",
-    "kind":"craft-stat"
-  },{
-    "english":"Skills that Cost Life have (6-8)% chance to deal Double Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"Skills that Summon a Totem have (16-24)% chance to Summon two Totems instead of one",
     "kind":"craft-stat"
   },{
     "english":"Skills that Summon a Totem have (20-30)% chance to Summon two Totems instead of one",
@@ -59883,6 +58857,9 @@
     "kind":"craft-stat"
   },{
     "english":"Socketed Gems are Supported by Level 1 Chance to Bleed Support",
+    "kind":"craft-stat"
+  },{
+    "english":"Socketed Gems are Supported by Level 1 Earthbreaker Support",
     "kind":"craft-stat"
   },{
     "english":"Socketed Gems are Supported by Level 1 Elemental Proliferation Support",
@@ -61883,12 +60860,6 @@
     "english":"Strike Skills also target the previous location they were used",
     "kind":"craft-stat"
   },{
-    "english":"Strike Skills which target additional Enemies can do so from (10-15)% further away",
-    "kind":"craft-stat"
-  },{
-    "english":"Strike Skills which target additional Enemies can do so from (20-30)% further away",
-    "kind":"craft-stat"
-  },{
     "english":"Strike if Intelligence is your highest Attribute",
     "kind":"craft-stat"
   },{
@@ -62318,9 +61289,6 @@
     "english":"Traps from Socketed Skills create a Smoke Cloud when triggered",
     "kind":"craft-stat"
   },{
-    "english":"Travel Skills have (15-20)% chance to not consume a Cooldown on use",
-    "kind":"craft-stat"
-  },{
     "english":"Travel Skills other than Dash are Disabled",
     "kind":"craft-stat"
   },{
@@ -62343,9 +61311,6 @@
     "kind":"craft-stat"
   },{
     "english":"Trigger Level 1 Intimidating Cry on Hit",
-    "kind":"craft-stat"
-  },{
-    "english":"Trigger Level 1 Lesser Raise Spiders on Kill",
     "kind":"craft-stat"
   },{
     "english":"Trigger Level 1 Raise Spiders on Kill",
@@ -62738,9 +61703,6 @@
     "english":"Utility Flasks gain (0-3) Charges every 3 seconds",
     "kind":"craft-stat"
   },{
-    "english":"Utility Flasks gain (1-2) Charge every 3 seconds",
-    "kind":"craft-stat"
-  },{
     "english":"Utility Flasks gain 2 Charges every 3 seconds",
     "kind":"craft-stat"
   },{
@@ -62909,9 +61871,6 @@
     "english":"When you Kill a Rare Monster, (15-20)% chance to gain one of its Modifiers for 10 seconds",
     "kind":"craft-stat"
   },{
-    "english":"When you Kill a Rare Monster, (20-30)% chance to gain one of its Modifiers for 10 seconds",
-    "kind":"craft-stat"
-  },{
     "english":"When you Kill a Rare Monster, (21-30)% chance to gain one of its Modifiers for 10 seconds",
     "kind":"craft-stat"
   },{
@@ -62928,9 +61887,6 @@
     "kind":"craft-stat"
   },{
     "english":"When you Kill an Ignited Enemy, inflict an equivalent Ignite on each Enemy within 2 metres",
-    "kind":"craft-stat"
-  },{
-    "english":"When you Poison a non-Poisoned target, also inflict (4-6) Withered debuffs, lasting 2 seconds",
     "kind":"craft-stat"
   },{
     "english":"When you kill a Poisoned Enemy, Enemies within 1.5 metres are Poisoned",
@@ -70628,13 +69584,7 @@
     "english":"Withered you Inflict expires (10-12)% slower",
     "kind":"craft-stat"
   },{
-    "english":"Withered you Inflict expires (10-15)% slower",
-    "kind":"craft-stat"
-  },{
     "english":"Withered you Inflict expires (13-15)% slower",
-    "kind":"craft-stat"
-  },{
-    "english":"Withered you Inflict expires (15-20)% slower",
     "kind":"craft-stat"
   },{
     "english":"Withered you Inflict expires (16-18)% slower",
@@ -70701,15 +69651,6 @@
     "kind":"craft-stat"
   },{
     "english":"You and Allies near your Banner have +1% to Damage over Time Multiplier per",
-    "kind":"craft-stat"
-  },{
-    "english":"You and Allies within 5 metres deal 25 to 40 additional Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"You and Allies within 5 metres deal 50 to 75 additional Cold Damage",
-    "kind":"craft-stat"
-  },{
-    "english":"You and Allies within 5 metres deal 8 to 12 additional Cold Damage",
     "kind":"craft-stat"
   },{
     "english":"You and Allies within 6 metres deal (10-12)% increased Damage",
@@ -70998,9 +69939,6 @@
     "kind":"craft-stat"
   },{
     "english":"You cannot be Shocked while at maximum Endurance Charges",
-    "kind":"craft-stat"
-  },{
-    "english":"You cannot be Stunned if you've been Stunned or Blocked",
     "kind":"craft-stat"
   },{
     "english":"You cannot be Stunned while at maximum Endurance Charges",
@@ -71615,9 +70553,6 @@
     "english":"Your Warcries cover Enemies in Ash for 5 seconds",
     "kind":"craft-stat"
   },{
-    "english":"Your chance to cause monsters to Flee on Hit is also chance to Terrify Monsters on Hit",
-    "kind":"craft-stat"
-  },{
     "english":"Your hits can't be Evaded",
     "kind":"craft-stat"
   },{
@@ -71679,9 +70614,6 @@
     "kind":"craft-stat"
   },{
     "english":"a Non-Vaal Slam or Strike Skill near an Enemy",
-    "kind":"craft-stat"
-  },{
-    "english":"a Stunning Hit in the past 2 seconds",
     "kind":"craft-stat"
   },{
     "english":"also applies to Effect of Arcane Surge on you at (200-250)% of their value",
@@ -71766,9 +70698,6 @@
     "kind":"craft-stat"
   },{
     "english":"has a 50% increased angle",
-    "kind":"craft-stat"
-  },{
-    "english":"have 100% reduced Life Regeneration Rate",
     "kind":"craft-stat"
   },{
     "english":"have fewer than 5 Poisons on you",
@@ -71916,12 +70845,6 @@
     "kind":"craft-stat-group"
   },{
     "english":"(10-15)% increased Energy Shield Recovery rate\n(10-15)% increased Life Recovery rate",
-    "kind":"craft-stat-group"
-  },{
-    "english":"(10-15)% of Cold Damage from Hits taken as Fire Damage\n(10-15)% of Lightning Damage from Hits taken as Fire Damage",
-    "kind":"craft-stat-group"
-  },{
-    "english":"(10-15)% of Fire Damage from Hits taken as Cold Damage\n(10-15)% of Lightning Damage from Hits taken as Cold Damage",
     "kind":"craft-stat-group"
   },{
     "english":"(10-20)% increased Bleeding Duration\nBleeding you inflict deals Damage (11-15)% Faster",
@@ -72354,9 +71277,6 @@
     "kind":"craft-stat-group"
   },{
     "english":"(16-20)% reduced Enemy Stun Threshold\n(16-20)% increased Stun Duration on Enemies",
-    "kind":"craft-stat-group"
-  },{
-    "english":"(16-24)% increased Damage if you have Consumed a corpse Recently\nRegenerate (1.6-2)% of Life per second if you've Consumed a corpse Recently\nRegenerate (0.8-1)% of Mana per second if you've Consumed a corpse Recently",
     "kind":"craft-stat-group"
   },{
     "english":"(17-19)% increased Attack Speed\n(4-6)% chance to deal Double Damage",
@@ -73040,9 +71960,6 @@
     "english":"(4-6)% increased Strength\n(4-6)% increased Intelligence",
     "kind":"craft-stat-group"
   },{
-    "english":"(4-6)% of Cold Damage taken as Fire Damage\n(4-6)% of Lightning Damage taken as Fire Damage\n(4-6)% of Physical Damage taken as Fire Damage",
-    "kind":"craft-stat-group"
-  },{
     "english":"(40-43)% reduced Amount Recovered\n135% increased Recovery rate\n50% of Recovery applied Instantly",
     "kind":"craft-stat-group"
   },{
@@ -73065,9 +71982,6 @@
     "kind":"craft-stat-group"
   },{
     "english":"(40-45)% increased Chaos Damage\nChaos Skills have (9-10)% increased Skill Effect Duration",
-    "kind":"craft-stat-group"
-  },{
-    "english":"(40-50)% reduced bonuses gained from Equipped Boots\n(20-30)% increased bonuses gained from Equipped Gloves",
     "kind":"craft-stat-group"
   },{
     "english":"(41-45)% chance to Avoid being Chilled during Effect\n(41-45)% chance to Avoid being Frozen during Effect",
@@ -73488,9 +72402,6 @@
     "kind":"craft-stat-group"
   },{
     "english":"(8-12)% Chance to Block Spell Damage\n+5% Chance to Block Attack Damage",
-    "kind":"craft-stat-group"
-  },{
-    "english":"(8-12)% chance that if you would gain Power Charges, you instead gain up to\nyour maximum number of Power Charges",
     "kind":"craft-stat-group"
   },{
     "english":"(8-12)% increased Area of Effect\nEnemies you Kill Explode, dealing 5% of their Life as Physical Damage",
@@ -75656,9 +74567,6 @@
     "english":"Enemies take 4% increased Elemental Damage from your Hits for\neach Withered you have inflicted on them",
     "kind":"craft-stat-group"
   },{
-    "english":"Enemies within 6 metres of corpses you spawned Recently\nhave 100% reduced Life Regeneration Rate",
-    "kind":"craft-stat-group"
-  },{
     "english":"Enemies you Kill that are affected by Elemental Ailments\ngrant (15-25)% increased Flask Charges",
     "kind":"craft-stat-group"
   },{
@@ -75666,12 +74574,6 @@
     "kind":"craft-stat-group"
   },{
     "english":"Every 10 seconds:\nGain 2% of Life per Enemy Hit with Attacks for 5 seconds\nGain 5% of Life per Enemy Killed for 5 seconds",
-    "kind":"craft-stat-group"
-  },{
-    "english":"Every 3 seconds, Consume a Corpse within 5 metres to Recover (2-3)% of Life\nEvery 3 seconds, Consume a Corpse within 5 metres to Recover (2-3)% of Mana",
-    "kind":"craft-stat-group"
-  },{
-    "english":"Every 3 seconds, Consume a Corpse within 5 metres to Recover (4-5)% of Life\nEvery 3 seconds, Consume a Corpse within 5 metres to Recover (4-5)% of Mana",
     "kind":"craft-stat-group"
   },{
     "english":"Every 5 seconds, gain one of the following for 5 seconds:\nYour Hits are always Critical Strikes\nHits against you are always Critical Strikes\nAttacks cannot Hit you\nAttacks against you always Hit\nYour Damage with Hits is Lucky\nDamage of Hits against you is Lucky",
@@ -75719,9 +74621,6 @@
     "english":"Gain (20-40)% of Physical Damage as Extra Lightning Damage if you've\nused a Topaz Flask Recently",
     "kind":"craft-stat-group"
   },{
-    "english":"Gain (3-4)% of Physical Damage as Extra Cold Damage\nGain (3-4)% of Physical Damage as Extra Lightning Damage",
-    "kind":"craft-stat-group"
-  },{
     "english":"Gain (3-5) Mana per Enemy Hit with Attacks\n(10-20)% increased Attack Speed while not on Low Mana",
     "kind":"craft-stat-group"
   },{
@@ -75732,12 +74631,6 @@
     "kind":"craft-stat-group"
   },{
     "english":"Gain (3-5)% of Physical Damage as Extra Lightning Damage\n(22-25)% of Physical Damage Converted to Lightning Damage",
-    "kind":"craft-stat-group"
-  },{
-    "english":"Gain (4-5)% of Physical Damage as Extra Cold Damage\nGain (4-5)% of Physical Damage as Extra Lightning Damage",
-    "kind":"craft-stat-group"
-  },{
-    "english":"Gain (4-6)% of Physical Damage as Extra Fire Damage\nGain (4-6)% of Physical Damage as Extra Cold Damage\nGain (4-6)% of Physical Damage as Extra Lightning Damage",
     "kind":"craft-stat-group"
   },{
     "english":"Gain (40-75)% of Physical Damage as Extra Chaos Damage if you've\nused an Amethyst Flask Recently",
@@ -75926,13 +74819,22 @@
     "english":"Has Consumed 1 Gem\nSocketed Gems are Supported by Level 20 Burning Damage Support",
     "kind":"craft-stat-group"
   },{
+    "english":"Has Consumed 1 Gem\nSocketed Gems are Supported by Level 20 Cast On Critical Strike Support",
+    "kind":"craft-stat-group"
+  },{
     "english":"Has Consumed 1 Gem\nSocketed Gems are Supported by Level 20 Cast on Death Support",
+    "kind":"craft-stat-group"
+  },{
+    "english":"Has Consumed 1 Gem\nSocketed Gems are Supported by Level 20 Cast on Melee Kill Support",
     "kind":"craft-stat-group"
   },{
     "english":"Has Consumed 1 Gem\nSocketed Gems are Supported by Level 20 Cast when Damage Taken Support",
     "kind":"craft-stat-group"
   },{
     "english":"Has Consumed 1 Gem\nSocketed Gems are Supported by Level 20 Cast when Stunned Support",
+    "kind":"craft-stat-group"
+  },{
+    "english":"Has Consumed 1 Gem\nSocketed Gems are Supported by Level 20 Cast while Channelling Support",
     "kind":"craft-stat-group"
   },{
     "english":"Has Consumed 1 Gem\nSocketed Gems are Supported by Level 20 Chain Support",
@@ -76674,9 +75576,6 @@
     "kind":"craft-stat-group"
   },{
     "english":"Increases and Reductions to Lightning Damage also apply to Effect of\nAuras from Lightning Skills at (10-15)% of their value, up to a maximum of 150%",
-    "kind":"craft-stat-group"
-  },{
-    "english":"Increases and Reductions to Mana Regeneration Rate also apply to Energy\nShield Recharge Rate at (10-15)% of their value",
     "kind":"craft-stat-group"
   },{
     "english":"Increases and Reductions to Physical Damage also apply to Effect of\nAuras from Physical Skills at (10-15)% of their value, up to a maximum of 150%",
@@ -78090,9 +76989,6 @@
     "kind":"craft-stat-group"
   },{
     "english":"You cannot Cast Socketed Hex Curse Skills\nInflict Socketed Hexes on Enemies that trigger your Traps",
-    "kind":"craft-stat-group"
-  },{
-    "english":"You cannot be Stunned if you've been Stunned or Blocked\na Stunning Hit in the past 2 seconds",
     "kind":"craft-stat-group"
   },{
     "english":"You do not inherently take less Damage for having Fortification\n+4% chance to Suppress Spell Damage per Fortification",
@@ -102150,6 +101046,9 @@
     "english":"Grants Level 10 Frostblink",
     "kind":"unique-stat"
   },{
+    "english":"Grants Level 10 Purity of Elements",
+    "kind":"unique-stat"
+  },{
     "english":"Grants Level 12 Summon Stone Golem",
     "kind":"unique-stat"
   },{
@@ -108985,6 +107884,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Constriction",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Controlled Blaze",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -109037,7 +107940,19 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Destitution",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Devour",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Diminishment",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Disempower",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -109078,6 +107993,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (1-10) Elemental Proliferation",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Encumbrance",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -109225,6 +108144,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Impotence",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Increased Area of Effect",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -109293,6 +108216,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Lethargy",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Life Gain on Hit",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -109338,6 +108265,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (1-10) Meat Shield",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Mediocrity",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -109397,6 +108328,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Nullification",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Overcharge",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -109417,6 +108352,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Penance",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Physical to Lightning",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -109430,6 +108369,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (1-10) Point Blank",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Poverty",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -109530,6 +108473,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (1-10) Swiftbrand",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Taxation",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -109797,6 +108744,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Constriction",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Controlled Blaze",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -109849,7 +108800,19 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Destitution",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Devour",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (25-35) Diminishment",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (25-35) Disempower",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -109890,6 +108853,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (25-35) Elemental Proliferation",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (25-35) Encumbrance",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -110037,6 +109004,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Impotence",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Increased Area of Effect",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -110105,6 +109076,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Lethargy",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Life Gain on Hit",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -110150,6 +109125,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (25-35) Meat Shield",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (25-35) Mediocrity",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -110209,6 +109188,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Nullification",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Overcharge",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -110229,6 +109212,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Penance",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Physical to Lightning",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -110242,6 +109229,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (25-35) Point Blank",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (25-35) Poverty",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -110345,6 +109336,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Taxation",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Transfusion",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -110421,6 +109416,9 @@
     "kind":"unique-stat"
   },{
     "english":"Socketed Gems are Supported by Level 1 Chance to Bleed Support",
+    "kind":"unique-stat"
+  },{
+    "english":"Socketed Gems are Supported by Level 1 Earthbreaker Support",
     "kind":"unique-stat"
   },{
     "english":"Socketed Gems are Supported by Level 1 Elemental Penetration Support",
@@ -119868,10 +118866,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+1% to maximum Fire Resistance",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+1.3 Hit DPS (+2134.9%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -119984,6 +118978,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+11 Effective Hit Pool (+29.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+11% to Chaos Resistance",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -120012,15 +119010,19 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+126 Cold Max Hit (+340.5%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+126 Elemental Max Hit (+340.5%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+126 Lightning Max Hit (+340.5%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+131 Dexterity Required",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+131 Phys Max Hit (+218.3%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+146 Elemental Max Hit (+394.6%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -120048,6 +119050,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+150 Effective Hit Pool (+391.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+1500 Armour while stationary",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -120064,11 +119070,11 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+158 Effective Hit Pool (+413.3%)",
+    "english":"+160 Dexterity Requirement",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+160 Dexterity Requirement",
+    "english":"+18 Fire Max Hit (+48.6%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -120092,11 +119098,31 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+191 Fire Max Hit (+516.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+194 Intelligence Required",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+2 Accuracy Rating per 2 Intelligence",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+2 Chaos Max Hit (+5.3%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+2 Cold Max Hit (+5.4%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+2 Elemental Max Hit (+5.4%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+2 Lightning Max Hit (+5.4%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -120312,6 +119338,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+205 Phys Max Hit (+341.7%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+212 Dexterity Required",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -120328,27 +119358,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+23 Chaos Max Hit (+60.5%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+23 Elemental Max Hit (+62.2%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+23 to maximum Life",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+238 Phys Max Hit (+396.7%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+24 Effective Hit Pool (+63.9%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+25 Effective Hit Pool (+64.3%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -120564,14 +119574,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+32 Effective Hit Pool (+83.9%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+33 to maximum Life",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+330 to Accuracy Rating",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -120604,11 +119606,15 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+37 Phys Max Hit (+61.7%)",
+    "english":"+39 Phys Max Hit (+65.0%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+37 Total Life (+61.7%)",
+    "english":"+4 Phys Max Hit (+6.7%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+4 Total Life (+6.7%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -120689,6 +119695,14 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+460 to Accuracy Rating",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+47% Fire Resistance",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+47% to Fire Resistance",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -120836,6 +119850,14 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+6 Effective Hit Pool (+14.6%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+6 Effective Hit Pool (+15.1%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+6 to Maximum Life per Elder Item Equipped",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -120853,6 +119875,18 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+6.5% Crit Chance",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+60 Cold Max Hit (+162.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+60 Elemental Max Hit (+162.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+60 Lightning Max Hit (+162.2%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -120892,15 +119926,15 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+73 Effective Hit Pool (+191.0%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+75% to Cold Resistance",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+75% to Lightning Resistance",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+76 Phys Max Hit (+126.7%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -120912,14 +119946,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+80 Elemental Max Hit (+216.2%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+87 Effective Hit Pool (+227.5%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+94 Energy Shield",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -120928,7 +119954,15 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+98 Phys Max Hit (+163.3%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+98 Strength Required",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+99 Fire Max Hit (+267.6%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -121201,6 +120235,10 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"0.4% of Chaos Damage Leeched as Life",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"0.4% of Fire Damage Leeched by Enemy as Life",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -124117,6 +123155,10 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"60% reduced Mana Regeneration Rate",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"7% increased maximum Life",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -133844,6 +132886,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"Grants Level 10 Purity of Elements",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"Grants Level 12 Summon Stone Golem",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -143104,6 +142150,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"Socketed Gems are Supported by Level 1 Earthbreaker Support",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"Socketed Gems are Supported by Level 1 Greater Spell Echo Support",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -147272,7 +146322,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"Variant: Withering Touch (High Level) (406 variants)",
+    "english":"Variant: Withering Touch (High Level) (430 variants)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{

@@ -23,7 +23,7 @@ from database_locale import build_database
 from anoint_locale import write_anoint_names
 from glyph_atlas import build_atlas
 from viscera_locale import build_viscera
-from spectre_locale import build_spectres
+from spectre_locale import build_spectres, build_areas
 from build_crafting_locale import build as build_crafting
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -189,7 +189,19 @@ def build():
     entries.update({k: {'zh': v, 'kind': 'gem-ui', 'status': 'source-code-checked',
                         'source': 'src/Classes/GemTooltip.lua; src/Modules/Build.lua'}
                     for k, v in detail_ui.items()})
+    # Dedicated reviewed inputs retain query evidence for newly introduced names.
+    for terms_file, kind in (('upstream-2690-gem-names.json', 'gem'),
+                             ('spectre-skill-names.json', 'spectre-skill-name')):
+        path = HERE / terms_file
+        if path.exists():
+            for english, meta in json.loads(path.read_text('utf8')).items():
+                entries[english] = dict(meta, kind=kind)
+    spectre_skill_names = set(re.findall(r'\bname = "([^"\n]+)"',
+                                        (ROOT / 'src/Data/Skills/spectre.lua').read_text('utf8')))
     part_terms = json.loads((HERE / 'skill-part-terms.json').read_text('utf8'))
+    missing_names = (names | spectre_skill_names) - (entries.keys() | part_terms.keys())
+    if missing_names:
+        raise ValueError('Untranslated gem/spectre skill names: ' + ', '.join(sorted(missing_names)))
     part_labels = set()
     for path in (ROOT / 'src/Data/Skills').glob('*.lua'):
         for block in re.findall(r'\bparts\s*=\s*\{(.*?)\n\t\},', path.read_text('utf8'), re.S):
@@ -216,6 +228,7 @@ def build():
     # Existing reviewed UI/gem terminology remains the canonical shared word.
     for en, meta in item_entries.items():
         entries.setdefault(en, meta)
+    area_names, area_report = build_areas(entries)
     for en, zh in part_terms.items():
         entries.setdefault(en, {'zh': zh, 'kind': 'skill-part', 'status': 'source-code-checked',
                                 'source': 'src/Data/Skills/*.lua; src/Modules/Build.lua'})
@@ -244,6 +257,8 @@ def build():
         return json.dumps(s, ensure_ascii=False)
     (OUT / 'SpectreNames.lua').write_text('return {\n' + ''.join(
         '[' + lua(en) + ']=' + lua(zh) + ',\n' for en, zh in spectre_names.items()) + '}\n', 'utf8')
+    (OUT / 'SpectreAreas.lua').write_text('return {\n' + ''.join(
+        '[' + lua(en) + ']=' + lua(zh) + ',\n' for en, zh in area_names.items()) + '}\n', 'utf8')
     (OUT / 'SkillPartNames.lua').write_text('return {\n' + ''.join(
         '[' + lua(en) + ']=' + lua(zh) + ',\n' for en, zh in part_terms.items()) + '}\n', 'utf8')
     (OUT / 'ItemDisplayTerms.lua').write_text('return {\n' + ''.join(
@@ -283,17 +298,20 @@ def build():
     all_text = ''.join(v['zh'] for v in entries.values()) + ''.join(part_terms.values()) + ''.join(v['zh'] for v in gem_templates + item_templates) + ''.join(v['zh'] for v in formats) + ''.join(display_terms.values()) + ''.join(zh for texts in passive_contexts.values() for zh in texts.values()) + extra
     all_text += ''.join(calc_identifiers.values())
     all_text += ''.join(spectre_names.values())
+    all_text += ''.join(area_names.values())
     all_text += ''.join(json.loads((HERE / 'calc-identifier-terms.json').read_text('utf8')).values())
     chars = sorted({c for c in all_text if ord(c) > 127})
     font_info = build_atlas(chars, OUT)
     report = {'entries': len(entries), 'gem_names': sum(v['kind'] == 'gem' and 'alias_of' not in v for v in entries.values()),
               'glyphs': len(chars), **font_info,
-              'pob_version': '2.68.1', 'passive_reference_version': '3.30', 'passive_reference_retrieved': '2026-11-17', 'name_reference_retrieved': '2026-11-11', 'item_reference_retrieved': '2026-11-12',
+              'pob_version': '2.69.0', 'passive_reference_version': '3.30', 'passive_reference_retrieved': '2026-11-17', 'name_reference_retrieved': '2026-11-11', 'item_reference_retrieved': '2026-11-12',
               'passives': passive_report, 'gem_details': gem_report, 'item_details': item_report,
               'cluster_details': {'counts': cluster_report['counts'], 'pending': len(cluster_report['pending']),
                                   'reference_retrieved': cluster_report['reference_retrieved']},
               'database_details': {k:v if not isinstance(v,dict)else len(v)for k,v in database_report.items()},
               'spectre_names': spectre_report,
+              'spectre_areas': area_report,
+              'spectre_skill_names': len(spectre_skill_names),
               'sidebar_labels': len(labels), 'sidebar_labels_translated': len(labels),
               'skill_part_labels': len(part_labels), 'skill_part_labels_translated': len(part_labels),
               'calculation_labels': len(calc_labels), 'calculation_labels_translated': len(calc_labels),

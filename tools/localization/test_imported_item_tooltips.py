@@ -240,13 +240,17 @@ for _,row in ipairs(rareRows)do
  local slot=assert(build.itemsTab.slots[parts[5]])
  slot:SetSelItemId(item.id)
  build.itemsTab:PopulateSlots()
+ slot:UpdateEquippedDetails()
+ assert(slot.hideSelDetail and slot.list[slot.selIndex].detail=='^8(equipped)', 'Equipped metadata missing')
  local saved=build:SaveDB('fixture')
  for _,mode in ipairs({'zh','en','zh'})do
   L.mode=mode;tip:Clear();build.itemsTab:AddItemTooltip(tip,item,slot)
   local title,base=parts[mode=='en' and 1 or 3],parts[mode=='en' and 2 or 4]
   local label=title..', '..base
   assert(L:ItemListName(item)==label,L:ItemListName(item))
-  assert(L:Translate(slot.list[slot.selIndex])==colorCodes.RARE..label,L:Translate(slot.list[slot.selIndex]))
+  local slotLabel=L:Translate(slot:GetDisplayLabel(slot.list[slot.selIndex]))
+  assert(slotLabel==colorCodes.RARE..label,slotLabel)
+  assert(L:Translate(slot.list[slot.selIndex].detail)==(mode=='en' and '^8(equipped)' or '^8（已装备）'))
   assert(tip.lines[1].text==colorCodes.RARE..title,tip.lines[1].text)
   assert(tip.lines[2].text==colorCodes.RARE..base,tip.lines[2].text)
   assert(item:BuildRaw()==row.raw and build:SaveDB('fixture')==saved,'Rare name display changed saved data')
@@ -318,7 +322,7 @@ for _,mode in ipairs({'zh','en','zh'})do
   local title=tip.lines[1].text:gsub('%^x%x%x%x%x%x%x',''):gsub('%^%d','')
   assert(title==(mode=='en' and row.item.name or row.zh),title)
   local slot=build.itemsTab.slots['Flask '..i]
-  local label=L:Translate(slot.list[slot.selIndex])
+  local label=L:Translate(slot:GetDisplayLabel(slot.list[slot.selIndex]))
   assert(label:find(mode=='en' and row.item.name or row.zh,1,true),label)
   assert(row.item:BuildRaw()==row.raw,'Raw item changed')
   if i==1 and mode=='zh'then

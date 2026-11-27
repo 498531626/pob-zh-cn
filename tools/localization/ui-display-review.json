@@ -91,7 +91,14 @@
     "nil": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
     "otherEffects:\n": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
     "title": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
-    "tooltipText": "Parser pattern, serialized field, condition type or control property; preserve the internal value."
+    "tooltipText": "Parser pattern, serialized field, condition type or control property; preserve the internal value.",
+    "BuildSetListControl": "Internal control class name; preserve the identifier.",
+    "JewelSocketActiveBlightcore": "Tree sprite asset identifier.",
+    "implicit%d": "Internal trade-stat key format.",
+    "explicit.stat_%s|%s|%s": "Internal trade API query identifiers.",
+    "weapon.sceptre": "Trade API item category.",
+    "Class %s constructor did not return a value": "Developer class-construction diagnostic; retain class and API identifiers.",
+    "Parent class %s constructor of class %s was not provided self. Are you perhaps calling it with self.%s instead of self:%s?": "Developer Lua method-call diagnostic; literal self.foo and self:foo syntax is required to identify the error."
   },
   "examples": [
     {
@@ -557,6 +564,14 @@
     {
       "english": "You do not meet the Omniscience requirement of Player item",
       "chinese": "未满足“Player item”的全知需求"
+    },
+    {
+      "english": "23 Levels from Gems",
+      "chinese": "来自宝石的 23 级"
+    },
+    {
+      "english": "It will be socketed into Player Jewel",
+      "chinese": "将镶嵌到 Player Jewel"
     }
   ]
 }

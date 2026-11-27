@@ -37,20 +37,27 @@ assert(locale.SpectreName('Necromancer') == '死灵法师')
 build:OpenSpectreLibrary()
 local controls = main.popups[1].controls
 local available, selected = controls.source, controls.list
+local recommendedCount = #available.list
+assert(recommendedCount > 0)
+controls.sortMonsterCheckboxShowAll.state = true
+controls.sortMonsterCheckboxShowAll.changeFunc(true)
+assert(#available.list > recommendedCount, 'Show All must retain the upstream recommended filter')
 local glyphs = LoadModule('Localization/Glyphs').chars
 local utf8 = require('lua-utf8')
-local count, arenaId, shieldId = 0
+local count, shownCount, arenaId, shieldId = 0, 0
+local categories = {Beast=true, Humanoid=true, Eldritch=true, Construct=true, Demon=true, Undead=true}
 for id, spectre in pairs(data.spectres) do
     local name = available:GetRowValue(1, 1, id)
-    assert(name ~= spectre.name and not name:match('%a'), name)
+    assert(name ~= spectre.name and name:find('[\128-\255]'), name)
     for _, codepoint in utf8.codes(name) do
         if codepoint > 127 then assert(glyphs[utf8.char(codepoint)], name) end
     end
     if spectre.name == 'Arena Master' then arenaId = id end
     if spectre.energyShield then shieldId = id end
+    if categories[spectre.monsterCategory] then shownCount = shownCount + 1 end
     count = count + 1
 end
-assert(count == #available.list and count > 0)
+assert(shownCount == #available.list and count > 0, ('Categorized spectre IDs %d / shown %d'):format(shownCount, #available.list))
 assert(arenaId and shieldId)
 local search = available.controls.searchText
 for _, mode in ipairs({'zh', 'en', 'zh'}) do
@@ -63,9 +70,27 @@ for _, mode in ipairs({'zh', 'en', 'zh'}) do
     local tip = new('Tooltip'):Tooltip()
     available:AddValueTooltip(tip, 1, shieldId)
     assert(StripEscapes(tip.lines[1].text) == available:GetRowValue(1, 1, shieldId))
-    local shieldLine = StripEscapes(tip.lines[3].text)
-    assert(shieldLine:find(mode == 'zh' and '能量护盾：基础生命的 ' or 'Energy Shield: ', 1, true), shieldLine)
+    local shieldLine
+    for _, line in ipairs(tip.lines) do
+        if line.text and StripEscapes(line.text):find(mode == 'zh' and '能量护盾：基础生命的 ' or 'Energy Shield: ', 1, true) then shieldLine = line.text end
+    end
+    assert(shieldLine, 'Missing translated Energy Shield tooltip')
 end
+search:SetText('', true)
+for sort = 1, 12 do
+    available.controls.sortModeDropDown:SetSel(sort)
+    assert(#available.list == shownCount, 'Sorting lost categorized IDs')
+end
+local areaCount = 0
+for _, spectre in pairs(data.spectres) do
+    for _, location in ipairs(spectre.spawnLocation) do
+        local translated = locale.SpectreLocation(location)
+        assert(translated ~= location and translated:find('[\128-\255]'), translated)
+        locale.mode = 'en'; assert(locale.SpectreLocation(location) == location); locale.mode = 'zh'
+        areaCount = areaCount + 1
+    end
+end
+search:SetText('竞技场大师', true)
 controls.source.controls.add:Click()
 assert(selected.list[1] == arenaId and selected:GetRowValue(1, 1, arenaId) == '竞技场大师')
 assert(#build.spectreList == 0)
@@ -85,5 +110,5 @@ assert(dropdown:GetDisplayLabel(entry) == '竞技场大师')
 locale.mode = 'en'
 assert(dropdown:GetDisplayLabel(entry) == 'Arena Master')
 assert(dropdown:GetDisplayLabel(nil) == nil)
-print(('Spectre library: %d IDs, Chinese glyphs, bilingual search, tooltips, saved IDs and main skill dropdown passed'):format(count))
+print(('Spectre library: %d IDs, %d spawn labels, 12 sorts, Chinese glyphs, bilingual search, tooltips, saved IDs and main skill dropdown passed'):format(count, areaCount))
 ''')

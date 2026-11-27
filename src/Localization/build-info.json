@@ -1,7 +1,7 @@
 {
-  "entries": 45896,
-  "gem_names": 1040,
-  "glyphs": 2523,
+  "entries": 45938,
+  "gem_names": 1053,
+  "glyphs": 2628,
   "font": "Noto Sans SC Medium (installed on local PC)",
   "font_weight": 500,
   "font_sizes": [
@@ -24,7 +24,7 @@
     48
   ],
   "font_sha256": "763146584cf0710223441356b4395e279021b0806c196614377a7a0174ae074a",
-  "pob_version": "2.68.1",
+  "pob_version": "2.69.0",
   "passive_reference_version": "3.30",
   "passive_reference_retrieved": "2026-11-17",
   "name_reference_retrieved": "2026-11-11",
@@ -65,9 +65,9 @@
     "paired_mod_records": 103475,
     "reviewed_legacy_entries": 38,
     "reviewed_legacy_templates": 34,
-    "exact_entries": 30505,
-    "numeric_templates": 6719,
-    "composed_entries": 10297,
+    "exact_entries": 30278,
+    "numeric_templates": 6713,
+    "composed_entries": 10070,
     "ambiguous_exact_resolved": 62,
     "ambiguous_templates_resolved": 25,
     "ambiguous_exact": 62,
@@ -98,9 +98,9 @@
       "Summoned Arbalist",
       "Summoned Rhoa"
     ],
-    "source_rows": 7621,
-    "matched_pairs": 13173,
-    "exact_entries": 3249,
+    "source_rows": 7611,
+    "matched_pairs": 13160,
+    "exact_entries": 3237,
     "numeric_templates": 1391,
     "cluster_notable_names": 300,
     "missing_cluster_notable_names": [],
@@ -108,18 +108,25 @@
     "ambiguous_templates": 6
   },
   "spectre_names": {
-    "names": 260,
-    "paired": 197,
-    "literal_pending_review": 63
+    "names": 1578,
+    "paired": 1578,
+    "literal_pending_review": 0
   },
+  "spectre_areas": {
+    "locations": 350,
+    "base_names": 322,
+    "literal_pending_review": 1,
+    "reference_retrieved": "2026-11-27"
+  },
+  "spectre_skill_names": 292,
   "sidebar_labels": 177,
   "sidebar_labels_translated": 177,
   "skill_part_labels": 179,
   "skill_part_labels_translated": 179,
-  "calculation_labels": 603,
-  "calculation_labels_translated": 603,
-  "calculation_identifiers": 2302,
-  "configuration_labels": 754,
-  "configuration_labels_translated": 754,
+  "calculation_labels": 604,
+  "calculation_labels_translated": 604,
+  "calculation_identifiers": 2306,
+  "configuration_labels": 759,
+  "configuration_labels_translated": 759,
   "scope": "Display only: UI/sidebar/calculations/configuration, gem/player-granted skill details, matched 3.30 passives, paired item names/bases/modifiers, essence/currency/monster/pantheon/tattoo/enchantment/cluster/boss preset display fields and finite display clauses. Item/database audits retain pending historic/special/unreviewed text. Coverage counts describe checked sources and fixtures, not every build or historic/jewel-transformed state. Calculation data and user input remain unchanged."
 }

@@ -17,7 +17,12 @@ def run(code):
     lib.lua_tolstring.restype = ctypes.c_char_p
     lib.lua_close.argtypes = [ctypes.c_void_p]
     try:
-        rc = lib.luaL_loadstring(state, code.encode('utf8')) or lib.lua_pcall(state, 0, 0, 0)
+        # Lua can raise nil/table values; stringify them before pcall unwinds
+        # the stack so failures still identify the actual source location.
+        wrapped = ('local passed,failure=xpcall(function()\n' + code +
+                   '\nend,function(value) return debug.traceback(tostring(value),2) end)\n'
+                   'if not passed then error(failure,0) end')
+        rc = lib.luaL_loadstring(state, wrapped.encode('utf8')) or lib.lua_pcall(state, 0, 0, 0)
         if rc:
             raise RuntimeError(lib.lua_tolstring(state, -1, None).decode('utf8'))
     finally:

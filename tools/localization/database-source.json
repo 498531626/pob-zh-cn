@@ -12811,10 +12811,6 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
-    "english":"Brinehook's Ducat",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
     "english":"Burial Medallion",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
@@ -12868,14 +12864,6 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"Crystallised Rancour",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Cyaxan's Ducat",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Dead Man's Sulphur",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -13331,14 +13319,6 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
-    "english":"Katakohi's Ducat",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Kishara's Ducat",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
     "english":"Lesser Eldritch Ember",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
@@ -13432,10 +13412,6 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"Merrick's Ducat",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Message in a Bottle",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -13615,6 +13591,10 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
+    "english":"Originator's Exalted Orb",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
     "english":"Portal Scroll",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
@@ -13624,6 +13604,10 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"Primal Delirium Orb",
+    "kind":"currency-name",
+    "source":"Data/CurrencyNames.lua"
+  },{
+    "english":"Primordial Exalted Orb",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -13676,10 +13660,6 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"Rogue's Marker",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Rotmother's Ducat",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -14355,10 +14335,6 @@
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
-    "english":"Telesia's Ducat",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
     "english":"Tempering Catalyst",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
@@ -14372,14 +14348,6 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"Thaumaturge's Delirium Orb",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"The Changeling's Ducat",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"The Genteel's Ducat",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{
@@ -14420,14 +14388,6 @@
     "source":"Data/CurrencyNames.lua"
   },{
     "english":"Turbulent Catalyst",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Tzamoto's Ducat",
-    "kind":"currency-name",
-    "source":"Data/CurrencyNames.lua"
-  },{
-    "english":"Ukatoa's Ducat",
     "kind":"currency-name",
     "source":"Data/CurrencyNames.lua"
   },{

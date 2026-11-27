@@ -108,5 +108,10 @@
  "Totem Cold Resist Max":"图腾冰霜抗性上限",
  "Totem Lightning Resist Max":"图腾闪电抗性上限",
  "Totem Chaos Resist Max":"图腾混沌抗性上限",
- "Totem Elemental Resist Max":"图腾元素抗性上限"
+ "Totem Elemental Resist Max":"图腾元素抗性上限",
+ "Reservation Eff.":"保留效能",
+ "for each 5% of Life Reserved":"每保留 5% 生命",
+ "repeated attacks/casts do not count":"重复的攻击/施法不计入",
+ "inverted hit after penetration":"穿透后的反转击中",
+ "inverted hit after penetration, capped at maximum resistance":"穿透后的反转击中，受最大抗性限制"
 }

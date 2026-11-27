@@ -1,0 +1,4779 @@
+{
+  "Poison DoT": {
+    "source": "https://poedb.tw/cn/Perfect_Serpent_Warrior",
+    "english_source": "https://poedb.tw/us/Perfect_Serpent_Warrior",
+    "retrieved": "2026-11-27",
+    "zh": "中毒持续伤害",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "ABTTAzmeriBasaliskShroud"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "ABTTAzmeriBasaliskShroud"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Poison_DoT",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Poison_DoT",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Skeleton Buff": {
+    "source": "https://poedb.tw/cn/Judgemental_Spirit",
+    "english_source": "https://poedb.tw/us/Judgemental_Spirit",
+    "retrieved": "2026-11-27",
+    "zh": "骷髅增益",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "ABTTAzmeriGoddessAura"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "ABTTAzmeriGoddessAura"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Skeleton_Buff",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Skeleton_Buff",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Damage Buff": {
+    "source": "https://poedb.tw/cn/Perfect_Sanguimancer_Demon",
+    "english_source": "https://poedb.tw/us/Perfect_Sanguimancer_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "伤害增益",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "ABTTAzmeriShepherdSpellDamage"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "ABTTAzmeriShepherdSpellDamage"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Damage_Buff",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Damage_Buff",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Spider Buff": {
+    "source": "https://poedb.tw/cn/Spider_Matriarch",
+    "english_source": "https://poedb.tw/us/Spider_Matriarch",
+    "retrieved": "2026-11-27",
+    "zh": "蜘蛛增益",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "ABTTAzmeriSpiderLeaderAura"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "ABTTAzmeriSpiderLeaderAura"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Spider_Buff",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Spider_Buff",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Damage Immunity Buff": {
+    "source": "https://poedb.tw/cn/Guardian_Turtle",
+    "english_source": "https://poedb.tw/us/Guardian_Turtle",
+    "retrieved": "2026-11-27",
+    "zh": "伤害免疫增益",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "ABTTAzmeriTurtleInvulnerability"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "ABTTAzmeriTurtleInvulnerability"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Damage_Immunity_Buff",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Damage_Immunity_Buff",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Big Circle": {
+    "source": "https://poedb.tw/cn/Shadow_Berserker",
+    "english_source": "https://poedb.tw/us/Shadow_Berserker",
+    "retrieved": "2026-11-27",
+    "zh": "大型圆形攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AfflictionMinionPhysSlamCircleBig"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AfflictionMinionPhysSlamCircleBig"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Big_Circle",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Big_Circle",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Rectangle": {
+    "source": "https://poedb.tw/cn/Shadow_Berserker",
+    "english_source": "https://poedb.tw/us/Shadow_Berserker",
+    "retrieved": "2026-11-27",
+    "zh": "矩形攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AfflictionMinionPhysSlamCircleRectangle"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AfflictionMinionPhysSlamCircleRectangle"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Rectangle",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Rectangle",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Small Circle": {
+    "source": "https://poedb.tw/cn/Shadow_Berserker",
+    "english_source": "https://poedb.tw/us/Shadow_Berserker",
+    "retrieved": "2026-11-27",
+    "zh": "小型圆形攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AfflictionMinionPhysSlamCircleSmall"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AfflictionMinionPhysSlamCircleSmall"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Small_Circle",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Small_Circle",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Spit": {
+    "source": "https://poedb.tw/cn/Hunter_Asp",
+    "english_source": "https://poedb.tw/us/Hunter_Asp",
+    "retrieved": "2026-11-27",
+    "zh": "喷吐",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AtlasBasiliskSnakeProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AtlasBasiliskSnakeProjectile",
+      "InsectSpawnerSpit"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Spit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Spit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Nova Spell": {
+    "source": "https://poedb.tw/cn/Baranite_Preacher",
+    "english_source": "https://poedb.tw/us/Baranite_Preacher",
+    "retrieved": "2026-11-27",
+    "zh": "新星法术",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AtlasCruasderJudgeFadingNova"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AtlasCruasderJudgeFadingNova",
+      "GSExpeditionDeathKnightNova"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Nova_Spell",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Nova_Spell",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Mortar": {
+    "source": "https://poedb.tw/cn/Mortar",
+    "english_source": "https://poedb.tw/us/Mortar",
+    "retrieved": "2026-11-27",
+    "zh": "迫击炮",
+    "status": "same-name-semantic-reference",
+    "reason": "Same-English-name ActiveSkills card belongs to a different skill variant; no matching local skill ID on friendly-name page",
+    "local_skill_ids": [
+      "AtlasCrusaderSisterMortarSpectre",
+      "AtlasEyrieArcherMortar",
+      "AtlasEyrieKiwethMortarSpectre",
+      "AzmeriBasiliskShoulderMortar",
+      "AzmeriGoddessSpiritMortar",
+      "AzmeriSpiderLeaderMortar",
+      "ClockworkGolemLightningProjectile",
+      "KitavaDemonXMortar",
+      "MMAHarvestSandspitterMortar",
+      "MMSAzmeriShepherdTripleMortar",
+      "MMSUltimatumTrapperBasic",
+      "SkeletonCannonMortar",
+      "SynthesisDroneDiveBomb",
+      "SynthesisWalkerMortar"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Mortar",
+        "status": "ok"
+      },
+      {
+        "url": "https://poedb.tw/cn/Mortar",
+        "status": "ok"
+      }
+    ],
+    "reference_active_skill_code": "mortar_with_ground_effects",
+    "local_source": "src/Data/Skills/spectre.lua"
+  },
+  "Bombs": {
+    "source": "https://poedb.tw/cn/Baranite_Thaumaturge",
+    "english_source": "https://poedb.tw/us/Baranite_Thaumaturge",
+    "retrieved": "2026-11-27",
+    "zh": "炸弹",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AtlasExileCrusaderMageguardBombExplodeSpectre"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AtlasExileCrusaderMageguardBombExplodeSpectre"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Bombs",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Bombs",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Default Spell": {
+    "source": "https://poedb.tw/cn/Snowcaller",
+    "english_source": "https://poedb.tw/us/Snowcaller",
+    "retrieved": "2026-11-27",
+    "zh": "普通法术",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AtlasExileEyrieCasterProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AtlasExileEyrieCasterProjectile",
+      "HarvestLanternMinerProjectile",
+      "IncursionIncaMinionProjectile",
+      "LegionTemplarCasterProjectile",
+      "MPSExpeditionBoneCultistProjectiles",
+      "SynthesisDroneProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Default_Spell",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Default_Spell",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Crystal Impact": {
+    "source": "https://poedb.tw/cn/Redemption_Sentry",
+    "english_source": "https://poedb.tw/us/Redemption_Sentry",
+    "retrieved": "2026-11-27",
+    "zh": "水晶冲击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AtlasEyrieArcherCrystalImpact"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AtlasEyrieArcherCrystalImpact"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Crystal_Impact",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Crystal_Impact",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Chilling Breath": {
+    "source": "https://poedb.tw/cn/Snow_Rhex",
+    "english_source": "https://poedb.tw/us/Snow_Rhex",
+    "retrieved": "2026-11-27",
+    "zh": "冰缓吐息",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AtlasEyrieBirdBreath"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AtlasEyrieBirdBreath"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Chilling_Breath",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Chilling_Breath",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Mortar Shards": {
+    "source": "https://poedb.tw/cn/Cloud_Retch",
+    "english_source": "https://poedb.tw/us/Cloud_Retch",
+    "retrieved": "2026-11-27",
+    "zh": "迫击炮碎片",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AtlasEyrieKiwethMortarShards"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AtlasEyrieKiwethMortarShards"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Mortar_Shards",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Mortar_Shards",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Slash": {
+    "source": "https://poedb.tw/cn/Bone_Chewer",
+    "english_source": "https://poedb.tw/us/Bone_Chewer",
+    "retrieved": "2026-11-27",
+    "zh": "挥砍",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AtlasWarlordPitbullSlash"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AtlasWarlordPitbullSlash",
+      "GAAzmeriReaperComboRightSlash"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Slash",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Slash",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Dash Mortars": {
+    "source": "https://poedb.tw/cn/Naval_Officer",
+    "english_source": "https://poedb.tw/us/Naval_Officer",
+    "retrieved": "2026-11-27",
+    "zh": "冲刺迫击炮",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriAdmiralDashMortars"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriAdmiralDashMortars"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Dash_Mortars",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Dash_Mortars",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Dash thrust": {
+    "source": "https://poedb.tw/cn/Naval_Officer",
+    "english_source": "https://poedb.tw/us/Naval_Officer",
+    "retrieved": "2026-11-27",
+    "zh": "冲刺突刺",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriAdmiralDashThrustTriggered"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriAdmiralDashThrustTriggered"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Dash_thrust",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Dash_thrust",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Geyser Damage": {
+    "source": "https://poedb.tw/cn/Naval_Officer",
+    "english_source": "https://poedb.tw/us/Naval_Officer",
+    "retrieved": "2026-11-27",
+    "zh": "喷泉伤害",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriAdmiralGeyserDamage"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriAdmiralGeyserDamage"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Geyser_Damage",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Geyser_Damage",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Spine Projectile": {
+    "source": "https://poedb.tw/cn/Needle_Horror",
+    "english_source": "https://poedb.tw/us/Needle_Horror",
+    "retrieved": "2026-11-27",
+    "zh": "尖刺投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriBarrageDemonSpineProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriBarrageDemonSpineProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Spine_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Spine_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Combo Slam": {
+    "source": "https://poedb.tw/cn/Serpent_Warrior",
+    "english_source": "https://poedb.tw/us/Serpent_Warrior",
+    "retrieved": "2026-11-27",
+    "zh": "连续猛砸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriBasiliskComboSlam"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriBasiliskComboSlam"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Combo_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Combo_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Combo Thrust": {
+    "source": "https://poedb.tw/cn/Serpent_Warrior",
+    "english_source": "https://poedb.tw/us/Serpent_Warrior",
+    "retrieved": "2026-11-27",
+    "zh": "连续突刺",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriBasiliskComboThrust"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriBasiliskComboThrust"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Combo_Thrust",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Combo_Thrust",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Decapitate Thrust": {
+    "source": "https://poedb.tw/cn/Serpent_Warrior",
+    "english_source": "https://poedb.tw/us/Serpent_Warrior",
+    "retrieved": "2026-11-27",
+    "zh": "斩首突刺",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriBasiliskDecapThrust"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriBasiliskDecapThrust"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Decapitate_Thrust",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Decapitate_Thrust",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Decapitate": {
+    "source": "https://poedb.tw/cn/Serpent_Warrior",
+    "english_source": "https://poedb.tw/us/Serpent_Warrior",
+    "retrieved": "2026-11-27",
+    "zh": "斩首",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriBasiliskDecapitateRightToLeft"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriBasiliskDecapitateRightToLeft"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Decapitate",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Decapitate",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Dual Projectile": {
+    "source": "https://poedb.tw/cn/Serpent_Warrior",
+    "english_source": "https://poedb.tw/us/Serpent_Warrior",
+    "retrieved": "2026-11-27",
+    "zh": "双重投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriBasiliskDualProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriBasiliskDualProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Dual_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Dual_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Projectile Impact": {
+    "source": "https://poedb.tw/cn/Serpent_Warrior",
+    "english_source": "https://poedb.tw/us/Serpent_Warrior",
+    "retrieved": "2026-11-27",
+    "zh": "投射物冲击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriBasiliskDualProjectileImpact"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriBasiliskDualProjectileImpact"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Projectile_Impact",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Projectile_Impact",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Mortar 2": {
+    "source": "https://poedb.tw/cn/Serpent_Warrior",
+    "english_source": "https://poedb.tw/us/Serpent_Warrior",
+    "retrieved": "2026-11-27",
+    "zh": "迫击炮 2",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriBasiliskShoulderMortar2"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriBasiliskShoulderMortar2"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Mortar_2",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Mortar_2",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Wyvern Flight": {
+    "source": "https://poedb.tw/cn/Serpent_Warrior",
+    "english_source": "https://poedb.tw/us/Serpent_Warrior",
+    "retrieved": "2026-11-27",
+    "zh": "飞龙腾飞",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriBasiliskWyvernFlight"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriBasiliskWyvernFlight"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Wyvern_Flight",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Wyvern_Flight",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Fire Pillar": {
+    "source": "https://poedb.tw/cn/Judgemental_Spirit",
+    "english_source": "https://poedb.tw/us/Judgemental_Spirit",
+    "retrieved": "2026-11-27",
+    "zh": "火柱",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriGoddessOfferingOfJudgement"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriGoddessOfferingOfJudgement"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Fire_Pillar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Fire_Pillar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Chaos Pillar": {
+    "source": "https://poedb.tw/cn/Judgemental_Spirit",
+    "english_source": "https://poedb.tw/us/Judgemental_Spirit",
+    "retrieved": "2026-11-27",
+    "zh": "混沌之柱",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriGoddessOfferingOfJudgementChaos"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriGoddessOfferingOfJudgementChaos"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Chaos_Pillar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Chaos_Pillar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Turn Attack": {
+    "source": "https://poedb.tw/cn/Half-remembered_Goliath",
+    "english_source": "https://poedb.tw/us/Half-remembered_Goliath",
+    "retrieved": "2026-11-27",
+    "zh": "转身攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriGolemBossWhipLeft"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriGolemBossWhipLeft"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Turn_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Turn_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Spinning Zap": {
+    "source": "https://poedb.tw/cn/Half-remembered_Goliath",
+    "english_source": "https://poedb.tw/us/Half-remembered_Goliath",
+    "retrieved": "2026-11-27",
+    "zh": "旋转电击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriGolemRotateZap"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriGolemRotateZap"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Spinning_Zap",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Spinning_Zap",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Turret Projectile": {
+    "source": "https://poedb.tw/cn/Half-remembered_Goliath",
+    "english_source": "https://poedb.tw/us/Half-remembered_Goliath",
+    "retrieved": "2026-11-27",
+    "zh": "炮塔投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriGolemVTurretProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriGolemVTurretProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Turret_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Turret_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Spinning Beam": {
+    "source": "https://poedb.tw/cn/Half-remembered_Goliath",
+    "english_source": "https://poedb.tw/us/Half-remembered_Goliath",
+    "retrieved": "2026-11-27",
+    "zh": "旋转光束",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriGuardian4BeamGun"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriGuardian4BeamGun"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Spinning_Beam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Spinning_Beam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Unpowered Slam": {
+    "source": "https://poedb.tw/cn/Half-remembered_Goliath",
+    "english_source": "https://poedb.tw/us/Half-remembered_Goliath",
+    "retrieved": "2026-11-27",
+    "zh": "未充能猛砸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriGuardian4Slam"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriGuardian4Slam"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Unpowered_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Unpowered_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Doom Arrow": {
+    "source": "https://poedb.tw/cn/Doom_Arrow",
+    "english_source": "https://poedb.tw/us/Doom_Arrow",
+    "retrieved": "2026-11-27",
+    "zh": "厄运箭矢",
+    "status": "same-name-semantic-reference",
+    "reason": "Same-English-name ActiveSkills card belongs to a different skill variant; no matching local skill ID on friendly-name page",
+    "local_skill_ids": [
+      "AzmeriHydraDoomArrow"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Doom_Arrow",
+        "status": "ok"
+      },
+      {
+        "url": "https://poedb.tw/cn/Doom_Arrow",
+        "status": "ok"
+      }
+    ],
+    "reference_active_skill_code": "doom_arrow",
+    "local_source": "src/Data/Skills/spectre.lua"
+  },
+  "Fork Arrow": {
+    "source": "https://poedb.tw/cn/Hydra",
+    "english_source": "https://poedb.tw/us/Hydra",
+    "retrieved": "2026-11-27",
+    "zh": "分叉箭矢",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriHydraForkArrow"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriHydraForkArrow"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Fork_Arrow",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Fork_Arrow",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Heavy Melee": {
+    "source": "https://poedb.tw/cn/Runic_Skeleton",
+    "english_source": "https://poedb.tw/us/Runic_Skeleton",
+    "retrieved": "2026-11-27",
+    "zh": "重型近战攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriMegaSkeletonHeavyMelee"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriMegaSkeletonHeavyMelee"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Heavy_Melee",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Heavy_Melee",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Laser": {
+    "source": "https://poedb.tw/cn/Perfect_Shadow_Construct",
+    "english_source": "https://poedb.tw/us/Perfect_Shadow_Construct",
+    "retrieved": "2026-11-27",
+    "zh": "激光",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriOversoulLaserMaxShock"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriOversoulLaserMaxShock"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Laser",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Laser",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Rain of Boulders": {
+    "source": "https://poedb.tw/cn/Shadow_Construct",
+    "english_source": "https://poedb.tw/us/Shadow_Construct",
+    "retrieved": "2026-11-27",
+    "zh": "巨石之雨",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriOversoulRocksTriggered"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriOversoulRocksTriggered"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Rain_of_Boulders",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Rain_of_Boulders",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Explode": {
+    "source": "https://poedb.tw/cn/Primal_Demiurge",
+    "english_source": "https://poedb.tw/us/Primal_Demiurge",
+    "retrieved": "2026-11-27",
+    "zh": "爆炸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriPhantasmExplode"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriPhantasmExplode",
+      "AzmeriPhantasmExplodeSap",
+      "DeceleratingProjectileAzmeriCasterDemonExplode"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Explode",
+        "status": "ok"
+      },
+      {
+        "url": "https://poedb.tw/cn/Explode",
+        "status": "ok"
+      }
+    ]
+  },
+  "Stampede": {
+    "source": "https://poedb.tw/cn/Forest_Tiger",
+    "english_source": "https://poedb.tw/us/Forest_Tiger",
+    "retrieved": "2026-11-27",
+    "zh": "奔踏",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriStampedeTiger"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriStampedeTiger"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Stampede",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Stampede",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Sword Cascade": {
+    "source": "https://poedb.tw/cn/Dancing_Sword",
+    "english_source": "https://poedb.tw/us/Dancing_Sword",
+    "retrieved": "2026-11-27",
+    "zh": "剑刃连瀑",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriSwordStormCascade"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriSwordStormCascade"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Sword_Cascade",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Sword_Cascade",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Strafe Attack": {
+    "source": "https://poedb.tw/cn/Forest_Tiger",
+    "english_source": "https://poedb.tw/us/Forest_Tiger",
+    "retrieved": "2026-11-27",
+    "zh": "扫射攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriTigerGeometryAttackStrafe"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriTigerGeometryAttackStrafe"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Strafe_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Strafe_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Bite": {
+    "source": "https://poedb.tw/cn/Forest_Tiger",
+    "english_source": "https://poedb.tw/us/Forest_Tiger",
+    "retrieved": "2026-11-27",
+    "zh": "撕咬",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriTigerSpiritFangs"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriTigerSpiritFangs"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Bite",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Bite",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "lacerate": {
+    "source": "https://poedb.tw/cn/Forest_Tiger",
+    "english_source": "https://poedb.tw/us/Forest_Tiger",
+    "retrieved": "2026-11-27",
+    "zh": "破空斩",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriTigerSpiritLacerate"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriTigerSpiritLacerate"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/lacerate",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/lacerate",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Teleport Slam": {
+    "source": "https://poedb.tw/cn/Forest_Tiger",
+    "english_source": "https://poedb.tw/us/Forest_Tiger",
+    "retrieved": "2026-11-27",
+    "zh": "传送猛砸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "AzmeriTigerSpiritTeleportSlam"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "AzmeriTigerSpiritTeleportSlam"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Teleport_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Teleport_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Default Spell (Physical)": {
+    "source": "https://poedb.tw/cn/Doedres_Torment",
+    "english_source": "https://poedb.tw/us/Doedres_Torment",
+    "retrieved": "2026-11-27",
+    "zh": "普通法术（物理）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "BansheeProjectileBlack"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "BansheeProjectileBlack",
+      "DelveLithomancerProjectile",
+      "DelveLithomancerProjectileLarge",
+      "SanctumLithomancerProjectile",
+      "SkeletonProjectileBlack",
+      "SkeletonProjectileBlackExpedition",
+      "SkeletonProjectileGold"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Default_Spell_%28Physical%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Default_Spell_%28Physical%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Secret Police Daggers": {
+    "source": "https://poedb.tw/cn/Syndicate_Operative",
+    "english_source": "https://poedb.tw/us/Syndicate_Operative",
+    "retrieved": "2026-11-27",
+    "zh": "秘密警察匕首",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "BetrayalSecretPoliceCurveDagger1"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "BetrayalSecretPoliceCurveDagger1"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Secret_Police_Daggers",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Secret_Police_Daggers",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Chaos Ground": {
+    "source": "https://poedb.tw/cn/Mangled_Sculpture",
+    "english_source": "https://poedb.tw/us/Mangled_Sculpture",
+    "retrieved": "2026-11-27",
+    "zh": "混沌地面",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "BetrayalTotemCastGroundEffect"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "BetrayalTotemCastGroundEffect"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Chaos_Ground",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Chaos_Ground",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Blood Projectile": {
+    "source": "https://poedb.tw/cn/Avian_Clot",
+    "english_source": "https://poedb.tw/us/Avian_Clot",
+    "retrieved": "2026-11-27",
+    "zh": "鲜血投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "BirdmanBloodProjectileMortar"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "BirdmanBloodProjectileMortar"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Blood_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Blood_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Consume Corpse": {
+    "source": "https://poedb.tw/cn/Avian_Clot",
+    "english_source": "https://poedb.tw/us/Avian_Clot",
+    "retrieved": "2026-11-27",
+    "zh": "吞噬灵柩",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "BirdmanConsumeCorpse"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "BirdmanConsumeCorpse"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Consume_Corpse",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Consume_Corpse",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Breach Arc": {
+    "source": "https://poedb.tw/cn/Scale_of_Esh",
+    "english_source": "https://poedb.tw/us/Scale_of_Esh",
+    "retrieved": "2026-11-27",
+    "zh": "裂隙电弧",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "BreachArc"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "BreachArc"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Breach_Arc",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Breach_Arc",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Breach Lightning Orbs Commander": {
+    "source": "https://poedb.tw/cn/Scale_of_Esh",
+    "english_source": "https://poedb.tw/us/Scale_of_Esh",
+    "retrieved": "2026-11-27",
+    "zh": "裂隙闪电球指挥官",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "BreachLightningOrbsCommander"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "BreachLightningOrbsCommander"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Breach_Lightning_Orbs_Commander",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Breach_Lightning_Orbs_Commander",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Breach Lightning Whip": {
+    "source": "https://poedb.tw/cn/Scale_of_Esh",
+    "english_source": "https://poedb.tw/us/Scale_of_Esh",
+    "retrieved": "2026-11-27",
+    "zh": "裂隙闪电鞭",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "BreachLightningWhip"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "BreachLightningWhip"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Breach_Lightning_Whip",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Breach_Lightning_Whip",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Breach Team Warp": {
+    "source": "https://poedb.tw/cn/Scale_of_Esh",
+    "english_source": "https://poedb.tw/us/Scale_of_Esh",
+    "retrieved": "2026-11-27",
+    "zh": "裂隙群体传送",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "BreachTeamWarp"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "BreachTeamWarp"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Breach_Team_Warp",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Breach_Team_Warp",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Charge": {
+    "source": "https://poedb.tw/cn/Fighting_Bull",
+    "english_source": "https://poedb.tw/us/Fighting_Bull",
+    "retrieved": "2026-11-27",
+    "zh": "冲锋",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "BullCharge"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "BullCharge"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Charge",
+        "status": "ok"
+      },
+      {
+        "url": "https://poedb.tw/cn/Charge",
+        "status": "ok"
+      }
+    ]
+  },
+  "Chaos Aura": {
+    "source": "https://poedb.tw/cn/Unthinking",
+    "english_source": "https://poedb.tw/us/Unthinking",
+    "retrieved": "2026-11-27",
+    "zh": "混沌光环",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "ChaosDegenAura"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "ChaosDegenAura"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Chaos_Aura",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Chaos_Aura",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Ice Storm": {
+    "source": "https://poedb.tw/cn/Forged_Frostbearer",
+    "english_source": "https://poedb.tw/us/Forged_Frostbearer",
+    "retrieved": "2026-11-27",
+    "zh": "冰风暴",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "CrucibleIceStormTrap"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "CrucibleIceStormTrap"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Ice_Storm",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Ice_Storm",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "On Death Explode": {
+    "source": "https://poedb.tw/cn/Dark_Marionette",
+    "english_source": "https://poedb.tw/us/Dark_Marionette",
+    "retrieved": "2026-11-27",
+    "zh": "死亡时爆炸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [],
+    "reason": "no-paired-friendly-skill-title-on-reference-monster-page",
+    "local_skill_ids": [
+      "DarkMarionetteExplode",
+      "DarkMarionetteExplodePerfect"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/On_Death_Explode",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/On_Death_Explode",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Delayed Blast": {
+    "source": "https://poedb.tw/cn/Saintly_Evangelist",
+    "english_source": "https://poedb.tw/us/Saintly_Evangelist",
+    "retrieved": "2026-11-27",
+    "zh": "延迟爆破",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "DelayedBlastSpectre"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "DelayedBlastSpectre"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Delayed_Blast",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Delayed_Blast",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Default Attack (Cold DoT)": {
+    "source": "https://poedb.tw/cn/Skitterling",
+    "english_source": "https://poedb.tw/us/Skitterling",
+    "retrieved": "2026-11-27",
+    "zh": "普通攻击（冰霜持续伤害）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "DelveMelee"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "DelveMelee"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Default_Attack_%28Cold_DoT%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Default_Attack_%28Cold_DoT%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Default Attack",
+        "zh": "普通攻击",
+        "source": "https://poedb.tw/cn/Default_Attack",
+        "english_source": "https://poedb.tw/us/Default_Attack",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Default Attack (Cold Hit)": {
+    "source": "https://poedb.tw/cn/Skitterling",
+    "english_source": "https://poedb.tw/us/Skitterling",
+    "retrieved": "2026-11-27",
+    "zh": "普通攻击（冰霜击中）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "DelveMeleeCold"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "DelveMeleeCold"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Default_Attack_%28Cold_Hit%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Default_Attack_%28Cold_Hit%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Default Attack",
+        "zh": "普通攻击",
+        "source": "https://poedb.tw/cn/Default_Attack",
+        "english_source": "https://poedb.tw/us/Default_Attack",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Default Attack (Fire)": {
+    "source": "https://poedb.tw/cn/Gorgol",
+    "english_source": "https://poedb.tw/us/Gorgol",
+    "retrieved": "2026-11-27",
+    "zh": "普通攻击（火焰）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "DelveMeleeFire"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "DelveMeleeFire",
+      "UltimatumGuardMeleeFire",
+      "VaalGuardMeleeFire"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Default_Attack_%28Fire%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Default_Attack_%28Fire%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Default Attack",
+        "zh": "普通攻击",
+        "source": "https://poedb.tw/cn/Default_Attack",
+        "english_source": "https://poedb.tw/us/Default_Attack",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Default Attack (Lightning)": {
+    "source": "https://poedb.tw/cn/Cavestalker",
+    "english_source": "https://poedb.tw/us/Cavestalker",
+    "retrieved": "2026-11-27",
+    "zh": "普通攻击（闪电）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "DelveMeleeLightning"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "DelveMeleeLightning",
+      "UltimatumGuardMeleeLightning",
+      "VaalGuardMeleeLightning"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Default_Attack_%28Lightning%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Default_Attack_%28Lightning%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Default Attack",
+        "zh": "普通攻击",
+        "source": "https://poedb.tw/cn/Default_Attack",
+        "english_source": "https://poedb.tw/us/Default_Attack",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Whirling Charge": {
+    "source": "https://poedb.tw/cn/Stoneskin_Dancer",
+    "english_source": "https://poedb.tw/us/Stoneskin_Dancer",
+    "retrieved": "2026-11-27",
+    "zh": "旋转冲锋",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "DelveProtovaalWhirlingCharge"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "DelveProtovaalWhirlingCharge"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Whirling_Charge",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Whirling_Charge",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Flicker Strike (Cold Hit)": {
+    "source": "https://poedb.tw/cn/Skitterling",
+    "english_source": "https://poedb.tw/us/Skitterling",
+    "retrieved": "2026-11-27",
+    "zh": "闪现打击（冰霜击中）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "DelveSpiderFlickerStrike"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "DelveSpiderFlickerStrike"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Flicker_Strike_%28Cold_Hit%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Flicker_Strike_%28Cold_Hit%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Flicker Strike",
+        "zh": "闪现打击",
+        "source": "https://poedb.tw/cn/Flicker_Strike",
+        "english_source": "https://poedb.tw/us/Flicker_Strike",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Chaos Screech": {
+    "source": "https://poedb.tw/cn/Ancient_Suffering",
+    "english_source": "https://poedb.tw/us/Ancient_Suffering",
+    "retrieved": "2026-11-27",
+    "zh": "混沌尖啸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "DelveWraithScreechChaos"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "DelveWraithScreechChaos",
+      "WraithScreechChaos"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Chaos_Screech",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Chaos_Screech",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Ranged Attack": {
+    "source": "https://poedb.tw/cn/Lunaris_Concubine",
+    "english_source": "https://poedb.tw/us/Lunaris_Concubine",
+    "retrieved": "2026-11-27",
+    "zh": "远程攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "DemonFemaleRangedProjectile2"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "DemonFemaleRangedProjectile2"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Ranged_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Ranged_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Gas": {
+    "source": "https://poedb.tw/cn/Violator",
+    "english_source": "https://poedb.tw/us/Violator",
+    "retrieved": "2026-11-27",
+    "zh": "气体",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "EDSHeistScienceUnarmedGas"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "EDSHeistScienceUnarmedGas"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Gas",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Gas",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Projectile Large": {
+    "source": "https://poedb.tw/cn/Eldritch_Eye",
+    "english_source": "https://poedb.tw/us/Eldritch_Eye",
+    "retrieved": "2026-11-27",
+    "zh": "大型投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "ElderTentacleMinionProjectileEpic"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "ElderTentacleMinionProjectileEpic"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Projectile_Large",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Projectile_Large",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Elemental Hit Fire": {
+    "source": "https://poedb.tw/cn/Vaal_Fallen",
+    "english_source": "https://poedb.tw/us/Vaal_Fallen",
+    "retrieved": "2026-11-27",
+    "zh": "元素打击（火焰）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "ElementalHitSkeletonKnight"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "ElementalHitSkeletonKnight"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Elemental_Hit_Fire",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Elemental_Hit_Fire",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Dagger Trigger Attack": {
+    "source": "https://poedb.tw/cn/Syndicate_Operative",
+    "english_source": "https://poedb.tw/us/Syndicate_Operative",
+    "retrieved": "2026-11-27",
+    "zh": "匕首触发攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "EmptyActionAttackSecretPoliceDaggers"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "EmptyActionAttackSecretPoliceDaggers"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Dagger_Trigger_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Dagger_Trigger_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Fire Roll": {
+    "source": "https://poedb.tw/cn/Living_Fury",
+    "english_source": "https://poedb.tw/us/Living_Fury",
+    "retrieved": "2026-11-27",
+    "zh": "火焰翻滚",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "FireMonsterWhirlingBlades"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "FireMonsterWhirlingBlades"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Fire_Roll",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Fire_Roll",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Chaos Ball": {
+    "source": "https://poedb.tw/cn/Vaal_Fanatic",
+    "english_source": "https://poedb.tw/us/Vaal_Fanatic",
+    "retrieved": "2026-11-27",
+    "zh": "混沌球",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "FireballIncursionChaos"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "FireballIncursionChaos",
+      "FireballIncursionChaosAtlasUber"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Chaos_Ball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Chaos_Ball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Lightning Ball": {
+    "source": "https://poedb.tw/cn/Vaal_Fanatic",
+    "english_source": "https://poedb.tw/us/Vaal_Fanatic",
+    "retrieved": "2026-11-27",
+    "zh": "闪电球",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "FireballIncusionLightning"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "FireballIncusionLightning"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Lightning_Ball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Lightning_Ball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Blue Flame": {
+    "source": "https://poedb.tw/cn/Voidbearer",
+    "english_source": "https://poedb.tw/us/Voidbearer",
+    "retrieved": "2026-11-27",
+    "zh": "蓝焰",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "FlamebearerFlameBlue"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "FlamebearerFlameBlue"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Blue_Flame",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Blue_Flame",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Vomit": {
+    "source": "https://poedb.tw/cn/Frenzymonger",
+    "english_source": "https://poedb.tw/us/Frenzymonger",
+    "retrieved": "2026-11-27",
+    "zh": "呕吐",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAAncestralLeagueKaruiDrunkVomit"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAAncestralLeagueKaruiDrunkVomit"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Vomit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Vomit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Claw Slam": {
+    "source": "https://poedb.tw/cn/Blood_Demon",
+    "english_source": "https://poedb.tw/us/Blood_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "爪击猛砸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAAzmeriDemonMeleeMiniSlam1"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAAzmeriDemonMeleeMiniSlam1"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Claw_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Claw_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Whirl": {
+    "source": "https://poedb.tw/cn/Dark_Reaper",
+    "english_source": "https://poedb.tw/us/Dark_Reaper",
+    "retrieved": "2026-11-27",
+    "zh": "旋转",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAAzmeriReaperComboWhirl"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAAzmeriReaperComboWhirl"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Whirl",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Whirl",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Dash Slam": {
+    "source": "https://poedb.tw/cn/Primal_Crushclaw",
+    "english_source": "https://poedb.tw/us/Primal_Crushclaw",
+    "retrieved": "2026-11-27",
+    "zh": "冲刺猛砸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAHarvestCrabDashSlam"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAHarvestCrabDashSlam"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Dash_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Dash_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Hammer Slam": {
+    "source": "https://poedb.tw/cn/Wild_Homunculus",
+    "english_source": "https://poedb.tw/us/Wild_Homunculus",
+    "retrieved": "2026-11-27",
+    "zh": "重锤猛砸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAHarvestMinerHammerSlam"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAHarvestMinerHammerSlam"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Hammer_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Hammer_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Dash Slash": {
+    "source": "https://poedb.tw/cn/Primal_Rhex_Matriarch",
+    "english_source": "https://poedb.tw/us/Primal_Rhex_Matriarch",
+    "retrieved": "2026-11-27",
+    "zh": "冲刺挥砍",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAHarvestRhexDashSlash"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAHarvestRhexDashSlash",
+      "GAHellscapeDemonElite1DashSlash"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Dash_Slash",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Dash_Slash",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Whirling Blades Impact": {
+    "source": "https://poedb.tw/cn/Violator",
+    "english_source": "https://poedb.tw/us/Violator",
+    "retrieved": "2026-11-27",
+    "zh": "回旋之刃冲击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAHeistCultistUnarmedLeapImpact"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAHeistCultistUnarmedLeapImpact"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Whirling_Blades_Impact",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Whirling_Blades_Impact",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Whirling Blades",
+        "zh": "回旋之刃",
+        "source": "https://poedb.tw/cn/Whirling_Blades",
+        "english_source": "https://poedb.tw/us/Whirling_Blades",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Stomp": {
+    "source": "https://poedb.tw/cn/Escaped_Prototype",
+    "english_source": "https://poedb.tw/us/Escaped_Prototype",
+    "retrieved": "2026-11-27",
+    "zh": "践踏",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAHeistRobotHoundStomp"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAHeistRobotHoundStomp"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Stomp",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Stomp",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Shield Cleave": {
+    "source": "https://poedb.tw/cn/Foul_Thug",
+    "english_source": "https://poedb.tw/us/Foul_Thug",
+    "retrieved": "2026-11-27",
+    "zh": "盾牌劈砍",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAHeistThugCleaveWaveWithShield"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAHeistThugCleaveWaveWithShield"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Shield_Cleave",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Shield_Cleave",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Arrow Shotgun": {
+    "source": "https://poedb.tw/cn/Artless_Assassin",
+    "english_source": "https://poedb.tw/us/Artless_Assassin",
+    "retrieved": "2026-11-27",
+    "zh": "箭矢散射",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAHeistThugRangedArrowShotgun"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAHeistThugRangedArrowShotgun"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Arrow_Shotgun",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Arrow_Shotgun",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Ranged Shotgun": {
+    "source": "https://poedb.tw/cn/Artless_Assassin",
+    "english_source": "https://poedb.tw/us/Artless_Assassin",
+    "retrieved": "2026-11-27",
+    "zh": "远程散射",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAHeistThugRangedShotgun"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAHeistThugRangedShotgun"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Ranged_Shotgun",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Ranged_Shotgun",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Stab Attack": {
+    "source": "https://poedb.tw/cn/Pale_Seraphim",
+    "english_source": "https://poedb.tw/us/Pale_Seraphim",
+    "retrieved": "2026-11-27",
+    "zh": "刺击攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GAHellscapePaleEliteSkyStab"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GAHellscapePaleEliteSkyStab"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Stab_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Stab_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Cannonball": {
+    "source": "https://poedb.tw/cn/Naval_Officer",
+    "english_source": "https://poedb.tw/us/Naval_Officer",
+    "retrieved": "2026-11-27",
+    "zh": "炮弹",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSAzmeriAdmiralCannonball"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSAzmeriAdmiralCannonball"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Cannonball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Cannonball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Zap": {
+    "source": "https://poedb.tw/cn/Primal_Thunderbird",
+    "english_source": "https://poedb.tw/us/Primal_Thunderbird",
+    "retrieved": "2026-11-27",
+    "zh": "电击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSAzmeriBirdDashZap"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSAzmeriBirdDashZap"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Zap",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Zap",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Corrupted Blood Explode": {
+    "source": "https://poedb.tw/cn/Blood_Demon",
+    "english_source": "https://poedb.tw/us/Blood_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "腐化之血爆炸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSAzmeriDemonBossCorruptExplode"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSAzmeriDemonBossCorruptExplode"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Corrupted_Blood_Explode",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Corrupted_Blood_Explode",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Beam Nuke": {
+    "source": "https://poedb.tw/cn/Sanguimancer_Demon",
+    "english_source": "https://poedb.tw/us/Sanguimancer_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "光束轰击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSAzmeriShepherdBeamNuke"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSAzmeriShepherdBeamNuke",
+      "GSCrucibleDemonBeamNuke",
+      "GSHellscapeDemonEliteBeamNuke"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Beam_Nuke",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Beam_Nuke",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Shock Explode": {
+    "source": "https://poedb.tw/cn/Eldritch_Eye",
+    "english_source": "https://poedb.tw/us/Eldritch_Eye",
+    "retrieved": "2026-11-27",
+    "zh": "电击爆炸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSAzmeriTentacleMonsterShockExplode"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSAzmeriTentacleMonsterShockExplode"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Shock_Explode",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Shock_Explode",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Bolt Impact": {
+    "source": "https://poedb.tw/cn/It_That_Controls",
+    "english_source": "https://poedb.tw/us/It_That_Controls",
+    "retrieved": "2026-11-27",
+    "zh": "箭矢冲击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSBreachElitePaleEliteBoltImpact"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSBreachElitePaleEliteBoltImpact",
+      "GSHellscapePaleEliteBoltImpact",
+      "GSSanctumPaleEliteBoltImpact"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Bolt_Impact",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Bolt_Impact",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Volatile": {
+    "source": "https://poedb.tw/cn/Riftcaster",
+    "english_source": "https://poedb.tw/us/Riftcaster",
+    "retrieved": "2026-11-27",
+    "zh": "易爆效果",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSHeistLightningVolatileExplode"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSHeistLightningVolatileExplode"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Volatile",
+        "status": "ok"
+      },
+      {
+        "url": "https://poedb.tw/cn/Volatile",
+        "status": "ok"
+      }
+    ]
+  },
+  "Waterfall": {
+    "source": "https://poedb.tw/cn/Riftcaster",
+    "english_source": "https://poedb.tw/us/Riftcaster",
+    "retrieved": "2026-11-27",
+    "zh": "瀑布",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSHeistLightningWaterfallHit"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSHeistLightningWaterfallHit"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Waterfall",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Waterfall",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Beam Blast": {
+    "source": "https://poedb.tw/cn/Ashblessed_Warden",
+    "english_source": "https://poedb.tw/us/Ashblessed_Warden",
+    "retrieved": "2026-11-27",
+    "zh": "光束爆破",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSHeistRobotPyreBeamBlast"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSHeistRobotPyreBeamBlast"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Beam_Blast",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Beam_Blast",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Beam Sweep": {
+    "source": "https://poedb.tw/cn/Ashblessed_Warden",
+    "english_source": "https://poedb.tw/us/Ashblessed_Warden",
+    "retrieved": "2026-11-27",
+    "zh": "光束横扫",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSHeistRobotPyreBeamSweepBeam"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSHeistRobotPyreBeamSweepBeam"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Beam_Sweep",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Beam_Sweep",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Nuke Beam": {
+    "source": "https://poedb.tw/cn/Ashblessed_Warden",
+    "english_source": "https://poedb.tw/us/Ashblessed_Warden",
+    "retrieved": "2026-11-27",
+    "zh": "轰击光束",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSHeistRobotPyreNukeBeam"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSHeistRobotPyreNukeBeam"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Nuke_Beam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Nuke_Beam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Nuke Beam Channelled": {
+    "source": "https://poedb.tw/cn/Ashblessed_Warden",
+    "english_source": "https://poedb.tw/us/Ashblessed_Warden",
+    "retrieved": "2026-11-27",
+    "zh": "持续吟唱轰击光束",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSHeistRobotPyreNukeBeamChannelled"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSHeistRobotPyreNukeBeamChannelled"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Nuke_Beam_Channelled",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Nuke_Beam_Channelled",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Omega Beam": {
+    "source": "https://poedb.tw/cn/Pale_Angel",
+    "english_source": "https://poedb.tw/us/Pale_Angel",
+    "retrieved": "2026-11-27",
+    "zh": "欧米伽光束",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GSHellscapePaleEliteOmegaBeam"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GSHellscapePaleEliteOmegaBeam",
+      "GSSanctumPaleEliteOmegaBeam",
+      "GTBreachElitePaleEliteOmegaBeam"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Omega_Beam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Omega_Beam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Magma Orb": {
+    "source": "https://poedb.tw/cn/Goatman_Fire-raiser",
+    "english_source": "https://poedb.tw/us/Goatman_Fire-raiser",
+    "retrieved": "2026-11-27",
+    "zh": "熔岩之核",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "GoatmanFireMagmaOrb"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "GoatmanFireMagmaOrb"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Magma_Orb",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Magma_Orb",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Slam Attack": {
+    "source": "https://poedb.tw/cn/Primal_Crushclaw",
+    "english_source": "https://poedb.tw/us/Primal_Crushclaw",
+    "retrieved": "2026-11-27",
+    "zh": "猛砸攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "HarvestCrabAbyssSlam"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "HarvestCrabAbyssSlam"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Slam_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Slam_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Poison Projectile": {
+    "source": "https://poedb.tw/cn/Vivid_Leech",
+    "english_source": "https://poedb.tw/us/Vivid_Leech",
+    "retrieved": "2026-11-27",
+    "zh": "毒素投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "HarvestParasitePoisonProjectileSingle"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "HarvestParasitePoisonProjectileSingle"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Poison_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Poison_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Wand Projectile": {
+    "source": "https://poedb.tw/cn/Heretech",
+    "english_source": "https://poedb.tw/us/Heretech",
+    "retrieved": "2026-11-27",
+    "zh": "法杖投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "HeistScientistWandProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "HeistScientistWandProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Wand_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Wand_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Explosive Arrow (20 Fuses)": {
+    "source": "https://poedb.tw/cn/Miserly_Poacher",
+    "english_source": "https://poedb.tw/us/Miserly_Poacher",
+    "retrieved": "2026-11-27",
+    "zh": "爆炸箭矢（20 层引信）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "HeistThugRangedExplosiveArrow"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "HeistThugRangedExplosiveArrow"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Explosive_Arrow_%2820_Fuses%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Explosive_Arrow_%2820_Fuses%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Scourge Arc": {
+    "source": "https://poedb.tw/cn/Ravenous_Misshapen",
+    "english_source": "https://poedb.tw/us/Ravenous_Misshapen",
+    "retrieved": "2026-11-27",
+    "zh": "灾魇电弧",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "HellscapeFleshFodderArc"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "HellscapeFleshFodderArc"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Scourge_Arc",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Scourge_Arc",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Chaos Projectile": {
+    "source": "https://poedb.tw/cn/Vaal_Construct",
+    "english_source": "https://poedb.tw/us/Vaal_Construct",
+    "retrieved": "2026-11-27",
+    "zh": "混沌投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "IncaMinionProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "IncaMinionProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Chaos_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Chaos_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Chaos Spikes": {
+    "source": "https://poedb.tw/cn/Vaal_Advocate",
+    "english_source": "https://poedb.tw/us/Vaal_Advocate",
+    "retrieved": "2026-11-27",
+    "zh": "混沌尖刺",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "IncursionMeteorUpheaval"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "IncursionMeteorUpheaval"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Chaos_Spikes",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Chaos_Spikes",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Scorching Ray Totem": {
+    "source": "https://poedb.tw/cn/Tukohamas_Vanguard",
+    "english_source": "https://poedb.tw/us/Tukohamas_Vanguard",
+    "retrieved": "2026-11-27",
+    "zh": "灼热光线图腾",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "KaomFireBeamTotemSpectre"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "KaomFireBeamTotemSpectre"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Scorching_Ray_Totem",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Scorching_Ray_Totem",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Scorching Ray",
+        "zh": "灼热光线",
+        "source": "https://poedb.tw/cn/Scorching_Ray",
+        "english_source": "https://poedb.tw/us/Scorching_Ray",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Combo Attack": {
+    "source": "https://poedb.tw/cn/Karui_Backburner",
+    "english_source": "https://poedb.tw/us/Karui_Backburner",
+    "retrieved": "2026-11-27",
+    "zh": "连击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "LegionKaruiMeleeCombo2"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "LegionKaruiMeleeCombo2"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Combo_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Combo_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Sand Spit": {
+    "source": "https://poedb.tw/cn/Fossil_Eater",
+    "english_source": "https://poedb.tw/us/Fossil_Eater",
+    "retrieved": "2026-11-27",
+    "zh": "喷沙",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMASandSpitterProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMASandSpitterProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Sand_Spit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Sand_Spit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Sand Spit (Chaos)": {
+    "source": "https://poedb.tw/cn/Toxic_Crawler",
+    "english_source": "https://poedb.tw/us/Toxic_Crawler",
+    "retrieved": "2026-11-27",
+    "zh": "喷沙（混沌）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMASandSpitterProjectileChaos"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMASandSpitterProjectileChaos"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Sand_Spit_%28Chaos%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Sand_Spit_%28Chaos%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Sand Spit (Cold)": {
+    "source": "https://poedb.tw/cn/Sewage_Crawler",
+    "english_source": "https://poedb.tw/us/Sewage_Crawler",
+    "retrieved": "2026-11-27",
+    "zh": "喷沙（冰霜）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMASandSpitterProjectileCold"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMASandSpitterProjectileCold"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Sand_Spit_%28Cold%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Sand_Spit_%28Cold%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Sand Spit (Fire)": {
+    "source": "https://poedb.tw/cn/Granite_Eater",
+    "english_source": "https://poedb.tw/us/Granite_Eater",
+    "retrieved": "2026-11-27",
+    "zh": "喷沙（火焰）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMASandSpitterProjectileFire"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMASandSpitterProjectileFire"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Sand_Spit_%28Fire%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Sand_Spit_%28Fire%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Sand Spit (Lightning)": {
+    "source": "https://poedb.tw/cn/Shock_Spitter",
+    "english_source": "https://poedb.tw/us/Shock_Spitter",
+    "retrieved": "2026-11-27",
+    "zh": "喷沙（闪电）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMASandSpitterProjectileLightning"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMASandSpitterProjectileLightning"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Sand_Spit_%28Lightning%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Sand_Spit_%28Lightning%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Large Vomit": {
+    "source": "https://poedb.tw/cn/Blood_Demon",
+    "english_source": "https://poedb.tw/us/Blood_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "大型呕吐",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMSAzmeriDemonBloodVomitLarge"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMSAzmeriDemonBloodVomitLarge"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Large_Vomit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Large_Vomit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Medium Vomit": {
+    "source": "https://poedb.tw/cn/Blood_Demon",
+    "english_source": "https://poedb.tw/us/Blood_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "中型呕吐",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMSAzmeriDemonBloodVomitMedium"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMSAzmeriDemonBloodVomitMedium"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Medium_Vomit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Medium_Vomit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Small Vomit": {
+    "source": "https://poedb.tw/cn/Blood_Demon",
+    "english_source": "https://poedb.tw/us/Blood_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "小型呕吐",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMSAzmeriDemonBloodVomitSmall"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMSAzmeriDemonBloodVomitSmall"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Small_Vomit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Small_Vomit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Vomit Mortar": {
+    "source": "https://poedb.tw/cn/Sanguimancer_Demon",
+    "english_source": "https://poedb.tw/us/Sanguimancer_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "呕吐迫击炮",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMSAzmeriShepherdVomitMortar"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMSAzmeriShepherdVomitMortar",
+      "MMSCrucibleHerderVomitMortar",
+      "MMSHellscapeDemonEliteVomitMortar"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Vomit_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Vomit_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Wisp Mortar": {
+    "source": "https://poedb.tw/cn/Astral_Instrument",
+    "english_source": "https://poedb.tw/us/Astral_Instrument",
+    "retrieved": "2026-11-27",
+    "zh": "幽光迫击炮",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMSFaridunWispMortarProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMSFaridunWispMortarProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Wisp_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Wisp_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Frost Mortar": {
+    "source": "https://poedb.tw/cn/Frost_Auto-Scout",
+    "english_source": "https://poedb.tw/us/Frost_Auto-Scout",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜迫击炮",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMSHeistRobotClockworkGolemMortarSpectre"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMSHeistRobotClockworkGolemMortarSpectre"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Frost_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Frost_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Triple Mortal": {
+    "source": "https://poedb.tw/cn/Demon_Herder",
+    "english_source": "https://poedb.tw/us/Demon_Herder",
+    "retrieved": "2026-11-27",
+    "zh": "三重致命攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMSHellscapeDemonEliteTripleMortar"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMSHellscapeDemonEliteTripleMortar"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Triple_Mortal",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Triple_Mortal",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Ice Mortar": {
+    "source": "https://poedb.tw/cn/Forged_Frostbearer",
+    "english_source": "https://poedb.tw/us/Forged_Frostbearer",
+    "retrieved": "2026-11-27",
+    "zh": "寒冰迫击炮",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MMSPyromaniacIceMortar"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MMSPyromaniacIceMortar"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Ice_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Ice_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Default Spell (Fire)": {
+    "source": "https://poedb.tw/cn/Runed_Knight",
+    "english_source": "https://poedb.tw/us/Runed_Knight",
+    "retrieved": "2026-11-27",
+    "zh": "普通法术（火焰）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MPSArmourCasterBasic"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MPSArmourCasterBasic",
+      "MPSMercurialCasterEnrage",
+      "MPSUltimatumFireBasic",
+      "SkeletonProjectileFire",
+      "SkeletonProjectileFireProphecy",
+      "SynthesisSoulstealerProjectileFire"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Default_Spell_%28Fire%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Default_Spell_%28Fire%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Default Spell (Chaos)": {
+    "source": "https://poedb.tw/cn/Cultist_Witch",
+    "english_source": "https://poedb.tw/us/Cultist_Witch",
+    "retrieved": "2026-11-27",
+    "zh": "普通法术（混沌）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MPSAzmeriPictStaffProj"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MPSAzmeriPictStaffProj",
+      "MPSCrucibleSkeletonChaosProjectile",
+      "MPSUltimatumChaosBasic"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Default_Spell_%28Chaos%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Default_Spell_%28Chaos%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Multishot Spell (Chaos)": {
+    "source": "https://poedb.tw/cn/Cultist_Witch",
+    "english_source": "https://poedb.tw/us/Cultist_Witch",
+    "retrieved": "2026-11-27",
+    "zh": "多重射击法术（混沌）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MPSAzmeriPictStaffProj2"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MPSAzmeriPictStaffProj2"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Multishot_Spell_%28Chaos%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Multishot_Spell_%28Chaos%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Bone Projectile": {
+    "source": "https://poedb.tw/cn/It_That_Guards",
+    "english_source": "https://poedb.tw/us/It_That_Guards",
+    "retrieved": "2026-11-27",
+    "zh": "骸骨投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MPSBreachEliteBoneProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MPSBreachEliteBoneProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Bone_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Bone_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Blood Spray": {
+    "source": "https://poedb.tw/cn/Conjuror_of_Rot",
+    "english_source": "https://poedb.tw/us/Conjuror_of_Rot",
+    "retrieved": "2026-11-27",
+    "zh": "鲜血喷射",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MPSFaridunWarlockBloodSpray"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MPSFaridunWarlockBloodSpray"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Blood_Spray",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Blood_Spray",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Default Spell (Lightning)": {
+    "source": "https://poedb.tw/cn/Primal_Cystcaller",
+    "english_source": "https://poedb.tw/us/Primal_Cystcaller",
+    "retrieved": "2026-11-27",
+    "zh": "普通法术（闪电）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MPSHarvestGoatmanProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MPSHarvestGoatmanProjectile",
+      "MPSUltimatumLightningBasic",
+      "MPSVaalSkitterbotBasicLightning",
+      "SkeletonProjectileLightning",
+      "SkeletonProjectileLightningProphecy",
+      "SynthesisSoulstealerProjectileLightning"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Default_Spell_%28Lightning%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Default_Spell_%28Lightning%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Green Projectile": {
+    "source": "https://poedb.tw/cn/Riftcaster",
+    "english_source": "https://poedb.tw/us/Riftcaster",
+    "retrieved": "2026-11-27",
+    "zh": "绿色投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MPSHeistCultistStaffProjectileGreen"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MPSHeistCultistStaffProjectileGreen"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Green_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Green_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Frost Projectile": {
+    "source": "https://poedb.tw/cn/Frost_Auto-Scout",
+    "english_source": "https://poedb.tw/us/Frost_Auto-Scout",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MPSHeistRobotClockworkGolemBasicProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MPSHeistRobotClockworkGolemBasicProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Frost_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Frost_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Holy Projectile": {
+    "source": "https://poedb.tw/cn/Cleansing_Guardian",
+    "english_source": "https://poedb.tw/us/Cleansing_Guardian",
+    "retrieved": "2026-11-27",
+    "zh": "神圣投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MPSSanctumPurifierHolyProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MPSSanctumPurifierHolyProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Holy_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Holy_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Default Spell (Cold)": {
+    "source": "https://poedb.tw/cn/Frost_Salvager",
+    "english_source": "https://poedb.tw/us/Frost_Salvager",
+    "retrieved": "2026-11-27",
+    "zh": "普通法术（冰霜）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MPSUltimatumColdBasic"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MPSUltimatumColdBasic",
+      "MonsterCannibalLunarisProjectile",
+      "SkeletonProjectileCold",
+      "SkeletonProjectileColdProphecy",
+      "SynthesisSoulstealerProjectileCold"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Default_Spell_%28Cold%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Default_Spell_%28Cold%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Skull Throw": {
+    "source": "https://poedb.tw/cn/Skullslinger",
+    "english_source": "https://poedb.tw/us/Skullslinger",
+    "retrieved": "2026-11-27",
+    "zh": "投掷颅骨",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MPWAzmeriPitifulFabricationSkullThrow"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MPWAzmeriPitifulFabricationSkullThrow"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Skull_Throw",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Skull_Throw",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Mass Frenzy": {
+    "source": "https://poedb.tw/cn/Prime_Ape",
+    "english_source": "https://poedb.tw/us/Prime_Ape",
+    "retrieved": "2026-11-27",
+    "zh": "群体狂怒",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MassFrenzy"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MassFrenzy"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Mass_Frenzy",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Mass_Frenzy",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Mass Power": {
+    "source": "https://poedb.tw/cn/Host_Chieftain",
+    "english_source": "https://poedb.tw/us/Host_Chieftain",
+    "retrieved": "2026-11-27",
+    "zh": "群体威力",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MassPower"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MassPower"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Mass_Power",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Mass_Power",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Swipe": {
+    "source": "https://poedb.tw/cn/Temporal_Bladesoul",
+    "english_source": "https://poedb.tw/us/Temporal_Bladesoul",
+    "retrieved": "2026-11-27",
+    "zh": "横扫",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MeleeAtAnimationSpeedDjinnStab"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MeleeAtAnimationSpeedDjinnStab"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Swipe",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Swipe",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Knockback Attack": {
+    "source": "https://poedb.tw/cn/Snow_Rhex",
+    "english_source": "https://poedb.tw/us/Snow_Rhex",
+    "retrieved": "2026-11-27",
+    "zh": "击退攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MeleeEyrieBird"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MeleeEyrieBird"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Knockback_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Knockback_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Basic Attack": {
+    "source": "https://poedb.tw/cn/Cruel_Arsonist",
+    "english_source": "https://poedb.tw/us/Cruel_Arsonist",
+    "retrieved": "2026-11-27",
+    "zh": "基础攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MeleeFire"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MeleeFire"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Basic_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Basic_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Cold Arrow": {
+    "source": "https://poedb.tw/cn/Hyrris_Watch",
+    "english_source": "https://poedb.tw/us/Hyrris_Watch",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜箭矢",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MeleeKaruiArcher"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MeleeKaruiArcher",
+      "UltimatumGuardMeleeCold"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Cold_Arrow",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Cold_Arrow",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Throw Fire": {
+    "source": "https://poedb.tw/cn/Pocked_Illuminator",
+    "english_source": "https://poedb.tw/us/Pocked_Illuminator",
+    "retrieved": "2026-11-27",
+    "zh": "投掷火焰",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MinerThrowFireSpectre"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MinerThrowFireSpectre"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Throw_Fire",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Throw_Fire",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Caustic Bomb": {
+    "source": "https://poedb.tw/cn/Undying_Alchemist",
+    "english_source": "https://poedb.tw/us/Undying_Alchemist",
+    "retrieved": "2026-11-27",
+    "zh": "腐蚀炸弹",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MonsterCausticBomb"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MonsterCausticBomb",
+      "UltimatumGuardCausticBomb"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Caustic_Bomb",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Caustic_Bomb",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Fire Bomb": {
+    "source": "https://poedb.tw/cn/Undying_Incinerator",
+    "english_source": "https://poedb.tw/us/Undying_Incinerator",
+    "retrieved": "2026-11-27",
+    "zh": "火焰炸弹",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MonsterFireBomb"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MonsterFireBomb"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Fire_Bomb",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Fire_Bomb",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Lesser Multi Fireball": {
+    "source": "https://poedb.tw/cn/Flame_Sentinel",
+    "english_source": "https://poedb.tw/us/Flame_Sentinel",
+    "retrieved": "2026-11-27",
+    "zh": "低阶多重火球",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MonsterLesserMultiFireballSpectre"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MonsterLesserMultiFireballSpectre"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Lesser_Multi_Fireball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Lesser_Multi_Fireball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Fireball",
+        "zh": "火球",
+        "source": "https://poedb.tw/cn/Fireball",
+        "english_source": "https://poedb.tw/us/Fireball",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Lesser Multi Ice Spear": {
+    "source": "https://poedb.tw/cn/Frost_Sentinel",
+    "english_source": "https://poedb.tw/us/Frost_Sentinel",
+    "retrieved": "2026-11-27",
+    "zh": "低阶多重冰矛",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MonsterLesserMultiIceSpear"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MonsterLesserMultiIceSpear"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Lesser_Multi_Ice_Spear",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Lesser_Multi_Ice_Spear",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Ice Spear",
+        "zh": "冰矛",
+        "source": "https://poedb.tw/cn/Ice_Spear",
+        "english_source": "https://poedb.tw/us/Ice_Spear",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Lightning Thorns": {
+    "source": "https://poedb.tw/cn/Blackguard_Mage",
+    "english_source": "https://poedb.tw/us/Blackguard_Mage",
+    "retrieved": "2026-11-27",
+    "zh": "闪电荆棘",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MonsterLightningThorns"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MonsterLightningThorns"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Lightning_Thorns",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Lightning_Thorns",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Multi Fireball": {
+    "source": "https://poedb.tw/cn/Flame_Sentinel",
+    "english_source": "https://poedb.tw/us/Flame_Sentinel",
+    "retrieved": "2026-11-27",
+    "zh": "多重火球",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MonsterMultiFireballSpectre"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MonsterMultiFireballSpectre"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Multi_Fireball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Multi_Fireball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Fireball",
+        "zh": "火球",
+        "source": "https://poedb.tw/cn/Fireball",
+        "english_source": "https://poedb.tw/us/Fireball",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Multi Ice Spear": {
+    "source": "https://poedb.tw/cn/Frost_Sentinel",
+    "english_source": "https://poedb.tw/us/Frost_Sentinel",
+    "retrieved": "2026-11-27",
+    "zh": "多重冰矛",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MonsterMultiIceSpear"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MonsterMultiIceSpear"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Multi_Ice_Spear",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Multi_Ice_Spear",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Ice Spear",
+        "zh": "冰矛",
+        "source": "https://poedb.tw/cn/Ice_Spear",
+        "english_source": "https://poedb.tw/us/Ice_Spear",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Split Fireball": {
+    "source": "https://poedb.tw/cn/Flame_Sentinel",
+    "english_source": "https://poedb.tw/us/Flame_Sentinel",
+    "retrieved": "2026-11-27",
+    "zh": "分裂火球",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MonsterSplitFireballSpectre"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MonsterSplitFireballSpectre"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Split_Fireball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Split_Fireball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Fireball",
+        "zh": "火球",
+        "source": "https://poedb.tw/cn/Fireball",
+        "english_source": "https://poedb.tw/us/Fireball",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Split Ice Spear": {
+    "source": "https://poedb.tw/cn/Frost_Sentinel",
+    "english_source": "https://poedb.tw/us/Frost_Sentinel",
+    "retrieved": "2026-11-27",
+    "zh": "分裂冰矛",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "MonsterSplitIceSpear"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "MonsterSplitIceSpear"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Split_Ice_Spear",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Split_Ice_Spear",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Ice Spear",
+        "zh": "冰矛",
+        "source": "https://poedb.tw/cn/Ice_Spear",
+        "english_source": "https://poedb.tw/us/Ice_Spear",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Chaos Fireball": {
+    "source": "https://poedb.tw/cn/Undying_Alchemist",
+    "english_source": "https://poedb.tw/us/Undying_Alchemist",
+    "retrieved": "2026-11-27",
+    "zh": "混沌火球",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "PyroChaosFireball"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "PyroChaosFireball"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Chaos_Fireball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Chaos_Fireball",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Fireball",
+        "zh": "火球",
+        "source": "https://poedb.tw/cn/Fireball",
+        "english_source": "https://poedb.tw/us/Fireball",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Suicide Explosion": {
+    "source": "https://poedb.tw/cn/Undying_Incinerator",
+    "english_source": "https://poedb.tw/us/Undying_Incinerator",
+    "retrieved": "2026-11-27",
+    "zh": "自杀式爆炸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "PyroSuicideExplosion"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "PyroSuicideExplosion"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Suicide_Explosion",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Suicide_Explosion",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Lightning Projectile": {
+    "source": "https://poedb.tw/cn/Wretched_Defiler",
+    "english_source": "https://poedb.tw/us/Wretched_Defiler",
+    "retrieved": "2026-11-27",
+    "zh": "闪电投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "RevenantBossSpellProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "RevenantBossSpellProjectile",
+      "RevenantSpellProjectileSpectre"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Lightning_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Lightning_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Sand Leaper Dodge Left": {
+    "source": "https://poedb.tw/cn/Sand_Leaper",
+    "english_source": "https://poedb.tw/us/Sand_Leaper",
+    "retrieved": "2026-11-27",
+    "zh": "跃沙兽向左闪避",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "SandLeaperDodgeLeft"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "SandLeaperDodgeLeft"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Sand_Leaper_Dodge_Left",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Sand_Leaper_Dodge_Left",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Sand Leaper Dodge Right": {
+    "source": "https://poedb.tw/cn/Sand_Leaper",
+    "english_source": "https://poedb.tw/us/Sand_Leaper",
+    "retrieved": "2026-11-27",
+    "zh": "跃沙兽向右闪避",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "SandLeaperDodgeRight"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "SandLeaperDodgeRight"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Sand_Leaper_Dodge_Right",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Sand_Leaper_Dodge_Right",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Multi Slash": {
+    "source": "https://poedb.tw/cn/Flickershade",
+    "english_source": "https://poedb.tw/us/Flickershade",
+    "retrieved": "2026-11-27",
+    "zh": "多重挥砍",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "SecretDesecrateMonsterMultiSlash"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "SecretDesecrateMonsterMultiSlash"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Multi_Slash",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Multi_Slash",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Bone Mortar": {
+    "source": "https://poedb.tw/cn/Bone_Mortar",
+    "english_source": "https://poedb.tw/us/Bone_Mortar",
+    "retrieved": "2026-11-27",
+    "zh": "骸骨迫击炮",
+    "status": "literal-translation-after-reference-search",
+    "reason": "Same-English-name ActiveSkills card belongs to a different skill variant; no matching local skill ID on friendly-name page",
+    "local_skill_ids": [
+      "SkeletonCannonBoneMortar"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Bone_Mortar",
+        "status": "ok"
+      },
+      {
+        "url": "https://poedb.tw/cn/Bone_Mortar",
+        "status": "ok"
+      }
+    ],
+    "reference_active_skill_code": "breach_bone_mortar",
+    "local_source": "src/Data/Skills/spectre.lua",
+    "reference_variant_difference": "Reference breach_bone_mortar has castTime 1.00, cooldown 10 and 12 additional projectiles; local SkeletonCannonBoneMortar has castTime 1.5, cooldown 4 and 1 additional projectile. Do not reuse the other skill name 白岩炮塔."
+  },
+  "Lightning Surge": {
+    "source": "https://poedb.tw/cn/Slave_Driver",
+    "english_source": "https://poedb.tw/us/Slave_Driver",
+    "retrieved": "2026-11-27",
+    "zh": "闪电涌动",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "SlavedriverFlameWhip"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "SlavedriverFlameWhip"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Lightning_Surge",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Lightning_Surge",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Snake Spit": {
+    "source": "https://poedb.tw/cn/Tunnel_Asp",
+    "english_source": "https://poedb.tw/us/Tunnel_Asp",
+    "retrieved": "2026-11-27",
+    "zh": "蛇类喷吐",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "SnakeProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "SnakeProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Snake_Spit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Snake_Spit",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Spine Attack": {
+    "source": "https://poedb.tw/cn/Barb_Serpent",
+    "english_source": "https://poedb.tw/us/Barb_Serpent",
+    "retrieved": "2026-11-27",
+    "zh": "尖刺攻击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "SnakeSpineProjectile"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "SnakeSpineProjectile"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Spine_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Spine_Attack",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Flame Vortex": {
+    "source": "https://poedb.tw/cn/Solaris_Champion",
+    "english_source": "https://poedb.tw/us/Solaris_Champion",
+    "retrieved": "2026-11-27",
+    "zh": "烈焰漩涡",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "SolarisChampionFlameVortex"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "SolarisChampionFlameVortex"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Flame_Vortex",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Flame_Vortex",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Energy Slice": {
+    "source": "https://poedb.tw/cn/Flaric_Synthete",
+    "english_source": "https://poedb.tw/us/Flaric_Synthete",
+    "retrieved": "2026-11-27",
+    "zh": "能量斩击",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "SynthesisEnergySlice"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "SynthesisEnergySlice"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Energy_Slice",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Energy_Slice",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Triple Mortar": {
+    "source": "https://poedb.tw/cn/Aurid_Synthete",
+    "english_source": "https://poedb.tw/us/Aurid_Synthete",
+    "retrieved": "2026-11-27",
+    "zh": "三重迫击炮",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "SynthesisPhysicalTripleMortar"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "SynthesisPhysicalTripleMortar"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Triple_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Triple_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Volatile Slam": {
+    "source": "https://poedb.tw/cn/Aurid_Synthete",
+    "english_source": "https://poedb.tw/us/Aurid_Synthete",
+    "retrieved": "2026-11-27",
+    "zh": "易爆猛砸",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "SynthesisPhysicalVolatileSlam"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "SynthesisPhysicalVolatileSlam"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Volatile_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Volatile_Slam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Lightning Laser": {
+    "source": "https://poedb.tw/cn/Scinteel_Synthete",
+    "english_source": "https://poedb.tw/us/Scinteel_Synthete",
+    "retrieved": "2026-11-27",
+    "zh": "闪电激光",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "SynthesisSoulstealerLaser"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "SynthesisSoulstealerLaser"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Lightning_Laser",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Lightning_Laser",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Tar Projectile": {
+    "source": "https://poedb.tw/cn/Noisome_Ophidian",
+    "english_source": "https://poedb.tw/us/Noisome_Ophidian",
+    "retrieved": "2026-11-27",
+    "zh": "焦油投射物",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "TarMortarTaster"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "TarMortarTaster"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Tar_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Tar_Projectile",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Cone Arrow": {
+    "source": "https://poedb.tw/cn/Trial_Galecaller",
+    "english_source": "https://poedb.tw/us/Trial_Galecaller",
+    "retrieved": "2026-11-27",
+    "zh": "扇形箭矢",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "UltimatumGuardConeArrowCold"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "UltimatumGuardConeArrowCold"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Cone_Arrow",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Cone_Arrow",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Default Attack (Cold)": {
+    "source": "https://poedb.tw/cn/Undead_Vaal_Archer",
+    "english_source": "https://poedb.tw/us/Undead_Vaal_Archer",
+    "retrieved": "2026-11-27",
+    "zh": "普通攻击（冰霜）",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "VaalGuardMeleeCold"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "VaalGuardMeleeCold"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Default_Attack_%28Cold%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Default_Attack_%28Cold%29",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "reference_basis": [
+      {
+        "english": "Default Attack",
+        "zh": "普通攻击",
+        "source": "https://poedb.tw/cn/Default_Attack",
+        "english_source": "https://poedb.tw/us/Default_Attack",
+        "status": "paired-slug-name-local-english-numeric-spans-checked"
+      }
+    ]
+  },
+  "Physical Beam": {
+    "source": "https://poedb.tw/cn/Vaal_Advocate",
+    "english_source": "https://poedb.tw/us/Vaal_Advocate",
+    "retrieved": "2026-11-27",
+    "zh": "物理光束",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "VaalIncursionSpecialBeamCannonBlood"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "VaalIncursionSpecialBeamCannonBlood"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Physical_Beam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Physical_Beam",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Physical Mortar": {
+    "source": "https://poedb.tw/cn/Vaal_Fanatic",
+    "english_source": "https://poedb.tw/us/Vaal_Fanatic",
+    "retrieved": "2026-11-27",
+    "zh": "物理迫击炮",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "VaalincursionMortar"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "VaalincursionMortar"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Physical_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Physical_Mortar",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Double Slash": {
+    "source": "https://poedb.tw/cn/Bone_Stalker",
+    "english_source": "https://poedb.tw/us/Bone_Stalker",
+    "retrieved": "2026-11-27",
+    "zh": "双重挥砍",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "WalkingDoubleSlash"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "WalkingDoubleSlash"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Double_Slash",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Double_Slash",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Ghost Orb": {
+    "source": "https://poedb.tw/cn/Spectral_Leader",
+    "english_source": "https://poedb.tw/us/Spectral_Leader",
+    "retrieved": "2026-11-27",
+    "zh": "幽魂球",
+    "status": "literal-translation-after-reference-search",
+    "matched_ids": [
+      "WarHeroCasterGhostOrb"
+    ],
+    "reason": "Chinese-reference-retains-internal-skill-ID",
+    "local_skill_ids": [
+      "WarHeroCasterGhostOrb"
+    ],
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Ghost_Orb",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Ghost_Orb",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Hammer Smoke": {
+    "zh": "锤击烟雾",
+    "status": "literal-translation-after-reference-search",
+    "source": "https://poedb.tw/cn/Hammer_Smoke",
+    "english_source": "https://poedb.tw/us/Hammer_Smoke",
+    "retrieved": "2026-11-27",
+    "local_skill_ids": [],
+    "reason": "no-current-selectable-spectre-owner-and-no-paired-friendly-skill-title",
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Hammer_Smoke",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Hammer_Smoke",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  },
+  "Stab": {
+    "zh": "刺击",
+    "status": "literal-translation-after-reference-search",
+    "source": "https://poedb.tw/cn/Stab",
+    "english_source": "https://poedb.tw/us/Stab",
+    "retrieved": "2026-11-27",
+    "local_skill_ids": [
+      "MeleeAtAnimationSpeedDjinnStab"
+    ],
+    "reason": "no-current-selectable-spectre-owner-and-no-paired-friendly-skill-title",
+    "name_search": [
+      {
+        "url": "https://poedb.tw/us/Stab",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://poedb.tw/cn/Stab",
+        "status": "request-failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  }
+}

@@ -13,9 +13,9 @@
     "Summoned Arbalist",
     "Summoned Rhoa"
   ],
-  "source_rows": 7621,
-  "matched_pairs": 13173,
-  "exact_entries": 3249,
+  "source_rows": 7611,
+  "matched_pairs": 13160,
+  "exact_entries": 3237,
   "numeric_templates": 1391,
   "cluster_notable_names": 300,
   "missing_cluster_notable_names": [],
@@ -24,13 +24,13 @@
       "远古石",
       "古变石"
     ],
-    "Tailoring Orb": [
-      "裁剪石",
-      "裁缝石"
-    ],
     "Tempering Orb": [
       "回火石",
       "淬炼石"
+    ],
+    "Tailoring Orb": [
+      "裁剪石",
+      "裁缝石"
     ],
     "Blessed": [
       "受福",

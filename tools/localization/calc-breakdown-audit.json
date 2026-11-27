@@ -1372,7 +1372,7 @@
     "takenFromVoidSpawnBeforeYou",
     "tornadoShotSecondaryProjectiles"
   ],
-  "numeric_comparisons": 15994,
+  "numeric_comparisons": 16042,
   "observed_modifiers": 1371,
   "pending": [],
   "rows": [
@@ -9989,7 +9989,7 @@
     {
       "chinese": "+10 基础值",
       "english": "+10 base",
-      "kind": "materialized Fireball source tooltip",
+      "kind": "materialized Fireball",
       "remaining": []
     },
     {
@@ -10031,7 +10031,7 @@
     {
       "chinese": "+15 基础值",
       "english": "+15 base",
-      "kind": "materialized Fireball source tooltip",
+      "kind": "materialized Fireball",
       "remaining": []
     },
     {
@@ -10073,13 +10073,13 @@
     {
       "chinese": "+25 基础值",
       "english": "+25 base",
-      "kind": "materialized Fireball source tooltip",
+      "kind": "materialized Fireball",
       "remaining": []
     },
     {
       "chinese": "+3 基础值",
       "english": "+3 base",
-      "kind": "materialized Fireball source tooltip",
+      "kind": "materialized Fireball",
       "remaining": []
     },
     {
@@ -10229,7 +10229,7 @@
     {
       "chinese": "+54 基础值",
       "english": "+54 base",
-      "kind": "materialized Righteous Fire source tooltip",
+      "kind": "materialized Righteous Fire",
       "remaining": []
     },
     {
@@ -11003,7 +11003,7 @@
     {
       "chinese": "25% 总降",
       "english": "25% less",
-      "kind": "materialized Arc source tooltip",
+      "kind": "materialized Arc",
       "remaining": []
     },
     {
@@ -11075,7 +11075,7 @@
     {
       "chinese": "30% 总降",
       "english": "30% less",
-      "kind": "materialized Fireball source tooltip",
+      "kind": "materialized Fireball",
       "remaining": []
     },
     {
@@ -11321,7 +11321,7 @@
     {
       "chinese": "80% 总降",
       "english": "80% less",
-      "kind": "materialized Storm Brand source tooltip",
+      "kind": "materialized Storm Brand",
       "remaining": []
     },
     {
@@ -20577,91 +20577,91 @@
       "remaining": []
     },
     {
-      "chinese": "技能: 飞刃风暴 / 乱剑穿心",
+      "chinese": "技能：飞刃风暴 / 乱剑穿心",
       "english": "Skill: Blade Vortex / Blade Blast",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 枯萎",
+      "chinese": "技能：枯萎",
       "english": "Skill: Blight",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 元素打击 / 野性打击",
+      "chinese": "技能：元素打击 / 野性打击",
       "english": "Skill: Elemental Hit / Wild Strike",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 赤炼魔光",
+      "chinese": "技能：赤炼魔光",
       "english": "Skill: Exsanguinate",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 冰霜之刃",
+      "chinese": "技能：冰霜之刃",
       "english": "Skill: Frost Blades",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 冰霜之锤",
+      "chinese": "技能：冰霜之锤",
       "english": "Skill: Glacial Hammer",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 冰霜射击",
+      "chinese": "技能：冰霜射击",
       "english": "Skill: Ice Shot",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 魔卫复苏 / 召唤灵体",
+      "chinese": "技能：魔卫复苏 / 召唤灵体",
       "english": "Skill: Raise Zombie / Raise Spectre",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 绝命之镰",
+      "chinese": "技能：绝命之镰",
       "english": "Skill: Reap",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 震波陷阱",
+      "chinese": "技能：震波陷阱",
       "english": "Skill: Seismic Trap",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 猛击",
+      "chinese": "技能：猛击",
       "english": "Skill: Slam",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 灵盾投掷 / 盾牌碾压",
+      "chinese": "技能：灵盾投掷 / 盾牌碾压",
       "english": "Skill: Spectral Shield Throw / Shield Crush",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 雷暴地雷 / 冰锥地雷 / 火屑地雷",
+      "chinese": "技能：雷暴地雷 / 冰锥地雷 / 火屑地雷",
       "english": "Skill: Stormblast Mine / Icicle Mine / Pyroclast Mine",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 召唤魔侍",
+      "chinese": "技能：召唤魔侍",
       "english": "Skill: Summon Skeletons",
       "kind": "runtime modifier",
       "remaining": []
     },
     {
-      "chinese": "技能: 时空锁链, 全局",
+      "chinese": "技能：时空锁链, 全局效果",
       "english": "Skill: Temporal Chains, Global",
       "kind": "runtime modifier",
       "remaining": []
@@ -22229,18 +22229,18 @@
   ],
   "scope": "All evaluated CalcSections keys, every table from 12 skill fixtures, startup/runtime modifier constructors and their renderable notes/flags; unresolved pre-calculation constructor templates listed separately; no user builds.",
   "source_sha256": {
-    "Classes/CalcBreakdownControl.lua": "0b589a67bfd3cf69ca5a8e0d205b3ebd56347d78c297d34d41d200a34bebf387",
+    "Classes/CalcBreakdownControl.lua": "dd2d1cbac6a63eccba6b71d9ac1c05aef496f2ca4178045ebbd5c347edb4e4ea",
     "Localization/CalcIdentifierTerms.lua": "7881b062b79ca906470924ff473a2e15d5c234cb70ec3da6929713dbcc3d9c0c",
-    "Localization/CalcIdentifiers.lua": "ff8b44b024b91c9d51f61c6d41d9d0114d1e5dc139fd137625eff8202eb793f6",
-    "Modules/CalcSections.lua": "4ab745c161cc2c1d7508308dcdd1f130fddcb224e61f799d6167c941875dfcdd",
-    "Modules/Localization.lua": "1322ac66f683f55b2df748cf95ff32ecf82c80d91d1a5fc7f9121dd1b523a91c",
-    "Modules/ModParser.lua": "d178a38b8aa4b365aa3c99ab31bc3ba16f301e09387ace511eefa470ef48f1f8"
+    "Localization/CalcIdentifiers.lua": "8f72e8bc9be0b8d75534ca66c6c67a4cfc56b55df54692488078737006bedb12",
+    "Modules/CalcSections.lua": "eb261878d15703f9dcd43ca314d5ca9947463a3b05fe4fc3ff6ec440e3a0faf4",
+    "Modules/Localization.lua": "10f24b17053b6ad1247feb9abc1e24121ac53c9c216608fc01563e5a8f8d1718",
+    "Modules/ModParser.lua": "75af031e4c2bd043ce1c248ea336c2426a16bd959691189e3c07fb0157e71a21"
   },
   "texts": 3475,
   "unresolved_constructor_templates": [
     {
       "id": "EnableSkill",
-      "reason": "Classes/CalcBreakdownControl.lua:519: attempt to concatenate field 'skillName' (a nil value)"
+      "reason": "Classes/CalcBreakdownControl.lua:521: attempt to concatenate field 'skillName' (a nil value)"
     }
   ]
 }

@@ -18,7 +18,9 @@ local json=require('dkjson')
 local function read(name)
  local f=assert(io.open('../tools/localization/'..name));local t=json.decode(f:read('*a'));f:close();return t
 end
-local function plain(s)return(s:gsub('%^x%x%x%x%x%x%x',''):gsub('%^%d',''))end
+-- Rendered fragments preserve the source's colon width and trailing layout
+-- padding; compare their wording independently from those cosmetic choices.
+local function plain(s)return(s:gsub('%^x%x%x%x%x%x%x',''):gsub('%^%d',''):gsub('：',':'):gsub('%s+$',''))end
 local count=0
 for en,zh in pairs(read('interface-ui.json'))do
  L.mode='zh';assert(plain(L:Translate('^7'..en))==plain(dictionary[en] or zh),'Incomplete UI: '..en..' => '..L:Translate(en))

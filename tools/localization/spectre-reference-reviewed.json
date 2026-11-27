@@ -1,0 +1,2510 @@
+{
+  "Alpine Shaman": {
+    "source": "https://poedb.tw/cn/Alpine_Shaman",
+    "english_source": "https://poedb.tw/us/Alpine_Shaman",
+    "retrieved": "2026-11-27",
+    "zh": "羊人萨满",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "MountainGoatmanShamanIceSpear"
+    ]
+  },
+  "Ancient Construct": {
+    "source": "https://poedb.tw/cn/Ancient_Construct",
+    "english_source": "https://poedb.tw/us/Ancient_Construct",
+    "retrieved": "2026-11-27",
+    "zh": "远古创造物",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "Fragment",
+      "FragmentIncursion",
+      "FragmentMachinariumNormal",
+      "FragmentMultipleProjectile"
+    ]
+  },
+  "Ancient Sentry Apparatus": {
+    "source": "https://poedb.tw/cn/Ancient_Sentry_Apparatus",
+    "english_source": "https://poedb.tw/us/Ancient_Sentry_Apparatus",
+    "retrieved": "2026-11-27",
+    "zh": "远古安保装置",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "Fragment2"
+    ]
+  },
+  "Arch-Druid of the Broken Circle": {
+    "source": "https://poedb.tw/cn/Arch-Druid_of_the_Broken_Circle",
+    "english_source": "https://poedb.tw/us/Arch-Druid_of_the_Broken_Circle",
+    "retrieved": "2026-11-27",
+    "zh": "裂环大祭司",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BoneCultistMedvedExplode_"
+    ]
+  },
+  "Archaic Construct": {
+    "source": "https://poedb.tw/cn/Archaic_Construct",
+    "english_source": "https://poedb.tw/us/Archaic_Construct",
+    "retrieved": "2026-11-27",
+    "zh": "远古之遗",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FragmentProjectileSpiral"
+    ]
+  },
+  "Artless Assassin": {
+    "source": "https://poedb.tw/cn/Artless_Assassin",
+    "english_source": "https://poedb.tw/us/Artless_Assassin",
+    "retrieved": "2026-11-27",
+    "zh": "拙劣刺客",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ThugRanged1EliteSpectre"
+    ]
+  },
+  "Ashblessed Warden": {
+    "source": "https://poedb.tw/cn/Ashblessed_Warden",
+    "english_source": "https://poedb.tw/us/Ashblessed_Warden",
+    "retrieved": "2026-11-27",
+    "zh": "灰祝守卫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "RobotPyreKnightEliteSpectre"
+    ]
+  },
+  "Astral Instrument": {
+    "source": "https://poedb.tw/cn/Astral_Instrument",
+    "english_source": "https://poedb.tw/us/Astral_Instrument",
+    "retrieved": "2026-11-27",
+    "zh": "星界器具",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FaridunWisp"
+    ]
+  },
+  "Astral Lich": {
+    "source": "https://poedb.tw/cn/Astral_Lich",
+    "english_source": "https://poedb.tw/us/Astral_Lich",
+    "retrieved": "2026-11-27",
+    "zh": "星界巫妖",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FaridunGolemancerSpectre"
+    ]
+  },
+  "Aurid Synthete": {
+    "source": "https://poedb.tw/cn/Aurid_Synthete",
+    "english_source": "https://poedb.tw/us/Aurid_Synthete",
+    "retrieved": "2026-11-27",
+    "zh": "酸试融合体",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SynthesisSoulstealer4Spectre"
+    ]
+  },
+  "Auto-Enforcer": {
+    "source": "https://poedb.tw/cn/Auto-Enforcer",
+    "english_source": "https://poedb.tw/us/Auto-Enforcer",
+    "retrieved": "2026-11-27",
+    "zh": "自动执行者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "RobotAutomatonEliteSpectre"
+    ]
+  },
+  "Axiom Frostguard": {
+    "source": "https://poedb.tw/cn/Axiom_Frostguard",
+    "english_source": "https://poedb.tw/us/Axiom_Frostguard",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜狱卫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterCold",
+      "SkeletonCasterColdDelveSpectre"
+    ]
+  },
+  "Axiom Thunderguard": {
+    "source": "https://poedb.tw/cn/Axiom_Thunderguard",
+    "english_source": "https://poedb.tw/us/Axiom_Thunderguard",
+    "retrieved": "2026-11-27",
+    "zh": "雷电狱卫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightning"
+    ]
+  },
+  "Baranite Cleric": {
+    "source": "https://poedb.tw/cn/Baranite_Cleric",
+    "english_source": "https://poedb.tw/us/Baranite_Cleric",
+    "retrieved": "2026-11-27",
+    "zh": "追随巴兰的牧师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "CrusaderBlackguardClericSpectre"
+    ]
+  },
+  "Baranite Preacher": {
+    "source": "https://poedb.tw/cn/Baranite_Preacher",
+    "english_source": "https://poedb.tw/us/Baranite_Preacher",
+    "retrieved": "2026-11-27",
+    "zh": "追随巴兰的教士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "CrusaderTemplarJudgeSpectre"
+    ]
+  },
+  "Baranite Sister": {
+    "source": "https://poedb.tw/cn/Baranite_Sister",
+    "english_source": "https://poedb.tw/us/Baranite_Sister",
+    "retrieved": "2026-11-27",
+    "zh": "追随巴兰的修女",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "CrusaderBlessedSisterSpectre"
+    ]
+  },
+  "Baranite Thaumaturge": {
+    "source": "https://poedb.tw/cn/Baranite_Thaumaturge",
+    "english_source": "https://poedb.tw/us/Baranite_Thaumaturge",
+    "retrieved": "2026-11-27",
+    "zh": "追随巴兰的奇术师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "CrusaderMageguardCasterSpectre"
+    ]
+  },
+  "Bitter Deceiver": {
+    "source": "https://poedb.tw/cn/Bitter_Deceiver",
+    "english_source": "https://poedb.tw/us/Bitter_Deceiver",
+    "retrieved": "2026-11-27",
+    "zh": "苦寒诈欺者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterColdLabyrinth"
+    ]
+  },
+  "Black Scythe Arbalist": {
+    "source": "https://poedb.tw/cn/Black_Scythe_Arbalist",
+    "english_source": "https://poedb.tw/us/Black_Scythe_Arbalist",
+    "retrieved": "2026-11-27",
+    "zh": "黑镰劲弩",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ExpeditionArbalestSpectre"
+    ]
+  },
+  "Bleak Vicar": {
+    "source": "https://poedb.tw/cn/Bleak_Vicar",
+    "english_source": "https://poedb.tw/us/Bleak_Vicar",
+    "retrieved": "2026-11-27",
+    "zh": "苍白教士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterCold5"
+    ]
+  },
+  "Bloodblessed Conqueror": {
+    "source": "https://poedb.tw/cn/Bloodblessed_Conqueror",
+    "english_source": "https://poedb.tw/us/Bloodblessed_Conqueror",
+    "retrieved": "2026-11-27",
+    "zh": "血祝征服者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "LegionVaalCultistSergeantSpectre"
+    ]
+  },
+  "Bone Husk": {
+    "source": "https://poedb.tw/cn/Bone_Husk",
+    "english_source": "https://poedb.tw/us/Bone_Husk",
+    "retrieved": "2026-11-27",
+    "zh": "白骨之牙",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCannon1"
+    ]
+  },
+  "Brittle Arsonist": {
+    "source": "https://poedb.tw/cn/Brittle_Arsonist",
+    "english_source": "https://poedb.tw/us/Brittle_Arsonist",
+    "retrieved": "2026-11-27",
+    "zh": "枯骨之炎",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFire"
+    ]
+  },
+  "Brittle Chillcaller": {
+    "source": "https://poedb.tw/cn/Brittle_Chillcaller",
+    "english_source": "https://poedb.tw/us/Brittle_Chillcaller",
+    "retrieved": "2026-11-27",
+    "zh": "碎裂唤霜者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ProphecySkeletonCasterCold"
+    ]
+  },
+  "Brittle Cogwork": {
+    "source": "https://poedb.tw/cn/Brittle_Cogwork",
+    "english_source": "https://poedb.tw/us/Brittle_Cogwork",
+    "retrieved": "2026-11-27",
+    "zh": "脆弱神机",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkitterbotColdWeak"
+    ]
+  },
+  "Brittle Flametosser": {
+    "source": "https://poedb.tw/cn/Brittle_Flametosser",
+    "english_source": "https://poedb.tw/us/Brittle_Flametosser",
+    "retrieved": "2026-11-27",
+    "zh": "碎裂喷炎者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ProphecySkeletonCasterFire"
+    ]
+  },
+  "Brittle Stormtouched": {
+    "source": "https://poedb.tw/cn/Brittle_Stormtouched",
+    "english_source": "https://poedb.tw/us/Brittle_Stormtouched",
+    "retrieved": "2026-11-27",
+    "zh": "碎裂风暴使者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ProphecySkeletonCasterLightning_"
+    ]
+  },
+  "Cairn Annihilator": {
+    "source": "https://poedb.tw/cn/Cairn_Annihilator",
+    "english_source": "https://poedb.tw/us/Cairn_Annihilator",
+    "retrieved": "2026-11-27",
+    "zh": "灭灵创造物",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FragmentDoubleAttack"
+    ]
+  },
+  "Carrion Queen": {
+    "source": "https://poedb.tw/cn/Carrion_Queen",
+    "english_source": "https://poedb.tw/us/Carrion_Queen",
+    "retrieved": "2026-11-27",
+    "zh": "食腐虫后",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "InsectSpawner"
+    ]
+  },
+  "Changeling": {
+    "source": "https://poedb.tw/cn/Changeling",
+    "english_source": "https://poedb.tw/us/Changeling",
+    "retrieved": "2026-11-27",
+    "zh": "变化灵",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ExplodingBaby"
+    ]
+  },
+  "Chaos Fanatic": {
+    "source": "https://poedb.tw/cn/Chaos_Fanatic",
+    "english_source": "https://poedb.tw/us/Chaos_Fanatic",
+    "retrieved": "2026-11-27",
+    "zh": "混沌虔信者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "VaalCultistSpearChaosMapAtlasUber"
+    ]
+  },
+  "Charged Colossus ": {
+    "source": "https://poedb.tw/cn/Charged_Colossus_",
+    "english_source": "https://poedb.tw/us/Charged_Colossus_",
+    "retrieved": "2026-11-27",
+    "zh": "充能巨羊魔",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "MountainGoatmanChampionAtlasUber"
+    ]
+  },
+  "Clattering Experiment": {
+    "source": "https://poedb.tw/cn/Clattering_Experiment",
+    "english_source": "https://poedb.tw/us/Clattering_Experiment",
+    "retrieved": "2026-11-27",
+    "zh": "锵锵实验体",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ProjectSkeletonRangedSpectre"
+    ]
+  },
+  "Cleansing Guardian": {
+    "source": "https://poedb.tw/cn/Cleansing_Guardian",
+    "english_source": "https://poedb.tw/us/Cleansing_Guardian",
+    "retrieved": "2026-11-27",
+    "zh": "净化守卫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "PurifierBoss__AtlasUber"
+    ]
+  },
+  "Cleric of the Broken Circle": {
+    "source": "https://poedb.tw/cn/Cleric_of_the_Broken_Circle",
+    "english_source": "https://poedb.tw/us/Cleric_of_the_Broken_Circle",
+    "retrieved": "2026-11-27",
+    "zh": "裂环祭司",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BoneCultistMedvedHeal"
+    ]
+  },
+  "Colossal Spitter": {
+    "source": "https://poedb.tw/cn/Colossal_Spitter",
+    "english_source": "https://poedb.tw/us/Colossal_Spitter",
+    "retrieved": "2026-11-27",
+    "zh": "巨型吐沙蟹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitterUntaintedColossal"
+    ]
+  },
+  "Conjuror of Rot": {
+    "source": "https://poedb.tw/cn/Conjuror_of_Rot",
+    "english_source": "https://poedb.tw/us/Conjuror_of_Rot",
+    "retrieved": "2026-11-27",
+    "zh": "腐化咒师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FaridunWarlockMid_",
+      "FaridunWarlockSpectre"
+    ]
+  },
+  "Consuming Thrall": {
+    "source": "https://poedb.tw/cn/Consuming_Thrall",
+    "english_source": "https://poedb.tw/us/Consuming_Thrall",
+    "retrieved": "2026-11-27",
+    "zh": "破灭奴役",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ConsumeFodder4Spectre___"
+    ]
+  },
+  "Corrupted Ashweaver": {
+    "source": "https://poedb.tw/cn/Corrupted_Ashweaver",
+    "english_source": "https://poedb.tw/us/Corrupted_Ashweaver",
+    "retrieved": "2026-11-27",
+    "zh": "腐化的烬织者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "StrIntMissionSkeletonCasterFire"
+    ]
+  },
+  "Corrupted Iceweaver": {
+    "source": "https://poedb.tw/cn/Corrupted_Iceweaver",
+    "english_source": "https://poedb.tw/us/Corrupted_Iceweaver",
+    "retrieved": "2026-11-27",
+    "zh": "腐化的霜织者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "StrIntMissionSkeletonCasterCold"
+    ]
+  },
+  "Corrupted Incinerator": {
+    "source": "https://poedb.tw/cn/Corrupted_Incinerator",
+    "english_source": "https://poedb.tw/us/Corrupted_Incinerator",
+    "retrieved": "2026-11-27",
+    "zh": "腐化的永生者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "StrIntMissionPyromaniac"
+    ]
+  },
+  "Crackling Vicar": {
+    "source": "https://poedb.tw/cn/Crackling_Vicar",
+    "english_source": "https://poedb.tw/us/Crackling_Vicar",
+    "retrieved": "2026-11-27",
+    "zh": "荒骨教士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightning6"
+    ]
+  },
+  "Crustacean Pelter": {
+    "source": "https://poedb.tw/cn/Crustacean_Pelter",
+    "english_source": "https://poedb.tw/us/Crustacean_Pelter",
+    "retrieved": "2026-11-27",
+    "zh": "狙影掷蟹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitter4"
+    ]
+  },
+  "Crustacean Sniper": {
+    "source": "https://poedb.tw/cn/Crustacean_Sniper",
+    "english_source": "https://poedb.tw/us/Crustacean_Sniper",
+    "retrieved": "2026-11-27",
+    "zh": "狙影沙蟹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitter3",
+      "SandSpitter3SpawnWithCorpse_",
+      "SandSpitterCold"
+    ]
+  },
+  "Cultist Witch": {
+    "source": "https://poedb.tw/cn/Cultist_Witch",
+    "english_source": "https://poedb.tw/us/Cultist_Witch",
+    "retrieved": "2026-11-27",
+    "zh": "密教女巫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "PictFemaleStaffSpectre"
+    ]
+  },
+  "Decaying Lithomancer": {
+    "source": "https://poedb.tw/cn/Decaying_Lithomancer",
+    "english_source": "https://poedb.tw/us/Decaying_Lithomancer",
+    "retrieved": "2026-11-27",
+    "zh": "腐烂石卜师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "Lithomancer"
+    ]
+  },
+  "Demon Herder": {
+    "source": "https://poedb.tw/cn/Demon_Herder",
+    "english_source": "https://poedb.tw/us/Demon_Herder",
+    "retrieved": "2026-11-27",
+    "zh": "牧魔",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HellscapeDemonElite2_Spectre"
+    ]
+  },
+  "Demon Imp": {
+    "source": "https://poedb.tw/cn/Demon_Imp",
+    "english_source": "https://poedb.tw/us/Demon_Imp",
+    "retrieved": "2026-11-27",
+    "zh": "劣魔",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HellscapeDemonFodder1Spectre"
+    ]
+  },
+  "Desecrated Sage": {
+    "source": "https://poedb.tw/cn/Desecrated_Sage",
+    "english_source": "https://poedb.tw/us/Desecrated_Sage",
+    "retrieved": "2026-11-27",
+    "zh": "渎灵贤者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterBlackExpedition"
+    ]
+  },
+  "Desecrated Saint": {
+    "source": "https://poedb.tw/cn/Desecrated_Saint",
+    "english_source": "https://poedb.tw/us/Desecrated_Saint",
+    "retrieved": "2026-11-27",
+    "zh": "漆黑吟唱者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonBlackCaster1_",
+      "SkeletonCasterBlack"
+    ]
+  },
+  "Despair Remnant": {
+    "source": "https://poedb.tw/cn/Despair_Remnant",
+    "english_source": "https://poedb.tw/us/Despair_Remnant",
+    "retrieved": "2026-11-27",
+    "zh": "绝望残骸",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ZanaRibbonLargeSpectre"
+    ]
+  },
+  "Doedre's Torment": {
+    "source": "https://poedb.tw/cn/Doedres_Torment",
+    "english_source": "https://poedb.tw/us/Doedres_Torment",
+    "retrieved": "2026-11-27",
+    "zh": "德瑞之罪",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "WraithDoedreScreamer",
+      "WraithDoedreStoneCircle"
+    ]
+  },
+  "Druid of the Broken Circle": {
+    "source": "https://poedb.tw/cn/Druid_of_the_Broken_Circle",
+    "english_source": "https://poedb.tw/us/Druid_of_the_Broken_Circle",
+    "retrieved": "2026-11-27",
+    "zh": "裂环祭司",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ExpeditionBoneCultistSpectre"
+    ]
+  },
+  "Eldritch Eye": {
+    "source": "https://poedb.tw/cn/Eldritch_Eye",
+    "english_source": "https://poedb.tw/us/Eldritch_Eye",
+    "retrieved": "2026-11-27",
+    "zh": "古灵之目",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "TentacleMinionMid"
+    ]
+  },
+  "Enlightened Vicar": {
+    "source": "https://poedb.tw/cn/Enlightened_Vicar",
+    "english_source": "https://poedb.tw/us/Enlightened_Vicar",
+    "retrieved": "2026-11-27",
+    "zh": "灵迹教士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterColdMultipleProjectiles2"
+    ]
+  },
+  "Explosive Crawler": {
+    "source": "https://poedb.tw/cn/Explosive_Crawler",
+    "english_source": "https://poedb.tw/us/Explosive_Crawler",
+    "retrieved": "2026-11-27",
+    "zh": "爆破食腐虫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "EssenceInsectWildExplosive"
+    ]
+  },
+  "Explosive Horror": {
+    "source": "https://poedb.tw/cn/Explosive_Horror",
+    "english_source": "https://poedb.tw/us/Explosive_Horror",
+    "retrieved": "2026-11-27",
+    "zh": "爆破恐腐虫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "EssenceInsectWildExplosiveColossal"
+    ]
+  },
+  "Fanatic of the Broken Circle": {
+    "source": "https://poedb.tw/cn/Fanatic_of_the_Broken_Circle",
+    "english_source": "https://poedb.tw/us/Fanatic_of_the_Broken_Circle",
+    "retrieved": "2026-11-27",
+    "zh": "裂环狂徒",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BoneCultistMedvedEnrage"
+    ]
+  },
+  "Filimite": {
+    "source": "https://poedb.tw/cn/Filimite",
+    "english_source": "https://poedb.tw/us/Filimite",
+    "retrieved": "2026-11-27",
+    "zh": "晶球飞螨",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SynthesisDroneSpectre"
+    ]
+  },
+  "Flame Archmage": {
+    "source": "https://poedb.tw/cn/Flame_Archmage",
+    "english_source": "https://poedb.tw/us/Flame_Archmage",
+    "retrieved": "2026-11-27",
+    "zh": "枯骨之炎",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFire2"
+    ]
+  },
+  "Flame Beast": {
+    "source": "https://poedb.tw/cn/Flame_Beast",
+    "english_source": "https://poedb.tw/us/Flame_Beast",
+    "retrieved": "2026-11-27",
+    "zh": "火炎兽",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FlameBearerTalismanT2Ghost"
+    ]
+  },
+  "Flame Bishop": {
+    "source": "https://poedb.tw/cn/Flame_Bishop",
+    "english_source": "https://poedb.tw/us/Flame_Bishop",
+    "retrieved": "2026-11-27",
+    "zh": "火炎教士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFire3"
+    ]
+  },
+  "Flame Harbinger": {
+    "source": "https://poedb.tw/cn/Flame_Harbinger",
+    "english_source": "https://poedb.tw/us/Flame_Harbinger",
+    "retrieved": "2026-11-27",
+    "zh": "火炎先锋",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFireMultipleProjectiles"
+    ]
+  },
+  "Flame Preacher": {
+    "source": "https://poedb.tw/cn/Flame_Preacher",
+    "english_source": "https://poedb.tw/us/Flame_Preacher",
+    "retrieved": "2026-11-27",
+    "zh": "火焰吟唱者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFire6"
+    ]
+  },
+  "Flame Priest": {
+    "source": "https://poedb.tw/cn/Flame_Priest",
+    "english_source": "https://poedb.tw/us/Flame_Priest",
+    "retrieved": "2026-11-27",
+    "zh": "火炎骨牧",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFire4"
+    ]
+  },
+  "Flame Rattler": {
+    "source": "https://poedb.tw/cn/Flame_Rattler",
+    "english_source": "https://poedb.tw/us/Flame_Rattler",
+    "retrieved": "2026-11-27",
+    "zh": "火炎响尾蛇",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFireMultipleProjectilesStrMission"
+    ]
+  },
+  "Flame Salvager": {
+    "source": "https://poedb.tw/cn/Flame_Salvager",
+    "english_source": "https://poedb.tw/us/Flame_Salvager",
+    "retrieved": "2026-11-27",
+    "zh": "火焰拾荒者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GolemFire"
+    ]
+  },
+  "Flame Scuttler": {
+    "source": "https://poedb.tw/cn/Flame_Scuttler",
+    "english_source": "https://poedb.tw/us/Flame_Scuttler",
+    "retrieved": "2026-11-27",
+    "zh": "火焰献祭者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GolemFireVaalPyramid"
+    ]
+  },
+  "Flame Sentinel": {
+    "source": "https://poedb.tw/cn/Flame_Sentinel",
+    "english_source": "https://poedb.tw/us/Flame_Sentinel",
+    "retrieved": "2026-11-27",
+    "zh": "火炎哨带",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GuardianFire"
+    ]
+  },
+  "Flaric Synthete": {
+    "source": "https://poedb.tw/cn/Flaric_Synthete",
+    "english_source": "https://poedb.tw/us/Flaric_Synthete",
+    "retrieved": "2026-11-27",
+    "zh": "纤威融合体",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SynthesisSoulstealer1Spectre"
+    ]
+  },
+  "Flickershade": {
+    "source": "https://poedb.tw/cn/Flickershade",
+    "english_source": "https://poedb.tw/us/Flickershade",
+    "retrieved": "2026-11-27",
+    "zh": "摇拽之影",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SecretDesecrateMonster"
+    ]
+  },
+  "Forged Axebearer": {
+    "source": "https://poedb.tw/cn/Forged_Axebearer",
+    "english_source": "https://poedb.tw/us/Forged_Axebearer",
+    "retrieved": "2026-11-27",
+    "zh": "铸炼斧手",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "WickerMan"
+    ]
+  },
+  "Forged Demon Herder": {
+    "source": "https://poedb.tw/cn/Forged_Demon_Herder",
+    "english_source": "https://poedb.tw/us/Forged_Demon_Herder",
+    "retrieved": "2026-11-27",
+    "zh": "铸炼牧魔",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "DemonHerder"
+    ]
+  },
+  "Forged Frostbearer": {
+    "source": "https://poedb.tw/cn/Forged_Frostbearer",
+    "english_source": "https://poedb.tw/us/Forged_Frostbearer",
+    "retrieved": "2026-11-27",
+    "zh": "铸炼冰霜使徒",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "Pyromaniac"
+    ]
+  },
+  "Forged Tentacle Demon": {
+    "source": "https://poedb.tw/cn/Forged_Tentacle_Demon",
+    "english_source": "https://poedb.tw/us/Forged_Tentacle_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "铸炼触手魔",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "DemonRanged"
+    ]
+  },
+  "Forgotten Warrior": {
+    "source": "https://poedb.tw/cn/Forgotten_Warrior",
+    "english_source": "https://poedb.tw/us/Forgotten_Warrior",
+    "retrieved": "2026-11-27",
+    "zh": "被人忘却的战士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "KaomArcherMinion1"
+    ]
+  },
+  "Fossil Eater": {
+    "source": "https://poedb.tw/cn/Fossil_Eater",
+    "english_source": "https://poedb.tw/us/Fossil_Eater",
+    "retrieved": "2026-11-27",
+    "zh": "食骸蟹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitterUntainted"
+    ]
+  },
+  "Frenzymonger": {
+    "source": "https://poedb.tw/cn/Frenzymonger",
+    "english_source": "https://poedb.tw/us/Frenzymonger",
+    "retrieved": "2026-11-27",
+    "zh": "狂乱散播者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "AncestralKaruiDrunkStandalone"
+    ]
+  },
+  "Frosal Synthete": {
+    "source": "https://poedb.tw/cn/Frosal_Synthete",
+    "english_source": "https://poedb.tw/us/Frosal_Synthete",
+    "retrieved": "2026-11-27",
+    "zh": "冰双融合体",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SynthesisSoulstealer2Spectre"
+    ]
+  },
+  "Frost Archmage": {
+    "source": "https://poedb.tw/cn/Frost_Archmage",
+    "english_source": "https://poedb.tw/us/Frost_Archmage",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜狱卫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterCold2"
+    ]
+  },
+  "Frost Auto-Scout": {
+    "source": "https://poedb.tw/cn/Frost_Auto-Scout",
+    "english_source": "https://poedb.tw/us/Frost_Auto-Scout",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜斥候",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "RobotClockworkGolemColdAtlasUber",
+      "RobotClockworkGolemColdSpectre"
+    ]
+  },
+  "Frost Bishop": {
+    "source": "https://poedb.tw/cn/Frost_Bishop",
+    "english_source": "https://poedb.tw/us/Frost_Bishop",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜教士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterCold3"
+    ]
+  },
+  "Frost Harbinger": {
+    "source": "https://poedb.tw/cn/Frost_Harbinger",
+    "english_source": "https://poedb.tw/us/Frost_Harbinger",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜先锋",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterColdMultipleProjectiles"
+    ]
+  },
+  "Frost Keeper": {
+    "source": "https://poedb.tw/cn/Frost_Keeper",
+    "english_source": "https://poedb.tw/us/Frost_Keeper",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜守护者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterCold6"
+    ]
+  },
+  "Frost Preacher": {
+    "source": "https://poedb.tw/cn/Frost_Preacher",
+    "english_source": "https://poedb.tw/us/Frost_Preacher",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜教士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterCold7"
+    ]
+  },
+  "Frost Priest": {
+    "source": "https://poedb.tw/cn/Frost_Priest",
+    "english_source": "https://poedb.tw/us/Frost_Priest",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜骨牧",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterCold4"
+    ]
+  },
+  "Frost Rattler": {
+    "source": "https://poedb.tw/cn/Frost_Rattler",
+    "english_source": "https://poedb.tw/us/Frost_Rattler",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜响尾蛇",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterCold6StrMission_"
+    ]
+  },
+  "Frost Salvager": {
+    "source": "https://poedb.tw/cn/Frost_Salvager",
+    "english_source": "https://poedb.tw/us/Frost_Salvager",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜拾荒者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GolemCold"
+    ]
+  },
+  "Frost Scuttler": {
+    "source": "https://poedb.tw/cn/Frost_Scuttler",
+    "english_source": "https://poedb.tw/us/Frost_Scuttler",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜献祭者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GolemColdVaalPyramid"
+    ]
+  },
+  "Frost Sentinel": {
+    "source": "https://poedb.tw/cn/Frost_Sentinel",
+    "english_source": "https://poedb.tw/us/Frost_Sentinel",
+    "retrieved": "2026-11-27",
+    "zh": "寒霜哨带",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GuardianFire_Blue",
+      "GuardianFire_BlueMaps"
+    ]
+  },
+  "Frosted Cogwork": {
+    "source": "https://poedb.tw/cn/Frosted_Cogwork",
+    "english_source": "https://poedb.tw/us/Frosted_Cogwork",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜神机",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkitterbotCold",
+      "SkitterbotColdSpectre"
+    ]
+  },
+  "Frozen Supplicant": {
+    "source": "https://poedb.tw/cn/Frozen_Supplicant",
+    "english_source": "https://poedb.tw/us/Frozen_Supplicant",
+    "retrieved": "2026-11-27",
+    "zh": "冰雪祭者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterColdMultipleProjectilesIncaBossMinion"
+    ]
+  },
+  "Fulminating Deceiver": {
+    "source": "https://poedb.tw/cn/Fulminating_Deceiver",
+    "english_source": "https://poedb.tw/us/Fulminating_Deceiver",
+    "retrieved": "2026-11-27",
+    "zh": "放电诈欺者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightningLabyrinth"
+    ]
+  },
+  "Fungoid of the Pit": {
+    "source": "https://poedb.tw/cn/Fungoid_of_the_Pit",
+    "english_source": "https://poedb.tw/us/Fungoid_of_the_Pit",
+    "retrieved": "2026-11-27",
+    "zh": "深坑真菌",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FungalArtillery_"
+    ]
+  },
+  "Galvanic Ribbon": {
+    "source": "https://poedb.tw/cn/Galvanic_Ribbon",
+    "english_source": "https://poedb.tw/us/Galvanic_Ribbon",
+    "retrieved": "2026-11-27",
+    "zh": "雷电之带",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GuardianLightning"
+    ]
+  },
+  "Glade Mamba": {
+    "source": "https://poedb.tw/cn/Glade_Mamba",
+    "english_source": "https://poedb.tw/us/Glade_Mamba",
+    "retrieved": "2026-11-27",
+    "zh": "原野毒吻",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SnakeSpit"
+    ]
+  },
+  "Gleaming Saint": {
+    "source": "https://poedb.tw/cn/Gleaming_Saint",
+    "english_source": "https://poedb.tw/us/Gleaming_Saint",
+    "retrieved": "2026-11-27",
+    "zh": "微光圣徒",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterGold"
+    ]
+  },
+  "Goatman Fire-raiser": {
+    "source": "https://poedb.tw/cn/Goatman_Fire-raiser",
+    "english_source": "https://poedb.tw/us/Goatman_Fire-raiser",
+    "retrieved": "2026-11-27",
+    "zh": "羊人炎咒师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GoatmanShamanFireChampion"
+    ]
+  },
+  "Granite Eater": {
+    "source": "https://poedb.tw/cn/Granite_Eater",
+    "english_source": "https://poedb.tw/us/Granite_Eater",
+    "retrieved": "2026-11-27",
+    "zh": "食岩爪蟹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitterFire"
+    ]
+  },
+  "Gravel Eater": {
+    "source": "https://poedb.tw/cn/Gravel_Eater",
+    "english_source": "https://poedb.tw/us/Gravel_Eater",
+    "retrieved": "2026-11-27",
+    "zh": "食砾爪蟹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitter1"
+    ]
+  },
+  "Half-remembered Goliath": {
+    "source": "https://poedb.tw/cn/Half-remembered_Goliath",
+    "english_source": "https://poedb.tw/us/Half-remembered_Goliath",
+    "retrieved": "2026-11-27",
+    "zh": "遗世巨像",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SynthesisGolemMid"
+    ]
+  },
+  "Harbinger Puppet": {
+    "source": "https://poedb.tw/cn/Harbinger_Puppet",
+    "english_source": "https://poedb.tw/us/Harbinger_Puppet",
+    "retrieved": "2026-11-27",
+    "zh": "先驱者傀儡",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "CannibalHarbingerChampion"
+    ]
+  },
+  "Heretech": {
+    "source": "https://poedb.tw/cn/Heretech",
+    "english_source": "https://poedb.tw/us/Heretech",
+    "retrieved": "2026-11-27",
+    "zh": "异端技师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ScientistCasterWandSpectre_"
+    ]
+  },
+  "Hunter Asp": {
+    "source": "https://poedb.tw/cn/Hunter_Asp",
+    "english_source": "https://poedb.tw/us/Hunter_Asp",
+    "retrieved": "2026-11-27",
+    "zh": "猎人幼蛇",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BasiliskSnakeSpitSpectre"
+    ]
+  },
+  "Hydra": {
+    "source": "https://poedb.tw/cn/Hydra",
+    "english_source": "https://poedb.tw/us/Hydra",
+    "retrieved": "2026-11-27",
+    "zh": "九头蛇",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HydraMid"
+    ]
+  },
+  "Imperfect Astral Lich": {
+    "source": "https://poedb.tw/cn/Imperfect_Astral_Lich",
+    "english_source": "https://poedb.tw/us/Imperfect_Astral_Lich",
+    "retrieved": "2026-11-27",
+    "zh": "残次星界巫妖",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FaridunGolemancerLow"
+    ]
+  },
+  "Imperfect Conjuror of Rot": {
+    "source": "https://poedb.tw/cn/Imperfect_Conjuror_of_Rot",
+    "english_source": "https://poedb.tw/us/Imperfect_Conjuror_of_Rot",
+    "retrieved": "2026-11-27",
+    "zh": "残次腐化咒师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FaridunWarlockLow"
+    ]
+  },
+  "Imperfect Eldritch Eye": {
+    "source": "https://poedb.tw/cn/Imperfect_Eldritch_Eye",
+    "english_source": "https://poedb.tw/us/Imperfect_Eldritch_Eye",
+    "retrieved": "2026-11-27",
+    "zh": "残次古灵之目",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "TentacleMinionLow"
+    ]
+  },
+  "Imperfect Half-remembered Goliath": {
+    "source": "https://poedb.tw/cn/Imperfect_Half-remembered_Goliath",
+    "english_source": "https://poedb.tw/us/Imperfect_Half-remembered_Goliath",
+    "retrieved": "2026-11-27",
+    "zh": "残次遗世巨像",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SynthesisGolemLow"
+    ]
+  },
+  "Imperfect Hydra": {
+    "source": "https://poedb.tw/cn/Imperfect_Hydra",
+    "english_source": "https://poedb.tw/us/Imperfect_Hydra",
+    "retrieved": "2026-11-27",
+    "zh": "残次九头蛇",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HydraLow"
+    ]
+  },
+  "Imperfect Judgemental Spirit": {
+    "source": "https://poedb.tw/cn/Imperfect_Judgemental_Spirit",
+    "english_source": "https://poedb.tw/us/Imperfect_Judgemental_Spirit",
+    "retrieved": "2026-11-27",
+    "zh": "残次审判之魂",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GoddessLow"
+    ]
+  },
+  "Imperfect Needle Horror": {
+    "source": "https://poedb.tw/cn/Imperfect_Needle_Horror",
+    "english_source": "https://poedb.tw/us/Imperfect_Needle_Horror",
+    "retrieved": "2026-11-27",
+    "zh": "残次飞棘魔",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BarrageDemonLow"
+    ]
+  },
+  "Imperfect Pain Artist": {
+    "source": "https://poedb.tw/cn/Imperfect_Pain_Artist",
+    "english_source": "https://poedb.tw/us/Imperfect_Pain_Artist",
+    "retrieved": "2026-11-27",
+    "zh": "残次苦痛尊师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "CasterDemonLow"
+    ]
+  },
+  "Imperfect Sanguimancer Demon": {
+    "source": "https://poedb.tw/cn/Imperfect_Sanguimancer_Demon",
+    "english_source": "https://poedb.tw/us/Imperfect_Sanguimancer_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "残次血咒恶魔",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ShepherdLow"
+    ]
+  },
+  "Imperfect Shadow Construct": {
+    "source": "https://poedb.tw/cn/Imperfect_Shadow_Construct",
+    "english_source": "https://poedb.tw/us/Imperfect_Shadow_Construct",
+    "retrieved": "2026-11-27",
+    "zh": "残次暗影构造体",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "VaalOversoulLow"
+    ]
+  },
+  "Imperfect Spirit of Fortune": {
+    "source": "https://poedb.tw/cn/Imperfect_Spirit_of_Fortune",
+    "english_source": "https://poedb.tw/us/Imperfect_Spirit_of_Fortune",
+    "retrieved": "2026-11-27",
+    "zh": "残次运势之魂",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "KudukuLow"
+    ]
+  },
+  "Incinerated Mage": {
+    "source": "https://poedb.tw/cn/Incinerated_Mage",
+    "english_source": "https://poedb.tw/us/Incinerated_Mage",
+    "retrieved": "2026-11-27",
+    "zh": "狂炎术者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFireMultipleProjectiles2"
+    ]
+  },
+  "Infested Sniper": {
+    "source": "https://poedb.tw/cn/Infested_Sniper",
+    "english_source": "https://poedb.tw/us/Infested_Sniper",
+    "retrieved": "2026-11-27",
+    "zh": "受疫蜘蛛",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitterParasite"
+    ]
+  },
+  "It That Controls": {
+    "source": "https://poedb.tw/cn/It_That_Controls",
+    "english_source": "https://poedb.tw/us/It_That_Controls",
+    "retrieved": "2026-11-27",
+    "zh": "掌控之彼",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BreachElitePale1Spectre"
+    ]
+  },
+  "It That Guards": {
+    "source": "https://poedb.tw/cn/It_That_Guards",
+    "english_source": "https://poedb.tw/us/It_That_Guards",
+    "retrieved": "2026-11-27",
+    "zh": "守卫之彼",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BreachEliteCorruptedGuardSpectre"
+    ]
+  },
+  "Judgemental Spirit": {
+    "source": "https://poedb.tw/cn/Judgemental_Spirit",
+    "english_source": "https://poedb.tw/us/Judgemental_Spirit",
+    "retrieved": "2026-11-27",
+    "zh": "审判之魂",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GoddessMid"
+    ]
+  },
+  "Lightning Protector": {
+    "source": "https://poedb.tw/cn/Lightning_Protector",
+    "english_source": "https://poedb.tw/us/Lightning_Protector",
+    "retrieved": "2026-11-27",
+    "zh": "闪电守护者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ClockworkGolemShavronneAtlasUber"
+    ]
+  },
+  "Lithomancer": {
+    "source": "https://poedb.tw/cn/Lithomancer",
+    "english_source": "https://poedb.tw/us/Lithomancer",
+    "retrieved": "2026-11-27",
+    "zh": "石卜师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ProtoVaalNecromancerSpectre"
+    ]
+  },
+  "Lost Boatswain": {
+    "source": "https://poedb.tw/cn/Lost_Boatswain",
+    "english_source": "https://poedb.tw/us/Lost_Boatswain",
+    "retrieved": "2026-11-27",
+    "zh": "迷失水手长",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "DrownedCrewSlamSpectre"
+    ]
+  },
+  "Lunaris Concubine": {
+    "source": "https://poedb.tw/cn/Lunaris_Concubine",
+    "english_source": "https://poedb.tw/us/Lunaris_Concubine",
+    "retrieved": "2026-11-27",
+    "zh": "月影妻妾",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "DemonFemaleRanged2"
+    ]
+  },
+  "Lurid Angel": {
+    "source": "https://poedb.tw/cn/Lurid_Angel",
+    "english_source": "https://poedb.tw/us/Lurid_Angel",
+    "retrieved": "2026-11-27",
+    "zh": "阴森神侍",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "PaleElite1"
+    ]
+  },
+  "Malachai's Enlightened": {
+    "source": "https://poedb.tw/cn/Malachais_Enlightened",
+    "english_source": "https://poedb.tw/us/Malachais_Enlightened",
+    "retrieved": "2026-11-27",
+    "zh": "玛拉凯的启迪",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterColdMalachaiProphecy",
+      "SkeletonCasterFireMalachaiProphecy",
+      "SkeletonCasterLightningMalachaiProphecy"
+    ]
+  },
+  "Mangled Sculpture": {
+    "source": "https://poedb.tw/cn/Mangled_Sculpture",
+    "english_source": "https://poedb.tw/us/Mangled_Sculpture",
+    "retrieved": "2026-11-27",
+    "zh": "残破雕塑",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BetrayalTotemGroundEffect"
+    ]
+  },
+  "Mindweave Sentinel": {
+    "source": "https://poedb.tw/cn/Mindweave_Sentinel",
+    "english_source": "https://poedb.tw/us/Mindweave_Sentinel",
+    "retrieved": "2026-11-27",
+    "zh": "织心哨兵",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SynthesisRibbonLargeColdSpectre"
+    ]
+  },
+  "Miserly Poacher": {
+    "source": "https://poedb.tw/cn/Miserly_Poacher",
+    "english_source": "https://poedb.tw/us/Miserly_Poacher",
+    "retrieved": "2026-11-27",
+    "zh": "吝啬偷猎者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ThugRanged1_Spectre_"
+    ]
+  },
+  "Mother of Rot": {
+    "source": "https://poedb.tw/cn/Mother_of_Rot",
+    "english_source": "https://poedb.tw/us/Mother_of_Rot",
+    "retrieved": "2026-11-27",
+    "zh": "溃烂主母",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "InsectSpawnerParasiteBossMapStandalone_AtlasUber"
+    ]
+  },
+  "Necroscientist": {
+    "source": "https://poedb.tw/cn/Necroscientist",
+    "english_source": "https://poedb.tw/us/Necroscientist",
+    "retrieved": "2026-11-27",
+    "zh": "死灵学者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ProjectCasterWandSpectre"
+    ]
+  },
+  "Necrotic Bones ": {
+    "source": "https://poedb.tw/cn/Necrotic_Bones_",
+    "english_source": "https://poedb.tw/us/Necrotic_Bones_",
+    "retrieved": "2026-11-27",
+    "zh": "死灵之骸",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCannon1AtlasUber"
+    ]
+  },
+  "Needle Horror": {
+    "source": "https://poedb.tw/cn/Needle_Horror",
+    "english_source": "https://poedb.tw/us/Needle_Horror",
+    "retrieved": "2026-11-27",
+    "zh": "飞棘魔",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BarrageDemonMid"
+    ]
+  },
+  "Nightmarish Carrion": {
+    "source": "https://poedb.tw/cn/Nightmarish_Carrion",
+    "english_source": "https://poedb.tw/us/Nightmarish_Carrion",
+    "retrieved": "2026-11-27",
+    "zh": "梦魇腐食者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ProphecyInsectSpawner"
+    ]
+  },
+  "Obsidian Eater": {
+    "source": "https://poedb.tw/cn/Obsidian_Eater",
+    "english_source": "https://poedb.tw/us/Obsidian_Eater",
+    "retrieved": "2026-11-27",
+    "zh": "黑曜沙蟹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitterLightning"
+    ]
+  },
+  "Pain Artist": {
+    "source": "https://poedb.tw/cn/Pain_Artist",
+    "english_source": "https://poedb.tw/us/Pain_Artist",
+    "retrieved": "2026-11-27",
+    "zh": "苦痛尊师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "CasterDemonMid"
+    ]
+  },
+  "Pale Angel": {
+    "source": "https://poedb.tw/cn/Pale_Angel",
+    "english_source": "https://poedb.tw/us/Pale_Angel",
+    "retrieved": "2026-11-27",
+    "zh": "苍白神侍",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HellscapePaleElite1Spectre"
+    ]
+  },
+  "Pale Seraphim": {
+    "source": "https://poedb.tw/cn/Pale_Seraphim",
+    "english_source": "https://poedb.tw/us/Pale_Seraphim",
+    "retrieved": "2026-11-27",
+    "zh": "苍白神使",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HellscapePaleElite2Spectre"
+    ]
+  },
+  "Perfect Astral Lich": {
+    "source": "https://poedb.tw/cn/Perfect_Astral_Lich",
+    "english_source": "https://poedb.tw/us/Perfect_Astral_Lich",
+    "retrieved": "2026-11-27",
+    "zh": "完美星界巫妖",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FaridunGolemancerHigh"
+    ]
+  },
+  "Perfect Conjuror of Rot": {
+    "source": "https://poedb.tw/cn/Perfect_Conjuror_of_Rot",
+    "english_source": "https://poedb.tw/us/Perfect_Conjuror_of_Rot",
+    "retrieved": "2026-11-27",
+    "zh": "完美腐化咒师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FaridunWarlockHigh"
+    ]
+  },
+  "Perfect Eldritch Eye": {
+    "source": "https://poedb.tw/cn/Perfect_Eldritch_Eye",
+    "english_source": "https://poedb.tw/us/Perfect_Eldritch_Eye",
+    "retrieved": "2026-11-27",
+    "zh": "完美古灵之目",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "TentacleMinionHigh"
+    ]
+  },
+  "Perfect Half-remembered Goliath": {
+    "source": "https://poedb.tw/cn/Perfect_Half-remembered_Goliath",
+    "english_source": "https://poedb.tw/us/Perfect_Half-remembered_Goliath",
+    "retrieved": "2026-11-27",
+    "zh": "完美遗世巨像",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SynthesisGolemHigh"
+    ]
+  },
+  "Perfect Hydra": {
+    "source": "https://poedb.tw/cn/Perfect_Hydra",
+    "english_source": "https://poedb.tw/us/Perfect_Hydra",
+    "retrieved": "2026-11-27",
+    "zh": "完美九头蛇",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HydraHigh_"
+    ]
+  },
+  "Perfect Judgemental Spirit": {
+    "source": "https://poedb.tw/cn/Perfect_Judgemental_Spirit",
+    "english_source": "https://poedb.tw/us/Perfect_Judgemental_Spirit",
+    "retrieved": "2026-11-27",
+    "zh": "完美审判之魂",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GoddessHigh"
+    ]
+  },
+  "Perfect Needle Horror": {
+    "source": "https://poedb.tw/cn/Perfect_Needle_Horror",
+    "english_source": "https://poedb.tw/us/Perfect_Needle_Horror",
+    "retrieved": "2026-11-27",
+    "zh": "完美飞棘魔",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BarrageDemonHigh_"
+    ]
+  },
+  "Perfect Pain Artist": {
+    "source": "https://poedb.tw/cn/Perfect_Pain_Artist",
+    "english_source": "https://poedb.tw/us/Perfect_Pain_Artist",
+    "retrieved": "2026-11-27",
+    "zh": "完美苦痛尊师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "CasterDemonHigh"
+    ]
+  },
+  "Perfect Sanguimancer Demon": {
+    "source": "https://poedb.tw/cn/Perfect_Sanguimancer_Demon",
+    "english_source": "https://poedb.tw/us/Perfect_Sanguimancer_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "完美血咒恶魔",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ShepherdHigh"
+    ]
+  },
+  "Perfect Shadow Construct": {
+    "source": "https://poedb.tw/cn/Perfect_Shadow_Construct",
+    "english_source": "https://poedb.tw/us/Perfect_Shadow_Construct",
+    "retrieved": "2026-11-27",
+    "zh": "完美暗影构造体",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "VaalOversoulHigh"
+    ]
+  },
+  "Perfect Spirit of Fortune": {
+    "source": "https://poedb.tw/cn/Perfect_Spirit_of_Fortune",
+    "english_source": "https://poedb.tw/us/Perfect_Spirit_of_Fortune",
+    "retrieved": "2026-11-27",
+    "zh": "完美运势之魂",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "KudukuHigh"
+    ]
+  },
+  "Pocked Flamebringer": {
+    "source": "https://poedb.tw/cn/Pocked_Flamebringer",
+    "english_source": "https://poedb.tw/us/Pocked_Flamebringer",
+    "retrieved": "2026-11-27",
+    "zh": "疮痕持火者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "MinerLantern2"
+    ]
+  },
+  "Pocked Illuminator": {
+    "source": "https://poedb.tw/cn/Pocked_Illuminator",
+    "english_source": "https://poedb.tw/us/Pocked_Illuminator",
+    "retrieved": "2026-11-27",
+    "zh": "疮痕照明者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "MinerLanternCrystalVeins"
+    ]
+  },
+  "Pocked Lanternbearer": {
+    "source": "https://poedb.tw/cn/Pocked_Lanternbearer",
+    "english_source": "https://poedb.tw/us/Pocked_Lanternbearer",
+    "retrieved": "2026-11-27",
+    "zh": "疮痕持灯者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "MinerLantern"
+    ]
+  },
+  "Powered Cogwork": {
+    "source": "https://poedb.tw/cn/Powered_Cogwork",
+    "english_source": "https://poedb.tw/us/Powered_Cogwork",
+    "retrieved": "2026-11-27",
+    "zh": "充能神机",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkitterbotLightningWeak"
+    ]
+  },
+  "Priest of the Chalice": {
+    "source": "https://poedb.tw/cn/Priest_of_the_Chalice",
+    "english_source": "https://poedb.tw/us/Priest_of_the_Chalice",
+    "retrieved": "2026-11-27",
+    "zh": "圣杯教士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ExpeditionGolemancerSpectre"
+    ]
+  },
+  "Primal Cystcaller": {
+    "source": "https://poedb.tw/cn/Primal_Cystcaller",
+    "english_source": "https://poedb.tw/us/Primal_Cystcaller",
+    "retrieved": "2026-11-27",
+    "zh": "原始囊行",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HarvestGoatmanT3MemoryLine",
+      "HarvestGoatmanT3Spectre"
+    ]
+  },
+  "Primal Dustspitter": {
+    "source": "https://poedb.tw/cn/Primal_Dustspitter",
+    "english_source": "https://poedb.tw/us/Primal_Dustspitter",
+    "retrieved": "2026-11-27",
+    "zh": "原始扬尘",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HarvestSandspitterT1MemoryLine",
+      "HarvestSandspitterT1Spectre"
+    ]
+  },
+  "Primal Reborn": {
+    "source": "https://poedb.tw/cn/Primal_Reborn",
+    "english_source": "https://poedb.tw/us/Primal_Reborn",
+    "retrieved": "2026-11-27",
+    "zh": "原始重生",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HarvestLanternMinerT3Spectre"
+    ]
+  },
+  "Primeval Phantasm": {
+    "source": "https://poedb.tw/cn/Primeval_Phantasm",
+    "english_source": "https://poedb.tw/us/Primeval_Phantasm",
+    "retrieved": "2026-11-27",
+    "zh": "原始幻灵",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "PhantasmCowardsTrial"
+    ]
+  },
+  "Rabid Broodqueen": {
+    "source": "https://poedb.tw/cn/Rabid_Broodqueen",
+    "english_source": "https://poedb.tw/us/Rabid_Broodqueen",
+    "retrieved": "2026-11-27",
+    "zh": "疯狂的育雏女王",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "DexMissionInsectSpawner"
+    ]
+  },
+  "Ravenous Bloodshaper": {
+    "source": "https://poedb.tw/cn/Ravenous_Bloodshaper",
+    "english_source": "https://poedb.tw/us/Ravenous_Bloodshaper",
+    "retrieved": "2026-11-27",
+    "zh": "饕餮塑血者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HellscapeFleshElite1Spectre"
+    ]
+  },
+  "Reanimated Skeleton": {
+    "source": "https://poedb.tw/cn/Reanimated_Skeleton",
+    "english_source": "https://poedb.tw/us/Reanimated_Skeleton",
+    "retrieved": "2026-11-27",
+    "zh": "复苏密骸",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "IntMissionSkeletonCasterLightning6"
+    ]
+  },
+  "Reinforced Lithomancer": {
+    "source": "https://poedb.tw/cn/Reinforced_Lithomancer",
+    "english_source": "https://poedb.tw/us/Reinforced_Lithomancer",
+    "retrieved": "2026-11-27",
+    "zh": "强固石卜师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "LithomancerAtlasUber"
+    ]
+  },
+  "Remembered Construct": {
+    "source": "https://poedb.tw/cn/Remembered_Construct",
+    "english_source": "https://poedb.tw/us/Remembered_Construct",
+    "retrieved": "2026-11-27",
+    "zh": "回忆创造物",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "Fragment"
+    ]
+  },
+  "Restless Skeletal Fire Mage": {
+    "source": "https://poedb.tw/cn/Restless_Skeletal_Fire_Mage",
+    "english_source": "https://poedb.tw/us/Restless_Skeletal_Fire_Mage",
+    "retrieved": "2026-11-27",
+    "zh": "不息魔侍火焰法师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFireSupporter"
+    ]
+  },
+  "Restless Skeletal Frost Mage": {
+    "source": "https://poedb.tw/cn/Restless_Skeletal_Frost_Mage",
+    "english_source": "https://poedb.tw/us/Restless_Skeletal_Frost_Mage",
+    "retrieved": "2026-11-27",
+    "zh": "不息魔侍冰霜法师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterColdSupporter"
+    ]
+  },
+  "Restless Skeletal Lightning Mage": {
+    "source": "https://poedb.tw/cn/Restless_Skeletal_Lightning_Mage",
+    "english_source": "https://poedb.tw/us/Restless_Skeletal_Lightning_Mage",
+    "retrieved": "2026-11-27",
+    "zh": "不息魔侍闪电法师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightningSupporter"
+    ]
+  },
+  "Ribrattle": {
+    "source": "https://poedb.tw/cn/Ribrattle",
+    "english_source": "https://poedb.tw/us/Ribrattle",
+    "retrieved": "2026-11-27",
+    "zh": "响肋者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "PitifulFabrication02Spectre__"
+    ]
+  },
+  "Rime Sentinel": {
+    "source": "https://poedb.tw/cn/Rime_Sentinel",
+    "english_source": "https://poedb.tw/us/Rime_Sentinel",
+    "retrieved": "2026-11-27",
+    "zh": "冰霜之带",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GuardianLightning_Blue"
+    ]
+  },
+  "Risen Battlemage": {
+    "source": "https://poedb.tw/cn/Risen_Battlemage",
+    "english_source": "https://poedb.tw/us/Risen_Battlemage",
+    "retrieved": "2026-11-27",
+    "zh": "崛起战斗法师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "WbSkeletonMinionCasterCold",
+      "WbSkeletonMinionCasterFire",
+      "WbSkeletonMinionCasterLightning"
+    ]
+  },
+  "Risen Vaal Advocate": {
+    "source": "https://poedb.tw/cn/Risen_Vaal_Advocate",
+    "english_source": "https://poedb.tw/us/Risen_Vaal_Advocate",
+    "retrieved": "2026-11-27",
+    "zh": "复活的瓦尔拥护者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "VaalCultistSpearBloodChampionTempleSpectre",
+      "VaalCultistSpearChaosChampionTempleSpectre",
+      "VaalCultistSpearFireChampionTempleSpectre",
+      "VaalCultistSpearLightningChampionTempleSpectre"
+    ]
+  },
+  "Risen Vaal Fanatic": {
+    "source": "https://poedb.tw/cn/Risen_Vaal_Fanatic",
+    "english_source": "https://poedb.tw/us/Risen_Vaal_Fanatic",
+    "retrieved": "2026-11-27",
+    "zh": "复活的瓦尔虔信者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "VaalCultistSpearBloodDelve",
+      "VaalCultistSpearBloodTemple",
+      "VaalCultistSpearChaosDelve",
+      "VaalCultistSpearChaosTemple",
+      "VaalCultistSpearFireDelve",
+      "VaalCultistSpearFireTemple",
+      "VaalCultistSpearLightningDelve",
+      "VaalCultistSpearLightningTemple"
+    ]
+  },
+  "Rock Spitter": {
+    "source": "https://poedb.tw/cn/Rock_Spitter",
+    "english_source": "https://poedb.tw/us/Rock_Spitter",
+    "retrieved": "2026-11-27",
+    "zh": "岩石沙蟹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitter2"
+    ]
+  },
+  "Runed Knight": {
+    "source": "https://poedb.tw/cn/Runed_Knight",
+    "english_source": "https://poedb.tw/us/Runed_Knight",
+    "retrieved": "2026-11-27",
+    "zh": "符文骑士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ExpeditionArmourCasterSpectre_"
+    ]
+  },
+  "Sand Spitter": {
+    "source": "https://poedb.tw/cn/Sand_Spitter",
+    "english_source": "https://poedb.tw/us/Sand_Spitter",
+    "retrieved": "2026-11-27",
+    "zh": "喷砂爪蟹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitter12"
+    ]
+  },
+  "Sanguimancer Demon": {
+    "source": "https://poedb.tw/cn/Sanguimancer_Demon",
+    "english_source": "https://poedb.tw/us/Sanguimancer_Demon",
+    "retrieved": "2026-11-27",
+    "zh": "血咒恶魔",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ShepherdMid_"
+    ]
+  },
+  "Scinteel Synthete": {
+    "source": "https://poedb.tw/cn/Scinteel_Synthete",
+    "english_source": "https://poedb.tw/us/Scinteel_Synthete",
+    "retrieved": "2026-11-27",
+    "zh": "菲刃融合体",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SynthesisSoulstealer3Spectre"
+    ]
+  },
+  "Scorched Mage": {
+    "source": "https://poedb.tw/cn/Scorched_Mage",
+    "english_source": "https://poedb.tw/us/Scorched_Mage",
+    "retrieved": "2026-11-27",
+    "zh": "炽炎术者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFire5"
+    ]
+  },
+  "Scrabbling Spitter": {
+    "source": "https://poedb.tw/cn/Scrabbling_Spitter",
+    "english_source": "https://poedb.tw/us/Scrabbling_Spitter",
+    "retrieved": "2026-11-27",
+    "zh": "疾行吐沙蟹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitter13"
+    ]
+  },
+  "Sea Hag": {
+    "source": "https://poedb.tw/cn/Sea_Hag",
+    "english_source": "https://poedb.tw/us/Sea_Hag",
+    "retrieved": "2026-11-27",
+    "zh": "海巫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SeaHagSpectre"
+    ]
+  },
+  "Seaclaimed Sniper": {
+    "source": "https://poedb.tw/cn/Seaclaimed_Sniper",
+    "english_source": "https://poedb.tw/us/Seaclaimed_Sniper",
+    "retrieved": "2026-11-27",
+    "zh": "溺海狙击者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "KelpDregSpectre"
+    ]
+  },
+  "Seething Deceiver": {
+    "source": "https://poedb.tw/cn/Seething_Deceiver",
+    "english_source": "https://poedb.tw/us/Seething_Deceiver",
+    "retrieved": "2026-11-27",
+    "zh": "沸腾诈欺者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFireLabyrinth"
+    ]
+  },
+  "Sentry Shard": {
+    "source": "https://poedb.tw/cn/Sentry_Shard",
+    "english_source": "https://poedb.tw/us/Sentry_Shard",
+    "retrieved": "2026-11-27",
+    "zh": "哨兵碎片",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "LegionVaalFragmentSpectre"
+    ]
+  },
+  "Sewage Crawler": {
+    "source": "https://poedb.tw/cn/Sewage_Crawler",
+    "english_source": "https://poedb.tw/us/Sewage_Crawler",
+    "retrieved": "2026-11-27",
+    "zh": "污秽食腐虫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitterSewers"
+    ]
+  },
+  "Shadow Construct": {
+    "source": "https://poedb.tw/cn/Shadow_Construct",
+    "english_source": "https://poedb.tw/us/Shadow_Construct",
+    "retrieved": "2026-11-27",
+    "zh": "暗影构造体",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "VaalOversoulMid"
+    ]
+  },
+  "Shavronne's Vision": {
+    "source": "https://poedb.tw/cn/Shavronnes_Vision",
+    "english_source": "https://poedb.tw/us/Shavronnes_Vision",
+    "retrieved": "2026-11-27",
+    "zh": "薛朗的远见",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ClockworkGolemShavronne"
+    ]
+  },
+  "Shock Spitter": {
+    "source": "https://poedb.tw/cn/Shock_Spitter",
+    "english_source": "https://poedb.tw/us/Shock_Spitter",
+    "retrieved": "2026-11-27",
+    "zh": "疾电吐沙蟹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitterEmergeMinionDexMission"
+    ]
+  },
+  "Shocking Mistress": {
+    "source": "https://poedb.tw/cn/Shocking_Mistress",
+    "english_source": "https://poedb.tw/us/Shocking_Mistress",
+    "retrieved": "2026-11-27",
+    "zh": "雷电夫人",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "DemonFemaleRanged2AtlasUber"
+    ]
+  },
+  "Shrieking Witch": {
+    "source": "https://poedb.tw/cn/Shrieking_Witch",
+    "english_source": "https://poedb.tw/us/Shrieking_Witch",
+    "retrieved": "2026-11-27",
+    "zh": "尖啸女巫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "Banshee2"
+    ]
+  },
+  "Sin Purger": {
+    "source": "https://poedb.tw/cn/Sin_Purger",
+    "english_source": "https://poedb.tw/us/Sin_Purger",
+    "retrieved": "2026-11-27",
+    "zh": "罪恶清除者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "LegionTemplarSergeantCasterSpectre"
+    ]
+  },
+  "Skullslinger": {
+    "source": "https://poedb.tw/cn/Skullslinger",
+    "english_source": "https://poedb.tw/us/Skullslinger",
+    "retrieved": "2026-11-27",
+    "zh": "掷颅者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "PitifulFabrication01Spectre"
+    ]
+  },
+  "Smouldering Embermage": {
+    "source": "https://poedb.tw/cn/Smouldering_Embermage",
+    "english_source": "https://poedb.tw/us/Smouldering_Embermage",
+    "retrieved": "2026-11-27",
+    "zh": "冒烟的灰烬法师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFireProphecy"
+    ]
+  },
+  "Smouldering Infernomage": {
+    "source": "https://poedb.tw/cn/Smouldering_Infernomage",
+    "english_source": "https://poedb.tw/us/Smouldering_Infernomage",
+    "retrieved": "2026-11-27",
+    "zh": "炼狱魔导士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterFireMultipleProjectilesProphecy"
+    ]
+  },
+  "Snowcaller": {
+    "source": "https://poedb.tw/cn/Snowcaller",
+    "english_source": "https://poedb.tw/us/Snowcaller",
+    "retrieved": "2026-11-27",
+    "zh": "唤雪者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "EyrieArcticCrystalCasterSpectre_"
+    ]
+  },
+  "Solar Guard": {
+    "source": "https://poedb.tw/cn/Solar_Guard",
+    "english_source": "https://poedb.tw/us/Solar_Guard",
+    "retrieved": "2026-11-27",
+    "zh": "太阳军卫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HolyFireElementalSolarisBeam"
+    ]
+  },
+  "Sparking Mage": {
+    "source": "https://poedb.tw/cn/Sparking_Mage",
+    "english_source": "https://poedb.tw/us/Sparking_Mage",
+    "retrieved": "2026-11-27",
+    "zh": "雷能枯灵",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightningSpark"
+    ]
+  },
+  "Spectral Leader": {
+    "source": "https://poedb.tw/cn/Spectral_Leader",
+    "english_source": "https://poedb.tw/us/Spectral_Leader",
+    "retrieved": "2026-11-27",
+    "zh": "怨灵兵长",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "WarHeroCasterAtlasUber"
+    ]
+  },
+  "Spectral Tactician": {
+    "source": "https://poedb.tw/cn/Spectral_Tactician",
+    "english_source": "https://poedb.tw/us/Spectral_Tactician",
+    "retrieved": "2026-11-27",
+    "zh": "幽魂军师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "WarHeroCaster"
+    ]
+  },
+  "Spirit of Fortune": {
+    "source": "https://poedb.tw/cn/Spirit_of_Fortune",
+    "english_source": "https://poedb.tw/us/Spirit_of_Fortune",
+    "retrieved": "2026-11-27",
+    "zh": "运势之魂",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "KudukuMid"
+    ]
+  },
+  "Spiteful Smuggler": {
+    "source": "https://poedb.tw/cn/Spiteful_Smuggler",
+    "english_source": "https://poedb.tw/us/Spiteful_Smuggler",
+    "retrieved": "2026-11-27",
+    "zh": "恶毒旅人",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ThugTrapper1Spectre"
+    ]
+  },
+  "Stitched Reliquarian": {
+    "source": "https://poedb.tw/cn/Stitched_Reliquarian",
+    "english_source": "https://poedb.tw/us/Stitched_Reliquarian",
+    "retrieved": "2026-11-27",
+    "zh": "缝合守藏者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "Reliquarian"
+    ]
+  },
+  "Storm Salvager": {
+    "source": "https://poedb.tw/cn/Storm_Salvager",
+    "english_source": "https://poedb.tw/us/Storm_Salvager",
+    "retrieved": "2026-11-27",
+    "zh": "风暴拾荒者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GolemLightning"
+    ]
+  },
+  "Storm Scuttler": {
+    "source": "https://poedb.tw/cn/Storm_Scuttler",
+    "english_source": "https://poedb.tw/us/Storm_Scuttler",
+    "retrieved": "2026-11-27",
+    "zh": "风暴献祭者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GolemLightningVaalPyramid"
+    ]
+  },
+  "Stormcharged Cogwork": {
+    "source": "https://poedb.tw/cn/Stormcharged_Cogwork",
+    "english_source": "https://poedb.tw/us/Stormcharged_Cogwork",
+    "retrieved": "2026-11-27",
+    "zh": "风暴神机",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkitterbotLightning",
+      "SkitterbotLightningSpectre"
+    ]
+  },
+  "Storming Supplicant": {
+    "source": "https://poedb.tw/cn/Storming_Supplicant",
+    "english_source": "https://poedb.tw/us/Storming_Supplicant",
+    "retrieved": "2026-11-27",
+    "zh": "风暴祭者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightningSparkIncaBossMinion"
+    ]
+  },
+  "Student of Torture": {
+    "source": "https://poedb.tw/cn/Student_of_Torture",
+    "english_source": "https://poedb.tw/us/Student_of_Torture",
+    "retrieved": "2026-11-27",
+    "zh": "酷刑都徒",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "DemonFemaleRangedUniqueMap_1"
+    ]
+  },
+  "Temple Scholar": {
+    "source": "https://poedb.tw/cn/Temple_Scholar",
+    "english_source": "https://poedb.tw/us/Temple_Scholar",
+    "retrieved": "2026-11-27",
+    "zh": "人间兵器",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BlackguardClericPure"
+    ]
+  },
+  "Temporal Warlock": {
+    "source": "https://poedb.tw/cn/Temporal_Warlock",
+    "english_source": "https://poedb.tw/us/Temporal_Warlock",
+    "retrieved": "2026-11-27",
+    "zh": "时空术士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FaridunMinorDjinnCaster"
+    ]
+  },
+  "Tentacle Miscreation": {
+    "source": "https://poedb.tw/cn/Tentacle_Miscreation",
+    "english_source": "https://poedb.tw/us/Tentacle_Miscreation",
+    "retrieved": "2026-11-27",
+    "zh": "古灵实验者:扫荡者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "DemonFemaleRanged"
+    ]
+  },
+  "Thunder Archmage": {
+    "source": "https://poedb.tw/cn/Thunder_Archmage",
+    "english_source": "https://poedb.tw/us/Thunder_Archmage",
+    "retrieved": "2026-11-27",
+    "zh": "雷电狱卫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightning2"
+    ]
+  },
+  "Thunder Bishop": {
+    "source": "https://poedb.tw/cn/Thunder_Bishop",
+    "english_source": "https://poedb.tw/us/Thunder_Bishop",
+    "retrieved": "2026-11-27",
+    "zh": "雷电教士",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightning3"
+    ]
+  },
+  "Thunder Champion": {
+    "source": "https://poedb.tw/cn/Thunder_Champion",
+    "english_source": "https://poedb.tw/us/Thunder_Champion",
+    "retrieved": "2026-11-27",
+    "zh": "雷电战骸",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightningMultipleProjectiles"
+    ]
+  },
+  "Thunder Harbinger": {
+    "source": "https://poedb.tw/cn/Thunder_Harbinger",
+    "english_source": "https://poedb.tw/us/Thunder_Harbinger",
+    "retrieved": "2026-11-27",
+    "zh": "雷电先锋",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightning4"
+    ]
+  },
+  "Thunder Keeper": {
+    "source": "https://poedb.tw/cn/Thunder_Keeper",
+    "english_source": "https://poedb.tw/us/Thunder_Keeper",
+    "retrieved": "2026-11-27",
+    "zh": "雷电守护者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightning7"
+    ]
+  },
+  "Thunder Preacher": {
+    "source": "https://poedb.tw/cn/Thunder_Preacher",
+    "english_source": "https://poedb.tw/us/Thunder_Preacher",
+    "retrieved": "2026-11-27",
+    "zh": "雷电吟唱者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightning8"
+    ]
+  },
+  "Thunder Priest": {
+    "source": "https://poedb.tw/cn/Thunder_Priest",
+    "english_source": "https://poedb.tw/us/Thunder_Priest",
+    "retrieved": "2026-11-27",
+    "zh": "雷电骨牧",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightning5"
+    ]
+  },
+  "Thunder Rattler": {
+    "source": "https://poedb.tw/cn/Thunder_Rattler",
+    "english_source": "https://poedb.tw/us/Thunder_Rattler",
+    "retrieved": "2026-11-27",
+    "zh": "雷电响尾蛇",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterLightningMultipleProjectilesStrMission"
+    ]
+  },
+  "Toxic Crawler": {
+    "source": "https://poedb.tw/cn/Toxic_Crawler",
+    "english_source": "https://poedb.tw/us/Toxic_Crawler",
+    "retrieved": "2026-11-27",
+    "zh": "剧毒食腐虫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SandSpitterPoison"
+    ]
+  },
+  "Traitorous Incinerator": {
+    "source": "https://poedb.tw/cn/Traitorous_Incinerator",
+    "english_source": "https://poedb.tw/us/Traitorous_Incinerator",
+    "retrieved": "2026-11-27",
+    "zh": "背信焚化者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SextantPyromaniacFire"
+    ]
+  },
+  "Tremorbones": {
+    "source": "https://poedb.tw/cn/Tremorbones",
+    "english_source": "https://poedb.tw/us/Tremorbones",
+    "retrieved": "2026-11-27",
+    "zh": "颤骨者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "PitifulFabrication02StandaloneAtlasUber_"
+    ]
+  },
+  "Trial Invoker": {
+    "source": "https://poedb.tw/cn/Trial_Invoker",
+    "english_source": "https://poedb.tw/us/Trial_Invoker",
+    "retrieved": "2026-11-27",
+    "zh": "试炼祈并卫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GuardBomberSpectre"
+    ]
+  },
+  "Trial Machinist": {
+    "source": "https://poedb.tw/cn/Trial_Machinist",
+    "english_source": "https://poedb.tw/us/Trial_Machinist",
+    "retrieved": "2026-11-27",
+    "zh": "试炼机关使",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GuardTrapperSpectre"
+    ]
+  },
+  "Tribal Queen": {
+    "source": "https://poedb.tw/cn/Tribal_Queen",
+    "english_source": "https://poedb.tw/us/Tribal_Queen",
+    "retrieved": "2026-11-27",
+    "zh": "部族女王",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "KaruiElder1StandaloneAtlasUber"
+    ]
+  },
+  "Tukohama's Scout": {
+    "source": "https://poedb.tw/cn/Tukohamas_Scout",
+    "english_source": "https://poedb.tw/us/Tukohamas_Scout",
+    "retrieved": "2026-11-27",
+    "zh": "西里的姐妹",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "KaomArcher2"
+    ]
+  },
+  "Tunnel Asp": {
+    "source": "https://poedb.tw/cn/Tunnel_Asp",
+    "english_source": "https://poedb.tw/us/Tunnel_Asp",
+    "retrieved": "2026-11-27",
+    "zh": "坑道蟒",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SnakeSpitDelveSpectre"
+    ]
+  },
+  "Undying Alchemist": {
+    "source": "https://poedb.tw/cn/Undying_Alchemist",
+    "english_source": "https://poedb.tw/us/Undying_Alchemist",
+    "retrieved": "2026-11-27",
+    "zh": "不朽之毒",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "PyromaniacPoison"
+    ]
+  },
+  "Undying Incinerator": {
+    "source": "https://poedb.tw/cn/Undying_Incinerator",
+    "english_source": "https://poedb.tw/us/Undying_Incinerator",
+    "retrieved": "2026-11-27",
+    "zh": "不朽之炎",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "PyromaniacFire"
+    ]
+  },
+  "Unearthed Runecaster": {
+    "source": "https://poedb.tw/cn/Unearthed_Runecaster",
+    "english_source": "https://poedb.tw/us/Unearthed_Runecaster",
+    "retrieved": "2026-11-27",
+    "zh": "掘出的符文师",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "MercurialArmourCasterSpectre"
+    ]
+  },
+  "Unearthly Horror": {
+    "source": "https://poedb.tw/cn/Unearthly_Horror",
+    "english_source": "https://poedb.tw/us/Unearthly_Horror",
+    "retrieved": "2026-11-27",
+    "zh": "异界幽惧",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "PaleElite2"
+    ]
+  },
+  "Vaal Advocate": {
+    "source": "https://poedb.tw/cn/Vaal_Advocate",
+    "english_source": "https://poedb.tw/us/Vaal_Advocate",
+    "retrieved": "2026-11-27",
+    "zh": "瓦尔拥护者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "VaalCultistSpearBloodChampion",
+      "VaalCultistSpearChaosChampion",
+      "VaalCultistSpearFireChampion",
+      "VaalCultistSpearLightningChampion_"
+    ]
+  },
+  "Vaal Arsonist": {
+    "source": "https://poedb.tw/cn/Vaal_Arsonist",
+    "english_source": "https://poedb.tw/us/Vaal_Arsonist",
+    "retrieved": "2026-11-27",
+    "zh": "瓦尔之炎",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterKnightFire"
+    ]
+  },
+  "Vaal Bloodletter": {
+    "source": "https://poedb.tw/cn/Vaal_Bloodletter",
+    "english_source": "https://poedb.tw/us/Vaal_Bloodletter",
+    "retrieved": "2026-11-27",
+    "zh": "瓦尔放血者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "LegionVaalCultistSpearSpectre"
+    ]
+  },
+  "Vaal Construct": {
+    "source": "https://poedb.tw/cn/Vaal_Construct",
+    "english_source": "https://poedb.tw/us/Vaal_Construct",
+    "retrieved": "2026-11-27",
+    "zh": "瓦尔创造物",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FragmentPoisonCloud"
+    ]
+  },
+  "Vaal Fanatic": {
+    "source": "https://poedb.tw/cn/Vaal_Fanatic",
+    "english_source": "https://poedb.tw/us/Vaal_Fanatic",
+    "retrieved": "2026-11-27",
+    "zh": "瓦尔虔信者",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "VaalCultistSpearBlood",
+      "VaalCultistSpearChaos",
+      "VaalCultistSpearFire",
+      "VaalCultistSpearLightning",
+      "VaalCultistSpearPhysicsTest"
+    ]
+  },
+  "Vaal Frostguard": {
+    "source": "https://poedb.tw/cn/Vaal_Frostguard",
+    "english_source": "https://poedb.tw/us/Vaal_Frostguard",
+    "retrieved": "2026-11-27",
+    "zh": "瓦尔冰霜之卫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterKnightCold"
+    ]
+  },
+  "Vaal Gargantuan": {
+    "source": "https://poedb.tw/cn/Vaal_Gargantuan",
+    "english_source": "https://poedb.tw/us/Vaal_Gargantuan",
+    "retrieved": "2026-11-27",
+    "zh": "瓦尔巨灵",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonMeleeKnightElementalLargeSword2"
+    ]
+  },
+  "Vaal Thunderguard": {
+    "source": "https://poedb.tw/cn/Vaal_Thunderguard",
+    "english_source": "https://poedb.tw/us/Vaal_Thunderguard",
+    "retrieved": "2026-11-27",
+    "zh": "瓦尔雷电之卫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "SkeletonCasterKnightLightning",
+      "SkeletonCasterLightningSparkAtziri"
+    ]
+  },
+  "Volatile Awakened": {
+    "source": "https://poedb.tw/cn/Volatile_Awakened",
+    "english_source": "https://poedb.tw/us/Volatile_Awakened",
+    "retrieved": "2026-11-27",
+    "zh": "觉醒之物",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "ProphecyZombieSummoned",
+      "ProphecyZombieSummonedMap"
+    ]
+  },
+  "Wailing Widow": {
+    "source": "https://poedb.tw/cn/Wailing_Widow",
+    "english_source": "https://poedb.tw/us/Wailing_Widow",
+    "retrieved": "2026-11-27",
+    "zh": "报丧女妖",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "Banshee"
+    ]
+  },
+  "Whipleg Arachnid": {
+    "source": "https://poedb.tw/cn/Whipleg_Arachnid",
+    "english_source": "https://poedb.tw/us/Whipleg_Arachnid",
+    "retrieved": "2026-11-27",
+    "zh": "鞭足异蛛",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "BlackStriderSpectre"
+    ]
+  },
+  "Wild Infestation Queen": {
+    "source": "https://poedb.tw/cn/Wild_Infestation_Queen",
+    "english_source": "https://poedb.tw/us/Wild_Infestation_Queen",
+    "retrieved": "2026-11-27",
+    "zh": "荒野疫母",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "HarvestInsectSpawnerT3Spectre"
+    ]
+  },
+  "Wriggling Toad": {
+    "source": "https://poedb.tw/cn/Wriggling_Toad",
+    "english_source": "https://poedb.tw/us/Wriggling_Toad",
+    "retrieved": "2026-11-27",
+    "zh": "蠕动蟾蜍",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FlaskWormToad"
+    ]
+  },
+  "Writhing Worm": {
+    "source": "https://poedb.tw/cn/Writhing_Worm",
+    "english_source": "https://poedb.tw/us/Writhing_Worm",
+    "retrieved": "2026-11-27",
+    "zh": "蠕虫",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "FlaskWorm"
+    ]
+  },
+  "Wrought Flamecore": {
+    "source": "https://poedb.tw/cn/Wrought_Flamecore",
+    "english_source": "https://poedb.tw/us/Wrought_Flamecore",
+    "retrieved": "2026-11-27",
+    "zh": "锻生烈焰之核",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GolemFireSpectre"
+    ]
+  },
+  "Wrought Stormcore": {
+    "source": "https://poedb.tw/cn/Wrought_Stormcore",
+    "english_source": "https://poedb.tw/us/Wrought_Stormcore",
+    "retrieved": "2026-11-27",
+    "zh": "锻生风暴之核",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GolemLightningSpectre"
+    ]
+  },
+  "Wrought Voidcore": {
+    "source": "https://poedb.tw/cn/Wrought_Voidcore",
+    "english_source": "https://poedb.tw/us/Wrought_Voidcore",
+    "retrieved": "2026-11-27",
+    "zh": "锻生虚空之核",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GolemChaosSpectre"
+    ]
+  },
+  "Wrought Wintercore": {
+    "source": "https://poedb.tw/cn/Wrought_Wintercore",
+    "english_source": "https://poedb.tw/us/Wrought_Wintercore",
+    "retrieved": "2026-11-27",
+    "zh": "锻生寒冬之核",
+    "status": "paired-poedb-monster-variant-id-card",
+    "matched_ids": [
+      "GolemColdSpectre"
+    ]
+  }
+}

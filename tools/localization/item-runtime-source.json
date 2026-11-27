@@ -13343,6 +13343,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Constriction",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Controlled Blaze",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -13395,7 +13399,19 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Destitution",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Devour",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Diminishment",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Disempower",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -13436,6 +13452,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (1-10) Elemental Proliferation",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Encumbrance",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -13583,6 +13603,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Impotence",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Increased Area of Effect",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -13651,6 +13675,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Lethargy",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Life Gain on Hit",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -13696,6 +13724,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (1-10) Meat Shield",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Mediocrity",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -13755,6 +13787,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Nullification",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Overcharge",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -13775,6 +13811,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (1-10) Penance",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (1-10) Physical to Lightning",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -13788,6 +13828,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (1-10) Point Blank",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Poverty",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -13888,6 +13932,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (1-10) Swiftbrand",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (1-10) Taxation",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -14155,6 +14203,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Constriction",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Controlled Blaze",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -14207,7 +14259,19 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Destitution",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Devour",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (25-35) Diminishment",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (25-35) Disempower",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -14248,6 +14312,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (25-35) Elemental Proliferation",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (25-35) Encumbrance",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -14395,6 +14463,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Impotence",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Increased Area of Effect",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -14463,6 +14535,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Lethargy",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Life Gain on Hit",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -14508,6 +14584,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (25-35) Meat Shield",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (25-35) Mediocrity",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -14567,6 +14647,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Nullification",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Overcharge",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -14587,6 +14671,10 @@
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
+    "english":"Socketed Gems are Supported by Level (25-35) Penance",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
     "english":"Socketed Gems are Supported by Level (25-35) Physical to Lightning",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
@@ -14600,6 +14688,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (25-35) Point Blank",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (25-35) Poverty",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -14700,6 +14792,10 @@
     "source":"Data/Uniques/Special/Generated.lua"
   },{
     "english":"Socketed Gems are Supported by Level (25-35) Swiftbrand",
+    "kind":"unique-stat",
+    "source":"Data/Uniques/Special/Generated.lua"
+  },{
+    "english":"Socketed Gems are Supported by Level (25-35) Taxation",
     "kind":"unique-stat",
     "source":"Data/Uniques/Special/Generated.lua"
   },{
@@ -21751,10 +21847,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+100 Phys Max Hit (+166.7%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+100 Strength Requirement",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -21799,7 +21891,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+101 Fire Max Hit (+273.0%)",
+    "english":"+11 Effective Hit Pool (+29.2%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -21831,19 +21923,15 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+127 Cold Max Hit (+343.2%)",
+    "english":"+126 Cold Max Hit (+340.5%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+127 Elemental Max Hit (+343.2%)",
+    "english":"+126 Elemental Max Hit (+340.5%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+127 Lightning Max Hit (+343.2%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+13 Effective Hit Pool (+33.4%)",
+    "english":"+126 Lightning Max Hit (+340.5%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -21875,6 +21963,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+150 Effective Hit Pool (+391.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+1500 Armour while stationary",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -21887,15 +21979,15 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+151 Effective Hit Pool (+395.0%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+154 Intelligence Required",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+160 Dexterity Requirement",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+18 Fire Max Hit (+48.6%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -21919,7 +22011,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+193 Fire Max Hit (+521.6%)",
+    "english":"+191 Fire Max Hit (+516.2%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -21928,6 +22020,22 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+2 Accuracy Rating per 2 Intelligence",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+2 Chaos Max Hit (+5.3%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+2 Cold Max Hit (+5.4%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+2 Elemental Max Hit (+5.4%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+2 Lightning Max Hit (+5.4%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22055,10 +22163,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+20 Fire Max Hit (+54.1%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+20 to Dexterity",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -22147,7 +22251,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+207 Phys Max Hit (+345.0%)",
+    "english":"+205 Phys Max Hit (+341.7%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22224,22 +22328,6 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+278 Armour",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+3 Chaos Max Hit (+7.9%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+3 Cold Max Hit (+8.1%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+3 Elemental Max Hit (+8.1%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+3 Lightning Max Hit (+8.1%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22431,6 +22519,18 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+39 Phys Max Hit (+65.0%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+4 Phys Max Hit (+6.7%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+4 Total Life (+6.7%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+4 to Level of Socketed Herald Gems",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -22500,10 +22600,6 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+400 to Accuracy Rating",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+41 Phys Max Hit (+68.3%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22667,19 +22763,15 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+6 Phys Max Hit (+10.0%)",
+    "english":"+6 Effective Hit Pool (+14.6%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+6 Total Life (+10.0%)",
+    "english":"+6 Effective Hit Pool (+15.1%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+6 to Maximum Life per Elder Item Equipped",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+6 to maximum Life",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22696,6 +22788,18 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"+6.5% Crit Chance",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+60 Cold Max Hit (+162.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+60 Elemental Max Hit (+162.2%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+60 Lightning Max Hit (+162.2%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22719,26 +22823,6 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+61 Cold Max Hit (+164.9%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+61 Elemental Max Hit (+164.9%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+61 Lightning Max Hit (+164.9%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+7 Effective Hit Pool (+18.3%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
-    "english":"+7 Effective Hit Pool (+18.9%)",
-    "kind":"unique-tooltip",
-    "source":"runtime uniqueDB tooltip"
-  },{
     "english":"+7% Crit Chance",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -22755,7 +22839,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"+74 Effective Hit Pool (+194.7%)",
+    "english":"+73 Effective Hit Pool (+191.0%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -22783,7 +22867,15 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"+98 Phys Max Hit (+163.3%)",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"+98 Strength Required",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"+99 Fire Max Hit (+267.6%)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -25976,6 +26068,10 @@
     "source":"runtime uniqueDB tooltip"
   },{
     "english":"60% reduced Mana Regeneration Rate",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
+    "english":"7% increased maximum Life",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
@@ -35703,6 +35799,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"Grants Level 10 Purity of Elements",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"Grants Level 12 Summon Stone Golem",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -44963,6 +45063,10 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
+    "english":"Socketed Gems are Supported by Level 1 Earthbreaker Support",
+    "kind":"unique-tooltip",
+    "source":"runtime uniqueDB tooltip"
+  },{
     "english":"Socketed Gems are Supported by Level 1 Greater Spell Echo Support",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
@@ -49131,7 +49235,7 @@
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{
-    "english":"Variant: Withering Touch (High Level) (406 variants)",
+    "english":"Variant: Withering Touch (High Level) (430 variants)",
     "kind":"unique-tooltip",
     "source":"runtime uniqueDB tooltip"
   },{

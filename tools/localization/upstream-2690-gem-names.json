@@ -1,0 +1,132 @@
+{
+  "Encumbrance": {
+    "zh": "负重（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Encumbrance_Support",
+    "english_source": "https://poedb.tw/us/Encumbrance_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Encumbrance_Support"
+    ]
+  },
+  "Constriction": {
+    "zh": "束缚（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Constriction_Support",
+    "english_source": "https://poedb.tw/us/Constriction_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Constriction_Support"
+    ]
+  },
+  "Taxation": {
+    "zh": "压榨（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Taxation_Support",
+    "english_source": "https://poedb.tw/us/Taxation_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Taxation_Support"
+    ]
+  },
+  "Diminishment": {
+    "zh": "衰减（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Diminishment_Support",
+    "english_source": "https://poedb.tw/us/Diminishment_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Diminishment_Support"
+    ]
+  },
+  "Disempower": {
+    "zh": "失能（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Disempower_Support",
+    "english_source": "https://poedb.tw/us/Disempower_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Disempower_Support"
+    ]
+  },
+  "Lethargy": {
+    "zh": "昏沉（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Lethargy_Support",
+    "english_source": "https://poedb.tw/us/Lethargy_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Lethargy_Support"
+    ]
+  },
+  "Penance": {
+    "zh": "苦修（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Penance_Support",
+    "english_source": "https://poedb.tw/us/Penance_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Penance_Support"
+    ]
+  },
+  "Nullification": {
+    "zh": "抵消（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Nullification_Support",
+    "english_source": "https://poedb.tw/us/Nullification_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Nullification_Support"
+    ]
+  },
+  "Mediocrity": {
+    "zh": "凡庸（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Mediocrity_Support",
+    "english_source": "https://poedb.tw/us/Mediocrity_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Mediocrity_Support"
+    ]
+  },
+  "Impotence": {
+    "zh": "无能（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Impotence_Support",
+    "english_source": "https://poedb.tw/us/Impotence_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Impotence_Support"
+    ]
+  },
+  "Destitution": {
+    "zh": "匮乏（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Destitution_Support",
+    "english_source": "https://poedb.tw/us/Destitution_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Destitution_Support"
+    ]
+  },
+  "Poverty": {
+    "zh": "贫困（辅）",
+    "status": "paired-poedb-support-gem-card",
+    "source": "https://poedb.tw/cn/Poverty_Support",
+    "english_source": "https://poedb.tw/us/Poverty_Support",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Poverty_Support"
+    ]
+  },
+  "Fireball of Radiation": {
+    "zh": "辐射之火球",
+    "status": "paired-poedb-gem-card",
+    "english_source": "https://poedb.tw/us/Fireball_of_Radiation",
+    "source": "https://poedb.tw/cn/Fireball_of_Radiation",
+    "retrieved": "2026-11-27",
+    "matched_ids": [
+      "Fireball_of_Radiation"
+    ]
+  }
+}

@@ -65,6 +65,7 @@ function ItemSlotClass:ItemSlotControl(anchor, x, y, itemsTab, slotName, slotLab
 		end
 	end
 	self.label = slotLabel or slotName
+	self.hideSelDetail = true
 	self.nodeId = nodeId
 	return self
 end
@@ -97,7 +98,7 @@ function ItemSlotClass:Populate()
 		if self.itemsTab:IsItemValidForSlot(item, self.slotName) then
 			if Localization then Localization:RegisterItemName(item) end
 			t_insert(self.items, item.id)
-			t_insert(self.list, colorCodes[item.rarity]..item.name)
+			t_insert(self.list, { label = colorCodes[item.rarity]..item.name })
 			if item.id == self.selItemId then
 				self.selIndex = #self.list
 			end
@@ -119,6 +120,20 @@ function ItemSlotClass:Populate()
 			-- this can be inconvenient, but otherwise it is possible to double
 			-- equip jewels by moving the jewel while the socket is inactive
 			abyssalSocket:SetSelItemId(0)
+		end
+	end
+end
+
+function ItemSlotClass:UpdateEquippedDetails()
+	local equipped = { }
+	for _, slot in ipairs(self.itemsTab.orderedSlots) do
+		if not slot.inactive then
+			equipped[slot.selItemId] = true
+		end
+	end
+	for index, entry in ipairs(self.list) do
+		if type(entry) == "table" then
+			entry.detail = equipped[self.items[index]] and "^8(equipped)" or nil
 		end
 	end
 end
@@ -169,7 +184,11 @@ function ItemSlotClass:OnKeyDown(key)
 	if mOverControl and mOverControl == self.controls.activate then
 		return mOverControl:OnKeyDown(key)
 	end
-	return self.DropDownControl:OnKeyDown(key)
+	local ret = self.DropDownControl:OnKeyDown(key)
+	if self.dropped then
+		self:UpdateEquippedDetails()
+	end
+	return ret
 end
 
 function ItemSlotClass:OnHoverKeyUp(key)
